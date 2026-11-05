@@ -178,6 +178,9 @@ slot0.initNotificationHandleDic = function(slot0)
 			if not getProxy(ShopsProxy):IsSkinTypeCharge(slot1:getBody().shopId) then
 				slot0.viewComponent:closeView()
 			end
+		end,
+		[GAME.OPEN_SKIN_COUPON_MULTI_MSG_BOX] = function (slot0, slot1)
+			slot0.viewComponent:OnOpenSkinCouponMultiMsgBox(slot1:getBody())
 		end
 	}
 end

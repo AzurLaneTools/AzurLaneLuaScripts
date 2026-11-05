@@ -458,6 +458,7 @@ slot0.OnDisable = function(slot0)
 end
 
 slot0.OnDispose = function(slot0)
+	slot0:OnDisable()
 	uv0.super.OnDispose(slot0)
 	ClearLScrollrect(slot0.scrollrect)
 	slot0.chatView:Dispose()

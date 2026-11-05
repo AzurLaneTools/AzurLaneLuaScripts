@@ -33,6 +33,7 @@ slot0.Ctor = function(slot0, slot1)
 	slot0.agoraAgency = IslandAgoraAgency.New(slot0, slot1)
 	slot0.manageAgency = IslandManageAgecny.New(slot0, slot1)
 	slot0.cheaterTavernAgency = IslandCheaterTavernAgency.New(slot0)
+	slot0.interactSyncAgency = IslandInteractSyncAgency.New(slot0)
 	slot0.mapID = pg.island_set.initial_scene.key_value_int
 	slot0.lastExitPosition = {
 		mapId = 0,
@@ -103,6 +104,10 @@ end
 
 slot0.GetWildCollectAgency = function(slot0)
 	return slot0.gatherCollectAgency
+end
+
+slot0.GetInteractSyncAgency = function(slot0)
+	return slot0.interactSyncAgency
 end
 
 slot0.GetBuildingAgency = function(slot0)

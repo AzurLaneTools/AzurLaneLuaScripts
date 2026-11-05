@@ -3448,4 +3448,9 @@ end)()
 		special_bgm = "",
 		bgm = "story-richang"
 	}
+	pg.base.voice_bgm.BayardTecCatchupPage = {
+		default_bgm = "theme-designshipVI",
+		special_bgm = "",
+		bgm = "theme-designshipVI"
+	}
 end)()

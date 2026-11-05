@@ -11,19 +11,24 @@ pg.island_skin_template.all = {
 	1990301,
 	2012101,
 	2021201,
+	2060201,
 	2060301,
 	2990301,
 	3031101,
 	3031201,
 	3040701,
+	3050501,
 	3120101,
 	4030301,
 	4990201,
+	4990501,
 	4990601,
 	5010701,
 	5010801,
 	5020101,
 	5060101,
+	5060201,
+	7011101,
 	9010701,
 	96000101,
 	99000201,
@@ -58,6 +63,9 @@ pg.island_skin_template.get_id_list_by_ship_group = {
 	[20212] = {
 		2021201
 	},
+	[20602] = {
+		2060201
+	},
 	[20603] = {
 		2060301
 	},
@@ -73,6 +81,9 @@ pg.island_skin_template.get_id_list_by_ship_group = {
 	[30407] = {
 		3040701
 	},
+	[30505] = {
+		3050501
+	},
 	[31201] = {
 		3120101
 	},
@@ -81,6 +92,9 @@ pg.island_skin_template.get_id_list_by_ship_group = {
 	},
 	[49902] = {
 		4990201
+	},
+	[49905] = {
+		4990501
 	},
 	[49906] = {
 		4990601
@@ -96,6 +110,12 @@ pg.island_skin_template.get_id_list_by_ship_group = {
 	},
 	[50601] = {
 		5060101
+	},
+	[50602] = {
+		5060201
+	},
+	[70111] = {
+		7011101
 	},
 	[90107] = {
 		9010701
@@ -232,6 +252,20 @@ pg.base.island_skin_template = {}
 		icon = "skin_2021201",
 		icon_normal = ""
 	}
+	pg.base.island_skin_template[2060201] = {
+		ship_group = 20602,
+		name = "早朝のペース",
+		jump_page = "",
+		tech_id = 0,
+		tag = "",
+		shop_id = 0,
+		desc = "少しひんやりとした朝の風の中で、少女はリズムを整え、今日という一日をゆっくり始めようとしている",
+		shop_goods_id = 0,
+		model = 2060201,
+		id = 2060201,
+		icon = "skin_2060201",
+		icon_normal = ""
+	}
 	pg.base.island_skin_template[2060301] = {
 		ship_group = 20603,
 		name = "憧れの星光",
@@ -302,6 +336,20 @@ pg.base.island_skin_template = {}
 		icon_normal = "props/skin_3040701",
 		jump_page = {}
 	}
+	pg.base.island_skin_template[3050501] = {
+		ship_group = 30505,
+		name = "支度のひととき",
+		jump_page = "",
+		tech_id = 0,
+		tag = "",
+		shop_id = 0,
+		desc = "ほんのちょっとだけの支度でも真剣に。旅立ちは全て大切に心に刻むべきものだと伝えたいかのように",
+		shop_goods_id = 0,
+		model = 3050501,
+		id = 3050501,
+		icon = "skin_3050501",
+		icon_normal = ""
+	}
 	pg.base.island_skin_template[3120101] = {
 		ship_group = 31201,
 		name = "夜の鈴音",
@@ -342,6 +390,20 @@ pg.base.island_skin_template = {}
 		model = 4990201,
 		id = 4990201,
 		icon = "skin_4990201",
+		icon_normal = ""
+	}
+	pg.base.island_skin_template[4990501] = {
+		ship_group = 49905,
+		name = "必勝ステップ",
+		jump_page = "",
+		tech_id = 0,
+		tag = "",
+		shop_id = 0,
+		desc = "体によくフィットするスポーツウェアが、纏うオーラをより鋭く見せる。何気ない一歩にも、周りに無視できないプレッシャーを与える",
+		shop_goods_id = 0,
+		model = 4990501,
+		id = 4990501,
+		icon = "skin_4990501",
 		icon_normal = ""
 	}
 	pg.base.island_skin_template[4990601] = {
@@ -412,6 +474,34 @@ pg.base.island_skin_template = {}
 		model = 5060101,
 		id = 5060101,
 		icon = "skin_5060101",
+		icon_normal = ""
+	}
+	pg.base.island_skin_template[5060201] = {
+		ship_group = 50602,
+		name = "軽やかなリズム",
+		jump_page = "",
+		tech_id = 0,
+		tag = "",
+		shop_id = 0,
+		desc = "呼吸とともにリズムが弾む。動きに余裕がにじみ、ほんの一瞬の静止さえちょうどいい",
+		shop_goods_id = 0,
+		model = 5060201,
+		id = 5060201,
+		icon = "skin_5060201",
+		icon_normal = ""
+	}
+	pg.base.island_skin_template[7011101] = {
+		ship_group = 70111,
+		name = "元気エントリー",
+		jump_page = "",
+		tech_id = 0,
+		tag = "",
+		shop_id = 0,
+		desc = "ひと足先に風が駆け抜けていく。カウントダウンが終わるより早く、ワクワクはもうスタートラインを飛び出していた――",
+		shop_goods_id = 0,
+		model = 7011101,
+		id = 7011101,
+		icon = "skin_7011101",
 		icon_normal = ""
 	}
 	pg.base.island_skin_template[9010701] = {

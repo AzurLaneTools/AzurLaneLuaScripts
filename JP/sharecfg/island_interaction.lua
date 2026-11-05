@@ -10,6 +10,7 @@ pg.island_interaction.all = {
 	201,
 	301,
 	401,
+	402,
 	501,
 	701,
 	801,
@@ -353,6 +354,25 @@ pg.island_interaction.all = {
 	5880,
 	5881,
 	5882,
+	5883,
+	5884,
+	5885,
+	5886,
+	5887,
+	5888,
+	5889,
+	5890,
+	5891,
+	5892,
+	5893,
+	5894,
+	5895,
+	5896,
+	5897,
+	5898,
+	5899,
+	5900,
+	58000,
 	5901,
 	5902,
 	6001,
@@ -432,7 +452,8 @@ pg.island_interaction.get_id_list_by_groupId = {
 		301
 	},
 	{
-		401
+		401,
+		402
 	},
 	{
 		501
@@ -878,7 +899,26 @@ pg.island_interaction.get_id_list_by_groupId = {
 		5879,
 		5880,
 		5881,
-		5882
+		5882,
+		5883,
+		5884,
+		5885,
+		5886,
+		5887,
+		5888,
+		5889,
+		5890,
+		5891,
+		5892,
+		5893,
+		5894,
+		5895,
+		5896,
+		5897,
+		5898,
+		5899,
+		5900,
+		58000
 	},
 	[59] = {
 		5901,
@@ -1070,6 +1110,21 @@ pg.base.island_interaction = {}
 		icon = 5,
 		param = "1",
 		show_condition = {}
+	}
+	pg.base.island_interaction[402] = {
+		text = "キャラとインタラクトする",
+		groupId = 4,
+		only_self = 1,
+		type = 25,
+		id = 402,
+		icon = 5,
+		param = "",
+		show_condition = {
+			{
+				15,
+				0
+			}
+		}
 	}
 	pg.base.island_interaction[501] = {
 		text = "インタラクトを取り消す",
@@ -2427,6 +2482,8 @@ pg.base.island_interaction = {}
 			}
 		}
 	}
+end)()
+(function ()
 	pg.base.island_interaction[2105] = {
 		text = "明石",
 		groupId = 21,
@@ -2442,8 +2499,6 @@ pg.base.island_interaction = {}
 			}
 		}
 	}
-end)()
-(function ()
 	pg.base.island_interaction[2201] = {
 		text = "これで大丈夫？",
 		groupId = 22,
@@ -3944,6 +3999,8 @@ end)()
 			}
 		}
 	}
+end)()
+(function ()
 	pg.base.island_interaction[4501] = {
 		text = "会話",
 		groupId = 45,
@@ -3954,8 +4011,6 @@ end)()
 		param = "ISLANDTALK10081",
 		show_condition = {}
 	}
-end)()
-(function ()
 	pg.base.island_interaction[4502] = {
 		text = "アムマーマー……",
 		groupId = 45,
@@ -5560,6 +5615,8 @@ end)()
 			}
 		}
 	}
+end)()
+(function ()
 	pg.base.island_interaction[5833] = {
 		text = "春の土産採集（7/7）",
 		groupId = 58,
@@ -5579,8 +5636,6 @@ end)()
 			}
 		}
 	}
-end)()
-(function ()
 	pg.base.island_interaction[5834] = {
 		text = "春の特産品制作（1/7）",
 		groupId = 58,
@@ -6472,6 +6527,351 @@ end)()
 			}
 		}
 	}
+	pg.base.island_interaction[5883] = {
+		text = "冬の土産採集（1/7）",
+		groupId = 58,
+		only_self = 0,
+		type = 12,
+		id = 5883,
+		icon = 12,
+		param = "50001029",
+		show_condition = {
+			{
+				3,
+				50001029
+			}
+		}
+	}
+	pg.base.island_interaction[5884] = {
+		text = "冬の土産採集（2/7）",
+		groupId = 58,
+		only_self = 0,
+		type = 12,
+		id = 5884,
+		icon = 12,
+		param = "50001030",
+		show_condition = {
+			{
+				3,
+				50001030
+			},
+			{
+				4,
+				50001029
+			}
+		}
+	}
+	pg.base.island_interaction[5885] = {
+		text = "冬の土産採集（3/7）",
+		groupId = 58,
+		only_self = 0,
+		type = 12,
+		id = 5885,
+		icon = 12,
+		param = "50001031",
+		show_condition = {
+			{
+				3,
+				50001031
+			},
+			{
+				4,
+				50001030
+			}
+		}
+	}
+	pg.base.island_interaction[5886] = {
+		text = "冬の土産採集（4/7）",
+		groupId = 58,
+		only_self = 0,
+		type = 12,
+		id = 5886,
+		icon = 12,
+		param = "50001032",
+		show_condition = {
+			{
+				3,
+				50001032
+			},
+			{
+				4,
+				50001031
+			}
+		}
+	}
+	pg.base.island_interaction[5887] = {
+		text = "冬の土産採集（5/7）",
+		groupId = 58,
+		only_self = 0,
+		type = 12,
+		id = 5887,
+		icon = 12,
+		param = "50001033",
+		show_condition = {
+			{
+				3,
+				50001033
+			},
+			{
+				4,
+				50001032
+			}
+		}
+	}
+	pg.base.island_interaction[5888] = {
+		text = "冬の土産採集（6/7）",
+		groupId = 58,
+		only_self = 0,
+		type = 12,
+		id = 5888,
+		icon = 12,
+		param = "50001034",
+		show_condition = {
+			{
+				3,
+				50001034
+			},
+			{
+				4,
+				50001033
+			}
+		}
+	}
+	pg.base.island_interaction[5889] = {
+		text = "冬の土産採集（7/7）",
+		groupId = 58,
+		only_self = 0,
+		type = 12,
+		id = 5889,
+		icon = 12,
+		param = "50001035",
+		show_condition = {
+			{
+				3,
+				50001035
+			},
+			{
+				4,
+				50001034
+			}
+		}
+	}
+	pg.base.island_interaction[5890] = {
+		text = "冬の特産品制作（1/7）",
+		groupId = 58,
+		only_self = 0,
+		type = 12,
+		id = 5890,
+		icon = 12,
+		param = "50002029",
+		show_condition = {
+			{
+				3,
+				50002029
+			}
+		}
+	}
+	pg.base.island_interaction[5891] = {
+		text = "冬の特産品制作（2/7）",
+		groupId = 58,
+		only_self = 0,
+		type = 12,
+		id = 5891,
+		icon = 12,
+		param = "50002030",
+		show_condition = {
+			{
+				3,
+				50002030
+			},
+			{
+				4,
+				50002029
+			}
+		}
+	}
+	pg.base.island_interaction[5892] = {
+		text = "冬の特産品制作（3/7）",
+		groupId = 58,
+		only_self = 0,
+		type = 12,
+		id = 5892,
+		icon = 12,
+		param = "50002031",
+		show_condition = {
+			{
+				3,
+				50002031
+			},
+			{
+				4,
+				50002030
+			}
+		}
+	}
+	pg.base.island_interaction[5893] = {
+		text = "冬の特産品制作（4/7）",
+		groupId = 58,
+		only_self = 0,
+		type = 12,
+		id = 5893,
+		icon = 12,
+		param = "50002032",
+		show_condition = {
+			{
+				3,
+				50002032
+			},
+			{
+				4,
+				50002031
+			}
+		}
+	}
+	pg.base.island_interaction[5894] = {
+		text = "冬の特産品制作（5/7）",
+		groupId = 58,
+		only_self = 0,
+		type = 12,
+		id = 5894,
+		icon = 12,
+		param = "50002033",
+		show_condition = {
+			{
+				3,
+				50002033
+			},
+			{
+				4,
+				50002032
+			}
+		}
+	}
+	pg.base.island_interaction[5895] = {
+		text = "冬の特産品制作（6/7）",
+		groupId = 58,
+		only_self = 0,
+		type = 12,
+		id = 5895,
+		icon = 12,
+		param = "50002034",
+		show_condition = {
+			{
+				3,
+				50002034
+			},
+			{
+				4,
+				50002033
+			}
+		}
+	}
+	pg.base.island_interaction[5896] = {
+		text = "冬の特産品制作（7/7）",
+		groupId = 58,
+		only_self = 0,
+		type = 12,
+		id = 5896,
+		icon = 12,
+		param = "50002035",
+		show_condition = {
+			{
+				3,
+				50002035
+			},
+			{
+				4,
+				50002034
+			}
+		}
+	}
+	pg.base.island_interaction[5897] = {
+		text = "冬の特産依頼（1/4）",
+		groupId = 58,
+		only_self = 0,
+		type = 12,
+		id = 5897,
+		icon = 12,
+		param = "50003017",
+		show_condition = {
+			{
+				3,
+				50003017
+			}
+		}
+	}
+	pg.base.island_interaction[5898] = {
+		text = "冬の特産依頼（2/4）",
+		groupId = 58,
+		only_self = 0,
+		type = 12,
+		id = 5898,
+		icon = 12,
+		param = "50003018",
+		show_condition = {
+			{
+				3,
+				50003018
+			},
+			{
+				4,
+				50003017
+			}
+		}
+	}
+	pg.base.island_interaction[5899] = {
+		text = "冬の特産依頼（3/4）",
+		groupId = 58,
+		only_self = 0,
+		type = 12,
+		id = 5899,
+		icon = 12,
+		param = "50003019",
+		show_condition = {
+			{
+				3,
+				50003019
+			},
+			{
+				4,
+				50003018
+			}
+		}
+	}
+	pg.base.island_interaction[5900] = {
+		text = "冬の特産依頼（4/4）",
+		groupId = 58,
+		only_self = 0,
+		type = 12,
+		id = 5900,
+		icon = 12,
+		param = "50003020",
+		show_condition = {
+			{
+				3,
+				50003020
+			},
+			{
+				4,
+				50003019
+			}
+		}
+	}
+	pg.base.island_interaction[58000] = {
+		text = "ピアリ？",
+		groupId = 58,
+		only_self = 0,
+		type = 1,
+		id = 58000,
+		icon = 9,
+		param = "ISLANDSIDE01611",
+		show_condition = {
+			{
+				2,
+				50000005
+			}
+		}
+	}
 	pg.base.island_interaction[5901] = {
 		text = "またどんな悪だくみを？",
 		groupId = 59,
@@ -6967,6 +7367,8 @@ end)()
 			}
 		}
 	}
+end)()
+(function ()
 	pg.base.island_interaction[7009] = {
 		text = "これで音がしなくなったかな？",
 		groupId = 70,
@@ -7271,8 +7673,6 @@ end)()
 			}
 		}
 	}
-end)()
-(function ()
 	pg.base.island_interaction[7903] = {
 		text = "これがお宝？",
 		groupId = 79,

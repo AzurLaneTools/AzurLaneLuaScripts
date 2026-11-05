@@ -412,6 +412,7 @@ pg.memory_group.all = {
 	625,
 	626,
 	627,
+	628,
 	1000,
 	1001,
 	1002,
@@ -575,7 +576,8 @@ pg.base.memory_group = {}
 			4583,
 			5371,
 			5372,
-			5373
+			5373,
+			5601
 		}
 	}
 	pg.base.memory_group[99] = {
@@ -10500,6 +10502,28 @@ end)()
 			5495,
 			5496,
 			5497
+		},
+		group_id = {
+			10000
+		}
+	}
+	pg.base.memory_group[628] = {
+		ship_group = 89902,
+		icon = "title_chara_xiangbin",
+		type = 3,
+		link_event = 0,
+		title = "今、即ち永遠なり",
+		auto_unlock = "",
+		subtype = 0,
+		id = 628,
+		memories = {
+			5611,
+			5612,
+			5613,
+			5614,
+			5615,
+			5616,
+			5617
 		},
 		group_id = {
 			10000

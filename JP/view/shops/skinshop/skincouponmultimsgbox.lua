@@ -35,6 +35,13 @@ slot0.OnLoaded = function(slot0)
 
 	setText(slot0._tf:Find("window/frame/option/nonuse/Text"), i18n("skin_shop_nonuse_label"))
 	setText(slot0._tf:Find("window/frame/option/use/Text"), i18n("skin_shop_use_label"))
+
+	slot0.uiTipBar2 = slot0._tf:Find("window/frame/tipBar2")
+
+	setText(slot0.uiTipBar2:Find("Text"), i18n("shop_new_only_use_one_coupon"))
+	setActive(slot0.uiTipBar2, false)
+	setActive(slot0.tipBar, false)
+	setActive(slot0.nonUseBtn, false)
 end
 
 slot0.RegisterBtn = function(slot0, slot1)
@@ -57,7 +64,11 @@ slot0.RegisterBtn = function(slot0, slot1)
 		uv1:Hide()
 	end, SFX_PANEL)
 	onButton(slot0, slot0.switchBtn, function ()
-		uv0:UpdateStyle(1 - uv0.style)
+		if SkinCouponActivity.GetSkinCouponTotalCnt(uv0.commodityID) <= 1 then
+			return
+		end
+
+		uv1:UpdateStyle(1 - uv1.style)
 	end, SFX_PANEL)
 	onButton(slot0, slot0.confirmBtn, function ()
 		uv0:UpdateStyle(1 - uv0.style)
@@ -114,27 +125,37 @@ end
 
 slot0.UpdateItem = function(slot0, slot1)
 	slot0.itemTrs = {}
+	slot2 = {}
 	slot4 = slot0._tf
 	slot5 = slot0._tf
 
-	UIItemList.StaticAlign(slot4:Find("window/frame/scrollrect/list"), slot5:Find("window/frame/left"), #slot1.itemList, function (slot0, slot1, slot2)
+	UIItemList.StaticAlign(slot4:Find("window/frame/scrollrect/list"), slot5:Find("window/frame/left"), #slot1.itemList + #slot1.unuseItemList, function (slot0, slot1, slot2)
 		if slot0 == UIItemList.EventUpdate then
-			uv0:FlushItem(uv1[slot1 + 1], slot2)
+			if slot1 + 1 <= #uv0.itemList then
+				uv1:FlushItem(uv0.itemList[slot1 + 1], slot2, true)
+			else
+				uv1:FlushItem(uv0.unuseItemList[slot1 + 1 - #uv0.itemList], slot2, false)
+			end
 		end
 	end)
 end
 
-slot0.FlushItem = function(slot0, slot1, slot2)
+slot0.FlushItem = function(slot0, slot1, slot2, slot3)
 	updateDrop(slot2, slot1.drop)
+	setScrollText(slot2:Find("name_bg/Text"), slot1.drop:getName())
 
-	slot5 = slot1.drop
-
-	setText(slot2:Find("name_bg/Text"), slot5:getName())
-	onToggle(slot0, slot2, function (slot0)
-		if slot0 then
-			uv0.selectedItem = uv1
-		end
-	end, SFX_PANEL)
+	if slot3 then
+		setActive(slot2:Find("lock"), false)
+		onToggle(slot0, slot2, function (slot0)
+			if slot0 then
+				uv0.selectedItem = uv1
+			end
+		end, SFX_PANEL)
+		setToggleEnabled(slot2, true)
+	else
+		setToggleEnabled(slot2, false)
+		setActive(slot2:Find("lock"), true)
+	end
 
 	slot0.itemTrs[slot1] = slot2
 end
@@ -163,6 +184,7 @@ slot0.UpdateStyle = function(slot0, slot1)
 	setActive(slot0.discountPriceBtn, slot1 == uv0 and slot0.prevSelected)
 	setActive(slot0.confirmBtn, slot1 == uv1)
 	setActive(slot0.scrollrect, slot1 == uv1)
+	setActive(slot0.uiTipBar2, slot1 == uv1)
 	triggerToggle(slot0.itemTrs[slot0:GetDefaultItem()], true)
 
 	slot0.style = slot1
@@ -195,8 +217,6 @@ slot0.SetTipText = function(slot0, slot1)
 			end
 		end
 	end
-
-	setActive(slot0.tipBar, slot5)
 
 	if slot5 then
 		slot6 = ""

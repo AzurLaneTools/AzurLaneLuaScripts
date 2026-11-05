@@ -2063,14 +2063,23 @@ pg.base.ship_data_blueprint = {}
 		price = 6000,
 		is_pursuing = 1,
 		simulate_dungeon = 9920,
-		luck_story = "",
+		luck_story = "LUCK49905",
 		strengthen_item = 42033,
 		blueprint_version = 4,
 		id = 49905,
 		unlock_task_open_condition = {
 			60201
 		},
-		change_skill = {},
+		change_skill = {
+			{
+				19410,
+				18410
+			},
+			{
+				19430,
+				18430
+			}
+		},
 		unlock_task = {
 			{
 				60202,
@@ -2137,7 +2146,13 @@ pg.base.ship_data_blueprint = {}
 			2029,
 			2030
 		},
-		fate_strengthen = {},
+		fate_strengthen = {
+			2031,
+			2032,
+			2033,
+			2034,
+			2035
+		},
 		attr_exp = {
 			100,
 			100,

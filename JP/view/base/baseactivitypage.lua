@@ -12,6 +12,16 @@ slot0.getUIName = function(slot0)
 	return slot0._uiName
 end
 
+slot0.Init = function(slot0)
+	uv0.super.Init(slot0)
+
+	slot1, slot2, slot3 = slot0:GetBgParams()
+
+	if slot1 then
+		GetImageSpriteFromAtlasAsync(slot2, slot3, slot1)
+	end
+end
+
 slot0.Flush = function(slot0, slot1)
 	slot0.activity = slot1
 
@@ -101,6 +111,10 @@ end
 
 slot0.UseSecondPage = function(slot0, slot1)
 	return false
+end
+
+slot0.GetBgParams = function(slot0)
+	return nil, , 
 end
 
 return slot0

@@ -218,6 +218,20 @@ pg.island_item_data_template.all = {
 	4040,
 	4041,
 	4042,
+	4043,
+	4044,
+	4045,
+	4046,
+	4047,
+	4048,
+	4049,
+	4050,
+	4051,
+	4052,
+	4053,
+	4054,
+	4055,
+	4056,
 	5001,
 	5002,
 	5003,
@@ -300,6 +314,11 @@ pg.island_item_data_template.all = {
 	200032,
 	200033,
 	200034,
+	200035,
+	200036,
+	200037,
+	200038,
+	200039,
 	300001,
 	300002,
 	300003,
@@ -533,6 +552,20 @@ pg.island_item_data_template.get_id_list_by_usage = {
 		4040,
 		4041,
 		4042,
+		4043,
+		4044,
+		4045,
+		4046,
+		4047,
+		4048,
+		4049,
+		4050,
+		4051,
+		4052,
+		4053,
+		4054,
+		4055,
+		4056,
 		5001,
 		5002,
 		5003,
@@ -609,6 +642,11 @@ pg.island_item_data_template.get_id_list_by_usage = {
 		200032,
 		200033,
 		200034,
+		200035,
+		200036,
+		200037,
+		200038,
+		200039,
 		300001,
 		300002,
 		300003,
@@ -817,6 +855,20 @@ pg.island_item_data_template.get_id_list_by_type = {
 		4040,
 		4041,
 		4042,
+		4043,
+		4044,
+		4045,
+		4046,
+		4047,
+		4048,
+		4049,
+		4050,
+		4051,
+		4052,
+		4053,
+		4054,
+		4055,
+		4056,
 		5001,
 		5002,
 		5003,
@@ -900,6 +952,11 @@ pg.island_item_data_template.get_id_list_by_type = {
 		200032,
 		200033,
 		200034,
+		200035,
+		200036,
+		200037,
+		200038,
+		200039,
 		300001,
 		300002,
 		300003,
@@ -7357,7 +7414,8 @@ end)()
 		have_max = 0,
 		filter = {
 			10113,
-			10127
+			10127,
+			20000
 		},
 		sub_attribute = {
 			4,
@@ -7392,7 +7450,8 @@ end)()
 		have_max = 0,
 		filter = {
 			10113,
-			10127
+			10127,
+			20000
 		},
 		sub_attribute = {
 			5,
@@ -7497,7 +7556,8 @@ end)()
 		have_max = 0,
 		filter = {
 			10113,
-			10128
+			10128,
+			20000
 		},
 		sub_attribute = {
 			4,
@@ -7532,7 +7592,8 @@ end)()
 		have_max = 0,
 		filter = {
 			10113,
-			10128
+			10128,
+			20000
 		},
 		sub_attribute = {
 			3,
@@ -7841,7 +7902,8 @@ end)()
 		have_max = 0,
 		filter = {
 			10113,
-			10128
+			10128,
+			20000
 		},
 		sub_attribute = {
 			1,
@@ -7876,7 +7938,8 @@ end)()
 		have_max = 0,
 		filter = {
 			10113,
-			10128
+			10128,
+			20000
 		},
 		sub_attribute = {
 			6,
@@ -7911,7 +7974,8 @@ end)()
 		have_max = 0,
 		filter = {
 			10113,
-			10127
+			10127,
+			20000
 		},
 		sub_attribute = {
 			2,
@@ -7946,7 +8010,8 @@ end)()
 		have_max = 0,
 		filter = {
 			10113,
-			10127
+			10127,
+			20000
 		},
 		sub_attribute = {
 			2,
@@ -8503,6 +8568,488 @@ end)()
 		jump_page = {
 			{
 				"夏の特産依頼-手工製作設備",
+				{}
+			}
+		}
+	}
+	pg.base.island_item_data_template[4043] = {
+		name = "梅の花",
+		desc = "雪にも負けずに咲く梅の花。上品な色とほのかな香りは冬一番の景色",
+		type = 1,
+		manage_influence = 0,
+		pt_num = 72,
+		group_max = 0,
+		usage = "usage_undefined",
+		usage_arg = "[]",
+		drop_after_use = 0,
+		order_price = 1,
+		tech_id = 0,
+		icon = "IslandProps/item_4043",
+		price = 1,
+		icon_normal = "",
+		rarity = 3,
+		convert = 1,
+		resource_type = 1,
+		id = 4043,
+		have_max = 0,
+		filter = {
+			10111
+		},
+		sub_attribute = {},
+		jump_page = {
+			{
+				"冬の特産依頼-マップ採集",
+				{}
+			}
+		}
+	}
+	pg.base.island_item_data_template[4044] = {
+		name = "スイセン",
+		desc = "白く清らかなスイセンの花。すらりとした姿から、やさしく雅なる冬の香りが漂う",
+		type = 1,
+		manage_influence = 0,
+		pt_num = 1,
+		group_max = 0,
+		usage = "usage_undefined",
+		usage_arg = "[]",
+		drop_after_use = 0,
+		order_price = 1,
+		tech_id = 0,
+		icon = "IslandProps/item_4044",
+		price = 1,
+		icon_normal = "",
+		rarity = 1,
+		convert = 1,
+		resource_type = 1,
+		id = 4044,
+		have_max = 0,
+		filter = {
+			10111
+		},
+		sub_attribute = {},
+		jump_page = {
+			{
+				"冬の特産依頼-マップ採集",
+				{}
+			}
+		}
+	}
+	pg.base.island_item_data_template[4045] = {
+		name = "冬シイタケ",
+		desc = "肉厚で旨みたっぷりの冬シイタケ。香りが豊かで、スープや料理にぴったりの食材",
+		type = 1,
+		manage_influence = 0,
+		pt_num = 36,
+		group_max = 0,
+		usage = "usage_undefined",
+		usage_arg = "[]",
+		drop_after_use = 0,
+		order_price = 1,
+		tech_id = 0,
+		icon = "IslandProps/item_4045",
+		price = 1,
+		icon_normal = "",
+		rarity = 2,
+		convert = 1,
+		resource_type = 1,
+		id = 4045,
+		have_max = 0,
+		filter = {
+			10111
+		},
+		sub_attribute = {},
+		jump_page = {
+			{
+				"冬の特産依頼-マップ採集",
+				{}
+			}
+		}
+	}
+	pg.base.island_item_data_template[4046] = {
+		name = "クワイ",
+		desc = "ジューシーでシャキッと甘いクワイ。冬ならではの爽やかな味わい",
+		type = 1,
+		manage_influence = 0,
+		pt_num = 25,
+		group_max = 0,
+		usage = "usage_undefined",
+		usage_arg = "[]",
+		drop_after_use = 0,
+		order_price = 1,
+		tech_id = 0,
+		icon = "IslandProps/item_4046",
+		price = 1,
+		icon_normal = "",
+		rarity = 2,
+		convert = 1,
+		resource_type = 1,
+		id = 4046,
+		have_max = 0,
+		filter = {
+			10111
+		},
+		sub_attribute = {},
+		jump_page = {
+			{
+				"冬の特産依頼-マップ採集",
+				{}
+			}
+		}
+	}
+	pg.base.island_item_data_template[4047] = {
+		name = "砂糖みかん",
+		desc = "黄金色に輝く砂糖みかん。果肉はみずみずしく、皮をむけば甘い香りがいっぱいに広がる",
+		type = 1,
+		manage_influence = 0,
+		pt_num = 8,
+		group_max = 0,
+		usage = "usage_undefined",
+		usage_arg = "[]",
+		drop_after_use = 0,
+		order_price = 1,
+		tech_id = 0,
+		icon = "IslandProps/item_4047",
+		price = 1,
+		icon_normal = "",
+		rarity = 2,
+		convert = 1,
+		resource_type = 1,
+		id = 4047,
+		have_max = 0,
+		filter = {
+			10111,
+			10125
+		},
+		sub_attribute = {},
+		jump_page = {
+			{
+				"冬の特産依頼-薫る果樹園",
+				{}
+			}
+		}
+	}
+	pg.base.island_item_data_template[4048] = {
+		name = "砂糖みかんの種",
+		desc = "砂糖みかんの種。土に埋めれば、甘い実りへの期待がそっと生まれる",
+		type = 1,
+		manage_influence = 0,
+		pt_num = 1,
+		group_max = 0,
+		usage = "usage_undefined",
+		usage_arg = "[]",
+		drop_after_use = 0,
+		order_price = 1,
+		tech_id = 0,
+		icon = "IslandProps/item_4048",
+		price = 1,
+		icon_normal = "",
+		rarity = 1,
+		convert = 1,
+		resource_type = 1,
+		id = 4048,
+		have_max = 0,
+		filter = {
+			10114
+		},
+		sub_attribute = {},
+		jump_page = {
+			{
+				"冬の特産依頼-ショップ購入",
+				{
+					"IslandShopPage",
+					{
+						1,
+						2,
+						3,
+						4,
+						5
+					},
+					{
+						10025
+					}
+				}
+			}
+		}
+	}
+	pg.base.island_item_data_template[4049] = {
+		name = "青ナツメ",
+		desc = "青々と実ったナツメ。食感がシャキッと甘く、冬にうれしい旬の果物",
+		type = 1,
+		manage_influence = 0,
+		pt_num = 2,
+		group_max = 0,
+		usage = "usage_undefined",
+		usage_arg = "[]",
+		drop_after_use = 0,
+		order_price = 1,
+		tech_id = 0,
+		icon = "IslandProps/item_4049",
+		price = 1,
+		icon_normal = "",
+		rarity = 2,
+		convert = 1,
+		resource_type = 1,
+		id = 4049,
+		have_max = 0,
+		filter = {
+			10111,
+			10125
+		},
+		sub_attribute = {},
+		jump_page = {
+			{
+				"冬の特産依頼-薫る果樹園",
+				{}
+			}
+		}
+	}
+	pg.base.island_item_data_template[4050] = {
+		name = "青ナツメの種",
+		desc = "青ナツメの種。小さな一粒に生命力が詰まっていて、甘くシャキッとした実が育つ",
+		type = 1,
+		manage_influence = 0,
+		pt_num = 1,
+		group_max = 0,
+		usage = "usage_undefined",
+		usage_arg = "[]",
+		drop_after_use = 0,
+		order_price = 1,
+		tech_id = 0,
+		icon = "IslandProps/item_4050",
+		price = 1,
+		icon_normal = "",
+		rarity = 1,
+		convert = 1,
+		resource_type = 1,
+		id = 4050,
+		have_max = 0,
+		filter = {
+			10114
+		},
+		sub_attribute = {},
+		jump_page = {
+			{
+				"冬の特産依頼-ショップ購入",
+				{
+					"IslandShopPage",
+					{
+						1,
+						2,
+						3,
+						4,
+						5
+					},
+					{
+						10025
+					}
+				}
+			}
+		}
+	}
+	pg.base.island_item_data_template[4051] = {
+		name = "冬シイタケと鶏の煮込み",
+		desc = "冬シイタケと鶏肉をじっくり煮込んだ、香り豊かな一品。湯気が立ちのぼり、心も温まる",
+		type = 1,
+		manage_influence = 250,
+		pt_num = 80,
+		group_max = 0,
+		usage = "usage_undefined",
+		usage_arg = "[]",
+		drop_after_use = 0,
+		order_price = 1,
+		tech_id = 0,
+		icon = "IslandProps/item_4051",
+		price = 1,
+		icon_normal = "",
+		rarity = 2,
+		convert = 1,
+		resource_type = 1,
+		id = 4051,
+		have_max = 0,
+		filter = {
+			10113,
+			10127,
+			20000
+		},
+		sub_attribute = {
+			3,
+			35
+		},
+		jump_page = {
+			{
+				"冬の特産依頼-有魚飯店",
+				{}
+			}
+		}
+	}
+	pg.base.island_item_data_template[4052] = {
+		name = "青ナツメ入り粥",
+		desc = "とろりと甘い青ナツメのお粥。お米と果実の香りがやさしく溶け合い、まろやかな口当たり",
+		type = 1,
+		manage_influence = 250,
+		pt_num = 12,
+		group_max = 0,
+		usage = "usage_undefined",
+		usage_arg = "[]",
+		drop_after_use = 0,
+		order_price = 1,
+		tech_id = 0,
+		icon = "IslandProps/item_4052",
+		price = 1,
+		icon_normal = "",
+		rarity = 2,
+		convert = 1,
+		resource_type = 1,
+		id = 4052,
+		have_max = 0,
+		filter = {
+			10113,
+			10127,
+			20000
+		},
+		sub_attribute = {
+			1,
+			35
+		},
+		jump_page = {
+			{
+				"冬の特産依頼-有魚飯店",
+				{}
+			}
+		}
+	}
+	pg.base.island_item_data_template[4053] = {
+		name = "クワイケーキ",
+		desc = "透き通ったぷるぷるの馬蹄糕（マーティーガオ）。クワイのシャキッとした食感が楽しめる、風味豊かな伝統菓子",
+		type = 1,
+		manage_influence = 250,
+		pt_num = 60,
+		group_max = 0,
+		usage = "usage_undefined",
+		usage_arg = "[]",
+		drop_after_use = 0,
+		order_price = 1,
+		tech_id = 0,
+		icon = "IslandProps/item_4053",
+		price = 1,
+		icon_normal = "",
+		rarity = 2,
+		convert = 1,
+		resource_type = 1,
+		id = 4053,
+		have_max = 0,
+		filter = {
+			10113,
+			10129,
+			20000
+		},
+		sub_attribute = {
+			2,
+			35
+		},
+		jump_page = {
+			{
+				"冬の特産依頼-饅頭軽食",
+				{}
+			}
+		}
+	}
+	pg.base.island_item_data_template[4054] = {
+		name = "砂糖みかん大福",
+		desc = "もちもちの砂糖みかん大福。甘い果肉を丸ごと包んでいて、ひと口かじれば驚きの味がする",
+		type = 1,
+		manage_influence = 250,
+		pt_num = 38,
+		group_max = 0,
+		usage = "usage_undefined",
+		usage_arg = "[]",
+		drop_after_use = 0,
+		order_price = 1,
+		tech_id = 0,
+		icon = "IslandProps/item_4054",
+		price = 1,
+		icon_normal = "",
+		rarity = 3,
+		convert = 1,
+		resource_type = 1,
+		id = 4054,
+		have_max = 0,
+		filter = {
+			10113,
+			10129,
+			20000
+		},
+		sub_attribute = {
+			6,
+			35
+		},
+		jump_page = {
+			{
+				"冬の特産依頼-饅頭軽食",
+				{}
+			}
+		}
+	}
+	pg.base.island_item_data_template[4055] = {
+		name = "梅の香り袋",
+		desc = "梅の花をあしらった小さな香り袋。ほのかな香りがいつもそばにあって、冬の雅をひとつ添える",
+		type = 1,
+		manage_influence = 0,
+		pt_num = 270,
+		group_max = 0,
+		usage = "usage_undefined",
+		usage_arg = "[]",
+		drop_after_use = 0,
+		order_price = 1,
+		tech_id = 0,
+		icon = "IslandProps/item_4055",
+		price = 1,
+		icon_normal = "",
+		rarity = 4,
+		convert = 1,
+		resource_type = 1,
+		id = 4055,
+		have_max = 0,
+		filter = {
+			10113,
+			10131
+		},
+		sub_attribute = {},
+		jump_page = {
+			{
+				"冬の特産依頼-手工製作設備",
+				{}
+			}
+		}
+	}
+	pg.base.island_item_data_template[4056] = {
+		name = "冬の花束",
+		desc = "清らかで明るい色合いの花束。梅とスイセンの組み合わせが冬の優しさをもたらす",
+		type = 1,
+		manage_influence = 0,
+		pt_num = 156,
+		group_max = 0,
+		usage = "usage_undefined",
+		usage_arg = "[]",
+		drop_after_use = 0,
+		order_price = 1,
+		tech_id = 0,
+		icon = "IslandProps/item_4056",
+		price = 1,
+		icon_normal = "",
+		rarity = 3,
+		convert = 1,
+		resource_type = 1,
+		id = 4056,
+		have_max = 0,
+		filter = {
+			10113,
+			10131
+		},
+		sub_attribute = {},
+		jump_page = {
+			{
+				"冬の特産依頼-手工製作設備",
 				{}
 			}
 		}
@@ -10879,6 +11426,8 @@ end)()
 			}
 		}
 	}
+end)()
+(function ()
 	pg.base.island_item_data_template[200025] = {
 		name = "ラフィー-離島権限認証",
 		desc = "ラフィーの離島権限認証。離島権限認証装置を使用すると、キャラに離島開発エリアの出入り権限を付与できる",
@@ -11189,6 +11738,161 @@ end)()
 			}
 		}
 	}
+	pg.base.island_item_data_template[200035] = {
+		name = "オグネヴォイ-離島権限認証",
+		desc = "オグネヴォイの離島権限認証。離島権限認証装置を使用すると、キャラに離島開発エリアの出入り権限を付与できる",
+		type = 2,
+		manage_influence = 0,
+		pt_num = 0,
+		group_max = 0,
+		usage = "usage_undefined",
+		usage_arg = "[]",
+		drop_after_use = 0,
+		order_price = 0,
+		tech_id = 0,
+		icon = "IslandProps/item_200035",
+		price = 0,
+		icon_normal = "",
+		rarity = 4,
+		convert = 0,
+		resource_type = 0,
+		id = 200035,
+		have_max = 0,
+		filter = {
+			10213
+		},
+		sub_attribute = {},
+		jump_page = {
+			{
+				"ショップ",
+				{}
+			}
+		}
+	}
+	pg.base.island_item_data_template[200036] = {
+		name = "エーギル-離島権限認証",
+		desc = "エーギルの離島権限認証。離島権限認証装置を使用すると、キャラに離島開発エリアの出入り権限を付与できる",
+		type = 2,
+		manage_influence = 0,
+		pt_num = 0,
+		group_max = 0,
+		usage = "usage_undefined",
+		usage_arg = "[]",
+		drop_after_use = 0,
+		order_price = 0,
+		tech_id = 0,
+		icon = "IslandProps/item_200036",
+		price = 0,
+		icon_normal = "",
+		rarity = 4,
+		convert = 0,
+		resource_type = 0,
+		id = 200036,
+		have_max = 0,
+		filter = {
+			10213
+		},
+		sub_attribute = {},
+		jump_page = {
+			{
+				"星彩賞",
+				{}
+			}
+		}
+	}
+	pg.base.island_item_data_template[200037] = {
+		name = "アーガス-離島権限認証",
+		desc = "アーガスの離島権限認証。離島権限認証装置を使用すると、キャラに離島開発エリアの出入り権限を付与できる",
+		type = 2,
+		manage_influence = 0,
+		pt_num = 0,
+		group_max = 0,
+		usage = "usage_undefined",
+		usage_arg = "[]",
+		drop_after_use = 0,
+		order_price = 0,
+		tech_id = 0,
+		icon = "IslandProps/item_200037",
+		price = 0,
+		icon_normal = "",
+		rarity = 4,
+		convert = 0,
+		resource_type = 0,
+		id = 200037,
+		have_max = 0,
+		filter = {
+			10213
+		},
+		sub_attribute = {},
+		jump_page = {
+			{
+				"星彩賞",
+				{}
+			}
+		}
+	}
+	pg.base.island_item_data_template[200038] = {
+		name = "長門-離島権限認証",
+		desc = "長門の離島権限認証。離島権限認証装置を使用すると、キャラに離島開発エリアの出入り権限を付与できる",
+		type = 2,
+		manage_influence = 0,
+		pt_num = 0,
+		group_max = 0,
+		usage = "usage_undefined",
+		usage_arg = "[]",
+		drop_after_use = 0,
+		order_price = 0,
+		tech_id = 0,
+		icon = "IslandProps/item_200038",
+		price = 0,
+		icon_normal = "",
+		rarity = 4,
+		convert = 0,
+		resource_type = 0,
+		id = 200038,
+		have_max = 0,
+		filter = {
+			10213
+		},
+		sub_attribute = {},
+		jump_page = {
+			{
+				"星彩賞",
+				{}
+			}
+		}
+	}
+	pg.base.island_item_data_template[200039] = {
+		name = "華甲-離島権限認証",
+		desc = "華甲の離島権限認証。離島権限認証装置を使用すると、キャラに離島開発エリアの出入り権限を付与できる",
+		type = 2,
+		manage_influence = 0,
+		pt_num = 0,
+		group_max = 0,
+		usage = "usage_undefined",
+		usage_arg = "[]",
+		drop_after_use = 0,
+		order_price = 0,
+		tech_id = 0,
+		icon = "IslandProps/item_200039",
+		price = 0,
+		icon_normal = "",
+		rarity = 4,
+		convert = 0,
+		resource_type = 0,
+		id = 200039,
+		have_max = 0,
+		filter = {
+			10213
+		},
+		sub_attribute = {},
+		jump_page = {
+			{
+				"開発ショップ",
+				{}
+			}
+		}
+	}
 	pg.base.island_item_data_template[300001] = {
 		name = "豊穣の畑配置作業効率が4%アップ",
 		desc = "入手後、豊穣の畑配置作業効率が4%アップ",
@@ -11305,8 +12009,6 @@ end)()
 			}
 		}
 	}
-end)()
-(function ()
 	pg.base.island_item_data_template[300005] = {
 		name = "薫る果樹園配置作業効率が8%アップ",
 		desc = "入手後、薫る果樹園配置作業効率が8%アップ",

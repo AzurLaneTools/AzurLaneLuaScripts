@@ -12940,17 +12940,17 @@ _G.pg.base.gametip.buildship_new_tip = {
 
 
 _G.pg.base.gametip.buildship_heavy_tip = {
-	tip = "「クイーン・アンズ・リベンジ」など常設実装！"
+	tip = "「クレマンソー」「リヨン」「シュフラン」常設実装！ "
 }
 
 
 _G.pg.base.gametip.buildship_light_tip = {
-	tip = "「ライム」「ファンシー」など常設実装！"
+	tip = "「ギシャン」常設実装！"
 }
 
 
 _G.pg.base.gametip.buildship_special_tip = {
-	tip = "「アミティ」常設実装！"
+	tip = "「パンルヴェ」常設実装！"
 }
 
 
@@ -41073,6 +41073,36 @@ _G.pg.base.gametip.shop_new_gift = {
 }
 
 
+_G.pg.base.gametip.shop_new_lower_price = {
+	tip = "最安値"
+}
+
+
+_G.pg.base.gametip.shop_new_cannot_use_coupon = {
+	tip = "割引販売中のため、割引クーポンは使用できません"
+}
+
+
+_G.pg.base.gametip.shop_new_only_use_one_coupon = {
+	tip = "割引クーポンは1枚のみ選択できます"
+}
+
+
+_G.pg.base.gametip.shop_new_coupon_tip1 = {
+	tip = "\n対象の着せ替え：\n"
+}
+
+
+_G.pg.base.gametip.shop_new_coupon_tip2 = {
+	tip = "$1 着せ替え $2\n"
+}
+
+
+_G.pg.base.gametip.shop_new_coupon_tip3 = {
+	tip = "この割引クーポンは着せ替え購入時に優先して使用されます。割引クーポンを入手しますか？"
+}
+
+
 _G.pg.base.gametip.shop_new_gem_transform = {
 	tip = "所持中の着せ替えを再度入手すると自動でダイヤに変換されます"
 }
@@ -44912,6 +44942,56 @@ _G.pg.base.gametip.island_spoperation_item_2605_4 = {
 }
 
 
+_G.pg.base.gametip.island_spoperation_tip_2611_1 = {
+	tip = "イベント期間中、ピアリの特産品依頼が出現します。特産品依頼をこなすとシーズンPTなどの報酬を入手可能。\n*特産品依頼は依頼完成上限に影響せず、評価レベルを上昇させられません"
+}
+
+
+_G.pg.base.gametip.island_spoperation_btn_2611_1 = {
+	tip = "特産品採集"
+}
+
+
+_G.pg.base.gametip.island_spoperation_btn_2611_2 = {
+	tip = "特産品制作"
+}
+
+
+_G.pg.base.gametip.island_spoperation_btn_2611_3 = {
+	tip = "イベント管理者"
+}
+
+
+_G.pg.base.gametip.island_spoperation_tip_2611_3 = {
+	tip = "イベント期間内、【薫る果樹園】【有魚飯店】【饅頭軽食】【基地工場】で対応の特産品を生産可能"
+}
+
+
+_G.pg.base.gametip.island_spoperation_item_2611_1 = {
+	tip = "梅の花"
+}
+
+
+_G.pg.base.gametip.island_spoperation_item_2611_2 = {
+	tip = "スイセン"
+}
+
+
+_G.pg.base.gametip.island_spoperation_item_2611_3 = {
+	tip = "冬シイタケ"
+}
+
+
+_G.pg.base.gametip.island_spoperation_item_2611_4 = {
+	tip = "クワイ"
+}
+
+
+_G.pg.base.gametip.island_spoperation_tip_2611_2 = {
+	tip = "イベント期間中、特定の区域内に毎日イベント採集アイテムが出現します。早く探しに行きましょう！"
+}
+
+
 _G.pg.base.gametip.island_follow_success = {
 	tip = "同伴成功"
 }
@@ -45527,6 +45607,11 @@ _G.pg.base.gametip.graphi_api_switch_opengl = {
 
 _G.pg.base.gametip.graphi_api_switch_vulkan = {
 	tip = "レンダリング互換性モードはAR機能の利用が制限されます。レンダリング互換性モードの設定を切り替えると、ゲームを再度起動する必要があります。レンダリング互換性モードを切り替えますか？"
+}
+
+
+_G.pg.base.gametip.openGLerror_warning = {
+	tip = "ご利用中の端末はVulkanレンダリングを利用できません。「設定」で互換性レンダリングモードをONしてください。\n※レンダリング互換性モードの設定を切り替えると、ゲームを再度起動する必要があります"
 }
 
 
@@ -52192,6 +52277,11 @@ _G.pg.base.gametip.auto_battle_help = {
 }
 
 
+_G.pg.base.gametip.island_furniture_interaction_tip1 = {
+	tip = "離島オーナーが使用中の家具です。しばらくしてから再度お試しください"
+}
+
+
 _G.pg.base.gametip.auto_battle_in_world = {
 	tip = "遂行中の委任作戦があるため、作戦を新たに委任できません"
 }
@@ -52733,4 +52823,129 @@ _G.pg.base.gametip.HurricaneTreasureCoreActivityUI_subtitle_1 = {
 
 _G.pg.base.gametip.windfog_skin_stroy_finish = {
 	tip = "ストーリー全部確認して入手 "
+}
+
+
+_G.pg.base.gametip.skin_double_coupon_confirm = {
+	tip = "<color=#92fc63>$1*1</color>を消費し、割引価格\n<icon name=gem w=0.6 h=0.6/><color=#FFDE38FF>$2</color>で着せ替え<color=#92fc63>$3</color>を購入しますか？割引クーポンは併用できません"
+}
+
+
+_G.pg.base.gametip.skin_double_coupon_tip = {
+	tip = "割引クーポンは1枚のみ選択できます"
+}
+
+
+_G.pg.base.gametip.display_ship_get_repeat = {
+	tip = "登録済艦船入手演出"
+}
+
+
+_G.pg.base.gametip.trun_on_display_ship_get_repeat = {
+	tip = "登録済艦船の入手演出をONにしました"
+}
+
+
+_G.pg.base.gametip.trun_off_display_ship_get_repeat = {
+	tip = "登録済艦船の入手演出をOFFにしました（海域ドロップのみ）"
+}
+
+
+_G.pg.base.gametip.resource_repair_tips1 = {
+	tip = "「確認」タップでアセット修復を開始できます。※時間がかかる場合があります"
+}
+
+
+_G.pg.base.gametip.resource_repair_tips2 = {
+	tip = "<color=#c5cfdf>アセット修復中は他の操作ができません。しばらくお待ちください</color>"
+}
+
+
+_G.pg.base.gametip.resource_repair_tips3 = {
+	tip = "修復したいアセットを1つ以上選択してください"
+}
+
+
+_G.pg.base.gametip.resource_repair_op1 = {
+	tip = "基本アセット"
+}
+
+
+_G.pg.base.gametip.resource_repair_op2 = {
+	tip = "L2D"
+}
+
+
+_G.pg.base.gametip.resource_repair_op3 = {
+	tip = "立ち絵"
+}
+
+
+_G.pg.base.gametip.resource_repair_op4 = {
+	tip = "メモリーズ"
+}
+
+
+_G.pg.base.gametip.resource_repair_op5 = {
+	tip = "ボイス"
+}
+
+
+_G.pg.base.gametip.resource_repair_check = {
+	tip = "アセットグループを検証中：$1（$2）：$3%"
+}
+
+
+_G.pg.base.gametip.resource_repairing = {
+	tip = "アセットグループを修復中：$1（$2）：$3%"
+}
+
+
+_G.pg.base.gametip.resource_repair_report1 = {
+	tip = "異常のないアセットグループ：$1"
+}
+
+
+_G.pg.base.gametip.resource_repair_report2 = {
+	tip = "修復に成功したアセットグループ：$1"
+}
+
+
+_G.pg.base.gametip.resource_repair_report3 = {
+	tip = "修復に失敗したアセットグループ：$1"
+}
+
+
+_G.pg.base.gametip.resource_repair_finish_tips = {
+	tip = "修復が完了しました。ゲームを再起動してください"
+}
+
+
+_G.pg.base.gametip.entrance_maintain = {
+	tip = "準備中です"
+}
+
+
+_G.pg.base.gametip.world_task_get = {
+	tip = "報酬受取"
+}
+
+
+_G.pg.base.gametip.world_task_view = {
+	tip = "エリア確認"
+}
+
+
+_G.pg.base.gametip.world_task_all = {
+	tip = "任務一覧"
+}
+
+
+_G.pg.base.gametip.world_task_main = {
+	tip = "メイン"
+}
+
+
+_G.pg.base.gametip.world_task_notask = {
+	tip = "請け負える任務はありません"
 }

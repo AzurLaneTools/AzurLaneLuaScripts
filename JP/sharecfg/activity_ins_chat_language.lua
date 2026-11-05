@@ -12346,7 +12346,95 @@ pg.activity_ins_chat_language.all = {
 	12426,
 	12427,
 	12428,
-	12429
+	12429,
+	12430,
+	12431,
+	12432,
+	12433,
+	12434,
+	12435,
+	12436,
+	12437,
+	12438,
+	12439,
+	12440,
+	12441,
+	12442,
+	12443,
+	12444,
+	12445,
+	12446,
+	12447,
+	12448,
+	12449,
+	12450,
+	12451,
+	12452,
+	12453,
+	12454,
+	12455,
+	12456,
+	12457,
+	12458,
+	12459,
+	12460,
+	12461,
+	12462,
+	12463,
+	12464,
+	12465,
+	12466,
+	12467,
+	12468,
+	12469,
+	12470,
+	12471,
+	12472,
+	12473,
+	12474,
+	12475,
+	12476,
+	12477,
+	12478,
+	12479,
+	12480,
+	12481,
+	12482,
+	12483,
+	12484,
+	12485,
+	12486,
+	12487,
+	12488,
+	12489,
+	12490,
+	12491,
+	12492,
+	12493,
+	12494,
+	12495,
+	12496,
+	12497,
+	12498,
+	12499,
+	12500,
+	12501,
+	12502,
+	12503,
+	12504,
+	12505,
+	12506,
+	12507,
+	12508,
+	12509,
+	12510,
+	12511,
+	12512,
+	12513,
+	12514,
+	12515,
+	12516,
+	12517
 }
 pg.base = pg.base or {}
 pg.base.activity_ins_chat_language = {}
@@ -120904,5 +120992,762 @@ end)()
 		type = 1,
 		id = 12429,
 		flag = 5
+	}
+	pg.base.activity_ins_chat_language[12430] = {
+		param = "指揮官、深夜の海原を見つめしことは？",
+		ship_group = 89902,
+		option = "",
+		type = 1,
+		id = 12430,
+		flag = 0
+	}
+	pg.base.activity_ins_chat_language[12431] = {
+		param = "月光がその上に敷かれ、砕けし銀の織りなす路の如し",
+		ship_group = 89902,
+		option = "",
+		type = 1,
+		id = 12431,
+		flag = 0
+	}
+	pg.base.activity_ins_chat_language[12432] = {
+		param = "見るたびに想うは彼岸。未だ言の葉で書かれず、辿り着くこと叶わぬ彼岸",
+		ship_group = 89902,
+		type = 1,
+		id = 12432,
+		flag = 0,
+		option = {
+			{
+				1,
+				"美しい響きだな"
+			},
+			{
+				2,
+				"神秘の世界へ続く階段…？"
+			}
+		}
+	}
+	pg.base.activity_ins_chat_language[12433] = {
+		param = "美しい響きだな。でもどこか寂しさを感じるような…",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 12433,
+		flag = 1
+	}
+	pg.base.activity_ins_chat_language[12434] = {
+		param = "寂しさ……或いは……",
+		ship_group = 89902,
+		option = "",
+		type = 1,
+		id = 12434,
+		flag = 1
+	}
+	pg.base.activity_ins_chat_language[12435] = {
+		param = "されどそれは荒れ果てし寂寥にあらず。運命へ辿り着く前に、必ず経ねばならぬ沈黙に近し",
+		ship_group = 89902,
+		option = "",
+		type = 1,
+		id = 12435,
+		flag = 1
+	}
+	pg.base.activity_ins_chat_language[12436] = {
+		param = "凪に見える海は、常しえに月へ応え続けるものなり",
+		ship_group = 89902,
+		option = "",
+		type = 1,
+		id = 12436,
+		flag = 1
+	}
+	pg.base.activity_ins_chat_language[12437] = {
+		param = "シャンパーニュが虚無より生まれども、応え返す声を待ち続くるが如く",
+		ship_group = 89902,
+		option = "",
+		type = 1,
+		id = 12437,
+		flag = 1
+	}
+	pg.base.activity_ins_chat_language[12438] = {
+		param = "どこか神秘の世界へ続く階段…みたいな？その果てには何があるんだろうね",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 12438,
+		flag = 2
+	}
+	pg.base.activity_ins_chat_language[12439] = {
+		param = "果て……或いはより深く、より測り知れぬ幽き青",
+		ship_group = 89902,
+		option = "",
+		type = 1,
+		id = 12439,
+		flag = 2
+	}
+	pg.base.activity_ins_chat_language[12440] = {
+		param = "或いは、ただ月光の織りなせし優しき幻か",
+		ship_group = 89902,
+		option = "",
+		type = 1,
+		id = 12440,
+		flag = 2
+	}
+	pg.base.activity_ins_chat_language[12441] = {
+		param = "真に辿り着くべき彼岸あらば、シャンパーニュは力の限り櫂を漕がん",
+		ship_group = 89902,
+		option = "",
+		type = 1,
+		id = 12441,
+		flag = 2
+	}
+	pg.base.activity_ins_chat_language[12442] = {
+		param = "ひとたび使命与えられれば、留まることが許されぬゆえ",
+		ship_group = 89902,
+		option = "",
+		type = 1,
+		id = 12442,
+		flag = 2
+	}
+	pg.base.activity_ins_chat_language[12443] = {
+		param = "思い浮かべるは、かつて一冊の詩集にて読みし一節",
+		ship_group = 89902,
+		option = "",
+		type = 1,
+		id = 12443,
+		flag = 0
+	}
+	pg.base.activity_ins_chat_language[12444] = {
+		param = "「月の光よ、憂わしく、美しく、寂しく……木々のうちに小鳥を深き夢へと誘う……」",
+		ship_group = 89902,
+		option = "",
+		type = 1,
+		id = 12444,
+		flag = 0
+	}
+	pg.base.activity_ins_chat_language[12445] = {
+		param = "この海が一冊の詩集ならば、静かに頁を繰る読み手たらんとするか、それとも自らの手で詩を綴る創り手たらんとするか",
+		ship_group = 89902,
+		type = 1,
+		id = 12445,
+		flag = 0,
+		option = {
+			{
+				3,
+				"読む方かな"
+			},
+			{
+				4,
+				"綴る方かな"
+			}
+		}
+	}
+	pg.base.activity_ins_chat_language[12446] = {
+		param = "読む方かな。……自分の軌跡を残すより、まずは海を知る方が大事な気がする",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 12446,
+		flag = 3
+	}
+	pg.base.activity_ins_chat_language[12447] = {
+		param = "即ち、読み手なり。評価の代わりに注視し、沈黙には眼差しをもって応えん",
+		ship_group = 89902,
+		option = "",
+		type = 1,
+		id = 12447,
+		flag = 3
+	}
+	pg.base.activity_ins_chat_language[12448] = {
+		param = "指揮官の選択は、その存在に通ずるものと思う",
+		ship_group = 89902,
+		option = "",
+		type = 1,
+		id = 12448,
+		flag = 3
+	}
+	pg.base.activity_ins_chat_language[12449] = {
+		param = "溺るるを急がず、否むもまた軽々しからず。一行一行が在るに値するか確かめるのみ",
+		ship_group = 89902,
+		option = "",
+		type = 1,
+		id = 12449,
+		flag = 3
+	}
+	pg.base.activity_ins_chat_language[12450] = {
+		param = "シャンパーニュもまたその一行とすれば……書き記されし理由を、読み解かれることを願わん",
+		ship_group = 89902,
+		option = "",
+		type = 1,
+		id = 12450,
+		flag = 3
+	}
+	pg.base.activity_ins_chat_language[12451] = {
+		param = "綴る方かな。機会があれば、自分とシャンパーニュだけの座標を残したい",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 12451,
+		flag = 4
+	}
+	pg.base.activity_ins_chat_language[12452] = {
+		param = "即ち、創り手なり。意志を空白へ落とし、形なきものに輪郭を与うる",
+		ship_group = 89902,
+		option = "",
+		type = 1,
+		id = 12452,
+		flag = 4
+	}
+	pg.base.activity_ins_chat_language[12453] = {
+		param = "それもまた、いと優しく、されどこの上なく揺るぎなき力なり",
+		ship_group = 89902,
+		option = "",
+		type = 1,
+		id = 12453,
+		flag = 4
+	}
+	pg.base.activity_ins_chat_language[12454] = {
+		param = "指揮官から賜りし使命もまた、かような一行の詩なるやもしれず",
+		ship_group = 89902,
+		option = "",
+		type = 1,
+		id = 12454,
+		flag = 4
+	}
+	pg.base.activity_ins_chat_language[12455] = {
+		param = "シャンパーニュを虚無より具現せしめ、この世にて歩むべき理由を与えたり",
+		ship_group = 89902,
+		option = "",
+		type = 1,
+		id = 12455,
+		flag = 4
+	}
+	pg.base.activity_ins_chat_language[12456] = {
+		param = "指揮官とシャンパーニュの間にあるもの、命令と遂行のみにあらず",
+		ship_group = 89902,
+		option = "",
+		type = 1,
+		id = 12456,
+		flag = 0
+	}
+	pg.base.activity_ins_chat_language[12457] = {
+		param = "眼差しあり、応答あり。そして沈黙のうちに互いの在ることを確かめる、束の間あり",
+		ship_group = 89902,
+		option = "",
+		type = 1,
+		id = 12457,
+		flag = 0
+	}
+	pg.base.activity_ins_chat_language[12458] = {
+		param = "指揮官に、感謝を",
+		ship_group = 89902,
+		option = "",
+		type = 1,
+		id = 12458,
+		flag = 0
+	}
+	pg.base.activity_ins_chat_language[12459] = {
+		param = "今宵、月光と詩情によるそっと包みし夢があらんことを",
+		ship_group = 89902,
+		option = "",
+		type = 1,
+		id = 12459,
+		flag = 0
+	}
+	pg.base.activity_ins_chat_language[12460] = {
+		param = "指揮官、窓の外にて雨粒が硝子を叩く音を心に留めしことは？",
+		ship_group = 89902,
+		option = "",
+		type = 1,
+		id = 12460,
+		flag = 0
+	}
+	pg.base.activity_ins_chat_language[12461] = {
+		param = "韻律あれど繰り返さず。秘められし古の言葉の如し",
+		ship_group = 89902,
+		option = "",
+		type = 1,
+		id = 12461,
+		flag = 0
+	}
+	pg.base.activity_ins_chat_language[12462] = {
+		param = "ふと、ひとつの問いが……",
+		ship_group = 89902,
+		option = "",
+		type = 1,
+		id = 12462,
+		flag = 0
+	}
+	pg.base.activity_ins_chat_language[12463] = {
+		param = "沈黙に重さはあるのか否か？",
+		ship_group = 89902,
+		option = "",
+		type = 1,
+		id = 12463,
+		flag = 0
+	}
+	pg.base.activity_ins_chat_language[12464] = {
+		param = "雨音は高けれど、ヒトの心には静けさをもたらす",
+		ship_group = 89902,
+		option = "",
+		type = 1,
+		id = 12464,
+		flag = 0
+	}
+	pg.base.activity_ins_chat_language[12465] = {
+		param = "されど時に二人の沈黙は、雨音よりも重く",
+		ship_group = 89902,
+		type = 1,
+		id = 12465,
+		flag = 0,
+		option = {
+			{
+				1,
+				"沈黙の重さは…"
+			}
+		}
+	}
+	pg.base.activity_ins_chat_language[12466] = {
+		param = "沈黙の重さは…互いの距離で決まるんじゃない？",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 12466,
+		flag = 1
+	}
+	pg.base.activity_ins_chat_language[12467] = {
+		param = "距離……正しく、指揮官の答え通り",
+		ship_group = 89902,
+		option = "",
+		type = 1,
+		id = 12467,
+		flag = 1
+	}
+	pg.base.activity_ins_chat_language[12468] = {
+		param = "二つの星を例えとすれば、沈黙の距離とはその間にある宇宙。即ち、冷えたる虚無なり",
+		ship_group = 89902,
+		option = "",
+		type = 1,
+		id = 12468,
+		flag = 1
+	}
+	pg.base.activity_ins_chat_language[12469] = {
+		param = "されど十分に近づきしとき、沈黙はもはや空虚にあらず、語られざる言葉に満ちるものなり",
+		ship_group = 89902,
+		option = "",
+		type = 1,
+		id = 12469,
+		flag = 1
+	}
+	pg.base.activity_ins_chat_language[12470] = {
+		param = "その沈黙とは、埋めるべき欠けなるもの？",
+		ship_group = 89902,
+		option = "",
+		type = 1,
+		id = 12470,
+		flag = 1
+	}
+	pg.base.activity_ins_chat_language[12471] = {
+		param = "シャンパーニュとの間に訪るる言葉なき刻を、指揮官もまた恐るる…",
+		ship_group = 89902,
+		type = 1,
+		id = 12471,
+		flag = 1,
+		option = {
+			{
+				2,
+				"時々はね……"
+			},
+			{
+				3,
+				"沈黙も心地よいものさ"
+			}
+		}
+	}
+	pg.base.activity_ins_chat_language[12472] = {
+		param = "時々はね…何を言えばいいか分からなくなるな",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 12472,
+		flag = 2
+	}
+	pg.base.activity_ins_chat_language[12473] = {
+		param = "指揮官にもまた、言わんとして言い淀む刻が？",
+		ship_group = 89902,
+		option = "",
+		type = 1,
+		id = 12473,
+		flag = 2
+	}
+	pg.base.activity_ins_chat_language[12474] = {
+		param = "その時が訪れればシャンパーニュはただ静かに待とう。沈黙の底より言の葉が浮かび上がるまで",
+		ship_group = 89902,
+		option = "",
+		type = 1,
+		id = 12474,
+		flag = 2
+	}
+	pg.base.activity_ins_chat_language[12475] = {
+		param = "或いは……指揮官の沈黙を聴き取ろうと試みよう",
+		ship_group = 89902,
+		option = "",
+		type = 1,
+		id = 12475,
+		flag = 2
+	}
+	pg.base.activity_ins_chat_language[12476] = {
+		param = "いや、沈黙もまた心地よいものだと思う",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 12476,
+		flag = 3
+	}
+	pg.base.activity_ins_chat_language[12477] = {
+		param = "……心地よい。美しき例え",
+		ship_group = 89902,
+		option = "",
+		type = 1,
+		id = 12477,
+		flag = 3
+	}
+	pg.base.activity_ins_chat_language[12478] = {
+		param = "並び生える二本の蔓の如し。誰の目も届かぬ片隅にて、根は土のうちに密やかに絡み合う",
+		ship_group = 89902,
+		option = "",
+		type = 1,
+		id = 12478,
+		flag = 3
+	}
+	pg.base.activity_ins_chat_language[12479] = {
+		param = "言葉を要せず、枝葉が触れ合う。すなわち以心伝心",
+		ship_group = 89902,
+		option = "",
+		type = 1,
+		id = 12479,
+		flag = 3
+	}
+	pg.base.activity_ins_chat_language[12480] = {
+		param = "沈黙がかくも恋慕のように思うは初めてゆえ",
+		ship_group = 89902,
+		option = "",
+		type = 1,
+		id = 12480,
+		flag = 0
+	}
+	pg.base.activity_ins_chat_language[12481] = {
+		param = "いつか雨の日に、同じ軒の下にて、しばし沈黙をともにすることが叶う時……",
+		ship_group = 89902,
+		option = "",
+		type = 1,
+		id = 12481,
+		flag = 0
+	}
+	pg.base.activity_ins_chat_language[12482] = {
+		param = "言の葉を紡がず、雨音と互いの息の音を傾聴するのみ……",
+		ship_group = 89902,
+		type = 1,
+		id = 12482,
+		flag = 0,
+		option = {
+			{
+				4,
+				"もし……"
+			}
+		}
+	}
+	pg.base.activity_ins_chat_language[12483] = {
+		param = "もし我慢できずに何かを喋ってしまったら……",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 12483,
+		flag = 4
+	}
+	pg.base.activity_ins_chat_language[12484] = {
+		param = "それもまた差し支えなし",
+		ship_group = 89902,
+		option = "",
+		type = 1,
+		id = 12484,
+		flag = 4
+	}
+	pg.base.activity_ins_chat_language[12485] = {
+		param = "指揮官の紡ぐ一言一句、熟慮の末に口を衝きて出でしものも、シャンパーニュはすべて心に留め置こう……",
+		ship_group = 89902,
+		option = "",
+		type = 1,
+		id = 12485,
+		flag = 4
+	}
+	pg.base.activity_ins_chat_language[12486] = {
+		param = "良き眠りを、指揮官。今宵の夢にも優しき雨の降らんことを",
+		ship_group = 89902,
+		option = "",
+		type = 1,
+		id = 12486,
+		flag = 4
+	}
+end)()
+(function ()
+	pg.base.activity_ins_chat_language[12487] = {
+		param = "雨音が……シャンパーニュに代わりて窓をそっと叩き、胸の内にあり、繰り返し続けている言葉を伝えてほしい",
+		ship_group = 89902,
+		option = "",
+		type = 1,
+		id = 12487,
+		flag = 4
+	}
+	pg.base.activity_ins_chat_language[12488] = {
+		param = "ヒトは知らず知らずの内にささやかな仕草を繰り返す。指揮官は気づいていようか？",
+		ship_group = 89902,
+		option = "",
+		type = 1,
+		id = 12488,
+		flag = 0
+	}
+	pg.base.activity_ins_chat_language[12489] = {
+		param = "例えば杯を置く時、必ず定まりし場所へ置くこと",
+		ship_group = 89902,
+		option = "",
+		type = 1,
+		id = 12489,
+		flag = 0
+	}
+	pg.base.activity_ins_chat_language[12490] = {
+		param = "例えば長き廊下を歩む時、窓の外の雲を一度は仰ぐこと",
+		ship_group = 89902,
+		option = "",
+		type = 1,
+		id = 12490,
+		flag = 0
+	}
+	pg.base.activity_ins_chat_language[12491] = {
+		param = "また例えば、すでに確かめしはずなれど、眠る前に再度錠に触れること",
+		ship_group = 89902,
+		option = "",
+		type = 1,
+		id = 12491,
+		flag = 0
+	}
+	pg.base.activity_ins_chat_language[12492] = {
+		param = "大いなる所作でなくとも、確かな意味を持つとも限らず",
+		ship_group = 89902,
+		option = "",
+		type = 1,
+		id = 12492,
+		flag = 0
+	}
+	pg.base.activity_ins_chat_language[12493] = {
+		param = "されど小さき錨の如く、ヒトをの営みに繋ぎ留む",
+		ship_group = 89902,
+		option = "",
+		type = 1,
+		id = 12493,
+		flag = 0
+	}
+	pg.base.activity_ins_chat_language[12494] = {
+		param = "指揮官にもまた……己が在ることを確かめるためだけの、ささやかな儀式が…？",
+		ship_group = 89902,
+		type = 1,
+		id = 12494,
+		flag = 0,
+		option = {
+			{
+				1,
+				"朝のブラックコーヒーかな"
+			},
+			{
+				2,
+				"寝る前に明日の予定表を確かめることかな"
+			}
+		}
+	}
+	pg.base.activity_ins_chat_language[12495] = {
+		param = "朝のブラックコーヒーで目を覚ますのはそれに入る？",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 12495,
+		flag = 1
+	}
+	pg.base.activity_ins_chat_language[12496] = {
+		param = "苦味をもって朝の光を開く。指揮官らしき慣習なり",
+		ship_group = 89902,
+		option = "",
+		type = 1,
+		id = 12496,
+		flag = 1
+	}
+	pg.base.activity_ins_chat_language[12497] = {
+		param = "苦味を用いて己を醒まし、そして温もりを……守らんとするものへ注ぐ",
+		ship_group = 89902,
+		option = "",
+		type = 1,
+		id = 12497,
+		flag = 1
+	}
+	pg.base.activity_ins_chat_language[12498] = {
+		param = "その一筋の苦味に羨望を覚える……",
+		ship_group = 89902,
+		option = "",
+		type = 1,
+		id = 12498,
+		flag = 1
+	}
+	pg.base.activity_ins_chat_language[12499] = {
+		param = "語られざる指揮官の暁の独白を、シャンパーニュに代わりて味わっているゆえ",
+		ship_group = 89902,
+		option = "",
+		type = 1,
+		id = 12499,
+		flag = 1
+	}
+	pg.base.activity_ins_chat_language[12500] = {
+		param = "寝る前に明日の予定表を確かめることかな",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 12500,
+		flag = 2
+	}
+	pg.base.activity_ins_chat_language[12501] = {
+		param = "理性にて挑むも優しさを残す。指揮官らしき慣習なり",
+		ship_group = 89902,
+		option = "",
+		type = 1,
+		id = 12501,
+		flag = 2
+	}
+	pg.base.activity_ins_chat_language[12502] = {
+		param = "あなたが守らんとするは、秩序のもたらす安らぎに近し",
+		ship_group = 89902,
+		option = "",
+		type = 1,
+		id = 12502,
+		flag = 2
+	}
+	pg.base.activity_ins_chat_language[12503] = {
+		param = "シャンパーニュが悄然に入れられる、その事象を――",
+		ship_group = 89902,
+		type = 1,
+		id = 12503,
+		flag = 0,
+		option = {
+			{
+				3,
+				"予定表を見る時だね"
+			}
+		}
+	}
+	pg.base.activity_ins_chat_language[12504] = {
+		param = "予定表を見る時だね。シャンパーニュに関わる予定がないか必ずチェックしてるよ",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 12504,
+		flag = 3
+	}
+	pg.base.activity_ins_chat_language[12505] = {
+		param = "もしあれば、明日が来るのが待ち遠しくなるね",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 12505,
+		flag = 3
+	}
+	pg.base.activity_ins_chat_language[12506] = {
+		param = "……指揮官",
+		ship_group = 89902,
+		option = "",
+		type = 1,
+		id = 12506,
+		flag = 3
+	}
+	pg.base.activity_ins_chat_language[12507] = {
+		param = "明日を確かめられるとともに、シャンパーニュの存在もまた確かめられる",
+		ship_group = 89902,
+		option = "",
+		type = 1,
+		id = 12507,
+		flag = 3
+	}
+	pg.base.activity_ins_chat_language[12508] = {
+		param = "その一言は、シャンパーニュの予想よりも遥かに重し",
+		ship_group = 89902,
+		option = "",
+		type = 1,
+		id = 12508,
+		flag = 3
+	}
+	pg.base.activity_ins_chat_language[12509] = {
+		param = "シャンパーニュの名は、ただ紙上に記されし文字にあらず",
+		ship_group = 89902,
+		option = "",
+		type = 1,
+		id = 12509,
+		flag = 3
+	}
+	pg.base.activity_ins_chat_language[12510] = {
+		param = "指揮官の手で「明日」なる優しき場所へ、置かれしものの如し",
+		ship_group = 89902,
+		option = "",
+		type = 1,
+		id = 12510,
+		flag = 3
+	}
+	pg.base.activity_ins_chat_language[12511] = {
+		param = "指揮官は知っていようか？",
+		ship_group = 89902,
+		option = "",
+		type = 1,
+		id = 12511,
+		flag = 3
+	}
+	pg.base.activity_ins_chat_language[12512] = {
+		param = "記憶されることと、必要とされることは等しからず",
+		ship_group = 89902,
+		option = "",
+		type = 1,
+		id = 12512,
+		flag = 3
+	}
+	pg.base.activity_ins_chat_language[12513] = {
+		param = "必要とされるとき、シャンパーニュは進むべき方向を得る",
+		ship_group = 89902,
+		option = "",
+		type = 1,
+		id = 12513,
+		flag = 3
+	}
+	pg.base.activity_ins_chat_language[12514] = {
+		param = "されど記憶されるとき……シャンパーニュは一歩、指揮官の心へと近づける",
+		ship_group = 89902,
+		option = "",
+		type = 1,
+		id = 12514,
+		flag = 3
+	}
+	pg.base.activity_ins_chat_language[12515] = {
+		param = "良き夢を。指揮官",
+		ship_group = 89902,
+		option = "",
+		type = 1,
+		id = 12515,
+		flag = 3
+	}
+	pg.base.activity_ins_chat_language[12516] = {
+		param = "シャンパーニュもまた、指揮官の名を全ての明日に記さん",
+		ship_group = 89902,
+		option = "",
+		type = 1,
+		id = 12516,
+		flag = 3
+	}
+	pg.base.activity_ins_chat_language[12517] = {
+		param = "昼と夜が、指揮官に満たされているのと同じように",
+		ship_group = 89902,
+		option = "",
+		type = 1,
+		id = 12517,
+		flag = 3
 	}
 end)()

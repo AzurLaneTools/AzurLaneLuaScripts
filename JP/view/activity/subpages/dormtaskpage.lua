@@ -1,5 +1,15 @@
 slot0 = class("DormTaskPage", import("...base.BaseActivityPage"))
 
+slot0.getResource = function(slot0)
+	return {
+		"ui/activityuipage/dormtaskpage_atlas"
+	}
+end
+
+slot0.GetBgParams = function(slot0)
+	return slot0.bg, "ui/activityuipage/dormtaskpage_atlas", "bg"
+end
+
 slot0.OnInit = function(slot0)
 	slot0.bg = slot0._tf:Find("AD")
 	slot0.slider = slot0.bg:Find("slider"):GetComponent(typeof(Slider))

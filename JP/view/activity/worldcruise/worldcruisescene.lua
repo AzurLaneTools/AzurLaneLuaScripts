@@ -48,6 +48,10 @@ slot0.getResource = function(slot0)
 		if pg.battlepass_event_pt[uv0.id] then
 			if noEmptyStr(slot1.bg) then
 				table.insert(slot0, ResPathSupport.CombinePath(ResPathSupport.ConstPath.BG.Base, slot1.bg))
+
+				if HXSet.isHx() then
+					table.insert(slot0, ResPathSupport.CombinePath(ResPathSupport.ConstPath.BG.Base, slot1.bg) .. "_hx")
+				end
 			end
 
 			if noEmptyStr(slot1.bg_tips) then

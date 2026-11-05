@@ -333,6 +333,81 @@ pg.island_shop_goods.all = {
 	10473,
 	10474,
 	10475,
+	10501,
+	10503,
+	10502,
+	10504,
+	10505,
+	10506,
+	10507,
+	10508,
+	10509,
+	10510,
+	10511,
+	10512,
+	10513,
+	10514,
+	10515,
+	10516,
+	10517,
+	10518,
+	10519,
+	10520,
+	10521,
+	10522,
+	10523,
+	10524,
+	10525,
+	10526,
+	10527,
+	10528,
+	10529,
+	10530,
+	10531,
+	10532,
+	10533,
+	10534,
+	10535,
+	10536,
+	10537,
+	10538,
+	10539,
+	10540,
+	10541,
+	10542,
+	10543,
+	10544,
+	10545,
+	10546,
+	10547,
+	10548,
+	10549,
+	10550,
+	10551,
+	10552,
+	10553,
+	10554,
+	10555,
+	10556,
+	10557,
+	10558,
+	10559,
+	10560,
+	10561,
+	10562,
+	10563,
+	10564,
+	10565,
+	10566,
+	10567,
+	10568,
+	10569,
+	10570,
+	10571,
+	10572,
+	10573,
+	10574,
+	10575,
 	103000,
 	103001,
 	103002,
@@ -385,10 +460,13 @@ pg.island_shop_goods.all = {
 	411026,
 	411027,
 	411028,
+	411029,
+	411030,
 	412000,
 	412001,
 	412002,
 	412003,
+	412004,
 	4600001,
 	4600002,
 	4600003,
@@ -401,6 +479,9 @@ pg.island_shop_goods.all = {
 	4620008,
 	4630009,
 	4610008,
+	4630010,
+	4610009,
+	4620009,
 	5010001,
 	5020001,
 	5030001,
@@ -413,6 +494,9 @@ pg.island_shop_goods.all = {
 	5010004,
 	5020004,
 	5030004,
+	5010005,
+	5020005,
+	5030005,
 	471070301,
 	473120101,
 	471051701,
@@ -424,6 +508,8 @@ pg.island_shop_goods.all = {
 	473031101,
 	472021201,
 	479600011,
+	477011101,
+	506020101,
 	99000101,
 	99000102,
 	99000201,
@@ -1387,7 +1473,7 @@ pg.base.island_shop_goods = {}
 		limited_num = 2,
 		unlock = "",
 		goods_name = "アンティーク装飾品",
-		desc = "時の流れが深み増し、気品を宿したアンティークな調度品。静かに佇むそれが、空間に落ち着きと趣を添えてくれる。",
+		desc = "時の流れで深みが増し、気品を宿したアンティークな調度品。静かに佇むそれが、空間に落ち着きと趣を添えてくれる。",
 		pt_award = 300,
 		icon = "IslandGoodsIcon/gift06",
 		pay_id = 0,
@@ -1469,7 +1555,7 @@ pg.base.island_shop_goods = {}
 		limited_num = 2,
 		unlock = "",
 		goods_name = "高級香水",
-		desc = "簡素な瓶には清らかな香りが秘められている。上品さ格調を映し出す、優雅なフレグランス。",
+		desc = "簡素な瓶には清らかな香りが秘められている。上品さと格調を映し出す、優雅なフレグランス。",
 		pt_award = 300,
 		icon = "IslandGoodsIcon/gift08",
 		pay_id = 0,
@@ -1510,7 +1596,7 @@ pg.base.island_shop_goods = {}
 		limited_num = 2,
 		unlock = "",
 		goods_name = "ゲーム機セット",
-		desc = "余暇を完璧に満たしてくれるエンタメアイテム。ラクラクで遊べるコンテンツが揃っていて、心配りの行き届いた贈り物である",
+		desc = "余暇を完璧に満たしてくれるエンタメアイテム。手軽に遊べるコンテンツが揃っていて、心配りの行き届いた贈り物である",
 		pt_award = 300,
 		icon = "IslandGoodsIcon/gift09",
 		pay_id = 0,
@@ -2043,7 +2129,7 @@ pg.base.island_shop_goods = {}
 		limited_num = 2,
 		unlock = "",
 		goods_name = "アンティーク装飾品",
-		desc = "時の流れが深み増し、気品を宿したアンティークな調度品。静かに佇むそれが、空間に落ち着きと趣を添えてくれる。",
+		desc = "時の流れで深みが増し、気品を宿したアンティークな調度品。静かに佇むそれが、空間に落ち着きと趣を添えてくれる。",
 		pt_award = 300,
 		icon = "IslandGoodsIcon/gift06",
 		pay_id = 0,
@@ -2125,7 +2211,7 @@ pg.base.island_shop_goods = {}
 		limited_num = 2,
 		unlock = "",
 		goods_name = "高級香水",
-		desc = "簡素な瓶には清らかな香りが秘められている。上品さ格調を映し出す、優雅なフレグランス。",
+		desc = "簡素な瓶には清らかな香りが秘められている。上品さと格調を映し出す、優雅なフレグランス。",
 		pt_award = 300,
 		icon = "IslandGoodsIcon/gift08",
 		pay_id = 0,
@@ -2166,7 +2252,7 @@ pg.base.island_shop_goods = {}
 		limited_num = 2,
 		unlock = "",
 		goods_name = "ゲーム機セット",
-		desc = "余暇を完璧に満たしてくれるエンタメアイテム。ラクラクで遊べるコンテンツが揃っていて、心配りの行き届いた贈り物である",
+		desc = "余暇を完璧に満たしてくれるエンタメアイテム。手軽に遊べるコンテンツが揃っていて、心配りの行き届いた贈り物である",
 		pt_award = 300,
 		icon = "IslandGoodsIcon/gift09",
 		pay_id = 0,
@@ -2699,7 +2785,7 @@ pg.base.island_shop_goods = {}
 		limited_num = 4,
 		unlock = "",
 		goods_name = "アンティーク装飾品",
-		desc = "時の流れが深み増し、気品を宿したアンティークな調度品。静かに佇むそれが、空間に落ち着きと趣を添えてくれる。",
+		desc = "時の流れで深みが増し、気品を宿したアンティークな調度品。静かに佇むそれが、空間に落ち着きと趣を添えてくれる。",
 		pt_award = 300,
 		icon = "IslandGoodsIcon/gift06",
 		pay_id = 0,
@@ -2781,7 +2867,7 @@ pg.base.island_shop_goods = {}
 		limited_num = 4,
 		unlock = "",
 		goods_name = "高級香水",
-		desc = "簡素な瓶には清らかな香りが秘められている。上品さ格調を映し出す、優雅なフレグランス。",
+		desc = "簡素な瓶には清らかな香りが秘められている。上品さと格調を映し出す、優雅なフレグランス。",
 		pt_award = 300,
 		icon = "IslandGoodsIcon/gift08",
 		pay_id = 0,
@@ -2822,7 +2908,7 @@ pg.base.island_shop_goods = {}
 		limited_num = 4,
 		unlock = "",
 		goods_name = "ゲーム機セット",
-		desc = "余暇を完璧に満たしてくれるエンタメアイテム。ラクラクで遊べるコンテンツが揃っていて、心配りの行き届いた贈り物である",
+		desc = "余暇を完璧に満たしてくれるエンタメアイテム。手軽に遊べるコンテンツが揃っていて、心配りの行き届いた贈り物である",
 		pt_award = 300,
 		icon = "IslandGoodsIcon/gift09",
 		pay_id = 0,
@@ -3724,7 +3810,7 @@ pg.base.island_shop_goods = {}
 		limited_num = 2,
 		unlock = "",
 		goods_name = "アンティーク装飾品",
-		desc = "時の流れが深み増し、気品を宿したアンティークな調度品。静かに佇むそれが、空間に落ち着きと趣を添えてくれる。",
+		desc = "時の流れで深みが増し、気品を宿したアンティークな調度品。静かに佇むそれが、空間に落ち着きと趣を添えてくれる。",
 		pt_award = 300,
 		icon = "IslandGoodsIcon/gift06",
 		pay_id = 0,
@@ -3806,7 +3892,7 @@ pg.base.island_shop_goods = {}
 		limited_num = 2,
 		unlock = "",
 		goods_name = "高級香水",
-		desc = "簡素な瓶には清らかな香りが秘められている。上品さ格調を映し出す、優雅なフレグランス。",
+		desc = "簡素な瓶には清らかな香りが秘められている。上品さと格調を映し出す、優雅なフレグランス。",
 		pt_award = 300,
 		icon = "IslandGoodsIcon/gift08",
 		pay_id = 0,
@@ -3847,7 +3933,7 @@ pg.base.island_shop_goods = {}
 		limited_num = 2,
 		unlock = "",
 		goods_name = "ゲーム機セット",
-		desc = "余暇を完璧に満たしてくれるエンタメアイテム。ラクラクで遊べるコンテンツが揃っていて、心配りの行き届いた贈り物である",
+		desc = "余暇を完璧に満たしてくれるエンタメアイテム。手軽に遊べるコンテンツが揃っていて、心配りの行き届いた贈り物である",
 		pt_award = 300,
 		icon = "IslandGoodsIcon/gift09",
 		pay_id = 0,
@@ -4380,7 +4466,7 @@ pg.base.island_shop_goods = {}
 		limited_num = 2,
 		unlock = "",
 		goods_name = "アンティーク装飾品",
-		desc = "時の流れが深み増し、気品を宿したアンティークな調度品。静かに佇むそれが、空間に落ち着きと趣を添えてくれる。",
+		desc = "時の流れで深みが増し、気品を宿したアンティークな調度品。静かに佇むそれが、空間に落ち着きと趣を添えてくれる。",
 		pt_award = 300,
 		icon = "IslandGoodsIcon/gift06",
 		pay_id = 0,
@@ -4462,7 +4548,7 @@ pg.base.island_shop_goods = {}
 		limited_num = 2,
 		unlock = "",
 		goods_name = "高級香水",
-		desc = "簡素な瓶には清らかな香りが秘められている。上品さ格調を映し出す、優雅なフレグランス。",
+		desc = "簡素な瓶には清らかな香りが秘められている。上品さと格調を映し出す、優雅なフレグランス。",
 		pt_award = 300,
 		icon = "IslandGoodsIcon/gift08",
 		pay_id = 0,
@@ -4503,7 +4589,7 @@ pg.base.island_shop_goods = {}
 		limited_num = 2,
 		unlock = "",
 		goods_name = "ゲーム機セット",
-		desc = "余暇を完璧に満たしてくれるエンタメアイテム。ラクラクで遊べるコンテンツが揃っていて、心配りの行き届いた贈り物である",
+		desc = "余暇を完璧に満たしてくれるエンタメアイテム。手軽に遊べるコンテンツが揃っていて、心配りの行き届いた贈り物である",
 		pt_award = 300,
 		icon = "IslandGoodsIcon/gift09",
 		pay_id = 0,
@@ -5038,7 +5124,7 @@ end)()
 		limited_num = 4,
 		unlock = "",
 		goods_name = "アンティーク装飾品",
-		desc = "時の流れが深み増し、気品を宿したアンティークな調度品。静かに佇むそれが、空間に落ち着きと趣を添えてくれる。",
+		desc = "時の流れで深みが増し、気品を宿したアンティークな調度品。静かに佇むそれが、空間に落ち着きと趣を添えてくれる。",
 		pt_award = 300,
 		icon = "IslandGoodsIcon/gift06",
 		pay_id = 0,
@@ -5120,7 +5206,7 @@ end)()
 		limited_num = 4,
 		unlock = "",
 		goods_name = "高級香水",
-		desc = "簡素な瓶には清らかな香りが秘められている。上品さ格調を映し出す、優雅なフレグランス。",
+		desc = "簡素な瓶には清らかな香りが秘められている。上品さと格調を映し出す、優雅なフレグランス。",
 		pt_award = 300,
 		icon = "IslandGoodsIcon/gift08",
 		pay_id = 0,
@@ -5161,7 +5247,7 @@ end)()
 		limited_num = 4,
 		unlock = "",
 		goods_name = "ゲーム機セット",
-		desc = "余暇を完璧に満たしてくれるエンタメアイテム。ラクラクで遊べるコンテンツが揃っていて、心配りの行き届いた贈り物である",
+		desc = "余暇を完璧に満たしてくれるエンタメアイテム。手軽に遊べるコンテンツが揃っていて、心配りの行き届いた贈り物である",
 		pt_award = 300,
 		icon = "IslandGoodsIcon/gift09",
 		pay_id = 0,
@@ -6309,7 +6395,7 @@ end)()
 		limited_num = 3,
 		unlock = "",
 		goods_name = "飼養教科書 T1",
-		desc = "飼養テクニックの基礎をまとめた指南教科書。使用すると、キャラクターの採集ステータスが少し上昇する。",
+		desc = "飼養テクニックの基礎をまとめた指南教科書。使用すると、キャラクターの飼養ステータスが少し上昇する。",
 		pt_award = 1000,
 		icon = "IslandProps/item_100051",
 		pay_id = 0,
@@ -6555,7 +6641,7 @@ end)()
 		limited_num = 2,
 		unlock = "",
 		goods_name = "アンティーク装飾品",
-		desc = "時の流れが深み増し、気品を宿したアンティークな調度品。静かに佇むそれが、空間に落ち着きと趣を添えてくれる。",
+		desc = "時の流れで深みが増し、気品を宿したアンティークな調度品。静かに佇むそれが、空間に落ち着きと趣を添えてくれる。",
 		pt_award = 300,
 		icon = "IslandGoodsIcon/gift06",
 		pay_id = 0,
@@ -6637,7 +6723,7 @@ end)()
 		limited_num = 2,
 		unlock = "",
 		goods_name = "高級香水",
-		desc = "簡素な瓶には清らかな香りが秘められている。上品さ格調を映し出す、優雅なフレグランス。",
+		desc = "簡素な瓶には清らかな香りが秘められている。上品さと格調を映し出す、優雅なフレグランス。",
 		pt_award = 300,
 		icon = "IslandGoodsIcon/gift08",
 		pay_id = 0,
@@ -7170,7 +7256,7 @@ end)()
 		limited_num = 2,
 		unlock = "",
 		goods_name = "アンティーク装飾品",
-		desc = "時の流れが深み増し、気品を宿したアンティークな調度品。静かに佇むそれが、空間に落ち着きと趣を添えてくれる。",
+		desc = "時の流れで深みが増し、気品を宿したアンティークな調度品。静かに佇むそれが、空間に落ち着きと趣を添えてくれる。",
 		pt_award = 300,
 		icon = "IslandGoodsIcon/gift06",
 		pay_id = 0,
@@ -7252,7 +7338,7 @@ end)()
 		limited_num = 2,
 		unlock = "",
 		goods_name = "高級香水",
-		desc = "簡素な瓶には清らかな香りが秘められている。上品さ格調を映し出す、優雅なフレグランス。",
+		desc = "簡素な瓶には清らかな香りが秘められている。上品さと格調を映し出す、優雅なフレグランス。",
 		pt_award = 300,
 		icon = "IslandGoodsIcon/gift08",
 		pay_id = 0,
@@ -7293,7 +7379,7 @@ end)()
 		limited_num = 2,
 		unlock = "",
 		goods_name = "ゲーム機セット",
-		desc = "余暇を完璧に満たしてくれるエンタメアイテム。ラクラクで遊べるコンテンツが揃っていて、心配りの行き届いた贈り物である",
+		desc = "余暇を完璧に満たしてくれるエンタメアイテム。手軽に遊べるコンテンツが揃っていて、心配りの行き届いた贈り物である",
 		pt_award = 300,
 		icon = "IslandGoodsIcon/gift09",
 		pay_id = 0,
@@ -7826,7 +7912,7 @@ end)()
 		limited_num = 4,
 		unlock = "",
 		goods_name = "アンティーク装飾品",
-		desc = "時の流れが深み増し、気品を宿したアンティークな調度品。静かに佇むそれが、空間に落ち着きと趣を添えてくれる。",
+		desc = "時の流れで深みが増し、気品を宿したアンティークな調度品。静かに佇むそれが、空間に落ち着きと趣を添えてくれる。",
 		pt_award = 300,
 		icon = "IslandGoodsIcon/gift06",
 		pay_id = 0,
@@ -7908,7 +7994,7 @@ end)()
 		limited_num = 4,
 		unlock = "",
 		goods_name = "高級香水",
-		desc = "簡素な瓶には清らかな香りが秘められている。上品さ格調を映し出す、優雅なフレグランス。",
+		desc = "簡素な瓶には清らかな香りが秘められている。上品さと格調を映し出す、優雅なフレグランス。",
 		pt_award = 300,
 		icon = "IslandGoodsIcon/gift08",
 		pay_id = 0,
@@ -7949,7 +8035,7 @@ end)()
 		limited_num = 4,
 		unlock = "",
 		goods_name = "ゲーム機セット",
-		desc = "余暇を完璧に満たしてくれるエンタメアイテム。ラクラクで遊べるコンテンツが揃っていて、心配りの行き届いた贈り物である",
+		desc = "余暇を完璧に満たしてくれるエンタメアイテム。手軽に遊べるコンテンツが揃っていて、心配りの行き届いた贈り物である",
 		pt_award = 300,
 		icon = "IslandGoodsIcon/gift09",
 		pay_id = 0,
@@ -7990,7 +8076,7 @@ end)()
 		limited_num = 2,
 		unlock = "",
 		goods_name = "ゲーム機セット",
-		desc = "余暇を完璧に満たしてくれるエンタメアイテム。ラクラクで遊べるコンテンツが揃っていて、心配りの行き届いた贈り物である",
+		desc = "余暇を完璧に満たしてくれるエンタメアイテム。手軽に遊べるコンテンツが揃っていて、心配りの行き届いた贈り物である",
 		pt_award = 300,
 		icon = "IslandGoodsIcon/gift09",
 		pay_id = 0,
@@ -9140,7 +9226,7 @@ end)()
 		limited_num = 3,
 		unlock = "",
 		goods_name = "飼養教科書 T1",
-		desc = "飼養テクニックの基礎をまとめた指南教科書。使用すると、キャラクターの採集ステータスが少し上昇する。",
+		desc = "飼養テクニックの基礎をまとめた指南教科書。使用すると、キャラクターの飼養ステータスが少し上昇する。",
 		pt_award = 1000,
 		icon = "IslandProps/item_100051",
 		pay_id = 0,
@@ -9386,7 +9472,7 @@ end)()
 		limited_num = 2,
 		unlock = "",
 		goods_name = "アンティーク装飾品",
-		desc = "時の流れが深み増し、気品を宿したアンティークな調度品。静かに佇むそれが、空間に落ち着きと趣を添えてくれる。",
+		desc = "時の流れで深みが増し、気品を宿したアンティークな調度品。静かに佇むそれが、空間に落ち着きと趣を添えてくれる。",
 		pt_award = 300,
 		icon = "IslandGoodsIcon/gift06",
 		pay_id = 0,
@@ -9468,7 +9554,7 @@ end)()
 		limited_num = 2,
 		unlock = "",
 		goods_name = "高級香水",
-		desc = "簡素な瓶には清らかな香りが秘められている。上品さ格調を映し出す、優雅なフレグランス。",
+		desc = "簡素な瓶には清らかな香りが秘められている。上品さと格調を映し出す、優雅なフレグランス。",
 		pt_award = 300,
 		icon = "IslandGoodsIcon/gift08",
 		pay_id = 0,
@@ -9509,7 +9595,7 @@ end)()
 		limited_num = 2,
 		unlock = "",
 		goods_name = "ゲーム機セット",
-		desc = "余暇を完璧に満たしてくれるエンタメアイテム。ラクラクで遊べるコンテンツが揃っていて、心配りの行き届いた贈り物である",
+		desc = "余暇を完璧に満たしてくれるエンタメアイテム。手軽に遊べるコンテンツが揃っていて、心配りの行き届いた贈り物である",
 		pt_award = 300,
 		icon = "IslandGoodsIcon/gift09",
 		pay_id = 0,
@@ -10042,7 +10128,7 @@ end)()
 		limited_num = 2,
 		unlock = "",
 		goods_name = "アンティーク装飾品",
-		desc = "時の流れが深み増し、気品を宿したアンティークな調度品。静かに佇むそれが、空間に落ち着きと趣を添えてくれる。",
+		desc = "時の流れで深みが増し、気品を宿したアンティークな調度品。静かに佇むそれが、空間に落ち着きと趣を添えてくれる。",
 		pt_award = 300,
 		icon = "IslandGoodsIcon/gift06",
 		pay_id = 0,
@@ -10124,7 +10210,7 @@ end)()
 		limited_num = 2,
 		unlock = "",
 		goods_name = "高級香水",
-		desc = "簡素な瓶には清らかな香りが秘められている。上品さ格調を映し出す、優雅なフレグランス。",
+		desc = "簡素な瓶には清らかな香りが秘められている。上品さと格調を映し出す、優雅なフレグランス。",
 		pt_award = 300,
 		icon = "IslandGoodsIcon/gift08",
 		pay_id = 0,
@@ -10165,7 +10251,7 @@ end)()
 		limited_num = 2,
 		unlock = "",
 		goods_name = "ゲーム機セット",
-		desc = "余暇を完璧に満たしてくれるエンタメアイテム。ラクラクで遊べるコンテンツが揃っていて、心配りの行き届いた贈り物である",
+		desc = "余暇を完璧に満たしてくれるエンタメアイテム。手軽に遊べるコンテンツが揃っていて、心配りの行き届いた贈り物である",
 		pt_award = 300,
 		icon = "IslandGoodsIcon/gift09",
 		pay_id = 0,
@@ -10698,7 +10784,7 @@ end)()
 		limited_num = 4,
 		unlock = "",
 		goods_name = "アンティーク装飾品",
-		desc = "時の流れが深み増し、気品を宿したアンティークな調度品。静かに佇むそれが、空間に落ち着きと趣を添えてくれる。",
+		desc = "時の流れで深みが増し、気品を宿したアンティークな調度品。静かに佇むそれが、空間に落ち着きと趣を添えてくれる。",
 		pt_award = 300,
 		icon = "IslandGoodsIcon/gift06",
 		pay_id = 0,
@@ -10780,7 +10866,7 @@ end)()
 		limited_num = 4,
 		unlock = "",
 		goods_name = "高級香水",
-		desc = "簡素な瓶には清らかな香りが秘められている。上品さ格調を映し出す、優雅なフレグランス。",
+		desc = "簡素な瓶には清らかな香りが秘められている。上品さと格調を映し出す、優雅なフレグランス。",
 		pt_award = 300,
 		icon = "IslandGoodsIcon/gift08",
 		pay_id = 0,
@@ -10821,7 +10907,7 @@ end)()
 		limited_num = 4,
 		unlock = "",
 		goods_name = "ゲーム機セット",
-		desc = "余暇を完璧に満たしてくれるエンタメアイテム。ラクラクで遊べるコンテンツが揃っていて、心配りの行き届いた贈り物である",
+		desc = "余暇を完璧に満たしてくれるエンタメアイテム。手軽に遊べるコンテンツが揃っていて、心配りの行き届いた贈り物である",
 		pt_award = 300,
 		icon = "IslandGoodsIcon/gift09",
 		pay_id = 0,
@@ -13931,6 +14017,3083 @@ end)()
 			}
 		}
 	}
+	pg.base.island_shop_goods[10501] = {
+		goods_have = 0,
+		items_model = "",
+		goods_detail_type = 2,
+		groups_detail_type = "",
+		limited_num = 1,
+		unlock = "",
+		goods_name = "ぷるぷるプリン",
+		desc = "キャラ用浮遊着せ替え「ぷるぷるプリン」を入手可能",
+		pt_award = 1000,
+		icon = "IslandDressIcon/dress_2020010",
+		pay_id = 0,
+		time = "always",
+		remian_show = 1,
+		have_show = 1,
+		discount = 0,
+		limited_show = 1,
+		id = 10501,
+		weight = 0,
+		discount_time = "",
+		model_param = {
+			{
+				0,
+				0
+			},
+			0,
+			1
+		},
+		resource_consume = {
+			41,
+			1,
+			10000
+		},
+		items = {
+			{
+				46,
+				2020010,
+				1
+			}
+		}
+	}
+	pg.base.island_shop_goods[10503] = {
+		goods_have = 0,
+		items_model = "",
+		goods_detail_type = 2,
+		groups_detail_type = "",
+		limited_num = 1,
+		unlock = "",
+		goods_name = "甘夢プレート",
+		desc = "キャラ用足跡着せ替え「甘夢プレート」を入手可能",
+		pt_award = 1000,
+		icon = "IslandDressIcon/dress_2030011",
+		pay_id = 0,
+		time = "always",
+		remian_show = 1,
+		have_show = 1,
+		discount = 0,
+		limited_show = 1,
+		id = 10503,
+		weight = 0,
+		discount_time = "",
+		model_param = {
+			{
+				0,
+				0
+			},
+			0,
+			1
+		},
+		resource_consume = {
+			41,
+			1,
+			10000
+		},
+		items = {
+			{
+				46,
+				2030011,
+				1
+			}
+		}
+	}
+	pg.base.island_shop_goods[10502] = {
+		goods_have = 0,
+		items_model = "",
+		goods_detail_type = 2,
+		groups_detail_type = "",
+		limited_num = 1,
+		unlock = "",
+		goods_name = "リボンのフォーク",
+		desc = "キャラ用背中着せ替え「リボンのフォーク」を入手可能",
+		pt_award = 1000,
+		icon = "IslandDressIcon/dress_2010009",
+		pay_id = 0,
+		time = "always",
+		remian_show = 1,
+		have_show = 1,
+		discount = 0,
+		limited_show = 1,
+		id = 10502,
+		weight = 0,
+		discount_time = "",
+		model_param = {
+			{
+				0,
+				0
+			},
+			0,
+			1
+		},
+		resource_consume = {
+			41,
+			1,
+			10000
+		},
+		items = {
+			{
+				46,
+				2010009,
+				1
+			}
+		}
+	}
+	pg.base.island_shop_goods[10504] = {
+		goods_have = 0,
+		items_model = "",
+		goods_detail_type = 1,
+		groups_detail_type = "",
+		limited_num = 1,
+		unlock = "",
+		goods_name = "稽古",
+		desc = "インタラクトアクション「稽古」",
+		pt_award = 500,
+		icon = "IslandActionIcon/kungfu",
+		pay_id = 0,
+		time = "always",
+		remian_show = 1,
+		have_show = 1,
+		discount = 0,
+		limited_show = 1,
+		id = 10504,
+		weight = 0,
+		discount_time = "",
+		model_param = {
+			{
+				0,
+				0
+			},
+			0,
+			1
+		},
+		resource_consume = {
+			41,
+			1,
+			5000
+		},
+		items = {
+			{
+				51,
+				1031,
+				1
+			}
+		}
+	}
+	pg.base.island_shop_goods[10505] = {
+		goods_have = 0,
+		items_model = "",
+		goods_detail_type = 1,
+		groups_detail_type = "",
+		limited_num = 1,
+		unlock = "",
+		goods_name = "お腹さすさす",
+		desc = "インタラクトアクション「お腹さすさす」",
+		pt_award = 500,
+		icon = "IslandActionIcon/rub",
+		pay_id = 0,
+		time = "always",
+		remian_show = 1,
+		have_show = 1,
+		discount = 0,
+		limited_show = 1,
+		id = 10505,
+		weight = 0,
+		discount_time = "",
+		model_param = {
+			{
+				0,
+				0
+			},
+			0,
+			1
+		},
+		resource_consume = {
+			41,
+			1,
+			5000
+		},
+		items = {
+			{
+				51,
+				1032,
+				1
+			}
+		}
+	}
+	pg.base.island_shop_goods[10506] = {
+		goods_have = 0,
+		items_model = "",
+		goods_detail_type = 1,
+		groups_detail_type = "",
+		limited_num = 1,
+		unlock = "",
+		goods_name = "かわす",
+		desc = "インタラクトアクション「かわす」",
+		pt_award = 500,
+		icon = "IslandActionIcon/dodge",
+		pay_id = 0,
+		time = "always",
+		remian_show = 1,
+		have_show = 1,
+		discount = 0,
+		limited_show = 1,
+		id = 10506,
+		weight = 0,
+		discount_time = "",
+		model_param = {
+			{
+				0,
+				0
+			},
+			0,
+			1
+		},
+		resource_consume = {
+			41,
+			1,
+			5000
+		},
+		items = {
+			{
+				51,
+				1033,
+				1
+			}
+		}
+	}
+	pg.base.island_shop_goods[10507] = {
+		goods_have = 0,
+		items_model = "",
+		goods_detail_type = 1,
+		groups_detail_type = "",
+		limited_num = 1,
+		unlock = "",
+		goods_name = "逆立ち",
+		desc = "インタラクトアクション「逆立ち」",
+		pt_award = 500,
+		icon = "IslandActionIcon/handstand",
+		pay_id = 0,
+		time = "always",
+		remian_show = 1,
+		have_show = 1,
+		discount = 0,
+		limited_show = 1,
+		id = 10507,
+		weight = 0,
+		discount_time = "",
+		model_param = {
+			{
+				0,
+				0
+			},
+			0,
+			1
+		},
+		resource_consume = {
+			41,
+			1,
+			5000
+		},
+		items = {
+			{
+				51,
+				1034,
+				1
+			}
+		}
+	}
+	pg.base.island_shop_goods[10508] = {
+		goods_have = 0,
+		items_model = "",
+		goods_detail_type = 1,
+		groups_detail_type = "",
+		limited_num = 1,
+		unlock = "",
+		goods_name = "華甲-離島権限認証",
+		desc = "華甲の離島権限認証。離島権限認証装置を使用すると、キャラに離島開発エリアの出入り権限を付与できる",
+		pt_award = 20000,
+		icon = "IslandProps/item_200039",
+		pay_id = 0,
+		time = "always",
+		remian_show = 1,
+		have_show = 0,
+		discount = 0,
+		limited_show = 1,
+		id = 10508,
+		weight = 0,
+		discount_time = "",
+		model_param = {
+			{
+				0,
+				0
+			},
+			0,
+			1
+		},
+		resource_consume = {
+			41,
+			1,
+			200000
+		},
+		items = {
+			{
+				44,
+				50602,
+				1
+			}
+		}
+	}
+	pg.base.island_shop_goods[10509] = {
+		goods_have = 0,
+		items_model = "",
+		goods_detail_type = 1,
+		groups_detail_type = "",
+		limited_num = 10,
+		unlock = "",
+		goods_name = "星彩チケット",
+		desc = "星の輝きが煌めくチケット。「星彩賞」にて賞品を抽選可能。「星彩賞」開催期間終了時、自動で消費され抽選が行われます（余ったチケットはダイヤに変換されます）",
+		pt_award = 2000,
+		icon = "IslandGoodsIcon/170000",
+		pay_id = 0,
+		time = "always",
+		remian_show = 1,
+		have_show = 0,
+		discount = 0,
+		limited_show = 1,
+		id = 10509,
+		weight = 0,
+		discount_time = "",
+		model_param = {
+			{
+				0,
+				0
+			},
+			0,
+			1
+		},
+		resource_consume = {
+			41,
+			1,
+			20000
+		},
+		items = {
+			{
+				8,
+				170008,
+				1
+			}
+		}
+	}
+	pg.base.island_shop_goods[10510] = {
+		goods_have = 0,
+		items_model = "",
+		goods_detail_type = 1,
+		groups_detail_type = "",
+		limited_num = 5,
+		unlock = "",
+		goods_name = "小麦",
+		desc = "収穫したばかりの新鮮な小麦。小麦粉を作るのに欠かせない原料。",
+		pt_award = 20,
+		icon = "IslandProps/item_2000",
+		pay_id = 0,
+		time = "always",
+		remian_show = 1,
+		have_show = 0,
+		discount = 0,
+		limited_show = 1,
+		id = 10510,
+		weight = 0,
+		discount_time = "",
+		model_param = {
+			{
+				0,
+				0
+			},
+			0,
+			1
+		},
+		resource_consume = {
+			41,
+			1,
+			200
+		},
+		items = {
+			{
+				41,
+				2000,
+				10
+			}
+		}
+	}
+	pg.base.island_shop_goods[10511] = {
+		goods_have = 0,
+		items_model = "",
+		goods_detail_type = 1,
+		groups_detail_type = "",
+		limited_num = 5,
+		unlock = "",
+		goods_name = "とうもろこし",
+		desc = "黄金色に実ったとうもろこし。畑に甘い香りが漂う。",
+		pt_award = 20,
+		icon = "IslandProps/item_2001",
+		pay_id = 0,
+		time = "always",
+		remian_show = 1,
+		have_show = 0,
+		discount = 0,
+		limited_show = 1,
+		id = 10511,
+		weight = 0,
+		discount_time = "",
+		model_param = {
+			{
+				0,
+				0
+			},
+			0,
+			1
+		},
+		resource_consume = {
+			41,
+			1,
+			200
+		},
+		items = {
+			{
+				41,
+				2001,
+				10
+			}
+		}
+	}
+	pg.base.island_shop_goods[10512] = {
+		goods_have = 0,
+		items_model = "",
+		goods_detail_type = 1,
+		groups_detail_type = "",
+		limited_num = 5,
+		unlock = "",
+		goods_name = "牧草",
+		desc = "高品質な牧草。牧場に溢れるほどの活気を！",
+		pt_award = 20,
+		icon = "IslandProps/item_2008",
+		pay_id = 0,
+		time = "always",
+		remian_show = 1,
+		have_show = 0,
+		discount = 0,
+		limited_show = 1,
+		id = 10512,
+		weight = 0,
+		discount_time = "",
+		model_param = {
+			{
+				0,
+				0
+			},
+			0,
+			1
+		},
+		resource_consume = {
+			41,
+			1,
+			200
+		},
+		items = {
+			{
+				41,
+				2008,
+				10
+			}
+		}
+	}
+	pg.base.island_shop_goods[10513] = {
+		goods_have = 0,
+		items_model = "",
+		goods_detail_type = 1,
+		groups_detail_type = "",
+		limited_num = 5,
+		unlock = "",
+		goods_name = "米",
+		desc = "白くて上質な米。豊富なでんぷんと穀物たんぱく質を含む。",
+		pt_award = 20,
+		icon = "IslandProps/item_2002",
+		pay_id = 0,
+		time = "always",
+		remian_show = 1,
+		have_show = 0,
+		discount = 0,
+		limited_show = 1,
+		id = 10513,
+		weight = 0,
+		discount_time = "",
+		model_param = {
+			{
+				0,
+				0
+			},
+			0,
+			1
+		},
+		resource_consume = {
+			41,
+			1,
+			200
+		},
+		items = {
+			{
+				41,
+				2002,
+				10
+			}
+		}
+	}
+	pg.base.island_shop_goods[10514] = {
+		goods_have = 0,
+		items_model = "",
+		goods_detail_type = 1,
+		groups_detail_type = "",
+		limited_num = 5,
+		unlock = "",
+		goods_name = "白菜",
+		desc = "みずみずしくておいしい白菜。採れたて新鮮！",
+		pt_award = 20,
+		icon = "IslandProps/item_2003",
+		pay_id = 0,
+		time = "always",
+		remian_show = 1,
+		have_show = 0,
+		discount = 0,
+		limited_show = 1,
+		id = 10514,
+		weight = 0,
+		discount_time = "",
+		model_param = {
+			{
+				0,
+				0
+			},
+			0,
+			1
+		},
+		resource_consume = {
+			41,
+			1,
+			200
+		},
+		items = {
+			{
+				41,
+				2003,
+				10
+			}
+		}
+	}
+	pg.base.island_shop_goods[10515] = {
+		goods_have = 0,
+		items_model = "",
+		goods_detail_type = 1,
+		groups_detail_type = "",
+		limited_num = 5,
+		unlock = "",
+		goods_name = "大豆",
+		desc = "丸くてふっくら、たんぱく質が豊富。料理だけでなく工業にもいろいろ使われる。",
+		pt_award = 20,
+		icon = "IslandProps/item_2006",
+		pay_id = 0,
+		time = "always",
+		remian_show = 1,
+		have_show = 0,
+		discount = 0,
+		limited_show = 1,
+		id = 10515,
+		weight = 0,
+		discount_time = "",
+		model_param = {
+			{
+				0,
+				0
+			},
+			0,
+			1
+		},
+		resource_consume = {
+			41,
+			1,
+			200
+		},
+		items = {
+			{
+				41,
+				2006,
+				10
+			}
+		}
+	}
+	pg.base.island_shop_goods[10516] = {
+		goods_have = 0,
+		items_model = "",
+		goods_detail_type = 1,
+		groups_detail_type = "",
+		limited_num = 5,
+		unlock = "",
+		goods_name = "じゃがいも",
+		desc = "野菜界のでんぷん代表。様々な形に調理できる。",
+		pt_award = 40,
+		icon = "IslandProps/item_2005",
+		pay_id = 0,
+		time = "always",
+		remian_show = 1,
+		have_show = 0,
+		discount = 0,
+		limited_show = 1,
+		id = 10516,
+		weight = 0,
+		discount_time = "",
+		model_param = {
+			{
+				0,
+				0
+			},
+			0,
+			1
+		},
+		resource_consume = {
+			41,
+			1,
+			400
+		},
+		items = {
+			{
+				41,
+				2005,
+				10
+			}
+		}
+	}
+	pg.base.island_shop_goods[10517] = {
+		goods_have = 0,
+		items_model = "",
+		goods_detail_type = 1,
+		groups_detail_type = "",
+		limited_num = 25,
+		unlock = "",
+		goods_name = "離島EXP教科書 T1",
+		desc = "離島生活の基礎知識をまとめた指南教科書。使用すると、キャラクターの離島EXPが少し増加する。",
+		pt_award = 20,
+		icon = "IslandProps/item_100001",
+		pay_id = 0,
+		time = "always",
+		remian_show = 1,
+		have_show = 0,
+		discount = 0,
+		limited_show = 1,
+		id = 10517,
+		weight = 0,
+		discount_time = "",
+		model_param = {
+			{
+				0,
+				0
+			},
+			0,
+			1
+		},
+		resource_consume = {
+			41,
+			1,
+			200
+		},
+		items = {
+			{
+				41,
+				100001,
+				1
+			}
+		}
+	}
+	pg.base.island_shop_goods[10518] = {
+		goods_have = 0,
+		items_model = "",
+		goods_detail_type = 1,
+		groups_detail_type = "",
+		limited_num = 5,
+		unlock = "",
+		goods_name = "離島EXP教科書 T2",
+		desc = "離島生活の経験を詳しくまとめた指南教科書。使用すると、キャラクターの離島EXPがそこそこ増加する。",
+		pt_award = 400,
+		icon = "IslandProps/item_100002",
+		pay_id = 0,
+		time = "always",
+		remian_show = 1,
+		have_show = 0,
+		discount = 0,
+		limited_show = 1,
+		id = 10518,
+		weight = 0,
+		discount_time = "",
+		model_param = {
+			{
+				0,
+				0
+			},
+			0,
+			1
+		},
+		resource_consume = {
+			41,
+			1,
+			4000
+		},
+		items = {
+			{
+				41,
+				100002,
+				1
+			}
+		}
+	}
+	pg.base.island_shop_goods[10519] = {
+		goods_have = 0,
+		items_model = "",
+		goods_detail_type = 1,
+		groups_detail_type = "",
+		limited_num = 5,
+		unlock = "",
+		goods_name = "離島EXP教科書 T3",
+		desc = "離島生活の経験を豊富にまとめた指南教科書。使用すると、キャラクターの離島EXPが大幅に増加する。",
+		pt_award = 1600,
+		icon = "IslandProps/item_100003",
+		pay_id = 0,
+		time = "always",
+		remian_show = 1,
+		have_show = 0,
+		discount = 0,
+		limited_show = 1,
+		id = 10519,
+		weight = 0,
+		discount_time = "",
+		model_param = {
+			{
+				0,
+				0
+			},
+			0,
+			1
+		},
+		resource_consume = {
+			41,
+			1,
+			16000
+		},
+		items = {
+			{
+				41,
+				100003,
+				1
+			}
+		}
+	}
+	pg.base.island_shop_goods[10520] = {
+		goods_have = 0,
+		items_model = "",
+		goods_detail_type = 1,
+		groups_detail_type = "",
+		limited_num = 5,
+		unlock = "",
+		goods_name = "生産スキル教科書 T1",
+		desc = "生産物スキルの基礎知識をまとめた指南教科書。使用すると、キャラクターの離島開発における生産物スキルレベルが少し上昇する。",
+		pt_award = 200,
+		icon = "IslandProps/item_100101",
+		pay_id = 0,
+		time = "always",
+		remian_show = 1,
+		have_show = 0,
+		discount = 0,
+		limited_show = 1,
+		id = 10520,
+		weight = 0,
+		discount_time = "",
+		model_param = {
+			{
+				0,
+				0
+			},
+			0,
+			1
+		},
+		resource_consume = {
+			41,
+			1,
+			2000
+		},
+		items = {
+			{
+				41,
+				100101,
+				1
+			}
+		}
+	}
+	pg.base.island_shop_goods[10521] = {
+		goods_have = 0,
+		items_model = "",
+		goods_detail_type = 1,
+		groups_detail_type = "",
+		limited_num = 5,
+		unlock = "",
+		goods_name = "生産スキル教科書 T2",
+		desc = "生産物スキルの知識を詳しくまとめた指南教科書。使用すると、キャラクターの離島開発における生産物スキルレベルがそこそこ上昇する。",
+		pt_award = 400,
+		icon = "IslandProps/item_100102",
+		pay_id = 0,
+		time = "always",
+		remian_show = 1,
+		have_show = 0,
+		discount = 0,
+		limited_show = 1,
+		id = 10521,
+		weight = 0,
+		discount_time = "",
+		model_param = {
+			{
+				0,
+				0
+			},
+			0,
+			1
+		},
+		resource_consume = {
+			41,
+			1,
+			4000
+		},
+		items = {
+			{
+				41,
+				100102,
+				1
+			}
+		}
+	}
+	pg.base.island_shop_goods[10522] = {
+		goods_have = 0,
+		items_model = "",
+		goods_detail_type = 1,
+		groups_detail_type = "",
+		limited_num = 6,
+		unlock = "",
+		goods_name = "生産スキル教科書 T3",
+		desc = "生産物スキルの知識を豊富にまとめた指南教科書。使用すると、キャラクターの離島開発における生産物スキルレベルが大幅に上昇する。",
+		pt_award = 1500,
+		icon = "IslandProps/item_100103",
+		pay_id = 0,
+		time = "always",
+		remian_show = 1,
+		have_show = 0,
+		discount = 0,
+		limited_show = 1,
+		id = 10522,
+		weight = 0,
+		discount_time = "",
+		model_param = {
+			{
+				0,
+				0
+			},
+			0,
+			1
+		},
+		resource_consume = {
+			41,
+			1,
+			15000
+		},
+		items = {
+			{
+				41,
+				100103,
+				1
+			}
+		}
+	}
+	pg.base.island_shop_goods[10523] = {
+		goods_have = 0,
+		items_model = "",
+		goods_detail_type = 1,
+		groups_detail_type = "",
+		limited_num = 2,
+		unlock = "",
+		goods_name = "離島開発結晶",
+		desc = "離島開発経験の結晶。キャラの突破に必要な素材",
+		pt_award = 2000,
+		icon = "IslandProps/item_100201",
+		pay_id = 0,
+		time = "always",
+		remian_show = 1,
+		have_show = 0,
+		discount = 0,
+		limited_show = 1,
+		id = 10523,
+		weight = 0,
+		discount_time = "",
+		model_param = {
+			{
+				0,
+				0
+			},
+			0,
+			1
+		},
+		resource_consume = {
+			41,
+			1,
+			20000
+		},
+		items = {
+			{
+				41,
+				100201,
+				1
+			}
+		}
+	}
+	pg.base.island_shop_goods[10524] = {
+		goods_have = 0,
+		items_model = "",
+		goods_detail_type = 1,
+		groups_detail_type = "",
+		limited_num = 5,
+		unlock = "",
+		goods_name = "経営教科書 T1",
+		desc = "経営テクニックの基礎をまとめた指南教科書。使用すると、キャラクターの経営ステータスが少し上昇する。",
+		pt_award = 1000,
+		icon = "IslandProps/item_100011",
+		pay_id = 0,
+		time = "always",
+		remian_show = 1,
+		have_show = 0,
+		discount = 0,
+		limited_show = 1,
+		id = 10524,
+		weight = 0,
+		discount_time = "",
+		model_param = {
+			{
+				0,
+				0
+			},
+			0,
+			1
+		},
+		resource_consume = {
+			41,
+			1,
+			10000
+		},
+		items = {
+			{
+				41,
+				100011,
+				1
+			}
+		}
+	}
+	pg.base.island_shop_goods[10525] = {
+		goods_have = 0,
+		items_model = "",
+		goods_detail_type = 1,
+		groups_detail_type = "",
+		limited_num = 5,
+		unlock = "",
+		goods_name = "農業教科書 T1",
+		desc = "農業テクニックの基礎をまとめた指南教科書。使用すると、キャラクターの農業ステータスが少し上昇する。",
+		pt_award = 1000,
+		icon = "IslandProps/item_100021",
+		pay_id = 0,
+		time = "always",
+		remian_show = 1,
+		have_show = 0,
+		discount = 0,
+		limited_show = 1,
+		id = 10525,
+		weight = 0,
+		discount_time = "",
+		model_param = {
+			{
+				0,
+				0
+			},
+			0,
+			1
+		},
+		resource_consume = {
+			41,
+			1,
+			10000
+		},
+		items = {
+			{
+				41,
+				100021,
+				1
+			}
+		}
+	}
+	pg.base.island_shop_goods[10526] = {
+		goods_have = 0,
+		items_model = "",
+		goods_detail_type = 1,
+		groups_detail_type = "",
+		limited_num = 5,
+		unlock = "",
+		goods_name = "制作教科書 T1",
+		desc = "制作テクニックの基礎をまとめた指南教科書。使用すると、キャラクターの制作ステータスが少し上昇する。",
+		pt_award = 1000,
+		icon = "IslandProps/item_100031",
+		pay_id = 0,
+		time = "always",
+		remian_show = 1,
+		have_show = 0,
+		discount = 0,
+		limited_show = 1,
+		id = 10526,
+		weight = 0,
+		discount_time = "",
+		model_param = {
+			{
+				0,
+				0
+			},
+			0,
+			1
+		},
+		resource_consume = {
+			41,
+			1,
+			10000
+		},
+		items = {
+			{
+				41,
+				100031,
+				1
+			}
+		}
+	}
+	pg.base.island_shop_goods[10527] = {
+		goods_have = 0,
+		items_model = "",
+		goods_detail_type = 1,
+		groups_detail_type = "",
+		limited_num = 5,
+		unlock = "",
+		goods_name = "採集教科書 T1",
+		desc = "採集テクニックの基礎をまとめた指南教科書。使用すると、キャラクターの採集ステータスが少し上昇する。",
+		pt_award = 1000,
+		icon = "IslandProps/item_100041",
+		pay_id = 0,
+		time = "always",
+		remian_show = 1,
+		have_show = 0,
+		discount = 0,
+		limited_show = 1,
+		id = 10527,
+		weight = 0,
+		discount_time = "",
+		model_param = {
+			{
+				0,
+				0
+			},
+			0,
+			1
+		},
+		resource_consume = {
+			41,
+			1,
+			10000
+		},
+		items = {
+			{
+				41,
+				100041,
+				1
+			}
+		}
+	}
+	pg.base.island_shop_goods[10528] = {
+		goods_have = 0,
+		items_model = "",
+		goods_detail_type = 1,
+		groups_detail_type = "",
+		limited_num = 5,
+		unlock = "",
+		goods_name = "飼養教科書 T1",
+		desc = "飼養テクニックの基礎をまとめた指南教科書。使用すると、キャラクターの飼養ステータスが少し上昇する。",
+		pt_award = 1000,
+		icon = "IslandProps/item_100051",
+		pay_id = 0,
+		time = "always",
+		remian_show = 1,
+		have_show = 0,
+		discount = 0,
+		limited_show = 1,
+		id = 10528,
+		weight = 0,
+		discount_time = "",
+		model_param = {
+			{
+				0,
+				0
+			},
+			0,
+			1
+		},
+		resource_consume = {
+			41,
+			1,
+			10000
+		},
+		items = {
+			{
+				41,
+				100051,
+				1
+			}
+		}
+	}
+	pg.base.island_shop_goods[10529] = {
+		goods_have = 0,
+		items_model = "",
+		goods_detail_type = 1,
+		groups_detail_type = "",
+		limited_num = 5,
+		unlock = "",
+		goods_name = "料理教科書 T1",
+		desc = "料理テクニックの基礎をまとめた指南教科書。使用すると、キャラクターの料理ステータスが少し上昇する。",
+		pt_award = 1000,
+		icon = "IslandProps/item_100061",
+		pay_id = 0,
+		time = "always",
+		remian_show = 1,
+		have_show = 0,
+		discount = 0,
+		limited_show = 1,
+		id = 10529,
+		weight = 0,
+		discount_time = "",
+		model_param = {
+			{
+				0,
+				0
+			},
+			0,
+			1
+		},
+		resource_consume = {
+			41,
+			1,
+			10000
+		},
+		items = {
+			{
+				41,
+				100061,
+				1
+			}
+		}
+	}
+	pg.base.island_shop_goods[10530] = {
+		goods_have = 0,
+		items_model = "",
+		goods_detail_type = 1,
+		groups_detail_type = "",
+		limited_num = 2,
+		unlock = "",
+		goods_name = "経営教科書 T2",
+		desc = "経営テクニックを詳しく解説した指南教科書。使用すると、キャラクターの経営ステータスがそこそこ上昇する。",
+		pt_award = 4000,
+		icon = "IslandProps/item_100012",
+		pay_id = 0,
+		time = "always",
+		remian_show = 1,
+		have_show = 0,
+		discount = 0,
+		limited_show = 1,
+		id = 10530,
+		weight = 0,
+		discount_time = "",
+		model_param = {
+			{
+				0,
+				0
+			},
+			0,
+			1
+		},
+		resource_consume = {
+			41,
+			1,
+			40000
+		},
+		items = {
+			{
+				41,
+				100012,
+				1
+			}
+		}
+	}
+	pg.base.island_shop_goods[10531] = {
+		goods_have = 0,
+		items_model = "",
+		goods_detail_type = 1,
+		groups_detail_type = "",
+		limited_num = 2,
+		unlock = "",
+		goods_name = "農業教科書 T2",
+		desc = "農業テクニックを詳しく解説した指南教科書。使用すると、キャラクターの農業ステータスがそこそこ上昇する。",
+		pt_award = 4000,
+		icon = "IslandProps/item_100022",
+		pay_id = 0,
+		time = "always",
+		remian_show = 1,
+		have_show = 0,
+		discount = 0,
+		limited_show = 1,
+		id = 10531,
+		weight = 0,
+		discount_time = "",
+		model_param = {
+			{
+				0,
+				0
+			},
+			0,
+			1
+		},
+		resource_consume = {
+			41,
+			1,
+			40000
+		},
+		items = {
+			{
+				41,
+				100022,
+				1
+			}
+		}
+	}
+	pg.base.island_shop_goods[10532] = {
+		goods_have = 0,
+		items_model = "",
+		goods_detail_type = 1,
+		groups_detail_type = "",
+		limited_num = 2,
+		unlock = "",
+		goods_name = "制作教科書 T2",
+		desc = "制作テクニックを詳しく解説した指南教科書。使用すると、キャラクターの制作ステータスがそこそこ上昇する。",
+		pt_award = 4000,
+		icon = "IslandProps/item_100032",
+		pay_id = 0,
+		time = "always",
+		remian_show = 1,
+		have_show = 0,
+		discount = 0,
+		limited_show = 1,
+		id = 10532,
+		weight = 0,
+		discount_time = "",
+		model_param = {
+			{
+				0,
+				0
+			},
+			0,
+			1
+		},
+		resource_consume = {
+			41,
+			1,
+			40000
+		},
+		items = {
+			{
+				41,
+				100032,
+				1
+			}
+		}
+	}
+	pg.base.island_shop_goods[10533] = {
+		goods_have = 0,
+		items_model = "",
+		goods_detail_type = 1,
+		groups_detail_type = "",
+		limited_num = 2,
+		unlock = "",
+		goods_name = "採集教科書 T2",
+		desc = "採集テクニックを詳しく解説した指南教科書。使用すると、キャラクターの採集ステータスがそこそこ上昇する。",
+		pt_award = 4000,
+		icon = "IslandProps/item_100042",
+		pay_id = 0,
+		time = "always",
+		remian_show = 1,
+		have_show = 0,
+		discount = 0,
+		limited_show = 1,
+		id = 10533,
+		weight = 0,
+		discount_time = "",
+		model_param = {
+			{
+				0,
+				0
+			},
+			0,
+			1
+		},
+		resource_consume = {
+			41,
+			1,
+			40000
+		},
+		items = {
+			{
+				41,
+				100042,
+				1
+			}
+		}
+	}
+	pg.base.island_shop_goods[10534] = {
+		goods_have = 0,
+		items_model = "",
+		goods_detail_type = 1,
+		groups_detail_type = "",
+		limited_num = 2,
+		unlock = "",
+		goods_name = "飼養教科書 T2",
+		desc = "飼養テクニックを詳しく解説した指南教科書。使用すると、キャラクターの飼養ステータスがそこそこ上昇する。",
+		pt_award = 4000,
+		icon = "IslandProps/item_100052",
+		pay_id = 0,
+		time = "always",
+		remian_show = 1,
+		have_show = 0,
+		discount = 0,
+		limited_show = 1,
+		id = 10534,
+		weight = 0,
+		discount_time = "",
+		model_param = {
+			{
+				0,
+				0
+			},
+			0,
+			1
+		},
+		resource_consume = {
+			41,
+			1,
+			40000
+		},
+		items = {
+			{
+				41,
+				100052,
+				1
+			}
+		}
+	}
+	pg.base.island_shop_goods[10535] = {
+		goods_have = 0,
+		items_model = "",
+		goods_detail_type = 1,
+		groups_detail_type = "",
+		limited_num = 2,
+		unlock = "",
+		goods_name = "料理教科書 T2",
+		desc = "料理テクニックを詳しく解説した指南教科書。使用すると、キャラクターの料理ステータスがそこそこ上昇する。",
+		pt_award = 4000,
+		icon = "IslandProps/item_100062",
+		pay_id = 0,
+		time = "always",
+		remian_show = 1,
+		have_show = 0,
+		discount = 0,
+		limited_show = 1,
+		id = 10535,
+		weight = 0,
+		discount_time = "",
+		model_param = {
+			{
+				0,
+				0
+			},
+			0,
+			1
+		},
+		resource_consume = {
+			41,
+			1,
+			40000
+		},
+		items = {
+			{
+				41,
+				100062,
+				1
+			}
+		}
+	}
+	pg.base.island_shop_goods[10536] = {
+		goods_have = 0,
+		items_model = "",
+		goods_detail_type = 1,
+		groups_detail_type = "",
+		limited_num = 2,
+		unlock = "",
+		goods_name = "特装本",
+		desc = "インクの香りとノスタルジックな雰囲気を纏うハードカバー本。机上に置き、幾度となく読み返すにふさわしい一冊。",
+		pt_award = 300,
+		icon = "IslandGoodsIcon/gift02",
+		pay_id = 0,
+		time = "always",
+		remian_show = 1,
+		have_show = 0,
+		discount = 0,
+		limited_show = 1,
+		id = 10536,
+		weight = 0,
+		discount_time = "",
+		model_param = {
+			{
+				0,
+				0
+			},
+			0,
+			1
+		},
+		resource_consume = {
+			41,
+			1,
+			3000
+		},
+		items = {
+			{
+				2,
+				180002,
+				1
+			}
+		}
+	}
+	pg.base.island_shop_goods[10537] = {
+		goods_have = 0,
+		items_model = "",
+		goods_detail_type = 1,
+		groups_detail_type = "",
+		limited_num = 2,
+		unlock = "",
+		goods_name = "花束",
+		desc = "華やかで新鮮な花々。自然の生命力と明るい彩りがあふれ、日々に心地よい喜びを運んでくれる。",
+		pt_award = 300,
+		icon = "IslandGoodsIcon/gift03",
+		pay_id = 0,
+		time = "always",
+		remian_show = 1,
+		have_show = 0,
+		discount = 0,
+		limited_show = 1,
+		id = 10537,
+		weight = 0,
+		discount_time = "",
+		model_param = {
+			{
+				0,
+				0
+			},
+			0,
+			1
+		},
+		resource_consume = {
+			41,
+			1,
+			3000
+		},
+		items = {
+			{
+				2,
+				180003,
+				1
+			}
+		}
+	}
+	pg.base.island_shop_goods[10538] = {
+		goods_have = 0,
+		items_model = "",
+		goods_detail_type = 1,
+		groups_detail_type = "",
+		limited_num = 2,
+		unlock = "",
+		goods_name = "儀式剣",
+		desc = "流麗なシルエットが金属の冷たい輝きを放つ礼装の剣。秩序と威厳を無言で物語る。",
+		pt_award = 300,
+		icon = "IslandGoodsIcon/gift04",
+		pay_id = 0,
+		time = "always",
+		remian_show = 1,
+		have_show = 0,
+		discount = 0,
+		limited_show = 1,
+		id = 10538,
+		weight = 0,
+		discount_time = "",
+		model_param = {
+			{
+				0,
+				0
+			},
+			0,
+			1
+		},
+		resource_consume = {
+			41,
+			1,
+			3000
+		},
+		items = {
+			{
+				2,
+				180004,
+				1
+			}
+		}
+	}
+	pg.base.island_shop_goods[10539] = {
+		goods_have = 0,
+		items_model = "",
+		goods_detail_type = 1,
+		groups_detail_type = "",
+		limited_num = 2,
+		unlock = "",
+		goods_name = "ふわふわのぬいぐるみ",
+		desc = "ふわふわ手触りの愛らしいぬいぐるみ。抱きしめれば、もふもふで温かい感触と無邪気な笑顔が心を和ませてくれる。",
+		pt_award = 300,
+		icon = "IslandGoodsIcon/gift05",
+		pay_id = 0,
+		time = "always",
+		remian_show = 1,
+		have_show = 0,
+		discount = 0,
+		limited_show = 1,
+		id = 10539,
+		weight = 0,
+		discount_time = "",
+		model_param = {
+			{
+				0,
+				0
+			},
+			0,
+			1
+		},
+		resource_consume = {
+			41,
+			1,
+			3000
+		},
+		items = {
+			{
+				2,
+				180005,
+				1
+			}
+		}
+	}
+	pg.base.island_shop_goods[10540] = {
+		goods_have = 0,
+		items_model = "",
+		goods_detail_type = 1,
+		groups_detail_type = "",
+		limited_num = 2,
+		unlock = "",
+		goods_name = "アンティーク装飾品",
+		desc = "時の流れで深みが増し、気品を宿したアンティークな調度品。静かに佇むそれが、空間に落ち着きと趣を添えてくれる。",
+		pt_award = 300,
+		icon = "IslandGoodsIcon/gift06",
+		pay_id = 0,
+		time = "always",
+		remian_show = 1,
+		have_show = 0,
+		discount = 0,
+		limited_show = 1,
+		id = 10540,
+		weight = 0,
+		discount_time = "",
+		model_param = {
+			{
+				0,
+				0
+			},
+			0,
+			1
+		},
+		resource_consume = {
+			41,
+			1,
+			3000
+		},
+		items = {
+			{
+				2,
+				180006,
+				1
+			}
+		}
+	}
+	pg.base.island_shop_goods[10541] = {
+		goods_have = 0,
+		items_model = "",
+		goods_detail_type = 1,
+		groups_detail_type = "",
+		limited_num = 2,
+		unlock = "",
+		goods_name = "精緻なアクセサリー",
+		desc = "華美ではないものの、繊細で細やかな技に輝く一品。日常の小さな瞬間を明るく照らすだろう。",
+		pt_award = 300,
+		icon = "IslandGoodsIcon/gift07",
+		pay_id = 0,
+		time = "always",
+		remian_show = 1,
+		have_show = 0,
+		discount = 0,
+		limited_show = 1,
+		id = 10541,
+		weight = 0,
+		discount_time = "",
+		model_param = {
+			{
+				0,
+				0
+			},
+			0,
+			1
+		},
+		resource_consume = {
+			41,
+			1,
+			3000
+		},
+		items = {
+			{
+				2,
+				180007,
+				1
+			}
+		}
+	}
+	pg.base.island_shop_goods[10542] = {
+		goods_have = 0,
+		items_model = "",
+		goods_detail_type = 1,
+		groups_detail_type = "",
+		limited_num = 2,
+		unlock = "",
+		goods_name = "高級香水",
+		desc = "簡素な瓶には清らかな香りが秘められている。上品さと格調を映し出す、優雅なフレグランス。",
+		pt_award = 300,
+		icon = "IslandGoodsIcon/gift08",
+		pay_id = 0,
+		time = "always",
+		remian_show = 1,
+		have_show = 0,
+		discount = 0,
+		limited_show = 1,
+		id = 10542,
+		weight = 0,
+		discount_time = "",
+		model_param = {
+			{
+				0,
+				0
+			},
+			0,
+			1
+		},
+		resource_consume = {
+			41,
+			1,
+			3000
+		},
+		items = {
+			{
+				2,
+				180008,
+				1
+			}
+		}
+	}
+	pg.base.island_shop_goods[10543] = {
+		goods_have = 0,
+		items_model = "",
+		goods_detail_type = 1,
+		groups_detail_type = "",
+		limited_num = 2,
+		unlock = "",
+		goods_name = "ゲーム機セット",
+		desc = "余暇を完璧に満たしてくれるエンタメアイテム。手軽に遊べるコンテンツが揃っていて、心配りの行き届いた贈り物である",
+		pt_award = 300,
+		icon = "IslandGoodsIcon/gift09",
+		pay_id = 0,
+		time = "always",
+		remian_show = 1,
+		have_show = 0,
+		discount = 0,
+		limited_show = 1,
+		id = 10543,
+		weight = 0,
+		discount_time = "",
+		model_param = {
+			{
+				0,
+				0
+			},
+			0,
+			1
+		},
+		resource_consume = {
+			41,
+			1,
+			3000
+		},
+		items = {
+			{
+				2,
+				180009,
+				1
+			}
+		}
+	}
+	pg.base.island_shop_goods[10544] = {
+		goods_have = 0,
+		items_model = "",
+		goods_detail_type = 1,
+		groups_detail_type = "",
+		limited_num = 10,
+		unlock = "",
+		goods_name = "星彩チケット",
+		desc = "星の輝きが煌めくチケット。「星彩賞」にて賞品を抽選可能。「星彩賞」開催期間終了時、自動で消費され抽選が行われます（余ったチケットはダイヤに変換されます）",
+		pt_award = 2000,
+		icon = "IslandGoodsIcon/170000",
+		pay_id = 0,
+		time = "always",
+		remian_show = 1,
+		have_show = 0,
+		discount = 0,
+		limited_show = 1,
+		id = 10544,
+		weight = 0,
+		discount_time = "",
+		model_param = {
+			{
+				0,
+				0
+			},
+			0,
+			1
+		},
+		resource_consume = {
+			41,
+			1,
+			20000
+		},
+		items = {
+			{
+				8,
+				170008,
+				1
+			}
+		}
+	}
+	pg.base.island_shop_goods[10545] = {
+		goods_have = 0,
+		items_model = "",
+		goods_detail_type = 1,
+		groups_detail_type = "",
+		limited_num = 25,
+		unlock = "",
+		goods_name = "離島EXP教科書 T1",
+		desc = "離島生活の基礎知識をまとめた指南教科書。使用すると、キャラクターの離島EXPが少し増加する。",
+		pt_award = 20,
+		icon = "IslandProps/item_100001",
+		pay_id = 0,
+		time = "always",
+		remian_show = 1,
+		have_show = 0,
+		discount = 0,
+		limited_show = 1,
+		id = 10545,
+		weight = 0,
+		discount_time = "",
+		model_param = {
+			{
+				0,
+				0
+			},
+			0,
+			1
+		},
+		resource_consume = {
+			41,
+			1,
+			200
+		},
+		items = {
+			{
+				41,
+				100001,
+				1
+			}
+		}
+	}
+	pg.base.island_shop_goods[10546] = {
+		goods_have = 0,
+		items_model = "",
+		goods_detail_type = 1,
+		groups_detail_type = "",
+		limited_num = 10,
+		unlock = "",
+		goods_name = "離島EXP教科書 T2",
+		desc = "離島生活の経験を詳しくまとめた指南教科書。使用すると、キャラクターの離島EXPがそこそこ増加する。",
+		pt_award = 400,
+		icon = "IslandProps/item_100002",
+		pay_id = 0,
+		time = "always",
+		remian_show = 1,
+		have_show = 0,
+		discount = 0,
+		limited_show = 1,
+		id = 10546,
+		weight = 0,
+		discount_time = "",
+		model_param = {
+			{
+				0,
+				0
+			},
+			0,
+			1
+		},
+		resource_consume = {
+			41,
+			1,
+			4000
+		},
+		items = {
+			{
+				41,
+				100002,
+				1
+			}
+		}
+	}
+	pg.base.island_shop_goods[10547] = {
+		goods_have = 0,
+		items_model = "",
+		goods_detail_type = 1,
+		groups_detail_type = "",
+		limited_num = 5,
+		unlock = "",
+		goods_name = "離島EXP教科書 T3",
+		desc = "離島生活の経験を豊富にまとめた指南教科書。使用すると、キャラクターの離島EXPが大幅に増加する。",
+		pt_award = 1600,
+		icon = "IslandProps/item_100003",
+		pay_id = 0,
+		time = "always",
+		remian_show = 1,
+		have_show = 0,
+		discount = 0,
+		limited_show = 1,
+		id = 10547,
+		weight = 0,
+		discount_time = "",
+		model_param = {
+			{
+				0,
+				0
+			},
+			0,
+			1
+		},
+		resource_consume = {
+			41,
+			1,
+			16000
+		},
+		items = {
+			{
+				41,
+				100003,
+				1
+			}
+		}
+	}
+	pg.base.island_shop_goods[10548] = {
+		goods_have = 0,
+		items_model = "",
+		goods_detail_type = 1,
+		groups_detail_type = "",
+		limited_num = 5,
+		unlock = "",
+		goods_name = "生産スキル教科書 T1",
+		desc = "生産物スキルの基礎知識をまとめた指南教科書。使用すると、キャラクターの離島開発における生産物スキルレベルが少し上昇する。",
+		pt_award = 200,
+		icon = "IslandProps/item_100101",
+		pay_id = 0,
+		time = "always",
+		remian_show = 1,
+		have_show = 0,
+		discount = 0,
+		limited_show = 1,
+		id = 10548,
+		weight = 0,
+		discount_time = "",
+		model_param = {
+			{
+				0,
+				0
+			},
+			0,
+			1
+		},
+		resource_consume = {
+			41,
+			1,
+			2000
+		},
+		items = {
+			{
+				41,
+				100101,
+				1
+			}
+		}
+	}
+	pg.base.island_shop_goods[10549] = {
+		goods_have = 0,
+		items_model = "",
+		goods_detail_type = 1,
+		groups_detail_type = "",
+		limited_num = 5,
+		unlock = "",
+		goods_name = "生産スキル教科書 T2",
+		desc = "生産物スキルの知識を詳しくまとめた指南教科書。使用すると、キャラクターの離島開発における生産物スキルレベルがそこそこ上昇する。",
+		pt_award = 400,
+		icon = "IslandProps/item_100102",
+		pay_id = 0,
+		time = "always",
+		remian_show = 1,
+		have_show = 0,
+		discount = 0,
+		limited_show = 1,
+		id = 10549,
+		weight = 0,
+		discount_time = "",
+		model_param = {
+			{
+				0,
+				0
+			},
+			0,
+			1
+		},
+		resource_consume = {
+			41,
+			1,
+			4000
+		},
+		items = {
+			{
+				41,
+				100102,
+				1
+			}
+		}
+	}
+	pg.base.island_shop_goods[10550] = {
+		goods_have = 0,
+		items_model = "",
+		goods_detail_type = 1,
+		groups_detail_type = "",
+		limited_num = 8,
+		unlock = "",
+		goods_name = "生産スキル教科書 T3",
+		desc = "生産物スキルの知識を豊富にまとめた指南教科書。使用すると、キャラクターの離島開発における生産物スキルレベルが大幅に上昇する。",
+		pt_award = 1500,
+		icon = "IslandProps/item_100103",
+		pay_id = 0,
+		time = "always",
+		remian_show = 1,
+		have_show = 0,
+		discount = 0,
+		limited_show = 1,
+		id = 10550,
+		weight = 0,
+		discount_time = "",
+		model_param = {
+			{
+				0,
+				0
+			},
+			0,
+			1
+		},
+		resource_consume = {
+			41,
+			1,
+			15000
+		},
+		items = {
+			{
+				41,
+				100103,
+				1
+			}
+		}
+	}
+	pg.base.island_shop_goods[10551] = {
+		goods_have = 0,
+		items_model = "",
+		goods_detail_type = 1,
+		groups_detail_type = "",
+		limited_num = 3,
+		unlock = "",
+		goods_name = "離島開発結晶",
+		desc = "離島開発経験の結晶。キャラの突破に必要な素材",
+		pt_award = 2000,
+		icon = "IslandProps/item_100201",
+		pay_id = 0,
+		time = "always",
+		remian_show = 1,
+		have_show = 0,
+		discount = 0,
+		limited_show = 1,
+		id = 10551,
+		weight = 0,
+		discount_time = "",
+		model_param = {
+			{
+				0,
+				0
+			},
+			0,
+			1
+		},
+		resource_consume = {
+			41,
+			1,
+			20000
+		},
+		items = {
+			{
+				41,
+				100201,
+				1
+			}
+		}
+	}
+	pg.base.island_shop_goods[10552] = {
+		goods_have = 0,
+		items_model = "",
+		goods_detail_type = 1,
+		groups_detail_type = "",
+		limited_num = 2,
+		unlock = "",
+		goods_name = "特装本",
+		desc = "インクの香りとノスタルジックな雰囲気を纏うハードカバー本。机上に置き、幾度となく読み返すにふさわしい一冊。",
+		pt_award = 300,
+		icon = "IslandGoodsIcon/gift02",
+		pay_id = 0,
+		time = "always",
+		remian_show = 1,
+		have_show = 0,
+		discount = 0,
+		limited_show = 1,
+		id = 10552,
+		weight = 0,
+		discount_time = "",
+		model_param = {
+			{
+				0,
+				0
+			},
+			0,
+			1
+		},
+		resource_consume = {
+			41,
+			1,
+			3000
+		},
+		items = {
+			{
+				2,
+				180002,
+				1
+			}
+		}
+	}
+	pg.base.island_shop_goods[10553] = {
+		goods_have = 0,
+		items_model = "",
+		goods_detail_type = 1,
+		groups_detail_type = "",
+		limited_num = 2,
+		unlock = "",
+		goods_name = "花束",
+		desc = "華やかで新鮮な花々。自然の生命力と明るい彩りがあふれ、日々に心地よい喜びを運んでくれる。",
+		pt_award = 300,
+		icon = "IslandGoodsIcon/gift03",
+		pay_id = 0,
+		time = "always",
+		remian_show = 1,
+		have_show = 0,
+		discount = 0,
+		limited_show = 1,
+		id = 10553,
+		weight = 0,
+		discount_time = "",
+		model_param = {
+			{
+				0,
+				0
+			},
+			0,
+			1
+		},
+		resource_consume = {
+			41,
+			1,
+			3000
+		},
+		items = {
+			{
+				2,
+				180003,
+				1
+			}
+		}
+	}
+	pg.base.island_shop_goods[10554] = {
+		goods_have = 0,
+		items_model = "",
+		goods_detail_type = 1,
+		groups_detail_type = "",
+		limited_num = 2,
+		unlock = "",
+		goods_name = "儀式剣",
+		desc = "流麗なシルエットが金属の冷たい輝きを放つ礼装の剣。秩序と威厳を無言で物語る。",
+		pt_award = 300,
+		icon = "IslandGoodsIcon/gift04",
+		pay_id = 0,
+		time = "always",
+		remian_show = 1,
+		have_show = 0,
+		discount = 0,
+		limited_show = 1,
+		id = 10554,
+		weight = 0,
+		discount_time = "",
+		model_param = {
+			{
+				0,
+				0
+			},
+			0,
+			1
+		},
+		resource_consume = {
+			41,
+			1,
+			3000
+		},
+		items = {
+			{
+				2,
+				180004,
+				1
+			}
+		}
+	}
+	pg.base.island_shop_goods[10555] = {
+		goods_have = 0,
+		items_model = "",
+		goods_detail_type = 1,
+		groups_detail_type = "",
+		limited_num = 2,
+		unlock = "",
+		goods_name = "ふわふわのぬいぐるみ",
+		desc = "ふわふわ手触りの愛らしいぬいぐるみ。抱きしめれば、もふもふで温かい感触と無邪気な笑顔が心を和ませてくれる。",
+		pt_award = 300,
+		icon = "IslandGoodsIcon/gift05",
+		pay_id = 0,
+		time = "always",
+		remian_show = 1,
+		have_show = 0,
+		discount = 0,
+		limited_show = 1,
+		id = 10555,
+		weight = 0,
+		discount_time = "",
+		model_param = {
+			{
+				0,
+				0
+			},
+			0,
+			1
+		},
+		resource_consume = {
+			41,
+			1,
+			3000
+		},
+		items = {
+			{
+				2,
+				180005,
+				1
+			}
+		}
+	}
+	pg.base.island_shop_goods[10556] = {
+		goods_have = 0,
+		items_model = "",
+		goods_detail_type = 1,
+		groups_detail_type = "",
+		limited_num = 2,
+		unlock = "",
+		goods_name = "アンティーク装飾品",
+		desc = "時の流れで深みが増し、気品を宿したアンティークな調度品。静かに佇むそれが、空間に落ち着きと趣を添えてくれる。",
+		pt_award = 300,
+		icon = "IslandGoodsIcon/gift06",
+		pay_id = 0,
+		time = "always",
+		remian_show = 1,
+		have_show = 0,
+		discount = 0,
+		limited_show = 1,
+		id = 10556,
+		weight = 0,
+		discount_time = "",
+		model_param = {
+			{
+				0,
+				0
+			},
+			0,
+			1
+		},
+		resource_consume = {
+			41,
+			1,
+			3000
+		},
+		items = {
+			{
+				2,
+				180006,
+				1
+			}
+		}
+	}
+	pg.base.island_shop_goods[10557] = {
+		goods_have = 0,
+		items_model = "",
+		goods_detail_type = 1,
+		groups_detail_type = "",
+		limited_num = 2,
+		unlock = "",
+		goods_name = "精緻なアクセサリー",
+		desc = "華美ではないものの、繊細で細やかな技に輝く一品。日常の小さな瞬間を明るく照らすだろう。",
+		pt_award = 300,
+		icon = "IslandGoodsIcon/gift07",
+		pay_id = 0,
+		time = "always",
+		remian_show = 1,
+		have_show = 0,
+		discount = 0,
+		limited_show = 1,
+		id = 10557,
+		weight = 0,
+		discount_time = "",
+		model_param = {
+			{
+				0,
+				0
+			},
+			0,
+			1
+		},
+		resource_consume = {
+			41,
+			1,
+			3000
+		},
+		items = {
+			{
+				2,
+				180007,
+				1
+			}
+		}
+	}
+	pg.base.island_shop_goods[10558] = {
+		goods_have = 0,
+		items_model = "",
+		goods_detail_type = 1,
+		groups_detail_type = "",
+		limited_num = 2,
+		unlock = "",
+		goods_name = "高級香水",
+		desc = "簡素な瓶には清らかな香りが秘められている。上品さと格調を映し出す、優雅なフレグランス。",
+		pt_award = 300,
+		icon = "IslandGoodsIcon/gift08",
+		pay_id = 0,
+		time = "always",
+		remian_show = 1,
+		have_show = 0,
+		discount = 0,
+		limited_show = 1,
+		id = 10558,
+		weight = 0,
+		discount_time = "",
+		model_param = {
+			{
+				0,
+				0
+			},
+			0,
+			1
+		},
+		resource_consume = {
+			41,
+			1,
+			3000
+		},
+		items = {
+			{
+				2,
+				180008,
+				1
+			}
+		}
+	}
+	pg.base.island_shop_goods[10559] = {
+		goods_have = 0,
+		items_model = "",
+		goods_detail_type = 1,
+		groups_detail_type = "",
+		limited_num = 2,
+		unlock = "",
+		goods_name = "ゲーム機セット",
+		desc = "余暇を完璧に満たしてくれるエンタメアイテム。手軽に遊べるコンテンツが揃っていて、心配りの行き届いた贈り物である",
+		pt_award = 300,
+		icon = "IslandGoodsIcon/gift09",
+		pay_id = 0,
+		time = "always",
+		remian_show = 1,
+		have_show = 0,
+		discount = 0,
+		limited_show = 1,
+		id = 10559,
+		weight = 0,
+		discount_time = "",
+		model_param = {
+			{
+				0,
+				0
+			},
+			0,
+			1
+		},
+		resource_consume = {
+			41,
+			1,
+			3000
+		},
+		items = {
+			{
+				2,
+				180009,
+				1
+			}
+		}
+	}
+	pg.base.island_shop_goods[10560] = {
+		goods_have = 0,
+		items_model = "",
+		goods_detail_type = 1,
+		groups_detail_type = "",
+		limited_num = 10,
+		unlock = "",
+		goods_name = "星彩チケット",
+		desc = "星の輝きが煌めくチケット。「星彩賞」にて賞品を抽選可能。「星彩賞」開催期間終了時、自動で消費され抽選が行われます（余ったチケットはダイヤに変換されます）",
+		pt_award = 2000,
+		icon = "IslandGoodsIcon/170000",
+		pay_id = 0,
+		time = "always",
+		remian_show = 1,
+		have_show = 0,
+		discount = 0,
+		limited_show = 1,
+		id = 10560,
+		weight = 0,
+		discount_time = "",
+		model_param = {
+			{
+				0,
+				0
+			},
+			0,
+			1
+		},
+		resource_consume = {
+			41,
+			1,
+			20000
+		},
+		items = {
+			{
+				8,
+				170008,
+				1
+			}
+		}
+	}
+	pg.base.island_shop_goods[10561] = {
+		goods_have = 0,
+		items_model = "",
+		goods_detail_type = 1,
+		groups_detail_type = "",
+		limited_num = 50,
+		unlock = "",
+		goods_name = "離島EXP教科書 T1",
+		desc = "離島生活の基礎知識をまとめた指南教科書。使用すると、キャラクターの離島EXPが少し増加する。",
+		pt_award = 20,
+		icon = "IslandProps/item_100001",
+		pay_id = 0,
+		time = "always",
+		remian_show = 1,
+		have_show = 0,
+		discount = 0,
+		limited_show = 1,
+		id = 10561,
+		weight = 0,
+		discount_time = "",
+		model_param = {
+			{
+				0,
+				0
+			},
+			0,
+			1
+		},
+		resource_consume = {
+			41,
+			1,
+			200
+		},
+		items = {
+			{
+				41,
+				100001,
+				1
+			}
+		}
+	}
+	pg.base.island_shop_goods[10562] = {
+		goods_have = 0,
+		items_model = "",
+		goods_detail_type = 1,
+		groups_detail_type = "",
+		limited_num = 15,
+		unlock = "",
+		goods_name = "離島EXP教科書 T2",
+		desc = "離島生活の経験を詳しくまとめた指南教科書。使用すると、キャラクターの離島EXPがそこそこ増加する。",
+		pt_award = 400,
+		icon = "IslandProps/item_100002",
+		pay_id = 0,
+		time = "always",
+		remian_show = 1,
+		have_show = 0,
+		discount = 0,
+		limited_show = 1,
+		id = 10562,
+		weight = 0,
+		discount_time = "",
+		model_param = {
+			{
+				0,
+				0
+			},
+			0,
+			1
+		},
+		resource_consume = {
+			41,
+			1,
+			4000
+		},
+		items = {
+			{
+				41,
+				100002,
+				1
+			}
+		}
+	}
+	pg.base.island_shop_goods[10563] = {
+		goods_have = 0,
+		items_model = "",
+		goods_detail_type = 1,
+		groups_detail_type = "",
+		limited_num = 10,
+		unlock = "",
+		goods_name = "離島EXP教科書 T3",
+		desc = "離島生活の経験を豊富にまとめた指南教科書。使用すると、キャラクターの離島EXPが大幅に増加する。",
+		pt_award = 1600,
+		icon = "IslandProps/item_100003",
+		pay_id = 0,
+		time = "always",
+		remian_show = 1,
+		have_show = 0,
+		discount = 0,
+		limited_show = 1,
+		id = 10563,
+		weight = 0,
+		discount_time = "",
+		model_param = {
+			{
+				0,
+				0
+			},
+			0,
+			1
+		},
+		resource_consume = {
+			41,
+			1,
+			16000
+		},
+		items = {
+			{
+				41,
+				100003,
+				1
+			}
+		}
+	}
+	pg.base.island_shop_goods[10564] = {
+		goods_have = 0,
+		items_model = "",
+		goods_detail_type = 1,
+		groups_detail_type = "",
+		limited_num = 10,
+		unlock = "",
+		goods_name = "生産スキル教科書 T1",
+		desc = "生産物スキルの基礎知識をまとめた指南教科書。使用すると、キャラクターの離島開発における生産物スキルレベルが少し上昇する。",
+		pt_award = 200,
+		icon = "IslandProps/item_100101",
+		pay_id = 0,
+		time = "always",
+		remian_show = 1,
+		have_show = 0,
+		discount = 0,
+		limited_show = 1,
+		id = 10564,
+		weight = 0,
+		discount_time = "",
+		model_param = {
+			{
+				0,
+				0
+			},
+			0,
+			1
+		},
+		resource_consume = {
+			41,
+			1,
+			2000
+		},
+		items = {
+			{
+				41,
+				100101,
+				1
+			}
+		}
+	}
+	pg.base.island_shop_goods[10565] = {
+		goods_have = 0,
+		items_model = "",
+		goods_detail_type = 1,
+		groups_detail_type = "",
+		limited_num = 10,
+		unlock = "",
+		goods_name = "生産スキル教科書 T2",
+		desc = "生産物スキルの知識を詳しくまとめた指南教科書。使用すると、キャラクターの離島開発における生産物スキルレベルがそこそこ上昇する。",
+		pt_award = 400,
+		icon = "IslandProps/item_100102",
+		pay_id = 0,
+		time = "always",
+		remian_show = 1,
+		have_show = 0,
+		discount = 0,
+		limited_show = 1,
+		id = 10565,
+		weight = 0,
+		discount_time = "",
+		model_param = {
+			{
+				0,
+				0
+			},
+			0,
+			1
+		},
+		resource_consume = {
+			41,
+			1,
+			4000
+		},
+		items = {
+			{
+				41,
+				100102,
+				1
+			}
+		}
+	}
+	pg.base.island_shop_goods[10566] = {
+		goods_have = 0,
+		items_model = "",
+		goods_detail_type = 1,
+		groups_detail_type = "",
+		limited_num = 10,
+		unlock = "",
+		goods_name = "生産スキル教科書 T3",
+		desc = "生産物スキルの知識を豊富にまとめた指南教科書。使用すると、キャラクターの離島開発における生産物スキルレベルが大幅に上昇する。",
+		pt_award = 1500,
+		icon = "IslandProps/item_100103",
+		pay_id = 0,
+		time = "always",
+		remian_show = 1,
+		have_show = 0,
+		discount = 0,
+		limited_show = 1,
+		id = 10566,
+		weight = 0,
+		discount_time = "",
+		model_param = {
+			{
+				0,
+				0
+			},
+			0,
+			1
+		},
+		resource_consume = {
+			41,
+			1,
+			15000
+		},
+		items = {
+			{
+				41,
+				100103,
+				1
+			}
+		}
+	}
+	pg.base.island_shop_goods[10567] = {
+		goods_have = 0,
+		items_model = "",
+		goods_detail_type = 1,
+		groups_detail_type = "",
+		limited_num = 5,
+		unlock = "",
+		goods_name = "離島開発結晶",
+		desc = "離島開発経験の結晶。キャラの突破に必要な素材",
+		pt_award = 2000,
+		icon = "IslandProps/item_100201",
+		pay_id = 0,
+		time = "always",
+		remian_show = 1,
+		have_show = 0,
+		discount = 0,
+		limited_show = 1,
+		id = 10567,
+		weight = 0,
+		discount_time = "",
+		model_param = {
+			{
+				0,
+				0
+			},
+			0,
+			1
+		},
+		resource_consume = {
+			41,
+			1,
+			20000
+		},
+		items = {
+			{
+				41,
+				100201,
+				1
+			}
+		}
+	}
+	pg.base.island_shop_goods[10568] = {
+		goods_have = 0,
+		items_model = "",
+		goods_detail_type = 1,
+		groups_detail_type = "",
+		limited_num = 4,
+		unlock = "",
+		goods_name = "特装本",
+		desc = "インクの香りとノスタルジックな雰囲気を纏うハードカバー本。机上に置き、幾度となく読み返すにふさわしい一冊。",
+		pt_award = 300,
+		icon = "IslandGoodsIcon/gift02",
+		pay_id = 0,
+		time = "always",
+		remian_show = 1,
+		have_show = 0,
+		discount = 0,
+		limited_show = 1,
+		id = 10568,
+		weight = 0,
+		discount_time = "",
+		model_param = {
+			{
+				0,
+				0
+			},
+			0,
+			1
+		},
+		resource_consume = {
+			41,
+			1,
+			3000
+		},
+		items = {
+			{
+				2,
+				180002,
+				1
+			}
+		}
+	}
+	pg.base.island_shop_goods[10569] = {
+		goods_have = 0,
+		items_model = "",
+		goods_detail_type = 1,
+		groups_detail_type = "",
+		limited_num = 4,
+		unlock = "",
+		goods_name = "花束",
+		desc = "華やかで新鮮な花々。自然の生命力と明るい彩りがあふれ、日々に心地よい喜びを運んでくれる。",
+		pt_award = 300,
+		icon = "IslandGoodsIcon/gift03",
+		pay_id = 0,
+		time = "always",
+		remian_show = 1,
+		have_show = 0,
+		discount = 0,
+		limited_show = 1,
+		id = 10569,
+		weight = 0,
+		discount_time = "",
+		model_param = {
+			{
+				0,
+				0
+			},
+			0,
+			1
+		},
+		resource_consume = {
+			41,
+			1,
+			3000
+		},
+		items = {
+			{
+				2,
+				180003,
+				1
+			}
+		}
+	}
+	pg.base.island_shop_goods[10570] = {
+		goods_have = 0,
+		items_model = "",
+		goods_detail_type = 1,
+		groups_detail_type = "",
+		limited_num = 4,
+		unlock = "",
+		goods_name = "儀式剣",
+		desc = "流麗なシルエットが金属の冷たい輝きを放つ礼装の剣。秩序と威厳を無言で物語る。",
+		pt_award = 300,
+		icon = "IslandGoodsIcon/gift04",
+		pay_id = 0,
+		time = "always",
+		remian_show = 1,
+		have_show = 0,
+		discount = 0,
+		limited_show = 1,
+		id = 10570,
+		weight = 0,
+		discount_time = "",
+		model_param = {
+			{
+				0,
+				0
+			},
+			0,
+			1
+		},
+		resource_consume = {
+			41,
+			1,
+			3000
+		},
+		items = {
+			{
+				2,
+				180004,
+				1
+			}
+		}
+	}
+	pg.base.island_shop_goods[10571] = {
+		goods_have = 0,
+		items_model = "",
+		goods_detail_type = 1,
+		groups_detail_type = "",
+		limited_num = 4,
+		unlock = "",
+		goods_name = "ふわふわのぬいぐるみ",
+		desc = "ふわふわ手触りの愛らしいぬいぐるみ。抱きしめれば、もふもふで温かい感触と無邪気な笑顔が心を和ませてくれる。",
+		pt_award = 300,
+		icon = "IslandGoodsIcon/gift05",
+		pay_id = 0,
+		time = "always",
+		remian_show = 1,
+		have_show = 0,
+		discount = 0,
+		limited_show = 1,
+		id = 10571,
+		weight = 0,
+		discount_time = "",
+		model_param = {
+			{
+				0,
+				0
+			},
+			0,
+			1
+		},
+		resource_consume = {
+			41,
+			1,
+			3000
+		},
+		items = {
+			{
+				2,
+				180005,
+				1
+			}
+		}
+	}
+end)()
+(function ()
+	pg.base.island_shop_goods[10572] = {
+		goods_have = 0,
+		items_model = "",
+		goods_detail_type = 1,
+		groups_detail_type = "",
+		limited_num = 4,
+		unlock = "",
+		goods_name = "アンティーク装飾品",
+		desc = "時の流れで深みが増し、気品を宿したアンティークな調度品。静かに佇むそれが、空間に落ち着きと趣を添えてくれる。",
+		pt_award = 300,
+		icon = "IslandGoodsIcon/gift06",
+		pay_id = 0,
+		time = "always",
+		remian_show = 1,
+		have_show = 0,
+		discount = 0,
+		limited_show = 1,
+		id = 10572,
+		weight = 0,
+		discount_time = "",
+		model_param = {
+			{
+				0,
+				0
+			},
+			0,
+			1
+		},
+		resource_consume = {
+			41,
+			1,
+			3000
+		},
+		items = {
+			{
+				2,
+				180006,
+				1
+			}
+		}
+	}
+	pg.base.island_shop_goods[10573] = {
+		goods_have = 0,
+		items_model = "",
+		goods_detail_type = 1,
+		groups_detail_type = "",
+		limited_num = 4,
+		unlock = "",
+		goods_name = "精緻なアクセサリー",
+		desc = "華美ではないものの、繊細で細やかな技に輝く一品。日常の小さな瞬間を明るく照らすだろう。",
+		pt_award = 300,
+		icon = "IslandGoodsIcon/gift07",
+		pay_id = 0,
+		time = "always",
+		remian_show = 1,
+		have_show = 0,
+		discount = 0,
+		limited_show = 1,
+		id = 10573,
+		weight = 0,
+		discount_time = "",
+		model_param = {
+			{
+				0,
+				0
+			},
+			0,
+			1
+		},
+		resource_consume = {
+			41,
+			1,
+			3000
+		},
+		items = {
+			{
+				2,
+				180007,
+				1
+			}
+		}
+	}
+	pg.base.island_shop_goods[10574] = {
+		goods_have = 0,
+		items_model = "",
+		goods_detail_type = 1,
+		groups_detail_type = "",
+		limited_num = 4,
+		unlock = "",
+		goods_name = "高級香水",
+		desc = "簡素な瓶には清らかな香りが秘められている。上品さと格調を映し出す、優雅なフレグランス。",
+		pt_award = 300,
+		icon = "IslandGoodsIcon/gift08",
+		pay_id = 0,
+		time = "always",
+		remian_show = 1,
+		have_show = 0,
+		discount = 0,
+		limited_show = 1,
+		id = 10574,
+		weight = 0,
+		discount_time = "",
+		model_param = {
+			{
+				0,
+				0
+			},
+			0,
+			1
+		},
+		resource_consume = {
+			41,
+			1,
+			3000
+		},
+		items = {
+			{
+				2,
+				180008,
+				1
+			}
+		}
+	}
+	pg.base.island_shop_goods[10575] = {
+		goods_have = 0,
+		items_model = "",
+		goods_detail_type = 1,
+		groups_detail_type = "",
+		limited_num = 4,
+		unlock = "",
+		goods_name = "ゲーム機セット",
+		desc = "余暇を完璧に満たしてくれるエンタメアイテム。手軽に遊べるコンテンツが揃っていて、心配りの行き届いた贈り物である",
+		pt_award = 300,
+		icon = "IslandGoodsIcon/gift09",
+		pay_id = 0,
+		time = "always",
+		remian_show = 1,
+		have_show = 0,
+		discount = 0,
+		limited_show = 1,
+		id = 10575,
+		weight = 0,
+		discount_time = "",
+		model_param = {
+			{
+				0,
+				0
+			},
+			0,
+			1
+		},
+		resource_consume = {
+			41,
+			1,
+			3000
+		},
+		items = {
+			{
+				2,
+				180009,
+				1
+			}
+		}
+	}
 	pg.base.island_shop_goods[103000] = {
 		goods_have = 0,
 		items_model = "",
@@ -16285,6 +19448,138 @@ end)()
 			}
 		}
 	}
+	pg.base.island_shop_goods[411029] = {
+		goods_have = 0,
+		items_model = "",
+		goods_detail_type = 1,
+		groups_detail_type = "",
+		limited_num = 0,
+		unlock = "",
+		goods_name = "砂糖みかんの種",
+		desc = "購入で「砂糖みかんの種」を入手可能",
+		pt_award = 0,
+		icon = "IslandProps/item_4048",
+		pay_id = 0,
+		remian_show = 0,
+		have_show = 0,
+		discount = 0,
+		limited_show = 0,
+		id = 411029,
+		weight = 0,
+		discount_time = "",
+		model_param = {
+			{
+				0,
+				0
+			},
+			0,
+			1
+		},
+		resource_consume = {
+			41,
+			1,
+			160
+		},
+		items = {
+			{
+				41,
+				4048,
+				1
+			}
+		},
+		time = {
+			{
+				{
+					2026,
+					11,
+					5
+				},
+				{
+					16,
+					0,
+					1
+				}
+			},
+			{
+				{
+					2027,
+					2,
+					1
+				},
+				{
+					16,
+					0,
+					0
+				}
+			}
+		}
+	}
+	pg.base.island_shop_goods[411030] = {
+		goods_have = 0,
+		items_model = "",
+		goods_detail_type = 1,
+		groups_detail_type = "",
+		limited_num = 0,
+		unlock = "",
+		goods_name = "青ナツメの種",
+		desc = "購入で「青ナツメの種」を入手可能",
+		pt_award = 0,
+		icon = "IslandProps/item_4050",
+		pay_id = 0,
+		remian_show = 0,
+		have_show = 0,
+		discount = 0,
+		limited_show = 0,
+		id = 411030,
+		weight = 0,
+		discount_time = "",
+		model_param = {
+			{
+				0,
+				0
+			},
+			0,
+			1
+		},
+		resource_consume = {
+			41,
+			1,
+			80
+		},
+		items = {
+			{
+				41,
+				4050,
+				1
+			}
+		},
+		time = {
+			{
+				{
+					2026,
+					11,
+					5
+				},
+				{
+					16,
+					0,
+					1
+				}
+			},
+			{
+				{
+					2027,
+					2,
+					1
+				},
+				{
+					16,
+					0,
+					0
+				}
+			}
+		}
+	}
 	pg.base.island_shop_goods[412000] = {
 		goods_have = 0,
 		items_model = "",
@@ -16445,6 +19740,47 @@ end)()
 			{
 				44,
 				960001,
+				1
+			}
+		}
+	}
+	pg.base.island_shop_goods[412004] = {
+		goods_have = 0,
+		items_model = "",
+		goods_detail_type = 1,
+		groups_detail_type = "",
+		limited_num = 1,
+		unlock = "",
+		goods_name = "オグネヴォイ-離島権限認証",
+		desc = "オグネヴォイの離島権限認証。離島権限認証装置を使用すると、キャラに離島開発エリアの出入り権限を付与できる",
+		pt_award = 0,
+		icon = "IslandProps/item_200035",
+		pay_id = 0,
+		time = "always",
+		remian_show = 0,
+		have_show = 0,
+		discount = 0,
+		limited_show = 1,
+		id = 412004,
+		weight = 0,
+		discount_time = "",
+		model_param = {
+			{
+				0,
+				0
+			},
+			0,
+			1
+		},
+		resource_consume = {
+			41,
+			1,
+			500000
+		},
+		items = {
+			{
+				44,
+				70111,
 				1
 			}
 		}
@@ -16941,6 +20277,129 @@ end)()
 			}
 		}
 	}
+	pg.base.island_shop_goods[4630010] = {
+		goods_have = 0,
+		items_model = "",
+		goods_detail_type = 2,
+		groups_detail_type = "",
+		limited_num = 1,
+		unlock = "",
+		goods_name = "フラワーステップ",
+		desc = "キャラ用足跡着せ替え「フラワーステップ」を入手可能",
+		pt_award = 0,
+		icon = "IslandDressIcon/dress_2030012",
+		pay_id = 0,
+		time = "always",
+		remian_show = 1,
+		have_show = 0,
+		discount = 0,
+		limited_show = 0,
+		id = 4630010,
+		weight = 0,
+		discount_time = "",
+		model_param = {
+			{
+				0,
+				0
+			},
+			0,
+			1
+		},
+		resource_consume = {
+			1,
+			14,
+			200
+		},
+		items = {
+			{
+				46,
+				2030012,
+				1
+			}
+		}
+	}
+	pg.base.island_shop_goods[4610009] = {
+		goods_have = 0,
+		items_model = "",
+		goods_detail_type = 2,
+		groups_detail_type = "",
+		limited_num = 1,
+		unlock = "",
+		goods_name = "ハチうえフレンド",
+		desc = "キャラ用背中着せ替え「ハチうえフレンド」を入手可能",
+		pt_award = 0,
+		icon = "IslandDressIcon/dress_2010010",
+		pay_id = 0,
+		time = "always",
+		remian_show = 1,
+		have_show = 0,
+		discount = 0,
+		limited_show = 0,
+		id = 4610009,
+		weight = 0,
+		discount_time = "",
+		model_param = {
+			{
+				0,
+				0
+			},
+			0,
+			1
+		},
+		resource_consume = {
+			1,
+			14,
+			200
+		},
+		items = {
+			{
+				46,
+				2010010,
+				1
+			}
+		}
+	}
+	pg.base.island_shop_goods[4620009] = {
+		goods_have = 0,
+		items_model = "",
+		goods_detail_type = 2,
+		groups_detail_type = "",
+		limited_num = 1,
+		unlock = "",
+		goods_name = "ぽかぽか太陽",
+		desc = "キャラ用浮遊着せ替え「ぽかぽか太陽」を入手可能",
+		pt_award = 0,
+		icon = "IslandDressIcon/dress_2020011",
+		pay_id = 0,
+		time = "always",
+		remian_show = 1,
+		have_show = 0,
+		discount = 0,
+		limited_show = 0,
+		id = 4620009,
+		weight = 0,
+		discount_time = "",
+		model_param = {
+			{
+				0,
+				0
+			},
+			0,
+			1
+		},
+		resource_consume = {
+			1,
+			14,
+			200
+		},
+		items = {
+			{
+				46,
+				2020011,
+				1
+			}
+		}
+	}
 	pg.base.island_shop_goods[5010001] = {
 		goods_have = 0,
 		items_model = "",
@@ -17139,8 +20598,6 @@ end)()
 			}
 		}
 	}
-end)()
-(function ()
 	pg.base.island_shop_goods[5010002] = {
 		goods_have = 0,
 		items_model = "",
@@ -17149,7 +20606,7 @@ end)()
 		limited_num = 100,
 		unlock = "",
 		goods_name = "1分加速券（シーズン）",
-		desc = "進行中のタスクを1分短縮できる。開発をもっとスピーディーに！",
+		desc = "進行中のタスクを1分間短縮できる。開発をもっとスピーディーに！",
 		pt_award = 0,
 		icon = "IslandGoodsIcon/item_speedup_ticket1",
 		pay_id = 0,
@@ -17215,7 +20672,7 @@ end)()
 		limited_num = 30,
 		unlock = "",
 		goods_name = "10分加速券（シーズン）",
-		desc = "進行中のタスクを10分短縮できる。開発をもっとスピーディーに！",
+		desc = "進行中のタスクを10分間短縮できる。開発をもっとスピーディーに！",
 		pt_award = 0,
 		icon = "IslandGoodsIcon/item_speedup_ticket2",
 		pay_id = 0,
@@ -17281,7 +20738,7 @@ end)()
 		limited_num = 10,
 		unlock = "",
 		goods_name = "60分加速券（シーズン）",
-		desc = "進行中のタスクを60分短縮できる。開発をもっとスピーディーに！",
+		desc = "進行中のタスクを60分間短縮できる。開発をもっとスピーディーに！",
 		pt_award = 0,
 		icon = "IslandGoodsIcon/item_speedup_ticket3",
 		pay_id = 0,
@@ -17347,7 +20804,7 @@ end)()
 		limited_num = 100,
 		unlock = "",
 		goods_name = "1分加速券（シーズン）",
-		desc = "進行中のタスクを1分短縮できる。開発をもっとスピーディーに！",
+		desc = "進行中のタスクを1分間短縮できる。開発をもっとスピーディーに！",
 		pt_award = 0,
 		icon = "IslandGoodsIcon/item_speedup_ticket1",
 		pay_id = 0,
@@ -17413,7 +20870,7 @@ end)()
 		limited_num = 30,
 		unlock = "",
 		goods_name = "10分加速券（シーズン）",
-		desc = "進行中のタスクを10分短縮できる。開発をもっとスピーディーに！",
+		desc = "進行中のタスクを10分間短縮できる。開発をもっとスピーディーに！",
 		pt_award = 0,
 		icon = "IslandGoodsIcon/item_speedup_ticket2",
 		pay_id = 0,
@@ -17479,7 +20936,7 @@ end)()
 		limited_num = 10,
 		unlock = "",
 		goods_name = "60分加速券（シーズン）",
-		desc = "進行中のタスクを60分短縮できる。開発をもっとスピーディーに！",
+		desc = "進行中のタスクを60分間短縮できる。開発をもっとスピーディーに！",
 		pt_award = 0,
 		icon = "IslandGoodsIcon/item_speedup_ticket3",
 		pay_id = 0,
@@ -17726,6 +21183,204 @@ end)()
 					2026,
 					11,
 					5
+				},
+				{
+					16,
+					0,
+					0
+				}
+			}
+		}
+	}
+	pg.base.island_shop_goods[5010005] = {
+		goods_have = 0,
+		items_model = "",
+		goods_detail_type = 1,
+		groups_detail_type = "",
+		limited_num = 100,
+		unlock = "",
+		goods_name = "1分加速券（シーズン）",
+		desc = "進行中のタスクを1分間短縮できる。開発をもっとスピーディーに！",
+		pt_award = 0,
+		icon = "IslandGoodsIcon/item_speedup_ticket1",
+		pay_id = 0,
+		remian_show = 1,
+		have_show = 0,
+		discount = 0,
+		limited_show = 1,
+		id = 5010005,
+		weight = 0,
+		discount_time = "",
+		model_param = {
+			{
+				0,
+				0
+			},
+			0,
+			1
+		},
+		resource_consume = {
+			41,
+			1,
+			1000
+		},
+		items = {
+			{
+				50,
+				10008,
+				1
+			}
+		},
+		time = {
+			{
+				{
+					2026,
+					11,
+					5
+				},
+				{
+					16,
+					0,
+					1
+				}
+			},
+			{
+				{
+					2027,
+					2,
+					1
+				},
+				{
+					16,
+					0,
+					0
+				}
+			}
+		}
+	}
+	pg.base.island_shop_goods[5020005] = {
+		goods_have = 0,
+		items_model = "",
+		goods_detail_type = 1,
+		groups_detail_type = "",
+		limited_num = 30,
+		unlock = "",
+		goods_name = "10分加速券（シーズン）",
+		desc = "進行中のタスクを10分間短縮できる。開発をもっとスピーディーに！",
+		pt_award = 0,
+		icon = "IslandGoodsIcon/item_speedup_ticket2",
+		pay_id = 0,
+		remian_show = 1,
+		have_show = 0,
+		discount = 0,
+		limited_show = 1,
+		id = 5020005,
+		weight = 0,
+		discount_time = "",
+		model_param = {
+			{
+				0,
+				0
+			},
+			0,
+			1
+		},
+		resource_consume = {
+			41,
+			1,
+			10000
+		},
+		items = {
+			{
+				50,
+				20008,
+				1
+			}
+		},
+		time = {
+			{
+				{
+					2026,
+					11,
+					5
+				},
+				{
+					16,
+					0,
+					1
+				}
+			},
+			{
+				{
+					2027,
+					2,
+					1
+				},
+				{
+					16,
+					0,
+					0
+				}
+			}
+		}
+	}
+	pg.base.island_shop_goods[5030005] = {
+		goods_have = 0,
+		items_model = "",
+		goods_detail_type = 1,
+		groups_detail_type = "",
+		limited_num = 10,
+		unlock = "",
+		goods_name = "60分加速券（シーズン）",
+		desc = "進行中のタスクを60分間短縮できる。開発をもっとスピーディーに！",
+		pt_award = 0,
+		icon = "IslandGoodsIcon/item_speedup_ticket3",
+		pay_id = 0,
+		remian_show = 1,
+		have_show = 0,
+		discount = 0,
+		limited_show = 1,
+		id = 5030005,
+		weight = 0,
+		discount_time = "",
+		model_param = {
+			{
+				0,
+				0
+			},
+			0,
+			1
+		},
+		resource_consume = {
+			41,
+			1,
+			60000
+		},
+		items = {
+			{
+				50,
+				30008,
+				1
+			}
+		},
+		time = {
+			{
+				{
+					2026,
+					11,
+					5
+				},
+				{
+					16,
+					0,
+					1
+				}
+			},
+			{
+				{
+					2027,
+					2,
+					1
 				},
 				{
 					16,
@@ -18022,6 +21677,8 @@ end)()
 			}
 		}
 	}
+end)()
+(function ()
 	pg.base.island_shop_goods[472012101] = {
 		goods_have = 0,
 		items_model = "",
@@ -18182,6 +21839,88 @@ end)()
 			{
 				47,
 				96000101,
+				1
+			}
+		}
+	}
+	pg.base.island_shop_goods[477011101] = {
+		goods_have = 0,
+		items_model = "",
+		goods_detail_type = 4,
+		groups_detail_type = "",
+		limited_num = 1,
+		unlock = "",
+		goods_name = "元気エントリー",
+		desc = "オグネヴォイ離島着せ替え「元気エントリー」を入手可能",
+		pt_award = 0,
+		icon = "IslandGoodsIcon/skin_7011101",
+		pay_id = 0,
+		time = "always",
+		remian_show = 1,
+		have_show = 1,
+		discount = 0,
+		limited_show = 0,
+		id = 477011101,
+		weight = 0,
+		discount_time = "",
+		model_param = {
+			{
+				0,
+				0
+			},
+			0,
+			1
+		},
+		resource_consume = {
+			1,
+			14,
+			900
+		},
+		items = {
+			{
+				47,
+				7011101,
+				1
+			}
+		}
+	}
+	pg.base.island_shop_goods[506020101] = {
+		goods_have = 0,
+		items_model = "",
+		goods_detail_type = 4,
+		groups_detail_type = "",
+		limited_num = 1,
+		unlock = "",
+		goods_name = "軽やかなリズム",
+		desc = "華甲離島着せ替え「軽やかなリズム」を入手可能",
+		pt_award = 0,
+		icon = "IslandGoodsIcon/skin_5060201",
+		pay_id = 0,
+		time = "always",
+		remian_show = 1,
+		have_show = 1,
+		discount = 0,
+		limited_show = 0,
+		id = 506020101,
+		weight = 0,
+		discount_time = "",
+		model_param = {
+			{
+				0,
+				0
+			},
+			0,
+			1
+		},
+		resource_consume = {
+			1,
+			14,
+			900
+		},
+		items = {
+			{
+				47,
+				5060201,
 				1
 			}
 		}

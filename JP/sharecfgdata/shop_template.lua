@@ -11121,6 +11121,42 @@ _G.pg.base.shop_template[43063] = {
 }
 
 
+_G.pg.base.shop_template[43064] = {
+	group_type = 0,
+	package_sort_id = 0,
+	type = 4,
+	second_text = "",
+	type_order = 0,
+	first_icon = "",
+	desc = "演習ショップで戦果Pt8000で交換",
+	group_limit = 0,
+	package_tag = "",
+	resource_num = 8000,
+	group_buy_count = 0,
+	tag = 0,
+	limit_args2 = "",
+	collaboration_skin_time = "",
+	order = 4,
+	akashi_pick = 0,
+	time = "always",
+	group = 0,
+	num = 1,
+	first_text = "",
+	package_tag_open = 0,
+	time_second = 0,
+	discount = 0,
+	resource_type = 3,
+	id = 43064,
+	genre = "arena_shop",
+	discount_time = {},
+	limit_args = {},
+	effect_args = {
+		901041
+	},
+	time_new = {}
+}
+
+
 _G.pg.base.shop_template[50002] = {
 	group_type = 0,
 	package_sort_id = 0,
@@ -123088,6 +123124,42 @@ _G.pg.base.shop_template[500003] = {
 	limit_args = {},
 	effect_args = {
 		170007
+	},
+	time_new = {}
+}
+
+
+_G.pg.base.shop_template[500004] = {
+	group_type = 0,
+	package_sort_id = 0,
+	type = 8,
+	second_text = "",
+	type_order = 0,
+	first_icon = "",
+	desc = "一番赏抽卡券钻石购买",
+	group_limit = 0,
+	package_tag = "",
+	resource_num = 30,
+	group_buy_count = 0,
+	tag = 0,
+	limit_args2 = "",
+	collaboration_skin_time = "",
+	order = 1,
+	akashi_pick = 0,
+	time = "always",
+	group = 0,
+	num = 1,
+	first_text = "",
+	package_tag_open = 0,
+	time_second = 0,
+	discount = 0,
+	resource_type = 14,
+	id = 500004,
+	genre = "",
+	discount_time = {},
+	limit_args = {},
+	effect_args = {
+		170009
 	},
 	time_new = {}
 }

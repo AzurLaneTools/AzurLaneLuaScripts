@@ -84,22 +84,128 @@ slot0.execute = function(slot0, slot1)
 			table.insert(slot11, {
 				actId = slot17.id,
 				drop = Drop.New({
+					count = 1,
 					type = DROP_TYPE_VITEM,
-					id = slot17:GetItemId(),
-					count = slot17:GetCanUsageCnt()
+					id = slot17:GetItemId()
 				}),
 				discount = slot17:GetDiscountPrice()
 			})
 		end
 	end
 
-	SkinCouponMultiMsgBox.New(pg.UIMgr.GetInstance().OverlayMain):ExecuteAction("Show", {
+	if SkinCouponActivity.GetSkinCouponTotalCnt(slot3) <= 1 then
+		slot10(slot11[1])
+
+		return
+	end
+
+	slot0:sendNotification(GAME.OPEN_SKIN_COUPON_MULTI_MSG_BOX, {
 		itemList = slot11,
+		unuseItemList = uv0.GetAllSkinCouponList(slot3),
 		skinId = slot7,
 		skinName = slot9.skinName,
 		price = slot6:getConfig("resource_num"),
 		onYes = slot10
 	})
+end
+
+slot0.GetAllSkinCouponList = function(slot0)
+	slot1 = uv0.GetActivitySkinCouponList(slot0)
+
+	table.insertto(slot1, uv0.GetSkinCouponList())
+	table.sort(slot1, CompareFuncs({
+		function (slot0)
+			return -slot0.discount
+		end,
+		function (slot0)
+			return slot0.id
+		end
+	}))
+
+	return slot1
+end
+
+slot0.GetActivitySkinCouponList = function(slot0)
+	slot1 = {}
+	slot2 = {}
+	slot3 = ipairs
+	slot4 = pg.activity_template.get_id_list_by_type[ActivityConst.ACTIVITY_TYPE_SKIN_COUPON] or {}
+
+	for slot6, slot7 in slot3(slot4) do
+		if getProxy(ActivityProxy):RawGetActivityById(slot7) and not slot8:isEnd() and not slot8:IncludeShop(slot0) then
+			table.insert(slot2, slot8)
+		end
+	end
+
+	for slot6, slot7 in ipairs(slot2) do
+		if slot7:GetCanUsageCnt() > 0 then
+			table.insert(slot1, {
+				actId = slot7.id,
+				drop = Drop.New({
+					count = 1,
+					type = DROP_TYPE_VITEM,
+					id = slot7:GetItemId()
+				}),
+				discount = slot7:GetDiscountPrice()
+			})
+		end
+	end
+
+	return slot1
+end
+
+slot0.GetSkinCouponList = function()
+	slot1 = uv0.GetExclusiveDiscountDropList()
+
+	if #uv0.GetVoucherDropList() <= 0 and #slot1 <= 0 then
+		return {}
+	end
+
+	slot2 = {}
+
+	for slot6, slot7 in ipairs(slot0) do
+		table.insert(slot2, slot7)
+	end
+
+	for slot6, slot7 in ipairs(slot1) do
+		table.insert(slot2, slot7.id)
+	end
+
+	return slot2
+end
+
+slot0.GetVoucherDropList = function()
+	slot0 = {}
+
+	for slot5, slot6 in pairs(getProxy(BagProxy):GetSkinShopDiscountItemList()) do
+		table.insert(slot0, {
+			drop = {
+				count = 1,
+				type = DROP_TYPE_ITEM,
+				id = slot6.id
+			},
+			discount = slot6:getConfig("usage_arg")[2]
+		})
+	end
+
+	return slot0
+end
+
+slot0.GetExclusiveDiscountDropList = function()
+	slot0 = {}
+
+	for slot5, slot6 in pairs(getProxy(BagProxy):getRawData()) do
+		table.insert(slot0, {
+			drop = {
+				count = 1,
+				type = DROP_TYPE_ITEM,
+				id = slot6.id
+			},
+			discount = slot6:getConfig("usage_arg")[2]
+		})
+	end
+
+	return slot0
 end
 
 return slot0

@@ -58,8 +58,8 @@ slot0.ShowShips = function(slot0, slot1, slot2)
 	end) + 1), #slot4 do
 		slot11 = slot4[slot10]
 
-		if PlayerPrefs.GetInt(DISPLAY_SHIP_GET_EFFECT) == 1 or slot11.virgin or ShipRarity.Purple <= slot11:getRarity() then
-			slot13 = slot0.contextData.system == SYSTEM_SCENARIO and slot0.contextData.autoSkipFlag
+		if PlayerPrefs.GetInt(DISPLAY_SHIP_GET_EFFECT) == 1 or slot11.virgin or (pg.gameset.skip_duplicate_characters_rarity.key_value or ShipRarity.Gold) <= slot11:getRarity() then
+			slot14 = slot0.contextData.system == SYSTEM_SCENARIO and slot0.contextData.autoSkipFlag
 
 			table.insert(slot6, function (slot0)
 				uv2:emit(NewBattleResultMediator.GET_NEW_SHIP, uv1, slot0, uv0 and not uv1.virgin and 3 or nil)

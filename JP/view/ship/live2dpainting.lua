@@ -825,7 +825,7 @@ slot19 = function(slot0, slot1)
 		slot0.delayChangeParamater = nil
 	end
 
-	slot0:offsetL2dPositonDelay(0.3, 6)
+	slot0:offsetL2dPositonDelay(0.75, 5)
 	uv12(slot0, "idle", true)
 	Live2DPainting.SetL2dSortingLayer(slot1, LayerWeightConst.L2D_DEFAULT_LAYER)
 end
@@ -842,22 +842,31 @@ slot0.Ctor = function(slot0, slot1, slot2)
 	assert(not slot0.live2dData:isEmpty())
 
 	slot0.modelName = slot0.live2dData:GetShipName()
+	Input.gyro.enabled = slot0.live2dData.gyro == 1 and PlayerPrefs.GetInt(GYRO_ENABLE, 1) == 1
+	slot0.useEventTriggerFlag = true
 	slot0.live2dRequestId = pg.Live2DMgr.GetInstance():GetLive2DModelAsync(slot0.modelName, function (slot0)
 		if slot0 then
-			if uv0.state == uv1.STATE_LOADING then
-				uv2(uv0, slot0)
+			print("live2D Init " .. uv0.live2dData:GetShipName())
 
-				if uv3 then
-					uv3(uv0)
+			if uv0.state == uv1.STATE_LOADING then
+				if uv0._isDispose then
+					return
 				end
+
+				uv2(uv0, slot0)
+				onDelayTick(function ()
+					if uv0 then
+						uv0(uv1)
+
+						uv0 = nil
+					end
+				end, 0.6)
 			else
 				uv0:clearMaskTexture(slot0)
 				pg.Live2DMgr.GetInstance():ReturnLive2DModel(uv0.modelName, slot0)
 			end
 		end
 	end)
-	Input.gyro.enabled = slot0.live2dData.gyro == 1 and PlayerPrefs.GetInt(GYRO_ENABLE, 1) == 1
-	slot0.useEventTriggerFlag = true
 end
 
 slot0.SetVisible = function(slot0, slot1)
@@ -893,7 +902,7 @@ slot0.SetVisible = function(slot0, slot1)
 
 			slot0 = uv0
 
-			slot0:offsetL2dPositonDelay(0.3, 5, function ()
+			slot0:offsetL2dPositonDelay(0.8, 5, function ()
 			end)
 			uv1(uv0, "idle", true)
 		end)
@@ -1095,6 +1104,10 @@ slot0.IsLoaded = function(slot0)
 	return slot0.state == uv0.STATE_INITED
 end
 
+slot0.IsDispose = function(slot0)
+	return slot0.state == uv0.STATE_DISPOSE
+end
+
 slot0.GetTouchPart = function(slot0)
 	return slot0.liveCom:GetTouchPart()
 end
@@ -1181,7 +1194,7 @@ slot0.resetL2dData = function(slot0)
 		return
 	end
 
-	slot0:offsetL2dPositonDelay(0.3, 5)
+	slot0:offsetL2dPositonDelay(0.8, 5)
 	Live2dConst.ClearLive2dSave(slot0.live2dData.ship:getSkinId(), slot0.live2dData.ship.id)
 
 	if slot0.changeBgmVolume then
@@ -1405,11 +1418,15 @@ slot0.GetDragBounds = function(slot0)
 	return slot0.dragRenders
 end
 
-slot0.GetTransform = function(slot0)
+slot0.GetLive2dTransform = function(slot0)
 	return slot0._tf
 end
 
 slot0.setSortingLayer = function(slot0, slot1)
+	if slot0.state == uv0.STATE_DISPOSE then
+		return
+	end
+
 	slot1 = slot1 or LayerWeightConst.L2D_DEFAULT_LAYER
 
 	slot0:updateL2dSortMode()
@@ -1429,6 +1446,10 @@ slot0.Dispose = function(slot0)
 	if slot0.state == uv0.STATE_DISPOSE then
 		return
 	end
+
+	print("live2D Dispose name = " .. slot0.live2dData:GetShipName())
+
+	slot0._isDispose = true
 
 	if table.contains(ChangeSkinLink.L2D_SAVE_TEMPLATE_DISPOSE, slot0.live2dData.skinId) then
 		slot1 = slot0:getParameterDic()

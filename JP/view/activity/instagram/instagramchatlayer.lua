@@ -302,37 +302,45 @@ slot0.UpdateChatContent = function(slot0, slot1, slot2, slot3)
 	end, SFX_PANEL)
 
 	slot6 = slot0.rightPanel:Find("chat/paintingMask"):Find("painting")
-	slot7 = slot0.rightPanel:Find("chat/groupBackground")
+	slot7 = slot0.rightPanel:Find("chat/paintingMask/hx")
+	slot8 = slot0.rightPanel:Find("chat/groupBackground")
 
 	if slot1.type == 1 then
 		SetActive(slot5, true)
-		SetActive(slot7, false)
+		SetActive(slot8, false)
 
-		slot8 = "unknown"
+		slot9 = "unknown"
 
 		if slot1.skinId == 0 then
-			slot8 = slot1:GetPainting()
+			slot9 = slot1:GetPainting()
 		else
-			for slot12, slot13 in ipairs(slot1.skins) do
-				if slot13.id == slot1.skinId then
-					slot8 = slot13.painting
+			for slot13, slot14 in ipairs(slot1.skins) do
+				if slot14.id == slot1.skinId then
+					slot9 = slot14.painting
 				end
 			end
 		end
 
-		if not slot0.paintingName then
-			setPaintingPrefabAsync(slot6, slot8, "pifu")
+		if HXSet.isHx() then
+			SetActive(slot6, false)
+			SetActive(slot7, true)
+		else
+			if not slot0.paintingName then
+				setPaintingPrefabAsync(slot6, slot9, "pifu")
 
-			slot0.paintingName = slot8
-		elseif slot0.paintingName and slot0.paintingName ~= slot8 then
-			retPaintingPrefab(slot6, slot0.paintingName)
-			setPaintingPrefabAsync(slot6, slot8, "pifu")
+				slot0.paintingName = slot9
+			elseif slot0.paintingName and slot0.paintingName ~= slot9 then
+				retPaintingPrefab(slot6, slot0.paintingName)
+				setPaintingPrefabAsync(slot6, slot9, "pifu")
 
-			slot0.paintingName = slot8
+				slot0.paintingName = slot9
+			end
+
+			SetActive(slot7, false)
 		end
 	else
 		SetActive(slot5, false)
-		SetActive(slot7, true)
+		SetActive(slot8, true)
 
 		if slot0.paintingName then
 			retPaintingPrefab(slot6, slot0.paintingName)
@@ -340,14 +348,14 @@ slot0.UpdateChatContent = function(slot0, slot1, slot2, slot3)
 			slot0.paintingName = nil
 		end
 
-		setImageSprite(slot7, LoadSprite("ui/InstagramChatBackgrounds_atlas", slot1.groupBackground), true)
+		setImageSprite(slot8, LoadSprite("ui/InstagramChatBackgrounds_atlas", slot1.groupBackground), true)
 	end
 
-	slot8 = slot1.currentTopic:GetDisplayWordList()
+	slot9 = slot1.currentTopic:GetDisplayWordList()
 
 	if not slot3 then
-		slot0:UpdateOptionPanel(slot1.currentTopic, slot8)
-		slot0:UpdateMessageList(slot1.currentTopic, slot8, slot2, slot1.characterId, slot1.type)
+		slot0:UpdateOptionPanel(slot1.currentTopic, slot9)
+		slot0:UpdateMessageList(slot1.currentTopic, slot9, slot2, slot1.characterId, slot1.type)
 	end
 
 	if not slot2 and slot1.currentTopic.readFlag == 0 then

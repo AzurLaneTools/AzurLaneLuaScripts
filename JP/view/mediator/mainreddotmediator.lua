@@ -69,7 +69,8 @@ slot0.GetNotifyDic = function(slot0)
 			GAME.EVENT_FINISH_UPDATE,
 			GAME.CANCEL_LEARN_TACTICS_DONE,
 			ChapterAutoProxy.FINISH_UPDATE,
-			ChapterAutoProxy.END_CHAPTER_AUTO_DONE
+			ChapterAutoProxy.END_CHAPTER_AUTO_DONE,
+			ChapterAutoProxy.EXPIRED_TIP_MARK
 		},
 		SERVER = {
 			ServerNoticeProxy.SERVER_NOTICES_UPDATE
@@ -81,7 +82,8 @@ slot0.GetNotifyDic = function(slot0)
 		},
 		EVENT = {
 			GAME.EVENT_LIST_UPDATE,
-			GAME.EVENT_FINISH_UPDATE
+			GAME.EVENT_FINISH_UPDATE,
+			ChapterAutoProxy.EXPIRED_TIP_MARK
 		},
 		ACT_NEWBIE = {
 			GAME.REMOVE_LAYERS

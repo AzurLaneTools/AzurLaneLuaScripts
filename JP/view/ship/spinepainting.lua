@@ -78,6 +78,7 @@ slot0.Ctor = function(slot0, slot1, slot2)
 				uv0._loadSpineDic[uv1] = slot0
 
 				uv0:init(slot0)
+				uv0:SetVisible(false)
 				uv2()
 			end)
 		end,
@@ -109,9 +110,13 @@ slot0.Ctor = function(slot0, slot1, slot2)
 
 		uv0._initCallback = {}
 
-		if uv1 then
-			uv1(uv0)
-		end
+		onNextTick(function ()
+			uv0:SetVisible(true)
+
+			if uv1 then
+				uv1(uv0)
+			end
+		end)
 	end)
 end
 
@@ -272,7 +277,22 @@ slot0.onUpdateLocal = function(slot0)
 	end
 end
 
+slot0.UpdateGraphic = function(slot0)
+	if slot0._isDisposed then
+		return
+	end
+
+	slot0._skeletonGraphic:UpdateMesh()
+	Canvas.ForceUpdateCanvases()
+end
+
 slot0.SetVisible = function(slot0, slot1)
+	if slot1 then
+		slot0._tf.localPosition = slot0._spinePaintingData.pos
+	else
+		slot0._tf.localPosition = Vector2(100000, 0)
+	end
+
 	if not slot1 and slot0.dragDataConfigClient then
 		slot2 = slot0:getIdleName()
 
@@ -817,11 +837,11 @@ slot0.SetShopHx = function(slot0, slot1)
 			slot0:SetAction(slot0._idleName, 0, true)
 
 			slot2 = slot0._tf.anchoredPosition
-			slot0._tf.anchoredPosition = Vector2(100000, 0)
+			slot0._tf.localPosition = Vector2(100000, 0)
 
 			slot0:updateSkeletonGraphicTime()
 			onDelayTick(function ()
-				uv0._tf.anchoredPosition = uv1
+				uv0._tf.localPosition = uv0._spinePaintingData.pos
 			end, 0.05)
 		end
 	else
@@ -1185,9 +1205,6 @@ end
 
 slot0.Dispose = function(slot0)
 	slot0._isDisposed = true
-
-	slot0:changeInAction(false)
-
 	slot0._materialDic = {}
 
 	if slot0.updateLocal then

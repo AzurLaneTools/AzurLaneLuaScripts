@@ -30,6 +30,7 @@ pg.island_furniture_template.all = {
 	101,
 	102,
 	103,
+	104,
 	10101,
 	10201,
 	10301,
@@ -188,7 +189,37 @@ pg.island_furniture_template.all = {
 	50325,
 	50347,
 	50348,
-	50349
+	50349,
+	50350,
+	50351,
+	50352,
+	50353,
+	50354,
+	50355,
+	50356,
+	50357,
+	50358,
+	50359,
+	50360,
+	50361,
+	50362,
+	50364,
+	50365,
+	50366,
+	50367,
+	50368,
+	50369,
+	50370,
+	50371,
+	50372,
+	50373,
+	50374,
+	50375,
+	50376,
+	50377,
+	50380,
+	50381,
+	50382
 }
 pg.base = pg.base or {}
 pg.base.island_furniture_template = {}
@@ -792,6 +823,32 @@ pg.base.island_furniture_template = {}
 		jump_page = {
 			{
 				"秋の特産経営",
+				{}
+			}
+		}
+	}
+	pg.base.island_furniture_template[104] = {
+		setNum = 1,
+		describe = "トロフィーの上に透き通った氷の花が静かに咲く。粉雪を映してきらめく花びらから、冷たくもやわらかな冬の気配が漂う",
+		name = "冬の離島開発トロフィー",
+		type = 7,
+		hierarchy = 5,
+		rarity = 4,
+		icon = "furniture_104",
+		prosperity = 0,
+		capacityCost = 20,
+		interact_point = "",
+		model = "island/item/05/50005/prefab/pre_item_05_50005",
+		bt = "",
+		id = 104,
+		tech_id = 0,
+		size = {
+			2,
+			2
+		},
+		jump_page = {
+			{
+				"冬の特産経営",
 				{}
 			}
 		}
@@ -2656,6 +2713,8 @@ pg.base.island_furniture_template = {}
 			}
 		}
 	}
+end)()
+(function ()
 	pg.base.island_furniture_template[30303] = {
 		setNum = 999,
 		describe = "刈り込まれ豊かな緑で出来たアーチゲート。頂部にはクラシックなシャンデリアが吊り下げられていて、庭園の入口を明るく美しくしてくれる。",
@@ -2682,8 +2741,6 @@ pg.base.island_furniture_template = {}
 			}
 		}
 	}
-end)()
-(function ()
 	pg.base.island_furniture_template[30304] = {
 		setNum = 999,
 		describe = "華麗な世界が、すべての人に開かれている！",
@@ -4888,5 +4945,796 @@ end)()
 			5
 		},
 		jump_page = {}
+	}
+	pg.base.island_furniture_template[50350] = {
+		setNum = 1,
+		describe = "パンダ模様と竹林の飾りで仕立てた建物。島でもひときわ目を引く休憩スポット",
+		name = "パンダ竹苑館",
+		type = 1,
+		hierarchy = 5,
+		rarity = 4,
+		icon = "furniture_50350",
+		prosperity = 0,
+		capacityCost = 0,
+		interact_point = "",
+		model = "island/item/05/50350/prefab/pre_item_05_50350",
+		bt = "",
+		id = 50350,
+		tech_id = 0,
+		size = {
+			22,
+			19
+		},
+		jump_page = {
+			{
+				"星彩賞",
+				{}
+			}
+		}
+	}
+	pg.base.island_furniture_template[50351] = {
+		setNum = 1,
+		describe = "パンダの肉球と竹傘をあしらった演武台。気軽な手合わせにぴったり",
+		name = "パンダ演武台",
+		type = 2,
+		hierarchy = 5,
+		rarity = 4,
+		icon = "furniture_50351",
+		prosperity = 0,
+		capacityCost = 0,
+		model = "island/item/05/50351/prefab/pre_item_05_50351",
+		bt = "",
+		id = 50351,
+		tech_id = 0,
+		size = {
+			13,
+			13
+		},
+		interact_point = {
+			29
+		},
+		jump_page = {
+			{
+				"星彩賞",
+				{}
+			}
+		}
+	}
+	pg.base.island_furniture_template[50352] = {
+		setNum = 999,
+		describe = "パンダのクッションが敷かれている琴台。琴を置き気ままに弦をつま弾けば、ふわふわのメロディが生まれるかも？",
+		name = "パンダの琴台",
+		type = 3,
+		hierarchy = 5,
+		rarity = 2,
+		icon = "furniture_50352",
+		prosperity = 0,
+		capacityCost = 20,
+		model = "island/item/05/50352/prefab/pre_item_05_50352",
+		bt = "",
+		id = 50352,
+		tech_id = 0,
+		size = {
+			3,
+			3
+		},
+		interact_point = {
+			30
+		},
+		jump_page = {
+			{
+				"星彩賞",
+				{}
+			}
+		}
+	}
+	pg.base.island_furniture_template[50353] = {
+		setNum = 999,
+		describe = "パンダの要素を取り入れた稽古用の木人。組手をして体をほぐしたり、技の威力を試したりできる",
+		name = "稽古用の木人",
+		type = 4,
+		hierarchy = 5,
+		rarity = 2,
+		icon = "furniture_50353",
+		prosperity = 0,
+		capacityCost = 20,
+		interact_point = "",
+		model = "island/item/05/50353/prefab/pre_item_05_50353",
+		bt = "",
+		id = 50353,
+		tech_id = 0,
+		size = {
+			1,
+			1
+		},
+		jump_page = {
+			{
+				"星彩賞",
+				{}
+			}
+		}
+	}
+	pg.base.island_furniture_template[50354] = {
+		setNum = 999,
+		describe = "古風の石灯籠からこぼれる柔らかな光が、庭に落ち着いた雰囲気を添える",
+		name = "青石の灯籠",
+		type = 3,
+		hierarchy = 5,
+		rarity = 2,
+		icon = "furniture_50354",
+		prosperity = 0,
+		capacityCost = 20,
+		interact_point = "",
+		model = "island/item/05/50354/prefab/pre_item_05_50354",
+		bt = "",
+		id = 50354,
+		tech_id = 0,
+		size = {
+			1,
+			1
+		},
+		jump_page = {
+			{
+				"星彩賞",
+				{}
+			}
+		}
+	}
+	pg.base.island_furniture_template[50355] = {
+		setNum = 999,
+		describe = "高さの違う竹筒を並べた杭。足さばきやバランス感覚、反応速度を鍛えられる",
+		name = "修行の竹杭",
+		type = 3,
+		hierarchy = 5,
+		rarity = 3,
+		icon = "furniture_50355",
+		prosperity = 0,
+		capacityCost = 60,
+		model = "island/item/05/50370/prefab/pre_item_05_50370",
+		bt = "",
+		id = 50355,
+		tech_id = 0,
+		size = {
+			7,
+			7
+		},
+		interact_point = {
+			31,
+			32
+		},
+		jump_page = {
+			{
+				"星彩賞",
+				{}
+			}
+		}
+	}
+	pg.base.island_furniture_template[50356] = {
+		setNum = 999,
+		describe = "丸くて愛らしい石獅子の置物。威厳の中にも親しみやすさがある",
+		name = "福招きの石獅子",
+		type = 4,
+		hierarchy = 5,
+		rarity = 3,
+		icon = "furniture_50356",
+		prosperity = 0,
+		capacityCost = 40,
+		interact_point = "",
+		model = "island/item/05/50367/prefab/pre_item_05_50367",
+		bt = "",
+		id = 50356,
+		tech_id = 0,
+		size = {
+			2,
+			2
+		},
+		jump_page = {
+			{
+				"星彩賞",
+				{}
+			}
+		}
+	}
+	pg.base.island_furniture_template[50357] = {
+		setNum = 999,
+		describe = "パンダの足跡と竹の葉をかたどった門。くぐる度に熱烈な歓迎を受けている気分に",
+		name = "パンダの迎賓門",
+		type = 4,
+		hierarchy = 5,
+		rarity = 2,
+		icon = "furniture_50357",
+		prosperity = 0,
+		capacityCost = 60,
+		interact_point = "",
+		model = "island/item/05/50368/prefab/pre_item_05_50368",
+		bt = "",
+		id = 50357,
+		tech_id = 0,
+		size = {
+			5,
+			1
+		},
+		jump_page = {
+			{
+				"星彩賞",
+				{}
+			}
+		}
+	}
+	pg.base.island_furniture_template[50358] = {
+		setNum = 999,
+		describe = "花の枝と掛け軸、浅い池を組み合わせた小さな景観。爽やかでかわいらしい雰囲気がひときわ目を引く",
+		name = "花池の小景",
+		type = 4,
+		hierarchy = 5,
+		rarity = 2,
+		icon = "furniture_50358",
+		prosperity = 0,
+		capacityCost = 40,
+		interact_point = "",
+		model = "island/item/05/50369/prefab/pre_item_05_50369",
+		bt = "",
+		id = 50358,
+		tech_id = 0,
+		size = {
+			4,
+			5
+		},
+		jump_page = {
+			{
+				"星彩賞",
+				{}
+			}
+		}
+	}
+	pg.base.island_furniture_template[50359] = {
+		setNum = 999,
+		describe = "かわいらしい見た目の丹炉から、煙が立ちのぼる。中身が気になってしかたない",
+		name = "青玄の丹炉",
+		type = 4,
+		hierarchy = 5,
+		rarity = 3,
+		icon = "furniture_50359",
+		prosperity = 0,
+		capacityCost = 60,
+		model = "island/item/05/50371/prefab/pre_item_05_50371",
+		bt = "",
+		id = 50359,
+		tech_id = 0,
+		size = {
+			9,
+			9
+		},
+		interact_point = {
+			33
+		},
+		jump_page = {
+			{
+				"星彩賞",
+				{}
+			}
+		}
+	}
+	pg.base.island_furniture_template[50360] = {
+		setNum = 999,
+		describe = "まんまるなパンダのオブジェ。のんびりした姿がとても愛らしい",
+		name = "まんまるパンダのオブジェ",
+		type = 4,
+		hierarchy = 5,
+		rarity = 2,
+		icon = "furniture_50360",
+		prosperity = 0,
+		capacityCost = 20,
+		interact_point = "",
+		model = "island/item/05/50372/prefab/pre_item_05_50372",
+		bt = "",
+		id = 50360,
+		tech_id = 0,
+		size = {
+			3,
+			1
+		},
+		jump_page = {
+			{
+				"星彩賞",
+				{}
+			}
+		}
+	}
+	pg.base.island_furniture_template[50361] = {
+		setNum = 999,
+		describe = "竹の影が描かれた屏風。空間の仕切りにも、雅な背景にもなる",
+		name = "竹影の屏風",
+		type = 3,
+		hierarchy = 5,
+		rarity = 2,
+		icon = "furniture_50361",
+		prosperity = 0,
+		capacityCost = 60,
+		interact_point = "",
+		model = "island/item/05/50373/prefab/pre_item_05_50373",
+		bt = "",
+		id = 50361,
+		tech_id = 0,
+		size = {
+			3,
+			1
+		},
+		jump_page = {
+			{
+				"星彩賞",
+				{}
+			}
+		}
+	}
+	pg.base.island_furniture_template[50362] = {
+		setNum = 999,
+		describe = "庭に置かれた、勝負のついていない一局。休憩中に仲間とのんびり指すのにぴったり",
+		name = "打ちかけの盤",
+		type = 4,
+		hierarchy = 5,
+		rarity = 2,
+		icon = "furniture_50362",
+		prosperity = 0,
+		capacityCost = 60,
+		interact_point = "",
+		model = "island/item/05/50375/prefab/pre_item_05_50375",
+		bt = "",
+		id = 50362,
+		tech_id = 0,
+		size = {
+			8,
+			8
+		},
+		jump_page = {
+			{
+				"星彩賞",
+				{}
+			}
+		}
+	}
+end)()
+(function ()
+	pg.base.island_furniture_template[50364] = {
+		setNum = 999,
+		describe = "パンダの足跡をあしらった令旗。演武やイベント会場を厳かに彩る",
+		name = "パンダの令旗",
+		type = 4,
+		hierarchy = 5,
+		rarity = 2,
+		icon = "furniture_50363",
+		prosperity = 0,
+		capacityCost = 20,
+		interact_point = "",
+		model = "island/item/05/50357/prefab/pre_item_05_50357",
+		bt = "",
+		id = 50364,
+		tech_id = 0,
+		size = {
+			1,
+			1
+		},
+		jump_page = {
+			{
+				"星彩賞",
+				{}
+			}
+		}
+	}
+	pg.base.island_furniture_template[50365] = {
+		setNum = 999,
+		describe = "澄んだ色合いの水がめ。素朴で実用的な形に、暮らしの温もりが感じられる",
+		name = "青磁の水がめ",
+		type = 3,
+		hierarchy = 5,
+		rarity = 2,
+		icon = "furniture_50365",
+		prosperity = 0,
+		capacityCost = 60,
+		interact_point = "",
+		model = "island/item/05/50355/prefab/pre_item_05_50355",
+		bt = "",
+		id = 50365,
+		tech_id = 0,
+		size = {
+			2,
+			2
+		},
+		jump_page = {
+			{
+				"星彩賞",
+				{}
+			}
+		}
+	}
+	pg.base.island_furniture_template[50366] = {
+		setNum = 999,
+		describe = "池で小さなパンダがはしゃいでいる。きらめく水面が涼しげでかわいい一瞬",
+		name = "パンダのプール",
+		type = 4,
+		hierarchy = 5,
+		rarity = 2,
+		icon = "furniture_50366",
+		prosperity = 0,
+		capacityCost = 60,
+		interact_point = "",
+		model = "island/item/05/50356/prefab/pre_item_05_50356",
+		bt = "",
+		id = 50366,
+		tech_id = 0,
+		size = {
+			3,
+			2
+		},
+		jump_page = {
+			{
+				"星彩賞",
+				{}
+			}
+		}
+	}
+	pg.base.island_furniture_template[50367] = {
+		setNum = 999,
+		describe = "青竹をかたどったオブジェ。自然の緑を添えてくれる",
+		name = "青竹オブジェ",
+		type = 3,
+		hierarchy = 5,
+		rarity = 2,
+		icon = "furniture_50367",
+		prosperity = 0,
+		capacityCost = 20,
+		interact_point = "",
+		model = "island/item/05/50358/prefab/pre_item_05_50358",
+		bt = "",
+		id = 50367,
+		tech_id = 0,
+		size = {
+			3,
+			1
+		},
+		jump_page = {
+			{
+				"星彩賞",
+				{}
+			}
+		}
+	}
+	pg.base.island_furniture_template[50368] = {
+		setNum = 999,
+		describe = "パンダの形をした街灯。明かりがつくと、ぽかぽかのお団子みたい",
+		name = "まんまるパンダ街灯",
+		type = 4,
+		hierarchy = 5,
+		rarity = 2,
+		icon = "furniture_50368",
+		prosperity = 0,
+		capacityCost = 20,
+		interact_point = "",
+		model = "island/item/05/50359/prefab/pre_item_05_50359",
+		bt = "",
+		id = 50368,
+		tech_id = 0,
+		size = {
+			1,
+			1
+		},
+		jump_page = {
+			{
+				"星彩賞",
+				{}
+			}
+		}
+	}
+	pg.base.island_furniture_template[50369] = {
+		setNum = 999,
+		describe = "笠をかぶってマントを羽織っているパンダ。まんまるなのに、どこか侠客の風格が漂う",
+		name = "熊猫侠客 ",
+		type = 4,
+		hierarchy = 5,
+		rarity = 2,
+		icon = "furniture_50369",
+		prosperity = 0,
+		capacityCost = 40,
+		interact_point = "",
+		model = "island/item/05/50362/prefab/pre_item_05_50362",
+		bt = "",
+		id = 50369,
+		tech_id = 0,
+		size = {
+			1,
+			1
+		},
+		jump_page = {
+			{
+				"ジーズンV-累計PT",
+				{}
+			}
+		}
+	}
+	pg.base.island_furniture_template[50370] = {
+		setNum = 999,
+		describe = "石を彫って作った象棋の飾り。重厚な質感の中に、遊び心も覗かせる",
+		name = "石の象棋",
+		type = 4,
+		hierarchy = 5,
+		rarity = 2,
+		icon = "furniture_50370",
+		prosperity = 0,
+		capacityCost = 20,
+		interact_point = "",
+		model = "island/item/05/50360/prefab/pre_item_05_50360",
+		bt = "",
+		id = 50370,
+		tech_id = 0,
+		size = {
+			1,
+			1
+		},
+		jump_page = {
+			{
+				"星彩賞",
+				{}
+			}
+		}
+	}
+	pg.base.island_furniture_template[50371] = {
+		setNum = 999,
+		describe = "美酒を封じた酒がめ。近づくと、ほのかな竹の香りがする",
+		name = "竹香る酒がめ",
+		type = 4,
+		hierarchy = 5,
+		rarity = 2,
+		icon = "furniture_50371",
+		prosperity = 0,
+		capacityCost = 20,
+		interact_point = "",
+		model = "island/item/05/50361/prefab/pre_item_05_50361",
+		bt = "",
+		id = 50371,
+		tech_id = 0,
+		size = {
+			1,
+			1
+		},
+		jump_page = {
+			{
+				"星彩賞",
+				{}
+			}
+		}
+	}
+	pg.base.island_furniture_template[50372] = {
+		setNum = 999,
+		describe = "一年中青々とした竹。庭に静かで自然な趣をもたらす",
+		name = "常緑の青竹",
+		type = 4,
+		hierarchy = 5,
+		rarity = 2,
+		icon = "furniture_50372",
+		prosperity = 0,
+		capacityCost = 20,
+		interact_point = "",
+		model = "island/item/05/50377/prefab/pre_item_05_50377",
+		bt = "",
+		id = 50372,
+		tech_id = 0,
+		size = {
+			1,
+			1
+		},
+		jump_page = {
+			{
+				"星彩賞",
+				{}
+			}
+		}
+	}
+	pg.base.island_furniture_template[50373] = {
+		setNum = 999,
+		describe = "顔を出したばかりのタケノコ。パンダたちの大好物",
+		name = "採れたてタケノコ",
+		type = 4,
+		hierarchy = 5,
+		rarity = 2,
+		icon = "furniture_50373",
+		prosperity = 0,
+		capacityCost = 20,
+		interact_point = "",
+		model = "island/item/05/50363/prefab/pre_item_05_50363",
+		bt = "",
+		id = 50373,
+		tech_id = 0,
+		size = {
+			1,
+			1
+		},
+		jump_page = {
+			{
+				"星彩賞",
+				{}
+			}
+		}
+	}
+	pg.base.island_furniture_template[50374] = {
+		setNum = 999,
+		describe = "青竹を紐で結んで組んだ柵。爽やかな色合いで、景観に自然な雰囲気を添えてくれる",
+		name = "竹結びのフェンス",
+		type = 3,
+		hierarchy = 5,
+		rarity = 2,
+		icon = "furniture_50374",
+		prosperity = 0,
+		capacityCost = 40,
+		interact_point = "",
+		model = "island/item/05/50364/prefab/pre_item_05_50364",
+		bt = "",
+		id = 50374,
+		tech_id = 0,
+		size = {
+			1,
+			1
+		},
+		jump_page = {
+			{
+				"ジーズンV-累計PT",
+				{}
+			}
+		}
+	}
+	pg.base.island_furniture_template[50375] = {
+		setNum = 999,
+		describe = "うっすら苔むした青石の飾り。ずっと眺めていても飽きない丸みのある形",
+		name = "青石のオブジェ",
+		type = 4,
+		hierarchy = 5,
+		rarity = 2,
+		icon = "furniture_50375",
+		prosperity = 0,
+		capacityCost = 20,
+		interact_point = "",
+		model = "island/item/05/50365/prefab/pre_item_05_50365",
+		bt = "",
+		id = 50375,
+		tech_id = 0,
+		size = {
+			2,
+			2
+		},
+		jump_page = {
+			{
+				"ジーズンV-累計PT",
+				{}
+			}
+		}
+	}
+	pg.base.island_furniture_template[50376] = {
+		setNum = 999,
+		describe = "青石をいくつか不揃いに積み上げたオブジェ。苔のアクセントで、さらに趣が増す",
+		name = "積み石のオブジェ",
+		type = 4,
+		hierarchy = 5,
+		rarity = 2,
+		icon = "furniture_50376",
+		prosperity = 0,
+		capacityCost = 20,
+		interact_point = "",
+		model = "island/item/05/50366/prefab/pre_item_05_50366",
+		bt = "",
+		id = 50376,
+		tech_id = 0,
+		size = {
+			2,
+			1
+		},
+		jump_page = {
+			{
+				"ジーズンV-累計PT",
+				{}
+			}
+		}
+	}
+	pg.base.island_furniture_template[50377] = {
+		setNum = 999,
+		describe = "ぺたっと寝そべったパンダの飾り。だらんとした姿がなんとも気持ちよさそう",
+		name = "寝そべりパンダ",
+		type = 4,
+		hierarchy = 5,
+		rarity = 2,
+		icon = "furniture_50377",
+		prosperity = 0,
+		capacityCost = 60,
+		interact_point = "",
+		model = "island/item/05/50376/prefab/pre_item_05_50376",
+		bt = "",
+		id = 50377,
+		tech_id = 0,
+		size = {
+			6,
+			4
+		},
+		jump_page = {
+			{
+				"ジーズンV-累計PT",
+				{}
+			}
+		}
+	}
+	pg.base.island_furniture_template[50380] = {
+		setNum = 999,
+		describe = "細かな竹の葉を敷きつめた爽やかなタイル。小さな竹林の緑をあなたの足元に",
+		name = "竹林のタイル（小）",
+		type = 8,
+		hierarchy = 6,
+		rarity = 2,
+		icon = "furniture_50380",
+		prosperity = 0,
+		capacityCost = 0,
+		interact_point = "",
+		model = "island/item/05/50380/prefab/pre_item_05_50380",
+		bt = "",
+		id = 50380,
+		tech_id = 0,
+		size = {
+			2,
+			2
+		},
+		jump_page = {
+			{
+				"星彩賞",
+				{}
+			}
+		}
+	}
+	pg.base.island_furniture_template[50381] = {
+		setNum = 999,
+		describe = "細かな竹の葉を敷きつめた爽やかなタイル。小さな竹林の緑をあなたの足元に",
+		name = "竹林のタイル（中）",
+		type = 8,
+		hierarchy = 6,
+		rarity = 2,
+		icon = "furniture_50381",
+		prosperity = 0,
+		capacityCost = 0,
+		interact_point = "",
+		model = "island/item/05/50381/prefab/pre_item_05_50381",
+		bt = "",
+		id = 50381,
+		tech_id = 0,
+		size = {
+			3,
+			3
+		},
+		jump_page = {
+			{
+				"星彩賞",
+				{}
+			}
+		}
+	}
+	pg.base.island_furniture_template[50382] = {
+		setNum = 999,
+		describe = "細かな竹の葉を敷きつめた爽やかなタイル。小さな竹林の緑をあなたの足元に",
+		name = "竹林のタイル（大）",
+		type = 8,
+		hierarchy = 6,
+		rarity = 2,
+		icon = "furniture_50382",
+		prosperity = 0,
+		capacityCost = 0,
+		interact_point = "",
+		model = "island/item/05/50382/prefab/pre_item_05_50382",
+		bt = "",
+		id = 50382,
+		tech_id = 0,
+		size = {
+			5,
+			5
+		},
+		jump_page = {
+			{
+				"星彩賞",
+				{}
+			}
+		}
 	}
 end)()

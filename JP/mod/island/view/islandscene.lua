@@ -318,6 +318,8 @@ end
 
 slot0.OnSetUpCore = function(slot0, slot1, slot2)
 	slot0.approachSpawnPointId = slot2
+
+	slot0.btnContainer:ActiveOrDisactive(true)
 end
 
 slot0.OnAgoraEnterEditMode = function(slot0)

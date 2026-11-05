@@ -24,7 +24,7 @@ slot0.Init = function(slot0)
 
 	for slot4 = 1, 3 do
 		slot0.mainItemList[slot4] = FormationSuggestionCardItem.New(slot0[string.format("uiMainShipTf%s", slot4)], slot0)
-		slot0.vanguardItemList[slot4] = FormationSuggestionCardItem.New(slot0[string.format("uiVanguardShipTf%s", slot4)], slot0)
+		slot0.vanguardItemList[slot4] = FormationSuggestionCardItem.New(slot0[string.format("uiVanguardShipTf%s", slot4)], slot0, true)
 	end
 
 	slot0.animation = slot0._tf:GetComponent(typeof(Animation))
@@ -60,7 +60,7 @@ slot0.SetID = function(slot0, slot1)
 		end
 
 		for slot6, slot7 in ipairs(slot2.teamid1) do
-			slot0.vanguardItemList[slot6]:SetData(slot7)
+			slot0.vanguardItemList[slot6]:SetData(slot7, slot6)
 		end
 	end
 end
