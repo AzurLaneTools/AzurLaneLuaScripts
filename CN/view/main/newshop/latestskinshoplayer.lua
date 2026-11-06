@@ -1423,7 +1423,7 @@ slot0.LoadMeshPainting = function(slot0, slot1, slot2)
 
 		uv2:CheckShowShopHx(slot0.transform:Find("shop_hx"))
 		uv2:CheckShowShopHx(slot0.transform:Find("shop_hx_ch" .. pg.SdkMgr.GetInstance():GetChannelUIDIncludeHarmony()))
-		uv2._paintingManager:SetOpacityPainting(tf(slot0), PaintingFadeManager.PAINTING_TYPE.MESH)
+		uv2._paintingManager:SetOpacityPainting(tf(slot0), uv0, PaintingFadeManager.PAINTING_TYPE.MESH)
 		uv2._paintingManager:RevertPaintingContainer()
 		uv2._paintingManager:SetPaintingAlpha(1)
 	end)
@@ -1494,7 +1494,7 @@ slot0.LoadL2dPainting = function(slot0, slot1)
 
 		slot0:setSortingLayer(LayerWeightConst.L2D_DEFAULT_LAYER)
 		pg.UIMgr.GetInstance():LoadingOff()
-		uv0._paintingManager:SetOpacityPainting(slot0:GetLive2dTransform(), PaintingFadeManager.PAINTING_TYPE.LIVE2D)
+		uv0._paintingManager:SetOpacityPainting(slot0:GetLive2dTransform(), uv0.live2dContainer, PaintingFadeManager.PAINTING_TYPE.LIVE2D)
 		uv0._paintingManager:SetPaintingFadeIn()
 	end)
 end
@@ -1548,7 +1548,7 @@ slot0.LoadSpinePainting = function(slot0, slot1)
 	slot0.spinePainting = SpinePainting.New(SpinePainting.GenerateData({
 		ship = slot4,
 		position = Vector3(0, 0, 0),
-		parent = slot0._paintingManager:GetSpinePaintingContainer(),
+		parent = slot0.spTF,
 		effectParent = slot0.spBg,
 		offset = slot4:GetSkinConfig().shop_offset
 	}), function (slot0)
@@ -1561,7 +1561,7 @@ slot0.LoadSpinePainting = function(slot0, slot1)
 		uv0:CheckShowShopHx(slot0._tf:Find("shop_hx"))
 		uv0:CheckShowShopHx(slot0._tf:Find("shop_hx_ch" .. pg.SdkMgr.GetInstance():GetChannelUIDIncludeHarmony()))
 		pg.UIMgr.GetInstance():LoadingOff()
-		uv0._paintingManager:SetOpacityPainting(slot0:GetSpineTransform(), PaintingFadeManager.PAINTING_TYPE.SPINE)
+		uv0._paintingManager:SetOpacityPainting(slot0:GetSpineTransform(), uv0.spTF, PaintingFadeManager.PAINTING_TYPE.SPINE)
 		uv0._paintingManager:SetPaintingFadeIn(function ()
 			uv0:UpdateGraphic()
 		end)

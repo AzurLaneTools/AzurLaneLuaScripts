@@ -1,7 +1,7 @@
 slot0 = class("MainChangeSkinBtn", import(".MainBaseBtn"))
 
 slot0.OnClick = function(slot0)
-	if slot0._clickTime and Time.realtimeSinceStartup - slot0._clickTime < 1.5 then
+	if slot0._clickTime and Time.realtimeSinceStartup - slot0._clickTime < 1 then
 		return
 	end
 

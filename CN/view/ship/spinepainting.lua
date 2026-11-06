@@ -78,6 +78,7 @@ slot0.Ctor = function(slot0, slot1, slot2)
 				uv0._loadSpineDic[uv1] = slot0
 
 				uv0:init(slot0)
+				uv0:UpdateGraphic()
 				uv0:applyVisible(false)
 				uv2()
 			end)
@@ -109,17 +110,14 @@ slot0.Ctor = function(slot0, slot1, slot2)
 		end
 
 		uv0._initCallback = {}
+		uv0._pendingVisible = nil
+		uv0._visibleReady = true
 
-		onNextTick(function ()
-			uv0._pendingVisible = nil
-			uv0._visibleReady = true
+		uv0:applyVisible(uv0._pendingVisible ~= false)
 
-			uv0:applyVisible(uv0._pendingVisible ~= false)
-
-			if uv1 then
-				uv1(uv0)
-			end
-		end)
+		if uv1 then
+			uv1(uv0)
+		end
 	end)
 end
 
@@ -197,6 +195,7 @@ slot0.init = function(slot0, slot1)
 	end, 0.016666666666666666, -1)
 
 	slot0._slotAlphaTimer:Start()
+	slot0:UpdateGraphic()
 end
 
 slot0.initBgEffect = function(slot0, slot1)
@@ -285,6 +284,7 @@ slot0.UpdateGraphic = function(slot0)
 		return
 	end
 
+	print("spine update graphic Time")
 	slot0._skeletonGraphic:UpdateMesh()
 	Canvas.ForceUpdateCanvases()
 end
@@ -342,62 +342,62 @@ slot0.applyVisible = function(slot0, slot1)
 
 	slot0._visible = slot1
 
-	onNextTick(function ()
-		if uv0._isDisposed then
-			return
+	if slot0._isDisposed then
+		return
+	end
+
+	if slot0._lightTf then
+		setActive(slot0._lightTf, slot0._visible)
+	end
+
+	if slot0._spinePaintingData.effectParent then
+		setActive(slot0._spinePaintingData.effectParent, slot0._visible)
+		setActiveViaLayer(slot0._spinePaintingData.effectParent, slot0._visible)
+	end
+
+	if not IsNil(slot0._tf) then
+		pg.ViewUtils.SetLayer(slot0._tf, slot0._visible and Layer.UI or Layer.UIHidden)
+	end
+
+	slot0._lightValue = nil
+	slot0._effectShowFlag = true
+	slot0._dragPassFlag = true
+
+	if slot0._skeletonGraphic then
+		slot0._skeletonGraphic.timeScale = slot0._visible and 1 or 0
+	end
+
+	if not slot0._visible then
+		slot0.mainSpineAnim:SetActionCallBack(nil)
+		slot0:changeInAction(false)
+
+		slot0.clickActionList = {}
+
+		if LeanTween.isTweening(go(slot0._tf)) then
+			LeanTween.cancel(go(slot0._tf))
 		end
 
-		if uv0._lightTf then
-			setActive(uv0._lightTf, uv0._visible)
-		end
-
-		if uv0._spinePaintingData.effectParent then
-			setActive(uv0._spinePaintingData.effectParent, uv0._visible)
-		end
-
-		pg.ViewUtils.SetLayer(uv0._tf, uv0._visible and Layer.UI or Layer.UIHidden)
-		setActiveViaLayer(uv0._spinePaintingData.effectParent, uv0._visible)
-
-		uv0._lightValue = nil
-		uv0._effectShowFlag = true
-		uv0._dragPassFlag = true
-
-		if uv0._skeletonGraphic then
-			uv0._skeletonGraphic.timeScale = uv0._visible and 1 or 0
-		end
-
-		if not uv0._visible then
-			uv0.mainSpineAnim:SetActionCallBack(nil)
-			uv0:changeInAction(false)
-
-			uv0.clickActionList = {}
-
-			if LeanTween.isTweening(go(uv0._tf)) then
-				LeanTween.cancel(go(uv0._tf))
+		if slot0._baseShader then
+			if slot0._skeletonGraphic then
+				slot0._skeletonGraphic.material.shader = slot0._baseShader
 			end
 
-			if uv0._baseShader then
-				if uv0._skeletonGraphic then
-					uv0._skeletonGraphic.material.shader = uv0._baseShader
-				end
-
-				uv0._baseShader = nil
-			end
-
-			uv0._displayWord = false
-		else
-			uv0._skeletonGraphic:Update(Time.deltaTime)
+			slot0._baseShader = nil
 		end
 
-		uv0:playPaintingInitIdle()
-		uv0:playPaintingInitSkin()
-		uv0:updateLink()
+		slot0._displayWord = false
+	else
+		slot0._skeletonGraphic:Update(Time.deltaTime)
+	end
 
-		if not uv1 then
-			uv0:unloadCueSheet()
-			pg.CriMgr.GetInstance():DisposePaintingBgm()
-		end
-	end)
+	slot0:playPaintingInitIdle()
+	slot0:playPaintingInitSkin()
+	slot0:updateLink()
+
+	if not slot1 then
+		slot0:unloadCueSheet()
+		pg.CriMgr.GetInstance():DisposePaintingBgm()
+	end
 end
 
 slot0.playPaintingInitIdle = function(slot0)

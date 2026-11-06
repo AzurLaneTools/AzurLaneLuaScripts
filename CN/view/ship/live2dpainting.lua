@@ -825,7 +825,7 @@ slot19 = function(slot0, slot1)
 		slot0.delayChangeParamater = nil
 	end
 
-	slot0:offsetL2dPositonDelay(0.75, 5)
+	slot0:offsetL2dPositonDelay(0.5, 5)
 	uv12(slot0, "idle", true)
 	Live2DPainting.SetL2dSortingLayer(slot1, LayerWeightConst.L2D_DEFAULT_LAYER)
 end
@@ -854,13 +854,12 @@ slot0.Ctor = function(slot0, slot1, slot2)
 				end
 
 				uv2(uv0, slot0)
-				onDelayTick(function ()
-					if uv0 then
-						uv0(uv1)
 
-						uv0 = nil
-					end
-				end, 0.6)
+				if uv3 then
+					uv3(uv0)
+
+					uv3 = nil
+				end
 			else
 				uv0:clearMaskTexture(slot0)
 				pg.Live2DMgr.GetInstance():ReturnLive2DModel(uv0.modelName, slot0)
@@ -902,7 +901,7 @@ slot0.SetVisible = function(slot0, slot1)
 
 			slot0 = uv0
 
-			slot0:offsetL2dPositonDelay(0.8, 5, function ()
+			slot0:offsetL2dPositonDelay(0.5, 5, function ()
 			end)
 			uv1(uv0, "idle", true)
 		end)
@@ -1194,7 +1193,7 @@ slot0.resetL2dData = function(slot0)
 		return
 	end
 
-	slot0:offsetL2dPositonDelay(0.8, 5)
+	slot0:offsetL2dPositonDelay(0.5, 5)
 	Live2dConst.ClearLive2dSave(slot0.live2dData.ship:getSkinId(), slot0.live2dData.ship.id)
 
 	if slot0.changeBgmVolume then
