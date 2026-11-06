@@ -2396,7 +2396,7 @@ pg.base.ship_skin_words_extra = {}
 		win_mvp = {
 			{
 				1100,
-				"Cy-Cyget is victorious~! Saratoga, I don't think I'm cut out for this!"
+				"Cy-Cygnet is victorious~! Saratoga, I don't think I'm cut out for this!"
 			}
 		},
 		lose = {
