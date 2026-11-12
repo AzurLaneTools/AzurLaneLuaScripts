@@ -18,7 +18,7 @@ return {
 			voice = "event:/dorm/drom3d_nakhimov_ik_furniture2_tone1/drom3d_nakhimov_ik_furniture2_tone1",
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
-			say = "指挥官……一起来睡觉吧……唔……抱抱……",
+			say = "指揮官……一起來睡覺吧……唔……抱抱……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

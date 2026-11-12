@@ -1143,6 +1143,9 @@ pg.activity_template.all = {
 	50492,
 	50493,
 	50522,
+	51201,
+	51202,
+	51203,
 	50801,
 	50803,
 	50804,
@@ -3264,6 +3267,7 @@ pg.activity_template.get_id_list_by_type = {
 		50482,
 		50487,
 		50489,
+		51202,
 		50805,
 		50817,
 		50834,
@@ -3924,6 +3928,7 @@ pg.activity_template.get_id_list_by_type = {
 		50234,
 		50266,
 		50296,
+		51201,
 		50846,
 		50610,
 		50630,
@@ -4964,6 +4969,7 @@ pg.activity_template.get_id_list_by_type = {
 		50419,
 		50429,
 		50483,
+		51203,
 		50806,
 		50833,
 		50840,
@@ -55179,6 +55185,185 @@ end)()
 			mediator = "BossRushAlvitMediator"
 		}
 	}
+	pg.base.activity_template[51201] = {
+		mark = 20261112,
+		type = 18,
+		login_pop = 0,
+		config_id = 3,
+		is_show = 5,
+		title_res_tag = "WindFogCorridorCoreActivityUI_subtitle_1",
+		id = 51201,
+		page_core = "WindFogCorridorCoreActivityUI",
+		config_data = {
+			{
+				27801,
+				27802,
+				27803,
+				27804,
+				27805,
+				27806,
+				27807,
+				27808,
+				27809,
+				27810,
+				27811,
+				27812,
+				27813,
+				27814,
+				27816
+			}
+		},
+		time = {
+			"timer",
+			{
+				{
+					2026,
+					11,
+					12
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2026,
+					12,
+					3
+				},
+				{
+					14,
+					59,
+					59
+				}
+			}
+		},
+		page_info = {
+			class_name = "WindFogCorridorSkinPage",
+			ui_name = "WindFogCorridorSkinPage"
+		},
+		config_client = {
+			subType = 1,
+			once_task = 27816,
+			sub_act_id = 51203,
+			ptActId = 51203,
+			daily_task = 27815,
+			unlock_task = {
+				{
+					27801,
+					27802
+				},
+				{
+					27803,
+					27804
+				},
+				{
+					27805,
+					27806
+				},
+				{
+					27807,
+					27808
+				},
+				{
+					27809,
+					27810
+				},
+				{
+					27811,
+					27812
+				},
+				{
+					27813,
+					27814
+				}
+			}
+		}
+	}
+	pg.base.activity_template[51202] = {
+		mark = 20261112,
+		page_info = "",
+		type = 13,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 0,
+		config_client = "",
+		title_res_tag = "",
+		id = 51202,
+		page_core = "",
+		config_data = {
+			27815
+		},
+		time = {
+			"timer",
+			{
+				{
+					2026,
+					11,
+					12
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2026,
+					12,
+					3
+				},
+				{
+					14,
+					59,
+					59
+				}
+			}
+		}
+	}
+	pg.base.activity_template[51203] = {
+		mark = 20261112,
+		page_info = "",
+		type = 74,
+		login_pop = 0,
+		config_id = 51203,
+		is_show = 0,
+		config_client = "",
+		title_res_tag = "",
+		id = 51203,
+		page_core = "",
+		config_data = {},
+		time = {
+			"timer",
+			{
+				{
+					2026,
+					11,
+					12
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2026,
+					12,
+					3
+				},
+				{
+					14,
+					59,
+					59
+				}
+			}
+		}
+	}
 	pg.base.activity_template[50801] = {
 		mark = 20260507,
 		page_info = "",
@@ -58287,6 +58472,8 @@ end)()
 			painting = "aluomangshi_pt"
 		}
 	}
+end)()
+(function ()
 	pg.base.activity_template[50656] = {
 		mark = 20260709,
 		page_info = "",
@@ -58440,8 +58627,6 @@ end)()
 			}
 		}
 	}
-end)()
-(function ()
 	pg.base.activity_template[50659] = {
 		mark = 20260709,
 		page_info = "",
@@ -63495,6 +63680,8 @@ end)()
 			}
 		}
 	}
+end)()
+(function ()
 	pg.base.activity_template[51608] = {
 		mark = 20261029,
 		page_info = "",
@@ -63674,8 +63861,6 @@ end)()
 			}
 		}
 	}
-end)()
-(function ()
 	pg.base.activity_template[51612] = {
 		mark = 20261029,
 		page_info = "",
@@ -67469,6 +67654,8 @@ end)()
 			}
 		}
 	}
+end)()
+(function ()
 	pg.base.activity_template[6003] = {
 		mark = 20210708,
 		time = "stop",
@@ -67686,8 +67873,6 @@ end)()
 			}
 		}
 	}
-end)()
-(function ()
 	pg.base.activity_template[6006] = {
 		mark = 20211028,
 		time = "stop",
@@ -70772,6 +70957,8 @@ end)()
 			}
 		}
 	}
+end)()
+(function ()
 	pg.base.activity_template[40238] = {
 		mark = 20210204,
 		page_info = "",
@@ -70823,8 +71010,6 @@ end)()
 			}
 		}
 	}
-end)()
-(function ()
 	pg.base.activity_template[40241] = {
 		mark = 20210204,
 		page_info = "",
@@ -73729,6 +73914,8 @@ end)()
 			}
 		}
 	}
+end)()
+(function ()
 	pg.base.activity_template[40339] = {
 		mark = 20210610,
 		page_info = "",
@@ -73792,8 +73979,6 @@ end)()
 			ui_name = "FranceSpPage"
 		}
 	}
-end)()
-(function ()
 	pg.base.activity_template[40342] = {
 		mark = 20210610,
 		page_info = "",
@@ -77794,6 +77979,8 @@ end)()
 			}
 		}
 	}
+end)()
+(function ()
 	pg.base.activity_template[40442] = {
 		mark = 20211008,
 		page_info = "",
@@ -77925,8 +78112,6 @@ end)()
 			}
 		}
 	}
-end)()
-(function ()
 	pg.base.activity_template[40445] = {
 		mark = 20211008,
 		page_info = "",
@@ -81558,6 +81743,8 @@ end)()
 			}
 		}
 	}
+end)()
+(function ()
 	pg.base.activity_template[40546] = {
 		mark = 20220217,
 		page_info = "",
@@ -81693,8 +81880,6 @@ end)()
 			}
 		}
 	}
-end)()
-(function ()
 	pg.base.activity_template[40549] = {
 		mark = 20220217,
 		page_info = "",
@@ -84826,6 +85011,8 @@ end)()
 			80248
 		}
 	}
+end)()
+(function ()
 	pg.base.activity_template[40641] = {
 		mark = 20220601,
 		time = "stop",
@@ -85005,8 +85192,6 @@ end)()
 			}
 		}
 	}
-end)()
-(function ()
 	pg.base.activity_template[40671] = {
 		mark = 20220526,
 		time = "stop",
@@ -87214,6 +87399,8 @@ end)()
 			ui_name = "FiveAnniversaryPage"
 		}
 	}
+end)()
+(function ()
 	pg.base.activity_template[40890] = {
 		mark = 20221020,
 		page_info = "",
@@ -87298,8 +87485,6 @@ end)()
 			16267
 		}
 	}
-end)()
-(function ()
 	pg.base.activity_template[40896] = {
 		mark = 20221020,
 		page_info = "",
@@ -90141,6 +90326,8 @@ end)()
 			ui_name = "MutsukiNewYearSkinPage"
 		}
 	}
+end)()
+(function ()
 	pg.base.activity_template[41012] = {
 		mark = 20230112,
 		page_info = "",
@@ -90270,8 +90457,6 @@ end)()
 			ui = "ColoringAnshanUI"
 		}
 	}
-end)()
-(function ()
 	pg.base.activity_template[41015] = {
 		mark = 20230118,
 		page_info = "",
@@ -93373,6 +93558,8 @@ end)()
 			}
 		}
 	}
+end)()
+(function ()
 	pg.base.activity_template[41163] = {
 		mark = 20230518,
 		type = 69,
@@ -93475,8 +93662,6 @@ end)()
 		page_core = "",
 		config_data = {}
 	}
-end)()
-(function ()
 	pg.base.activity_template[41166] = {
 		mark = 20230518,
 		type = 87,
@@ -96992,6 +97177,8 @@ end)()
 			}
 		}
 	}
+end)()
+(function ()
 	pg.base.activity_template[41300] = {
 		mark = 20230824,
 		page_info = "",
@@ -97087,8 +97274,6 @@ end)()
 		id = 41302,
 		page_core = ""
 	}
-end)()
-(function ()
 	pg.base.activity_template[41303] = {
 		mark = 20230824,
 		type = 74,
@@ -101427,6 +101612,8 @@ end)()
 			15760
 		}
 	}
+end)()
+(function ()
 	pg.base.activity_template[45024] = {
 		mark = 20201009,
 		page_info = "",
@@ -101535,8 +101722,6 @@ end)()
 			1
 		}
 	}
-end)()
-(function ()
 	pg.base.activity_template[45027] = {
 		mark = 20200924,
 		page_info = "",
@@ -106355,6 +106540,8 @@ end)()
 			ui_name = "CrusingDisplayActPage25"
 		}
 	}
+end)()
+(function ()
 	pg.base.activity_template[45925] = {
 		mark = 20260326,
 		type = 54,
@@ -106514,8 +106701,6 @@ end)()
 			ui_name = "CrusingDisplayActPage28"
 		}
 	}
-end)()
-(function ()
 	pg.base.activity_template[45928] = {
 		mark = 20260930,
 		type = 54,
@@ -110058,6 +110243,8 @@ end)()
 			21819
 		}
 	}
+end)()
+(function ()
 	pg.base.activity_template[1000106] = {
 		mark = 20261022,
 		page_info = "",
@@ -110171,8 +110358,6 @@ end)()
 			ui_name = "ForestVacationSkinRePage"
 		}
 	}
-end)()
-(function ()
 	pg.base.activity_template[1000109] = {
 		mark = 20261022,
 		time = "stop",

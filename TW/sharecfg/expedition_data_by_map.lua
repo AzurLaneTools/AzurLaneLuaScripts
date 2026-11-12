@@ -564,6 +564,12 @@ pg.expedition_data_by_map.all = {
 	2200110,
 	2200120,
 	2200130,
+	2200140,
+	2200141,
+	2200180,
+	2200181,
+	2200190,
+	2200191,
 	5100000,
 	5100001,
 	5100010,
@@ -842,6 +848,12 @@ pg.expedition_data_by_map.get_id_list_by_type = {
 		2200040,
 		2200070,
 		2200130,
+		2200140,
+		2200141,
+		2200180,
+		2200181,
+		2200190,
+		2200191,
 		5100000,
 		5100001,
 		5100100,
@@ -35154,6 +35166,352 @@ end)()
 					},
 					"jianzhu04"
 				}
+			}
+		}
+	}
+	pg.base.expedition_data_by_map[2200140] = {
+		map = 2200140,
+		name = "颶風與青春之泉·上篇|| ||CHAPTER EX||E.X.",
+		pos_type = 0,
+		type = 4,
+		anchor = "",
+		title = "SP",
+		drop_by_map_display = "",
+		level_limit = 1,
+		enter_story = "1767002",
+		animtor = 1,
+		guide_id = "",
+		ani_name = "Map_1760001",
+		ani_controller = "",
+		default_background = "",
+		on_activity = 0,
+		map_name = "",
+		cloud_suffix = "",
+		story_inactive_color = "",
+		bgm = "story-temepest-1",
+		ui_type = 1,
+		bg = "Map_1760001",
+		story_id = "",
+		chapterGroups = "",
+		destory_icon_suffix = "blue",
+		default_bgm = "",
+		uifx = "",
+		bind_map = 0,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	}
+	pg.base.expedition_data_by_map[2200141] = {
+		map = 2200141,
+		name = "颶風與青春之泉·下篇|| ||CHAPTER EX||E.X.",
+		pos_type = 0,
+		type = 4,
+		anchor = "",
+		title = "SP",
+		drop_by_map_display = "",
+		level_limit = 1,
+		enter_story = "JUFENGYUQINGCHUNZHIQUAN14",
+		animtor = 1,
+		guide_id = "",
+		ani_name = "Map_1760002",
+		ani_controller = "",
+		default_background = "",
+		on_activity = 0,
+		map_name = "",
+		cloud_suffix = "",
+		story_inactive_color = "",
+		bgm = "theme-tempest-up",
+		ui_type = 1,
+		bg = "Map_1760002",
+		story_id = "",
+		chapterGroups = "",
+		destory_icon_suffix = "blue",
+		default_bgm = "",
+		uifx = "",
+		bind_map = 0,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	}
+	pg.base.expedition_data_by_map[2200180] = {
+		map = 2200180,
+		name = "颶風與沉眠之海·上篇|| ||CHAPTER EX||EX",
+		pos_type = 0,
+		type = 4,
+		anchor = "",
+		title = "SP",
+		drop_by_map_display = "",
+		level_limit = 1,
+		enter_story = "",
+		animtor = 1,
+		guide_id = "",
+		ani_name = "Map_1760002",
+		ani_controller = "",
+		default_background = "",
+		on_activity = 0,
+		map_name = "levelscene_mapselect_part1",
+		cloud_suffix = "",
+		story_inactive_color = "",
+		bgm = "story-tempest-marching",
+		ui_type = 10,
+		bg = "Map_1760002",
+		story_id = "",
+		destory_icon_suffix = "blue",
+		default_bgm = "",
+		uifx = "",
+		bind_map = 0,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		},
+		chapterGroups = {
+			{
+				2200181
+			},
+			{
+				2200182
+			},
+			{
+				2200183
+			}
+		}
+	}
+	pg.base.expedition_data_by_map[2200181] = {
+		map = 2200181,
+		name = "颶風與沉眠之海·下篇|| ||CHAPTER EX||EX",
+		pos_type = 0,
+		type = 4,
+		anchor = "",
+		title = "SP",
+		drop_by_map_display = "",
+		level_limit = 1,
+		enter_story = "",
+		animtor = 1,
+		guide_id = "",
+		ani_name = "Map_1860001",
+		ani_controller = "",
+		default_background = "",
+		on_activity = 0,
+		map_name = "levelscene_mapselect_part2",
+		cloud_suffix = "",
+		story_inactive_color = "",
+		bgm = "battle-nightmare-theme",
+		ui_type = 10,
+		bg = "Map_1860001",
+		story_id = "",
+		destory_icon_suffix = "blue",
+		default_bgm = "",
+		uifx = "",
+		bind_map = 0,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		},
+		chapterGroups = {
+			{
+				2200184
+			},
+			{
+				2200185
+			},
+			{
+				2200186
+			}
+		}
+	}
+	pg.base.expedition_data_by_map[2200190] = {
+		map = 2200190,
+		name = "颶風與自由群島·上篇|| ||CHAPTER EX||EX",
+		pos_type = 0,
+		type = 4,
+		anchor = "",
+		title = "SP",
+		drop_by_map_display = "",
+		level_limit = 1,
+		enter_story = "",
+		animtor = 1,
+		guide_id = "",
+		ani_name = "Map_1970001",
+		ani_controller = "",
+		default_background = "",
+		on_activity = 0,
+		map_name = "levelscene_mapselect_part1",
+		cloud_suffix = "",
+		story_inactive_color = "",
+		bgm = "theme-tempest-light",
+		ui_type = 10,
+		bg = "Map_1970001",
+		story_id = "",
+		destory_icon_suffix = "blue",
+		default_bgm = "",
+		uifx = "",
+		bind_map = 0,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		},
+		chapterGroups = {
+			{
+				2200191
+			},
+			{
+				2200192
+			},
+			{
+				2200193
+			}
+		}
+	}
+	pg.base.expedition_data_by_map[2200191] = {
+		map = 2200191,
+		name = "颶風與自由群島·下篇|| ||CHAPTER EX||EX",
+		pos_type = 0,
+		type = 4,
+		anchor = "",
+		title = "SP",
+		drop_by_map_display = "",
+		level_limit = 1,
+		enter_story = "",
+		animtor = 1,
+		guide_id = "",
+		ani_name = "Map_1970002",
+		ani_controller = "",
+		default_background = "",
+		on_activity = 0,
+		map_name = "levelscene_mapselect_part2",
+		cloud_suffix = "",
+		story_inactive_color = "",
+		bgm = "story-temepest-2",
+		ui_type = 10,
+		bg = "Map_1970002",
+		story_id = "",
+		destory_icon_suffix = "blue",
+		default_bgm = "",
+		uifx = "",
+		bind_map = 0,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		},
+		chapterGroups = {
+			{
+				2200194
+			},
+			{
+				2200195
+			},
+			{
+				2200196
 			}
 		}
 	}

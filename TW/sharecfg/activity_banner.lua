@@ -138,8 +138,8 @@ pg.base.activity_banner = {}
 			{
 				{
 					2026,
-					10,
-					29
+					11,
+					12
 				},
 				{
 					0,
@@ -151,10 +151,10 @@ pg.base.activity_banner = {}
 				{
 					2026,
 					11,
-					11
+					19
 				},
 				{
-					23,
+					14,
 					59,
 					59
 				}
@@ -166,18 +166,14 @@ pg.base.activity_banner = {}
 		id = 2,
 		pic = "temp2",
 		param = {
-			"scene get boat",
-			{
-				projectName = "new",
-				page = 1
-			}
+			"dorm 3d select"
 		},
 		time = {
 			{
 				{
 					2026,
-					10,
-					29
+					11,
+					12
 				},
 				{
 					0,
@@ -189,7 +185,7 @@ pg.base.activity_banner = {}
 				{
 					2026,
 					11,
-					12
+					19
 				},
 				{
 					14,
@@ -200,7 +196,7 @@ pg.base.activity_banner = {}
 		}
 	}
 	pg.base.activity_banner[3] = {
-		param = "51616",
+		param = "51201",
 		type = 3,
 		id = 3,
 		pic = "temp3",
@@ -282,8 +278,8 @@ pg.base.activity_banner = {}
 			{
 				{
 					2026,
-					10,
-					29
+					11,
+					12
 				},
 				{
 					0,
@@ -295,7 +291,7 @@ pg.base.activity_banner = {}
 				{
 					2026,
 					11,
-					11
+					18
 				},
 				{
 					23,
@@ -310,15 +306,18 @@ pg.base.activity_banner = {}
 		id = 6,
 		pic = "temp6",
 		param = {
-			"scene Cryptolalia",
-			{}
+			"scene level",
+			{
+				open_remaster = true,
+				isSP = false
+			}
 		},
 		time = {
 			{
 				{
 					2026,
-					10,
-					29
+					11,
+					12
 				},
 				{
 					0,
@@ -330,10 +329,10 @@ pg.base.activity_banner = {}
 				{
 					2026,
 					11,
-					4
+					19
 				},
 				{
-					23,
+					14,
 					59,
 					59
 				}
@@ -345,14 +344,18 @@ pg.base.activity_banner = {}
 		id = 7,
 		pic = "temp7",
 		param = {
-			"scene court yard"
+			"scene level",
+			{
+				open_remaster = true,
+				isSP = false
+			}
 		},
 		time = {
 			{
 				{
 					2026,
-					10,
-					29
+					11,
+					12
 				},
 				{
 					0,
@@ -364,10 +367,10 @@ pg.base.activity_banner = {}
 				{
 					2026,
 					11,
-					11
+					19
 				},
 				{
-					23,
+					14,
 					59,
 					59
 				}
@@ -379,17 +382,18 @@ pg.base.activity_banner = {}
 		id = 8,
 		pic = "temp8",
 		param = {
-			"scene shop",
+			"scene level",
 			{
-				warp = "shopstreet"
+				open_remaster = true,
+				isSP = false
 			}
 		},
 		time = {
 			{
 				{
 					2026,
-					10,
-					29
+					11,
+					12
 				},
 				{
 					0,
@@ -401,10 +405,10 @@ pg.base.activity_banner = {}
 				{
 					2026,
 					11,
-					11
+					19
 				},
 				{
-					23,
+					14,
 					59,
 					59
 				}

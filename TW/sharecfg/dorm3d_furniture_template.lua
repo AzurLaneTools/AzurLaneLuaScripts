@@ -78,6 +78,7 @@ pg.dorm3d_furniture_template.all = {
 	2114,
 	2115,
 	2161,
+	2162,
 	2201,
 	2202,
 	2203,
@@ -176,7 +177,8 @@ pg.dorm3d_furniture_template.get_id_list_by_room_id = {
 		2113,
 		2114,
 		2115,
-		2161
+		2161,
+		2162
 	},
 	[22] = {
 		2201,
@@ -2286,6 +2288,42 @@ pg.base.dorm3d_furniture_template = {}
 		},
 		scene_hides = {
 			"no_bake_pay_prop/basement/pre_db_naximofu_basement01_0"
+		}
+	}
+	pg.base.dorm3d_furniture_template[2162] = {
+		is_special = 0,
+		name = "貓絨圓夢巢",
+		type = 4,
+		room_id = 21,
+		desc = "圓形床榻裹著純白絨面，貓耳豎起、尾巴輕蜷，躺進去就像掉進了毛茸茸的夢裡一般~",
+		can_remove = 0,
+		model = "Pay_Naximofuhostel/pre_db_naximofu_bed01",
+		is_exclusive = 1,
+		icon = "dorm3dIcon/3Ddrom_naximofu_PremiumFurniture2",
+		rarity = 4,
+		acesses = "",
+		model_night = "",
+		id = 2162,
+		target_slots = {
+			2210101
+		},
+		touch_id = {
+			{
+				79902,
+				7990250
+			}
+		},
+		shop_id = {
+			270702
+		},
+		unlock_tips = {
+			3
+		},
+		unlock_banners = {
+			"banner_furniture2162"
+		},
+		scene_hides = {
+			"no_bake_pay_prop/bedroom"
 		}
 	}
 	pg.base.dorm3d_furniture_template[2201] = {

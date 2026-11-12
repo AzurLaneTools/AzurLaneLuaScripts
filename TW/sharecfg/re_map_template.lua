@@ -43,9 +43,12 @@ pg.re_map_template.all = {
 	39,
 	40,
 	41,
+	42,
 	43,
 	44,
-	51
+	51,
+	52,
+	53
 }
 pg.base = pg.base or {}
 pg.base.re_map_template = {}
@@ -2494,6 +2497,59 @@ pg.base.re_map_template = {}
 		},
 		tickets = {}
 	}
+	pg.base.re_map_template[42] = {
+		name = "飓风与青春之泉常驻复刻",
+		memory_group = 263,
+		bg = "temp_fengfanv1",
+		activity_id = 0,
+		id = 42,
+		activity_type = 2,
+		order = 42,
+		config_data = {
+			2200141,
+			2200142,
+			2200143,
+			2200144,
+			2200145,
+			2200146
+		},
+		chapter_progress = {
+			16,
+			33,
+			50,
+			66,
+			78,
+			100
+		},
+		drop_gain = {
+			{
+				2200146,
+				4,
+				9600041,
+				60
+			},
+			{}
+		},
+		drop_display_sp = {
+			{
+				{
+					4,
+					9600041
+				},
+				"T6"
+			}
+		},
+		drop_display = {
+			{
+				{
+					2,
+					11055
+				},
+				"T6"
+			}
+		},
+		tickets = {}
+	}
 	pg.base.re_map_template[43] = {
 		name = "紫绛槿岚常驻复刻",
 		memory_group = 226,
@@ -2672,5 +2728,111 @@ pg.base.re_map_template = {}
 			2,
 			3
 		}
+	}
+	pg.base.re_map_template[52] = {
+		name = "飓风与沉眠之海常驻复刻",
+		memory_group = 306,
+		bg = "temp_fengfanv2",
+		activity_id = 0,
+		id = 52,
+		activity_type = 2,
+		order = 52,
+		config_data = {
+			2200181,
+			2200182,
+			2200183,
+			2200184,
+			2200185,
+			2200186
+		},
+		chapter_progress = {
+			16,
+			33,
+			50,
+			66,
+			78,
+			100
+		},
+		drop_gain = {
+			{
+				2200186,
+				4,
+				9600091,
+				60
+			},
+			{}
+		},
+		drop_display_sp = {
+			{
+				{
+					4,
+					9600091
+				},
+				"T6"
+			}
+		},
+		drop_display = {
+			{
+				{
+					2,
+					11056
+				},
+				"T5"
+			}
+		},
+		tickets = {}
+	}
+	pg.base.re_map_template[53] = {
+		name = "飓风与自由群岛常驻复刻",
+		memory_group = 344,
+		bg = "temp_fengfanv3",
+		activity_id = 0,
+		id = 53,
+		activity_type = 2,
+		order = 53,
+		config_data = {
+			2200191,
+			2200192,
+			2200193,
+			2200194,
+			2200195,
+			2200196
+		},
+		chapter_progress = {
+			16,
+			33,
+			50,
+			66,
+			78,
+			100
+		},
+		drop_gain = {
+			{
+				2200196,
+				4,
+				9600141,
+				60
+			},
+			{}
+		},
+		drop_display_sp = {
+			{
+				{
+					4,
+					9600141
+				},
+				"T6"
+			}
+		},
+		drop_display = {
+			{
+				{
+					2,
+					11055
+				},
+				"T6"
+			}
+		},
+		tickets = {}
 	}
 end)()

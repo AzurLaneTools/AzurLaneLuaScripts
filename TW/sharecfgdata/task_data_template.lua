@@ -304420,7 +304420,7 @@ _G.pg.base.task_data_template[21829] = {
 	is_head = 0,
 	count_inherit = 0,
 	name = "『埃尔德里奇改造复刻』七日任务9",
-	desc = "擊沈任意敵人20艘",
+	desc = "擊沉任意敵人20艘",
 	sub_type = 11,
 	task_fold = 0,
 	story_icon = "",
@@ -390076,6 +390076,684 @@ _G.pg.base.task_data_template[27620] = {
 			1,
 			770,
 			3
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[27801] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 911201,
+	type = 26,
+	is_head = 0,
+	count_inherit = 0,
+	name = "『20261015』七天双任务送阿尔及利亚皮肤活动掉落pt1",
+	desc = "艦隊出擊，以S評價通關10次",
+	sub_type = 24,
+	task_fold = 0,
+	story_icon = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 0,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	tutorial_handbook_pic = "",
+	activity_client_config = "",
+	id = 27801,
+	target_num = 10,
+	fix_task = 0,
+	target_id = "0",
+	open_need = {},
+	award_display = {
+		{
+			1,
+			777,
+			100
+		}
+	},
+	scene = {
+		"LEVEL"
+	}
+}
+
+
+_G.pg.base.task_data_template[27802] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 911202,
+	type = 26,
+	is_head = 0,
+	count_inherit = 0,
+	name = "『20261015』七天双任务送阿尔及利亚皮肤活动掉落pt2",
+	desc = "登入遊戲",
+	sub_type = 1011,
+	task_fold = 0,
+	story_icon = "",
+	scene = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 0,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	tutorial_handbook_pic = "",
+	activity_client_config = "",
+	id = 27802,
+	target_num = 1,
+	fix_task = 0,
+	target_id = "0",
+	open_need = {},
+	award_display = {
+		{
+			1,
+			777,
+			100
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[27803] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 911203,
+	type = 26,
+	is_head = 0,
+	count_inherit = 0,
+	name = "『20261015』七天双任务送阿尔及利亚皮肤活动掉落pt3",
+	desc = "完成軍事委託2次",
+	sub_type = 80,
+	task_fold = 0,
+	story_icon = "",
+	scene = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 0,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	tutorial_handbook_pic = "",
+	activity_client_config = "",
+	id = 27803,
+	target_num = 2,
+	fix_task = 0,
+	target_id = "0",
+	open_need = {},
+	award_display = {
+		{
+			1,
+			777,
+			100
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[27804] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 911204,
+	type = 26,
+	is_head = 0,
+	count_inherit = 0,
+	name = "『20261015』七天双任务送阿尔及利亚皮肤活动掉落pt4",
+	desc = "進行2次演習",
+	sub_type = 27,
+	task_fold = 0,
+	story_icon = "",
+	scene = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 0,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	tutorial_handbook_pic = "",
+	activity_client_config = "",
+	id = 27804,
+	target_num = 2,
+	fix_task = 0,
+	target_id = "0",
+	open_need = {},
+	award_display = {
+		{
+			1,
+			777,
+			100
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[27805] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 911205,
+	type = 26,
+	is_head = 0,
+	count_inherit = 0,
+	name = "『20261015』七天双任务送阿尔及利亚皮肤活动掉落pt5",
+	desc = "完成3次每日挑戰",
+	sub_type = 26,
+	task_fold = 0,
+	story_icon = "",
+	scene = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 0,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	tutorial_handbook_pic = "",
+	activity_client_config = "",
+	id = 27805,
+	target_num = 3,
+	fix_task = 0,
+	target_id = "0",
+	open_need = {},
+	award_display = {
+		{
+			1,
+			777,
+			100
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[27806] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 911206,
+	type = 26,
+	is_head = 0,
+	count_inherit = 0,
+	name = "『20261015』七天双任务送阿尔及利亚皮肤活动掉落pt6",
+	desc = "艦船退役2次",
+	sub_type = 31,
+	task_fold = 0,
+	story_icon = "",
+	scene = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 0,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	tutorial_handbook_pic = "",
+	activity_client_config = "",
+	id = 27806,
+	target_num = 2,
+	fix_task = 0,
+	target_id = "0",
+	open_need = {},
+	award_display = {
+		{
+			1,
+			777,
+			100
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[27807] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 911207,
+	type = 26,
+	is_head = 0,
+	count_inherit = 0,
+	name = "『20261015』七天双任务送阿尔及利亚皮肤活动掉落pt7",
+	desc = "進行戰術訓練2次",
+	sub_type = 71,
+	task_fold = 0,
+	story_icon = "",
+	scene = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 0,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	tutorial_handbook_pic = "",
+	activity_client_config = "",
+	id = 27807,
+	target_num = 2,
+	fix_task = 0,
+	target_id = "0",
+	open_need = {},
+	award_display = {
+		{
+			1,
+			777,
+			100
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[27808] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 911208,
+	type = 26,
+	is_head = 0,
+	count_inherit = 0,
+	name = "『20261015』七天双任务送阿尔及利亚皮肤活动掉落pt8",
+	desc = "艦船強化5次",
+	sub_type = 34,
+	task_fold = 0,
+	story_icon = "",
+	scene = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 0,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	tutorial_handbook_pic = "",
+	activity_client_config = "",
+	id = 27808,
+	target_num = 5,
+	fix_task = 0,
+	target_id = "0",
+	open_need = {},
+	award_display = {
+		{
+			1,
+			777,
+			100
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[27809] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 911209,
+	type = 26,
+	is_head = 0,
+	count_inherit = 0,
+	name = "『20261015』七天双任务送阿尔及利亚皮肤活动掉落pt9",
+	desc = "擊沈任意敵人20艘",
+	sub_type = 11,
+	task_fold = 0,
+	story_icon = "",
+	scene = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 0,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	tutorial_handbook_pic = "",
+	activity_client_config = "",
+	id = 27809,
+	target_num = 20,
+	fix_task = 0,
+	target_id = "0",
+	open_need = {},
+	award_display = {
+		{
+			1,
+			777,
+			100
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[27810] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 911210,
+	type = 26,
+	is_head = 0,
+	count_inherit = 0,
+	name = "『20261015』七天双任务送阿尔及利亚皮肤活动掉落pt10",
+	desc = "後宅補充食物5次",
+	sub_type = 61,
+	task_fold = 0,
+	story_icon = "",
+	scene = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 0,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	tutorial_handbook_pic = "",
+	activity_client_config = "",
+	id = 27810,
+	target_num = 5,
+	fix_task = 0,
+	target_id = "0",
+	open_need = {},
+	award_display = {
+		{
+			1,
+			777,
+			100
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[27811] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 911211,
+	type = 26,
+	is_head = 0,
+	count_inherit = 0,
+	name = "『20261015』七天双任务送阿尔及利亚皮肤活动掉落pt11",
+	desc = "打開任意科技箱1個",
+	sub_type = 50,
+	task_fold = 0,
+	story_icon = "",
+	scene = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 0,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	tutorial_handbook_pic = "",
+	activity_client_config = "",
+	id = 27811,
+	target_num = 1,
+	fix_task = 0,
+	target_id = "0",
+	open_need = {},
+	award_display = {
+		{
+			1,
+			777,
+			100
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[27812] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 911212,
+	type = 26,
+	is_head = 0,
+	count_inherit = 0,
+	name = "『20261015』七天双任务送阿尔及利亚皮肤活动掉落pt12",
+	desc = "建造艦船2次",
+	sub_type = 30,
+	task_fold = 0,
+	story_icon = "",
+	scene = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 0,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	tutorial_handbook_pic = "",
+	activity_client_config = "",
+	id = 27812,
+	target_num = 2,
+	fix_task = 0,
+	target_id = "0",
+	open_need = {},
+	award_display = {
+		{
+			1,
+			777,
+			100
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[27813] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 911213,
+	type = 26,
+	is_head = 0,
+	count_inherit = 0,
+	name = "『20261015』七天双任务送阿尔及利亚皮肤活动掉落pt13",
+	desc = "進行2次戰術訓練",
+	sub_type = 71,
+	task_fold = 0,
+	story_icon = "",
+	scene = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 0,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	tutorial_handbook_pic = "",
+	activity_client_config = "",
+	id = 27813,
+	target_num = 2,
+	fix_task = 0,
+	target_id = "0",
+	open_need = {},
+	award_display = {
+		{
+			1,
+			777,
+			100
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[27814] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 911214,
+	type = 26,
+	is_head = 0,
+	count_inherit = 0,
+	name = "『20261015』七天双任务送阿尔及利亚皮肤活动掉落pt14",
+	desc = "擊敗旗艦3次",
+	sub_type = 21,
+	task_fold = 0,
+	story_icon = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 0,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	tutorial_handbook_pic = "",
+	activity_client_config = "",
+	id = 27814,
+	target_num = 3,
+	fix_task = 0,
+	target_id = "0",
+	open_need = {},
+	award_display = {
+		{
+			1,
+			777,
+			100
+		}
+	},
+	scene = {
+		"LEVEL"
+	}
+}
+
+
+_G.pg.base.task_data_template[27815] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 911215,
+	type = 36,
+	is_head = 1,
+	count_inherit = 0,
+	name = "『20261015』七天双任务送阿尔及利亚皮肤活动15-每日任务",
+	desc = "艦隊出征，獲得100次勝利。 \n（每日可完成一次）",
+	sub_type = 20,
+	task_fold = 20933,
+	story_icon = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 0,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	tutorial_handbook_pic = "",
+	activity_client_config = "",
+	id = 27815,
+	target_num = 100,
+	fix_task = 0,
+	target_id = "0",
+	open_need = {},
+	award_display = {
+		{
+			1,
+			777,
+			200
+		}
+	},
+	scene = {
+		"LEVEL"
+	}
+}
+
+
+_G.pg.base.task_data_template[27816] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 911216,
+	type = 7,
+	is_head = 1,
+	count_inherit = 0,
+	name = "『20261015』七天双任务送阿尔及利亚皮肤活动16-单次任务",
+	desc = "首次通關主線14-1關卡（僅限完成一次）",
+	sub_type = 1020,
+	task_fold = 0,
+	story_icon = "",
+	scene = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 0,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	tutorial_handbook_pic = "",
+	activity_client_config = "",
+	id = 27816,
+	target_num = 1,
+	fix_task = 0,
+	target_id = "1401",
+	open_need = {},
+	award_display = {
+		{
+			1,
+			777,
+			500
 		}
 	}
 }

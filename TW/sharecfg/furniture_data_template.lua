@@ -275,6 +275,7 @@ pg.furniture_data_template.all = {
 	200005,
 	200007,
 	200008,
+	200009,
 	1001,
 	1002,
 	1101,
@@ -3762,6 +3763,7 @@ pg.furniture_data_template.get_id_list_by_themeId = {
 		200005,
 		200007,
 		200008,
+		200009,
 		12002,
 		12101,
 		12102,
@@ -10452,6 +10454,7 @@ pg.furniture_data_template.get_id_list_by_tag = {
 		200005,
 		200007,
 		200008,
+		200009,
 		13101,
 		13126,
 		13127,
@@ -10887,6 +10890,7 @@ pg.furniture_data_template.get_id_list_by_type = {
 		200005,
 		200007,
 		200008,
+		200009,
 		1102,
 		1103,
 		1104,
@@ -29400,6 +29404,91 @@ end)()
 		},
 		interAction_group = {}
 	}
+	pg.base.furniture_data_template[200009] = {
+		advice = 0,
+		name = "萬聖夜舞臺",
+		count = 1,
+		type = 2,
+		dir = 0,
+		spine_combine_action_replace = "",
+		icon = "furniture_jinluhao_2icon",
+		is_get_time_note = 0,
+		effect = "",
+		picture = "",
+		is_3d_obj = 0,
+		themeId = 0,
+		gain_by = "",
+		deblocking = 1,
+		level = 1,
+		can_rotate = 0,
+		rarity = 4,
+		belong = 1,
+		canputon = 0,
+		id = 200009,
+		comfortable = 4,
+		describe = "一個人就能演出整支樂團的效果！",
+		dorm_id = 0,
+		tag = 7,
+		spine_extra = "",
+		size = {
+			5,
+			4
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"furniture_jinluhao_2B",
+				"normal"
+			},
+			{
+				"furniture_jinluhao_2T"
+			},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"sleep"
+					}
+				},
+				{},
+				{
+					1
+				}
+			},
+			{},
+			{
+				0,
+				0
+			},
+			{
+				1,
+				1
+			}
+		},
+		spine_action_replace = {
+			{
+				"sleep",
+				{
+					9600031
+				},
+				"furniture",
+				0,
+				1
+			}
+		},
+		followBone = {
+			"char",
+			-1
+		},
+		interAction_group = {}
+	}
 	pg.base.furniture_data_template[1001] = {
 		can_rotate = 0,
 		describe = "到處都是破洞的地板，注意不要踩到洞裡啊",
@@ -30499,6 +30588,8 @@ end)()
 		},
 		interAction_group = {}
 	}
+end)()
+(function ()
 	pg.base.furniture_data_template[1309] = {
 		can_rotate = 1,
 		describe = "不知道從哪裡弄過來裝飾牆壁的海報",
@@ -30537,8 +30628,6 @@ end)()
 		},
 		interAction_group = {}
 	}
-end)()
-(function ()
 	pg.base.furniture_data_template[2001] = {
 		can_rotate = 0,
 		describe = "(＾－＾)嶄新的榻榻米，一定要好好愛護，不能隨便弄髒哦",
@@ -34675,6 +34764,8 @@ end)()
 		},
 		interAction_group = {}
 	}
+end)()
+(function ()
 	pg.base.furniture_data_template[8106] = {
 		can_rotate = 0,
 		describe = "喝醉了就直接睡一會吧",
@@ -34726,8 +34817,6 @@ end)()
 		},
 		interAction_group = {}
 	}
-end)()
-(function ()
 	pg.base.furniture_data_template[8107] = {
 		can_rotate = 0,
 		describe = "來點杯喝的吧",
@@ -39088,6 +39177,8 @@ end)()
 		},
 		interAction_group = {}
 	}
+end)()
+(function ()
 	pg.base.furniture_data_template[11301] = {
 		can_rotate = 0,
 		describe = "透過窗戶可以看到好景色哦",
@@ -39126,8 +39217,6 @@ end)()
 		},
 		interAction_group = {}
 	}
-end)()
-(function ()
 	pg.base.furniture_data_template[11302] = {
 		can_rotate = 0,
 		describe = "高處擺放餅乾瓶的架子",
@@ -43544,6 +43633,8 @@ end)()
 		},
 		interAction_group = {}
 	}
+end)()
+(function ()
 	pg.base.furniture_data_template[16110] = {
 		can_rotate = 0,
 		describe = "亮閃閃的水晶球",
@@ -43629,8 +43720,6 @@ end)()
 		},
 		interAction_group = {}
 	}
-end)()
-(function ()
 	pg.base.furniture_data_template[16111] = {
 		can_rotate = 0,
 		describe = "大大的雪橇，可以當床睡哦",
@@ -48319,6 +48408,8 @@ end)()
 		},
 		interAction_group = {}
 	}
+end)()
+(function ()
 	pg.base.furniture_data_template[21107] = {
 		can_rotate = 0,
 		describe = "一起分享這幸福而又美味的一刻吧！",
@@ -48377,8 +48468,6 @@ end)()
 		},
 		interAction_group = {}
 	}
-end)()
-(function ()
 	pg.base.furniture_data_template[21108] = {
 		can_rotate = 0,
 		describe = "愛與幸福的拱門",
@@ -53178,6 +53267,8 @@ end)()
 		},
 		interAction_group = {}
 	}
+end)()
+(function ()
 	pg.base.furniture_data_template[24125] = {
 		advice = 0,
 		name = "喵喵嚇人箱·彩",
@@ -53260,8 +53351,6 @@ end)()
 		},
 		interAction_group = {}
 	}
-end)()
-(function ()
 	pg.base.furniture_data_template[24201] = {
 		can_rotate = 0,
 		describe = "喵喵咖啡特供餅乾喵",
@@ -57883,6 +57972,8 @@ end)()
 		},
 		interAction_group = {}
 	}
+end)()
+(function ()
 	pg.base.furniture_data_template[29110] = {
 		can_rotate = 0,
 		describe = "駕！啊？這不是馬嗎",
@@ -57935,8 +58026,6 @@ end)()
 		},
 		interAction_group = {}
 	}
-end)()
-(function ()
 	pg.base.furniture_data_template[29111] = {
 		can_rotate = 0,
 		describe = "這個不會噴發的，不用害怕哦",
@@ -62562,6 +62651,8 @@ end)()
 		},
 		interAction_group = {}
 	}
+end)()
+(function ()
 	pg.base.furniture_data_template[35117] = {
 		can_rotate = 0,
 		describe = "大大的南瓜燈，也可以用來盛放一些東西",
@@ -62614,8 +62705,6 @@ end)()
 		},
 		interAction_group = {}
 	}
-end)()
-(function ()
 	pg.base.furniture_data_template[35118] = {
 		can_rotate = 0,
 		describe = "一堆的照明用南瓜燈",
@@ -67011,6 +67100,8 @@ end)()
 		},
 		interAction_group = {}
 	}
+end)()
+(function ()
 	pg.base.furniture_data_template[39113] = {
 		can_rotate = 1,
 		describe = "小孩子是不可以喝酒的哦！",
@@ -67049,8 +67140,6 @@ end)()
 		},
 		interAction_group = {}
 	}
-end)()
-(function ()
 	pg.base.furniture_data_template[39114] = {
 		can_rotate = 0,
 		describe = "東煌風格的屏風，上面的梅花刺繡是誰做的呢？",
@@ -71523,6 +71612,8 @@ end)()
 		},
 		interAction_group = {}
 	}
+end)()
+(function ()
 	pg.base.furniture_data_template[44002] = {
 		can_rotate = 0,
 		describe = "嘩啦啦啦~下雨啦！記得帶上雨傘~",
@@ -71558,8 +71649,6 @@ end)()
 		},
 		interAction_group = {}
 	}
-end)()
-(function ()
 	pg.base.furniture_data_template[44101] = {
 		can_rotate = 0,
 		describe = "沾著雨水的生機盎然的翠綠草皮",
@@ -75770,6 +75859,8 @@ end)()
 		},
 		interAction_group = {}
 	}
+end)()
+(function ()
 	pg.base.furniture_data_template[46125] = {
 		can_rotate = 0,
 		describe = "附帶訊息查詢機能的隔斷",
@@ -75808,8 +75899,6 @@ end)()
 		},
 		interAction_group = {}
 	}
-end)()
-(function ()
 	pg.base.furniture_data_template[46126] = {
 		can_rotate = 0,
 		describe = "全息投影就不怕被盜啦~",
@@ -80073,6 +80162,8 @@ end)()
 		},
 		interAction_group = {}
 	}
+end)()
+(function ()
 	pg.base.furniture_data_template[51102] = {
 		can_rotate = 0,
 		describe = "想要哪個啾?",
@@ -80121,8 +80212,6 @@ end)()
 		},
 		interAction_group = {}
 	}
-end)()
-(function ()
 	pg.base.furniture_data_template[51103] = {
 		can_rotate = 1,
 		describe = "大型啾啾花燈(附底座)",
@@ -84519,6 +84608,8 @@ end)()
 		},
 		interAction_group = {}
 	}
+end)()
+(function ()
 	pg.base.furniture_data_template[57116] = {
 		can_rotate = 1,
 		describe = "章魚燒新鮮出爐啾~",
@@ -84557,8 +84648,6 @@ end)()
 		},
 		interAction_group = {}
 	}
-end)()
-(function ()
 	pg.base.furniture_data_template[57117] = {
 		can_rotate = 0,
 		describe = "小心燙嘴哦~",
@@ -88982,6 +89071,8 @@ end)()
 		},
 		interAction_group = {}
 	}
+end)()
+(function ()
 	pg.base.furniture_data_template[61119] = {
 		can_rotate = 0,
 		describe = "這點障礙，比起避開不如直接踩扁吧！",
@@ -89020,8 +89111,6 @@ end)()
 		},
 		interAction_group = {}
 	}
-end)()
-(function ()
 	pg.base.furniture_data_template[61120] = {
 		can_rotate = 0,
 		describe = "由於神秘幫手的闖入，比賽出現大逆轉啾！",
@@ -93251,6 +93340,8 @@ end)()
 		},
 		interAction_group = {}
 	}
+end)()
+(function ()
 	pg.base.furniture_data_template[66124] = {
 		advice = 0,
 		name = "賽車「海神」",
@@ -93333,8 +93424,6 @@ end)()
 		},
 		interAction_group = {}
 	}
-end)()
-(function ()
 	pg.base.furniture_data_template[66125] = {
 		advice = 0,
 		name = "賽車「橙閃」",
@@ -98025,6 +98114,8 @@ end)()
 		},
 		interAction_group = {}
 	}
+end)()
+(function ()
 	pg.base.furniture_data_template[72113] = {
 		can_rotate = 0,
 		describe = "偷偷摘一串下來應該沒人發現吧？",
@@ -98063,8 +98154,6 @@ end)()
 		},
 		interAction_group = {}
 	}
-end)()
-(function ()
 	pg.base.furniture_data_template[72114] = {
 		can_rotate = 0,
 		describe = "玩累了就在陽傘下休息一會吧！",
@@ -102466,6 +102555,8 @@ end)()
 		},
 		interAction_group = {}
 	}
+end)()
+(function ()
 	pg.base.furniture_data_template[76115] = {
 		can_rotate = 0,
 		describe = "翠綠欲滴的竹子盆栽",
@@ -102504,8 +102595,6 @@ end)()
 		},
 		interAction_group = {}
 	}
-end)()
-(function ()
 	pg.base.furniture_data_template[76116] = {
 		can_rotate = 0,
 		describe = "黑白配色的書櫃",
@@ -106888,6 +106977,8 @@ end)()
 		},
 		interAction_group = {}
 	}
+end)()
+(function ()
 	pg.base.furniture_data_template[80304] = {
 		can_rotate = 0,
 		describe = "夜晚還很長，繼續嗨起來啾！",
@@ -106926,8 +107017,6 @@ end)()
 		},
 		interAction_group = {}
 	}
-end)()
-(function ()
 	pg.base.furniture_data_template[80305] = {
 		can_rotate = 1,
 		describe = "閃著迷人的光~",
@@ -111079,6 +111168,8 @@ end)()
 		},
 		interAction_group = {}
 	}
+end)()
+(function ()
 	pg.base.furniture_data_template[84171] = {
 		can_rotate = 0,
 		describe = "用於特攝佈景的微縮住宅區模型",
@@ -111117,8 +111208,6 @@ end)()
 		},
 		interAction_group = {}
 	}
-end)()
-(function ()
 	pg.base.furniture_data_template[84173] = {
 		advice = 0,
 		name = "拍攝軌道",
@@ -115530,6 +115619,8 @@ end)()
 		},
 		interAction_group = {}
 	}
+end)()
+(function ()
 	pg.base.furniture_data_template[88110] = {
 		can_rotate = 0,
 		describe = "那是誰？那是…惡魔…是惡魔啾！",
@@ -115568,8 +115659,6 @@ end)()
 		},
 		interAction_group = {}
 	}
-end)()
-(function ()
 	pg.base.furniture_data_template[88111] = {
 		can_rotate = 0,
 		describe = "似乎馬上就會動起來的樣子…",
@@ -119665,6 +119754,8 @@ end)()
 		},
 		interAction_group = {}
 	}
+end)()
+(function ()
 	pg.base.furniture_data_template[91302] = {
 		can_rotate = 0,
 		describe = "營造高品質的環繞聲~",
@@ -119703,8 +119794,6 @@ end)()
 		},
 		interAction_group = {}
 	}
-end)()
-(function ()
 	pg.base.furniture_data_template[91303] = {
 		can_rotate = 0,
 		describe = "舞台上的白天鵝啾！",
@@ -123851,6 +123940,8 @@ end)()
 		},
 		interAction_group = {}
 	}
+end)()
+(function ()
 	pg.base.furniture_data_template[95133] = {
 		can_rotate = 0,
 		describe = "鍊金鍋，但是塞壬風格。",
@@ -123907,8 +123998,6 @@ end)()
 		},
 		interAction_group = {}
 	}
-end)()
-(function ()
 	pg.base.furniture_data_template[95134] = {
 		can_rotate = 0,
 		describe = "署名是……淨化親？應該不是真的大炮吧，大概……",
@@ -128252,6 +128341,8 @@ end)()
 		},
 		interAction_group = {}
 	}
+end)()
+(function ()
 	pg.base.furniture_data_template[98312] = {
 		can_rotate = 0,
 		describe = "畫著奇特造型啾啾的肖像畫",
@@ -128290,8 +128381,6 @@ end)()
 		},
 		interAction_group = {}
 	}
-end)()
-(function ()
 	pg.base.furniture_data_template[98313] = {
 		can_rotate = 0,
 		describe = "總覺得上面的畫有點眼熟……會是誰呢",
@@ -132944,6 +133033,8 @@ end)()
 		},
 		interAction_group = {}
 	}
+end)()
+(function ()
 	pg.base.furniture_data_template[302112] = {
 		can_rotate = 0,
 		describe = "每一步都充滿了儀式感！",
@@ -132982,8 +133073,6 @@ end)()
 		},
 		interAction_group = {}
 	}
-end)()
-(function ()
 	pg.base.furniture_data_template[302113] = {
 		can_rotate = 1,
 		describe = "鐘聲響起，美好時刻到來~",
@@ -137598,6 +137687,8 @@ end)()
 		},
 		interAction_group = {}
 	}
+end)()
+(function ()
 	pg.base.furniture_data_template[305114] = {
 		can_rotate = 0,
 		describe = "意外牢固的柵欄！這也和忍術有關嗎？",
@@ -137636,8 +137727,6 @@ end)()
 		},
 		interAction_group = {}
 	}
-end)()
-(function ()
 	pg.base.furniture_data_template[305115] = {
 		can_rotate = 0,
 		describe = "相遇在轉角一隅！",
@@ -142389,6 +142478,8 @@ end)()
 		},
 		interAction_group = {}
 	}
+end)()
+(function ()
 	pg.base.furniture_data_template[310110] = {
 		can_rotate = 0,
 		describe = "演出用的鞋子都擺在這裡喔！",
@@ -142427,8 +142518,6 @@ end)()
 		},
 		interAction_group = {}
 	}
-end)()
-(function ()
 	pg.base.furniture_data_template[310111] = {
 		can_rotate = 0,
 		describe = "需要多次更換演出服時就派得上用場了！",
@@ -147169,6 +147258,8 @@ end)()
 		},
 		interAction_group = {}
 	}
+end)()
+(function ()
 	pg.base.furniture_data_template[315112] = {
 		advice = 0,
 		name = "不詳路燈",
@@ -147240,8 +147331,6 @@ end)()
 		},
 		interAction_group = {}
 	}
-end)()
-(function ()
 	pg.base.furniture_data_template[315113] = {
 		advice = 0,
 		name = "詭譎祭壇",
@@ -151781,6 +151870,8 @@ end)()
 		},
 		interAction_group = {}
 	}
+end)()
+(function ()
 	pg.base.furniture_data_template[320101] = {
 		advice = 0,
 		name = "深空測高機",
@@ -151864,8 +151955,6 @@ end)()
 		},
 		interAction_group = {}
 	}
-end)()
-(function ()
 	pg.base.furniture_data_template[320102] = {
 		advice = 0,
 		name = "深空體重計",
@@ -156575,6 +156664,8 @@ end)()
 		},
 		interAction_group = {}
 	}
+end)()
+(function ()
 	pg.base.furniture_data_template[325116] = {
 		can_rotate = 0,
 		describe = "可以方便的擺放各種物品的木櫃",
@@ -156613,8 +156704,6 @@ end)()
 		},
 		interAction_group = {}
 	}
-end)()
-(function ()
 	pg.base.furniture_data_template[325117] = {
 		can_rotate = 0,
 		describe = "可以方便的擺放各種物品的木櫃",
@@ -161134,6 +161223,8 @@ end)()
 		},
 		interAction_group = {}
 	}
+end)()
+(function ()
 	pg.base.furniture_data_template[332106] = {
 		can_rotate = 0,
 		describe = "無效的清潔工作即將開始~",
@@ -161178,8 +161269,6 @@ end)()
 		},
 		interAction_group = {}
 	}
-end)()
-(function ()
 	pg.base.furniture_data_template[332107] = {
 		can_rotate = 0,
 		describe = "曾是遠航之夢的載體，如今已與糾纏的低語一同沉沒",
@@ -165842,6 +165931,8 @@ end)()
 		},
 		interAction_group = {}
 	}
+end)()
+(function ()
 	pg.base.furniture_data_template[335113] = {
 		can_rotate = 0,
 		describe = "專業啾啾，線上呈寶",
@@ -165893,8 +165984,6 @@ end)()
 		},
 		interAction_group = {}
 	}
-end)()
-(function ()
 	pg.base.furniture_data_template[335114] = {
 		can_rotate = 0,
 		describe = "每件珍品，都獨一無二",
@@ -170502,6 +170591,8 @@ end)()
 		},
 		interAction_group = {}
 	}
+end)()
+(function ()
 	pg.base.furniture_data_template[341112] = {
 		advice = 0,
 		name = "住院部實驗樣本",
@@ -170590,8 +170681,6 @@ end)()
 		},
 		interAction_group = {}
 	}
-end)()
-(function ()
 	pg.base.furniture_data_template[341113] = {
 		can_rotate = 0,
 		describe = "要試試塌陷的感覺嗎~",

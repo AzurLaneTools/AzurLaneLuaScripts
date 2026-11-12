@@ -53,7 +53,7 @@ pg.base.chapter_suggestion_char = {}
 						page = 1
 					}
 				},
-				"特型舰建造"
+				"進行特型艦建造"
 			}
 		},
 		skill_lv = {
@@ -146,7 +146,7 @@ pg.base.chapter_suggestion_char = {}
 						page = 1
 					}
 				},
-				"特型舰建造"
+				"進行特型艦建造"
 			}
 		},
 		skill_lv = {
@@ -239,7 +239,7 @@ pg.base.chapter_suggestion_char = {}
 						page = 1
 					}
 				},
-				"特型舰建造"
+				"進行特型艦建造"
 			},
 			{
 				{
@@ -420,21 +420,12 @@ pg.base.chapter_suggestion_char = {}
 		source = {
 			{
 				{
-					"scene get boat",
-					{
-						page = 3
-					}
-				},
-				"勋章支援（概率产出）"
-			},
-			{
-				{
 					"scene shop",
 					{
 						warp = "medal"
 					}
 				},
-				"勋章商店（概率刷新）"
+				"勳章商店（機率更新）"
 			}
 		},
 		skill_lv = {
@@ -703,7 +694,7 @@ pg.base.chapter_suggestion_char = {}
 						page = 1
 					}
 				},
-				"重型舰建造"
+				"重型艦建造"
 			},
 			{
 				{
@@ -713,7 +704,7 @@ pg.base.chapter_suggestion_char = {}
 						page = 1
 					}
 				},
-				"特型舰建造"
+				"進行特型艦建造"
 			},
 			{
 				{
@@ -723,7 +714,7 @@ pg.base.chapter_suggestion_char = {}
 						page = 1
 					}
 				},
-				"常驻UR兑换"
+				"常駐UR兌換"
 			}
 		},
 		skill_lv = {
@@ -816,7 +807,7 @@ pg.base.chapter_suggestion_char = {}
 						page = 1
 					}
 				},
-				"特型舰建造"
+				"進行特型艦建造"
 			}
 		},
 		skill_lv = {
@@ -997,7 +988,7 @@ pg.base.chapter_suggestion_char = {}
 						page = 1
 					}
 				},
-				"轻型舰建造"
+				"進行輕型艦建造"
 			},
 			{
 				{
@@ -1006,7 +997,7 @@ pg.base.chapter_suggestion_char = {}
 						page = 3
 					}
 				},
-				"勋章支援（概率产出）"
+				"勳章支援（機率產出）"
 			},
 			{
 				{
@@ -1015,7 +1006,7 @@ pg.base.chapter_suggestion_char = {}
 						warp = "medal"
 					}
 				},
-				"勋章商店（概率刷新）"
+				"勳章商店（機率更新）"
 			}
 		},
 		skill_lv = {
@@ -1192,7 +1183,7 @@ pg.base.chapter_suggestion_char = {}
 						page = 1
 					}
 				},
-				"特型舰建造"
+				"進行特型艦建造"
 			}
 		},
 		skill_lv = {
@@ -1280,7 +1271,7 @@ pg.base.chapter_suggestion_char = {}
 						page = 3
 					}
 				},
-				"勋章支援（概率产出）"
+				"勳章支援（機率產出）"
 			},
 			{
 				{
@@ -1289,7 +1280,7 @@ pg.base.chapter_suggestion_char = {}
 						warp = "medal"
 					}
 				},
-				"勋章商店（概率刷新）"
+				"勳章商店（機率更新）"
 			}
 		},
 		skill_lv = {
@@ -1378,7 +1369,7 @@ pg.base.chapter_suggestion_char = {}
 						page = 1
 					}
 				},
-				"特型舰建造"
+				"進行特型艦建造"
 			}
 		},
 		skill_lv = {
@@ -1467,7 +1458,7 @@ pg.base.chapter_suggestion_char = {}
 						page = 1
 					}
 				},
-				"特型舰建造"
+				"進行特型艦建造"
 			}
 		},
 		skill_lv = {
@@ -1554,33 +1545,12 @@ pg.base.chapter_suggestion_char = {}
 		source = {
 			{
 				{
-					"scene get boat",
+					"限時活動：空相交會點",
 					{
-						projectName = "heavy",
-						page = 1
+						""
 					}
 				},
-				"重型舰建造"
-			},
-			{
-				{
-					"scene get boat",
-					{
-						projectName = "special",
-						page = 1
-					}
-				},
-				"特型舰建造"
-			},
-			{
-				{
-					"scene get boat",
-					{
-						projectName = "special",
-						page = 1
-					}
-				},
-				"常驻UR兑换"
+				"限時活動：空相交會點"
 			}
 		},
 		skill_lv = {
@@ -1673,7 +1643,7 @@ pg.base.chapter_suggestion_char = {}
 						page = 1
 					}
 				},
-				"特型舰建造"
+				"進行特型艦建造"
 			},
 			{
 				{
@@ -1854,21 +1824,12 @@ pg.base.chapter_suggestion_char = {}
 		source = {
 			{
 				{
-					"scene get boat",
-					{
-						page = 3
-					}
-				},
-				"勋章支援（概率产出）"
-			},
-			{
-				{
 					"scene shop",
 					{
 						warp = "medal"
 					}
 				},
-				"勋章商店（概率刷新）"
+				"勳章商店（機率更新）"
 			}
 		},
 		skill_lv = {
@@ -2141,7 +2102,7 @@ pg.base.chapter_suggestion_char = {}
 						page = 1
 					}
 				},
-				"重型舰建造"
+				"重型艦建造"
 			},
 			{
 				{
@@ -2151,7 +2112,7 @@ pg.base.chapter_suggestion_char = {}
 						page = 1
 					}
 				},
-				"特型舰建造"
+				"進行特型艦建造"
 			},
 			{
 				{
@@ -2161,7 +2122,7 @@ pg.base.chapter_suggestion_char = {}
 						page = 1
 					}
 				},
-				"常驻UR兑换"
+				"常駐UR兌換"
 			}
 		},
 		skill_lv = {
@@ -2254,7 +2215,7 @@ pg.base.chapter_suggestion_char = {}
 						page = 1
 					}
 				},
-				"特型舰建造"
+				"進行特型艦建造"
 			}
 		},
 		skill_lv = {
@@ -2615,7 +2576,7 @@ pg.base.chapter_suggestion_char = {}
 						page = 1
 					}
 				},
-				"特型舰建造"
+				"進行特型艦建造"
 			}
 		},
 		skill_lv = {
@@ -2703,7 +2664,7 @@ pg.base.chapter_suggestion_char = {}
 						page = 3
 					}
 				},
-				"勋章支援（概率产出）"
+				"勳章支援（機率產出）"
 			},
 			{
 				{
@@ -2712,7 +2673,7 @@ pg.base.chapter_suggestion_char = {}
 						warp = "medal"
 					}
 				},
-				"勋章商店（概率刷新）"
+				"勳章商店（機率更新）"
 			}
 		},
 		skill_lv = {
@@ -2801,7 +2762,7 @@ pg.base.chapter_suggestion_char = {}
 						page = 1
 					}
 				},
-				"特型舰建造"
+				"進行特型艦建造"
 			}
 		},
 		skill_lv = {

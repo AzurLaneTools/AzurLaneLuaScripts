@@ -12177,17 +12177,17 @@ _G.pg.base.gametip.buildship_new_tip = {
 
 
 _G.pg.base.gametip.buildship_heavy_tip = {
-	tip = "亞爾薇特 建造追加！"
+	tip = "安妮女王復仇號、岡依沙瓦號 等角色 建造追加！ "
 }
 
 
 _G.pg.base.gametip.buildship_light_tip = {
-	tip = "{namecode:494} 建造追加！"
+	tip = "萊姆號、幻想號 等角色 建造追加！"
 }
 
 
 _G.pg.base.gametip.buildship_special_tip = {
-	tip = "{namecode:536} 建造追加！"
+	tip = "和睦號 建造追加！"
 }
 
 
@@ -50499,17 +50499,17 @@ _G.pg.base.gametip.loading_flow_tip = {
 
 
 _G.pg.base.gametip.formation_suggestion = {
-	tip = "编队指引"
+	tip = "編隊指引"
 }
 
 
 _G.pg.base.gametip.formation_suggestion_tip = {
-	tip = "点击角色可查看推荐配装。编队仅供参考，指挥官可根据已获取舰船类型及参数，自行调整阵容与装备"
+	tip = "點擊角色可查看推薦配裝。編隊僅供參考，指揮官可根據已獲得艦船類型及數據，自行調整陣容與裝備"
 }
 
 
 _G.pg.base.gametip.formation_suggestion_tip_title = {
-	tip = "推荐编队"
+	tip = "推薦編隊"
 }
 
 
@@ -50519,32 +50519,32 @@ _G.pg.base.gametip.formation_suggestion_any_type_ship = {
 
 
 _G.pg.base.gametip.formation_suggestion_info_title = {
-	tip = "养成建议"
+	tip = "養成建議"
 }
 
 
 _G.pg.base.gametip.formation_suggestion_info_level = {
-	tip = "等级：Lv.$1"
+	tip = "等級：Lv.$1"
 }
 
 
 _G.pg.base.gametip.formation_suggestion_info_not_get = {
-	tip = "未获取"
+	tip = "未獲得"
 }
 
 
 _G.pg.base.gametip.formation_suggestion_info_got = {
-	tip = "已获取"
+	tip = "已獲得"
 }
 
 
 _G.pg.base.gametip.formation_suggestion_info_go_dock = {
-	tip = "前往船坞"
+	tip = "前往船塢"
 }
 
 
 _G.pg.base.gametip.formation_suggestion_info_equip_recommend = {
-	tip = "推荐装备"
+	tip = "推薦裝備"
 }
 
 
@@ -50554,27 +50554,27 @@ _G.pg.base.gametip.formation_suggestion_info_equip_transitional = {
 
 
 _G.pg.base.gametip.formation_suggestion_info_equip_copy = {
-	tip = "复制装备码"
+	tip = "複製裝備碼"
 }
 
 
 _G.pg.base.gametip.formation_suggestion_info_equip_tip = {
-	tip = "部分装备获取难度较高，可更换对应下位装备作为临时配装使用"
+	tip = "部分裝備獲得難度較高，可更換對應下位裝備作為臨時配裝使用"
 }
 
 
 _G.pg.base.gametip.formation_suggestion_info_back = {
-	tip = "返回编队指引"
+	tip = "返回編隊指引"
 }
 
 
 _G.pg.base.gametip.formation_suggestion_info_obtain = {
-	tip = "获取途径：$1"
+	tip = "獲得途徑：$1"
 }
 
 
 _G.pg.base.gametip.formation_suggestion_info_level_recommend = {
-	tip = "推荐等级：$1"
+	tip = "推薦等級：$1"
 }
 
 

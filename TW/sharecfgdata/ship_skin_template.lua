@@ -40284,7 +40284,7 @@ _G.pg.base.ship_skin_template[105112] = {
 
 
 _G.pg.base.ship_skin_template[105119] = {
-	name = "西維吉尼亞·改",
+	name = "西維吉尼亞.改",
 	shop_offset = "",
 	change_skin = "",
 	illustrator2 = -1,
@@ -49664,7 +49664,7 @@ _G.pg.base.ship_skin_template[107097] = {
 
 
 _G.pg.base.ship_skin_template[107099] = {
-	name = "艾塞克斯·改",
+	name = "艾塞克斯.改",
 	shop_offset = "",
 	change_skin = "",
 	illustrator2 = -1,
@@ -64237,7 +64237,7 @@ _G.pg.base.ship_skin_template[201160] = {
 
 
 _G.pg.base.ship_skin_template[201169] = {
-	name = "勇敢·改",
+	name = "勇敢.改",
 	shop_offset = "",
 	change_skin = "",
 	illustrator2 = -1,
@@ -100617,7 +100617,7 @@ _G.pg.base.ship_skin_template[206038] = {
 
 
 _G.pg.base.ship_skin_template[206039] = {
-	name = "獨角獸·改",
+	name = "獨角獸.改",
 	shop_offset = "",
 	change_skin = "",
 	illustrator2 = -1,
@@ -104001,7 +104001,7 @@ _G.pg.base.ship_skin_template[207028] = {
 
 
 _G.pg.base.ship_skin_template[207029] = {
-	name = "皇家方舟·改",
+	name = "皇家方舟.改",
 	shop_offset = "",
 	change_skin = "",
 	illustrator2 = -1,
@@ -221939,7 +221939,7 @@ _G.pg.base.ship_skin_template[502043] = {
 
 
 _G.pg.base.ship_skin_template[502049] = {
-	name = "應瑞·改",
+	name = "應瑞.改",
 	shop_offset = "",
 	change_skin = "",
 	illustrator2 = -1,
@@ -222641,7 +222641,7 @@ _G.pg.base.ship_skin_template[502053] = {
 
 
 _G.pg.base.ship_skin_template[502059] = {
-	name = "肇和·改",
+	name = "肇和.改",
 	shop_offset = "",
 	change_skin = "",
 	illustrator2 = -1,
@@ -268915,6 +268915,135 @@ _G.pg.base.ship_skin_template[903022] = {
 					{
 						-0.498,
 						0.676,
+						0
+					}
+				}
+			}
+		}
+	}
+}
+
+
+_G.pg.base.ship_skin_template[903023] = {
+	name = "嚴厲女僕不嚴厲",
+	shop_offset = "",
+	change_skin = "",
+	illustrator2 = -1,
+	desc = "歡迎回來，指揮官。既然讓我等了這麼久，是不是該接受一點小小的懲罰呢？……呵呵，只是開個玩笑而已，快來我身邊坐下吧~",
+	group_index = 3,
+	purchase_offset = "",
+	painting = "aerjiliya_4",
+	lover_hand = "hand_1_02",
+	bg_sp = "",
+	shop_type_id = 17,
+	l2d_ignore_drag = 0,
+	hand_id = 1,
+	lip_smoothing = 0,
+	l2d_animations = "",
+	lover_kiss = "lip03",
+	ship_group = 90302,
+	bg = "501",
+	bgm = "",
+	spine_use_live2d = 0,
+	spine_action_offset = false,
+	spine_offset_profile = "",
+	skin_type = 0,
+	special_effects = "",
+	id = 903023,
+	voice_actor_2 = -1,
+	gyro = 0,
+	ship_l2d_id = "",
+	l2d_drag_rate = "",
+	prefab = "aerjiliya_4",
+	l2d_se = "",
+	no_showing = "0",
+	part_scale = "",
+	main_UI_FX = "",
+	shop_id = 0,
+	voice_actor = 142,
+	get_showing = "",
+	spine_offset = "",
+	illustrator = -1,
+	rarity_bg = "",
+	shop_dynamic_hx = 0,
+	double_char = 0,
+	skeleton_default_skin = "",
+	voice_lang = "",
+	time = "",
+	l2d_para_range = "",
+	lip_sync_gain = 0,
+	live2d_offset_profile = "",
+	show_skin = "stand",
+	l2d_voice_calibrate = "",
+	tag = {
+		2
+	},
+	live2d_offset = {
+		0,
+		0,
+		0
+	},
+	fx_container = {
+		{
+			0,
+			1.99185,
+			1.15
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0.75,
+			-1.299
+		},
+		{
+			0,
+			0,
+			0
+		}
+	},
+	bound_bone = {
+		cannon = {
+			{
+				1.507,
+				0.968,
+				0
+			}
+		},
+		vicegun = {
+			{
+				1.105,
+				0.892,
+				0
+			}
+		},
+		torpedo = {
+			{
+				0,
+				0.019,
+				0
+			}
+		},
+		antiaircraft = {
+			{
+				0.686,
+				2.428,
+				0
+			}
+		}
+	},
+	smoke = {
+		{
+			50,
+			{
+				{
+					"smoke",
+					{
+						-0.526,
+						2.387,
 						0
 					}
 				}

@@ -193484,6 +193484,33 @@ _G.pg.base.item_virtual_data_statistics[68711] = {
 }
 
 
+_G.pg.base.item_virtual_data_statistics[68754] = {
+	drop_gold_max = 0,
+	name = "嚴厲女僕的獎賞",
+	display = "喜歡這樣的獎賞嗎？指揮官~ 參與「嚴厲女僕不嚴厲」獲得的點數，累計一定程度可以領取報酬",
+	type = 98,
+	is_world = 0,
+	shop_id = -1,
+	replace_item = 0,
+	time_limit = 0,
+	link_id = 0,
+	drop_arg = "",
+	album_config = "",
+	icon = "Props/aerjiliya_pt",
+	order = 0,
+	rarity = 2,
+	max_num = 0,
+	drop_oil_max = 0,
+	virtual_type = 0,
+	id = 68754,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+
 _G.pg.base.item_virtual_data_statistics[68712] = {
 	drop_gold_max = 0,
 	name = "作戰全權委托書（大型作戰）",

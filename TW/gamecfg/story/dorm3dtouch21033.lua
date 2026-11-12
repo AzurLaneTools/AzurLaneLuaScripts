@@ -18,7 +18,7 @@ return {
 			voice = "event:/dorm/drom3d_nakhimov_ik_furniture2_tone7/drom3d_nakhimov_ik_furniture2_tone7",
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
-			say = "唔……有点够不到……要坐起来……不对，要站起来！",
+			say = "唔……有點够不到……要坐起來……不對，要站起來！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

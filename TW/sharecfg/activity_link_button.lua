@@ -467,7 +467,7 @@ pg.base.activity_link_button = {}
 		order = 1,
 		time = {
 			"default",
-			51607
+			51201
 		}
 	}
 	pg.base.activity_link_button[110] = {
