@@ -321,7 +321,7 @@ slot0.UpdateChatContent = function(slot0, slot1, slot2, slot3)
 			end
 		end
 
-		if HXSet.isHx() then
+		if HXSet.isHx() and CUSTOM_HX then
 			SetActive(slot6, false)
 			SetActive(slot7, true)
 		else

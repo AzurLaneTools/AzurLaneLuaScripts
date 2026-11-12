@@ -15,7 +15,7 @@ slot0.getResource = function(slot0)
 		table.insertto(slot1, ResPathSupport.GetPaintingListByPaintingName(slot3:getPainting()))
 	end
 
-	if HXSet.isHx() then
+	if HXSet.isHx() and CUSTOM_HX then
 		table.insertto(slot1, pg.ship_skin_template[900284].painting)
 	end
 
@@ -95,7 +95,7 @@ end
 slot0.UpdateBuildPoolPaiting = function(slot0)
 	slot1 = slot0.contextData.falgShip:getPainting()
 
-	if HXSet.isHx() then
+	if HXSet.isHx() and CUSTOM_HX then
 		slot1 = pg.ship_skin_template[900284].painting
 	end
 

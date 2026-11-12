@@ -287,6 +287,8 @@ pg.memory_group.all = {
 	379,
 	380,
 	381,
+	382,
+	383,
 	501,
 	502,
 	503,
@@ -7742,6 +7744,39 @@ end)()
 			5596
 		}
 	}
+	pg.base.memory_group[382] = {
+		ship_group = 0,
+		icon = "title_event",
+		type = 2,
+		link_event = 51307,
+		title = "開幕！天使たちのアズールステージ-「ステージ編」",
+		auto_unlock = "",
+		subtype = 2,
+		id = 382,
+		group_id = "",
+		memories = {
+			5621,
+			5622,
+			5623,
+			5624,
+			5625
+		}
+	}
+	pg.base.memory_group[383] = {
+		ship_group = 0,
+		icon = "title_event",
+		type = 2,
+		link_event = 51307,
+		title = "開幕！天使たちのアズールステージ-「日常編」",
+		auto_unlock = "",
+		subtype = 2,
+		id = 383,
+		group_id = "",
+		memories = {
+			5631,
+			5632
+		}
+	}
 	pg.base.memory_group[501] = {
 		ship_group = 31201,
 		icon = "title_chara_mingshi",
@@ -8083,6 +8118,8 @@ end)()
 			10000
 		}
 	}
+end)()
+(function ()
 	pg.base.memory_group[517] = {
 		ship_group = 80801,
 		icon = "title_chara_xukufu",
@@ -8127,8 +8164,6 @@ end)()
 			10000
 		}
 	}
-end)()
-(function ()
 	pg.base.memory_group[519] = {
 		ship_group = 20604,
 		icon = "title_chara_banrenma",
@@ -10285,6 +10320,8 @@ end)()
 			10000
 		}
 	}
+end)()
+(function ()
 	pg.base.memory_group[618] = {
 		ship_group = 60501,
 		icon = "title_chara_weineituo",
@@ -10329,8 +10366,6 @@ end)()
 			10000
 		}
 	}
-end)()
-(function ()
 	pg.base.memory_group[620] = {
 		ship_group = 20607,
 		icon = "title_chara_aerbien",

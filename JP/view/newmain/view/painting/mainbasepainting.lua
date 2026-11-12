@@ -38,12 +38,13 @@ end
 slot0.SetOnceLoadedCall = function(slot0, slot1)
 end
 
-slot0.Load = function(slot0, slot1)
+slot0.Load = function(slot0, slot1, slot2)
 	slot0.isPuase = false
 	slot0.isExited = false
 	slot0.state = uv0
 	slot0.ship = slot1
 	slot0.paintingName = slot1:getPainting()
+	slot3 = slot0.paintingName
 
 	slot0:OnLoad(function ()
 		uv0.state = uv1
@@ -52,6 +53,12 @@ slot0.Load = function(slot0, slot1)
 			uv0:TriggerEventAtFirstTime()
 		else
 			uv0:TriggerNextEventAuto()
+		end
+
+		if uv2 and uv3 == uv0.paintingName then
+			uv2()
+
+			uv2 = nil
 		end
 
 		uv0:InitClickEvent()

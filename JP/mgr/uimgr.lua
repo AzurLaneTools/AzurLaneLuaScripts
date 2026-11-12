@@ -183,8 +183,17 @@ slot0.AttachStickOb = function(slot0, slot1)
 	slot0.hrz = 0
 	slot0.vtc = 0
 	slot0.fingerId = -1
+
+	print(slot1)
+
 	slot2 = slot1:Find("Area")
+
+	print(slot2)
+
 	slot0._stick = slot2:Find("Stick")
+
+	print(slot0._stick)
+
 	slot0._areaImg = slot2:GetComponent(typeof(Image))
 	slot0._stickImg = slot0._stick:GetComponent(typeof(Image))
 	slot0._stickCom = slot1:GetComponent(typeof(StickController))
@@ -255,6 +264,35 @@ slot0.UpdateStick = function(slot0, slot1, slot2)
 		slot0._stick.localPosition = slot1
 
 		slot0:SetOutput(slot3.x * slot0._maxbianjieInv, slot3.y * slot0._maxbianjieInv, slot2)
+	end
+end
+
+slot0.SetStickPosition = function(slot0, slot1, slot2, slot3)
+	if slot1 * slot1 + slot2 * slot2 > 1 then
+		slot5 = math.sqrt(slot4)
+		slot1 = slot1 / slot5
+		slot2 = slot2 / slot5
+	end
+
+	slot5 = Vector3(slot1 * slot0._maxbianjie, slot2 * slot0._maxbianjie, 0)
+
+	if slot3 then
+		slot5 = Vector3.MoveTowards(slot0._stick.localPosition, slot5, slot3 * slot0._maxbianjie)
+	end
+
+	slot0._stick.localPosition = slot5
+	slot7 = slot5:SqrMagnitude() > 0 and uv0._normalColor or uv0._darkColor
+
+	if slot0._areaImg then
+		slot0._areaImg.color = slot7
+	end
+
+	if slot0._stickImg then
+		slot0._stickImg.color = slot7
+	end
+
+	if slot0._stickTailPS then
+		setActive(slot0._stickTailPS, slot6)
 	end
 end
 

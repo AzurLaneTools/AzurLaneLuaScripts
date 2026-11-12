@@ -417,6 +417,15 @@ slot0.setAutoBattleTip = function(slot0)
 	PlayerPrefs.Save()
 end
 
+slot0.IsShowStickInCombat = function(slot0)
+	return PlayerPrefs.GetInt("combat_ui_always_show_stick", 0) > 0
+end
+
+slot0.SetShowStickInCombat = function(slot0, slot1)
+	PlayerPrefs.SetInt("combat_ui_always_show_stick", slot1 and 1 or 0)
+	PlayerPrefs.Save()
+end
+
 slot0.isTipAutoBattle = function(slot0)
 	return slot0._nextTipAutoBattleTime < pg.TimeMgr.GetInstance():GetServerTime()
 end

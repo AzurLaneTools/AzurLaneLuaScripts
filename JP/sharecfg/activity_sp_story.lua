@@ -532,7 +532,12 @@ pg.activity_sp_story.all = {
 	573,
 	574,
 	575,
-	576
+	576,
+	581,
+	582,
+	583,
+	584,
+	585
 }
 pg.base = pg.base or {}
 pg.base.activity_sp_story = {}
@@ -6403,7 +6408,7 @@ end)()
 		story_type = 1,
 		label_key = "",
 		change_prefab = "",
-		unlock_conditions = "EPS-1をクリア ",
+		unlock_conditions = "EPS-1をクリア",
 		change_background = "star_level_bg_493",
 		name = "EP1-1 VOICE#2",
 		story = "YIHAILIUSHENG2",
@@ -11478,6 +11483,99 @@ end)()
 			{
 				4,
 				575
+			}
+		}
+	}
+	pg.base.activity_sp_story[581] = {
+		story_type = 1,
+		pre_event = "",
+		label_key = "",
+		change_prefab = "",
+		unlock_conditions = "",
+		change_background = "",
+		name = "EPS-1 異世界の新生活",
+		story = "2079004",
+		change_bgm = "",
+		id = 581,
+		lock = ""
+	}
+	pg.base.activity_sp_story[582] = {
+		story_type = 1,
+		label_key = "",
+		change_prefab = "",
+		unlock_conditions = "EPS-1をクリア",
+		change_background = "",
+		name = "EPS-2 発表会を開こう！",
+		story = "TIANSHIMENDEBILANWUTAIZHANHUI2",
+		change_bgm = "",
+		id = 582,
+		pre_event = {
+			581
+		},
+		lock = {
+			{
+				4,
+				581
+			}
+		}
+	}
+	pg.base.activity_sp_story[583] = {
+		story_type = 1,
+		label_key = "",
+		change_prefab = "",
+		unlock_conditions = "EPS-2をクリア",
+		change_background = "",
+		name = "EPS-3 発表会に向けて",
+		story = "TIANSHIMENDEBILANWUTAIZHANHUI3",
+		change_bgm = "",
+		id = 583,
+		pre_event = {
+			582
+		},
+		lock = {
+			{
+				4,
+				582
+			}
+		}
+	}
+	pg.base.activity_sp_story[584] = {
+		story_type = 1,
+		label_key = "",
+		change_prefab = "",
+		unlock_conditions = "EPS-3をクリア",
+		change_background = "",
+		name = "EPS-4 温泉での息抜き",
+		story = "TIANSHIMENDEBILANWUTAIZHANHUI4",
+		change_bgm = "",
+		id = 584,
+		pre_event = {
+			583
+		},
+		lock = {
+			{
+				4,
+				583
+			}
+		}
+	}
+	pg.base.activity_sp_story[585] = {
+		story_type = 1,
+		label_key = "",
+		change_prefab = "",
+		unlock_conditions = "EPS-4をクリア",
+		change_background = "",
+		name = "EPS-5 発表会、大成功！",
+		story = "TIANSHIMENDEBILANWUTAIZHANHUI5",
+		change_bgm = "",
+		id = 585,
+		pre_event = {
+			584
+		},
+		lock = {
+			{
+				4,
+				584
 			}
 		}
 	}

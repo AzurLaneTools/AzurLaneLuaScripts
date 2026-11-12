@@ -3313,6 +3313,14 @@ pg.skill_data_display.all = {
 	117070,
 	117073,
 	117079,
+	118011,
+	118018,
+	118021,
+	118051,
+	118052,
+	118063,
+	118071,
+	118073,
 	152581,
 	152582,
 	152583,
@@ -3987,6 +3995,8 @@ pg.skill_data_display.all = {
 	201895,
 	201898,
 	201905,
+	201952,
+	201954,
 	1011540,
 	1011541,
 	1090010,
@@ -12620,7 +12630,7 @@ end)()
 	}
 	pg.base.skill_data_display[152901] = {
 		id = 152901,
-		name = "守って羽ばたく +"
+		name = "守って羽ばたく +"
 	}
 	pg.base.skill_data_display[152922] = {
 		id = 152922,
@@ -12628,7 +12638,7 @@ end)()
 	}
 	pg.base.skill_data_display[152931] = {
 		id = 152931,
-		name = "突き堕す長船 + "
+		name = "突き堕す長船 + "
 	}
 	pg.base.skill_data_display[152963] = {
 		id = 152963,
@@ -12644,7 +12654,7 @@ end)()
 	}
 	pg.base.skill_data_display[152983] = {
 		id = 152983,
-		name = "メルクーリィよりやってきた導き手 +"
+		name = "メルクーリィよりやってきた導き手 +"
 	}
 	pg.base.skill_data_display[153051] = {
 		id = 153051,
@@ -12668,15 +12678,15 @@ end)()
 	}
 	pg.base.skill_data_display[153031] = {
 		id = 153031,
-		name = "超重火力セリミエ +"
+		name = "超重火力セリミエ +"
 	}
 	pg.base.skill_data_display[153032] = {
 		id = 153032,
-		name = "超重火力セリミエ +"
+		name = "超重火力セリミエ +"
 	}
 	pg.base.skill_data_display[153033] = {
 		id = 153033,
-		name = "超重火力セリミエ +"
+		name = "超重火力セリミエ +"
 	}
 	pg.base.skill_data_display[18010] = {
 		id = 18010,
@@ -12854,27 +12864,27 @@ end)()
 	}
 	pg.base.skill_data_display[18411] = {
 		id = 18411,
-		name = "飲み干す黄金の渦 +"
+		name = "飲み干す黄金の渦 +"
 	}
 	pg.base.skill_data_display[18430] = {
 		id = 18430,
-		name = "噛み砕く魔神の顎 +"
+		name = "噛み砕く魔神の顎 +"
 	}
 	pg.base.skill_data_display[18431] = {
 		id = 18431,
-		name = "噛み砕く魔神の顎 +"
+		name = "噛み砕く魔神の顎 +"
 	}
 	pg.base.skill_data_display[18432] = {
 		id = 18432,
-		name = "噛み砕く魔神の顎 +"
+		name = "噛み砕く魔神の顎 +"
 	}
 	pg.base.skill_data_display[18433] = {
 		id = 18433,
-		name = "噛み砕く魔神の顎 +"
+		name = "噛み砕く魔神の顎 +"
 	}
 	pg.base.skill_data_display[18434] = {
 		id = 18434,
-		name = "噛み砕く魔神の顎 +"
+		name = "噛み砕く魔神の顎 +"
 	}
 	pg.base.skill_data_display[18440] = {
 		id = 18440,
@@ -17544,11 +17554,11 @@ end)()
 	}
 	pg.base.skill_data_display[117030] = {
 		id = 117030,
-		name = "制圧：戦線構築+"
+		name = "制圧：戦線構築 +"
 	}
 	pg.base.skill_data_display[117039] = {
 		id = 117039,
-		name = "制圧：戦線構築+"
+		name = "制圧：戦線構築 +"
 	}
 end)()
 (function ()
@@ -17578,15 +17588,47 @@ end)()
 	}
 	pg.base.skill_data_display[117070] = {
 		id = 117070,
-		name = "重撃破斬+"
+		name = "重撃破斬 +"
 	}
 	pg.base.skill_data_display[117073] = {
 		id = 117073,
-		name = "重撃破斬+"
+		name = "重撃破斬 +"
 	}
 	pg.base.skill_data_display[117079] = {
 		id = 117079,
-		name = "重撃破斬+"
+		name = "重撃破斬 +"
+	}
+	pg.base.skill_data_display[118011] = {
+		id = 118011,
+		name = "リリエル治療 "
+	}
+	pg.base.skill_data_display[118018] = {
+		id = 118018,
+		name = "リリエル治療 "
+	}
+	pg.base.skill_data_display[118021] = {
+		id = 118021,
+		name = "リリエル爆破 "
+	}
+	pg.base.skill_data_display[118051] = {
+		id = 118051,
+		name = "ミリエラシュート "
+	}
+	pg.base.skill_data_display[118052] = {
+		id = 118052,
+		name = "ミリエラシュート "
+	}
+	pg.base.skill_data_display[118063] = {
+		id = 118063,
+		name = "ミリエラインパクト"
+	}
+	pg.base.skill_data_display[118071] = {
+		id = 118071,
+		name = "ミリエラインパクト + "
+	}
+	pg.base.skill_data_display[118073] = {
+		id = 118073,
+		name = "ミリエラインパクト +"
 	}
 	pg.base.skill_data_display[152581] = {
 		id = 152581,
@@ -17920,6 +17962,8 @@ end)()
 		id = 600185,
 		name = "光風霽月"
 	}
+end)()
+(function ()
 	pg.base.skill_data_display[800010] = {
 		id = 800010,
 		name = "ガンファイア・オブ・トーチ"
@@ -17952,8 +17996,6 @@ end)()
 		id = 800040,
 		name = "炬火の刃"
 	}
-end)()
-(function ()
 	pg.base.skill_data_display[800041] = {
 		id = 800041,
 		name = "炬火の刃"
@@ -18322,6 +18364,8 @@ end)()
 		id = 800470,
 		name = "ファイアワーク・レパルス"
 	}
+end)()
+(function ()
 	pg.base.skill_data_display[800473] = {
 		id = 800473,
 		name = "ファイアワーク・レパルス"
@@ -18354,8 +18398,6 @@ end)()
 		id = 800520,
 		name = "悲しき幻像の守り"
 	}
-end)()
-(function ()
 	pg.base.skill_data_display[800521] = {
 		id = 800521,
 		name = "悲しき幻像の守り"
@@ -18724,6 +18766,8 @@ end)()
 		id = 801333,
 		name = "霞のお護り"
 	}
+end)()
+(function ()
 	pg.base.skill_data_display[801363] = {
 		id = 801363,
 		name = "月は満ち欠け"
@@ -18756,8 +18800,6 @@ end)()
 		id = 801393,
 		name = "雲穿つ天斬"
 	}
-end)()
-(function ()
 	pg.base.skill_data_display[801401] = {
 		id = 801401,
 		name = "影払う輝光"
@@ -19126,6 +19168,8 @@ end)()
 		id = 802177,
 		name = "焔追の灰-ケルンⅡ"
 	}
+end)()
+(function ()
 	pg.base.skill_data_display[802371] = {
 		id = 802371,
 		name = "輝け★アイドルエントリー！"
@@ -19158,8 +19202,6 @@ end)()
 		id = 802321,
 		name = "志は滅びず"
 	}
-end)()
-(function ()
 	pg.base.skill_data_display[802335] = {
 		id = 802335,
 		name = "炬火の力-ヴィクトリアスⅠ"
@@ -19330,7 +19372,7 @@ end)()
 	}
 	pg.base.skill_data_display[1018305] = {
 		id = 1018305,
-		name = "フリントバースト・改 +"
+		name = "フリントバースト・改 +"
 	}
 	pg.base.skill_data_display[1019301] = {
 		id = 1019301,
@@ -19528,6 +19570,8 @@ end)()
 		id = 200434,
 		name = "構造の理-援護"
 	}
+end)()
+(function ()
 	pg.base.skill_data_display[200455] = {
 		id = 200455,
 		name = "シュトェールング・チェーン"
@@ -19560,8 +19604,6 @@ end)()
 		id = 200487,
 		name = "ダイナゼノン"
 	}
-end)()
-(function ()
 	pg.base.skill_data_display[200497] = {
 		id = 200497,
 		name = "グリッドマン(Universe Fighter)"
@@ -19930,6 +19972,8 @@ end)()
 		id = 201099,
 		name = "蒼紅の炎"
 	}
+end)()
+(function ()
 	pg.base.skill_data_display[201117] = {
 		id = 201117,
 		name = "蘇りし蒼紅の炎"
@@ -19962,8 +20006,6 @@ end)()
 		id = 201169,
 		name = "連合艦隊、出撃！"
 	}
-end)()
-(function ()
 	pg.base.skill_data_display[201171] = {
 		id = 201171,
 		name = "百鬼ノ影・壱ノ巻"
@@ -20296,6 +20338,14 @@ end)()
 		id = 201905,
 		name = "共鳴の声"
 	}
+	pg.base.skill_data_display[201952] = {
+		id = 201952,
+		name = "「プリンツ・オイゲンの援護」 "
+	}
+	pg.base.skill_data_display[201954] = {
+		id = 201954,
+		name = "「グリンしてファイア！」"
+	}
 	pg.base.skill_data_display[1011540] = {
 		id = 1011540,
 		name = "ラストファイア +"
@@ -20324,6 +20374,8 @@ end)()
 		id = 1011621,
 		name = "航空連携 +"
 	}
+end)()
+(function ()
 	pg.base.skill_data_display[1011622] = {
 		id = 1011622,
 		name = "航空連携 +"
@@ -20364,8 +20416,6 @@ end)()
 		id = 1090031,
 		name = "対空配置・モントピリア"
 	}
-end)()
-(function ()
 	pg.base.skill_data_display[1090032] = {
 		id = 1090032,
 		name = "対空配置・モントピリア"
@@ -20726,6 +20776,8 @@ end)()
 		id = 1014091,
 		name = "除災洗淩 +"
 	}
+end)()
+(function ()
 	pg.base.skill_data_display[1010260] = {
 		id = 1010260,
 		name = "魔砲・アルマゲドン！ +"
@@ -20766,8 +20818,6 @@ end)()
 		id = 1010960,
 		name = "特型ネームシップ！ +"
 	}
-end)()
-(function ()
 	pg.base.skill_data_display[1010961] = {
 		id = 1010961,
 		name = "特型ネームシップ！ +"
@@ -21042,67 +21092,67 @@ end)()
 	}
 	pg.base.skill_data_display[1012471] = {
 		id = 1012471,
-		name = "ダブルガトー+"
+		name = "ダブルガトー +"
 	}
 	pg.base.skill_data_display[1010800] = {
 		id = 1010800,
-		name = "五航戦+"
+		name = "五航戦 +"
 	}
 	pg.base.skill_data_display[1010801] = {
 		id = 1010801,
-		name = "五航戦+"
+		name = "五航戦 +"
 	}
 	pg.base.skill_data_display[1014200] = {
 		id = 1014200,
-		name = "メモリアル・アイアンブラッド +"
+		name = "メモリアル・アイアンブラッド +"
 	}
 	pg.base.skill_data_display[1014201] = {
 		id = 1014201,
-		name = "メモリアル・アイアンブラッド +"
+		name = "メモリアル・アイアンブラッド +"
 	}
 	pg.base.skill_data_display[1014202] = {
 		id = 1014202,
-		name = "メモリアル・アイアンブラッド +"
+		name = "メモリアル・アイアンブラッド +"
 	}
 	pg.base.skill_data_display[1014203] = {
 		id = 1014203,
-		name = "メモリアル・アイアンブラッド +"
+		name = "メモリアル・アイアンブラッド +"
 	}
 	pg.base.skill_data_display[1013071] = {
 		id = 1013071,
-		name = "空駆ける銀翼 +"
+		name = "空駆ける銀翼 +"
 	}
 	pg.base.skill_data_display[1013072] = {
 		id = 1013072,
-		name = "空駆ける銀翼 +"
+		name = "空駆ける銀翼 +"
 	}
 	pg.base.skill_data_display[1019170] = {
 		id = 1019170,
-		name = "北風流・イッチ文字斬り +"
+		name = "北風流・イッチ文字斬り +"
 	}
 	pg.base.skill_data_display[1019171] = {
 		id = 1019171,
-		name = "北風流・イッチ文字斬り +"
+		name = "北風流・イッチ文字斬り +"
 	}
 	pg.base.skill_data_display[1012311] = {
 		id = 1012311,
-		name = "スウィフトアナライズ +"
+		name = "スウィフトアナライズ +"
 	}
 	pg.base.skill_data_display[1012312] = {
 		id = 1012312,
-		name = "スウィフトアナライズ +"
+		name = "スウィフトアナライズ +"
 	}
 	pg.base.skill_data_display[1012500] = {
 		id = 1012500,
-		name = "チャレンジキャット +"
+		name = "チャレンジキャット +"
 	}
 	pg.base.skill_data_display[1012501] = {
 		id = 1012501,
-		name = "チャレンジキャット +"
+		name = "チャレンジキャット +"
 	}
 	pg.base.skill_data_display[1012502] = {
 		id = 1012502,
-		name = "チャレンジキャット +"
+		name = "チャレンジキャット +"
 	}
 	pg.base.skill_data_display[1090020] = {
 		id = 1090020,
@@ -21128,6 +21178,8 @@ end)()
 		id = 1090071,
 		name = "砲術指揮・シムス"
 	}
+end)()
+(function ()
 	pg.base.skill_data_display[1090080] = {
 		id = 1090080,
 		name = "雷撃指揮・陽炎"
@@ -21168,8 +21220,6 @@ end)()
 		id = 1090150,
 		name = "浮上戦闘・シュルクーフ"
 	}
-end)()
-(function ()
 	pg.base.skill_data_display[1090151] = {
 		id = 1090151,
 		name = "浮上戦闘・シュルクーフ"

@@ -1,5 +1,4 @@
 slot0 = class("NavTacticsDockyardScene", import("view.ship.DockyardScene"))
-slot1 = 7
 
 slot0.init = function(slot0)
 	uv0.super.init(slot0)
@@ -62,7 +61,7 @@ end
 slot0.onUpdateItem = function(slot0, slot1, slot2)
 	uv0.super.onUpdateItem(slot0, slot1, slot2)
 
-	if slot0.isShowRecent and slot1 + 1 <= uv1 then
+	if slot0.isShowRecent and slot1 + 1 <= slot0.maxRecnetShipCnt then
 		setActive(slot0.scrollItems[slot2].recentTr, slot0.shipVOs[slot1 + 1])
 	end
 end
@@ -77,7 +76,7 @@ end
 
 slot0.updateShipCount = function(slot0, slot1)
 	if slot0.isShowRecent and #slot0.recentShips > 0 then
-		for slot5 = #slot0.recentShips + 1, uv0 do
+		for slot5 = #slot0.recentShips + 1, slot0.maxRecnetShipCnt do
 			table.insert(slot0.shipVOs, 1, false)
 		end
 
@@ -85,9 +84,9 @@ slot0.updateShipCount = function(slot0, slot1)
 			table.insert(slot0.shipVOs, 1, slot0.recentShips[slot5])
 		end
 
-		uv1.super.updateShipCount(slot0, slot1)
+		uv0.super.updateShipCount(slot0, slot1)
 	else
-		uv1.super.updateShipCount(slot0, slot1)
+		uv0.super.updateShipCount(slot0, slot1)
 	end
 end
 
@@ -95,7 +94,7 @@ slot0.CollectionRecentShips = function(slot0)
 	slot1 = {}
 
 	for slot6 = #getProxy(NavalAcademyProxy):GetRecentShips(), 1, -1 do
-		if #slot1 == uv0 then
+		if #slot1 == slot0.maxRecnetShipCnt then
 			break
 		end
 

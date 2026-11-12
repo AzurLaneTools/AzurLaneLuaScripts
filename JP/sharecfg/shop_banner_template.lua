@@ -56,13 +56,39 @@ pg.base.shop_banner_template = {}
 (function ()
 	pg.base.shop_banner_template[10] = {
 		name = "banner_big",
-		time = "stop",
 		type = 2,
 		time_lable = 1,
+		pic_overlay = "",
 		pic = "shopbanner/shop_skin",
 		id = 10,
 		relation_param = "",
 		order = 10,
+		time = {
+			{
+				{
+					2026,
+					10,
+					22
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2026,
+					10,
+					28
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
 		param = {
 			"scene skinshop",
 			{}
@@ -72,6 +98,7 @@ pg.base.shop_banner_template = {}
 		name = "banner_big",
 		type = 2,
 		time_lable = 0,
+		pic_overlay = "",
 		pic = "shopbanner/shop_skin2",
 		id = 11,
 		relation_param = "",
@@ -81,7 +108,7 @@ pg.base.shop_banner_template = {}
 				{
 					2026,
 					10,
-					19
+					17
 				},
 				{
 					0,
@@ -111,6 +138,7 @@ pg.base.shop_banner_template = {}
 		name = "banner_big",
 		type = 2,
 		time_lable = 1,
+		pic_overlay = "",
 		pic = "shopbanner/shop_skin3",
 		id = 12,
 		relation_param = "",
@@ -119,8 +147,8 @@ pg.base.shop_banner_template = {}
 			{
 				{
 					2026,
-					6,
-					5
+					11,
+					12
 				},
 				{
 					0,
@@ -131,8 +159,8 @@ pg.base.shop_banner_template = {}
 			{
 				{
 					2026,
-					6,
-					17
+					11,
+					25
 				},
 				{
 					23,
@@ -151,6 +179,7 @@ pg.base.shop_banner_template = {}
 		time = "stop",
 		type = 2,
 		time_lable = 1,
+		pic_overlay = "",
 		pic = "shopbanner/shop_skin4",
 		id = 13,
 		relation_param = "",
@@ -165,6 +194,7 @@ pg.base.shop_banner_template = {}
 		time = "always",
 		type = 2,
 		time_lable = 0,
+		pic_overlay = "",
 		pic = "shopbanner/shop_skin_default",
 		id = 14,
 		relation_param = "",
@@ -178,6 +208,7 @@ pg.base.shop_banner_template = {}
 		name = "banner_middle",
 		type = 2,
 		time_lable = 1,
+		pic_overlay = "",
 		pic = "shopbanner/shop_pack_bg",
 		id = 20,
 		order = 99,
@@ -222,6 +253,7 @@ pg.base.shop_banner_template = {}
 		name = "banner_middle",
 		type = 2,
 		time_lable = 1,
+		pic_overlay = "",
 		pic = "shopbanner/shop_pack_bg",
 		id = 21,
 		order = 98,
@@ -267,6 +299,7 @@ pg.base.shop_banner_template = {}
 		time = "always",
 		type = 2,
 		time_lable = 0,
+		pic_overlay = "",
 		pic = "shopbanner/shop_akashi_recommend",
 		id = 22,
 		relation_param = "",
@@ -282,6 +315,7 @@ pg.base.shop_banner_template = {}
 		name = "banner_middle",
 		type = 2,
 		time_lable = 1,
+		pic_overlay = "",
 		pic = "shopbanner/shop_pack_bg",
 		id = 23,
 		order = 92,
@@ -326,6 +360,7 @@ pg.base.shop_banner_template = {}
 		name = "banner_middle",
 		type = 2,
 		time_lable = 1,
+		pic_overlay = "",
 		pic = "shopbanner/shop_pack_bg",
 		id = 24,
 		order = 91,
@@ -370,6 +405,7 @@ pg.base.shop_banner_template = {}
 		name = "banner_middle",
 		type = 2,
 		time_lable = 1,
+		pic_overlay = "",
 		pic = "shopbanner/shop_pack_bg",
 		id = 25,
 		order = 90,
@@ -415,6 +451,7 @@ pg.base.shop_banner_template = {}
 		time = "always",
 		type = 2,
 		time_lable = 0,
+		pic_overlay = "",
 		pic = "shopbanner/shop_diamond",
 		id = 30,
 		relation_param = "",
@@ -431,6 +468,7 @@ pg.base.shop_banner_template = {}
 		time = "always",
 		type = 2,
 		time_lable = 0,
+		pic_overlay = "",
 		pic = "shopbanner/shop_props",
 		id = 31,
 		relation_param = "",
@@ -448,6 +486,7 @@ pg.base.shop_banner_template = {}
 		time = "stop",
 		type = 2,
 		time_lable = 0,
+		pic_overlay = "",
 		pic = "",
 		id = 40,
 		relation_param = "",
@@ -458,6 +497,7 @@ pg.base.shop_banner_template = {}
 		time = "always",
 		type = 2,
 		time_lable = 0,
+		pic_overlay = "",
 		pic = "shopbanner/shop_item_bg",
 		id = 41,
 		order = 1,
@@ -476,6 +516,7 @@ pg.base.shop_banner_template = {}
 		name = "banner_small3",
 		type = 2,
 		time_lable = 1,
+		pic_overlay = "shopbanner_text/activity",
 		pic = "shopbanner/shop_event_pt",
 		id = 50,
 		relation_param = "",
@@ -518,6 +559,7 @@ pg.base.shop_banner_template = {}
 		time = "always",
 		type = 2,
 		time_lable = 0,
+		pic_overlay = "shopbanner_text/supply",
 		pic = "shopbanner/shop_shopstreet",
 		id = 51,
 		relation_param = "",

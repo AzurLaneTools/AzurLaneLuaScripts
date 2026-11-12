@@ -63,13 +63,13 @@ pg.activity_link_button.get_id_list_by_name = {
 	},
 	event_core = {
 		109,
+		114,
 		116,
 		122
 	},
 	event_core_2 = {
 		110,
 		113,
-		114,
 		115
 	},
 	event_dreamland = {
@@ -447,7 +447,7 @@ pg.base.activity_link_button = {}
 		}
 	}
 	pg.base.activity_link_button[109] = {
-		param = "WindFogCorridorCoreActivityUI",
+		param = "TwoPointFiveCoreActivityUI",
 		name = "event_core",
 		text_pic = "text_event_core",
 		type = 16,
@@ -457,21 +457,21 @@ pg.base.activity_link_button = {}
 		order = 1,
 		time = {
 			"default",
-			51607
+			51301
 		}
 	}
 	pg.base.activity_link_button[110] = {
-		param = "HurricaneTreasureCoreActivityUI",
+		param = "RapidSeasideCoreActivityUI",
 		name = "event_core_2",
 		text_pic = "text_event_core3",
 		type = 16,
 		pic = "event_core3",
 		id = 110,
-		group_id = 1,
-		order = 1,
+		group_id = 2,
+		order = 2,
 		time = {
 			"default",
-			51616
+			51090
 		}
 	}
 	pg.base.activity_link_button[111] = {
@@ -505,26 +505,29 @@ pg.base.activity_link_button = {}
 	pg.base.activity_link_button[113] = {
 		param = "EighthAnniversaryJpCoreActivityUI",
 		name = "event_core_2",
-		time = "stop",
 		text_pic = "text_event_special",
 		type = 16,
 		pic = "event_special",
 		id = 113,
 		group_id = 1,
-		order = 1
+		order = 1,
+		time = {
+			"default",
+			50118
+		}
 	}
 	pg.base.activity_link_button[114] = {
 		param = "WinterFestival2025CoreActivityUI",
-		name = "event_core_2",
-		text_pic = "text_event_blackfriday",
+		name = "event_core",
+		text_pic = "text_event_core3",
 		type = 16,
-		pic = "event_blackfriday",
+		pic = "event_core3",
 		id = 114,
 		group_id = 1,
 		order = 1,
 		time = {
 			"default",
-			7303
+			50298
 		}
 	}
 	pg.base.activity_link_button[115] = {

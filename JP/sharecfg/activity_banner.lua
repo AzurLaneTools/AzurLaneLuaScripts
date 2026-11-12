@@ -55,11 +55,11 @@ pg.activity_banner.get_id_list_by_type = {
 	[2] = {
 		1,
 		2,
+		3,
 		4,
 		5,
 		6,
 		7,
-		8,
 		9,
 		1001,
 		1002,
@@ -91,7 +91,7 @@ pg.activity_banner.get_id_list_by_type = {
 		1064
 	},
 	[3] = {
-		3
+		8
 	},
 	[9] = {
 		90,
@@ -119,13 +119,38 @@ pg.base.activity_banner = {}
 
 (function ()
 	pg.base.activity_banner[1] = {
-		time = "stop",
 		type = 2,
 		id = 1,
 		pic = "temp1",
 		param = {
 			"scene skinshop",
 			{}
+		},
+		time = {
+			{
+				{
+					2026,
+					11,
+					12
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2026,
+					11,
+					25
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
 		}
 	}
 	pg.base.activity_banner[2] = {
@@ -142,16 +167,21 @@ pg.base.activity_banner = {}
 		}
 	}
 	pg.base.activity_banner[3] = {
-		param = "51688",
-		type = 3,
+		type = 2,
 		id = 3,
 		pic = "temp3",
+		param = {
+			"scene charge",
+			{
+				wrap = 4
+			}
+		},
 		time = {
 			{
 				{
 					2026,
 					11,
-					5
+					12
 				},
 				{
 					0,
@@ -163,25 +193,50 @@ pg.base.activity_banner = {}
 				{
 					2026,
 					11,
-					12
+					25
 				},
 				{
-					16,
-					0,
-					0
+					23,
+					59,
+					59
 				}
 			}
 		}
 	}
 	pg.base.activity_banner[4] = {
-		time = "stop",
 		type = 2,
 		id = 4,
 		pic = "temp4",
 		param = {
 			"scene core activity",
 			{
-				coreName = "WindFogCorridorCoreActivityUI"
+				coreName = "TwoPointFiveCoreActivityUI"
+			}
+		},
+		time = {
+			{
+				{
+					2026,
+					11,
+					12
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2026,
+					11,
+					26
+				},
+				{
+					23,
+					59,
+					59
+				}
 			}
 		}
 	}
@@ -198,40 +253,18 @@ pg.base.activity_banner = {}
 		}
 	}
 	pg.base.activity_banner[6] = {
-		time = "stop",
 		type = 2,
 		id = 6,
 		pic = "temp6",
 		param = {
-			"dorm 3d select"
-		}
-	}
-	pg.base.activity_banner[7] = {
-		time = "stop",
-		type = 2,
-		id = 7,
-		pic = "temp7",
-		param = {
 			"scene court yard"
-		}
-	}
-	pg.base.activity_banner[8] = {
-		type = 2,
-		id = 8,
-		pic = "temp8",
-		param = {
-			"scene equip",
-			{
-				designPage = 2,
-				warp = "WARP_TO_DESIGN"
-			}
 		},
 		time = {
 			{
 				{
 					2026,
 					11,
-					5
+					12
 				},
 				{
 					0,
@@ -243,7 +276,52 @@ pg.base.activity_banner = {}
 				{
 					2026,
 					11,
+					25
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	}
+	pg.base.activity_banner[7] = {
+		time = "stop",
+		type = 2,
+		id = 7,
+		pic = "temp7",
+		param = {
+			"scene equip",
+			{
+				designPage = 2,
+				warp = "WARP_TO_DESIGN"
+			}
+		}
+	}
+	pg.base.activity_banner[8] = {
+		param = "51305",
+		type = 3,
+		id = 8,
+		pic = "temp8",
+		time = {
+			{
+				{
+					2026,
+					11,
 					12
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2026,
+					11,
+					24
 				},
 				{
 					16,
@@ -254,40 +332,15 @@ pg.base.activity_banner = {}
 		}
 	}
 	pg.base.activity_banner[9] = {
+		time = "stop",
 		type = 2,
 		id = 9,
 		pic = "temp9",
 		param = {
-			"scene level",
+			"scene equip",
 			{
-				open_remaster = true,
-				isEX = true
-			}
-		},
-		time = {
-			{
-				{
-					2026,
-					11,
-					5
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2026,
-					11,
-					12
-				},
-				{
-					16,
-					0,
-					0
-				}
+				designPage = 2,
+				warp = "WARP_TO_DESIGN"
 			}
 		}
 	}

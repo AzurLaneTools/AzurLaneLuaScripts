@@ -30,6 +30,9 @@ end
 slot0.getResource = function(slot0)
 	return ResPathSupport.MergeLuaArr({
 		"ui/newmainui",
+		"ui/paintingopacityui",
+		"ui/Paintingopacityprogressui",
+		"ui/paintingppacityui_atlas",
 		"commonbg/bg_main_night",
 		"commonbg/bg_main_twilight",
 		"commonbg/bg_main_day",

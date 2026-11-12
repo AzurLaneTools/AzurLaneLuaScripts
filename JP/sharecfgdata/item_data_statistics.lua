@@ -52870,6 +52870,90 @@ _G.pg.base.item_data_statistics[40090] = {
 }
 
 
+_G.pg.base.item_data_statistics[40091] = {
+	open_directly = 1,
+	name = "戦闘UI・天使たちのステージ（単品）",
+	type = 17,
+	display = "購入すると戦闘UI・天使たちのステージ、資金×1000を入手できます",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_drop",
+	display_effect = "OpenBox",
+	link_id = 0,
+	is_world = 0,
+	icon = "ChargeIcon/ui12",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "4091",
+	id = 40091,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			31,
+			211,
+			1
+		},
+		{
+			1,
+			1,
+			1000
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[40092] = {
+	open_directly = 1,
+	name = "戦闘UI・天使たちのステージ（セット）",
+	type = 17,
+	display = "購入すると戦闘UI・天使たちのステージ、ダイヤ×3060を入手できます",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_drop",
+	display_effect = "OpenBox",
+	link_id = 0,
+	is_world = 0,
+	icon = "ChargeIcon/ui12",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "4092",
+	id = 40092,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			31,
+			211,
+			1
+		},
+		{
+			1,
+			14,
+			3060
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	limit = {}
+}
+
+
 _G.pg.base.item_data_statistics[40100] = {
 	open_directly = 1,
 	name = "指輪パック",

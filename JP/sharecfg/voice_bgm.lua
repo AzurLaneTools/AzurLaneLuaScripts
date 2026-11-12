@@ -82,14 +82,14 @@ pg.base.voice_bgm = {}
 		bgm = "main"
 	}
 	pg.base.voice_bgm.LoginScene = {
-		default_bgm = "login",
+		default_bgm = "theme-25ds-az",
 		special_bgm = "",
-		bgm = "login"
+		bgm = "theme-25ds-az"
 	}
 	pg.base.voice_bgm.NewMainScene = {
-		default_bgm = "main",
+		default_bgm = "theme-25ds-az",
 		special_bgm = "",
-		bgm = "main"
+		bgm = "theme-25ds-az"
 	}
 	pg.base.voice_bgm.HoloLiveLinkGameView = {
 		default_bgm = "holo-fff-inst",
@@ -2554,11 +2554,6 @@ end)()
 		special_bgm = "",
 		bgm = "danmachi-3"
 	}
-	pg.base.voice_bgm.AEBCSStoryPage = {
-		default_bgm = "danmachi-3",
-		special_bgm = "",
-		bgm = "danmachi-3"
-	}
 	pg.base.voice_bgm.ClemenceauMainRePage = {
 		default_bgm = "theme-clemenceau",
 		special_bgm = "",
@@ -2709,13 +2704,13 @@ end)()
 		special_bgm = "",
 		bgm = "story-date-light"
 	}
-end)()
-(function ()
 	pg.base.voice_bgm.HelenaUrExchangePage = {
 		default_bgm = "theme-fushun-adventure",
 		special_bgm = "",
 		bgm = "theme-fushun-adventure"
 	}
+end)()
+(function ()
 	pg.base.voice_bgm.WinterFestival2025SkinMagazinePage = {
 		default_bgm = "story-fantasyland-summer",
 		special_bgm = "",
@@ -3211,13 +3206,13 @@ end)()
 		special_bgm = "",
 		bgm = "nier-ruinscity-a-2"
 	}
-end)()
-(function ()
 	pg.base.voice_bgm.NieRAutomataStagePage = {
 		default_bgm = "nier-ruinscity-b-2",
 		special_bgm = "",
 		bgm = "nier-ruinscity-b-2"
 	}
+end)()
+(function ()
 	pg.base.voice_bgm.NieRAutomataOmenPage = {
 		default_bgm = "nier-ruinscity-a-1",
 		special_bgm = "",
@@ -3452,5 +3447,35 @@ end)()
 		default_bgm = "theme-designshipVI",
 		special_bgm = "",
 		bgm = "theme-designshipVI"
+	}
+	pg.base.voice_bgm.TwoPointFiveMainPage = {
+		default_bgm = "theme-25ds-az",
+		special_bgm = "",
+		bgm = "theme-25ds-az"
+	}
+	pg.base.voice_bgm.TwoPointFiveAwardPage = {
+		default_bgm = "story-richang-lightsweet",
+		special_bgm = "",
+		bgm = "story-richang-lightsweet"
+	}
+	pg.base.voice_bgm.TwoPointFiveKillPage = {
+		default_bgm = "theme-25ds-az",
+		special_bgm = "",
+		bgm = "theme-25ds-az"
+	}
+	pg.base.voice_bgm.TwoPointFiveStagePage = {
+		default_bgm = "story-richang-lightsweet",
+		special_bgm = "",
+		bgm = "story-richang-lightsweet"
+	}
+	pg.base.voice_bgm.TwoPointFiveOmenPage = {
+		default_bgm = "theme-25ds-az",
+		special_bgm = "",
+		bgm = "theme-25ds-az"
+	}
+	pg.base.voice_bgm.AEBCSStoryPage = {
+		default_bgm = "story-richang-lightsweet",
+		special_bgm = "",
+		bgm = "story-richang-lightsweet"
 	}
 end)()
