@@ -59,6 +59,7 @@ pg.activity_banner.get_id_list_by_type = {
 		4,
 		5,
 		6,
+		7,
 		9,
 		1001,
 		1002,
@@ -90,7 +91,6 @@ pg.activity_banner.get_id_list_by_type = {
 		1064
 	},
 	[3] = {
-		7,
 		8
 	},
 	[9] = {
@@ -287,34 +287,15 @@ pg.base.activity_banner = {}
 		}
 	}
 	pg.base.activity_banner[7] = {
-		param = "51303",
-		type = 3,
+		time = "stop",
+		type = 2,
 		id = 7,
 		pic = "temp7",
-		time = {
+		param = {
+			"scene equip",
 			{
-				{
-					2026,
-					11,
-					12
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2026,
-					11,
-					25
-				},
-				{
-					23,
-					59,
-					59
-				}
+				designPage = 2,
+				warp = "WARP_TO_DESIGN"
 			}
 		}
 	}

@@ -6,7 +6,7 @@ return {
 	time = 1,
 	picture = "",
 	desc = "",
-	stack = 1,
+	stack = 2,
 	color = "blue",
 	icon = 118020,
 	last_effect = "",
@@ -14,7 +14,8 @@ return {
 		{
 			type = "BattleBuffCastSkill",
 			trigger = {
-				"onAttach"
+				"onAttach",
+				"onStack"
 			},
 			arg_list = {
 				minTargetNumber = 1,
@@ -32,7 +33,8 @@ return {
 		{
 			type = "BattleBuffCastSkill",
 			trigger = {
-				"onAttach"
+				"onAttach",
+				"onStack"
 			},
 			arg_list = {
 				minTargetNumber = 1,
@@ -50,7 +52,8 @@ return {
 		{
 			type = "BattleBuffCastSkill",
 			trigger = {
-				"onAttach"
+				"onAttach",
+				"onStack"
 			},
 			arg_list = {
 				minTargetNumber = 1,
@@ -68,7 +71,8 @@ return {
 		{
 			type = "BattleBuffCastSkill",
 			trigger = {
-				"onAttach"
+				"onAttach",
+				"onStack"
 			},
 			arg_list = {
 				minTargetNumber = 1,
@@ -86,7 +90,8 @@ return {
 		{
 			type = "BattleBuffCastSkill",
 			trigger = {
-				"onAttach"
+				"onAttach",
+				"onStack"
 			},
 			arg_list = {
 				minTargetNumber = 1,
@@ -104,7 +109,8 @@ return {
 		{
 			type = "BattleBuffCastSkill",
 			trigger = {
-				"onAttach"
+				"onAttach",
+				"onStack"
 			},
 			arg_list = {
 				minTargetNumber = 1,
@@ -122,7 +128,8 @@ return {
 		{
 			type = "BattleBuffCastSkill",
 			trigger = {
-				"onAttach"
+				"onAttach",
+				"onStack"
 			},
 			arg_list = {
 				minTargetNumber = 1,

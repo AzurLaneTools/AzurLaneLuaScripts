@@ -194,11 +194,11 @@ slot0.OnGetCount = function(slot0, slot1)
 end
 
 slot0.ShowSitePage = function(slot0)
-	slot1 = slot0.showDataList[2].config.drop_id
+	slot1 = slot0.showDataList[1].config.drop_id
 	slot2 = slot0.bg_1:Find("Role_left")
 	slot7 = Drop.New({
-		type = slot0.showDataList[2].config.type,
-		id = slot0.showDataList[2].config.drop_id
+		type = slot0.showDataList[1].config.type,
+		id = slot0.showDataList[1].config.drop_id
 	})
 	slot8 = slot7:getName()
 	slot11 = tobool(getProxy(CollectionProxy):getShipGroup(pg.ship_data_template[slot7.id].group_type))
@@ -209,10 +209,10 @@ slot0.ShowSitePage = function(slot0)
 	setScrollText(slot2:Find("name_bg/mask/name"), i18n(uv0.roleName1))
 
 	slot12 = slot0.bg_1:Find("Role_right")
-	slot17 = slot0.showDataList[1].config.drop_id
+	slot17 = slot0.showDataList[2].config.drop_id
 	slot18 = Drop.New({
-		type = slot0.showDataList[1].config.type,
-		id = slot0.showDataList[1].config.drop_id
+		type = slot0.showDataList[2].config.type,
+		id = slot0.showDataList[2].config.drop_id
 	})
 	slot19 = slot18:getName()
 	slot22 = tobool(getProxy(CollectionProxy):getShipGroup(pg.ship_data_template[slot18.id].group_type))

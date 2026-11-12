@@ -103,6 +103,28 @@ slot0.OnUpdateFlush = function(slot0)
 	if slot0.taskWindow:isShowing() then
 		slot0.taskWindow:ExecuteAction("Show", slot0.activity)
 	end
+
+	slot0:PlayStory()
+end
+
+slot0.PlayStory = function(slot0)
+	if not checkExist(slot0.activity:getConfig("config_client").story, {
+		3
+	}, {
+		1
+	}) or slot0.nday < slot1 then
+		return
+	end
+
+	for slot7, slot8 in ipairs(slot0.taskGroup[slot1]) do
+		if not slot0:isTaskFinished(slot8) then
+			return
+		end
+	end
+
+	if not pg.NewStoryMgr.GetInstance():IsPlayed(slot3) then
+		slot4:Play(slot3)
+	end
 end
 
 slot0.getTaskIdx = function(slot0, slot1)
