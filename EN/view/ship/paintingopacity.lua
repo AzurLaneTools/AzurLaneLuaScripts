@@ -18,6 +18,7 @@ slot0.Ctor = function(slot0, slot1)
 	end, uv0, -1)
 
 	slot0.timer:Start()
+	slot0:SetVisible(false)
 end
 
 slot0.step = function(slot0)
@@ -99,7 +100,6 @@ slot0.SetPaintingAlphaTween = function(slot0, slot1, slot2, slot3)
 	print("set painting alpha tween value = " .. slot1 .. " time = " .. slot2)
 
 	slot0._delayCallback = slot3
-	slot0._delayCallbackTime = slot2
 	slot4 = 0
 
 	slot0:ClearAlphaTween()
@@ -122,12 +122,18 @@ slot0.SetPaintingAlphaTween = function(slot0, slot1, slot2, slot3)
 end
 
 slot0.SetPaitningAlphaContent = function(slot0)
+	if not slot0:GetVisible() then
+		slot0:SetVisible(true)
+	end
+
 	if not IsNil(slot0._paintingTF) and not IsNil(slot0._paintingContent) then
 		SetParent(slot0._paintingTF, slot0._paintingContent, false)
 	end
 end
 
 slot0.RevertPaintingContent = function(slot0)
+	print("revert content")
+
 	if not IsNil(slot0._paintingTF) and not IsNil(slot0._paintingPreParent) then
 		SetParent(slot0._paintingTF, slot0._paintingPreParent, false)
 	end
@@ -160,10 +166,10 @@ slot0.SetMeshPaintingFillter = function(slot0, slot1)
 	slot2.Tween = 1
 end
 
-slot0.SetMeshPainting = function(slot0, slot1)
+slot0.SetMeshPainting = function(slot0, slot1, slot2)
 	if slot1 then
 		slot0._paintingTF = slot1
-		slot0._paintingPreParent = slot1.parent
+		slot0._paintingPreParent = slot2
 		slot0._paintingContent = slot0._meshContent
 
 		SetParent(slot1, slot0._meshContent, false)
@@ -172,14 +178,10 @@ slot0.SetMeshPainting = function(slot0, slot1)
 	slot0:SetRawImageAlpha(1)
 end
 
-slot0.SetSpinePainting = function(slot0, slot1)
+slot0.SetSpinePainting = function(slot0, slot1, slot2)
 	if slot1 then
 		slot0._paintingTF = slot1
-
-		if slot1.parent then
-			slot0._paintingPreParent = slot1.parent
-		end
-
+		slot0._paintingPreParent = slot2
 		slot0._paintingContent = slot0._spineContent
 
 		SetParent(slot1, slot0._spineContent, false)
@@ -188,14 +190,10 @@ slot0.SetSpinePainting = function(slot0, slot1)
 	slot0:SetRawImageAlpha(1)
 end
 
-slot0.SetLive2DPainting = function(slot0, slot1)
+slot0.SetLive2DPainting = function(slot0, slot1, slot2)
 	if slot1 then
 		slot0._paintingTF = slot1
-
-		if slot1.parent then
-			slot0._paintingPreParent = slot1.parent
-		end
-
+		slot0._paintingPreParent = slot2
 		slot0._paintingContent = slot0._live2dContent
 
 		SetParent(slot1, slot0._live2dContent, false)
@@ -219,6 +217,23 @@ end
 
 slot0.GetCanvasTF = function(slot0)
 	return slot0._canvasTF
+end
+
+slot0.SetVisible = function(slot0, slot1)
+	if IsNil(slot0._go) then
+		return
+	end
+
+	setActive(slot0._go, slot1)
+	slot0:SetRawImageAlpha(slot1 and 1 or 0)
+end
+
+slot0.GetVisible = function(slot0)
+	if IsNil(slot0._go) then
+		return false
+	end
+
+	return isActive(slot0._go)
 end
 
 slot0.Dispose = function(slot0)

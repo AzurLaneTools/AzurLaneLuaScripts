@@ -479,7 +479,10 @@ pg.ship_skin_words_extra.all = {
 	404010,
 	405010,
 	408040,
-	101480
+	101480,
+	11800010,
+	11800020,
+	408060
 }
 pg.base = pg.base or {}
 pg.base.ship_skin_words_extra = {}
@@ -12990,7 +12993,6 @@ end)()
 		feeling4 = "",
 		feeling1 = "",
 		hp_warning = "",
-		feeling5 = "",
 		main = "",
 		profile = "",
 		mission_complete = "",
@@ -13029,7 +13031,7 @@ end)()
 		main_extra = {
 			{
 				1100,
-				"Thwap. ...Oh, I didn't need anything from you. I just felt like giving you a good smack over the head with a fan for no reason. Heehee, no harm no foul, right?"
+				"Thwap. ...Oh, I didn't need anything from you. I just felt like giving you a good smack over the head with a fan for no reason. Heehee, no harm no foul, right?|That tofu dish you made for me yesterday was refreshing and seriously delicious. As a way of saying thanks, let me cook for you as well. I promise it'll be a novel culinary experience~♪|Heehee~ Now then, it's just the two of us in the office, Commander~♪ Shall we have a more open, stimulating conversation that only we can have?"
 			}
 		},
 		touch = {
@@ -13042,6 +13044,12 @@ end)()
 			{
 				1100,
 				"Ooh? Commander, you're gutsier than I gave you credit for."
+			}
+		},
+		feeling5 = {
+			{
+				1100,
+				"Shhh~ Wanna sneak out and grab some delicious food without telling anyone else? I mean, it's not like there's any end to your work anyway, so why not take some time off here and there? Just treat it as a little reward for yourself~♪"
 			}
 		}
 	}
@@ -33543,6 +33551,230 @@ end)()
 			{
 				1100,
 				"Lately, just being with you makes ideas flash in my mind like lightning strikes... And so, I think we need to spend even more time together!"
+			}
+		}
+	}
+	pg.base.ship_skin_words_extra[11800010] = {
+		touch = "",
+		feeling3 = "",
+		upgrade = "",
+		expedition = "",
+		id = 11800010,
+		skill = "",
+		unlock = "",
+		mail = "",
+		lose = "",
+		feeling4 = "",
+		feeling1 = "",
+		hp_warning = "",
+		main = "",
+		profile = "",
+		headtouch = "",
+		feeling2 = "",
+		login = {
+			{
+				1100,
+				"Commander! I'm looking forward to working with you today!"
+			}
+		},
+		win_mvp = {
+			{
+				1100,
+				"This victory belongs to all of us!"
+			}
+		},
+		home = {
+			{
+				1100,
+				"Good job, Commander! Phew, I'm glad I was the first one to welcome you back!"
+			}
+		},
+		battle = {
+			{
+				1100,
+				"Let's set sail towards victory, everyone!"
+			}
+		},
+		detail = {
+			{
+				1100,
+				"I'm so glad I can be in a world where I get to live as Liliel, the character I've always aspired to!"
+			}
+		},
+		main_extra = {
+			{
+				1100,
+				"Look in any direction, and there are beautiful girls EVERYWHERE! It's already a dream come true – and they dress with such style too! Is this heaven?!|Is there anything I'd like to eat, you ask? ...Um, I've always wanted to try real military rations! Food from dystopian worlds sounds pretty tempting, too...|Since I'm in a place filled to the brim with powerful people, maybe I should ask around for some training tips. Wanna come with me, Commander?"
+			}
+		},
+		mission = {
+			{
+				1100,
+				"Let's use my special powers to get rid of the remaining paperwork, like zap, zip, pow..."
+			}
+		},
+		mission_complete = {
+			{
+				1100,
+				"Finally done with work. Liliel will reward you with a headpat!"
+			}
+		},
+		touch2 = {
+			{
+				1100,
+				"If you want to see me in a different outfit, just let me know!"
+			}
+		},
+		feeling5 = {
+			{
+				1100,
+				"So many people here are protecting me... and that includes you, too. When I think about that, I'm certain that everything I've done up to this point has not been a mistake! I know I can use these feelings to find strength and help everyone!"
+			}
+		}
+	}
+	pg.base.ship_skin_words_extra[11800020] = {
+		touch = "",
+		feeling3 = "",
+		upgrade = "",
+		expedition = "",
+		id = 11800020,
+		skill = "",
+		unlock = "",
+		mail = "",
+		lose = "",
+		feeling4 = "",
+		feeling1 = "",
+		hp_warning = "",
+		main = "",
+		profile = "",
+		headtouch = "",
+		feeling2 = "",
+		login = {
+			{
+				1100,
+				"M-morning... I-I wasn't waiting for you or anything!"
+			}
+		},
+		win_mvp = {
+			{
+				1100,
+				"So, what'd you think? I put on a pretty good show back there, right?"
+			}
+		},
+		home = {
+			{
+				1100,
+				"Ah, you're back. I-I didn't miss you or anything."
+			}
+		},
+		battle = {
+			{
+				1100,
+				"Coming! Miriella to the rescue!"
+			}
+		},
+		detail = {
+			{
+				1100,
+				"Heheh, if you like it so much, I wouldn't mind striking a pose for you... But it's a special one-time offer, you hear?!"
+			}
+		},
+		main_extra = {
+			{
+				1100,
+				"Everyone here is so beautiful, and they cut some incredible figures. I'd be incredibly happy to call them my friends, but if I was to find a rival in a place like this... It'll be a tough competition, for sure.|I'd like to put together a whole look from head to toe, but I'm not quite up to speed with the trends over here. Think there's anyone I could consult?|I don't like half measures. So I'm going all out and seeing all the sights there's to see! And I'm counting on you to escort me the whole way!"
+			}
+		},
+		mission = {
+			{
+				1100,
+				"There's still work to do... But if you really need help, I wouldn't mind lending a hand."
+			}
+		},
+		mission_complete = {
+			{
+				1100,
+				"Gosh! You need to get better about cleaning up! I'll help you!"
+			}
+		},
+		touch2 = {
+			{
+				1100,
+				"Gosh, you know I'm a little jumpy! You really need to give me some warning next time!"
+			}
+		},
+		feeling5 = {
+			{
+				1100,
+				"Just being there for each other, even in silence... Having someone like that is such a precious thing. It really gives me courage when I need it the most. I'm telling you... I'll hold your hand so tight that we never come apart."
+			}
+		}
+	}
+	pg.base.ship_skin_words_extra[408060] = {
+		feeling3 = "",
+		win_mvp = "",
+		upgrade = "",
+		expedition = "",
+		mission = "",
+		id = 408060,
+		skill = "",
+		unlock = "",
+		mail = "",
+		lose = "",
+		feeling4 = "",
+		feeling1 = "",
+		hp_warning = "",
+		main = "",
+		profile = "",
+		mission_complete = "",
+		feeling2 = "",
+		battle = "",
+		login = {
+			{
+				1100,
+				"Commander, I'm here to pick you up! I warmed up Great Shark's back seat so your butt won't get cold... Ehehe~"
+			}
+		},
+		home = {
+			{
+				1100,
+				"Good job out there! Wanna hop on Great Shark and go for a ride? The sea breeze will blow away all your worries and fatigue!"
+			}
+		},
+		headtouch = {
+			{
+				1100,
+				"Ehehe~ Your hand sure is warm, Commander... O-oh no, did I start grinning like a dork? P-please don't tell the others!"
+			}
+		},
+		detail = {
+			{
+				1100,
+				"I'm definitely going to take first place in the next Submarine Speed-off! Then, I'm going to put the trophy right here in your office. Ehehe~♪"
+			}
+		},
+		main_extra = {
+			{
+				1100,
+				"Hey Commander... Don't you think it'd be fun if we took Great Shark and went all around the world?|I just finished Great Shark's maintenance. See, he's all sparkly clean, right? Heehee, it's just like getting all dolled up before a date– Ah, err, that's not what I meant! It's more like carefully getting ready for a battle!|Commander, what kind of music would you like to listen to today? I've got a brand new playlist I'd like you to try! Here, let's share earbuds~♪"
+			}
+		},
+		touch = {
+			{
+				1100,
+				"Commander, hurry up and hop on! And make sure not to take your hands off my waist unless I say so, got it?"
+			}
+		},
+		touch2 = {
+			{
+				1100,
+				"C-Commander! We're going too fast!"
+			}
+		},
+		feeling5 = {
+			{
+				1100,
+				"Recently, just hearing the sounds of the engine makes me remember the feeling of you sitting right there behind me... Ugh, if I keep thinking about it any longer, I'm seriously going to go crazy..."
 			}
 		}
 	}

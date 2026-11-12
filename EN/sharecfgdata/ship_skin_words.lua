@@ -66670,7 +66670,7 @@ _G.pg.base.ship_skin_words[408060] = {
 	gift_prefer = "Woow... You're a nice person, Commander!",
 	profile = "I'm U-101, one of the Iron Blood's 7th U-Boat Flotilla. I took part in four wolfpack operations. You could say that disrupting the enemy supply lines is my specialty - I even received a Knight's Cross! My hobby is going on long rides with Great Shark. Commander, wanna come with me?",
 	voice_key = 40806,
-	headtouch = "",
+	headtouch = "Commander? Is this some method to get me motivated before a sortie?",
 	feeling2 = "When I put in my headphones and rev the engines, I can outrun all my worries. Lemme tell you, Commander, it's one hell of a feeling.",
 	login = "Commander, just hit me up next time and I'll give you a ride, okay?",
 	detail = "You know about those Union girls who call themselves \"Solomon Knights\" or something? Well, it has a nice ring to it... All righty, Commander, I'm an \"Undersea Knight\" from now on, got it?",
@@ -105921,6 +105921,172 @@ _G.pg.base.ship_skin_words[11700021] = {
 	feeling2 = "",
 	login = "Commander... I recommend you take today off as well.",
 	detail = "All mechanical devices require proper maintenance for stable operation, and androids are no exception. In other words, I am requesting maintenance.",
+	couple_encourage = {}
+}
+
+
+_G.pg.base.ship_skin_words[11800010] = {
+	hp_warning = "I'm not going to give up now!",
+	feeling3 = "Someone told me about this really chic store. Wanna go see it together, Commander?",
+	mail = "Commander, you've got mail! Isn't it great getting an earnest, heartfelt letter?",
+	expedition = "You're all so amazing for taking care of your commissions like that! I need to step up my game as well!",
+	win_mvp = "We did it!",
+	home = "You did great out there, Commander! I know you're busy and all, but why don't you rest up for now?",
+	unlock = "N-nice to meet you! I am Liliel, an angel who descended from the heavens to safeguard you! Wait, huh? Now that I think about it, where are we? This all looks so new to me... and more importantly, who are you?",
+	touch2 = "Th-that sort of stuff is... really embarrassing...",
+	mission = "You still have more work to do? Wow, it really is a pile of paperwork, just like in those novels!",
+	vote = "",
+	drop_descrip = "Light aircraft carrier – Liliel Angel Paratroopers/Ririsa",
+	feeling4 = "What do you normally like to do in your spare time, Commander? I really want to know more about your hobbies!",
+	lose = "Sometimes, you have to make a strategic retreat for the sake of victory!",
+	feeling1 = "S-sorry... There's another costume that I've been wanting to try on. Can we talk later?",
+	skill = "Your cheers become my strength!",
+	upgrade = "So this is a level-up! Wow, I never knew this is what it felt like...",
+	propose = "Someone like me could never– I mean, um, the only reason I'm able to be myself right now is because of you, Commander! Though I still have much to learn, I want to continue to give it my all to the things I love, so please continue to give me your support!",
+	feeling5 = "The way you show your confidence when it comes to your work is super cool. Even if someone were to call you weird, you'd blow right past that because you're not going to let that stop you from doing what you want. That's why I think you're really awesome, Commander!",
+	main = "If I want to be able to fight like everyone else here, I'm going to need to go through my own \"training arc\"! I mean, that's just how these things work!|Blue skies, white clouds, a vast ocean, and buildings that look like they came straight from a storybook... I bet you could take amazing photos just about anywhere here!|The clothes sold here all feel super-unique, like something a heroic protagonist would wear. I wonder if I can pull off that look...",
+	touch = "Yes! Did you need something? I'm glad to help any time!",
+	voice_key_2 = -1,
+	mission_complete = "The mission rewards are here! It's proof of all the hard work you've put in!",
+	battle = "Let's put our best foot forward!",
+	id = 11800010,
+	gift_dislike = "",
+	gift_prefer = "Woow, what an amazing gift! Thank you so much!",
+	profile = "Angel Liliel, descending from Heaven as a member of the Angel Paratroopers! I will use my newfound powers to their fullest to protect you! If you have any problems, no matter how big or small, you can always come to me~♪",
+	voice_key = 1180001,
+	headtouch = "Oh, did my outfit catch your eye? Then, Commander, how would you rate it?",
+	feeling2 = "Commander, how should we pass the time today? Don't tell me... you have some super-secret training session planned?!",
+	login = "Good morning, Commander!",
+	detail = "Sailing the blue seas in a brand new suit of armor... Isn't that just the coolest thing ever?!",
+	couple_encourage = {
+		{
+			{
+				1180002
+			},
+			1,
+			" Appreciate the backup, Miriella!",
+			0
+		}
+	}
+}
+
+
+_G.pg.base.ship_skin_words[11800011] = {
+	hp_warning = "",
+	feeling3 = "",
+	mail = "",
+	expedition = "",
+	win_mvp = "",
+	home = "Welcome back, Master! Teehee~ How's that for a maid-style greeting? Huh? You were totally expecting it?!",
+	unlock = "The costume change sequence is what really makes your heart thump, huh? Ah, ahem! I am the angel Liliel, and I've awakened to a new power! Now I'm a true member of the port! I'll do my utmost to support you! Let's do this together~♡",
+	touch2 = "I wonder... if this outfit is to your liking? It's somewhat maid-like, but... it also seems a bit more than just that...",
+	mission = "",
+	vote = "",
+	drop_descrip = "The costume change sequence is what really makes your heart thump, huh? Ah, ahem! I am the angel Liliel, and I've awakened to a new power! Now I'm a true member of the port! I'll do my utmost to support you! Let's do this together~♡",
+	feeling4 = "",
+	lose = "",
+	feeling1 = "",
+	skill = "",
+	upgrade = "",
+	propose = "",
+	feeling5 = "",
+	main = "While I'm wearing this outfit, I don't think people would be able to pick me apart from any of the other girls here. What do you think, Commander? ...Huh? You'd be able to tell at a glance? That's our Commander!|Speaking of maid service, what would you like me to do for you, Commander? ...Huh? Just handling chores is good enough?|Say, Commander, what's your favorite thing about Miss Cheshire? It's gotta be her unwavering devotion, right? ...Okay! I'll try to do my best in that department as well!",
+	touch = "Thank you for your patience, Master! Now then, what can Liliel do for you?",
+	voice_key_2 = -1,
+	mission_complete = "",
+	battle = "",
+	id = 11800011,
+	gift_dislike = "",
+	gift_prefer = "",
+	profile = "",
+	voice_key = 0,
+	headtouch = "The headband is an essential piece of equipment for a maid. Wouldn't you agree, Commander?",
+	feeling2 = "",
+	login = "Master, I've been waiting for you! Allow me to serve you to the best of my abilities today~♪",
+	detail = "If I stood next to Miss Cheshire in this outfit, do you think people would mistake us for sisters?",
+	couple_encourage = {}
+}
+
+
+_G.pg.base.ship_skin_words[11800020] = {
+	hp_warning = "Hmph! We're just getting started!",
+	feeling3 = "Commander, what do you find cute about me? Heehee, I wonder if you can come up with a right answer to that question~?",
+	mail = "You have mail. Want me to read it out for you?",
+	expedition = "The commission team is back. Come on, let's go welcome them!",
+	win_mvp = "Heh, I won't lose, now or ever!",
+	home = "Okay, that's enough work for today... Or maybe not? Are you gonna keep going?",
+	unlock = "What in the world is happening? Wait, where am I?! Hm... I don't know how, but it looks like you're not out to get me. Okay! Ahem! My name is Miriella! It seems like we'll be stuck together for a while, so let me know if there's anything I can do to help!",
+	touch2 = "Wh-where do you think you're touching?!",
+	mission = "Gosh, what do you think you're doing, leaving work incomplete like that?! You big dummy!",
+	vote = "",
+	drop_descrip = "Light cruiser – Miriella Angel Paratroopers/Mikari",
+	feeling4 = "Hm, having you next to me is not that bad. It's actually sorta soothing... I wonder why?",
+	lose = "Not bad... I'll have to pull back for now!",
+	feeling1 = "I personally don't mind, but it's normally considered rude to stare at a girl, you know?",
+	skill = "Ready? I'll show you something you won't forget!",
+	upgrade = "I can feel power welling up... So this is what it means to get stronger!",
+	propose = "I think I understand how difficult it is to become someone dear to others. I've been on the receiving end of people's admiration for so long, after all. As for now... Yeah, I'll be right by you for as long as I'm here.",
+	feeling5 = "If I want to get what I'm after, I can't stay like this. I'll need to change when the time calls for it. I won't know when until the moment comes... But I'm ready to face anything!",
+	main = "So, how do people here usually spend their free time? Is it all studying and training? Or should I be resting to get ready for the next sortie?|Everyone at the port has such a great figure... How in the world do they do it?!|There are so many kinds of people here. There has to be someone who's into cosplay like me out there... Just gotta go find 'em myself!",
+	touch = "What's wrong? You're tired? You can lean on me and take a breather, you know?",
+	voice_key_2 = -1,
+	mission_complete = "You're just going to walk off after finishing your work? How carefree...",
+	battle = "Come on, keep dragging your feet and I'll leave you behind!",
+	id = 11800020,
+	gift_dislike = "",
+	gift_prefer = "Huh? For me? Hm... Oh no, it's nothing! Thanks, I love it!",
+	profile = "I'm the angel Miriella... Heh, it's still a little embarrassing to call myself that. But, I'm really flying around and doing stuff as part of the Angel Paratroopers. I just hope I'm managing to pull my weight...",
+	voice_key = 1180002,
+	headtouch = "You're curious about my outfit? I-I guess I could make an exception and let you touch it! As a treat! I'll be really mad if you damage anything, though!",
+	feeling2 = "I'm cute? Yeah, I know. Guess I'm used to hearing that... But thanks anyway!",
+	login = "Good morning, Commander. What's on the schedule today?",
+	detail = "Hey, Commander. How does my outfit look, by this world's standards? ...It looks perfectly fine? Good...",
+	couple_encourage = {
+		{
+			{
+				1180001
+			},
+			1,
+			" Liliel! You're not out of juice yet, are you?",
+			0
+		}
+	}
+}
+
+
+_G.pg.base.ship_skin_words[11800021] = {
+	hp_warning = "",
+	feeling3 = "",
+	mail = "",
+	expedition = "",
+	win_mvp = "",
+	home = "Surprised to see me like this, Commander?",
+	unlock = "Guten tag, Commander. I am on a whole new power level now! There's no enemy that can stand before Super Miriella! ...Did I get the delivery right? In any case, how's my new look? I think it fits me pretty well, but I'd like to hear your opinion.",
+	touch2 = "Gosh! Do you want a reward that badly?",
+	mission = "",
+	vote = "",
+	drop_descrip = "Guten tag, Commander. I am on a whole new power level now! There's no enemy that can stand before Super Miriella! ...Did I get the delivery right? In any case, how's my new look? I think it fits me pretty well, but I'd like to hear your opinion.",
+	feeling4 = "",
+	lose = "",
+	feeling1 = "",
+	skill = "",
+	upgrade = "",
+	propose = "",
+	feeling5 = "",
+	main = "So this is a more traditional getup at the port? It's a pretty unique experience for me, at least. How do I look, Commander?|The original model for this outfit was really refined and stylish... and yet so alluring. I've got a lot to live up to!|Heheh, do you like me in this outfit too? If there's anything else you'd like me to try on, I could consider it... I mean, if it's you making a personal request...",
+	touch = "You're curious about the outfit? I can show you... Wait, too close!",
+	voice_key_2 = -1,
+	mission_complete = "",
+	battle = "",
+	id = 11800021,
+	gift_dislike = "",
+	gift_prefer = "",
+	profile = "",
+	voice_key = 0,
+	headtouch = "Hmph... Imagine touching a girl's hair all casual like that... Don't blame me if you get what's coming!",
+	feeling2 = "",
+	login = "Hehe, good morning. Now then, how shall I shower you with affection today?",
+	detail = "A lucky ship, huh? Well, you could say I'm pretty lucky to don the mantle of a ship with a reputation like that!",
 	couple_encourage = {}
 }
 

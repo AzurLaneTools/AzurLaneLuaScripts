@@ -110,6 +110,10 @@ slot0.getResource = function(slot0)
 				end
 			end
 
+			if noEmptyStr(slot22.pic_overlay) then
+				table.insert(slot8, slot22.pic_overlay)
+			end
+
 			if slot22.relation_param ~= "" then
 				slot23 = slot22.relation_param[1]
 				slot25 = slot7[slot23][slot22.relation_param[2]]
@@ -301,9 +305,17 @@ slot0.SetPanel = function(slot0)
 	for slot4, slot5 in pairs(slot0.banners) do
 		for slot9, slot10 in ipairs(slot0.bnIds[slot4]) do
 			slot11 = slot0:GetBannerConfig(slot10)
-			slot12 = slot5:AddChild()
 
-			GetImageSpriteFromAtlasAsync(slot11.pic, "", slot12:Find("picture"))
+			GetImageSpriteFromAtlasAsync(slot11.pic, "", slot5:AddChild():Find("picture"))
+
+			slot13 = slot11.pic_overlay ~= ""
+
+			setActive(slot12:Find("picture/overlay"), slot13)
+
+			if slot13 then
+				GetImageSpriteFromAtlasAsync(slot11.pic_overlay, "", slot12:Find("picture/overlay"), true)
+			end
+
 			setActive(slot12:Find("detail"), slot11.relation_param ~= "")
 			setActive(slot12:Find("time"), slot11.time_lable == 1)
 
@@ -313,115 +325,115 @@ slot0.SetPanel = function(slot0)
 			end
 
 			if slot11.relation_param ~= "" then
-				slot15 = slot0.commodities[slot11.relation_param[1]][slot11.relation_param[2]]
+				slot16 = slot0.commodities[slot11.relation_param[1]][slot11.relation_param[2]]
 
-				if slot4 == "banner_small2" and slot13 == 1 and slot15:isMonthCard() then
+				if slot4 == "banner_small2" and slot14 == 1 and slot16:isMonthCard() then
 					setActive(slot12:Find("detail"), false)
 					setActive(slot12:Find("monthCard"), true)
-					setText(slot12:Find("monthCard/name"), slot15:getConfig("name_display"))
-					GetImageSpriteFromAtlasAsync("chargeicon/" .. slot15:getConfig("picture"), "", slot12:Find("monthCard/icon"))
-					setText(slot12:Find("monthCard/get"), i18n("shop_new_get_now", slot15:GetGemCnt()))
+					setText(slot12:Find("monthCard/name"), slot16:getConfig("name_display"))
+					GetImageSpriteFromAtlasAsync("chargeicon/" .. slot16:getConfig("picture"), "", slot12:Find("monthCard/icon"))
+					setText(slot12:Find("monthCard/get"), i18n("shop_new_get_now", slot16:GetGemCnt()))
 
-					slot16 = slot15:GetDropList()
+					slot17 = slot16:GetDropList()
 
-					while #slot16 > 3 do
-						table.remove(slot16, #slot16)
+					while #slot17 > 3 do
+						table.remove(slot17, #slot17)
 					end
 
-					slot17 = UIItemList.New(slot12:Find("monthCard/items"), slot12:Find("monthCard/items/item"))
+					slot18 = UIItemList.New(slot12:Find("monthCard/items"), slot12:Find("monthCard/items/item"))
 
-					slot17:make(function (slot0, slot1, slot2)
+					slot18:make(function (slot0, slot1, slot2)
 						if slot0 == UIItemList.EventUpdate then
 							updateDrop(slot2:Find("mask/item"), uv0[slot1 + 1])
 						end
 					end)
-					slot17:align(#slot16)
+					slot18:align(#slot17)
 
-					slot19 = slot15:isFree()
+					slot20 = slot16:isFree()
 
 					setText(slot12:Find("monthCard/consume/icon_rmb"), GetMoneySymbol())
-					setActive(slot12:Find("monthCard/consume/icon_rmb"), slot13 == 1 and not (slot13 == 1 and slot15:getShowType() ~= ""))
+					setActive(slot12:Find("monthCard/consume/icon_rmb"), slot14 == 1 and not (slot14 == 1 and slot16:getShowType() ~= ""))
 
-					if PLATFORM_CODE == PLATFORM_CHT and slot15:IsLocalPrice() then
+					if PLATFORM_CODE == PLATFORM_CHT and slot16:IsLocalPrice() then
 						setActive(slot12:Find("monthCard/consume/icon_rmb"), false)
 					end
 
-					setActive(slot12:Find("monthCard/consume/icon_gem"), slot13 ~= 1 and not slot19)
-					setActive(slot12:Find("monthCard/consume/Text"), not slot19 and not slot18)
+					setActive(slot12:Find("monthCard/consume/icon_gem"), slot14 ~= 1 and not slot20)
+					setActive(slot12:Find("monthCard/consume/Text"), not slot20 and not slot19)
 
-					if slot13 == 1 then
-						setText(slot12:Find("monthCard/consume/Text"), slot15:getConfig("money"))
-					elseif slot13 == 2 then
-						setText(slot12:Find("monthCard/consume/Text"), slot15:GetPrice())
+					if slot14 == 1 then
+						setText(slot12:Find("monthCard/consume/Text"), slot16:getConfig("money"))
+					elseif slot14 == 2 then
+						setText(slot12:Find("monthCard/consume/Text"), slot16:GetPrice())
 					end
 
-					setActive(slot12:Find("monthCard/consume/FreeText"), slot19)
+					setActive(slot12:Find("monthCard/consume/FreeText"), slot20)
 					setText(slot12:Find("monthCard/consume/FreeText"), i18n("shop_free_tag"))
 
-					slot22 = getProxy(PlayerProxy):getRawData():getCardById(VipCard.MONTH) and slot21:GetLeftDay() > (slot15:getConfig("limit_arg") or 0)
+					slot23 = getProxy(PlayerProxy):getRawData():getCardById(VipCard.MONTH) and slot22:GetLeftDay() > (slot16:getConfig("limit_arg") or 0)
 
-					setActive(slot12:Find("monthCardhave"), slot22)
+					setActive(slot12:Find("monthCardhave"), slot23)
 
-					if slot22 then
-						setText(slot12:Find("monthCardhave/Text"), i18n("shop_new_remaining_time", slot21:GetLeftDay()))
+					if slot23 then
+						setText(slot12:Find("monthCardhave/Text"), i18n("shop_new_remaining_time", slot22:GetLeftDay()))
 					end
 				else
-					if slot13 == 1 then
-						setText(slot12:Find("detail/name"), slot15:getConfig("name_display"))
-						GetImageSpriteFromAtlasAsync("chargeicon/" .. slot15:getConfig("picture"), "", slot12:Find("detail/icon"))
-					elseif slot13 == 2 then
-						setText(slot12:Find("detail/name"), slot15:GetName())
-						GetImageSpriteFromAtlasAsync(slot15:getDropInfo():getIcon(), "", slot12:Find("detail/icon"))
+					if slot14 == 1 then
+						setText(slot12:Find("detail/name"), slot16:getConfig("name_display"))
+						GetImageSpriteFromAtlasAsync("chargeicon/" .. slot16:getConfig("picture"), "", slot12:Find("detail/icon"))
+					elseif slot14 == 2 then
+						setText(slot12:Find("detail/name"), slot16:GetName())
+						GetImageSpriteFromAtlasAsync(slot16:getDropInfo():getIcon(), "", slot12:Find("detail/icon"))
 					end
 
-					slot16 = slot15:GetDropList()
+					slot17 = slot16:GetDropList()
 
-					while #slot16 > 3 do
-						table.remove(slot16, #slot16)
+					while #slot17 > 3 do
+						table.remove(slot17, #slot17)
 					end
 
-					slot17 = UIItemList.New(slot12:Find("detail/items"), slot12:Find("detail/items/item"))
+					slot18 = UIItemList.New(slot12:Find("detail/items"), slot12:Find("detail/items/item"))
 
-					slot17:make(function (slot0, slot1, slot2)
+					slot18:make(function (slot0, slot1, slot2)
 						if slot0 == UIItemList.EventUpdate then
 							updateDrop(slot2:Find("mask/item"), uv0[slot1 + 1])
 						end
 					end)
-					slot17:align(#slot16)
+					slot18:align(#slot17)
 
-					slot19 = slot15:isFree()
+					slot20 = slot16:isFree()
 
 					setText(slot12:Find("detail/consume/icon_rmb"), GetMoneySymbol())
-					setActive(slot12:Find("detail/consume/icon_rmb"), slot13 == 1 and not (slot13 == 1 and slot15:getShowType() ~= ""))
+					setActive(slot12:Find("detail/consume/icon_rmb"), slot14 == 1 and not (slot14 == 1 and slot16:getShowType() ~= ""))
 
-					if PLATFORM_CODE == PLATFORM_CHT and slot15:IsLocalPrice() then
+					if PLATFORM_CODE == PLATFORM_CHT and slot16:IsLocalPrice() then
 						setActive(slot12:Find("detail/consume/icon_rmb"), false)
 					end
 
-					setActive(slot12:Find("detail/consume/icon_gem"), slot13 ~= 1 and not slot19)
-					setActive(slot12:Find("detail/consume/Text"), not slot19 and not slot18)
+					setActive(slot12:Find("detail/consume/icon_gem"), slot14 ~= 1 and not slot20)
+					setActive(slot12:Find("detail/consume/Text"), not slot20 and not slot19)
 
-					if slot13 == 1 then
-						setText(slot12:Find("detail/consume/Text"), slot15:getConfig("money"))
-					elseif slot13 == 2 then
-						setText(slot12:Find("detail/consume/Text"), slot15:GetPrice())
+					if slot14 == 1 then
+						setText(slot12:Find("detail/consume/Text"), slot16:getConfig("money"))
+					elseif slot14 == 2 then
+						setText(slot12:Find("detail/consume/Text"), slot16:GetPrice())
 					end
 
-					setActive(slot12:Find("detail/consume/FreeText"), slot19)
+					setActive(slot12:Find("detail/consume/FreeText"), slot20)
 					setText(slot12:Find("detail/consume/FreeText"), i18n("shop_free_tag"))
 				end
 			end
 
 			if slot11.time_lable == 1 then
-				slot13 = slot11.time[2]
-				slot14 = pg.TimeMgr.GetInstance()
-				slot14 = slot14:Table2ServerTime({
-					year = slot13[1][1],
-					month = slot13[1][2],
-					day = slot13[1][3],
-					hour = slot13[2][1],
-					min = slot13[2][2],
-					sec = slot13[2][3]
+				slot14 = slot11.time[2]
+				slot15 = pg.TimeMgr.GetInstance()
+				slot15 = slot15:Table2ServerTime({
+					year = slot14[1][1],
+					month = slot14[1][2],
+					day = slot14[1][3],
+					hour = slot14[2][1],
+					min = slot14[2][2],
+					sec = slot14[2][3]
 				})
 
 				slot0:StartTimer(function ()

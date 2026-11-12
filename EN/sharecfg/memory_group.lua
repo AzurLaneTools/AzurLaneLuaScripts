@@ -281,6 +281,8 @@ pg.memory_group.all = {
 	379,
 	380,
 	381,
+	382,
+	383,
 	501,
 	502,
 	503,
@@ -7568,6 +7570,39 @@ end)()
 			5596
 		}
 	}
+	pg.base.memory_group[382] = {
+		ship_group = 0,
+		icon = "title_event",
+		type = 2,
+		link_event = 51307,
+		title = "It's Showtime! Angels' Azur Stage - Club Exhibition",
+		auto_unlock = "",
+		subtype = 2,
+		id = 382,
+		group_id = "",
+		memories = {
+			5621,
+			5622,
+			5623,
+			5624,
+			5625
+		}
+	}
+	pg.base.memory_group[383] = {
+		ship_group = 0,
+		icon = "title_event",
+		type = 2,
+		link_event = 51307,
+		title = "It's Showtime! Angels' Azur Stage - Daily Stories",
+		auto_unlock = "",
+		subtype = 2,
+		id = 383,
+		group_id = "",
+		memories = {
+			5631,
+			5632
+		}
+	}
 	pg.base.memory_group[501] = {
 		ship_group = 31201,
 		icon = "title_chara_mingshi",
@@ -8041,6 +8076,8 @@ end)()
 			10000
 		}
 	}
+end)()
+(function ()
 	pg.base.memory_group[523] = {
 		ship_group = 30707,
 		icon = "title_chara_dafeng",
@@ -8085,8 +8122,6 @@ end)()
 			10000
 		}
 	}
-end)()
-(function ()
 	pg.base.memory_group[525] = {
 		ship_group = 30109,
 		icon = "title_chara_xiao",
@@ -10243,6 +10278,8 @@ end)()
 			10000
 		}
 	}
+end)()
+(function ()
 	pg.base.memory_group[624] = {
 		ship_group = 29905,
 		icon = "title_chara_pulimaosi",
@@ -10287,8 +10324,6 @@ end)()
 			10000
 		}
 	}
-end)()
-(function ()
 	pg.base.memory_group[626] = {
 		ship_group = 30716,
 		icon = "title_chara_baifeng",

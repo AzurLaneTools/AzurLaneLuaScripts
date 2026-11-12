@@ -566,6 +566,8 @@ slot0.SwitchContainerDisplay = function(slot0)
 				slot3.constraintCount = math.max(7, math.floor((slot8 + slot7) / slot9) - 1)
 			end
 
+			uv0.maxRecnetShipCnt = slot3.constraintCount
+
 			uv0:filter()
 		end
 	})
@@ -1620,11 +1622,11 @@ slot0.TriggerCard = function(slot0, slot1)
 	slot9 = slot0.cardItemDic[slot2] and slot0.scrollItems[slot8]
 
 	if (slot9 and slot9.shipVO.id == slot6.id and slot9 or nil) and not getBounds(slot0._tf:Find("main/ship_container")):Intersects(getBounds(slot10.tr)) then
-		slot0.shipContainer:SetNormalizedPosition(slot0.shipContainer.value + slot1 * (slot0.shipContainer:HeadIndexToValue(7) - slot0.shipContainer:HeadIndexToValue(1)), 1)
+		slot0.shipContainer:SetNormalizedPosition(slot0.shipContainer.value + slot1 * (slot0.shipContainer:HeadIndexToValue(slot0.maxRecnetShipCnt) - slot0.shipContainer:HeadIndexToValue(1)), 1)
 	end
 
 	if not slot10 then
-		slot0.shipContainer:SetNormalizedPosition(slot0.shipContainer.value + (math.ceil(slot4 / 7) - math.ceil(slot3 / 7)) * (slot0.shipContainer:HeadIndexToValue(21) - slot0.shipContainer:HeadIndexToValue(1)), 1)
+		slot0.shipContainer:SetNormalizedPosition(slot0.shipContainer.value + (math.ceil(slot4 / slot0.maxRecnetShipCnt) - math.ceil(slot3 / slot0.maxRecnetShipCnt)) * (slot0.shipContainer:HeadIndexToValue(slot0.maxRecnetShipCnt) - slot0.shipContainer:HeadIndexToValue(1)), 1)
 
 		slot10 = slot7()
 	end

@@ -72,7 +72,7 @@ slot0.getResource = function(slot0)
 
 	slot3(slot7 and slot7:getPainting())
 
-	if HXSet.isHx() then
+	if HXSet.isHx() and CUSTOM_HX then
 		slot3(pg.ship_skin_template[900284].painting)
 	end
 
@@ -558,7 +558,7 @@ end
 slot0.UpdateBuildPoolPaiting = function(slot0, slot1)
 	slot2 = nil
 
-	if HXSet.isHx() then
+	if HXSet.isHx() and CUSTOM_HX then
 		slot2 = pg.ship_skin_template[900284].painting
 	elseif slot0.buildPainting then
 		slot2 = slot0.buildPainting

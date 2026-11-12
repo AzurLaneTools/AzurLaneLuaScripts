@@ -53,7 +53,8 @@ pg.activity_banner_notice.all = {
 	48,
 	49,
 	50,
-	51
+	51,
+	52
 }
 pg.base = pg.base or {}
 pg.base.activity_banner_notice = {}
@@ -489,6 +490,15 @@ pg.base.activity_banner_notice = {}
 			"scene core activity",
 			{
 				coreName = "WindFogCorridorCoreActivityUI"
+			}
+		}
+	}
+	pg.base.activity_banner_notice[52] = {
+		id = 52,
+		param = {
+			"scene core activity",
+			{
+				coreName = "TwoPointFiveCoreActivityUI"
 			}
 		}
 	}

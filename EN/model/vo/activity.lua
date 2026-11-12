@@ -802,8 +802,6 @@ slot0.IsShowTipByClient = function(slot0)
 	elseif slot1.is_showMedal then
 		return ActivityMedalGroup.showTip(slot1.medal_group_id)
 	elseif slot1.is_clickOnce then
-		slot2 = slot0:getConfig("id")
-
 		return PlayerPrefs.GetInt(Activity.GetPlayerActivyIDKey(slot0:getConfig("id")), 0) == 0
 	else
 		return false

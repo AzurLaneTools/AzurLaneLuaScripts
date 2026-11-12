@@ -116,14 +116,13 @@ slot0.MakePaintingFadeIn = function(slot0)
 		return
 	end
 
-	slot2 = nil
-	slot2 = (slot0.state ~= uv0.STATE_L2D and slot1 ~= uv0.STATE_EDUCATE_L2D or slot0._paintingManager.PAINTING_TYPE.LIVE2D) and (slot1 ~= uv0.STATE_SPINE_PAINTING and slot1 ~= uv0.STATE_EDUCATE_SPINE or slot0._paintingManager.PAINTING_TYPE.SPINE) and slot0._paintingManager.PAINTING_TYPE.MESH
-
 	if slot0.painting:GetPaintingTransform() == nil then
 		return
 	end
 
-	slot0._paintingManager:SetOpacityPainting(slot3, slot2)
+	slot0._paintingManager:SetOpacityPainting(slot1, slot0:getPaintingContainer(), slot0:getPaintingManagerType())
+	slot0.painting:OnPaintingFade(true)
+	print("painting fade in ")
 
 	if slot0._firstPaintingLoading then
 		slot0._firstPaintingLoading = false
@@ -134,9 +133,31 @@ slot0.MakePaintingFadeIn = function(slot0)
 	else
 		slot4 = slot0._paintingManager
 
+		slot4:SetPaintingAlpha(0)
+
+		slot4 = slot0._paintingManager
+
 		slot4:SetPaintingFadeIn(function ()
 			uv0.painting:OnPaintingFade(false)
 		end)
+	end
+end
+
+slot0.getPaintingManagerType = function(slot0)
+	slot2 = nil
+
+	return (slot0.state ~= uv0.STATE_L2D and slot1 ~= uv0.STATE_EDUCATE_L2D or slot0._paintingManager.PAINTING_TYPE.LIVE2D) and (slot1 ~= uv0.STATE_SPINE_PAINTING and slot1 ~= uv0.STATE_EDUCATE_SPINE or slot0._paintingManager.PAINTING_TYPE.SPINE) and slot0._paintingManager.PAINTING_TYPE.MESH
+end
+
+slot0.getPaintingContainer = function(slot0)
+	slot2 = nil
+
+	if slot0.state == uv0.STATE_L2D or slot1 == uv0.STATE_EDUCATE_L2D then
+		return slot0.l2dContainer
+	elseif slot1 == uv0.STATE_SPINE_PAINTING or slot1 == uv0.STATE_EDUCATE_SPINE then
+		return slot0.spineContainer
+	else
+		return slot0.meshContainer
 	end
 end
 
@@ -152,21 +173,7 @@ slot0.IsLoading = function(slot0)
 	return false
 end
 
-slot0.Init = function(slot0, slot1, slot2, slot3)
-	if not slot0._paintingManager then
-		slot0._paintingManager = PaintingFadeManager.New()
-
-		slot0._paintingManager:SetRawPaintingContainer(slot0._tf)
-
-		for slot7, slot8 in pairs(slot0.paintings) do
-			slot8:SetTargetContainer(slot0._paintingManager:GetPaintingContainer())
-		end
-
-		slot0._firstPaintingLoading = true
-	end
-
-	print("初始化舰船 = " .. slot1:getPainting())
-
+slot0.Init = function(slot0, slot1, slot2, slot3, slot4)
 	if slot0:ShouldReLoad(slot1) then
 		slot0.shift = slot2 or slot0.shift
 
@@ -174,18 +181,43 @@ slot0.Init = function(slot0, slot1, slot2, slot3)
 
 		slot0.ship = slot1
 		slot0.anim = slot3
-		slot4, slot5 = uv0.GetAssistantStatus(slot1)
-		slot0.painting = slot0.paintings[slot4]
-		slot0.state = slot4
+		slot5, slot6 = uv0.GetAssistantStatus(slot1)
+		slot0.painting = slot0.paintings[slot5]
+		slot0.state = slot5
 		slot0.skinId = slot0.ship:getSkinId()
 		slot0.bgToggle = PlayerPrefs.GetInt("paint_hide_other_obj_" .. slot1:getPainting(), 0)
 
 		slot0:Reload(function ()
+			if uv0._paintingManager and uv0.painting then
+				slot1 = uv0:getPaintingManagerType()
+				slot2 = uv0:getPaintingContainer()
+
+				if uv0.painting:GetPaintingTransform() then
+					uv0._paintingManager:SetOpacityPainting(slot0, slot2, slot1)
+					uv0.painting:OnPaintingFade(true)
+				end
+			end
+
 			uv0:InitShipShift()
+
+			if uv1 then
+				uv1()
+
+				uv1 = nil
+			end
 		end)
 	else
+		slot0.shift = slot2 or slot0.shift
+
+		assert(slot0.shift)
 		slot0.painting:Resume()
 		slot0:InitShipShift()
+
+		if slot4 then
+			slot4()
+
+			slot4 = nil
+		end
 	end
 end
 
@@ -206,6 +238,8 @@ slot0.Reload = function(slot0, slot1)
 	slot2 = function()
 		print("开始加载舰船 = " .. uv0.ship:getPainting())
 
+		uv0._paintingFadeFlag = false
+
 		if uv0._loadingPainting then
 			if uv0._paintingManager then
 				uv0._paintingManager:DisablePainting()
@@ -214,37 +248,48 @@ slot0.Reload = function(slot0, slot1)
 			uv0._loadingPainting:Unload()
 		end
 
-		uv0.painting:Load(uv0.ship, uv0.state)
-
-		if uv1 then
-			uv1()
-
-			uv1 = nil
-		end
+		uv0.painting:Load(uv0.ship, uv1)
 
 		uv0._loadingPainting = uv0.painting
 	end
 
-	if slot0._paintingManager then
-		slot0.painting:OnPaintingFade(true)
+	if slot0._paintingManager and not slot0._paintingFadeFlag then
+		slot3 = slot0.painting
 
-		if not slot0._paintingFadeFlag then
-			slot0._paintingFadeFlag = true
-			slot3 = slot0._paintingManager
+		slot3:OnPaintingFade(true)
 
-			slot3:SetPaintingFadeOut(function ()
-				uv0._paintingFadeFlag = false
+		slot3 = slot0._paintingManager
 
-				uv1()
-			end)
-		end
+		slot3:SetLoading(true)
+		seriesAsync({
+			function (slot0)
+				onDelayTick(slot0, 0.2)
+			end,
+			function (slot0)
+				if isa(uv0.painting, MainLive2dPainting) then
+					pg.Live2DMgr.GetInstance():preloadL2dModelAsync(uv0.ship:getPainting(), slot0)
+				else
+					slot0()
+				end
+			end,
+			function (slot0)
+				if uv0._paintingManager then
+					uv0._paintingManager:SetLoading(false)
+
+					uv0._paintingFadeFlag = true
+
+					uv0._paintingManager:SetPaintingFadeOut(slot0)
+					uv0.painting:OnPaintingFade(false)
+				end
+			end
+		}, slot2)
 	else
 		slot2()
 	end
 end
 
-slot0.Refresh = function(slot0, slot1, slot2)
-	slot0:Init(slot1, slot2)
+slot0.Refresh = function(slot0, slot1, slot2, slot3)
+	slot0:Init(slot1, slot2, nil, slot3)
 end
 
 slot0.Disable = function(slot0)
@@ -493,6 +538,8 @@ slot0.Dispose = function(slot0)
 
 	if slot0._paintingManager then
 		slot0._paintingManager:Dispose()
+
+		slot0._paintingManager = nil
 	end
 
 	slot0:DisableDragAndZoom()

@@ -4383,6 +4383,13 @@ pg.memory_template.all = {
 	5615,
 	5616,
 	5617,
+	5621,
+	5622,
+	5623,
+	5624,
+	5625,
+	5631,
+	5632,
 	10011,
 	10012,
 	10013,
@@ -83573,6 +83580,132 @@ end)()
 			"XIANGBIN7"
 		}
 	}
+	pg.base.memory_template[5621] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 2,
+		number = 0,
+		title = "New Life in Another World",
+		condition = "Start EPS-1.",
+		story = "2079004",
+		mask = "bg/bg_memory",
+		task = 0,
+		year = 0,
+		id = 5621,
+		icon = "memory_tianshimengdebilanwutai1",
+		is_open = 0,
+		unlock_pre = {
+			"2079004"
+		}
+	}
+	pg.base.memory_template[5622] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "Let's Have a Cosplay Exhibition!",
+		condition = "Start EPS-2.",
+		story = "TIANSHIMENDEBILANWUTAIZHANHUI2",
+		mask = "bg/bg_memory",
+		task = 0,
+		year = 0,
+		id = 5622,
+		icon = "memory_tianshimengdebilanwutai1",
+		is_open = 0,
+		unlock_pre = {
+			"TIANSHIMENDEBILANWUTAIZHANHUI2"
+		}
+	}
+	pg.base.memory_template[5623] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "Preparing the Exhibition",
+		condition = "Start EPS-3.",
+		story = "TIANSHIMENDEBILANWUTAIZHANHUI3",
+		mask = "bg/bg_memory",
+		task = 0,
+		year = 0,
+		id = 5623,
+		icon = "memory_tianshimengdebilanwutai1",
+		is_open = 0,
+		unlock_pre = {
+			"TIANSHIMENDEBILANWUTAIZHANHUI3"
+		}
+	}
+	pg.base.memory_template[5624] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "The Hot Springs Episode",
+		condition = "Start EPS-4.",
+		story = "TIANSHIMENDEBILANWUTAIZHANHUI4",
+		mask = "bg/bg_memory",
+		task = 0,
+		year = 0,
+		id = 5624,
+		icon = "memory_tianshimengdebilanwutai1",
+		is_open = 0,
+		unlock_pre = {
+			"TIANSHIMENDEBILANWUTAIZHANHUI4"
+		}
+	}
+	pg.base.memory_template[5625] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "A Most Wonderful Exhibition",
+		condition = "Start EPS-5.",
+		story = "TIANSHIMENDEBILANWUTAIZHANHUI5",
+		mask = "bg/bg_memory",
+		task = 0,
+		year = 0,
+		id = 5625,
+		icon = "memory_tianshimengdebilanwutai1",
+		is_open = 0,
+		unlock_pre = {
+			"TIANSHIMENDEBILANWUTAIZHANHUI5"
+		}
+	}
+	pg.base.memory_template[5631] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "Ririsa's Tea Party Training",
+		condition = "Complete Angel's Stage L Day 3.",
+		story = "TIANSHIMENDEBILANWUTAIRICHANG1",
+		mask = "bg/bg_memory",
+		task = 0,
+		year = 0,
+		id = 5631,
+		icon = "memory_tianshimengdebilanwutai2",
+		is_open = 0,
+		unlock_pre = {
+			"TIANSHIMENDEBILANWUTAIRICHANG1"
+		}
+	}
+	pg.base.memory_template[5632] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "Mikari the Hard Worker",
+		condition = "Complete Angel's Stage M Day 3.",
+		story = "TIANSHIMENDEBILANWUTAIRICHANG2",
+		mask = "bg/bg_memory",
+		task = 0,
+		year = 0,
+		id = 5632,
+		icon = "memory_tianshimengdebilanwutai2",
+		is_open = 0,
+		unlock_pre = {
+			"TIANSHIMENDEBILANWUTAIRICHANG2"
+		}
+	}
 	pg.base.memory_template[10011] = {
 		ship_group = 0,
 		subtitle = "",
@@ -83825,6 +83958,8 @@ end)()
 			"TEACHER3"
 		}
 	}
+end)()
+(function ()
 	pg.base.memory_template[10032] = {
 		ship_group = 0,
 		subtitle = "",
@@ -83951,8 +84086,6 @@ end)()
 			"NEPU_DAILY3"
 		}
 	}
-end)()
-(function ()
 	pg.base.memory_template[10039] = {
 		ship_group = 0,
 		subtitle = "",
@@ -85627,6 +85760,8 @@ end)()
 			"LINGHANGYUANTANXIN5"
 		}
 	}
+end)()
+(function ()
 	pg.base.memory_template[20057] = {
 		ship_group = 0,
 		subtitle = "",
@@ -85753,8 +85888,6 @@ end)()
 			"LINGHANGYUANTANXIN12"
 		}
 	}
-end)()
-(function ()
 	pg.base.memory_template[20064] = {
 		ship_group = 0,
 		subtitle = "",
@@ -87429,6 +87562,8 @@ end)()
 			"TANSUOZHEYANGCHENGJIHUA8"
 		}
 	}
+end)()
+(function ()
 	pg.base.memory_template[20158] = {
 		ship_group = 0,
 		subtitle = "",
@@ -87555,8 +87690,6 @@ end)()
 			"TANSUOZHEYANGCHENGJIHUA15"
 		}
 	}
-end)()
-(function ()
 	pg.base.memory_template[20165] = {
 		ship_group = 0,
 		subtitle = "",

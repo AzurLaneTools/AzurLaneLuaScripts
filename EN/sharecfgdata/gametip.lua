@@ -7199,6 +7199,11 @@ _G.pg.base.gametip.word_shipNation_nierautomata = {
 }
 
 
+_G.pg.base.gametip.word_shipNation_ririsa = {
+	tip = "2.5 Dimensional Seduction"
+}
+
+
 _G.pg.base.gametip.word_reset = {
 	tip = "Reset"
 }
@@ -52660,4 +52665,19 @@ _G.pg.base.gametip.world_task_main = {
 
 _G.pg.base.gametip.world_task_notask = {
 	tip = "You don't have any missions yet, Commander."
+}
+
+
+_G.pg.base.gametip.twopointfive_role_name_1 = {
+	tip = "Miriella Angel Paratroopers/Mikari"
+}
+
+
+_G.pg.base.gametip.twopointfive_role_name_2 = {
+	tip = "Liliel Angel Paratroopers/Ririsa"
+}
+
+
+_G.pg.base.gametip.combatUI_stick_set = {
+	tip = "Display joystick during Auto Combat"
 }

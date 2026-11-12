@@ -29,7 +29,8 @@ pg.item_data_battleui.all = {
 	207,
 	208,
 	209,
-	210
+	210,
+	211
 }
 pg.base = pg.base or {}
 pg.base.item_data_battleui = {}
@@ -451,6 +452,23 @@ pg.base.item_data_battleui = {}
 		desc = "In the hall of mirrors where candlelight flickers, the paranormal intertwines like creeping thorns. Let each battle unveil a prologue to a drama wavering between reality and illusion.",
 		id = 210,
 		icon = "210",
+		scene = {},
+		rare_display = {
+			1,
+			2,
+			3
+		}
+	}
+	pg.base.item_data_battleui[211] = {
+		name = "Angels' Stage",
+		key = "SkinElite_20261112",
+		display_icon = "ui_211",
+		unlock = "Buy the Battle UI Pack - Angels' Stage",
+		is_unlock = 1,
+		rare = 4,
+		desc = "Feathers of light drift down from above, and a dazzling halo illuminates the stage. Whether backstage or in front of the crowd, capture every moment of the angels' descent!",
+		id = 211,
+		icon = "211",
 		scene = {},
 		rare_display = {
 			1,

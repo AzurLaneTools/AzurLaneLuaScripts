@@ -8258,6 +8258,37 @@ pg.activity_ins_language.all = {
 	"op_reply_678_1_1",
 	"ins_op_678_1_2",
 	"op_reply_678_1_2",
+	"ins_679",
+	"ins_discuss_679_1",
+	"ins_reply_679_1_1",
+	"ins_reply_679_1_2",
+	"ins_reply_679_1_3",
+	"ins_discuss_679_2",
+	"ins_reply_679_2_1",
+	"ins_discuss_679_3",
+	"ins_reply_679_3_1",
+	"ins_reply_679_3_2",
+	"ins_reply_679_3_3",
+	"ins_op_679_1_1",
+	"op_reply_679_1_1",
+	"ins_op_679_1_2",
+	"op_reply_679_1_2",
+	"ins_680",
+	"ins_discuss_680_1",
+	"ins_reply_680_1_1",
+	"ins_discuss_680_2",
+	"ins_reply_680_2_1",
+	"ins_discuss_680_3",
+	"ins_reply_680_3_1",
+	"ins_reply_680_3_2",
+	"ins_reply_680_3_3",
+	"ins_discuss_680_4",
+	"ins_reply_680_4_1",
+	"ins_reply_680_4_2",
+	"ins_op_680_1_1",
+	"op_reply_680_1_1",
+	"ins_op_680_1_2",
+	"op_reply_680_1_2",
 	"ins_20001",
 	"ins_discuss_20001_1",
 	"ins_reply_20001_1_1",
@@ -33735,6 +33766,99 @@ end)()
 	pg.base.activity_ins_language.op_reply_678_1_2 = {
 		value = ""
 	}
+	pg.base.activity_ins_language.ins_679 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.ins_discuss_679_1 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.ins_reply_679_1_1 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.ins_reply_679_1_2 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.ins_reply_679_1_3 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.ins_discuss_679_2 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.ins_reply_679_2_1 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.ins_discuss_679_3 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.ins_reply_679_3_1 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.ins_reply_679_3_2 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.ins_reply_679_3_3 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.ins_op_679_1_1 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.op_reply_679_1_1 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.ins_op_679_1_2 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.op_reply_679_1_2 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.ins_680 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.ins_discuss_680_1 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.ins_reply_680_1_1 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.ins_discuss_680_2 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.ins_reply_680_2_1 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.ins_discuss_680_3 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.ins_reply_680_3_1 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.ins_reply_680_3_2 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.ins_reply_680_3_3 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.ins_discuss_680_4 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.ins_reply_680_4_1 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.ins_reply_680_4_2 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.ins_op_680_1_1 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.op_reply_680_1_1 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.ins_op_680_1_2 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.op_reply_680_1_2 = {
+		value = ""
+	}
 	pg.base.activity_ins_language.ins_20001 = {
 		value = "Thank you for following Juu Port Updates!\\nWe bring you breaking news stories, funny anecdotes, and everyday conversations! \\nWe also welcome anonymous submissions.\\nEnable push notifications and stay tuned for more!"
 	}
@@ -33780,6 +33904,8 @@ end)()
 	pg.base.activity_ins_language.ins_discuss_20001_10 = {
 		value = "So we can expect all kinds of news and info here, huh? Sounds exciting!"
 	}
+end)()
+(function ()
 	pg.base.activity_ins_language.ins_discuss_20001_11 = {
 		value = "An Shan confiscated Fu Shun's phone, so Lady Yuen will be posting on her behalf from now on!"
 	}
@@ -33873,8 +33999,6 @@ end)()
 	pg.base.activity_ins_language.ins_reply_20002_8_1 = {
 		value = "Tell me if you need technical support, nya! I'll give you a nice estimate, nya!"
 	}
-end)()
-(function ()
 	pg.base.activity_ins_language.ins_discuss_20002_9 = {
 		value = "Interactive experience, you say? Do you mean a kind of bodily, physical interaction with my Commander? If so, I've already had the pleasure of doing it♡"
 	}
@@ -34082,6 +34206,8 @@ end)()
 	pg.base.activity_ins_language.ins_reply_20003_6_1 = {
 		value = ""
 	}
+end)()
+(function ()
 	pg.base.activity_ins_language.ins_reply_20003_6_2 = {
 		value = ""
 	}
@@ -34175,8 +34301,6 @@ end)()
 	pg.base.activity_ins_language.ins_reply_20006_8_1 = {
 		value = ""
 	}
-end)()
-(function ()
 	pg.base.activity_ins_language.ins_reply_20006_8_2 = {
 		value = ""
 	}
@@ -34384,6 +34508,8 @@ end)()
 	pg.base.activity_ins_language.ins_reply_20007_8_2 = {
 		value = ""
 	}
+end)()
+(function ()
 	pg.base.activity_ins_language.ins_op_20007_1_1 = {
 		value = ""
 	}
@@ -34477,8 +34603,6 @@ end)()
 	pg.base.activity_ins_language.op_reply_20008_1_1 = {
 		value = ""
 	}
-end)()
-(function ()
 	pg.base.activity_ins_language.op_reply_20008_1_2 = {
 		value = ""
 	}
@@ -34686,6 +34810,8 @@ end)()
 	pg.base.activity_ins_language.ins_reply_20012_5_2 = {
 		value = ""
 	}
+end)()
+(function ()
 	pg.base.activity_ins_language.ins_reply_20012_5_3 = {
 		value = ""
 	}
@@ -34779,8 +34905,6 @@ end)()
 	pg.base.activity_ins_language.ins_reply_20009_8_2 = {
 		value = ""
 	}
-end)()
-(function ()
 	pg.base.activity_ins_language.ins_discuss_20009_9 = {
 		value = ""
 	}
@@ -34988,6 +35112,8 @@ end)()
 	pg.base.activity_ins_language.ins_discuss_20015_6 = {
 		value = ""
 	}
+end)()
+(function ()
 	pg.base.activity_ins_language.ins_reply_20015_6_1 = {
 		value = ""
 	}
@@ -35081,8 +35207,6 @@ end)()
 	pg.base.activity_ins_language.ins_discuss_20013_3 = {
 		value = ""
 	}
-end)()
-(function ()
 	pg.base.activity_ins_language.ins_reply_20013_3_1 = {
 		value = ""
 	}
@@ -35290,6 +35414,8 @@ end)()
 	pg.base.activity_ins_language.ins_reply_20014_1_2 = {
 		value = ""
 	}
+end)()
+(function ()
 	pg.base.activity_ins_language.ins_reply_20014_1_3 = {
 		value = ""
 	}

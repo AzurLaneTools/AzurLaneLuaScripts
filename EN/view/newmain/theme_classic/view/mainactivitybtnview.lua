@@ -141,7 +141,7 @@ slot0.OnRemoveLayer = function(slot0, slot1)
 end
 
 slot0.OnInstagramDataUpdate = function(slot0)
-	if slot0:GetBtn(MainActInsBtn) and slot1:InShowTime() then
+	if slot0:GetBtn(MainActInsBtn) and not IsNil(slot1._tf) and slot1:InShowTime() then
 		slot1:OnInit()
 	end
 end

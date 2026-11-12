@@ -3280,6 +3280,14 @@ pg.skill_data_display.all = {
 	117070,
 	117073,
 	117079,
+	118011,
+	118018,
+	118021,
+	118051,
+	118052,
+	118063,
+	118071,
+	118073,
 	152581,
 	152582,
 	152583,
@@ -3954,6 +3962,8 @@ pg.skill_data_display.all = {
 	201895,
 	201898,
 	201905,
+	201952,
+	201954,
 	1011540,
 	1011541,
 	1090010,
@@ -17421,6 +17431,38 @@ end)()
 		id = 117079,
 		name = "Devastating Cleave+"
 	}
+	pg.base.skill_data_display[118011] = {
+		id = 118011,
+		name = "Liliel's Healing"
+	}
+	pg.base.skill_data_display[118018] = {
+		id = 118018,
+		name = "Liliel's Healing"
+	}
+	pg.base.skill_data_display[118021] = {
+		id = 118021,
+		name = "Liliel's Explosion"
+	}
+	pg.base.skill_data_display[118051] = {
+		id = 118051,
+		name = "Miriella's Shot"
+	}
+	pg.base.skill_data_display[118052] = {
+		id = 118052,
+		name = "Miriella's Shot"
+	}
+	pg.base.skill_data_display[118063] = {
+		id = 118063,
+		name = "Miriella's Resonance"
+	}
+	pg.base.skill_data_display[118071] = {
+		id = 118071,
+		name = "Miriella's Resonance+"
+	}
+	pg.base.skill_data_display[118073] = {
+		id = 118073,
+		name = "Miriella's Resonance+"
+	}
 	pg.base.skill_data_display[152581] = {
 		id = 152581,
 		name = "Luckier!"
@@ -17485,6 +17527,8 @@ end)()
 		id = 190081,
 		name = "Commencing Cleanup Duty"
 	}
+end)()
+(function ()
 	pg.base.skill_data_display[190082] = {
 		id = 190082,
 		name = "Commencing Cleanup Duty"
@@ -17517,8 +17561,6 @@ end)()
 		id = 190136,
 		name = "Devouring Web"
 	}
-end)()
-(function ()
 	pg.base.skill_data_display[190138] = {
 		id = 190138,
 		name = "Devouring Web"
@@ -17887,6 +17929,8 @@ end)()
 		id = 800131,
 		name = "Akatan of Blossoming Flame "
 	}
+end)()
+(function ()
 	pg.base.skill_data_display[800132] = {
 		id = 800132,
 		name = "Akatan of Blossoming Flame "
@@ -17919,8 +17963,6 @@ end)()
 		id = 800153,
 		name = "Cards of Beast and Butterfly "
 	}
-end)()
-(function ()
 	pg.base.skill_data_display[800161] = {
 		id = 800161,
 		name = "Flickering Light - Souryuu I "
@@ -18289,6 +18331,8 @@ end)()
 		id = 800720,
 		name = "Paradoxical Charisma"
 	}
+end)()
+(function ()
 	pg.base.skill_data_display[800721] = {
 		id = 800721,
 		name = "Paradoxical Charisma"
@@ -18321,8 +18365,6 @@ end)()
 		id = 800760,
 		name = "Inquisition's Axe"
 	}
-end)()
-(function ()
 	pg.base.skill_data_display[800771] = {
 		id = 800771,
 		name = "Cinders of Hope - La Galissonnière"
@@ -18691,6 +18733,8 @@ end)()
 		id = 801597,
 		name = "Cinders of Hope - Bolzano II"
 	}
+end)()
+(function ()
 	pg.base.skill_data_display[801602] = {
 		id = 801602,
 		name = "Shadow of Eternal Night"
@@ -18723,8 +18767,6 @@ end)()
 		id = 801714,
 		name = "Uncompromising Duty "
 	}
-end)()
-(function ()
 	pg.base.skill_data_display[801721] = {
 		id = 801721,
 		name = "Gunfire Blitz"
@@ -19093,6 +19135,8 @@ end)()
 		id = 1011381,
 		name = "Departing Strike+"
 	}
+end)()
+(function ()
 	pg.base.skill_data_display[1011592] = {
 		id = 1011592,
 		name = "Airspace Dominance+"
@@ -19125,8 +19169,6 @@ end)()
 		id = 1010310,
 		name = "Divine Marksman+"
 	}
-end)()
-(function ()
 	pg.base.skill_data_display[1010311] = {
 		id = 1010311,
 		name = "Royal Sword"
@@ -19495,6 +19537,8 @@ end)()
 		id = 200594,
 		name = "Estuary of Faith"
 	}
+end)()
+(function ()
 	pg.base.skill_data_display[200597] = {
 		id = 200597,
 		name = "Estuary of Faith"
@@ -19527,8 +19571,6 @@ end)()
 		id = 200775,
 		name = "Urd's Fate-Piercer"
 	}
-end)()
-(function ()
 	pg.base.skill_data_display[200776] = {
 		id = 200776,
 		name = "You Can't Escape♪"
@@ -19897,6 +19939,8 @@ end)()
 		id = 201368,
 		name = "Support – Siren"
 	}
+end)()
+(function ()
 	pg.base.skill_data_display[201378] = {
 		id = 201378,
 		name = "Support – Luxwing Lion"
@@ -19929,8 +19973,6 @@ end)()
 		id = 201385,
 		name = "Support – Queen's Light"
 	}
-end)()
-(function ()
 	pg.base.skill_data_display[201419] = {
 		id = 201419,
 		name = "Support – Queen's Light"
@@ -20131,6 +20173,14 @@ end)()
 		id = 201905,
 		name = "Resonant Voice"
 	}
+	pg.base.skill_data_display[201952] = {
+		id = 201952,
+		name = "Prinz Eugen's Protection"
+	}
+	pg.base.skill_data_display[201954] = {
+		id = 201954,
+		name = "Grin and Fire!"
+	}
 	pg.base.skill_data_display[1011540] = {
 		id = 1011540,
 		name = "Final Shot+"
@@ -20291,6 +20341,8 @@ end)()
 		id = 1010102,
 		name = "Ghost of Java Coast+"
 	}
+end)()
+(function ()
 	pg.base.skill_data_display[1013271] = {
 		id = 1013271,
 		name = "Bellowing Gusts of Fire+"
@@ -20331,8 +20383,6 @@ end)()
 		id = 1017252,
 		name = "Hindhorn's Grace+"
 	}
-end)()
-(function ()
 	pg.base.skill_data_display[1012620] = {
 		id = 1012620,
 		name = "Terni Shields+"
@@ -20693,6 +20743,8 @@ end)()
 		id = 1011451,
 		name = "Idol's Ultimate Move"
 	}
+end)()
+(function ()
 	pg.base.skill_data_display[1011241] = {
 		id = 1011241,
 		name = "The Unsinkable Lucky Ship+"
@@ -20733,8 +20785,6 @@ end)()
 		id = 10151811,
 		name = "Final Sacrament+"
 	}
-end)()
-(function ()
 	pg.base.skill_data_display[1011911] = {
 		id = 1011911,
 		name = "Patriotic Spirit+"
@@ -21095,6 +21145,8 @@ end)()
 		id = 1090310,
 		name = "Full Firepower - Exeter"
 	}
+end)()
+(function ()
 	pg.base.skill_data_display[1090320] = {
 		id = 1090320,
 		name = "Emergency Maneuvers – Bulldog"
@@ -21135,8 +21187,6 @@ end)()
 		id = 1090351,
 		name = "Portable Thunderbolt Generator"
 	}
-end)()
-(function ()
 	pg.base.skill_data_display[1090352] = {
 		id = 1090352,
 		name = "Sextuple Torpedo Mount"

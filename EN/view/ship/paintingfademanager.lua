@@ -1,6 +1,7 @@
 slot0 = class("PaintingFadeManager")
-slot1 = 0.35
-slot2 = 0.35
+slot1 = 1
+slot2 = 0.3
+slot3 = 0.3
 slot0.PAINTING_TYPE = {
 	LIVE2D = 3,
 	MESH = 1,
@@ -19,13 +20,14 @@ slot0.Ctor = function(slot0, slot1, slot2)
 				uv0._paintingOpacity = PaintingOpacity.New(slot0)
 
 				uv0._paintingOpacity:SetRawImage(uv0._rawImageCom)
-				setActive(uv0._rawImageGo, true)
+				setActive(uv0._rawImageGo, false)
 				uv1()
 			end)
 		end,
 		function (slot0)
 			pg.PoolMgr.GetInstance():GetPrefab("ui/paintingopacityprogressui", "", false, function (slot0)
 				uv0._progressUI = tf(slot0)
+				uv0._progressText = findTF(uv0._progressUI, "text")
 
 				setActive(uv0._progressUI, false)
 				uv1()
@@ -36,9 +38,21 @@ slot0.Ctor = function(slot0, slot1, slot2)
 	slot0._screenTimer = Timer.New(function ()
 		uv0:OnScreenSizeChange()
 		uv0:UpdateContainerOffset()
+		uv0:UpdateProgress()
 	end, 0.03333333333333333, -1)
 
 	slot0._screenTimer:Start()
+end
+
+slot0.UpdateProgress = function(slot0)
+	if slot0._progressNum and slot0._progressNum < 100 then
+		slot0._progressNum = slot0._progressNum + math.random(3, 7)
+		slot0._progressNum = math.min(slot0._progressNum, 100)
+	end
+
+	if slot0._progressText then
+		setText(slot0._progressText, tostring(slot0._progressNum) .. "%")
+	end
 end
 
 slot0.OnScreenSizeChange = function(slot0)
@@ -86,10 +100,12 @@ slot0.GetSpinePaintingContainer = function(slot0)
 	return slot0._paintingOpacity:GetSpinePaintingContainer()
 end
 
-slot0.onLoadingCallback = function(slot0, slot1)
+slot0.SetLoading = function(slot0, slot1)
 	if slot0._isDispose then
 		return
 	end
+
+	slot0._progressNum = math.random(0, 80)
 
 	if slot1 then
 		if not slot0._overlay then
@@ -101,6 +117,7 @@ slot0.onLoadingCallback = function(slot0, slot1)
 		end
 
 		setActive(slot0._progressUI, true)
+		slot0:UpdateProgress()
 	else
 		if slot0._overlay then
 			slot0._overlay = false
@@ -126,13 +143,15 @@ slot0.ResetRawImageOffset = function(slot0)
 	slot0._rawImageGo.transform.localPosition = slot4
 end
 
-slot0.SetOpacityPainting = function(slot0, slot1, slot2, slot3)
-	if slot2 == slot0.PAINTING_TYPE.MESH then
-		slot0._paintingOpacity:SetMeshPainting(slot1)
-	elseif slot2 == slot0.PAINTING_TYPE.SPINE then
-		slot0._paintingOpacity:SetSpinePainting(slot1)
-	elseif slot2 == slot0.PAINTING_TYPE.LIVE2D then
-		slot0._paintingOpacity:SetLive2DPainting(slot1)
+slot0.SetOpacityPainting = function(slot0, slot1, slot2, slot3, slot4)
+	slot0.type = slot3
+
+	if slot3 == slot0.PAINTING_TYPE.MESH then
+		slot0._paintingOpacity:SetMeshPainting(slot1, slot2)
+	elseif slot3 == slot0.PAINTING_TYPE.SPINE then
+		slot0._paintingOpacity:SetSpinePainting(slot1, slot2)
+	elseif slot3 == slot0.PAINTING_TYPE.LIVE2D then
+		slot0._paintingOpacity:SetLive2DPainting(slot1, slot2)
 	end
 end
 
@@ -144,9 +163,12 @@ end
 
 slot0.SetPaintingFadeOut = function(slot0, slot1)
 	if slot0._paintingOpacity then
+		if not isActive(slot0._rawImageGo) then
+			setActive(slot0._rawImageGo, true)
+		end
+
 		slot0._paintingOpacity:SetRawImageAlpha(1)
 		slot0._paintingOpacity:SetPaintingAlphaTween(0, slot0._fadeOutTime, slot1)
-		slot0:onLoadingCallback(true)
 	elseif slot1 then
 		slot1()
 
@@ -158,24 +180,30 @@ end
 
 slot0.SetPaintingFadeIn = function(slot0, slot1)
 	if slot0._paintingOpacity then
+		if not isActive(slot0._rawImageGo) then
+			setActive(slot0._rawImageGo, true)
+		end
+
 		slot0._paintingOpacity:SetRawImageAlpha(0)
-		slot0._paintingOpacity:SetPaintingAlphaTween(1, slot0._fadeInTime, slot1)
+		slot0._paintingOpacity:SetPaintingAlphaTween(1, slot0.type == slot0.PAINTING_TYPE.LIVE2D and uv0 or slot0._fadeInTime, slot1)
 	elseif slot1 then
 		slot1()
 
 		slot1 = nil
 	end
 
-	slot0:onLoadingCallback(false)
-
 	slot0._paintingFadeFlag = true
 end
 
 slot0.SetPaintingAlpha = function(slot0, slot1)
 	print("change painting alpha to " .. slot1)
+
+	if not isActive(slot0._rawImageGo) then
+		setActive(slot0._rawImageGo, true)
+	end
+
 	slot0._paintingOpacity:ClearAlphaTween()
 	slot0._paintingOpacity:SetRawImageAlpha(slot1)
-	slot0:onLoadingCallback(slot1 <= 0)
 end
 
 slot0.SetMeshPaintingFillter = function(slot0, slot1)
