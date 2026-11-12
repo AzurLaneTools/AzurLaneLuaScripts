@@ -290,6 +290,8 @@ pg.memory_group.all = {
 	379,
 	380,
 	381,
+	382,
+	383,
 	501,
 	502,
 	503,
@@ -7787,6 +7789,39 @@ end)()
 			5596
 		}
 	}
+	pg.base.memory_group[382] = {
+		ship_group = 0,
+		icon = "title_event",
+		type = 2,
+		link_event = 51307,
+		title = "开幕！天使们的碧蓝舞台-「展会篇」",
+		auto_unlock = "",
+		subtype = 2,
+		id = 382,
+		group_id = "",
+		memories = {
+			5621,
+			5622,
+			5623,
+			5624,
+			5625
+		}
+	}
+	pg.base.memory_group[383] = {
+		ship_group = 0,
+		icon = "title_event",
+		type = 2,
+		link_event = 51307,
+		title = "开幕！天使们的碧蓝舞台-「日常篇」",
+		auto_unlock = "",
+		subtype = 2,
+		id = 383,
+		group_id = "",
+		memories = {
+			5631,
+			5632
+		}
+	}
 	pg.base.memory_group[501] = {
 		ship_group = 31201,
 		icon = "title_chara_mingshi",
@@ -8062,6 +8097,8 @@ end)()
 			10000
 		}
 	}
+end)()
+(function ()
 	pg.base.memory_group[513] = {
 		ship_group = 40146,
 		icon = "title_chara_z46",
@@ -8106,8 +8143,6 @@ end)()
 			10000
 		}
 	}
-end)()
-(function ()
 	pg.base.memory_group[516] = {
 		ship_group = 80201,
 		icon = "title_chara_aimier",
@@ -10264,6 +10299,8 @@ end)()
 			10000
 		}
 	}
+end)()
+(function ()
 	pg.base.memory_group[615] = {
 		ship_group = 960014,
 		icon = "title_chara_zhenzhuhao",
@@ -10308,8 +10345,6 @@ end)()
 			10000
 		}
 	}
-end)()
-(function ()
 	pg.base.memory_group[617] = {
 		ship_group = 10233,
 		icon = "title_chara_fage",

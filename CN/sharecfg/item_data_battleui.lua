@@ -29,7 +29,8 @@ pg.item_data_battleui.all = {
 	207,
 	208,
 	209,
-	210
+	210,
+	211
 }
 pg.base = pg.base or {}
 pg.base.item_data_battleui = {}
@@ -451,6 +452,23 @@ pg.base.item_data_battleui = {}
 		desc = "烛火在镜面间摇曳，幽影与荆棘相交织，让每一次战斗都揭开一段徘徊于虚实之间的剧目序章。",
 		id = 210,
 		icon = "210",
+		scene = {},
+		rare_display = {
+			1,
+			2,
+			3
+		}
+	}
+	pg.base.item_data_battleui[211] = {
+		name = "天使舞台",
+		key = "SkinElite_20261112",
+		display_icon = "ui_211",
+		unlock = "天使舞台战斗主题礼包获取",
+		is_unlock = 1,
+		rare = 4,
+		desc = "轻盈羽毛随光飘落，闪耀光环点亮舞台。幕后也好、台前也罢，请尽情捕捉天使降临的每一个瞬间！",
+		id = 211,
+		icon = "211",
 		scene = {},
 		rare_display = {
 			1,

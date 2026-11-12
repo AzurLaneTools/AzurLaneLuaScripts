@@ -245,13 +245,15 @@ slot0.UpdateEquipmentTypes = function(slot0)
 		slot8:GetSprite(uv1, "equipmentType" .. slot1[slot5], slot6:Find("itemName"), true)
 		setActive(slot6:Find("selectedframe"), false)
 		onToggle(slot0, slot6, function (slot0)
-			if slot0 and uv0.contextData.equipmentTypeIndex ~= uv1 then
-				uv0.contextData.equipmentTypeIndex = uv1
+			slot1 = uv0.GetSortTypes(uv1.env.nationsTree[uv1.contextData.nation])
 
-				uv0:ResetCanvas()
+			if slot0 and uv1.contextData.equipmentTypeIndex ~= slot1[uv2] then
+				uv1.contextData.equipmentTypeIndex = slot1[uv2]
+
+				uv1:ResetCanvas()
 			end
 
-			setActive(uv2:Find("selectedframe"), slot0)
+			setActive(uv3:Find("selectedframe"), slot0)
 		end, SFX_UI_TAG)
 	end
 

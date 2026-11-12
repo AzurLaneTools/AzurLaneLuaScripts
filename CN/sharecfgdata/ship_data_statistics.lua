@@ -542219,6 +542219,1050 @@ _G.pg.base.ship_data_statistics[11700024] = {
 }
 
 
+_G.pg.base.ship_data_statistics[11800011] = {
+	nationality = 118,
+	oxy_max = 0,
+	type = 6,
+	name = "莉莉艾露 天使空降队/理理沙",
+	huntingrange_level = 0,
+	star = 3,
+	oxy_recovery = 0,
+	backyard_speed = "0.3",
+	rarity = 5,
+	ammo = 0,
+	id = 11800011,
+	summon_offset = 0,
+	scale = 100,
+	raid_distance = 0,
+	english_name = "Liliel Angel Paratroopers/Ririsa",
+	oxy_cost = 0,
+	skin_id = 11800010,
+	attack_duration = 0,
+	oxy_recovery_surface = 0,
+	oxy_recovery_bench = 0,
+	armor_type = 2,
+	attrs = {
+		854,
+		0,
+		0,
+		49,
+		72,
+		65,
+		0,
+		27,
+		19,
+		28,
+		25,
+		24
+	},
+	attrs_growth = {
+		22935,
+		0,
+		0,
+		1072,
+		919,
+		450,
+		0,
+		441,
+		397,
+		0,
+		0,
+		291
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"cannon",
+		"torpedo"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {},
+	default_equip_list = {
+		117,
+		118,
+		104
+	},
+	depth_charge_list = {},
+	base_list = {
+		1,
+		1,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		0,
+		0
+	},
+	equipment_proficiency = {
+		1.25,
+		1.35,
+		0.8
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"LilielSH0",
+		"LilielHA",
+		"Liliel"
+	},
+	gift_dislike = {
+		180006,
+		180008
+	}
+}
+
+
+_G.pg.base.ship_data_statistics[11800012] = {
+	nationality = 118,
+	oxy_max = 0,
+	type = 6,
+	name = "莉莉艾露 天使空降队/理理沙",
+	huntingrange_level = 0,
+	star = 4,
+	oxy_recovery = 0,
+	backyard_speed = "0.3",
+	rarity = 5,
+	ammo = 0,
+	id = 11800012,
+	summon_offset = 0,
+	scale = 100,
+	raid_distance = 0,
+	english_name = "Liliel Angel Paratroopers/Ririsa",
+	oxy_cost = 0,
+	skin_id = 11800010,
+	attack_duration = 0,
+	oxy_recovery_surface = 0,
+	oxy_recovery_bench = 0,
+	armor_type = 2,
+	attrs = {
+		1062,
+		0,
+		0,
+		61,
+		90,
+		65,
+		0,
+		27,
+		19,
+		28,
+		25,
+		30
+	},
+	attrs_growth = {
+		22935,
+		0,
+		0,
+		1072,
+		919,
+		450,
+		0,
+		441,
+		397,
+		0,
+		0,
+		291
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"cannon",
+		"torpedo"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {},
+	default_equip_list = {
+		117,
+		118,
+		104
+	},
+	depth_charge_list = {},
+	base_list = {
+		2,
+		1,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		0,
+		0
+	},
+	equipment_proficiency = {
+		1.35,
+		1.35,
+		0.8
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"LilielSH0",
+		"LilielHA",
+		"Liliel"
+	},
+	gift_dislike = {
+		180006,
+		180008
+	}
+}
+
+
+_G.pg.base.ship_data_statistics[11800013] = {
+	nationality = 118,
+	oxy_max = 0,
+	type = 6,
+	name = "莉莉艾露 天使空降队/理理沙",
+	huntingrange_level = 0,
+	star = 5,
+	oxy_recovery = 0,
+	backyard_speed = "0.3",
+	rarity = 5,
+	ammo = 0,
+	id = 11800013,
+	summon_offset = 0,
+	scale = 100,
+	raid_distance = 0,
+	english_name = "Liliel Angel Paratroopers/Ririsa",
+	oxy_cost = 0,
+	skin_id = 11800010,
+	attack_duration = 0,
+	oxy_recovery_surface = 0,
+	oxy_recovery_bench = 0,
+	armor_type = 2,
+	attrs = {
+		1479,
+		0,
+		0,
+		85,
+		126,
+		65,
+		0,
+		27,
+		19,
+		28,
+		25,
+		42
+	},
+	attrs_growth = {
+		22935,
+		0,
+		0,
+		1072,
+		919,
+		450,
+		0,
+		441,
+		397,
+		0,
+		0,
+		291
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"cannon",
+		"torpedo"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {},
+	default_equip_list = {
+		117,
+		118,
+		104
+	},
+	depth_charge_list = {},
+	base_list = {
+		2,
+		2,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		0,
+		0
+	},
+	equipment_proficiency = {
+		1.45,
+		1.35,
+		0.8
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"LilielSH0",
+		"LilielHA",
+		"Liliel"
+	},
+	gift_dislike = {
+		180006,
+		180008
+	}
+}
+
+
+_G.pg.base.ship_data_statistics[11800014] = {
+	nationality = 118,
+	oxy_max = 0,
+	type = 6,
+	name = "莉莉艾露 天使空降队/理理沙",
+	huntingrange_level = 0,
+	star = 6,
+	oxy_recovery = 0,
+	backyard_speed = "0.3",
+	rarity = 5,
+	ammo = 0,
+	id = 11800014,
+	summon_offset = 0,
+	scale = 100,
+	raid_distance = 0,
+	english_name = "Liliel Angel Paratroopers/Ririsa",
+	oxy_cost = 0,
+	skin_id = 11800010,
+	attack_duration = 0,
+	oxy_recovery_surface = 0,
+	oxy_recovery_bench = 0,
+	armor_type = 2,
+	attrs = {
+		2104,
+		0,
+		0,
+		122,
+		179,
+		65,
+		0,
+		27,
+		19,
+		28,
+		25,
+		59
+	},
+	attrs_growth = {
+		22935,
+		0,
+		0,
+		1072,
+		919,
+		450,
+		0,
+		441,
+		397,
+		0,
+		0,
+		291
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"cannon",
+		"torpedo"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {},
+	default_equip_list = {
+		117,
+		118,
+		104
+	},
+	depth_charge_list = {},
+	base_list = {
+		3,
+		3,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		0,
+		0
+	},
+	equipment_proficiency = {
+		1.45,
+		1.45,
+		0.8
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"LilielSH0",
+		"LilielHA",
+		"Liliel"
+	},
+	gift_dislike = {
+		180006,
+		180008
+	}
+}
+
+
+_G.pg.base.ship_data_statistics[11800021] = {
+	nationality = 118,
+	oxy_max = 0,
+	type = 2,
+	name = "美莉艾拉 天使空降队/美花莉",
+	huntingrange_level = 0,
+	star = 3,
+	oxy_recovery = 0,
+	backyard_speed = "0.3",
+	rarity = 5,
+	ammo = 0,
+	id = 11800021,
+	summon_offset = 0,
+	scale = 100,
+	raid_distance = 0,
+	english_name = "Miriella Angel Paratroopers/Mikari",
+	oxy_cost = 0,
+	skin_id = 11800020,
+	attack_duration = 0,
+	oxy_recovery_surface = 0,
+	oxy_recovery_bench = 0,
+	armor_type = 1,
+	attrs = {
+		734,
+		27,
+		0,
+		66,
+		0,
+		76,
+		0,
+		60,
+		39,
+		40,
+		25,
+		36
+	},
+	attrs_growth = {
+		20909,
+		373,
+		0,
+		1386,
+		0,
+		526,
+		0,
+		863,
+		737,
+		0,
+		0,
+		423
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"air"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {},
+	default_equip_list = {
+		101,
+		100,
+		104
+	},
+	depth_charge_list = {
+		147
+	},
+	base_list = {
+		1,
+		1,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		0,
+		0
+	},
+	equipment_proficiency = {
+		1,
+		0.6,
+		1.15
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"Mikari"
+	},
+	gift_dislike = {
+		180006,
+		180009
+	}
+}
+
+
+_G.pg.base.ship_data_statistics[11800022] = {
+	nationality = 118,
+	oxy_max = 0,
+	type = 2,
+	name = "美莉艾拉 天使空降队/美花莉",
+	huntingrange_level = 0,
+	star = 4,
+	oxy_recovery = 0,
+	backyard_speed = "0.3",
+	rarity = 5,
+	ammo = 0,
+	id = 11800022,
+	summon_offset = 0,
+	scale = 100,
+	raid_distance = 0,
+	english_name = "Miriella Angel Paratroopers/Mikari",
+	oxy_cost = 0,
+	skin_id = 11800020,
+	attack_duration = 0,
+	oxy_recovery_surface = 0,
+	oxy_recovery_bench = 0,
+	armor_type = 1,
+	attrs = {
+		913,
+		34,
+		0,
+		82,
+		0,
+		76,
+		0,
+		60,
+		39,
+		40,
+		25,
+		45
+	},
+	attrs_growth = {
+		20909,
+		373,
+		0,
+		1386,
+		0,
+		526,
+		0,
+		863,
+		737,
+		0,
+		0,
+		423
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"air"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {},
+	default_equip_list = {
+		101,
+		100,
+		104
+	},
+	depth_charge_list = {
+		147
+	},
+	base_list = {
+		1,
+		1,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		0,
+		0
+	},
+	equipment_proficiency = {
+		1.05,
+		0.6,
+		1.15
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"Mikari"
+	},
+	gift_dislike = {
+		180006,
+		180009
+	}
+}
+
+
+_G.pg.base.ship_data_statistics[11800023] = {
+	nationality = 118,
+	oxy_max = 0,
+	type = 2,
+	name = "美莉艾拉 天使空降队/美花莉",
+	huntingrange_level = 0,
+	star = 5,
+	oxy_recovery = 0,
+	backyard_speed = "0.3",
+	rarity = 5,
+	ammo = 0,
+	id = 11800023,
+	summon_offset = 0,
+	scale = 100,
+	raid_distance = 0,
+	english_name = "Miriella Angel Paratroopers/Mikari",
+	oxy_cost = 0,
+	skin_id = 11800020,
+	attack_duration = 0,
+	oxy_recovery_surface = 0,
+	oxy_recovery_bench = 0,
+	armor_type = 1,
+	attrs = {
+		1271,
+		47,
+		0,
+		114,
+		0,
+		76,
+		0,
+		60,
+		39,
+		40,
+		25,
+		62
+	},
+	attrs_growth = {
+		20909,
+		373,
+		0,
+		1386,
+		0,
+		526,
+		0,
+		863,
+		737,
+		0,
+		0,
+		423
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"air"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {},
+	default_equip_list = {
+		101,
+		100,
+		104
+	},
+	depth_charge_list = {
+		147
+	},
+	base_list = {
+		2,
+		1,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		0,
+		0
+	},
+	equipment_proficiency = {
+		1.1,
+		0.6,
+		1.15
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"Mikari"
+	},
+	gift_dislike = {
+		180006,
+		180009
+	}
+}
+
+
+_G.pg.base.ship_data_statistics[11800024] = {
+	nationality = 118,
+	oxy_max = 0,
+	type = 2,
+	name = "美莉艾拉 天使空降队/美花莉",
+	huntingrange_level = 0,
+	star = 6,
+	oxy_recovery = 0,
+	backyard_speed = "0.3",
+	rarity = 5,
+	ammo = 0,
+	id = 11800024,
+	summon_offset = 0,
+	scale = 100,
+	raid_distance = 0,
+	english_name = "Miriella Angel Paratroopers/Mikari",
+	oxy_cost = 0,
+	skin_id = 11800020,
+	attack_duration = 0,
+	oxy_recovery_surface = 0,
+	oxy_recovery_bench = 0,
+	armor_type = 1,
+	attrs = {
+		1808,
+		67,
+		0,
+		163,
+		0,
+		76,
+		0,
+		60,
+		39,
+		40,
+		25,
+		89
+	},
+	attrs_growth = {
+		20909,
+		373,
+		0,
+		1386,
+		0,
+		526,
+		0,
+		863,
+		737,
+		0,
+		0,
+		423
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"air"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {},
+	default_equip_list = {
+		101,
+		100,
+		104
+	},
+	depth_charge_list = {
+		147
+	},
+	base_list = {
+		2,
+		1,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		0,
+		0
+	},
+	equipment_proficiency = {
+		1.15,
+		0.65,
+		1.2
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"Mikari"
+	},
+	gift_dislike = {
+		180006,
+		180009
+	}
+}
+
+
 _G.pg.base.ship_data_statistics[299011] = {
 	nationality = 2,
 	oxy_max = 0,

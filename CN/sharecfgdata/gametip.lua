@@ -6505,6 +6505,11 @@ _G.pg.base.gametip.word_shipNation_nierautomata = {
 }
 
 
+_G.pg.base.gametip.word_shipNation_ririsa = {
+	tip = "2.5次元的诱惑"
+}
+
+
 _G.pg.base.gametip.word_reset = {
 	tip = "重置"
 }
@@ -52449,6 +52454,21 @@ _G.pg.base.gametip.resource_repair_finish_tips = {
 
 _G.pg.base.gametip.windfog_skin_stroy_finish = {
 	tip = "完成所有故事可获得"
+}
+
+
+_G.pg.base.gametip.twopointfive_role_name_1 = {
+	tip = "美莉艾拉 天使空降队/美花莉"
+}
+
+
+_G.pg.base.gametip.twopointfive_role_name_2 = {
+	tip = "莉莉艾露 天使空降队/理理沙"
+}
+
+
+_G.pg.base.gametip.combatUI_stick_set = {
+	tip = "开启自律战斗时的轮盘显示"
 }
 
 

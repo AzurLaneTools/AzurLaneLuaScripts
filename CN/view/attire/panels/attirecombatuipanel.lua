@@ -111,6 +111,21 @@ slot0.OnInit = function(slot0)
 	slot0.previewBtn = slot1:Find("preview")
 	slot1 = slot0.listPanel
 	slot0.lockBtn = slot1:Find("lock")
+	slot1 = slot0.listPanel
+	slot0.alwaysShowStickToggle = slot1:Find("AlwaysShowStick")
+	slot2 = slot0.alwaysShowStickToggle
+
+	setText(slot2:Find("Text"), i18n("combatUI_stick_set"))
+
+	slot1 = getProxy(SettingsProxy)
+	slot0.isShowStickInCombat = slot1:IsShowStickInCombat()
+
+	triggerToggle(slot0.alwaysShowStickToggle, slot0.isShowStickInCombat)
+	onToggle(slot0, slot0.alwaysShowStickToggle, function (slot0)
+		uv0.isShowStickInCombat = slot0
+
+		uv1:SetShowStickInCombat(slot0)
+	end)
 
 	slot0.scolrect.onInitItem = function(slot0)
 		uv0:OnInitItem(slot0)
@@ -125,32 +140,32 @@ slot0.OnInit = function(slot0)
 	end
 
 	slot0.cards = {}
-	slot1 = slot0._tf
-	slot1 = slot1:Find("total_count/Text")
-	slot0.totalCount = slot1:GetComponent(typeof(Text))
-	slot1 = slot0._tf
-	slot0.preview = slot1:Find("preview")
-	slot1 = slot0._tf
-	slot0.sea = slot1:Find("preview/sea")
-	slot1 = slot0.sea
-	slot0.rawImage = slot1:GetComponent("RawImage")
-	slot1 = slot0._tf
-	slot0.uiLayer = slot1:Find("preview/ui")
-	slot2 = slot0.preview
+	slot2 = slot0._tf
+	slot2 = slot2:Find("total_count/Text")
+	slot0.totalCount = slot2:GetComponent(typeof(Text))
+	slot2 = slot0._tf
+	slot0.preview = slot2:Find("preview")
+	slot2 = slot0._tf
+	slot0.sea = slot2:Find("preview/sea")
+	slot2 = slot0.sea
+	slot0.rawImage = slot2:GetComponent("RawImage")
+	slot2 = slot0._tf
+	slot0.uiLayer = slot2:Find("preview/ui")
+	slot3 = slot0.preview
 
-	setText(slot2:Find("bg/title/Image"), i18n("word_preview"))
+	setText(slot3:Find("bg/title/Image"), i18n("word_preview"))
 
-	slot2 = slot0.confirmBtn
+	slot3 = slot0.confirmBtn
 
-	setText(slot2:Find("Text"), i18n("attire_combatui_confirm"))
+	setText(slot3:Find("Text"), i18n("attire_combatui_confirm"))
 
-	slot2 = slot0.previewBtn
+	slot3 = slot0.previewBtn
 
-	setText(slot2:Find("Text"), i18n("attire_combatui_preview"))
+	setText(slot3:Find("Text"), i18n("attire_combatui_preview"))
 
-	slot2 = slot0.lockBtn
+	slot3 = slot0.lockBtn
 
-	setText(slot2:Find("Text"), i18n("index_not_obtained"))
+	setText(slot3:Find("Text"), i18n("index_not_obtained"))
 	setActive(slot0.preview, false)
 	setActive(slot0.rawImage, false)
 	onButton(slot0, slot0.preview, function ()

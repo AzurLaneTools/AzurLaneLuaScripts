@@ -263175,6 +263175,774 @@ _G.pg.base.task_data_template[29040] = {
 }
 
 
+_G.pg.base.task_data_template[29069] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 911161,
+	type = 26,
+	is_head = 0,
+	count_inherit = 0,
+	name = "『2.5次元联动』七天双任务送美花莉-1",
+	desc = "舰队出征，以S评价通关10次",
+	sub_type = 24,
+	task_fold = 0,
+	story_icon = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 0,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	tutorial_handbook_pic = "",
+	activity_client_config = "",
+	id = 29069,
+	target_num = 10,
+	fix_task = 0,
+	target_id = "0",
+	open_need = {},
+	award_display = {
+		{
+			4,
+			11800021,
+			1
+		}
+	},
+	scene = {
+		"LEVEL"
+	}
+}
+
+
+_G.pg.base.task_data_template[29070] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 911162,
+	type = 26,
+	is_head = 0,
+	count_inherit = 0,
+	name = "『2.5次元联动』七天双任务送美花莉-2",
+	desc = "登录游戏",
+	sub_type = 1011,
+	task_fold = 0,
+	story_icon = "",
+	scene = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 0,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	tutorial_handbook_pic = "",
+	activity_client_config = "",
+	id = 29070,
+	target_num = 1,
+	fix_task = 0,
+	target_id = "0",
+	open_need = {},
+	award_display = {
+		{
+			21,
+			15980,
+			1
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[29071] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 911163,
+	type = 26,
+	is_head = 0,
+	count_inherit = 0,
+	name = "『2.5次元联动』七天双任务送美花莉-3",
+	desc = "进行2次演习",
+	sub_type = 27,
+	task_fold = 0,
+	story_icon = "",
+	scene = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 0,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	tutorial_handbook_pic = "",
+	activity_client_config = "",
+	id = 29071,
+	target_num = 2,
+	fix_task = 0,
+	target_id = "0",
+	open_need = {},
+	award_display = {
+		{
+			1,
+			1,
+			100
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[29072] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 911164,
+	type = 26,
+	is_head = 0,
+	count_inherit = 0,
+	name = "『2.5次元联动』七天双任务送美花莉-4",
+	desc = "完成军事委托2次",
+	sub_type = 80,
+	task_fold = 0,
+	story_icon = "",
+	scene = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 0,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	tutorial_handbook_pic = "",
+	activity_client_config = "",
+	id = 29072,
+	target_num = 2,
+	fix_task = 0,
+	target_id = "0",
+	open_need = {},
+	award_display = {
+		{
+			8,
+			54032,
+			2
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[29055] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 911165,
+	type = 26,
+	is_head = 0,
+	count_inherit = 0,
+	name = "『2.5次元联动』七天双任务送美花莉-5",
+	desc = "舰船退役2次",
+	sub_type = 31,
+	task_fold = 0,
+	story_icon = "",
+	scene = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 0,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	tutorial_handbook_pic = "",
+	activity_client_config = "",
+	id = 29055,
+	target_num = 2,
+	fix_task = 0,
+	target_id = "0",
+	open_need = {},
+	award_display = {
+		{
+			9,
+			1546,
+			1
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[29056] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 911166,
+	type = 26,
+	is_head = 0,
+	count_inherit = 0,
+	name = "『2.5次元联动』七天双任务送美花莉-6",
+	desc = "完成3次每日挑战",
+	sub_type = 186,
+	task_fold = 0,
+	story_icon = "",
+	scene = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 0,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	tutorial_handbook_pic = "",
+	activity_client_config = "",
+	id = 29056,
+	target_num = 3,
+	fix_task = 0,
+	target_id = "0",
+	open_need = {},
+	award_display = {
+		{
+			8,
+			54015,
+			6
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[29057] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 911167,
+	type = 26,
+	is_head = 0,
+	count_inherit = 0,
+	name = "『2.5次元联动』七天双任务送美花莉-7",
+	desc = "舰船强化5次",
+	sub_type = 34,
+	task_fold = 0,
+	story_icon = "",
+	scene = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 0,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	tutorial_handbook_pic = "",
+	activity_client_config = "",
+	id = 29057,
+	target_num = 5,
+	fix_task = 0,
+	target_id = "0",
+	open_need = {},
+	award_display = {
+		{
+			8,
+			68761,
+			1
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[29058] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 911168,
+	type = 26,
+	is_head = 0,
+	count_inherit = 0,
+	name = "『2.5次元联动』七天双任务送美花莉-8",
+	desc = "进行战术训练2次",
+	sub_type = 71,
+	task_fold = 0,
+	story_icon = "",
+	scene = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 0,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	tutorial_handbook_pic = "",
+	activity_client_config = "",
+	id = 29058,
+	target_num = 2,
+	fix_task = 0,
+	target_id = "0",
+	open_need = {},
+	award_display = {
+		{
+			8,
+			54005,
+			4
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[29059] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 911169,
+	type = 26,
+	is_head = 0,
+	count_inherit = 0,
+	name = "『2.5次元联动』七天双任务送美花莉-9",
+	desc = "击沉任意敌人20艘",
+	sub_type = 11,
+	task_fold = 0,
+	story_icon = "",
+	scene = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 0,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	tutorial_handbook_pic = "",
+	activity_client_config = "",
+	id = 29059,
+	target_num = 20,
+	fix_task = 0,
+	target_id = "0",
+	open_need = {},
+	award_display = {
+		{
+			9,
+			1544,
+			1
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[29060] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 911170,
+	type = 26,
+	is_head = 0,
+	count_inherit = 0,
+	name = "『2.5次元联动』七天双任务送美花莉-10",
+	desc = "后宅补充食物5次",
+	sub_type = 61,
+	task_fold = 0,
+	story_icon = "",
+	scene = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 0,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	tutorial_handbook_pic = "",
+	activity_client_config = "",
+	id = 29060,
+	target_num = 5,
+	fix_task = 0,
+	target_id = "0",
+	open_need = {},
+	award_display = {
+		{
+			8,
+			54033,
+			2
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[29061] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 911171,
+	type = 26,
+	is_head = 0,
+	count_inherit = 0,
+	name = "『2.5次元联动』七天双任务送美花莉-11",
+	desc = "建造舰船2次",
+	sub_type = 30,
+	task_fold = 0,
+	story_icon = "",
+	scene = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 0,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	tutorial_handbook_pic = "",
+	activity_client_config = "",
+	id = 29061,
+	target_num = 2,
+	fix_task = 0,
+	target_id = "0",
+	open_need = {},
+	award_display = {
+		{
+			9,
+			1548,
+			1
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[29062] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 911172,
+	type = 26,
+	is_head = 0,
+	count_inherit = 0,
+	name = "『2.5次元联动』七天双任务送美花莉-12",
+	desc = "打开任意科技箱1个",
+	sub_type = 50,
+	task_fold = 0,
+	story_icon = "",
+	scene = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 0,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	tutorial_handbook_pic = "",
+	activity_client_config = "",
+	id = 29062,
+	target_num = 1,
+	fix_task = 0,
+	target_id = "0",
+	open_need = {},
+	award_display = {
+		{
+			8,
+			54016,
+			6
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[29063] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 911173,
+	type = 26,
+	is_head = 0,
+	count_inherit = 0,
+	name = "『2.5次元联动』七天双任务送美花莉-13",
+	desc = "进行2次战术训练",
+	sub_type = 71,
+	task_fold = 0,
+	story_icon = "",
+	scene = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 0,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	tutorial_handbook_pic = "",
+	activity_client_config = "",
+	id = 29063,
+	target_num = 2,
+	fix_task = 0,
+	target_id = "0",
+	open_need = {},
+	award_display = {
+		{
+			9,
+			1542,
+			1
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[29064] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 911174,
+	type = 26,
+	is_head = 0,
+	count_inherit = 0,
+	name = "『2.5次元联动』七天双任务送美花莉-14",
+	desc = "击败旗舰3次 ",
+	sub_type = 21,
+	task_fold = 0,
+	story_icon = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 0,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	tutorial_handbook_pic = "",
+	activity_client_config = "",
+	id = 29064,
+	target_num = 3,
+	fix_task = 0,
+	target_id = "0",
+	open_need = {},
+	award_display = {
+		{
+			8,
+			54006,
+			4
+		}
+	},
+	scene = {
+		"LEVEL"
+	}
+}
+
+
+_G.pg.base.task_data_template[29065] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 911158,
+	type = 6,
+	is_head = 1,
+	count_inherit = 0,
+	name = "『2.5次元联动』活动关通关1",
+	desc = "看不到",
+	sub_type = 20,
+	task_fold = 0,
+	story_icon = "",
+	scene = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 0,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	tutorial_handbook_pic = "",
+	activity_client_config = "",
+	id = 29065,
+	target_num = 1,
+	fix_task = 0,
+	target_id = {
+		2079001
+	},
+	open_need = {},
+	award_display = {
+		{
+			2,
+			15008,
+			100
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[29066] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 911159,
+	type = 6,
+	is_head = 1,
+	count_inherit = 0,
+	name = "『2.5次元联动』活动关通关2",
+	desc = "看不到",
+	sub_type = 20,
+	task_fold = 0,
+	story_icon = "",
+	scene = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 0,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	tutorial_handbook_pic = "",
+	activity_client_config = "",
+	id = 29066,
+	target_num = 1,
+	fix_task = 0,
+	target_id = {
+		2079002
+	},
+	open_need = {},
+	award_display = {
+		{
+			2,
+			15008,
+			200
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[29067] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 911160,
+	type = 6,
+	is_head = 1,
+	count_inherit = 0,
+	name = "『2.5次元联动』活动关通关3",
+	desc = "看不到",
+	sub_type = 20,
+	task_fold = 0,
+	story_icon = "",
+	scene = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 0,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	tutorial_handbook_pic = "",
+	activity_client_config = "",
+	id = 29067,
+	target_num = 1,
+	fix_task = 0,
+	target_id = {
+		2079003
+	},
+	open_need = {},
+	award_display = {
+		{
+			5,
+			353,
+			1
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[29068] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 911175,
+	type = 6,
+	is_head = 1,
+	count_inherit = 0,
+	name = "『2.5次元联动』剧情模式通关",
+	desc = "完成「剧情模式」 ",
+	sub_type = 1005,
+	task_fold = 0,
+	story_icon = "",
+	scene = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 1,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	tutorial_handbook_pic = "",
+	activity_client_config = "",
+	id = 29068,
+	target_num = 1,
+	fix_task = 0,
+	target_id = {
+		8157
+	},
+	open_need = {},
+	award_display = {
+		{
+			2,
+			20001,
+			5
+		}
+	}
+}
+
+
 _G.pg.base.task_data_template[31017] = {
 	target_id_2 = "",
 	guild_coin_award = 0,

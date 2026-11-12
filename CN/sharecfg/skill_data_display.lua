@@ -3320,6 +3320,14 @@ pg.skill_data_display.all = {
 	117070,
 	117073,
 	117079,
+	118011,
+	118018,
+	118021,
+	118051,
+	118052,
+	118063,
+	118071,
+	118073,
 	152581,
 	152582,
 	152583,
@@ -3994,6 +4002,8 @@ pg.skill_data_display.all = {
 	201895,
 	201898,
 	201905,
+	201952,
+	201954,
 	1011540,
 	1011541,
 	1090010,
@@ -17623,6 +17633,38 @@ end)()
 		id = 117079,
 		name = "重击破斩 +"
 	}
+	pg.base.skill_data_display[118011] = {
+		id = 118011,
+		name = "莉莉艾露治疗"
+	}
+	pg.base.skill_data_display[118018] = {
+		id = 118018,
+		name = "莉莉艾露治疗"
+	}
+	pg.base.skill_data_display[118021] = {
+		id = 118021,
+		name = "莉莉艾露爆破"
+	}
+	pg.base.skill_data_display[118051] = {
+		id = 118051,
+		name = "美莉艾拉射击"
+	}
+	pg.base.skill_data_display[118052] = {
+		id = 118052,
+		name = "美莉艾拉射击"
+	}
+	pg.base.skill_data_display[118063] = {
+		id = 118063,
+		name = "美莉艾拉共鸣"
+	}
+	pg.base.skill_data_display[118071] = {
+		id = 118071,
+		name = "美莉艾拉共鸣 +"
+	}
+	pg.base.skill_data_display[118073] = {
+		id = 118073,
+		name = "美莉艾拉共鸣 +"
+	}
 	pg.base.skill_data_display[152581] = {
 		id = 152581,
 		name = "更幸运！"
@@ -17927,6 +17969,8 @@ end)()
 		id = 600171,
 		name = "生命之球"
 	}
+end)()
+(function ()
 	pg.base.skill_data_display[600172] = {
 		id = 600172,
 		name = "生命之球"
@@ -17959,8 +18003,6 @@ end)()
 		id = 800010,
 		name = "烬火枪焰"
 	}
-end)()
-(function ()
 	pg.base.skill_data_display[800020] = {
 		id = 800020,
 		name = "幻影强袭"
@@ -18329,6 +18371,8 @@ end)()
 		id = 800431,
 		name = "目标与共识"
 	}
+end)()
+(function ()
 	pg.base.skill_data_display[800440] = {
 		id = 800440,
 		name = "看破与协作"
@@ -18361,8 +18405,6 @@ end)()
 		id = 800473,
 		name = "反击焰火"
 	}
-end)()
-(function ()
 	pg.base.skill_data_display[800480] = {
 		id = 800480,
 		name = "历战之炎"
@@ -18731,6 +18773,8 @@ end)()
 		id = 801221,
 		name = "秘仪之力-航空"
 	}
+end)()
+(function ()
 	pg.base.skill_data_display[801222] = {
 		id = 801222,
 		name = "秘仪之力-炮击"
@@ -18763,8 +18807,6 @@ end)()
 		id = 801363,
 		name = "月亏月盈"
 	}
-end)()
-(function ()
 	pg.base.skill_data_display[801371] = {
 		id = 801371,
 		name = "雨织雨散III"
@@ -19133,6 +19175,8 @@ end)()
 		id = 802141,
 		name = "逐光之焰·{namecode:516}I"
 	}
+end)()
+(function ()
 	pg.base.skill_data_display[802142] = {
 		id = 802142,
 		name = "逐光之焰·{namecode:516}II"
@@ -19165,8 +19209,6 @@ end)()
 		id = 802371,
 		name = "闪耀★璀璨登场"
 	}
-end)()
-(function ()
 	pg.base.skill_data_display[802372] = {
 		id = 802372,
 		name = "闪耀★璀璨登场"
@@ -19535,6 +19577,8 @@ end)()
 		id = 200349,
 		name = "行其谕"
 	}
+end)()
+(function ()
 	pg.base.skill_data_display[200351] = {
 		id = 200351,
 		name = "信仰加护-Iris"
@@ -19567,8 +19611,6 @@ end)()
 		id = 200455,
 		name = "焰光之链"
 	}
-end)()
-(function ()
 	pg.base.skill_data_display[200456] = {
 		id = 200456,
 		name = "「机关系统IX=XV连协支援接入」"
@@ -19937,6 +19979,8 @@ end)()
 		id = 201028,
 		name = "变革之路"
 	}
+end)()
+(function ()
 	pg.base.skill_data_display[201030] = {
 		id = 201030,
 		name = "苍蓝之约"
@@ -19969,8 +20013,6 @@ end)()
 		id = 201117,
 		name = "苏醒的苍红之炎"
 	}
-end)()
-(function ()
 	pg.base.skill_data_display[201132] = {
 		id = 201132,
 		name = "云开雾散"
@@ -20331,6 +20373,16 @@ end)()
 		id = 201905,
 		name = "共鸣之声"
 	}
+	pg.base.skill_data_display[201952] = {
+		id = 201952,
+		name = "「萨沃伊亲王援护」"
+	}
+	pg.base.skill_data_display[201954] = {
+		id = 201954,
+		name = "「Grin and fire！」"
+	}
+end)()
+(function ()
 	pg.base.skill_data_display[1011540] = {
 		id = 1011540,
 		name = "最后的炮火 +"
@@ -20371,8 +20423,6 @@ end)()
 		id = 1011624,
 		name = "命运之骰 +"
 	}
-end)()
-(function ()
 	pg.base.skill_data_display[1011625] = {
 		id = 1011625,
 		name = "命运之骰 +"
@@ -20733,6 +20783,8 @@ end)()
 		id = 1019092,
 		name = "专业装填手 +"
 	}
+end)()
+(function ()
 	pg.base.skill_data_display[1019110] = {
 		id = 1019110,
 		name = "高爆穿甲弹 +"
@@ -20773,8 +20825,6 @@ end)()
 		id = 1013020,
 		name = "冰结锋芒+"
 	}
-end)()
-(function ()
 	pg.base.skill_data_display[1013021] = {
 		id = 1013021,
 		name = "冰结锋芒+"
@@ -21135,6 +21185,8 @@ end)()
 		id = 1012501,
 		name = "咆哮的挑战者 +"
 	}
+end)()
+(function ()
 	pg.base.skill_data_display[1012502] = {
 		id = 1012502,
 		name = "咆哮的挑战者 +"
@@ -21175,8 +21227,6 @@ end)()
 		id = 1090091,
 		name = "变迁的记忆·加富尔伯爵"
 	}
-end)()
-(function ()
 	pg.base.skill_data_display[1090092] = {
 		id = 1090092,
 		name = "变迁的记忆·加富尔伯爵"

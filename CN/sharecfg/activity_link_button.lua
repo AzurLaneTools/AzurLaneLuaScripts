@@ -467,7 +467,7 @@ pg.base.activity_link_button = {}
 		}
 	}
 	pg.base.activity_link_button[109] = {
-		param = "WindFogCorridorCoreActivityUI",
+		param = "TwoPointFiveCoreActivityUI",
 		name = "event_core",
 		text_pic = "text_event_core",
 		type = 16,
@@ -477,21 +477,21 @@ pg.base.activity_link_button = {}
 		order = 1,
 		time = {
 			"default",
-			51607
+			51301
 		}
 	}
 	pg.base.activity_link_button[110] = {
-		param = "HurricaneTreasureCoreActivityUI",
+		param = "RapidSeasideCoreActivityUI",
 		name = "event_core_2",
 		text_pic = "text_event_core3",
 		type = 16,
 		pic = "event_core3",
 		id = 110,
-		group_id = 1,
-		order = 1,
+		group_id = 2,
+		order = 2,
 		time = {
 			"default",
-			51616
+			51090
 		}
 	}
 	pg.base.activity_link_button[111] = {

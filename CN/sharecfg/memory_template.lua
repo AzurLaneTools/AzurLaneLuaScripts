@@ -4473,6 +4473,13 @@ pg.memory_template.all = {
 	5615,
 	5616,
 	5617,
+	5621,
+	5622,
+	5623,
+	5624,
+	5625,
+	5631,
+	5632,
 	10011,
 	10012,
 	10013,
@@ -85285,6 +85292,132 @@ end)()
 			"XIANGBIN7"
 		}
 	}
+	pg.base.memory_template[5621] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 2,
+		number = 0,
+		title = "异次元的新生活",
+		condition = "进入 EPS-1",
+		story = "2079004",
+		mask = "bg/bg_memory",
+		task = 0,
+		year = 0,
+		id = 5621,
+		icon = "memory_tianshimengdebilanwutai1",
+		is_open = 0,
+		unlock_pre = {
+			"2079004"
+		}
+	}
+	pg.base.memory_template[5622] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "来办展示会吧！",
+		condition = "进入 EPS-2",
+		story = "TIANSHIMENDEBILANWUTAIZHANHUI2",
+		mask = "bg/bg_memory",
+		task = 0,
+		year = 0,
+		id = 5622,
+		icon = "memory_tianshimengdebilanwutai1",
+		is_open = 0,
+		unlock_pre = {
+			"TIANSHIMENDEBILANWUTAIZHANHUI2"
+		}
+	}
+	pg.base.memory_template[5623] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "展示会的准备",
+		condition = "进入 EPS-3",
+		story = "TIANSHIMENDEBILANWUTAIZHANHUI3",
+		mask = "bg/bg_memory",
+		task = 0,
+		year = 0,
+		id = 5623,
+		icon = "memory_tianshimengdebilanwutai1",
+		is_open = 0,
+		unlock_pre = {
+			"TIANSHIMENDEBILANWUTAIZHANHUI3"
+		}
+	}
+	pg.base.memory_template[5624] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "总要有的温泉回？",
+		condition = "进入 EPS-4",
+		story = "TIANSHIMENDEBILANWUTAIZHANHUI4",
+		mask = "bg/bg_memory",
+		task = 0,
+		year = 0,
+		id = 5624,
+		icon = "memory_tianshimengdebilanwutai1",
+		is_open = 0,
+		unlock_pre = {
+			"TIANSHIMENDEBILANWUTAIZHANHUI4"
+		}
+	}
+	pg.base.memory_template[5625] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "展示会，大成功！",
+		condition = "进入 EPS-5",
+		story = "TIANSHIMENDEBILANWUTAIZHANHUI5",
+		mask = "bg/bg_memory",
+		task = 0,
+		year = 0,
+		id = 5625,
+		icon = "memory_tianshimengdebilanwutai1",
+		is_open = 0,
+		unlock_pre = {
+			"TIANSHIMENDEBILANWUTAIZHANHUI5"
+		}
+	}
+	pg.base.memory_template[5631] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "理理沙的茶会特训",
+		condition = "参与「天使舞台L」活动",
+		story = "TIANSHIMENDEBILANWUTAIRICHANG1",
+		mask = "bg/bg_memory",
+		task = 0,
+		year = 0,
+		id = 5631,
+		icon = "memory_tianshimengdebilanwutai2",
+		is_open = 0,
+		unlock_pre = {
+			"TIANSHIMENDEBILANWUTAIRICHANG1"
+		}
+	}
+	pg.base.memory_template[5632] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "美花莉认真工作中",
+		condition = "参与「天使舞台M」活动",
+		story = "TIANSHIMENDEBILANWUTAIRICHANG2",
+		mask = "bg/bg_memory",
+		task = 0,
+		year = 0,
+		id = 5632,
+		icon = "memory_tianshimengdebilanwutai2",
+		is_open = 0,
+		unlock_pre = {
+			"TIANSHIMENDEBILANWUTAIRICHANG2"
+		}
+	}
 	pg.base.memory_template[10011] = {
 		ship_group = 0,
 		subtitle = "",
@@ -85717,6 +85850,8 @@ end)()
 			"NEPU_STAGE102"
 		}
 	}
+end)()
+(function ()
 	pg.base.memory_template[10045] = {
 		ship_group = 0,
 		subtitle = "",
@@ -85843,8 +85978,6 @@ end)()
 			"YINGHUA1"
 		}
 	}
-end)()
-(function ()
 	pg.base.memory_template[10052] = {
 		ship_group = 0,
 		subtitle = "",
@@ -87519,6 +87652,8 @@ end)()
 			"LINGHANGYUANTANXIN15"
 		}
 	}
+end)()
+(function ()
 	pg.base.memory_template[20067] = {
 		ship_group = 0,
 		subtitle = "",
@@ -87645,8 +87780,6 @@ end)()
 			"LINGHANGYUANTANXIN22"
 		}
 	}
-end)()
-(function ()
 	pg.base.memory_template[20074] = {
 		ship_group = 0,
 		subtitle = "",
@@ -89321,6 +89454,8 @@ end)()
 			"TANSUOZHEYANGCHENGJIHUA18"
 		}
 	}
+end)()
+(function ()
 	pg.base.memory_template[20168] = {
 		ship_group = 0,
 		subtitle = "",
@@ -89447,8 +89582,6 @@ end)()
 			"TANSUOZHEYANGCHENGJIHUA25"
 		}
 	}
-end)()
-(function ()
 	pg.base.memory_template[20175] = {
 		ship_group = 0,
 		subtitle = "",

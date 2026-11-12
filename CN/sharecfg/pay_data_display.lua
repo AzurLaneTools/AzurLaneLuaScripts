@@ -238,6 +238,9 @@ pg.pay_data_display.all = {
 	2093,
 	2094,
 	2095,
+	2096,
+	2097,
+	2098,
 	5001,
 	5002,
 	5003,
@@ -470,6 +473,9 @@ pg.pay_data_display.get_id_list_by_extra_service = {
 		2093,
 		2094,
 		2095,
+		2096,
+		2097,
+		2098,
 		5001,
 		5002,
 		5003,
@@ -25312,6 +25318,272 @@ end)()
 			{
 				2,
 				40090,
+				1
+			}
+		}
+	}
+	pg.base.pay_data_display[2096] = {
+		picture = "ui12",
+		name = "天使舞台主题礼包",
+		type = 0,
+		second_text = "",
+		tag = 2,
+		subject = "天使舞台主题礼包",
+		gem = 0,
+		first_pay_double = 0,
+		show_group = "uigift",
+		money = 78,
+		descrip_extra = "此处不会被看到",
+		limit_group = 112,
+		id = 2096,
+		type_order = 4,
+		package_tag = "",
+		limit_type = 5,
+		package_sort_id = 0,
+		first_icon = "",
+		tip = "",
+		tip_open = 0,
+		cash_show = 0,
+		id_str = "",
+		extra_gem = 0,
+		descrip = "可获得战斗界面主题 天使舞台*1",
+		airijp_id = "",
+		name_display = "天使舞台主题礼包",
+		first_text = "",
+		akashi_pick = 1,
+		skin_inquire_relation = 0,
+		extra_service = 3,
+		limit_arg = 0,
+		package_tag_open = 0,
+		extra_service_item = {
+			{
+				31,
+				211,
+				1
+			}
+		},
+		time = {
+			{
+				{
+					2026,
+					11,
+					12
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2026,
+					11,
+					25
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		display = {
+			{
+				31,
+				211,
+				1
+			}
+		},
+		sub_display = {},
+		ignorePlatform = {},
+		limit_args = {},
+		drop_item = {}
+	}
+	pg.base.pay_data_display[2097] = {
+		picture = "ui12",
+		name = "天使舞台主题礼包(基础版)",
+		type = 0,
+		second_text = "",
+		tag = 2,
+		subject = "天使舞台主题礼包(基础版)",
+		gem = 0,
+		first_pay_double = 0,
+		show_group = "uigift",
+		money = 78,
+		descrip_extra = "*礼包将发送到邮箱，请注意查收。",
+		limit_group = 112,
+		id = 2097,
+		type_order = 4,
+		package_tag = "",
+		limit_type = 5,
+		package_sort_id = 0,
+		first_icon = "",
+		tip = "",
+		tip_open = 0,
+		cash_show = 0,
+		id_str = "com.bilibili.blhx.ui31",
+		extra_gem = 0,
+		descrip = "可获得战斗界面主题 天使舞台*1,1000物资",
+		airijp_id = "com.yostarjp.azurlane.ui31",
+		name_display = "天使舞台主题礼包(基础版)",
+		first_text = "",
+		akashi_pick = 1,
+		skin_inquire_relation = 0,
+		extra_service = 3,
+		limit_arg = 1,
+		package_tag_open = 0,
+		extra_service_item = {
+			{
+				31,
+				211,
+				1
+			},
+			{
+				1,
+				1,
+				1000
+			}
+		},
+		time = {
+			{
+				{
+					2026,
+					11,
+					12
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2026,
+					11,
+					25
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		display = {
+			{
+				31,
+				211,
+				1
+			},
+			{
+				1,
+				1,
+				1000
+			}
+		},
+		sub_display = {},
+		ignorePlatform = {},
+		limit_args = {},
+		drop_item = {
+			{
+				2,
+				40091,
+				1
+			}
+		}
+	}
+	pg.base.pay_data_display[2098] = {
+		picture = "ui12",
+		name = "天使舞台主题礼包(豪华版)",
+		type = 0,
+		second_text = "",
+		tag = 2,
+		subject = "天使舞台主题礼包(豪华版)",
+		gem = 0,
+		first_pay_double = 0,
+		show_group = "uigift",
+		money = 258,
+		descrip_extra = "*礼包将发送到邮箱，请注意查收。",
+		limit_group = 112,
+		id = 2098,
+		type_order = 4,
+		package_tag = "",
+		limit_type = 5,
+		package_sort_id = 0,
+		first_icon = "",
+		tip = "",
+		tip_open = 0,
+		cash_show = 0,
+		id_str = "com.bilibili.blhx.ui32",
+		extra_gem = 0,
+		descrip = "可获得战斗界面主题 天使舞台*1,3060钻石",
+		airijp_id = "com.yostarjp.azurlane.ui32",
+		name_display = "天使舞台主题礼包(豪华版)",
+		first_text = "",
+		akashi_pick = 1,
+		skin_inquire_relation = 0,
+		extra_service = 3,
+		limit_arg = 1,
+		package_tag_open = 0,
+		extra_service_item = {
+			{
+				31,
+				211,
+				1
+			},
+			{
+				1,
+				14,
+				3060
+			}
+		},
+		time = {
+			{
+				{
+					2026,
+					11,
+					12
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2026,
+					11,
+					25
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		display = {
+			{
+				31,
+				211,
+				1
+			},
+			{
+				1,
+				14,
+				3060
+			}
+		},
+		sub_display = {},
+		ignorePlatform = {},
+		limit_args = {},
+		drop_item = {
+			{
+				2,
+				40092,
 				1
 			}
 		}

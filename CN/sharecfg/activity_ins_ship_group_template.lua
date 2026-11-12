@@ -723,7 +723,9 @@ pg.activity_ins_ship_group_template.all = {
 	960021,
 	20109,
 	10312,
-	20111
+	20111,
+	118001,
+	118002
 }
 pg.base = pg.base or {}
 pg.base.activity_ins_ship_group_template = {}
@@ -7231,6 +7233,24 @@ end)()
 		background = "",
 		sculpture = "huti",
 		nationality = 2,
+		type = 1,
+		sculpture_ii = ""
+	}
+	pg.base.activity_ins_ship_group_template[118001] = {
+		ship_group = 118001,
+		name = "Liliel Angel Paratroopers",
+		background = "",
+		sculpture = "lilisha",
+		nationality = 0,
+		type = 1,
+		sculpture_ii = ""
+	}
+	pg.base.activity_ins_ship_group_template[118002] = {
+		ship_group = 118002,
+		name = "Miriella Angel Paratroopers",
+		background = "",
+		sculpture = "jumeihuali",
+		nationality = 0,
 		type = 1,
 		sculpture_ii = ""
 	}

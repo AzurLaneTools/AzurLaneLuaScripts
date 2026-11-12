@@ -241,6 +241,7 @@ pg.activity_event_pt.all = {
 	51144,
 	51135,
 	51607,
+	51303,
 	1020,
 	1021,
 	1022,
@@ -44514,6 +44515,79 @@ end)()
 			0
 		}
 	}
+	pg.base.activity_event_pt[51303] = {
+		convert_resource_type = 0,
+		pic_list = "",
+		type = 3,
+		convert_pay = "",
+		end_time = "",
+		buff_group = "",
+		buff_time = "",
+		id_2 = 51303,
+		link_id = 0,
+		unlock_story = "",
+		target_buff = "",
+		drop_display = "",
+		pt_list = "",
+		id = 51303,
+		pt = 0,
+		target = {
+			100,
+			250,
+			400,
+			600,
+			850,
+			1150,
+			1500
+		},
+		drop_client = {
+			{
+				4,
+				11800011,
+				1
+			},
+			{
+				21,
+				15960,
+				1
+			},
+			{
+				9,
+				1547,
+				1
+			},
+			{
+				9,
+				1545,
+				1
+			},
+			{
+				9,
+				1543,
+				1
+			},
+			{
+				8,
+				68761,
+				1
+			},
+			{
+				9,
+				1541,
+				1
+			}
+		},
+		allplayer = {},
+		day_unlock = {
+			1,
+			2,
+			3,
+			4,
+			5,
+			6,
+			7
+		}
+	}
 	pg.base.activity_event_pt[1020] = {
 		convert_resource_type = 0,
 		pic_list = "",
@@ -59608,6 +59682,8 @@ end)()
 			0
 		}
 	}
+end)()
+(function ()
 	pg.base.activity_event_pt[40327] = {
 		convert_resource_type = 0,
 		pic_list = "",
@@ -59774,8 +59850,6 @@ end)()
 			0
 		}
 	}
-end)()
-(function ()
 	pg.base.activity_event_pt[40331] = {
 		convert_resource_type = 0,
 		pic_list = "",
@@ -80192,6 +80266,8 @@ end)()
 			0
 		}
 	}
+end)()
+(function ()
 	pg.base.activity_event_pt[50205] = {
 		convert_resource_type = 0,
 		pic_list = "",
@@ -80519,8 +80595,6 @@ end)()
 			0
 		}
 	}
-end)()
-(function ()
 	pg.base.activity_event_pt[50378] = {
 		convert_resource_type = 0,
 		pic_list = "",

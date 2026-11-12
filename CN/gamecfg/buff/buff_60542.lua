@@ -204,6 +204,24 @@ return {
 					"TargetNationality"
 				},
 				nationality = {
+					96
+				}
+			}
+		},
+		{
+			type = "BattleBuffAddBuff",
+			trigger = {
+				"onAttach"
+			},
+			arg_list = {
+				minTargetNumber = 1,
+				buff_id = 60543,
+				target = "TargetAllHelp",
+				check_target = {
+					"TargetAllHelp",
+					"TargetNationality"
+				},
+				nationality = {
 					97
 				}
 			}

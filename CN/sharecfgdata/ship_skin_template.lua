@@ -359579,6 +359579,596 @@ _G.pg.base.ship_skin_template[11700021] = {
 }
 
 
+_G.pg.base.ship_skin_template[11800010] = {
+	name = "莉莉艾露 天使空降队/理理沙",
+	change_skin = "",
+	desc = "初、初次见面！我是莉莉艾露，自天而降的天使莉莉艾露！我会守护你的！——咦？这是哪里？感觉好陌生……还有，请问你是哪位呢？",
+	illustrator2 = -1,
+	ship_group = 1180001,
+	group_index = 0,
+	purchase_offset = "",
+	painting = "lilisha",
+	lover_hand = "hand_2_02",
+	skin_type = -1,
+	shop_type_id = 0,
+	l2d_ignore_drag = 0,
+	hand_id = 13,
+	lip_smoothing = 0,
+	l2d_animations = "",
+	lover_kiss = "lip02",
+	bg_sp = "",
+	bg = "",
+	bgm = "",
+	spine_use_live2d = 0,
+	spine_action_offset = false,
+	spine_offset_profile = "",
+	shop_offset = "",
+	special_effects = "",
+	id = 11800010,
+	voice_actor_2 = -1,
+	gyro = 0,
+	ship_l2d_id = "",
+	l2d_drag_rate = "",
+	prefab = "lilisha",
+	l2d_se = "",
+	part_scale = "",
+	get_showing = "",
+	main_UI_FX = "",
+	shop_id = 0,
+	voice_actor = 291,
+	shop_dynamic_hx = 0,
+	spine_offset = "",
+	illustrator = -1,
+	rarity_bg = "",
+	double_char = 0,
+	skeleton_default_skin = "",
+	voice_lang = "",
+	time = "",
+	l2d_para_range = "",
+	lip_sync_gain = 0,
+	live2d_offset_profile = "",
+	show_skin = "stand",
+	l2d_voice_calibrate = "",
+	tag = {},
+	live2d_offset = {
+		0,
+		0,
+		0
+	},
+	fx_container = {
+		{
+			0,
+			1.99185,
+			1.15
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0.75,
+			-1.299
+		},
+		{
+			0,
+			0,
+			0
+		}
+	},
+	bound_bone = {
+		cannon = {
+			{
+				0.91,
+				0.801,
+				0
+			}
+		},
+		vicegun = {
+			{
+				1.446,
+				0.762,
+				0
+			}
+		},
+		torpedo = {
+			{
+				0,
+				0,
+				0
+			}
+		},
+		antiaircraft = {
+			{
+				0.666,
+				2.465,
+				0
+			}
+		}
+	},
+	smoke = {
+		{
+			50,
+			{
+				{
+					"smoke",
+					{
+						-0.609,
+						2.334,
+						0
+					}
+				}
+			}
+		}
+	}
+}
+
+
+_G.pg.base.ship_skin_template[11800011] = {
+	name = "身心皆奉",
+	change_skin = "",
+	desc = "换装可是故事里的重头戏呢！——咳咳！天使莉莉艾露，觉醒了全新的力量！这样一来，我也是港区的一员了！从今以后，我也会全心全意为亲爱的献上助力！今后也请多多关照♡",
+	illustrator2 = -1,
+	ship_group = 1180001,
+	group_index = 1,
+	purchase_offset = "",
+	painting = "lilisha_2",
+	lover_hand = "hand_2_02",
+	skin_type = 4,
+	shop_type_id = 9,
+	l2d_ignore_drag = 0,
+	hand_id = 13,
+	lip_smoothing = 0,
+	l2d_animations = "",
+	lover_kiss = "lip02",
+	bg_sp = "",
+	bg = "196",
+	bgm = "story-richang-lightsweet",
+	spine_use_live2d = 0,
+	spine_action_offset = false,
+	special_effects = "",
+	id = 11800011,
+	voice_actor_2 = -1,
+	gyro = 0,
+	ship_l2d_id = "",
+	l2d_drag_rate = "",
+	prefab = "lilisha_2",
+	l2d_se = "",
+	part_scale = "",
+	main_UI_FX = "",
+	shop_id = 71422,
+	voice_actor = 291,
+	shop_dynamic_hx = 0,
+	illustrator = -1,
+	rarity_bg = "",
+	double_char = 0,
+	skeleton_default_skin = "",
+	voice_lang = "",
+	time = "",
+	l2d_para_range = "",
+	lip_sync_gain = 0,
+	live2d_offset_profile = "",
+	show_skin = "stand",
+	l2d_voice_calibrate = "",
+	tag = {
+		6,
+		2,
+		5
+	},
+	live2d_offset = {
+		0,
+		0,
+		0
+	},
+	shop_offset = {
+		-186.5,
+		60,
+		0,
+		0.3
+	},
+	spine_offset_profile = {
+		-100,
+		75,
+		0,
+		0.32
+	},
+	fx_container = {
+		{
+			0,
+			1.99185,
+			1.15
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0.75,
+			-1.299
+		},
+		{
+			0,
+			0,
+			0
+		}
+	},
+	bound_bone = {
+		cannon = {
+			{
+				0.887,
+				0.803,
+				0
+			}
+		},
+		torpedo = {
+			{
+				0,
+				0,
+				0
+			}
+		},
+		antiaircraft = {
+			{
+				0.673,
+				2.38,
+				0
+			}
+		}
+	},
+	smoke = {
+		{
+			50,
+			{
+				{
+					"smoke",
+					{
+						-0.593,
+						2.321,
+						0
+					}
+				}
+			}
+		}
+	},
+	spine_offset = {
+		140,
+		0,
+		0,
+		0.4
+	},
+	get_showing = {
+		show = 1,
+		data = {
+			{
+				-1853,
+				422,
+				2,
+				0,
+				160,
+				2
+			},
+			{
+				-437,
+				609,
+				2,
+				160,
+				0,
+				2
+			},
+			{
+				-991,
+				-195,
+				2,
+				0,
+				-148,
+				2
+			}
+		}
+	}
+}
+
+
+_G.pg.base.ship_skin_template[11800020] = {
+	name = "美莉艾拉 天使空降队/美花莉",
+	change_skin = "",
+	desc = "到底发生什么事了啊？！还有等一下，这里又是哪儿啊？！……嗯，虽然不知道原因，但至少你看起来不像是敌人呢。——好！咳咳！我叫美莉艾拉！接下来就要暂时承蒙关照了。在这期间，如果有什么我能帮上忙的地方，尽管开口哦！",
+	illustrator2 = -1,
+	ship_group = 1180002,
+	group_index = 0,
+	purchase_offset = "",
+	painting = "jumeihuali",
+	lover_hand = "hand_2_02",
+	skin_type = -1,
+	shop_type_id = 0,
+	l2d_ignore_drag = 0,
+	hand_id = 13,
+	lip_smoothing = 0,
+	l2d_animations = "",
+	lover_kiss = "lip02",
+	bg_sp = "",
+	bg = "",
+	bgm = "",
+	spine_use_live2d = 0,
+	spine_action_offset = false,
+	spine_offset_profile = "",
+	shop_offset = "",
+	special_effects = "",
+	id = 11800020,
+	voice_actor_2 = -1,
+	gyro = 0,
+	ship_l2d_id = "",
+	l2d_drag_rate = "",
+	prefab = "jumeihuali",
+	l2d_se = "",
+	part_scale = "",
+	get_showing = "",
+	main_UI_FX = "",
+	shop_id = 0,
+	voice_actor = 82,
+	shop_dynamic_hx = 0,
+	spine_offset = "",
+	illustrator = -1,
+	rarity_bg = "",
+	double_char = 0,
+	skeleton_default_skin = "",
+	voice_lang = "",
+	time = "",
+	l2d_para_range = "",
+	lip_sync_gain = 0,
+	live2d_offset_profile = "",
+	show_skin = "stand",
+	l2d_voice_calibrate = "",
+	tag = {},
+	live2d_offset = {
+		0,
+		0,
+		0
+	},
+	fx_container = {
+		{
+			0,
+			1.99185,
+			1.15
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0.75,
+			-1.299
+		},
+		{
+			0,
+			0,
+			0
+		}
+	},
+	bound_bone = {
+		cannon = {
+			{
+				1.032,
+				0.787,
+				0
+			}
+		},
+		vicegun = {
+			{
+				1.126,
+				1.044,
+				0
+			}
+		},
+		antiaircraft = {
+			{
+				0.793,
+				2.354,
+				0
+			}
+		}
+	},
+	smoke = {
+		{
+			70,
+			{
+				{
+					"smoke",
+					{
+						-0.57,
+						0.48,
+						0
+					}
+				}
+			}
+		},
+		{
+			30,
+			{
+				{
+					"smoke",
+					{
+						0.53,
+						0.47,
+						0
+					}
+				}
+			}
+		}
+	}
+}
+
+
+_G.pg.base.ship_skin_template[11800021] = {
+	name = "献给幸运的你",
+	change_skin = "",
+	desc = "Guten Tag，指挥官。我是获得了全新力量的超级美莉艾拉！这下无论面对什么样的敌人我都不会输了！——大概是这种感觉？怎么样，这副打扮？我自己倒是觉得特别合适……不过想听听你的真实感想呢。",
+	illustrator2 = -1,
+	ship_group = 1180002,
+	group_index = 1,
+	purchase_offset = "",
+	painting = "jumeihuali_2",
+	lover_hand = "hand_2_02",
+	skin_type = 4,
+	shop_type_id = 9,
+	l2d_ignore_drag = 0,
+	hand_id = 13,
+	lip_smoothing = 0,
+	l2d_animations = "",
+	lover_kiss = "lip02",
+	bg_sp = "",
+	bg = "196",
+	bgm = "story-richang-lightsweet",
+	spine_use_live2d = 0,
+	spine_action_offset = false,
+	special_effects = "",
+	id = 11800021,
+	voice_actor_2 = -1,
+	gyro = 0,
+	ship_l2d_id = "",
+	l2d_drag_rate = "",
+	prefab = "jumeihuali_2",
+	l2d_se = "",
+	part_scale = "",
+	main_UI_FX = "",
+	shop_id = 71423,
+	voice_actor = 82,
+	shop_dynamic_hx = 0,
+	illustrator = -1,
+	rarity_bg = "",
+	double_char = 0,
+	skeleton_default_skin = "",
+	voice_lang = "",
+	time = "",
+	l2d_para_range = "",
+	lip_sync_gain = 0,
+	live2d_offset_profile = "",
+	show_skin = "stand",
+	l2d_voice_calibrate = "",
+	tag = {
+		6,
+		2,
+		5
+	},
+	live2d_offset = {
+		0,
+		0,
+		0
+	},
+	shop_offset = {
+		128.4,
+		-645.1,
+		0,
+		0.42
+	},
+	spine_offset_profile = {
+		194,
+		-613,
+		0,
+		0.4
+	},
+	fx_container = {
+		{
+			0,
+			1.99185,
+			1.15
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0.75,
+			-1.299
+		},
+		{
+			0,
+			0,
+			0
+		}
+	},
+	bound_bone = {
+		cannon = {
+			{
+				1.24,
+				0.932,
+				0
+			}
+		},
+		torpedo = {
+			{
+				0,
+				0,
+				0
+			}
+		},
+		antiaircraft = {
+			{
+				0.768,
+				2.393,
+				0
+			}
+		}
+	},
+	smoke = {
+		{
+			50,
+			{
+				{
+					"smoke",
+					{
+						-0.566,
+						2.409,
+						0
+					}
+				}
+			}
+		}
+	},
+	spine_offset = {
+		50,
+		-747,
+		0,
+		0.45
+	},
+	get_showing = {
+		show = 1,
+		data = {
+			{
+				-1357,
+				-87,
+				2,
+				0,
+				160,
+				2
+			},
+			{
+				-665,
+				489,
+				2,
+				160,
+				0,
+				2
+			},
+			{
+				-40,
+				-177,
+				2,
+				0,
+				-148,
+				2
+			}
+		}
+	}
+}
+
+
 _G.pg.base.ship_skin_template[299010] = {
 	name = "海王星",
 	change_skin = "",

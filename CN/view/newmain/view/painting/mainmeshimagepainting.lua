@@ -190,8 +190,14 @@ slot0.SwitchToVariant = function(slot0, slot1)
 			onDelayTick(slot0, 0.5)
 		end,
 		function (slot0)
-			uv0:UnloadOnlyPainting()
-			uv0:Load(uv0.ship, true)
+			slot1 = uv0
+
+			slot1:UnloadOnlyPainting()
+
+			slot1 = uv0
+
+			slot1:Load(uv0.ship, function ()
+			end)
 			onDelayTick(slot0, 1)
 		end
 	}, function ()
@@ -272,6 +278,20 @@ slot0.OnLongPress = function(slot0)
 	pg.m02:sendNotification(GAME.GO_SCENE, SCENE.SHIPINFO, {
 		shipId = slot0.ship.id
 	})
+end
+
+slot0.OnEnableTimerEvent = function(slot0)
+	if slot0._nextChatTime and Time.realtimeSinceStartup < slot0._nextChatTime then
+		return false
+	end
+
+	return true
+end
+
+slot0.StartChatAnimtion = function(slot0, slot1, slot2)
+	uv0.super.StartChatAnimtion(slot0, slot1, slot2)
+
+	slot0._nextChatTime = Time.realtimeSinceStartup + slot1
 end
 
 slot0.OnDisplayWorld = function(slot0, slot1)

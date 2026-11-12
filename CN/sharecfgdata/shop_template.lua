@@ -120451,6 +120451,128 @@ _G.pg.base.shop_template[71412] = {
 }
 
 
+_G.pg.base.shop_template[71422] = {
+	group_type = 0,
+	package_sort_id = 0,
+	type = 6,
+	second_text = "",
+	type_order = 0,
+	first_icon = "",
+	desc = "购买皮肤:261112理理沙SPINE",
+	group_limit = 0,
+	package_tag = "",
+	resource_num = 1000,
+	group_buy_count = 0,
+	tag = 2,
+	limit_args2 = "",
+	collaboration_skin_time = "",
+	order = 6,
+	akashi_pick = 0,
+	group = 0,
+	num = 1,
+	first_text = "",
+	package_tag_open = 0,
+	time_second = 0,
+	discount = 0,
+	resource_type = 14,
+	id = 71422,
+	genre = "skin_shop",
+	discount_time = {},
+	limit_args = {},
+	effect_args = {
+		11800011
+	},
+	time = {
+		{
+			{
+				2026,
+				11,
+				12
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		{
+			{
+				2026,
+				11,
+				25
+			},
+			{
+				23,
+				59,
+				59
+			}
+		}
+	},
+	time_new = {}
+}
+
+
+_G.pg.base.shop_template[71423] = {
+	group_type = 0,
+	package_sort_id = 0,
+	type = 6,
+	second_text = "",
+	type_order = 0,
+	first_icon = "",
+	desc = "购买皮肤:261112美花莉SPINE",
+	group_limit = 0,
+	package_tag = "",
+	resource_num = 1000,
+	group_buy_count = 0,
+	tag = 2,
+	limit_args2 = "",
+	collaboration_skin_time = "",
+	order = 6,
+	akashi_pick = 0,
+	group = 0,
+	num = 1,
+	first_text = "",
+	package_tag_open = 0,
+	time_second = 0,
+	discount = 0,
+	resource_type = 14,
+	id = 71423,
+	genre = "skin_shop",
+	discount_time = {},
+	limit_args = {},
+	effect_args = {
+		11800021
+	},
+	time = {
+		{
+			{
+				2026,
+				11,
+				12
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		{
+			{
+				2026,
+				11,
+				25
+			},
+			{
+				23,
+				59,
+				59
+			}
+		}
+	},
+	time_new = {}
+}
+
+
 _G.pg.base.shop_template[90001] = {
 	group_type = 0,
 	package_sort_id = 0,

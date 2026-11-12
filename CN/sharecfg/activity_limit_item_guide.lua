@@ -241,7 +241,36 @@ pg.activity_limit_item_guide.all = {
 	277,
 	278,
 	279,
-	280
+	280,
+	281,
+	282,
+	283,
+	284,
+	285,
+	286,
+	287,
+	288,
+	289,
+	290,
+	291,
+	292,
+	293,
+	294,
+	295,
+	296,
+	297,
+	298,
+	299,
+	300,
+	301,
+	302,
+	303,
+	304,
+	305,
+	306,
+	307,
+	308,
+	313
 }
 pg.activity_limit_item_guide.get_id_list_by_activity = {
 	[4937] = {
@@ -478,6 +507,37 @@ pg.activity_limit_item_guide.get_id_list_by_activity = {
 		235,
 		236,
 		237
+	},
+	[51302] = {
+		281,
+		282,
+		283,
+		284,
+		285,
+		286,
+		287,
+		288,
+		289,
+		290,
+		291,
+		292,
+		293,
+		294,
+		295,
+		296,
+		297,
+		298,
+		299,
+		300,
+		301,
+		302,
+		303,
+		304,
+		305,
+		306,
+		307,
+		308,
+		313
 	},
 	[51615] = {
 		251,
@@ -5143,6 +5203,529 @@ end)()
 					}
 				},
 				"补给商店兑换"
+			}
+		}
+	}
+	pg.base.activity_limit_item_guide[281] = {
+		is_new = 1,
+		activity = 51302,
+		count = 1,
+		type = 4,
+		order = 0,
+		id = 281,
+		drop_id = 11800021,
+		count_storage = 0,
+		link_params = {
+			{
+				3,
+				51305,
+				"「开幕！天使们的碧蓝舞台」-「天使舞台M」活动奖励"
+			}
+		}
+	}
+	pg.base.activity_limit_item_guide[282] = {
+		is_new = 1,
+		activity = 51302,
+		count = 1,
+		type = 4,
+		order = 0,
+		id = 282,
+		drop_id = 11800011,
+		count_storage = 0,
+		link_params = {
+			{
+				3,
+				51303,
+				"「开幕！天使们的碧蓝舞台」-「天使舞台L」活动奖励"
+			}
+		}
+	}
+	pg.base.activity_limit_item_guide[283] = {
+		is_new = 1,
+		activity = 51302,
+		count = 1,
+		type = 5,
+		order = 0,
+		id = 283,
+		drop_id = 353,
+		count_storage = 0,
+		link_params = {
+			{
+				3,
+				51304,
+				"「开幕！天使们的碧蓝舞台」-「舞台挑战」活动奖励"
+			}
+		}
+	}
+	pg.base.activity_limit_item_guide[284] = {
+		is_new = 1,
+		activity = 51302,
+		count = 1,
+		type = 5,
+		order = 0,
+		id = 284,
+		drop_id = 345001,
+		count_storage = 0,
+		link_params = {
+			{
+				2,
+				{
+					"scene court yard",
+					{}
+				},
+				"家具商店购买"
+			}
+		}
+	}
+	pg.base.activity_limit_item_guide[285] = {
+		is_new = 1,
+		activity = 51302,
+		count = 1,
+		type = 5,
+		order = 0,
+		id = 285,
+		drop_id = 345002,
+		count_storage = 0,
+		link_params = {
+			{
+				2,
+				{
+					"scene court yard",
+					{}
+				},
+				"家具商店购买"
+			}
+		}
+	}
+	pg.base.activity_limit_item_guide[286] = {
+		is_new = 1,
+		activity = 51302,
+		count = 1,
+		type = 5,
+		order = 0,
+		id = 286,
+		drop_id = 345101,
+		count_storage = 0,
+		link_params = {
+			{
+				2,
+				{
+					"scene court yard",
+					{}
+				},
+				"家具商店购买"
+			}
+		}
+	}
+	pg.base.activity_limit_item_guide[287] = {
+		is_new = 1,
+		activity = 51302,
+		count = 1,
+		type = 5,
+		order = 0,
+		id = 287,
+		drop_id = 345102,
+		count_storage = 0,
+		link_params = {
+			{
+				2,
+				{
+					"scene court yard",
+					{}
+				},
+				"家具商店购买"
+			}
+		}
+	}
+	pg.base.activity_limit_item_guide[288] = {
+		is_new = 1,
+		activity = 51302,
+		count = 1,
+		type = 5,
+		order = 0,
+		id = 288,
+		drop_id = 345103,
+		count_storage = 0,
+		link_params = {
+			{
+				2,
+				{
+					"scene court yard",
+					{}
+				},
+				"家具商店购买"
+			}
+		}
+	}
+	pg.base.activity_limit_item_guide[289] = {
+		is_new = 1,
+		activity = 51302,
+		count = 1,
+		type = 5,
+		order = 0,
+		id = 289,
+		drop_id = 345104,
+		count_storage = 0,
+		link_params = {
+			{
+				2,
+				{
+					"scene court yard",
+					{}
+				},
+				"家具商店购买"
+			}
+		}
+	}
+	pg.base.activity_limit_item_guide[290] = {
+		is_new = 1,
+		activity = 51302,
+		count = 1,
+		type = 5,
+		order = 0,
+		id = 290,
+		drop_id = 345105,
+		count_storage = 0,
+		link_params = {
+			{
+				2,
+				{
+					"scene court yard",
+					{}
+				},
+				"家具商店购买"
+			}
+		}
+	}
+	pg.base.activity_limit_item_guide[291] = {
+		is_new = 1,
+		activity = 51302,
+		count = 4,
+		type = 5,
+		order = 0,
+		id = 291,
+		drop_id = 345106,
+		count_storage = 0,
+		link_params = {
+			{
+				2,
+				{
+					"scene court yard",
+					{}
+				},
+				"家具商店购买"
+			}
+		}
+	}
+	pg.base.activity_limit_item_guide[292] = {
+		is_new = 1,
+		activity = 51302,
+		count = 1,
+		type = 5,
+		order = 0,
+		id = 292,
+		drop_id = 345107,
+		count_storage = 0,
+		link_params = {
+			{
+				2,
+				{
+					"scene court yard",
+					{}
+				},
+				"家具商店购买"
+			}
+		}
+	}
+	pg.base.activity_limit_item_guide[293] = {
+		is_new = 1,
+		activity = 51302,
+		count = 1,
+		type = 5,
+		order = 0,
+		id = 293,
+		drop_id = 345108,
+		count_storage = 0,
+		link_params = {
+			{
+				2,
+				{
+					"scene court yard",
+					{}
+				},
+				"家具商店购买"
+			}
+		}
+	}
+	pg.base.activity_limit_item_guide[294] = {
+		is_new = 1,
+		activity = 51302,
+		count = 1,
+		type = 9,
+		order = 0,
+		id = 294,
+		drop_id = 1541,
+		count_storage = 0,
+		link_params = {
+			{
+				3,
+				51303,
+				"「开幕！天使们的碧蓝舞台」-「天使舞台L」活动奖励"
+			}
+		}
+	}
+	pg.base.activity_limit_item_guide[295] = {
+		is_new = 1,
+		activity = 51302,
+		count = 1,
+		type = 9,
+		order = 0,
+		id = 295,
+		drop_id = 1543,
+		count_storage = 0,
+		link_params = {
+			{
+				3,
+				51303,
+				"「开幕！天使们的碧蓝舞台」-「天使舞台L」活动奖励"
+			}
+		}
+	}
+	pg.base.activity_limit_item_guide[296] = {
+		is_new = 1,
+		activity = 51302,
+		count = 1,
+		type = 9,
+		order = 0,
+		id = 296,
+		drop_id = 1545,
+		count_storage = 0,
+		link_params = {
+			{
+				3,
+				51303,
+				"「开幕！天使们的碧蓝舞台」-「天使舞台L」活动奖励"
+			}
+		}
+	}
+	pg.base.activity_limit_item_guide[297] = {
+		is_new = 1,
+		activity = 51302,
+		count = 1,
+		type = 9,
+		order = 0,
+		id = 297,
+		drop_id = 1547,
+		count_storage = 0,
+		link_params = {
+			{
+				3,
+				51303,
+				"「开幕！天使们的碧蓝舞台」-「天使舞台L」活动奖励"
+			}
+		}
+	}
+	pg.base.activity_limit_item_guide[298] = {
+		is_new = 1,
+		activity = 51302,
+		count = 1,
+		type = 9,
+		order = 0,
+		id = 298,
+		drop_id = 1549,
+		count_storage = 0,
+		link_params = {
+			{
+				3,
+				51303,
+				"「开幕！天使们的碧蓝舞台」-「天使舞台L」活动奖励"
+			}
+		}
+	}
+	pg.base.activity_limit_item_guide[299] = {
+		is_new = 1,
+		activity = 51302,
+		count = 1,
+		type = 9,
+		order = 0,
+		id = 299,
+		drop_id = 1550,
+		count_storage = 0,
+		link_params = {
+			{
+				3,
+				51303,
+				"「开幕！天使们的碧蓝舞台」-「天使舞台L」活动奖励"
+			}
+		}
+	}
+	pg.base.activity_limit_item_guide[300] = {
+		is_new = 1,
+		activity = 51302,
+		count = 1,
+		type = 9,
+		order = 0,
+		id = 300,
+		drop_id = 1551,
+		count_storage = 0,
+		link_params = {
+			{
+				3,
+				51303,
+				"「开幕！天使们的碧蓝舞台」-「天使舞台L」活动奖励"
+			}
+		}
+	}
+	pg.base.activity_limit_item_guide[301] = {
+		is_new = 1,
+		activity = 51302,
+		count = 1,
+		type = 9,
+		order = 0,
+		id = 301,
+		drop_id = 1542,
+		count_storage = 0,
+		link_params = {
+			{
+				3,
+				51305,
+				"「开幕！天使们的碧蓝舞台」-「天使舞台M」活动奖励"
+			}
+		}
+	}
+	pg.base.activity_limit_item_guide[302] = {
+		is_new = 1,
+		activity = 51302,
+		count = 1,
+		type = 9,
+		order = 0,
+		id = 302,
+		drop_id = 1544,
+		count_storage = 0,
+		link_params = {
+			{
+				3,
+				51305,
+				"「开幕！天使们的碧蓝舞台」-「天使舞台M」活动奖励"
+			}
+		}
+	}
+	pg.base.activity_limit_item_guide[303] = {
+		is_new = 1,
+		activity = 51302,
+		count = 1,
+		type = 9,
+		order = 0,
+		id = 303,
+		drop_id = 1546,
+		count_storage = 0,
+		link_params = {
+			{
+				3,
+				51305,
+				"「开幕！天使们的碧蓝舞台」-「天使舞台M」活动奖励"
+			}
+		}
+	}
+	pg.base.activity_limit_item_guide[304] = {
+		is_new = 1,
+		activity = 51302,
+		count = 1,
+		type = 9,
+		order = 0,
+		id = 304,
+		drop_id = 1548,
+		count_storage = 0,
+		link_params = {
+			{
+				3,
+				51305,
+				"「开幕！天使们的碧蓝舞台」-「天使舞台M」活动奖励"
+			}
+		}
+	}
+	pg.base.activity_limit_item_guide[305] = {
+		is_new = 1,
+		activity = 51302,
+		count = 1,
+		type = 9,
+		order = 0,
+		id = 305,
+		drop_id = 1552,
+		count_storage = 0,
+		link_params = {
+			{
+				3,
+				51305,
+				"「开幕！天使们的碧蓝舞台」-「天使舞台M」活动奖励"
+			}
+		}
+	}
+	pg.base.activity_limit_item_guide[306] = {
+		is_new = 1,
+		activity = 51302,
+		count = 1,
+		type = 9,
+		order = 0,
+		id = 306,
+		drop_id = 1553,
+		count_storage = 0,
+		link_params = {
+			{
+				3,
+				51305,
+				"「开幕！天使们的碧蓝舞台」-「天使舞台M」活动奖励"
+			}
+		}
+	}
+	pg.base.activity_limit_item_guide[307] = {
+		is_new = 1,
+		activity = 51302,
+		count = 1,
+		type = 9,
+		order = 0,
+		id = 307,
+		drop_id = 1554,
+		count_storage = 0,
+		link_params = {
+			{
+				3,
+				51305,
+				"「开幕！天使们的碧蓝舞台」-「天使舞台M」活动奖励"
+			}
+		}
+	}
+	pg.base.activity_limit_item_guide[308] = {
+		is_new = 1,
+		activity = 51302,
+		count = 1,
+		type = 21,
+		order = 0,
+		id = 308,
+		drop_id = 15960,
+		count_storage = 0,
+		link_params = {
+			{
+				3,
+				51303,
+				"「开幕！天使们的碧蓝舞台」-「天使舞台L」活动奖励"
+			}
+		}
+	}
+	pg.base.activity_limit_item_guide[313] = {
+		is_new = 1,
+		activity = 51302,
+		count = 1,
+		type = 21,
+		order = 0,
+		id = 313,
+		drop_id = 15980,
+		count_storage = 0,
+		link_params = {
+			{
+				3,
+				51305,
+				"「开幕！天使们的碧蓝舞台」-「天使舞台M」活动奖励"
 			}
 		}
 	}

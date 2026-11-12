@@ -8277,6 +8277,37 @@ pg.activity_ins_language.all = {
 	"op_reply_678_1_1",
 	"ins_op_678_1_2",
 	"op_reply_678_1_2",
+	"ins_679",
+	"ins_discuss_679_1",
+	"ins_reply_679_1_1",
+	"ins_reply_679_1_2",
+	"ins_reply_679_1_3",
+	"ins_discuss_679_2",
+	"ins_reply_679_2_1",
+	"ins_discuss_679_3",
+	"ins_reply_679_3_1",
+	"ins_reply_679_3_2",
+	"ins_reply_679_3_3",
+	"ins_op_679_1_1",
+	"op_reply_679_1_1",
+	"ins_op_679_1_2",
+	"op_reply_679_1_2",
+	"ins_680",
+	"ins_discuss_680_1",
+	"ins_reply_680_1_1",
+	"ins_discuss_680_2",
+	"ins_reply_680_2_1",
+	"ins_discuss_680_3",
+	"ins_reply_680_3_1",
+	"ins_reply_680_3_2",
+	"ins_reply_680_3_3",
+	"ins_discuss_680_4",
+	"ins_reply_680_4_1",
+	"ins_reply_680_4_2",
+	"ins_op_680_1_1",
+	"op_reply_680_1_1",
+	"ins_op_680_1_2",
+	"op_reply_680_1_2",
 	"ins_20001",
 	"ins_discuss_20001_1",
 	"ins_reply_20001_1_1",
@@ -33811,6 +33842,101 @@ end)()
 	pg.base.activity_ins_language.op_reply_678_1_2 = {
 		value = ""
 	}
+	pg.base.activity_ins_language.ins_679 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.ins_discuss_679_1 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.ins_reply_679_1_1 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.ins_reply_679_1_2 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.ins_reply_679_1_3 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.ins_discuss_679_2 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.ins_reply_679_2_1 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.ins_discuss_679_3 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.ins_reply_679_3_1 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.ins_reply_679_3_2 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.ins_reply_679_3_3 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.ins_op_679_1_1 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.op_reply_679_1_1 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.ins_op_679_1_2 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.op_reply_679_1_2 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.ins_680 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.ins_discuss_680_1 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.ins_reply_680_1_1 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.ins_discuss_680_2 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.ins_reply_680_2_1 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.ins_discuss_680_3 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.ins_reply_680_3_1 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.ins_reply_680_3_2 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.ins_reply_680_3_3 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.ins_discuss_680_4 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.ins_reply_680_4_1 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.ins_reply_680_4_2 = {
+		value = ""
+	}
+end)()
+(function ()
+	pg.base.activity_ins_language.ins_op_680_1_1 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.op_reply_680_1_1 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.ins_op_680_1_2 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.op_reply_680_1_2 = {
+		value = ""
+	}
 	pg.base.activity_ins_language.ins_20001 = {
 		value = "欢迎你关注啾啾热点频道！\\n这里将为你追踪港区时事热点，带来最新鲜、最有趣的新闻报道和日常杂谈，当然也接受匿名投稿~\\n啾频道将与你一起，开启这段全新的旅程！"
 	}
@@ -33892,8 +34018,6 @@ end)()
 	pg.base.activity_ins_language.op_reply_20001_1_4 = {
 		value = "这下指挥官必须要光明正大投稿了"
 	}
-end)()
-(function ()
 	pg.base.activity_ins_language.ins_op_20001_1_2 = {
 		value = "恭喜啾啾热点频道上线！"
 	}
@@ -34101,6 +34225,8 @@ end)()
 	pg.base.activity_ins_language.ins_20003 = {
 		value = ""
 	}
+end)()
+(function ()
 	pg.base.activity_ins_language.ins_discuss_20003_1 = {
 		value = ""
 	}
@@ -34194,8 +34320,6 @@ end)()
 	pg.base.activity_ins_language.op_reply_20003_2_4 = {
 		value = ""
 	}
-end)()
-(function ()
 	pg.base.activity_ins_language.op_reply_20003_2_5 = {
 		value = ""
 	}
@@ -34403,6 +34527,8 @@ end)()
 	pg.base.activity_ins_language.ins_discuss_20007_2 = {
 		value = ""
 	}
+end)()
+(function ()
 	pg.base.activity_ins_language.ins_discuss_20007_3 = {
 		value = ""
 	}
@@ -34496,8 +34622,6 @@ end)()
 	pg.base.activity_ins_language.ins_discuss_20008_2 = {
 		value = ""
 	}
-end)()
-(function ()
 	pg.base.activity_ins_language.ins_reply_20008_2_1 = {
 		value = ""
 	}
@@ -34705,6 +34829,8 @@ end)()
 	pg.base.activity_ins_language.op_reply_20011_2_2 = {
 		value = ""
 	}
+end)()
+(function ()
 	pg.base.activity_ins_language.op_reply_20011_2_3 = {
 		value = ""
 	}
@@ -34798,8 +34924,6 @@ end)()
 	pg.base.activity_ins_language.op_reply_20012_1_4 = {
 		value = ""
 	}
-end)()
-(function ()
 	pg.base.activity_ins_language.op_reply_20012_1_5 = {
 		value = ""
 	}
@@ -35007,6 +35131,8 @@ end)()
 	pg.base.activity_ins_language.ins_reply_20015_1_1 = {
 		value = ""
 	}
+end)()
+(function ()
 	pg.base.activity_ins_language.ins_reply_20015_1_2 = {
 		value = ""
 	}
@@ -35100,8 +35226,6 @@ end)()
 	pg.base.activity_ins_language.ins_op_20015_1_1 = {
 		value = ""
 	}
-end)()
-(function ()
 	pg.base.activity_ins_language.op_reply_20015_1_1 = {
 		value = ""
 	}
@@ -35309,6 +35433,8 @@ end)()
 	pg.base.activity_ins_language.ins_reply_20016_10_1 = {
 		value = ""
 	}
+end)()
+(function ()
 	pg.base.activity_ins_language.ins_reply_20016_10_2 = {
 		value = ""
 	}
@@ -35402,8 +35528,6 @@ end)()
 	pg.base.activity_ins_language.ins_discuss_20014_5 = {
 		value = ""
 	}
-end)()
-(function ()
 	pg.base.activity_ins_language.ins_reply_20014_5_1 = {
 		value = ""
 	}

@@ -532,7 +532,12 @@ pg.activity_sp_story.all = {
 	573,
 	574,
 	575,
-	576
+	576,
+	581,
+	582,
+	583,
+	584,
+	585
 }
 pg.base = pg.base or {}
 pg.base.activity_sp_story = {}
@@ -11478,6 +11483,99 @@ end)()
 			{
 				4,
 				575
+			}
+		}
+	}
+	pg.base.activity_sp_story[581] = {
+		story_type = 1,
+		pre_event = "",
+		label_key = "",
+		change_prefab = "",
+		unlock_conditions = "",
+		change_background = "",
+		name = "EPS-1 异次元的新生活",
+		story = "2079004",
+		change_bgm = "",
+		id = 581,
+		lock = ""
+	}
+	pg.base.activity_sp_story[582] = {
+		story_type = 1,
+		label_key = "",
+		change_prefab = "",
+		unlock_conditions = "完成EPS-1",
+		change_background = "",
+		name = "EPS-2 来办展示会吧！",
+		story = "TIANSHIMENDEBILANWUTAIZHANHUI2",
+		change_bgm = "",
+		id = 582,
+		pre_event = {
+			581
+		},
+		lock = {
+			{
+				4,
+				581
+			}
+		}
+	}
+	pg.base.activity_sp_story[583] = {
+		story_type = 1,
+		label_key = "",
+		change_prefab = "",
+		unlock_conditions = "完成EPS-1",
+		change_background = "",
+		name = "EPS-3 展示会的准备",
+		story = "TIANSHIMENDEBILANWUTAIZHANHUI3",
+		change_bgm = "",
+		id = 583,
+		pre_event = {
+			582
+		},
+		lock = {
+			{
+				4,
+				582
+			}
+		}
+	}
+	pg.base.activity_sp_story[584] = {
+		story_type = 1,
+		label_key = "",
+		change_prefab = "",
+		unlock_conditions = "完成EPS-2",
+		change_background = "",
+		name = "EPS-4 总要有的温泉回？",
+		story = "TIANSHIMENDEBILANWUTAIZHANHUI4",
+		change_bgm = "",
+		id = 584,
+		pre_event = {
+			583
+		},
+		lock = {
+			{
+				4,
+				583
+			}
+		}
+	}
+	pg.base.activity_sp_story[585] = {
+		story_type = 1,
+		label_key = "",
+		change_prefab = "",
+		unlock_conditions = "完成EPS-3",
+		change_background = "",
+		name = "EPS-5 展示会，大成功！",
+		story = "TIANSHIMENDEBILANWUTAIZHANHUI5",
+		change_bgm = "",
+		id = 585,
+		pre_event = {
+			584
+		},
+		lock = {
+			{
+				4,
+				584
 			}
 		}
 	}

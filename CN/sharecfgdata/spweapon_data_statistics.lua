@@ -42894,3 +42894,330 @@ _G.pg.base.spweapon_data_statistics[15950] = {
 		}
 	}
 }
+
+
+_G.pg.base.spweapon_data_statistics[15960] = {
+	attribute_1 = "air",
+	name = "莉莉艾露的法杖",
+	type = 7,
+	tech = 0,
+	value_1_random = 0,
+	rarity = 4,
+	effect_id_display = 118040,
+	value_2_random = 0,
+	effect_id = 118040,
+	attribute_2 = "reload",
+	next = 15961,
+	upgrade_id = 10001,
+	value_2 = 9,
+	icon = "15960",
+	value_1 = 32,
+	level = 1,
+	descrip = "莉莉艾露 天使空降队/理理沙的专属特殊兵装",
+	uncraftable = 1,
+	unique = 1180001,
+	important = 2,
+	prev = 0,
+	id = 15960,
+	usability = {
+		6
+	},
+	skill_upgrade = {
+		{
+			0,
+			118030
+		}
+	},
+	hide_buff_upgrade = {},
+	label = {
+		"LilielSP"
+	}
+}
+
+
+_G.pg.base.spweapon_data_statistics[15961] = {
+	upgrade_id = 10002,
+	prev = 15960,
+	next = 15962,
+	base = 15960,
+	id = 15961,
+	value_2 = 10,
+	level = 2
+}
+
+
+_G.pg.base.spweapon_data_statistics[15962] = {
+	upgrade_id = 10003,
+	prev = 15961,
+	next = 15963,
+	base = 15960,
+	id = 15962,
+	value_2 = 10,
+	value_1 = 33,
+	level = 3
+}
+
+
+_G.pg.base.spweapon_data_statistics[15963] = {
+	upgrade_id = 10004,
+	prev = 15962,
+	next = 15964,
+	base = 15960,
+	id = 15963,
+	value_2 = 11,
+	value_1 = 33,
+	level = 4
+}
+
+
+_G.pg.base.spweapon_data_statistics[15964] = {
+	upgrade_id = 10005,
+	prev = 15963,
+	next = 15965,
+	base = 15960,
+	id = 15964,
+	value_2 = 11,
+	value_1 = 34,
+	level = 5
+}
+
+
+_G.pg.base.spweapon_data_statistics[15965] = {
+	upgrade_id = 10006,
+	prev = 15964,
+	next = 15966,
+	base = 15960,
+	id = 15965,
+	value_2 = 12,
+	value_1 = 35,
+	level = 6
+}
+
+
+_G.pg.base.spweapon_data_statistics[15966] = {
+	upgrade_id = 10007,
+	prev = 15965,
+	next = 15967,
+	base = 15960,
+	id = 15966,
+	value_2 = 12,
+	value_1 = 36,
+	level = 7
+}
+
+
+_G.pg.base.spweapon_data_statistics[15967] = {
+	upgrade_id = 10008,
+	prev = 15966,
+	next = 15968,
+	base = 15960,
+	id = 15967,
+	value_2 = 13,
+	value_1 = 37,
+	level = 8
+}
+
+
+_G.pg.base.spweapon_data_statistics[15968] = {
+	upgrade_id = 10009,
+	prev = 15967,
+	next = 15969,
+	base = 15960,
+	id = 15968,
+	value_2 = 13,
+	value_1 = 38,
+	level = 9
+}
+
+
+_G.pg.base.spweapon_data_statistics[15969] = {
+	upgrade_id = 10010,
+	prev = 15968,
+	next = 15970,
+	base = 15960,
+	id = 15969,
+	value_2 = 14,
+	value_1 = 39,
+	level = 10
+}
+
+
+_G.pg.base.spweapon_data_statistics[15970] = {
+	id = 15970,
+	upgrade_id = 10011,
+	base = 15960,
+	next = 0,
+	prev = 15969,
+	value_2 = 15,
+	value_1 = 40,
+	level = 11,
+	skill_upgrade = {
+		{
+			118020,
+			118030
+		}
+	}
+}
+
+
+_G.pg.base.spweapon_data_statistics[15980] = {
+	attribute_1 = "cannon",
+	name = "美莉艾拉的弓",
+	type = 2,
+	tech = 0,
+	value_1_random = 0,
+	rarity = 4,
+	effect_id_display = 118040,
+	value_2_random = 0,
+	effect_id = 118040,
+	attribute_2 = "hit",
+	next = 15981,
+	upgrade_id = 10001,
+	value_2 = 5,
+	icon = "15980",
+	value_1 = 25,
+	level = 1,
+	descrip = "美莉艾拉 天使空降队/美花莉的专属特殊兵装",
+	uncraftable = 1,
+	unique = 1180002,
+	important = 2,
+	prev = 0,
+	id = 15980,
+	usability = {
+		2
+	},
+	skill_upgrade = {
+		{
+			0,
+			118070
+		}
+	},
+	hide_buff_upgrade = {},
+	label = {}
+}
+
+
+_G.pg.base.spweapon_data_statistics[15981] = {
+	upgrade_id = 10002,
+	prev = 15981,
+	next = 15982,
+	base = 15980,
+	id = 15981,
+	value_2 = 6,
+	value_1 = 26,
+	level = 2
+}
+
+
+_G.pg.base.spweapon_data_statistics[15982] = {
+	upgrade_id = 10003,
+	prev = 15982,
+	next = 15983,
+	base = 15980,
+	id = 15982,
+	value_2 = 7,
+	value_1 = 27,
+	level = 3
+}
+
+
+_G.pg.base.spweapon_data_statistics[15983] = {
+	upgrade_id = 10004,
+	prev = 15983,
+	next = 15984,
+	base = 15980,
+	id = 15983,
+	value_2 = 8,
+	value_1 = 28,
+	level = 4
+}
+
+
+_G.pg.base.spweapon_data_statistics[15984] = {
+	upgrade_id = 10005,
+	prev = 15984,
+	next = 15985,
+	base = 15980,
+	id = 15984,
+	value_2 = 9,
+	value_1 = 29,
+	level = 5
+}
+
+
+_G.pg.base.spweapon_data_statistics[15985] = {
+	upgrade_id = 10006,
+	prev = 15985,
+	next = 15986,
+	base = 15980,
+	id = 15985,
+	value_2 = 10,
+	value_1 = 30,
+	level = 6
+}
+
+
+_G.pg.base.spweapon_data_statistics[15986] = {
+	upgrade_id = 10007,
+	prev = 15986,
+	next = 15987,
+	base = 15980,
+	id = 15986,
+	value_2 = 11,
+	value_1 = 31,
+	level = 7
+}
+
+
+_G.pg.base.spweapon_data_statistics[15987] = {
+	upgrade_id = 10008,
+	prev = 15987,
+	next = 15988,
+	base = 15980,
+	id = 15987,
+	value_2 = 12,
+	value_1 = 32,
+	level = 8
+}
+
+
+_G.pg.base.spweapon_data_statistics[15988] = {
+	upgrade_id = 10009,
+	prev = 15988,
+	next = 15989,
+	base = 15980,
+	id = 15988,
+	value_2 = 13,
+	value_1 = 33,
+	level = 9
+}
+
+
+_G.pg.base.spweapon_data_statistics[15989] = {
+	upgrade_id = 10010,
+	prev = 15989,
+	next = 15990,
+	base = 15980,
+	id = 15989,
+	value_2 = 14,
+	value_1 = 34,
+	level = 10
+}
+
+
+_G.pg.base.spweapon_data_statistics[15990] = {
+	id = 15990,
+	upgrade_id = 10011,
+	base = 15980,
+	next = 0,
+	prev = 15990,
+	value_2 = 15,
+	value_1 = 35,
+	level = 11,
+	skill_upgrade = {
+		{
+			118060,
+			118070
+		}
+	}
+}
