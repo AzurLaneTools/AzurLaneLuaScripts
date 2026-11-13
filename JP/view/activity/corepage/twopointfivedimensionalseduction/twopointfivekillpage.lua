@@ -84,27 +84,43 @@ end
 slot0.OnUpdateFlush = function(slot0)
 	setText(slot0.progressRule, i18n("nier_core_task_desc"))
 
-	slot1 = slot0.ptData:getTargetLevel()
-	slot2, slot3, slot4 = slot0.ptData:GetLevelProgress()
+	slot1, slot2, slot3 = slot0.ptData:GetLevelProgress()
 
-	setText(slot0.nowday, string.format("%s", slot2))
-	setText(slot0.aimday, string.format("/%s", slot3))
+	setText(slot0.nowday, string.format("%s", slot1))
+	setText(slot0.aimday, string.format("/%s", slot2))
 
-	slot5, slot6, slot7 = slot0.ptData:GetResProgress()
+	slot4, slot5, slot6 = slot0.ptData:GetResProgress()
 
-	setText(slot0.progressStep, string.format("%s<color=#bdbad1>/%s</color>", slot7 >= 1 and setColorStr(slot5, COLOR_GREEN) or slot5, slot6))
-	setSlider(slot0.slider, 0, 1, slot7)
+	setText(slot0.progressStep, string.format("%s<color=#bdbad1>/%s</color>", slot6 >= 1 and setColorStr(slot4, COLOR_GREEN) or slot4, slot5))
+	setSlider(slot0.slider, 0, 1, slot6)
 
-	slot8 = slot0.ptData:CanGetAward()
-	slot9 = slot0.ptData:CanGetNextAward()
+	slot7 = slot0.ptData:CanGetAward()
+	slot8 = slot0.ptData:CanGetNextAward()
 
-	setActive(slot0.battleBtn, slot0.ptData:CanGetMorePt() and not slot8 and slot9)
-	setActive(slot0.getBtn, slot8)
-	setActive(slot0.gotBtn, not slot9)
+	setActive(slot0.battleBtn, slot0.ptData:CanGetMorePt() and not slot7 and slot8)
+	setActive(slot0.getBtn, slot7)
+	setActive(slot0.gotBtn, not slot8)
 	updateDrop(slot0.awardTF, slot0.ptData:GetAward())
 	onButton(slot0, slot0.awardTF, function ()
 		uv0:emit(BaseUI.ON_DROP, uv1)
 	end, SFX_PANEL)
+	slot0:PlayStory()
+end
+
+slot0.PlayStory = function(slot0)
+	if slot0.ptData:GetLevel() < 3 then
+		return
+	end
+
+	slot4 = pg.NewStoryMgr.GetInstance()
+
+	if checkExist(slot0.activity:getConfig("config_client").story, {
+		slot1
+	}, {
+		1
+	}) and not slot4:IsPlayed(slot3) then
+		slot4:Play(slot3)
+	end
 end
 
 slot0.OnDestroy = function(slot0)
