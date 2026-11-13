@@ -1021,7 +1021,7 @@ pg.base.dorm3d_shop_template = {}
 	}
 	pg.base.dorm3d_shop_template[51] = {
 		rarity = 4,
-		name = "猫绒圆梦巢 ",
+		name = "貓絨圓夢巢",
 		type = 1,
 		room_id = 79902,
 		unlock = "",
