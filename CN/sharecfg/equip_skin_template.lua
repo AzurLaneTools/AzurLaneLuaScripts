@@ -64176,7 +64176,7 @@ end)()
 		name = "战斗用战术目镜（设备）",
 		type = 1,
 		preview_hit_distance = 0,
-		icon = "97732",
+		icon = "98641",
 		orbit_rotate = false,
 		orbit_combat = "shebei_yanzhao",
 		ship_config_id = 100011,
