@@ -668,6 +668,8 @@ pg.activity_ins_template.all = {
 	676,
 	677,
 	678,
+	679,
+	680,
 	20001,
 	20002,
 	20004,
@@ -28043,10 +28045,10 @@ end)()
 		ship_group = 960017,
 		name = "Mercury",
 		type = 1,
-		picture_persist = "",
+		picture_persist = "https://blhxstatic.azurlane.tw/pics/ins_674.png",
 		title = "",
-		message_persist = "",
-		is_active = 1,
+		message_persist = "ins_674",
+		is_active = 0,
 		oalist_pic_persist = "",
 		sculpture = "shuixinghao",
 		id = 674,
@@ -28063,17 +28065,32 @@ end)()
 				0
 			}
 		},
-		time_persist = {},
-		npc_discuss_persist = {}
+		time_persist = {
+			{
+				2026,
+				10,
+				29
+			},
+			{
+				16,
+				0,
+				0
+			}
+		},
+		npc_discuss_persist = {
+			7529,
+			7534,
+			7537
+		}
 	}
 	pg.base.activity_ins_template[675] = {
 		ship_group = 960018,
 		name = "Jernbarden",
 		type = 1,
-		picture_persist = "",
+		picture_persist = "https://blhxstatic.azurlane.tw/pics/ins_675.png",
 		title = "",
-		message_persist = "",
-		is_active = 1,
+		message_persist = "ins_675",
+		is_active = 0,
 		oalist_pic_persist = "",
 		sculpture = "tiejiaohao",
 		id = 675,
@@ -28090,17 +28107,32 @@ end)()
 				0
 			}
 		},
-		time_persist = {},
-		npc_discuss_persist = {}
+		time_persist = {
+			{
+				2026,
+				10,
+				29
+			},
+			{
+				10,
+				55,
+				0
+			}
+		},
+		npc_discuss_persist = {
+			7545,
+			7549,
+			7552
+		}
 	}
 	pg.base.activity_ins_template[676] = {
 		ship_group = 960019,
 		name = "Selimiye",
 		type = 1,
-		picture_persist = "",
+		picture_persist = "https://blhxstatic.azurlane.tw/pics/ins_676.png",
 		title = "",
-		message_persist = "",
-		is_active = 1,
+		message_persist = "ins_676",
+		is_active = 0,
 		oalist_pic_persist = "",
 		sculpture = "sailimiye",
 		id = 676,
@@ -28117,17 +28149,32 @@ end)()
 				0
 			}
 		},
-		time_persist = {},
-		npc_discuss_persist = {}
+		time_persist = {
+			{
+				2026,
+				10,
+				30
+			},
+			{
+				15,
+				30,
+				0
+			}
+		},
+		npc_discuss_persist = {
+			7563,
+			7569,
+			7572
+		}
 	}
 	pg.base.activity_ins_template[677] = {
 		ship_group = 960020,
 		name = "Ormen Lange",
 		type = 1,
-		picture_persist = "",
+		picture_persist = "https://blhxstatic.azurlane.tw/pics/ins_677.png",
 		title = "",
-		message_persist = "",
-		is_active = 1,
+		message_persist = "ins_677",
+		is_active = 0,
 		oalist_pic_persist = "",
 		sculpture = "changshehao",
 		id = 677,
@@ -28144,17 +28191,31 @@ end)()
 				0
 			}
 		},
-		time_persist = {},
-		npc_discuss_persist = {}
+		time_persist = {
+			{
+				2026,
+				10,
+				31
+			},
+			{
+				12,
+				50,
+				0
+			}
+		},
+		npc_discuss_persist = {
+			7581,
+			7585
+		}
 	}
 	pg.base.activity_ins_template[678] = {
 		ship_group = 960021,
 		name = "Real bey",
 		type = 1,
-		picture_persist = "",
+		picture_persist = "https://blhxstatic.azurlane.tw/pics/ins_678.png",
 		title = "",
-		message_persist = "",
-		is_active = 1,
+		message_persist = "ins_678",
+		is_active = 0,
 		oalist_pic_persist = "",
 		sculpture = "leiyierbei",
 		id = 678,
@@ -28164,6 +28225,75 @@ end)()
 				2026,
 				11,
 				1
+			},
+			{
+				19,
+				36,
+				0
+			}
+		},
+		time_persist = {
+			{
+				2026,
+				11,
+				1
+			},
+			{
+				19,
+				36,
+				0
+			}
+		},
+		npc_discuss_persist = {
+			7594,
+			7597,
+			7601
+		}
+	}
+	pg.base.activity_ins_template[679] = {
+		ship_group = 118001,
+		name = "Liliel Angel Paratroopers",
+		type = 1,
+		picture_persist = "",
+		title = "",
+		message_persist = "",
+		is_active = 1,
+		oalist_pic_persist = "",
+		sculpture = "lilisha",
+		id = 679,
+		group_id = 679,
+		time = {
+			{
+				2026,
+				11,
+				19
+			},
+			{
+				12,
+				50,
+				0
+			}
+		},
+		time_persist = {},
+		npc_discuss_persist = {}
+	}
+	pg.base.activity_ins_template[680] = {
+		ship_group = 118002,
+		name = "Miriella Angel Paratroopers",
+		type = 1,
+		picture_persist = "",
+		title = "",
+		message_persist = "",
+		is_active = 1,
+		oalist_pic_persist = "",
+		sculpture = "jumeihuali",
+		id = 680,
+		group_id = 680,
+		time = {
+			{
+				2026,
+				11,
+				20
 			},
 			{
 				19,

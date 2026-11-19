@@ -87,7 +87,7 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					number = 0.85,
+					number = 0.085,
 					label = {
 						"MG"
 					}
@@ -103,7 +103,7 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					number = 0.95,
+					number = 0.095,
 					label = {
 						"MG"
 					}

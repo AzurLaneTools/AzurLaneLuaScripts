@@ -175477,6 +175477,155 @@ _G.pg.base.enemy_data_statistics[91216] = {
 }
 
 
+_G.pg.base.enemy_data_statistics[91217] = {
+	cannon = 0,
+	name = "雷根斯堡·META",
+	antiaircraft_growth = 0,
+	speed_growth = 0,
+	luck = 0,
+	air = 0,
+	nationality = 97,
+	icon_type = 2,
+	type = 2,
+	rarity = 0,
+	antiaircraft = 0,
+	dodge_growth = 0,
+	icon = "leigensibao_alter",
+	star = 0,
+	antisub_growth = 0,
+	air_growth = 0,
+	battle_unit_type = 49,
+	antisub = 0,
+	durability = 99999,
+	armor_growth = 0,
+	torpedo_growth = 0,
+	speed = 15,
+	armor = 0,
+	friendly_cld = 0,
+	id = 91217,
+	scale = 180,
+	prefab = "leigensibao_alter",
+	cannon_growth = 0,
+	pilot_ai_template_id = 20006,
+	reload = 150,
+	dodge = 0,
+	reload_growth = 0,
+	wave_fx = "movewave",
+	bubble_fx = "",
+	hit = 0,
+	fog_fx = "",
+	torpedo = 0,
+	durability_growth = 0,
+	luck_growth = 0,
+	hit_growth = 0,
+	armor_type = 1,
+	world_enhancement = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	prefab_offset = {
+		0,
+		0,
+		0
+	},
+	cld_box = {
+		5.5,
+		7.5,
+		10
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		cannon = {
+			{
+				0.7,
+				0.792,
+				0
+			}
+		},
+		torpedo = {
+			{
+				0.164,
+				0.073,
+				0
+			}
+		},
+		antiaircraft = {
+			{
+				0.682,
+				0.764,
+				0
+			}
+		}
+	},
+	smoke = {
+		{
+			50,
+			{
+				{
+					"smoke",
+					{
+						-0.46,
+						2.48,
+						0
+					}
+				}
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	},
+	specific_fx_scale = {},
+	appear_fx = {},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	hp_bar = {
+		150,
+		4
+	},
+	equipment_list = {},
+	random_equipment_list = {},
+	random_nub = {},
+	buff_list = {}
+}
+
+
 _G.pg.base.enemy_data_statistics[91218] = {
 	cannon = 0,
 	name = "霓虹都市驅逐艦",
@@ -190461,6 +190610,308 @@ _G.pg.base.enemy_data_statistics[91319] = {
 	},
 	specific_fx_scale = {},
 	appear_fx = {},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	hp_bar = {
+		150,
+		4
+	},
+	equipment_list = {},
+	random_equipment_list = {},
+	random_nub = {},
+	buff_list = {}
+}
+
+
+_G.pg.base.enemy_data_statistics[91320] = {
+	cannon = 0,
+	name = "莉莉艾露 天使空降隊/理理沙",
+	antiaircraft_growth = 0,
+	speed_growth = 0,
+	luck = 0,
+	air = 0,
+	nationality = 118,
+	icon_type = 6,
+	type = 6,
+	rarity = 0,
+	antiaircraft = 0,
+	dodge_growth = 0,
+	icon = "lilisha",
+	star = 0,
+	antisub_growth = 0,
+	air_growth = 0,
+	battle_unit_type = 49,
+	antisub = 0,
+	durability = 99999,
+	armor_growth = 0,
+	torpedo_growth = 0,
+	speed = 18,
+	armor = 0,
+	friendly_cld = 0,
+	id = 91320,
+	scale = 150,
+	prefab = "lilisha",
+	cannon_growth = 0,
+	pilot_ai_template_id = 10001,
+	reload = 150,
+	dodge = 0,
+	reload_growth = 0,
+	wave_fx = "movewave",
+	bubble_fx = "",
+	hit = 0,
+	fog_fx = "",
+	torpedo = 0,
+	durability_growth = 0,
+	luck_growth = 0,
+	hit_growth = 0,
+	armor_type = 2,
+	world_enhancement = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	prefab_offset = {
+		0,
+		0,
+		0
+	},
+	cld_box = {
+		5.5,
+		7.5,
+		8
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		cannon = {
+			{
+				1,
+				1,
+				0
+			}
+		},
+		torpedo = {
+			{
+				0,
+				1,
+				0
+			}
+		},
+		plane = {
+			{
+				0,
+				1,
+				0
+			}
+		}
+	},
+	smoke = {
+		{
+			50,
+			{
+				{
+					"smoke",
+					{
+						-0.4,
+						2,
+						0
+					}
+				}
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	},
+	specific_fx_scale = {},
+	appear_fx = {
+		"appearQ"
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	hp_bar = {
+		150,
+		4
+	},
+	equipment_list = {},
+	random_equipment_list = {},
+	random_nub = {},
+	buff_list = {}
+}
+
+
+_G.pg.base.enemy_data_statistics[91321] = {
+	cannon = 0,
+	name = "美莉艾拉 天使空降隊/美花莉",
+	antiaircraft_growth = 0,
+	speed_growth = 0,
+	luck = 0,
+	air = 0,
+	nationality = 118,
+	icon_type = 2,
+	type = 2,
+	rarity = 0,
+	antiaircraft = 0,
+	dodge_growth = 0,
+	icon = "jumeihuali",
+	star = 0,
+	antisub_growth = 0,
+	air_growth = 0,
+	battle_unit_type = 49,
+	antisub = 0,
+	durability = 99999,
+	armor_growth = 0,
+	torpedo_growth = 0,
+	speed = 18,
+	armor = 0,
+	friendly_cld = 0,
+	id = 91321,
+	scale = 150,
+	prefab = "jumeihuali",
+	cannon_growth = 0,
+	pilot_ai_template_id = 10001,
+	reload = 150,
+	dodge = 0,
+	reload_growth = 0,
+	wave_fx = "movewave",
+	bubble_fx = "",
+	hit = 0,
+	fog_fx = "",
+	torpedo = 0,
+	durability_growth = 0,
+	luck_growth = 0,
+	hit_growth = 0,
+	armor_type = 1,
+	world_enhancement = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	prefab_offset = {
+		0,
+		0,
+		0
+	},
+	cld_box = {
+		5.5,
+		7.5,
+		8
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		cannon = {
+			{
+				1,
+				1,
+				0
+			}
+		},
+		torpedo = {
+			{
+				0,
+				1,
+				0
+			}
+		},
+		plane = {
+			{
+				0,
+				1,
+				0
+			}
+		}
+	},
+	smoke = {
+		{
+			50,
+			{
+				{
+					"smoke",
+					{
+						-0.4,
+						2,
+						0
+					}
+				}
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	},
+	specific_fx_scale = {},
+	appear_fx = {
+		"appearQ"
+	},
 	position_offset = {
 		0,
 		0,
@@ -701131,6 +701582,206 @@ _G.pg.base.enemy_data_statistics[16908211] = {
 }
 
 
+_G.pg.base.enemy_data_statistics[16909001] = {
+	cannon = 55,
+	battle_unit_type = 95,
+	speed_growth = 0,
+	luck_growth = 0,
+	air = 85,
+	armor = 0,
+	hit_growth = 210,
+	antisub = 0,
+	fog_fx = "",
+	dodge_growth = 156,
+	antisub_growth = 0,
+	air_growth = 0,
+	base = 91320,
+	durability = 7800,
+	armor_growth = 0,
+	torpedo_growth = 0,
+	speed = 18,
+	luck = 0,
+	id = 16909001,
+	scale = 180,
+	cannon_growth = 0,
+	pilot_ai_template_id = 10001,
+	reload = 150,
+	dodge = 14,
+	reload_growth = 0,
+	hit = 14,
+	torpedo = 0,
+	durability_growth = 0,
+	antiaircraft = 125,
+	antiaircraft_growth = 0,
+	appear_fx = {
+		"bossguangxiao",
+		"appearQ"
+	},
+	equipment_list = {
+		3438001,
+		3438002,
+		3438003,
+		3438004
+	},
+	buff_list = {
+		{
+			ID = 201445,
+			LV = 1
+		}
+	}
+}
+
+
+_G.pg.base.enemy_data_statistics[16909002] = {
+	cannon = 170,
+	battle_unit_type = 95,
+	speed_growth = 0,
+	luck_growth = 0,
+	air = 160,
+	armor = 0,
+	hit_growth = 210,
+	antisub = 0,
+	fog_fx = "",
+	dodge_growth = 156,
+	antisub_growth = 0,
+	air_growth = 0,
+	base = 91321,
+	durability = 25600,
+	armor_growth = 0,
+	torpedo_growth = 0,
+	speed = 16,
+	luck = 8,
+	id = 16909002,
+	scale = 180,
+	cannon_growth = 0,
+	pilot_ai_template_id = 10001,
+	reload = 150,
+	dodge = 18,
+	reload_growth = 0,
+	hit = 14,
+	torpedo = 140,
+	durability_growth = 0,
+	antiaircraft = 240,
+	antiaircraft_growth = 0,
+	appear_fx = {
+		"bossguangxiao",
+		"appearQ"
+	},
+	equipment_list = {
+		3438101,
+		3438102,
+		3438103,
+		3438104
+	},
+	buff_list = {
+		{
+			ID = 201445,
+			LV = 1
+		}
+	}
+}
+
+
+_G.pg.base.enemy_data_statistics[16909003] = {
+	cannon = 152,
+	battle_unit_type = 95,
+	speed_growth = 0,
+	luck_growth = 0,
+	air = 291,
+	armor = 0,
+	hit_growth = 210,
+	antisub = 0,
+	fog_fx = "",
+	dodge_growth = 312,
+	antisub_growth = 0,
+	air_growth = 0,
+	base = 91320,
+	durability = 63600,
+	armor_growth = 0,
+	torpedo_growth = 0,
+	speed = 16,
+	luck = 25,
+	id = 16909003,
+	scale = 180,
+	cannon_growth = 0,
+	pilot_ai_template_id = 10001,
+	reload = 150,
+	dodge = 22,
+	reload_growth = 0,
+	hit = 21,
+	torpedo = 0,
+	durability_growth = 0,
+	antiaircraft = 360,
+	antiaircraft_growth = 0,
+	appear_fx = {
+		"bossguangxiao",
+		"appearQ"
+	},
+	equipment_list = {
+		3438201,
+		3438202,
+		3438203,
+		3438204
+	},
+	buff_list = {
+		{
+			ID = 201445,
+			LV = 1
+		}
+	}
+}
+
+
+_G.pg.base.enemy_data_statistics[16909004] = {
+	cannon = 198,
+	battle_unit_type = 95,
+	speed_growth = 0,
+	luck_growth = 0,
+	air = 0,
+	armor = 0,
+	hit_growth = 210,
+	antisub = 0,
+	fog_fx = "",
+	dodge_growth = 256,
+	antisub_growth = 0,
+	air_growth = 0,
+	base = 91321,
+	durability = 61250,
+	armor_growth = 0,
+	torpedo_growth = 0,
+	speed = 18,
+	luck = 25,
+	id = 16909004,
+	scale = 180,
+	cannon_growth = 0,
+	pilot_ai_template_id = 10001,
+	reload = 150,
+	dodge = 16,
+	reload_growth = 0,
+	hit = 22,
+	torpedo = 260,
+	durability_growth = 0,
+	antiaircraft = 350,
+	antiaircraft_growth = 0,
+	appear_fx = {
+		"bossguangxiao",
+		"appearQ"
+	},
+	equipment_list = {
+		3438207,
+		3438208,
+		3438209,
+		3438210
+	},
+	buff_list = {
+		{
+			ID = 201445,
+			LV = 1
+		}
+	}
+}
+
+
 _G.pg.base.enemy_data_statistics[900001] = {
 	name = "拉菲",
 	antiaircraft_growth = 0,
@@ -754610,6 +755261,726 @@ _G.pg.base.enemy_data_statistics[295315] = {
 		},
 		{
 			ID = 201637,
+			LV = 1
+		}
+	}
+}
+
+
+_G.pg.base.enemy_data_statistics[295316] = {
+	cannon = 100,
+	name = "雷根斯堡·META(Tier.1)",
+	torpedo = 104,
+	cannon_growth = 0,
+	air = 0,
+	reload = 150,
+	armor = 0,
+	dodge = 25,
+	id = 295316,
+	antiaircraft_growth = 0,
+	reload_growth = 0,
+	dodge_growth = 0,
+	speed_growth = 0,
+	luck_growth = 0,
+	hit = 35,
+	antisub_growth = 0,
+	air_growth = 0,
+	hit_growth = 0,
+	base = 91217,
+	durability = 60000,
+	armor_growth = 0,
+	durability_growth = 0,
+	antiaircraft = 116,
+	speed = 30,
+	luck = 50,
+	battle_unit_type = 90,
+	torpedo_growth = 0,
+	antisub = 0,
+	fog_fx = "",
+	equipment_list = {},
+	buff_list = {
+		{
+			ID = 201721,
+			LV = 1
+		},
+		{
+			ID = 200280,
+			LV = 1
+		},
+		{
+			ID = 201735,
+			LV = 1
+		}
+	}
+}
+
+
+_G.pg.base.enemy_data_statistics[295317] = {
+	cannon = 115,
+	name = "雷根斯堡·META(Tier.2)",
+	torpedo = 118,
+	cannon_growth = 0,
+	air = 0,
+	reload = 150,
+	armor = 0,
+	dodge = 28,
+	id = 295317,
+	antiaircraft_growth = 0,
+	reload_growth = 0,
+	dodge_growth = 0,
+	speed_growth = 0,
+	luck_growth = 0,
+	hit = 40,
+	antisub_growth = 0,
+	air_growth = 0,
+	hit_growth = 0,
+	base = 91217,
+	durability = 64000,
+	armor_growth = 0,
+	durability_growth = 0,
+	antiaircraft = 133,
+	speed = 30,
+	luck = 50,
+	battle_unit_type = 90,
+	torpedo_growth = 0,
+	antisub = 0,
+	fog_fx = "",
+	equipment_list = {},
+	buff_list = {
+		{
+			ID = 201721,
+			LV = 2
+		},
+		{
+			ID = 200280,
+			LV = 1
+		},
+		{
+			ID = 201735,
+			LV = 1
+		}
+	}
+}
+
+
+_G.pg.base.enemy_data_statistics[295318] = {
+	cannon = 129,
+	name = "雷根斯堡·META(Tier.3)",
+	torpedo = 133,
+	cannon_growth = 0,
+	air = 0,
+	reload = 150,
+	armor = 0,
+	dodge = 32,
+	id = 295318,
+	antiaircraft_growth = 0,
+	reload_growth = 0,
+	dodge_growth = 0,
+	speed_growth = 0,
+	luck_growth = 0,
+	hit = 45,
+	antisub_growth = 0,
+	air_growth = 0,
+	hit_growth = 0,
+	base = 91217,
+	durability = 69000,
+	armor_growth = 0,
+	durability_growth = 0,
+	antiaircraft = 150,
+	speed = 30,
+	luck = 50,
+	battle_unit_type = 90,
+	torpedo_growth = 0,
+	antisub = 0,
+	fog_fx = "",
+	equipment_list = {},
+	buff_list = {
+		{
+			ID = 201721,
+			LV = 3
+		},
+		{
+			ID = 200280,
+			LV = 1
+		},
+		{
+			ID = 201735,
+			LV = 1
+		}
+	}
+}
+
+
+_G.pg.base.enemy_data_statistics[295319] = {
+	cannon = 143,
+	name = "雷根斯堡·META(Tier.4)",
+	torpedo = 148,
+	cannon_growth = 0,
+	air = 0,
+	reload = 150,
+	armor = 0,
+	dodge = 35,
+	id = 295319,
+	antiaircraft_growth = 0,
+	reload_growth = 0,
+	dodge_growth = 0,
+	speed_growth = 0,
+	luck_growth = 0,
+	hit = 50,
+	antisub_growth = 0,
+	air_growth = 0,
+	hit_growth = 0,
+	base = 91217,
+	durability = 84000,
+	armor_growth = 0,
+	durability_growth = 0,
+	antiaircraft = 166,
+	speed = 30,
+	luck = 50,
+	battle_unit_type = 90,
+	torpedo_growth = 0,
+	antisub = 0,
+	fog_fx = "",
+	equipment_list = {},
+	buff_list = {
+		{
+			ID = 201721,
+			LV = 4
+		},
+		{
+			ID = 200280,
+			LV = 1
+		},
+		{
+			ID = 201735,
+			LV = 1
+		}
+	}
+}
+
+
+_G.pg.base.enemy_data_statistics[295320] = {
+	cannon = 158,
+	name = "雷根斯堡·META(Tier.5)",
+	torpedo = 163,
+	cannon_growth = 0,
+	air = 0,
+	reload = 150,
+	armor = 0,
+	dodge = 39,
+	id = 295320,
+	antiaircraft_growth = 0,
+	reload_growth = 0,
+	dodge_growth = 0,
+	speed_growth = 0,
+	luck_growth = 0,
+	hit = 55,
+	antisub_growth = 0,
+	air_growth = 0,
+	hit_growth = 0,
+	base = 91217,
+	durability = 132000,
+	armor_growth = 0,
+	durability_growth = 0,
+	antiaircraft = 183,
+	speed = 30,
+	luck = 50,
+	battle_unit_type = 90,
+	torpedo_growth = 0,
+	antisub = 0,
+	fog_fx = "",
+	equipment_list = {},
+	buff_list = {
+		{
+			ID = 201721,
+			LV = 5
+		},
+		{
+			ID = 200280,
+			LV = 1
+		},
+		{
+			ID = 201735,
+			LV = 1
+		}
+	}
+}
+
+
+_G.pg.base.enemy_data_statistics[295321] = {
+	cannon = 172,
+	name = "雷根斯堡·META(Tier.6)",
+	torpedo = 178,
+	cannon_growth = 0,
+	air = 0,
+	reload = 150,
+	armor = 0,
+	dodge = 42,
+	id = 295321,
+	antiaircraft_growth = 0,
+	reload_growth = 0,
+	dodge_growth = 0,
+	speed_growth = 0,
+	luck_growth = 0,
+	hit = 60,
+	antisub_growth = 0,
+	air_growth = 0,
+	hit_growth = 0,
+	base = 91217,
+	durability = 180000,
+	armor_growth = 0,
+	durability_growth = 0,
+	antiaircraft = 200,
+	speed = 30,
+	luck = 50,
+	battle_unit_type = 90,
+	torpedo_growth = 0,
+	antisub = 0,
+	fog_fx = "",
+	equipment_list = {},
+	buff_list = {
+		{
+			ID = 201721,
+			LV = 6
+		},
+		{
+			ID = 200280,
+			LV = 1
+		},
+		{
+			ID = 201735,
+			LV = 1
+		}
+	}
+}
+
+
+_G.pg.base.enemy_data_statistics[295322] = {
+	cannon = 186,
+	name = "雷根斯堡·META(Tier.7)",
+	torpedo = 193,
+	cannon_growth = 0,
+	air = 0,
+	reload = 150,
+	armor = 0,
+	dodge = 46,
+	id = 295322,
+	antiaircraft_growth = 0,
+	reload_growth = 0,
+	dodge_growth = 0,
+	speed_growth = 0,
+	luck_growth = 0,
+	hit = 65,
+	antisub_growth = 0,
+	air_growth = 0,
+	hit_growth = 0,
+	base = 91217,
+	durability = 276000,
+	armor_growth = 0,
+	durability_growth = 0,
+	antiaircraft = 216,
+	speed = 30,
+	luck = 50,
+	battle_unit_type = 90,
+	torpedo_growth = 0,
+	antisub = 0,
+	fog_fx = "",
+	equipment_list = {},
+	buff_list = {
+		{
+			ID = 201721,
+			LV = 7
+		},
+		{
+			ID = 200280,
+			LV = 1
+		},
+		{
+			ID = 201735,
+			LV = 1
+		}
+	}
+}
+
+
+_G.pg.base.enemy_data_statistics[295323] = {
+	cannon = 201,
+	name = "雷根斯堡·META(Tier.8)",
+	torpedo = 208,
+	cannon_growth = 0,
+	air = 0,
+	reload = 150,
+	armor = 0,
+	dodge = 50,
+	id = 295323,
+	antiaircraft_growth = 0,
+	reload_growth = 0,
+	dodge_growth = 0,
+	speed_growth = 0,
+	luck_growth = 0,
+	hit = 70,
+	antisub_growth = 0,
+	air_growth = 0,
+	hit_growth = 0,
+	base = 91217,
+	durability = 372000,
+	armor_growth = 0,
+	durability_growth = 0,
+	antiaircraft = 233,
+	speed = 30,
+	luck = 50,
+	battle_unit_type = 90,
+	torpedo_growth = 0,
+	antisub = 0,
+	fog_fx = "",
+	equipment_list = {},
+	buff_list = {
+		{
+			ID = 201721,
+			LV = 8
+		},
+		{
+			ID = 200280,
+			LV = 1
+		},
+		{
+			ID = 201735,
+			LV = 1
+		}
+	}
+}
+
+
+_G.pg.base.enemy_data_statistics[295324] = {
+	cannon = 215,
+	name = "雷根斯堡·META(Tier.9)",
+	torpedo = 222,
+	cannon_growth = 0,
+	air = 0,
+	reload = 150,
+	armor = 0,
+	dodge = 53,
+	id = 295324,
+	antiaircraft_growth = 0,
+	reload_growth = 0,
+	dodge_growth = 0,
+	speed_growth = 0,
+	luck_growth = 0,
+	hit = 75,
+	antisub_growth = 0,
+	air_growth = 0,
+	hit_growth = 0,
+	base = 91217,
+	durability = 469000,
+	armor_growth = 0,
+	durability_growth = 0,
+	antiaircraft = 250,
+	speed = 30,
+	luck = 50,
+	battle_unit_type = 90,
+	torpedo_growth = 0,
+	antisub = 0,
+	fog_fx = "",
+	equipment_list = {},
+	buff_list = {
+		{
+			ID = 201721,
+			LV = 9
+		},
+		{
+			ID = 200280,
+			LV = 1
+		},
+		{
+			ID = 201735,
+			LV = 1
+		}
+	}
+}
+
+
+_G.pg.base.enemy_data_statistics[295325] = {
+	cannon = 230,
+	name = "雷根斯堡·META(Tier.10)",
+	torpedo = 237,
+	cannon_growth = 0,
+	air = 0,
+	reload = 150,
+	armor = 0,
+	dodge = 57,
+	id = 295325,
+	antiaircraft_growth = 0,
+	reload_growth = 0,
+	dodge_growth = 0,
+	speed_growth = 0,
+	luck_growth = 0,
+	hit = 80,
+	antisub_growth = 0,
+	air_growth = 0,
+	hit_growth = 0,
+	base = 91217,
+	durability = 577000,
+	armor_growth = 0,
+	durability_growth = 0,
+	antiaircraft = 266,
+	speed = 30,
+	luck = 50,
+	battle_unit_type = 90,
+	torpedo_growth = 0,
+	antisub = 0,
+	fog_fx = "",
+	equipment_list = {},
+	buff_list = {
+		{
+			ID = 201721,
+			LV = 10
+		},
+		{
+			ID = 200280,
+			LV = 1
+		},
+		{
+			ID = 201735,
+			LV = 1
+		}
+	}
+}
+
+
+_G.pg.base.enemy_data_statistics[295326] = {
+	cannon = 244,
+	name = "雷根斯堡·META(Tier.11)",
+	torpedo = 252,
+	cannon_growth = 0,
+	air = 0,
+	reload = 150,
+	armor = 0,
+	dodge = 60,
+	id = 295326,
+	antiaircraft_growth = 0,
+	reload_growth = 0,
+	dodge_growth = 0,
+	speed_growth = 0,
+	luck_growth = 0,
+	hit = 85,
+	antisub_growth = 0,
+	air_growth = 0,
+	hit_growth = 0,
+	base = 91217,
+	durability = 721000,
+	armor_growth = 0,
+	durability_growth = 0,
+	antiaircraft = 283,
+	speed = 30,
+	luck = 50,
+	battle_unit_type = 90,
+	torpedo_growth = 0,
+	antisub = 0,
+	fog_fx = "",
+	equipment_list = {},
+	buff_list = {
+		{
+			ID = 201721,
+			LV = 11
+		},
+		{
+			ID = 200280,
+			LV = 1
+		},
+		{
+			ID = 201735,
+			LV = 1
+		}
+	}
+}
+
+
+_G.pg.base.enemy_data_statistics[295327] = {
+	cannon = 258,
+	name = "雷根斯堡·META(Tier.12)",
+	torpedo = 267,
+	cannon_growth = 0,
+	air = 0,
+	reload = 150,
+	armor = 0,
+	dodge = 64,
+	id = 295327,
+	antiaircraft_growth = 0,
+	reload_growth = 0,
+	dodge_growth = 0,
+	speed_growth = 0,
+	luck_growth = 0,
+	hit = 90,
+	antisub_growth = 0,
+	air_growth = 0,
+	hit_growth = 0,
+	base = 91217,
+	durability = 938000,
+	armor_growth = 0,
+	durability_growth = 0,
+	antiaircraft = 300,
+	speed = 30,
+	luck = 50,
+	battle_unit_type = 90,
+	torpedo_growth = 0,
+	antisub = 0,
+	fog_fx = "",
+	equipment_list = {},
+	buff_list = {
+		{
+			ID = 201721,
+			LV = 12
+		},
+		{
+			ID = 200280,
+			LV = 1
+		},
+		{
+			ID = 201735,
+			LV = 1
+		}
+	}
+}
+
+
+_G.pg.base.enemy_data_statistics[295328] = {
+	cannon = 273,
+	name = "雷根斯堡·META(Tier.13)",
+	torpedo = 282,
+	cannon_growth = 0,
+	air = 0,
+	reload = 150,
+	armor = 0,
+	dodge = 67,
+	id = 295328,
+	antiaircraft_growth = 0,
+	reload_growth = 0,
+	dodge_growth = 0,
+	speed_growth = 0,
+	luck_growth = 0,
+	hit = 95,
+	antisub_growth = 0,
+	air_growth = 0,
+	hit_growth = 0,
+	base = 91217,
+	durability = 1202000,
+	armor_growth = 0,
+	durability_growth = 0,
+	antiaircraft = 316,
+	speed = 30,
+	luck = 50,
+	battle_unit_type = 90,
+	torpedo_growth = 0,
+	antisub = 0,
+	fog_fx = "",
+	equipment_list = {},
+	buff_list = {
+		{
+			ID = 201721,
+			LV = 13
+		},
+		{
+			ID = 200280,
+			LV = 1
+		},
+		{
+			ID = 201735,
+			LV = 1
+		}
+	}
+}
+
+
+_G.pg.base.enemy_data_statistics[295329] = {
+	cannon = 287,
+	name = "雷根斯堡·META(Tier.14)",
+	torpedo = 297,
+	cannon_growth = 0,
+	air = 0,
+	reload = 150,
+	armor = 0,
+	dodge = 71,
+	id = 295329,
+	antiaircraft_growth = 0,
+	reload_growth = 0,
+	dodge_growth = 0,
+	speed_growth = 0,
+	luck_growth = 0,
+	hit = 100,
+	antisub_growth = 0,
+	air_growth = 0,
+	hit_growth = 0,
+	base = 91217,
+	durability = 1491000,
+	armor_growth = 0,
+	durability_growth = 0,
+	antiaircraft = 333,
+	speed = 30,
+	luck = 50,
+	battle_unit_type = 90,
+	torpedo_growth = 0,
+	antisub = 0,
+	fog_fx = "",
+	equipment_list = {},
+	buff_list = {
+		{
+			ID = 201721,
+			LV = 14
+		},
+		{
+			ID = 200280,
+			LV = 1
+		},
+		{
+			ID = 201735,
+			LV = 1
+		}
+	}
+}
+
+
+_G.pg.base.enemy_data_statistics[295330] = {
+	cannon = 302,
+	name = "雷根斯堡·META(Tier.15)",
+	torpedo = 312,
+	cannon_growth = 0,
+	air = 0,
+	reload = 150,
+	armor = 0,
+	dodge = 75,
+	id = 295330,
+	antiaircraft_growth = 0,
+	reload_growth = 0,
+	dodge_growth = 0,
+	speed_growth = 0,
+	luck_growth = 0,
+	hit = 110,
+	antisub_growth = 0,
+	air_growth = 0,
+	hit_growth = 0,
+	base = 91217,
+	durability = 1780000,
+	armor_growth = 0,
+	durability_growth = 0,
+	antiaircraft = 350,
+	speed = 30,
+	luck = 50,
+	battle_unit_type = 90,
+	torpedo_growth = 0,
+	antisub = 0,
+	fog_fx = "",
+	equipment_list = {},
+	buff_list = {
+		{
+			ID = 201721,
+			LV = 15
+		},
+		{
+			ID = 200280,
+			LV = 1
+		},
+		{
+			ID = 201735,
 			LV = 1
 		}
 	}

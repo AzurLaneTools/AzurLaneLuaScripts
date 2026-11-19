@@ -29,7 +29,7 @@ temp = function()
 			["拉"] = {
 				["多"] = {
 					this = true,
-					["·"] = {
+					["."] = {
 						["改"] = {
 							this = true
 						}
@@ -39,10 +39,12 @@ temp = function()
 		},
 		["隆"] = {
 			this = true,
-			["·"] = {
+			["."] = {
 				["改"] = {
 					this = true
-				},
+				}
+			},
+			["·"] = {
 				M = {
 					E = {
 						T = {
@@ -145,7 +147,7 @@ temp = function()
 		["里"] = {
 			["蘭"] = {
 				this = true,
-				["·"] = {
+				["."] = {
 					["改"] = {
 						this = true
 					}
@@ -295,10 +297,12 @@ temp = function()
 		["倫"] = {
 			["娜"] = {
 				this = true,
-				["·"] = {
+				["."] = {
 					["改"] = {
 						this = true
-					},
+					}
+				},
+				["·"] = {
 					M = {
 						E = {
 							T = {
@@ -688,7 +692,7 @@ temp = function()
 			["牙"] = {
 				["哥"] = {
 					this = true,
-					["·"] = {
+					["."] = {
 						["改"] = {
 							this = true
 						}

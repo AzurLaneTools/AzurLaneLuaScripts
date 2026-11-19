@@ -5,6 +5,10 @@ slot0.getResource = function(slot0)
 
 	for slot6, slot7 in ipairs(getProxy(ActivityPermanentProxy):getActivityIdsByType(ActivityPermanentProxy.TYPE_NORMAL_ACTIVITY)) do
 		table.insert(slot1, "activitybanner/" .. pg.activity_task_permanent[slot7].banner_route)
+
+		if HXSet.isHx() then
+			table.insert(slot1, "activitybanner/" .. slot8.banner_route .. "_hx")
+		end
 	end
 
 	table.insertto(slot1, uv0.super.getResource(slot0))

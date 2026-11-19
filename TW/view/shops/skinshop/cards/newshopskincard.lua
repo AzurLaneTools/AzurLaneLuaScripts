@@ -80,7 +80,9 @@ slot0.GetTagId = function(slot0, slot1)
 
 	slot3 = slot0:getConfig("tag")
 
-	if (slot0:isDisCount() or slot3 == uv3) and not slot0:IsItemDiscountType() then
+	if slot0:isShopDiscount() then
+		return uv3
+	elseif (slot0:isDisCount() or slot3 == uv3) and not slot0:IsItemDiscountType() then
 		return uv3
 	elseif uv4[slot3] then
 		return slot3

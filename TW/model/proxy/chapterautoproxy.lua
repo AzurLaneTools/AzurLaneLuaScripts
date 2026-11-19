@@ -1,5 +1,6 @@
 slot0 = class("ChapterAutoProxy", import("model.proxy.NetProxy"))
 slot0.FINISH_UPDATE = "ChapterAutoProxy.FINISH_UPDATE"
+slot0.EXPIRED_TIP_MARK = "ChapterAutoProxy.EXPIRED_TIP_MARK"
 slot0.TYPE = {
 	WORLD = 2,
 	SLG = 1
@@ -34,6 +35,9 @@ slot0.register = function(slot0)
 		uv0.dailyExtraTime = slot0.extra_time_max
 	end)
 	slot0:ClearEventIds()
+
+	slot0.commssionExpiredTipMark = false
+	slot0.battleExpiredTipMark = false
 end
 
 slot0.UpdateRecord = function(slot0, slot1, slot2, slot3)
@@ -275,16 +279,44 @@ slot0.IsAllCommissionFinish = function(slot0, slot1)
 	return #slot0.commissionList > 0 and slot0.commissionList[#slot0.commissionList]:GetFinishTime() <= pg.TimeMgr.GetInstance():GetServerTime()
 end
 
-slot0.IsShowTip = function(slot0)
+slot0.IsShowTipInCommssionUI = function(slot0)
 	if slot0.finishedCnt > 0 then
 		return true
 	end
 
-	if slot0:GetWillExpireTicketCnt() > 0 then
+	if not slot0.commssionExpiredTipMark and slot0:GetWillExpireTicketCnt() > 0 then
 		return true
 	end
 
 	return false
+end
+
+slot0.IsShowTipInBattleUI = function(slot0)
+	if slot0.finishedCnt > 0 then
+		return true
+	end
+
+	if not slot0.battleExpiredTipMark and slot0:GetWillExpireTicketCnt() > 0 then
+		return true
+	end
+
+	return false
+end
+
+slot0.MarkCommssionExpiredTip = function(slot0)
+	if not slot0.commssionExpiredTipMark then
+		slot0.commssionExpiredTipMark = true
+
+		slot0:sendNotification(uv0.EXPIRED_TIP_MARK)
+	end
+end
+
+slot0.MarkBattleExpiredTip = function(slot0)
+	if not slot0.battleExpiredTipMark then
+		slot0.battleExpiredTipMark = true
+
+		slot0:sendNotification(uv0.EXPIRED_TIP_MARK)
+	end
 end
 
 slot0.timeCall = function(slot0)

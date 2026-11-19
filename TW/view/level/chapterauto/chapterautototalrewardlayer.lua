@@ -117,7 +117,7 @@ slot0.ShowShips = function(slot0, slot1, slot2)
 		slot10 = slot9 == #slot4
 		slot11 = slot4[slot9]
 
-		if PlayerPrefs.GetInt(DISPLAY_SHIP_GET_EFFECT) == 1 or slot11.virgin or ShipRarity.Purple <= slot11:getRarity() then
+		if PlayerPrefs.GetInt(DISPLAY_SHIP_GET_EFFECT) == 1 or slot11.virgin or (pg.gameset.skip_duplicate_characters_rarity.key_value or ShipRarity.Gold) <= slot11:getRarity() then
 			table.insert(slot5, function (slot0)
 				if getProxy(ChapterAutoProxy):GetSkipBatchBuildFlag() then
 					slot0()

@@ -115,11 +115,11 @@ slot0.ShowShips = function(slot0, slot1, slot2)
 		return slot0.type == DROP_TYPE_SHIP
 	end) + 1), #slot4 do
 		slot10 = slot4[slot9]
-		slot11 = PlayerPrefs.GetInt(DISPLAY_SHIP_GET_EFFECT) == 1 or slot10.virgin or ShipRarity.Purple <= slot10:getRarity()
+		slot12 = PlayerPrefs.GetInt(DISPLAY_SHIP_GET_EFFECT) == 1 or slot10.virgin or (pg.gameset.skip_duplicate_characters_rarity.key_value or ShipRarity.Gold) <= slot10:getRarity()
 
-		print(slot11)
+		print(slot12)
 
-		if slot11 then
+		if slot12 then
 			table.insert(slot5, function (slot0)
 				print("eeeeeeeeeeeee")
 				uv0:emit(ActivityBossTotalRewardPanelMediator.GET_NEW_SHIP, uv1, slot0)

@@ -193568,6 +193568,33 @@ _G.pg.base.item_virtual_data_statistics[68755] = {
 }
 
 
+_G.pg.base.item_virtual_data_statistics[68761] = {
+	drop_gold_max = 0,
+	name = "天使羽翼",
+	display = "可以獲得天使羽翼(魚雷機)、天使羽翼(戰鬥機)、天使羽翼(轟炸機)外觀裝備各一件",
+	type = 98,
+	is_world = 0,
+	shop_id = -1,
+	replace_item = 0,
+	time_limit = 0,
+	link_id = 0,
+	drop_arg = "",
+	album_config = "",
+	icon = "Equips/999131",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	drop_oil_max = 0,
+	virtual_type = 0,
+	id = 68761,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+
 _G.pg.base.item_virtual_data_statistics[68800] = {
 	drop_gold_max = 0,
 	name = "【新手任务】第1阶段pt",
@@ -206631,6 +206658,60 @@ _G.pg.base.item_virtual_data_statistics[170007] = {
 	drop_oil_max = 0,
 	virtual_type = 101,
 	id = 170007,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+
+_G.pg.base.item_virtual_data_statistics[170008] = {
+	drop_gold_max = 0,
+	name = "星彩票",
+	display = "閃爍著星輝的抽獎券。使用後，可在星彩獎中抽取各種珍貴獎勵。",
+	type = 0,
+	is_world = 0,
+	shop_id = -1,
+	replace_item = 0,
+	time_limit = 0,
+	link_id = 990031,
+	drop_arg = "",
+	album_config = "",
+	icon = "Props/170000",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	drop_oil_max = 0,
+	virtual_type = 101,
+	id = 170008,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+
+_G.pg.base.item_virtual_data_statistics[170009] = {
+	drop_gold_max = 0,
+	name = "星彩票",
+	display = "閃爍著星輝的抽獎券。使用後，可在星彩獎中抽取各種珍貴獎勵。",
+	type = 0,
+	is_world = 0,
+	shop_id = -1,
+	replace_item = 0,
+	time_limit = 0,
+	link_id = 990031,
+	drop_arg = "",
+	album_config = "",
+	icon = "Props/170000",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	drop_oil_max = 0,
+	virtual_type = 101,
+	id = 170009,
 	display_icon = {},
 	price = {},
 	index = {},

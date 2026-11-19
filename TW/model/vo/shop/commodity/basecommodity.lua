@@ -72,6 +72,10 @@ slot0.isDisCount = function(slot0)
 	return false
 end
 
+slot0.isShopDiscount = function(slot0)
+	return false
+end
+
 slot0.isChargeType = function(slot0)
 	return false
 end

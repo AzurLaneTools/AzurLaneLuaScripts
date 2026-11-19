@@ -153,11 +153,11 @@ end
 
 slot2.ActiveBot = function(slot0, slot1)
 	slot0._weaponCommand:ActiveBot(slot1, true)
-	slot0:EnableJoystick(not slot1)
+	slot0:EnableJoystick(not slot1, slot1 and getProxy(SettingsProxy):IsShowStickInCombat())
 end
 
-slot2.EnableJoystick = function(slot0, slot1)
-	slot0._uiMediator:EnableJoystick(slot1)
+slot2.EnableJoystick = function(slot0, slot1, slot2)
+	slot0._uiMediator:EnableJoystick(slot1, slot2)
 end
 
 slot2.IsBotActive = function(slot0)

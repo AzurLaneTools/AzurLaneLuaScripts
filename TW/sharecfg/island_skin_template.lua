@@ -11,19 +11,24 @@ pg.island_skin_template.all = {
 	1990301,
 	2012101,
 	2021201,
+	2060201,
 	2060301,
 	2990301,
 	3031101,
 	3031201,
 	3040701,
+	3050501,
 	3120101,
 	4030301,
 	4990201,
+	4990501,
 	4990601,
 	5010701,
 	5010801,
 	5020101,
 	5060101,
+	5060201,
+	7011101,
 	9010701,
 	96000101
 }
@@ -52,6 +57,9 @@ pg.island_skin_template.get_id_list_by_ship_group = {
 	[20212] = {
 		2021201
 	},
+	[20602] = {
+		2060201
+	},
 	[20603] = {
 		2060301
 	},
@@ -67,6 +75,9 @@ pg.island_skin_template.get_id_list_by_ship_group = {
 	[30407] = {
 		3040701
 	},
+	[30505] = {
+		3050501
+	},
 	[31201] = {
 		3120101
 	},
@@ -75,6 +86,9 @@ pg.island_skin_template.get_id_list_by_ship_group = {
 	},
 	[49902] = {
 		4990201
+	},
+	[49905] = {
+		4990501
 	},
 	[49906] = {
 		4990601
@@ -90,6 +104,12 @@ pg.island_skin_template.get_id_list_by_ship_group = {
 	},
 	[50601] = {
 		5060101
+	},
+	[50602] = {
+		5060201
+	},
+	[70111] = {
+		7011101
 	},
 	[90107] = {
 		9010701
@@ -214,6 +234,20 @@ pg.base.island_skin_template = {}
 		icon = "skin_2021201",
 		icon_normal = ""
 	}
+	pg.base.island_skin_template[2060201] = {
+		ship_group = 20602,
+		name = "晨間步調",
+		jump_page = "",
+		tech_id = 0,
+		tag = "",
+		shop_id = 0,
+		desc = "清晨的風還帶著一點涼意，她卻已經整理好節奏，準備把今天慢慢展開~",
+		shop_goods_id = 0,
+		model = 2060201,
+		id = 2060201,
+		icon = "skin_2060201",
+		icon_normal = ""
+	}
 	pg.base.island_skin_template[2060301] = {
 		ship_group = 20603,
 		name = "憧憬的星光",
@@ -284,6 +318,20 @@ pg.base.island_skin_template = {}
 		icon_normal = "props/skin_3040701",
 		jump_page = {}
 	}
+	pg.base.island_skin_template[3050501] = {
+		ship_group = 30505,
+		name = "整裝片刻",
+		jump_page = "",
+		tech_id = 0,
+		tag = "",
+		shop_id = 0,
+		desc = "只是短暫準備，她也依然認真以待，仿佛每一次出發都值得被鄭重記下。",
+		shop_goods_id = 0,
+		model = 3050501,
+		id = 3050501,
+		icon = "skin_3050501",
+		icon_normal = ""
+	}
 	pg.base.island_skin_template[3120101] = {
 		ship_group = 31201,
 		name = "空鈴夜褶",
@@ -324,6 +372,20 @@ pg.base.island_skin_template = {}
 		model = 4990201,
 		id = 4990201,
 		icon = "skin_4990201",
+		icon_normal = ""
+	}
+	pg.base.island_skin_template[4990501] = {
+		ship_group = 49905,
+		name = "制勝步伐",
+		jump_page = "",
+		tech_id = 0,
+		tag = "",
+		shop_id = 0,
+		desc = "貼合身形的運動裝讓她的氣場更顯鋒利，隨意邁出的每一步，都帶著不容忽視的壓迫感~",
+		shop_goods_id = 0,
+		model = 4990501,
+		id = 4990501,
+		icon = "skin_4990501",
 		icon_normal = ""
 	}
 	pg.base.island_skin_template[4990601] = {
@@ -394,6 +456,34 @@ pg.base.island_skin_template = {}
 		model = 5060101,
 		id = 5060101,
 		icon = "skin_5060101",
+		icon_normal = ""
+	}
+	pg.base.island_skin_template[5060201] = {
+		ship_group = 50602,
+		name = "輕盈節奏",
+		jump_page = "",
+		tech_id = 0,
+		tag = "",
+		shop_id = 0,
+		desc = "節奏被呼吸悄悄帶起，她將從容藏進每一個動作裡，連片刻停頓都顯得恰到好處~",
+		shop_goods_id = 0,
+		model = 5060201,
+		id = 5060201,
+		icon = "skin_5060201",
+		icon_normal = ""
+	}
+	pg.base.island_skin_template[7011101] = {
+		ship_group = 70111,
+		name = "活力開場",
+		jump_page = "",
+		tech_id = 0,
+		tag = "",
+		shop_id = 0,
+		desc = "風先一步掠過身側，倒數聲落下之前，那份雀躍已經悄悄衝出了起點~",
+		shop_goods_id = 0,
+		model = 7011101,
+		id = 7011101,
+		icon = "skin_7011101",
 		icon_normal = ""
 	}
 	pg.base.island_skin_template[9010701] = {

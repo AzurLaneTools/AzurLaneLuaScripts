@@ -28,12 +28,7 @@ pg.activity_link_button.all = {
 	107,
 	108,
 	109,
-	110,
-	115,
-	116,
-	117,
-	122,
-	131
+	110
 }
 pg.activity_link_button.get_id_list_by_name = {
 	event_Atelier = {
@@ -63,15 +58,10 @@ pg.activity_link_button.get_id_list_by_name = {
 		102
 	},
 	event_core = {
-		109,
-		116,
-		117,
-		122
+		109
 	},
 	event_core_2 = {
-		110,
-		115,
-		131
+		110
 	},
 	event_dreamland = {
 		103
@@ -457,7 +447,7 @@ pg.base.activity_link_button = {}
 		}
 	}
 	pg.base.activity_link_button[109] = {
-		param = "WindFogCorridorCoreActivityUI",
+		param = "TwoPointFiveCoreActivityUI",
 		name = "event_core",
 		text_pic = "text_event_core",
 		type = 16,
@@ -467,91 +457,21 @@ pg.base.activity_link_button = {}
 		order = 1,
 		time = {
 			"default",
-			51201
+			51301
 		}
 	}
 	pg.base.activity_link_button[110] = {
-		param = "HurricaneTreasureCoreActivityUI",
+		param = "WindFogCorridorCoreActivityUI",
 		name = "event_core_2",
-		text_pic = "text_event_core3",
+		text_pic = "text_event_core2",
 		type = 16,
-		pic = "event_core3",
+		pic = "event_core2",
 		id = 110,
 		group_id = 1,
 		order = 1,
 		time = {
 			"default",
-			51616
-		}
-	}
-	pg.base.activity_link_button[115] = {
-		param = "ShadowCityCoreActivityUI",
-		name = "event_core_2",
-		text_pic = "text_event_core2",
-		type = 16,
-		pic = "event_core2",
-		id = 115,
-		group_id = 1,
-		order = 1,
-		time = {
-			"default",
-			51126
-		}
-	}
-	pg.base.activity_link_button[116] = {
-		param = "ShiningMagicCoreActivityUI",
-		name = "event_core",
-		text_pic = "text_event_core3",
-		type = 16,
-		pic = "event_core3",
-		id = 116,
-		group_id = 1,
-		order = 1,
-		time = {
-			"default",
-			51129
-		}
-	}
-	pg.base.activity_link_button[117] = {
-		param = "EscapeManorCoreActivityUI",
-		name = "event_core",
-		text_pic = "text_event_core3",
-		type = 16,
-		pic = "event_core3",
-		id = 117,
-		group_id = 1,
-		order = 1,
-		time = {
-			"default",
-			51073
-		}
-	}
-	pg.base.activity_link_button[122] = {
-		param = "ShadowCityCoreActivityUI",
-		name = "event_core",
-		text_pic = "text_event_core3",
-		type = 16,
-		pic = "event_core3",
-		id = 122,
-		group_id = 1,
-		order = 1,
-		time = {
-			"default",
-			51130
-		}
-	}
-	pg.base.activity_link_button[131] = {
-		param = "AuctionGameCoreActivityUI",
-		name = "event_core_2",
-		text_pic = "text_event_auction",
-		type = 16,
-		pic = "event_auction",
-		id = 131,
-		group_id = 1,
-		order = 1,
-		time = {
-			"default",
-			970002
+			51201
 		}
 	}
 end)()

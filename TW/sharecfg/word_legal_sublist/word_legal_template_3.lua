@@ -702,7 +702,7 @@ temp = function()
 		},
 		["甲"] = {
 			this = true,
-			["·"] = {
+			["."] = {
 				["改"] = {
 					this = true
 				}

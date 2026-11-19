@@ -229,7 +229,9 @@ pg.base.island_production_place = {}
 			1106,
 			1107,
 			1108,
-			1109
+			1109,
+			1110,
+			1111
 		}
 	}
 	pg.base.island_production_place[502] = {

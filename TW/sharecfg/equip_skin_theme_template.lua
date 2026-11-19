@@ -87,6 +87,7 @@ pg.equip_skin_theme_template.all = {
 	88,
 	89,
 	90,
+	91,
 	101,
 	102,
 	103,
@@ -2017,6 +2018,26 @@ pg.base.equip_skin_theme_template = {}
 			4471,
 			4472,
 			4473
+		}
+	}
+	pg.base.equip_skin_theme_template[91] = {
+		id = 91,
+		name = "2.5次元的誘惑",
+		ids = {
+			1541,
+			1542,
+			1543,
+			1544,
+			1545,
+			1546,
+			1547,
+			1548,
+			1549,
+			1550,
+			1551,
+			1552,
+			1553,
+			1554
 		}
 	}
 	pg.base.equip_skin_theme_template[101] = {

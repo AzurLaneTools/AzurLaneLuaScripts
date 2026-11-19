@@ -222,7 +222,7 @@ temp = function()
 	uv0["獨"] = {
 		["立"] = {
 			this = true,
-			["‧"] = {
+			["."] = {
 				["改"] = {
 					this = true
 				}

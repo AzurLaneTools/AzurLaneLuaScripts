@@ -16526,6 +16526,37 @@ _G.pg.base.item_data_statistics[21057] = {
 }
 
 
+_G.pg.base.item_data_statistics[21058] = {
+	open_directly = 0,
+	name = "結晶：{namecode:552}",
+	type = 4,
+	display = "{namecode:552}的專用性能提升裝置，可在「META研究室」-「能量啟動」中使用。",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_undefined",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/21058",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "[]",
+	id = 21058,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	limit = {}
+}
+
+
 _G.pg.base.item_data_statistics[21059] = {
 	open_directly = 0,
 	name = "結晶：{namecode:553}",
@@ -17414,6 +17445,37 @@ _G.pg.base.item_data_statistics[21921] = {
 	other_item_cost = "[]",
 	usage_arg = "[]",
 	id = 21921,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[21922] = {
+	open_directly = 0,
+	name = "同步值：{namecode:552}",
+	type = 0,
+	display = "在「信標·META」戰鬥中收集的數據，可以提升{namecode:552}同步率。",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_undefined",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/21922",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "[]",
+	id = 21922,
 	compose_number = 0,
 	target_id = 0,
 	display_icon = {},
@@ -51628,6 +51690,90 @@ _G.pg.base.item_data_statistics[40090] = {
 		{
 			31,
 			210,
+			1
+		},
+		{
+			1,
+			14,
+			3060
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[40091] = {
+	open_directly = 1,
+	name = "天使舞台主題禮包（基礎版）",
+	type = 17,
+	display = "可獲得戰鬥介面主題 天使舞台*1,1000物資",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_drop",
+	display_effect = "OpenBox",
+	link_id = 0,
+	is_world = 0,
+	icon = "ChargeIcon/ui12",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "4091",
+	id = 40091,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			31,
+			211,
+			1
+		},
+		{
+			1,
+			1,
+			1000
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[40092] = {
+	open_directly = 1,
+	name = "天使舞台主題禮包（豪華版）",
+	type = 17,
+	display = "可獲得戰鬥介面主題 天使舞台*1,3060鑽石",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_drop",
+	display_effect = "OpenBox",
+	link_id = 0,
+	is_world = 0,
+	icon = "ChargeIcon/ui12",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "4092",
+	id = 40092,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			31,
+			211,
 			1
 		},
 		{

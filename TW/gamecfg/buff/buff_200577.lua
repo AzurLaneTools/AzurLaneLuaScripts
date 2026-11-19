@@ -176,6 +176,42 @@ return {
 					96
 				}
 			}
+		},
+		{
+			type = "BattleBuffAddBuff",
+			trigger = {
+				"onAttach"
+			},
+			arg_list = {
+				minTargetNumber = 1,
+				buff_id = 200578,
+				target = "TargetSelf",
+				check_target = {
+					"TargetAllHarm",
+					"TargetNationality"
+				},
+				nationality = {
+					11
+				}
+			}
+		},
+		{
+			type = "BattleBuffAddBuff",
+			trigger = {
+				"onAttach"
+			},
+			arg_list = {
+				minTargetNumber = 1,
+				buff_id = 200578,
+				target = "TargetSelf",
+				check_target = {
+					"TargetAllHarm",
+					"TargetNationality"
+				},
+				nationality = {
+					12
+				}
+			}
 		}
 	}
 }

@@ -349,7 +349,7 @@ slot0.showRewardInfo = function(slot0, slot1)
 			end) + 1), #slot6 do
 				slot11 = slot6[slot10]
 
-				if PlayerPrefs.GetInt(DISPLAY_SHIP_GET_EFFECT) == 1 or slot11.virgin or ShipRarity.Purple <= slot11:getRarity() then
+				if PlayerPrefs.GetInt(DISPLAY_SHIP_GET_EFFECT) == 1 or slot11.virgin or (pg.gameset.skip_duplicate_characters_rarity.key_value or ShipRarity.Gold) <= slot11:getRarity() then
 					uv0:emit(BattleResultMediator.GET_NEW_SHIP, slot11, uv1)
 					coroutine.yield()
 				end

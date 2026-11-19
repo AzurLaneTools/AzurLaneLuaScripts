@@ -36,15 +36,15 @@ slot0.IsLoaded = function(slot0)
 end
 
 slot0.SetOnceLoadedCall = function(slot0, slot1)
-	slot0.loadedCallback = slot1
 end
 
-slot0.Load = function(slot0, slot1)
+slot0.Load = function(slot0, slot1, slot2)
 	slot0.isPuase = false
 	slot0.isExited = false
 	slot0.state = uv0
 	slot0.ship = slot1
 	slot0.paintingName = slot1:getPainting()
+	slot3 = slot0.paintingName
 
 	slot0:OnLoad(function ()
 		uv0.state = uv1
@@ -55,11 +55,22 @@ slot0.Load = function(slot0, slot1)
 			uv0:TriggerNextEventAuto()
 		end
 
+		if uv2 and uv3 == uv0.paintingName then
+			uv2()
+
+			uv2 = nil
+		end
+
 		uv0:InitClickEvent()
+		uv0:emit(NewMainScene.PAINTING_LOAD_COMPLETE)
 	end)
 end
 
 slot0.Unload = function(slot0)
+	if slot0.state == uv0 then
+		return
+	end
+
 	slot0.state = uv0
 
 	removeOnButton(slot0.container)
@@ -267,6 +278,14 @@ slot0.OnTimerTriggerEvent = function(slot0)
 		slot0:OnTriggerEventAuto()
 		slot0:RemoveTimer()
 	end
+end
+
+slot0.SetTargetContainer = function(slot0, slot1)
+	slot0._renderTargetContainer = slot1
+end
+
+slot0.GetTargetContainer = function(slot0)
+	return slot0._renderTargetContainer and slot0._renderTargetContainer or slot0.container
 end
 
 slot0.OnEnableTimerEvent = function(slot0)
@@ -583,6 +602,9 @@ end
 slot0.OnUpdateShip = function(slot0, slot1)
 end
 
+slot0.OnPaintingFade = function(slot0, slot1)
+end
+
 slot0.InitScalePart = function(slot0)
 	if slot0:GetPartScaleData() and #slot1 > 0 then
 		slot0.partScaleList = {}
@@ -717,6 +739,8 @@ slot0.GetPartStateType = function(slot0)
 end
 
 slot0.Dispose = function(slot0)
+	slot0._renderTargetContainer = nil
+
 	slot0:disposeEvent()
 
 	slot0.isExited = true

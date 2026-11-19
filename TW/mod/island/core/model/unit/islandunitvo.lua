@@ -65,7 +65,6 @@ slot0.GetAssetPath = function(slot0)
 	slot1 = nil
 
 	if slot0:IsNpcType() then
-		warning(slot0.type)
 		assert(pg.island_unit_character[slot0.modelId], slot0.modelId)
 
 		slot1 = pg.island_unit_character[slot0.modelId].model

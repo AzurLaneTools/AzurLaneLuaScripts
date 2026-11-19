@@ -511,6 +511,38 @@ slot33.GetEquipSkinDataFromID = function(slot0)
 	return uv0[slot0]
 end
 
+slot34 = nil
+
+slot33.GetEquipSkinGroupList = function(slot0)
+	if (uv0.GetEquipSkinDataFromID(slot0).plane_group or 0) == 0 then
+		return {
+			slot0
+		}
+	end
+
+	if not uv1 then
+		uv1 = {}
+
+		for slot6, slot7 in ipairs(uv2.all) do
+			if (uv2[slot7].plane_group or 0) ~= 0 then
+				uv1[slot8] = uv1[slot8] or {}
+
+				table.insert(uv1[slot8], slot7)
+			end
+		end
+	end
+
+	return uv1[slot2] or {
+		slot0
+	}
+end
+
+slot33.GetRandomEquipSkin = function(slot0)
+	slot1 = uv0.GetEquipSkinGroupList(slot0)
+
+	return slot1[math.random(#slot1)]
+end
+
 slot33.GetEquipSkin = function(slot0)
 	assert(uv0[slot0] ~= nil, ">>equip_skin_template<< 找不到装备皮肤配置：id = " .. slot0)
 

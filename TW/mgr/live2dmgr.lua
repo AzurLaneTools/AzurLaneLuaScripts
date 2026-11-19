@@ -7,6 +7,19 @@ slot0.Ctor = function(slot0)
 	slot0.nameList = {}
 end
 
+slot0.preloadL2dModelAsync = function(slot0, slot1, slot2)
+	table.insert(slot0.nameList, slot1)
+
+	slot0.loadingDic[slot1] = #slot0.nameList
+
+	PoolMgr.GetInstance():GetLive2D(slot1, true, function (slot0)
+		uv0.loadingDic[uv1] = nil
+
+		PoolMgr.GetInstance():ReturnLive2D(uv1, slot0)
+		existCall(uv2, {})
+	end)
+end
+
 slot0.GetLive2DModelAsync = function(slot0, slot1, slot2)
 	table.insert(slot0.nameList, slot1)
 

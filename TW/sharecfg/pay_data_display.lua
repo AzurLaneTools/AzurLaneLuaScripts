@@ -115,6 +115,9 @@ pg.pay_data_display.all = {
 	2093,
 	2094,
 	2095,
+	2096,
+	2097,
+	2098,
 	4001,
 	4002,
 	4003,
@@ -358,6 +361,9 @@ pg.pay_data_display.get_id_list_by_extra_service = {
 		2093,
 		2094,
 		2095,
+		2096,
+		2097,
+		2098,
 		4001,
 		4002,
 		4003,
@@ -11868,6 +11874,272 @@ end)()
 			}
 		}
 	}
+	pg.base.pay_data_display[2096] = {
+		picture = "ui12",
+		name = "天使舞台主題禮包",
+		type = 0,
+		second_text = "",
+		tag = 2,
+		subject = "天使舞台主題禮包",
+		gem = 0,
+		first_pay_double = 0,
+		show_group = "uigift",
+		money = 390,
+		descrip_extra = "此处不会被看到",
+		limit_group = 112,
+		id = 2096,
+		type_order = 4,
+		package_tag = "",
+		limit_type = 5,
+		package_sort_id = 0,
+		first_icon = "",
+		tip = "",
+		tip_open = 0,
+		cash_show = 0,
+		id_str = "",
+		extra_gem = 0,
+		descrip = "可獲得戰鬥介面主題 天使舞台*1",
+		airijp_id = "",
+		name_display = "天使舞台主題禮包",
+		first_text = "",
+		akashi_pick = 1,
+		skin_inquire_relation = 0,
+		extra_service = 3,
+		limit_arg = 0,
+		package_tag_open = 0,
+		extra_service_item = {
+			{
+				31,
+				211,
+				1
+			}
+		},
+		time = {
+			{
+				{
+					2026,
+					11,
+					19
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2026,
+					12,
+					2
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		display = {
+			{
+				31,
+				211,
+				1
+			}
+		},
+		sub_display = {},
+		ignorePlatform = {},
+		limit_args = {},
+		drop_item = {}
+	}
+	pg.base.pay_data_display[2097] = {
+		picture = "ui12",
+		name = "天使舞台主題禮包（基礎版）",
+		type = 0,
+		second_text = "",
+		tag = 2,
+		subject = "天使舞台主題禮包（基礎版）",
+		gem = 0,
+		first_pay_double = 0,
+		show_group = "uigift",
+		money = 390,
+		descrip_extra = "*禮包將會寄到信箱，請注意查收。",
+		limit_group = 112,
+		id = 2097,
+		type_order = 4,
+		package_tag = "",
+		limit_type = 5,
+		package_sort_id = 0,
+		first_icon = "",
+		tip = "",
+		tip_open = 0,
+		cash_show = 0,
+		id_str = "com.hkmanjuu.azurlane.ui34",
+		extra_gem = 0,
+		descrip = "可獲得戰鬥介面主題 天使舞台*1,1000物資",
+		airijp_id = "com.yostarjp.azurlane.ui31",
+		name_display = "天使舞台主題禮包（基礎版）",
+		first_text = "",
+		akashi_pick = 1,
+		skin_inquire_relation = 0,
+		extra_service = 3,
+		limit_arg = 1,
+		package_tag_open = 0,
+		extra_service_item = {
+			{
+				31,
+				211,
+				1
+			},
+			{
+				1,
+				1,
+				1000
+			}
+		},
+		time = {
+			{
+				{
+					2026,
+					11,
+					19
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2026,
+					12,
+					2
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		display = {
+			{
+				31,
+				211,
+				1
+			},
+			{
+				1,
+				1,
+				1000
+			}
+		},
+		sub_display = {},
+		ignorePlatform = {},
+		limit_args = {},
+		drop_item = {
+			{
+				2,
+				40091,
+				1
+			}
+		}
+	}
+	pg.base.pay_data_display[2098] = {
+		picture = "ui12",
+		name = "天使舞台主題禮包（豪華版）",
+		type = 0,
+		second_text = "",
+		tag = 2,
+		subject = "天使舞台主題禮包（豪華版）",
+		gem = 0,
+		first_pay_double = 0,
+		show_group = "uigift",
+		money = 1320,
+		descrip_extra = "*禮包將會寄到信箱，請注意查收。",
+		limit_group = 112,
+		id = 2098,
+		type_order = 4,
+		package_tag = "",
+		limit_type = 5,
+		package_sort_id = 0,
+		first_icon = "",
+		tip = "",
+		tip_open = 0,
+		cash_show = 0,
+		id_str = "com.hkmanjuu.azurlane.ui35",
+		extra_gem = 0,
+		descrip = "可獲得戰鬥介面主題 天使舞台*1,3060鑽石",
+		airijp_id = "com.yostarjp.azurlane.ui32",
+		name_display = "天使舞台主題禮包（豪華版）",
+		first_text = "",
+		akashi_pick = 1,
+		skin_inquire_relation = 0,
+		extra_service = 3,
+		limit_arg = 1,
+		package_tag_open = 0,
+		extra_service_item = {
+			{
+				31,
+				211,
+				1
+			},
+			{
+				1,
+				14,
+				3060
+			}
+		},
+		time = {
+			{
+				{
+					2026,
+					11,
+					19
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2026,
+					12,
+					2
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		display = {
+			{
+				31,
+				211,
+				1
+			},
+			{
+				1,
+				14,
+				3060
+			}
+		},
+		sub_display = {},
+		ignorePlatform = {},
+		limit_args = {},
+		drop_item = {
+			{
+				2,
+				40092,
+				1
+			}
+		}
+	}
 	pg.base.pay_data_display[4001] = {
 		picture = "TWAndroid_l",
 		name = "GP限時補給 ",
@@ -21178,6 +21450,8 @@ end)()
 		limit_args = {},
 		drop_item = {}
 	}
+end)()
+(function ()
 	pg.base.pay_data_display[4912] = {
 		picture = "battlepass_1",
 		name = "特許巡遊憑證（十三期）",
@@ -21436,8 +21710,6 @@ end)()
 		limit_args = {},
 		drop_item = {}
 	}
-end)()
-(function ()
 	pg.base.pay_data_display[4915] = {
 		picture = "battlepass_1",
 		name = "特許巡遊憑證（十六期）",

@@ -96,6 +96,7 @@ slot0.init = function(slot0)
 	slot0._viewBtn = slot0._left:Find("view_btn")
 	slot0._evaluationBtn = slot0._left:Find("evaluation_btn")
 	slot0._shareBtn = slot0._left:Find("share_btn")
+	slot0._displayBtn = slot0._shake:Find("display_ship_toggle")
 	slot0.audioBtn = slot0._shake:Find("property_btn")
 	slot0.clickTF = slot0._shake:Find("click")
 	slot0.npc = slot0._tf:Find("shake_panel/npc")
@@ -111,6 +112,7 @@ slot0.init = function(slot0)
 	setActive(slot0._skipButton, slot0.contextData.canSkipBatch)
 	setActive(slot0._left, true)
 	setActive(slot0.audioBtn, true)
+	setText(slot0._displayBtn:Find("bg/Text"), i18n("display_ship_get_repeat"))
 	pg.UIMgr.GetInstance():OverlayPanel(slot0._tf)
 
 	slot0.metaRepeatTF = slot0.rarityTF:Find("MetaRepeat")
@@ -155,6 +157,9 @@ slot0.setShip = function(slot0, slot1)
 
 	slot0._shipVO = slot1
 	slot0.isRemoulded = slot1:isRemoulded()
+
+	triggerToggle(slot0._displayBtn, PlayerPrefs.GetInt(DISPLAY_SHIP_GET_EFFECT) == 1)
+
 	slot3 = slot1:isMetaShip()
 
 	setImageSprite(slot0._bg, slot0.bgSprite)
@@ -573,6 +578,19 @@ slot0.didEnter = function(slot0)
 			uv0:emit(NewShipMediator.ON_SKIP_BATCH, uv0.contextData.skipBatchType or NewShipMediator.SKIP_TYPE.BUILD)
 		end)
 	end, SFX_PANEL)
+	onToggle(slot0, slot0._displayBtn, function (slot0)
+		if PlayerPrefs.GetInt(DISPLAY_SHIP_GET_EFFECT) == slot0 then
+			return
+		end
+
+		SettingsOtherPanel.OnCommonSwitchByKey(DISPLAY_SHIP_GET_EFFECT, slot0)
+
+		if slot0 then
+			pg.TipsMgr.GetInstance():ShowTips(i18n("trun_on_display_ship_get_repeat"))
+		else
+			pg.TipsMgr.GetInstance():ShowTips(i18n("trun_off_display_ship_get_repeat"))
+		end
+	end, SFX_CONFIRM)
 	pg.CriMgr.GetInstance():PlaySoundEffect_V3(SFX_UI_DOCKYARD_CHARGET)
 	pg.SystemGuideMgr.GetInstance():Play(slot0)
 end

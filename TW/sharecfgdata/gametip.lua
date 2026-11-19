@@ -5306,12 +5306,12 @@ _G.pg.base.gametip.world_boss_help_meta = {
 			info = [[
 信標·META功能說明
 
-1. <color=#92fc63>2026.8.20-2026.11.19</color>期間限時開放「約克鎮·META」的挑戰，在此期間指揮官可挑戰「約克鎮·META」累計其同步值獲取<color=#92fc63>「約克鎮·META」角色</color>及其他豐厚獎勵
+1. <color=#92fc63>2026.11.19-2027.2.17</color>期間限時開放「{namecode:552}」的挑戰，在此期間指揮官可挑戰「{namecode:552}」累計其同步值獲取<color=#92fc63>「{namecode:552}」角色</color>及其他豐厚獎勵
 <color=#ff5c5c>注意：同步值將於時間結束後消失</color>
 
 2.「信標數據」獲取與解析
 ·指揮官可通過在大型作戰中獲取「信標數據」，達到指定數據量後進行解析並發現特定信標
-·每日最多可獲取 <color=#92fc63>200</color>點，每日0點刷新可獲取點數，尚未使用的「信標數據」將會保留。
+·每日最多可獲取 <color=#92fc63>200</color>點，每日0點更新可獲取點數，尚未使用的「信標數據」將會保留。
 ·每次解析「信標數據」所需量為<color=#92fc63>100</color>點
 
 3.挑戰自己解析的信標
@@ -5327,7 +5327,7 @@ _G.pg.base.gametip.world_boss_help_meta = {
 ·同一個信標最多能允許累計30位指揮官進行挑戰
 
 5.戰鬥說明
-·挑戰信標約克鎮·META暫不可使用指揮喵與潛艇
+·挑戰信標{namecode:552}暫不可使用指揮喵與潛艇
 ·戰鬥結算時不會獲得經驗值，不會影響艦船心情值
 ·戰鬥中不可中途退出，如果出現網路波動導致掉線的情況：
 ①挑戰自己解析的信標時將會消耗40點石油(非第一次挑戰)，且不會計算已造成的傷害
@@ -5335,8 +5335,8 @@ _G.pg.base.gametip.world_boss_help_meta = {
  <color=#92fc63>請在參與作戰時保持網路環境暢通</color>
 
 6.火力支援
-隨著信標約克鎮·META挑戰的進行，從第31天開始，即2026.9.19-2026.11.19期間，艦隊挑戰「約克鎮·META」時將會獲得一次額外火力支援。火力支援會對敵人造成傷害，並為敵人施加一個持續傷害的特殊狀態（不受任何加成效果影響）。隨著本期信標約克鎮·META開放的日期增加，火力支援提供的傷害也會增加。
-※此支援只會在指揮官自己發現的信標約克鎮·META戰鬥中出現，每次挑戰均會觸發。]]
+隨著信標{namecode:552}挑戰的進行，從第31天開始，即2026.11.19~2027.2.17期間，艦隊挑戰「{namecode:552}」時將會獲得一次額外火力支援。火力支援會對敵人造成傷害，並為敵人施加一個持續傷害的特殊狀態（不受任何加成效果影響）。隨著本期信標{namecode:552}開放的日期增加，火力支援提供的傷害也會增加。
+※此支援只會在指揮官自己發現的信標{namecode:552}戰鬥中出現，每次挑戰均會觸發。]]
 		}
 	}
 }
@@ -6475,6 +6475,11 @@ _G.pg.base.gametip.word_shipNation_jinghuanlianmeng = {
 
 _G.pg.base.gametip.word_shipNation_nierautomata = {
 	tip = "NieR Automata"
+}
+
+
+_G.pg.base.gametip.word_shipNation_ririsa = {
+	tip = "2.5次元的誘惑"
 }
 
 
@@ -20978,11 +20983,11 @@ _G.pg.base.gametip.meta_help = {
 		{
 			info = [[
 1.<color=#92fc63>資訊同步</color>
-·<color=#92fc63>2026.8.20-2026.11.19</color>期間限時開放「約克鎮·META」的「資訊同步」，通過「信標約克鎮·META」戰鬥獲取其同步值，達到一定同步值可以獲取<color=#92fc63>「約克鎮·META」角色</color>
+·<color=#92fc63>2026.11.19-2027.2.17</color>期間限時開放「{namecode:552}」的「資訊同步」，通過「信標{namecode:552}」戰鬥獲取其同步值，達到一定同步值可以獲取<color=#92fc63>「{namecode:552}」角色</color>
 ·獲得META角色後可以通過角色的<color=#92fc63>「資訊同步」</color>模組在<color=#92fc63>上述時間</color>內繼續獲取包含養成材料在內的豐厚獎勵
-·注意：<color=#ff5c5c>「約克鎮·META」的「資訊同步」將於時間結束後暫時關閉，已累計的同步值也會消失。</color>
+·注意：<color=#ff5c5c>「{namecode:552}」的「資訊同步」將於時間結束後暫時關閉,已累計的同步值也會消失。</color>
 
-2.<color=#92fc63>能量激活</color>
+2.<color=#92fc63>能量啟動</color>
 ·META角色達到指定等級後可以使用對應的角色結晶進行啟動。啟動後可以提升角色星級
 ·角色結晶可以通過「資訊同步」獎勵獲取
 ]]
@@ -39614,6 +39619,36 @@ _G.pg.base.gametip.shop_new_gift = {
 }
 
 
+_G.pg.base.gametip.shop_new_lower_price = {
+	tip = "最低"
+}
+
+
+_G.pg.base.gametip.shop_new_cannot_use_coupon = {
+	tip = "在商店折扣下，您所擁有的折扣券暫無法使用"
+}
+
+
+_G.pg.base.gametip.shop_new_only_use_one_coupon = {
+	tip = "僅可選擇一張折價券使用"
+}
+
+
+_G.pg.base.gametip.shop_new_coupon_tip1 = {
+	tip = "\n包含的換裝 如下：\n"
+}
+
+
+_G.pg.base.gametip.shop_new_coupon_tip2 = {
+	tip = "$1換裝$2\n"
+}
+
+
+_G.pg.base.gametip.shop_new_coupon_tip3 = {
+	tip = "獲得該折價券後，需優先使用該折價券購買造型，請謹慎領取。"
+}
+
+
 _G.pg.base.gametip.shop_new_gem_transform = {
 	tip = "如果該換裝已擁有，則會轉化為等價的鑽石"
 }
@@ -43457,6 +43492,56 @@ _G.pg.base.gametip.island_spoperation_item_2605_4 = {
 }
 
 
+_G.pg.base.gametip.island_spoperation_tip_2611_1 = {
+	tip = "活動期間，佩芮會連續釋出特產訂單，完成特產訂單可獲得開發季PT等獎勵。\n*特產訂單不佔用島嶼訂單完成上限、也不提升好評等級"
+}
+
+
+_G.pg.base.gametip.island_spoperation_btn_2611_1 = {
+	tip = "特產採集"
+}
+
+
+_G.pg.base.gametip.island_spoperation_btn_2611_2 = {
+	tip = "特產製作"
+}
+
+
+_G.pg.base.gametip.island_spoperation_btn_2611_3 = {
+	tip = "活動管理員"
+}
+
+
+_G.pg.base.gametip.island_spoperation_tip_2611_3 = {
+	tip = "活動期間，在【墜香果園】【有魚餐館】【啾啾簡餐】【手工製作設備】中可生產對應特產 "
+}
+
+
+_G.pg.base.gametip.island_spoperation_item_2611_1 = {
+	tip = "梅花"
+}
+
+
+_G.pg.base.gametip.island_spoperation_item_2611_2 = {
+	tip = "水仙花"
+}
+
+
+_G.pg.base.gametip.island_spoperation_item_2611_3 = {
+	tip = "冬菇"
+}
+
+
+_G.pg.base.gametip.island_spoperation_item_2611_4 = {
+	tip = "馬蹄"
+}
+
+
+_G.pg.base.gametip.island_spoperation_tip_2611_2 = {
+	tip = "活動期間，島嶼特定區域中每天都會生長出新的活動採集物，快去尋找吧！"
+}
+
+
 _G.pg.base.gametip.island_follow_success = {
 	tip = "跟隨成功"
 }
@@ -44075,6 +44160,11 @@ _G.pg.base.gametip.graphi_api_switch_opengl = {
 
 _G.pg.base.gametip.graphi_api_switch_vulkan = {
 	tip = "渲染相容模式暫不支援AR功能，切換模式後需要重新進入遊戲，是否立即切換？"
+}
+
+
+_G.pg.base.gametip.openGLerror_warning = {
+	tip = "目前機型不支援OpenGL渲染，請前往設定開啟相容渲染模式，切換模式後需重新進入遊戲"
 }
 
 
@@ -50143,6 +50233,11 @@ _G.pg.base.gametip.auto_battle_help = {
 }
 
 
+_G.pg.base.gametip.island_furniture_interaction_tip1 = {
+	tip = "該傢俱目前已被島主佔用，請稍後再試"
+}
+
+
 _G.pg.base.gametip.auto_battle_in_world = {
 	tip = "有正在進行的作戰委託，無法執行新的作戰委託"
 }
@@ -50608,6 +50703,146 @@ _G.pg.base.gametip.HurricaneTreasureCoreActivityUI_subtitle_1 = {
 }
 
 
+_G.pg.base.gametip.skin_double_coupon_confirm = {
+	tip = "是否消耗<color=#92fc63>$1*1</color>購買折扣價\n<icon name=gem w=0.6 h=0.6/><color=#FFDE38FF>$2</color>的<color=#92fc63>$3</color>造型？折扣券不可同時使用。 "
+}
+
+
+_G.pg.base.gametip.skin_double_coupon_tip = {
+	tip = "僅可選擇一張折價券使用"
+}
+
+
+_G.pg.base.gametip.display_ship_get_repeat = {
+	tip = "重複獲得提示"
+}
+
+
+_G.pg.base.gametip.trun_on_display_ship_get_repeat = {
+	tip = "重複取得提示已開啟"
+}
+
+
+_G.pg.base.gametip.trun_off_display_ship_get_repeat = {
+	tip = "重複獲得提示已關閉（僅限海域掉落）"
+}
+
+
+_G.pg.base.gametip.resource_repair_tips1 = {
+	tip = "點擊確認開始修復，修復過程需要一定時間"
+}
+
+
+_G.pg.base.gametip.resource_repair_tips2 = {
+	tip = "<color=#c5cfdf>期間無法進行其他操作，請耐心等待</color>"
+}
+
+
+_G.pg.base.gametip.resource_repair_tips3 = {
+	tip = "請至少選擇一項需要修復的資源"
+}
+
+
+_G.pg.base.gametip.resource_repair_op1 = {
+	tip = "預設資源"
+}
+
+
+_G.pg.base.gametip.resource_repair_op2 = {
+	tip = "L2D資源"
+}
+
+
+_G.pg.base.gametip.resource_repair_op3 = {
+	tip = "立繪資源"
+}
+
+
+_G.pg.base.gametip.resource_repair_op4 = {
+	tip = "密語資源"
+}
+
+
+_G.pg.base.gametip.resource_repair_op5 = {
+	tip = "語音資源"
+}
+
+
+_G.pg.base.gametip.resource_repair_check = {
+	tip = "正在驗證資源組：$1 （$2）：$3%"
+}
+
+
+_G.pg.base.gametip.resource_repairing = {
+	tip = "正在修復資源組：$1 （$2）：$3%"
+}
+
+
+_G.pg.base.gametip.resource_repair_report1 = {
+	tip = "沒有異常檔案的資源組：$1"
+}
+
+
+_G.pg.base.gametip.resource_repair_report2 = {
+	tip = "修復成功的資源組：$1"
+}
+
+
+_G.pg.base.gametip.resource_repair_report3 = {
+	tip = "修復失敗的資源組：$1"
+}
+
+
+_G.pg.base.gametip.resource_repair_finish_tips = {
+	tip = "修復完畢，需要重啟遊戲"
+}
+
+
 _G.pg.base.gametip.windfog_skin_stroy_finish = {
 	tip = "完成所有故事可獲得"
+}
+
+
+_G.pg.base.gametip.twopointfive_role_name_1 = {
+	tip = "美莉艾拉 天使空降隊/美花莉"
+}
+
+
+_G.pg.base.gametip.twopointfive_role_name_2 = {
+	tip = "莉莉艾露 天使空降隊/理理沙"
+}
+
+
+_G.pg.base.gametip.combatUI_stick_set = {
+	tip = "開啟自律戰鬥時的輪盤顯示"
+}
+
+
+_G.pg.base.gametip.entrance_maintain = {
+	tip = "目前功能正在維護中…"
+}
+
+
+_G.pg.base.gametip.world_task_get = {
+	tip = "領取"
+}
+
+
+_G.pg.base.gametip.world_task_view = {
+	tip = "檢視"
+}
+
+
+_G.pg.base.gametip.world_task_all = {
+	tip = "任務總結"
+}
+
+
+_G.pg.base.gametip.world_task_main = {
+	tip = "主線歷程"
+}
+
+
+_G.pg.base.gametip.world_task_notask = {
+	tip = "指揮官，目前還沒有接到任務哦"
 }

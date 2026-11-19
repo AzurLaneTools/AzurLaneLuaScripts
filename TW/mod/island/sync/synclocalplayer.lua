@@ -9,7 +9,6 @@ slot0.Ctor = function(slot0, slot1, slot2)
 	slot0.id = slot1
 	slot0.sceneObject = slot2
 	slot0.animator = slot2:GetAnimator()
-	slot0.inTimeline = false
 end
 
 slot0.GetStatus = function(slot0)
@@ -26,25 +25,17 @@ slot0.IsLoaded = function(slot0)
 	return slot0.sceneObject and slot0.sceneObject:IsLoaded()
 end
 
-slot0.SetInTimeline = function(slot0, slot1)
-	slot0.inTimeline = slot1
-end
-
-slot0.InTimeline = function(slot0)
-	return slot0.inTimeline
-end
-
 slot0.CreateSyncData = function(slot0)
 	return SyncUnitData.New({
 		id = slot0.id,
-		pos = slot0:GetLocalPosition(),
+		pos = slot0:GetPosition(),
 		dir = slot0:GetRotation(),
 		status = slot0:GetStatus()
 	})
 end
 
-slot0.GetLocalPosition = function(slot0)
-	return slot0.sceneObject._go.transform.localPosition
+slot0.GetPosition = function(slot0)
+	return slot0.sceneObject._go.transform.position
 end
 
 slot0.GetRotation = function(slot0)

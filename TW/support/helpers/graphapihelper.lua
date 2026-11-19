@@ -36,4 +36,8 @@ slot0.IsUsingVulkan = function()
 	return string.find(string.lower(uv0.GetCurGraphApi()), "vulkan")
 end
 
+slot0.IsUsingOpenGL = function()
+	return string.find(string.lower(uv0.GetCurGraphApi() or ""), "opengl", 1, true) ~= nil
+end
+
 return slot0

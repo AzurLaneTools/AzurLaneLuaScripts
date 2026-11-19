@@ -1,11 +1,12 @@
 slot0 = class("FormationSuggestionCardItem", import("view.base.BasePanel"))
 
-slot0.Ctor = function(slot0, slot1, slot2)
+slot0.Ctor = function(slot0, slot1, slot2, slot3)
 	slot0._go = slot1.gameObject
 
 	uv0.super.Ctor(slot0, slot0._go)
 
 	slot0._parentClass = slot2
+	slot0.isLeading = slot3
 
 	slot0:attach(slot2)
 	slot0:Init()
@@ -105,7 +106,7 @@ slot0.ShowShip = function(slot0, slot1)
 	setActive(slot0.uiAnyGo, false)
 	setActive(slot0.uiEmptyGo, false)
 	setActive(slot0.uiContentGo, true)
-	slot0.shipView:SetData(slot0.id, slot1)
+	slot0.shipView:SetData(slot0.id, slot1, slot0.isLeading)
 end
 
 slot0.willExit = function(slot0)

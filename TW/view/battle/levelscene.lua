@@ -308,6 +308,8 @@ slot0.initUI = function(slot0)
 
 	slot0.rtRightPanel = slot0._tf:Find("entrance/enters/right_panel")
 	slot0.actBtnTpl = slot0.rtRightPanel:Find("content/tpl")
+	slot0.expiredTF = slot0.rtRightPanel:Find("expired")
+	slot0.expireText = slot0.expiredTF:Find("count/Text"):GetComponent(typeof(Text))
 	slot2 = pg.UIMgr.GetInstance()
 	slot0.levelCam = slot2.levelCamera:GetComponent(typeof(Camera))
 	slot0.uiMain = slot2.LevelMain
@@ -374,6 +376,10 @@ slot0.LoadEntranceActivityBg = function(slot0)
 
 	if string.sub(slot1, 1, #slot2) == slot2 then
 		slot1 = "MainUIBanner" .. string.sub(slot1, #slot2 + 1)
+	end
+
+	if HXSet.isHx() and checkABExist(slot1 .. "_hx") then
+		slot1 = slot1 .. "_hx"
 	end
 
 	slot0.entranceActivityBgPath = slot1
@@ -810,6 +816,11 @@ slot0.updateRightPanel = function(slot0)
 	for slot6, slot7 in ipairs(slot2) do
 		slot7:Clear()
 	end
+
+	slot3 = getProxy(ChapterAutoProxy):GetWillExpireTicketCnt()
+	slot0.expireText.text = "x" .. slot3
+
+	setActive(slot0.expiredTF, slot3 > 0)
 end
 
 slot0.checkChallengeOpen = function(slot0)

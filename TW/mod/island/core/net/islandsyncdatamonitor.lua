@@ -12,25 +12,23 @@ slot0.register = function(slot0)
 			table.insert(slot1, SyncUnitData.New(slot6))
 		end
 
-		if IslandConst.SYNC_TEST_DELAY_ON then
-			LeanTween.delayedCall(math.random(IslandConst.SYNC_TEST_DELAY_L, IslandConst.SYNC_TEST_DELAY_R) / 1000, System.Action(function ()
-				uv0:GetIsland():DispatchEvent(IslandSyncMgr.ISLAND_SYNC_DATA_UPDATE, uv1)
-			end))
-		else
-			uv0:GetIsland():DispatchEvent(IslandSyncMgr.ISLAND_SYNC_DATA_UPDATE, slot1)
-		end
+		uv0:GetIsland():DispatchEvent(IslandSyncMgr.ISLAND_SYNC_DATA_UPDATE, slot1)
 	end)
 	slot0:on(21207, function (slot0)
 		if not uv0:GetIsland() then
 			return
 		end
 
-		if IslandConst.SYNC_TEST_DELAY_ON then
-			LeanTween.delayedCall(math.random(IslandConst.SYNC_TEST_DELAY_L, IslandConst.SYNC_TEST_DELAY_R) / 1000, System.Action(function ()
-				uv0:GetIsland():DispatchEvent(IslandSyncMgr.ISLAND_SYNC_OBJ_UPDATE, uv1.object_list)
-			end))
-		else
-			uv0:GetIsland():DispatchEvent(IslandSyncMgr.ISLAND_SYNC_OBJ_UPDATE, slot0.object_list)
+		slot1 = uv0:GetIsland()
+		slot2 = slot1:GetInteractSyncAgency()
+		slot3 = slot1:GetVisitorAgency():GetMapVisitorList()
+		slot4 = ipairs
+		slot5 = slot0.object_list or {}
+
+		for slot7, slot8 in slot4(slot5) do
+			if slot2:ApplyServerSlots(slot8.id, slot8.slots, slot8.status, IslandInteractSyncAgency.PHASE_SYNC) then
+				uv0:RecordLastInteract(slot2, slot3, slot8, slot9)
+			end
 		end
 	end)
 	slot0:on(21304, function (slot0)
@@ -46,6 +44,22 @@ slot0.register = function(slot0)
 			end
 		})
 	end)
+end
+
+slot0.RecordLastInteract = function(slot0, slot1, slot2, slot3, slot4)
+	slot5 = slot1:GetLocalPlayerId()
+
+	for slot9, slot10 in ipairs(slot4.removed) do
+		if slot10.ownerId ~= slot5 and slot2[slot10.ownerId] then
+			slot1:ClearLastInteract(slot10.ownerId)
+		end
+	end
+
+	for slot9, slot10 in ipairs(slot4.added) do
+		if slot10.ownerId ~= slot5 and slot2[slot10.ownerId] then
+			slot1:RecordLastInteract(slot10.ownerId, slot3.id, slot3.type)
+		end
+	end
 end
 
 return slot0

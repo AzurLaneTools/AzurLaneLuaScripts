@@ -89,6 +89,11 @@ temp = function()
 				this = true
 			}
 		},
+		["津"] = {
+			["風"] = {
+				this = true
+			}
+		},
 		["城"] = {
 			this = true
 		},
@@ -236,6 +241,9 @@ temp = function()
 				}
 			},
 			["3"] = {
+				this = true
+			},
+			["4"] = {
 				this = true
 			}
 		},

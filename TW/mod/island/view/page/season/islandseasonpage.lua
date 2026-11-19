@@ -73,7 +73,7 @@ slot0.OnLoaded = function(slot0)
 
 	slot0.togglesTF = slot0.blurTF:Find("toggles/content")
 
-	setActive(slot0.togglesTF:Find(uv0.PAGE_REVIEW), false)
+	setActive(slot0.togglesTF:Find(uv0.PAGE_REVIEW), not slot2)
 
 	slot3 = function(slot0, slot1)
 		setText(slot0:Find("sel/Text"), slot1)

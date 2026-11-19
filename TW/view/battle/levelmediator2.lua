@@ -54,8 +54,15 @@ slot0.ON_BOSSSINGLE_MAP = "LevelMediator2:ON_BOSSSINGLE_MAP"
 slot0.ON_CLUE_MAP = "LevelMediator2:ON_CLUE_MAP"
 slot0.ON_COLLAB_BOSSRUSH_MAP = "LevelMediator2:ON_COLLAB_BOSSRUSH_MAP"
 slot0.ON_UPDATE_LOWPRIORITY_TASK = "LevelMediator2:ON_UPDATE_LOWPRIORITY_TASK"
+slot0.RECORD_ACTIVITY_PERMANENT_PROGRESS = "LevelMediator2:RECORD_ACTIVITY_PERMANENT_PROGRESS"
 
 slot0.register = function(slot0)
+	slot0:bind(uv0.RECORD_ACTIVITY_PERMANENT_PROGRESS, function (slot0, slot1, slot2)
+		uv0:sendNotification(GAME.RECORD_ACTIVITY_PERMANENT_PROGRESS, {
+			remasterId = slot1,
+			callback = slot2
+		})
+	end)
 	slot0:bind(uv0.GET_CHAPTER_DROP_SHIP_LIST, function (slot0, slot1, slot2)
 		uv0:sendNotification(GAME.GET_CHAPTER_DROP_SHIP_LIST, {
 			chapterId = slot1,

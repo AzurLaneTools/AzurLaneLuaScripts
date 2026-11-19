@@ -106,7 +106,7 @@ slot0.OnCoreInitFinish = function(slot0)
 end
 
 slot0.InitSyncMgr = function(slot0)
-	slot0.islandSyncMgr:Init(slot0.sceneData.unitList, slot0.agora:GetAllVirtualInteractUnitData())
+	slot0.islandSyncMgr:Init(slot0:GetCore().view.player)
 end
 
 slot0.PaveLayers = function(slot0, slot1, slot2)
@@ -152,7 +152,7 @@ slot0.EnterEditMode = function(slot0)
 		return
 	end
 
-	slot0.islandSyncMgr:CancelAgoraInteract()
+	slot0.islandSyncMgr:SuspendAgoraInteract()
 
 	slot0.isEditing = true
 
@@ -168,6 +168,7 @@ slot0.ExitEditMode = function(slot0)
 	slot0:NotifiyAgora(ISLAND_AGORA_EVT.EXIT_EDIT)
 	slot0:NotifiyIsland(ISLAND_EX_EVT.EXIT_EDIT_AGORA)
 	slot0:ClearAllNew()
+	slot0.islandSyncMgr:ResumeAgoraPresentation()
 end
 
 slot0.SaveAndExit = function(slot0)
@@ -194,7 +195,6 @@ slot0.Save = function(slot0, slot1)
 	slot0.editCdTime = pg.TimeMgr.GetInstance():GetServerTime() + pg.island_set.island_build_save_time.key_value_int
 
 	slot0:NotifiyAgora(ISLAND_AGORA_EVT.SAVE)
-	slot0.islandSyncMgr:InitAgora(slot0.agora:GetAllVirtualInteractUnitData())
 end
 
 slot0.SaveTheme = function(slot0, slot1, slot2)
@@ -326,8 +326,6 @@ slot0.Revert = function(slot0)
 	slot1, slot2 = slot0.dataComparator:AnyChanged()
 
 	if not slot1 then
-		slot0.islandSyncMgr:ResumeAgoraInteract()
-
 		return
 	end
 
@@ -345,7 +343,6 @@ slot0.Revert = function(slot0)
 	end
 
 	parallelAsync(slot6, function ()
-		uv0.islandSyncMgr:ResumeAgoraInteract()
 	end)
 
 	if bit.band(slot2, AgoraDataComparator.CHANGE_TYPE_FLOOR) > 0 then
@@ -494,23 +491,25 @@ end
 slot0.AgoraVirtualInterAction = function(slot0, slot1, slot2, slot3)
 	slot3 = slot3 or 1
 
-	if not slot0.agora:GetVirtualInteractUnitData(slot1):GetEmptySlot() then
+	if not slot0.agora:GetVirtualInteractUnitData(slot1) then
+		return
+	end
+
+	if slot0:GetIsland():GetInteractSyncAgency():IsSpecialOccupied(slot1) then
+		pg.TipsMgr.GetInstance():ShowTips(i18n("island_furniture_interaction_tip1"))
+
+		return
+	end
+
+	if not slot5:GetFreeSlot(slot1) then
 		pg.TipsMgr.GetInstance():ShowTips(i18n("island_agora_no_interact_point"))
 
 		return
 	end
 
-	slot6 = function()
-		uv0:Lock(uv1)
-		uv2:NotifiyAgora(ISLAND_AGORA_EVT.START_INTERACTION, uv3, uv0, uv4)
-	end
-
 	slot7 = slot0.islandSyncMgr
 
-	slot7:TryControlUnit(IslandConst.SYNC_TYPE_AGORA, slot1, slot5.id, slot3, function (slot0)
-		if slot0 then
-			uv0()
-		end
+	slot7:TryControlUnit(IslandConst.SYNC_TYPE_AGORA, slot1, slot6, slot3, function (slot0)
 	end)
 end
 
@@ -519,41 +518,109 @@ slot0.AgoraVirtualInterActionSync = function(slot0, slot1, slot2, slot3, slot4)
 		return
 	end
 
-	slot5 = slot0.agora:GetVirtualInteractUnitData(slot1)
-	slot6 = slot5:GetSlotById(slot4)
+	slot3 = slot3 or 1
 
-	slot6:Lock(slot2)
-	slot0:NotifiyAgora(ISLAND_AGORA_EVT.START_INTERACTION, slot5, slot6, slot3 or 1)
+	if not slot0.agora:GetVirtualInteractUnitData(slot1) then
+		return
+	end
+
+	slot0:NotifiyAgora(ISLAND_AGORA_EVT.START_INTERACTION, slot5, slot4, slot2, slot3, slot0:GetIsland():GetInteractSyncAgency():AnySlotUsing(slot1))
 end
 
 slot0.AgoraVirtualInterActionEnd = function(slot0, slot1, slot2)
-	slot3 = slot0.agora
-	slot3 = slot3:GetVirtualInteractUnitData(slot1)
-
-	slot5 = function()
-		uv0:Release()
-		uv1:NotifiyAgora(ISLAND_AGORA_EVT.END_INTERACTION, uv2, Clone(uv0))
+	if not slot0.agora:GetVirtualInteractUnitData(slot1) then
+		return
 	end
 
-	slot6 = slot0.islandSyncMgr
+	slot4 = slot0.islandSyncMgr
 
-	slot6:EndControlUnit(IslandConst.SYNC_TYPE_AGORA, slot1, slot3:GetUsingSlot(slot2).id, function (slot0)
-		if slot0 then
-			uv0()
-		end
+	slot4:EndControlUnit(IslandConst.SYNC_TYPE_AGORA, slot1, function (slot0)
 	end)
 end
 
-slot0.AgoraVirtualInterActionEndSync = function(slot0, slot1, slot2)
+slot0.AgoraVirtualShipInterAction = function(slot0, slot1, slot2)
+	if not slot0.agora:GetVirtualInteractUnitData(slot1) then
+		return
+	end
+
+	if slot0:GetIsland():GetInteractSyncAgency():IsLocalInteracting() then
+		return
+	end
+
+	if slot4:HasOwner(slot1, slot4:GetLocalPlayerId()) then
+		return
+	end
+
+	if slot4:IsSpecialOccupied(slot1) then
+		return
+	end
+
+	slot5 = slot0.islandSyncMgr
+
+	slot5:TryControlUnit(IslandConst.SYNC_TYPE_AGORA, slot1, 0, 1, function (slot0)
+	end)
+end
+
+slot0.AgoraVirtualShipInterActionSync = function(slot0, slot1, slot2, slot3, slot4)
+	slot3 = slot3 or 1
+
+	if not slot0.agora:GetVirtualInteractUnitData(slot1) then
+		return
+	end
+
+	slot6 = slot0:CollectShipInteractUnits(slot5)
+	slot0.shipInteractCtx = {
+		unitId = slot1,
+		ships = slot6
+	}
+
+	slot0:NotifiyAgora(ISLAND_AGORA_EVT.SHIP_START_INTERACTION, slot5, slot6, slot2, slot3)
+end
+
+slot0.AgoraVirtualShipInterActionEndSync = function(slot0, slot1, slot2, slot3)
+	slot5 = slot0.shipInteractCtx
+	slot0.shipInteractCtx = nil
+
+	if not slot0.agora:GetVirtualInteractUnitData(slot1) then
+		return
+	end
+
+	slot0:NotifiyAgora(ISLAND_AGORA_EVT.SHIP_END_INTERACTION, slot4, slot5 and slot5.unitId == slot1 and slot5.ships or {})
+end
+
+slot0.CollectShipInteractUnits = function(slot0, slot1)
+	slot2 = slot0:GetCore().view
+
+	if slot1:GetSlot() - 1 <= 0 then
+		return {}
+	end
+
+	slot4 = {}
+	slot8 = IslandConst.UNIT_LIST_FOLLOW
+
+	for slot8, slot9 in ipairs(slot2:GetUnitListByKey(slot8)) do
+		if slot3 <= #slot4 then
+			break
+		end
+
+		if slot9._go and not slot9:IsExitState() then
+			table.insert(slot4, slot9)
+		end
+	end
+
+	return slot4
+end
+
+slot0.AgoraVirtualInterActionEndSync = function(slot0, slot1, slot2, slot3)
 	if slot0.isEditing then
 		return
 	end
 
-	slot3 = slot0.agora:GetVirtualInteractUnitData(slot1)
-	slot4 = slot3:GetUsingSlot(slot2)
+	if not slot0.agora:GetVirtualInteractUnitData(slot1) or not slot3 then
+		return
+	end
 
-	slot4:Release()
-	slot0:NotifiyAgora(ISLAND_AGORA_EVT.END_INTERACTION, slot3, Clone(slot4))
+	slot0:NotifiyAgora(ISLAND_AGORA_EVT.END_INTERACTION, slot4, slot3, slot2, not slot0:GetIsland():GetInteractSyncAgency():AnySlotUsing(slot1))
 end
 
 slot0.AgoraVirtualInitStatus = function(slot0, slot1, slot2)
@@ -863,8 +930,7 @@ slot0.OnFurnitureAdded = function(slot0, slot1)
 end
 
 slot0.OnPlacementUpdate = function(slot0, slot1)
-	slot0.islandSyncMgr:CancelAgoraInteract()
-	slot0.islandSyncMgr:ClearAgoraInteractData()
+	slot0.islandSyncMgr:StopAgoraInteraction()
 
 	slot3, slot4, slot5 = AgoraTheme.New(slot1, slot0.agora.placeableList):GetSeparatedPlacedData()
 	slot6 = slot0.agora:GetFoundation()
@@ -905,8 +971,6 @@ slot0.OnPlacementUpdate = function(slot0, slot1)
 	if (#slot11 > 0 or #slot9 > 0) and not slot0:IsSelfIsland() then
 		slot0:ResetPlayerPosition()
 	end
-
-	slot0.islandSyncMgr:InitAgora(slot0.agora:GetAllVirtualInteractUnitData())
 end
 
 slot0.OnThemeAdded = function(slot0, slot1)

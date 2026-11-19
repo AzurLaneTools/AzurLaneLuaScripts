@@ -8225,6 +8225,37 @@ pg.activity_ins_language.all = {
 	"op_reply_678_1_1",
 	"ins_op_678_1_2",
 	"op_reply_678_1_2",
+	"ins_679",
+	"ins_discuss_679_1",
+	"ins_reply_679_1_1",
+	"ins_reply_679_1_2",
+	"ins_reply_679_1_3",
+	"ins_discuss_679_2",
+	"ins_reply_679_2_1",
+	"ins_discuss_679_3",
+	"ins_reply_679_3_1",
+	"ins_reply_679_3_2",
+	"ins_reply_679_3_3",
+	"ins_op_679_1_1",
+	"op_reply_679_1_1",
+	"ins_op_679_1_2",
+	"op_reply_679_1_2",
+	"ins_680",
+	"ins_discuss_680_1",
+	"ins_reply_680_1_1",
+	"ins_discuss_680_2",
+	"ins_reply_680_2_1",
+	"ins_discuss_680_3",
+	"ins_reply_680_3_1",
+	"ins_reply_680_3_2",
+	"ins_reply_680_3_3",
+	"ins_discuss_680_4",
+	"ins_reply_680_4_1",
+	"ins_reply_680_4_2",
+	"ins_op_680_1_1",
+	"op_reply_680_1_1",
+	"ins_op_680_1_2",
+	"op_reply_680_1_2",
 	"ins_20001",
 	"ins_discuss_20001_1",
 	"ins_reply_20001_1_1",
@@ -33328,248 +33359,341 @@ end)()
 		value = "有，門外的草叢裡有幾個人影，指揮官出門時務必跟在我身後"
 	}
 	pg.base.activity_ins_language.ins_674 = {
-		value = ""
+		value = "休息時，好像聽見了海的呼喚……"
 	}
 	pg.base.activity_ins_language.ins_discuss_674_1 = {
-		value = ""
+		value = "根據我的占卜，這種聲音很危險，需要遠離"
 	}
 	pg.base.activity_ins_language.ins_reply_674_1_1 = {
-		value = ""
+		value = "危險往往也伴隨著機會哦，說不定海底的寶藏也一起被捲過來了呢~"
 	}
 	pg.base.activity_ins_language.ins_reply_674_1_2 = {
-		value = ""
+		value = "有道理，我來占卜一下，找到了寶藏我們對半分"
 	}
 	pg.base.activity_ins_language.ins_reply_674_1_3 = {
-		value = ""
+		value = "寶藏裡會有洋芋片嗎？"
 	}
 	pg.base.activity_ins_language.ins_reply_674_1_4 = {
-		value = ""
+		value = "嗯……泡過水的洋芋片，應該也沒辦法吃了吧？"
 	}
 	pg.base.activity_ins_language.ins_discuss_674_2 = {
-		value = ""
+		value = "呼喚什麼的……那個是海嘯吧！快跑啊！"
 	}
 	pg.base.activity_ins_language.ins_reply_674_2_1 = {
-		value = ""
+		value = "原來不是海怪啊，太好了……不對，海嘯也很危險，應該小心！"
 	}
 	pg.base.activity_ins_language.ins_reply_674_2_2 = {
-		value = ""
+		value = "啊哈哈……已經回來啦~"
 	}
 	pg.base.activity_ins_language.ins_discuss_674_3 = {
-		value = ""
+		value = "要征服大海嗎？有意思，算我一個！"
 	}
 	pg.base.activity_ins_language.ins_reply_674_3_1 = {
-		value = ""
+		value = "聽起來很有趣，我也一起吧！"
 	}
 	pg.base.activity_ins_language.ins_reply_674_3_2 = {
-		value = ""
+		value = "妳們~晚上還回來吃飯嗎？"
 	}
 	pg.base.activity_ins_language.ins_op_674_1_1 = {
-		value = ""
+		value = "有哪裡受傷嗎？給妳的訊息好像沒回？"
 	}
 	pg.base.activity_ins_language.op_reply_674_1_1 = {
-		value = ""
+		value = "謝謝指揮官關心，我沒有哪裡不舒服……只是手機壞了，剛剛修好"
 	}
 	pg.base.activity_ins_language.ins_op_674_1_2 = {
-		value = ""
+		value = "我知道比較適合休息的海灘，下次一起吧"
 	}
 	pg.base.activity_ins_language.op_reply_674_1_2 = {
-		value = ""
+		value = "聽起來很棒的樣子，那下次…能請指揮官幫我塗防曬油嗎？"
 	}
 	pg.base.activity_ins_language.ins_675 = {
-		value = ""
+		value = "突然想看冰川，所以就去了"
 	}
 	pg.base.activity_ins_language.ins_discuss_675_1 = {
-		value = ""
+		value = "方向走反了，不過據說只要一直走最後也能走到目的地，問題應該不大"
 	}
 	pg.base.activity_ins_language.ins_reply_675_1_1 = {
-		value = ""
+		value = "聽起來是要開闢新路線的樣子，說不定路上會遇到寶藏~"
 	}
 	pg.base.activity_ins_language.ins_reply_675_1_2 = {
-		value = ""
+		value = "那會多繞好大一圈呢，補給有帶夠嗎？"
 	}
 	pg.base.activity_ins_language.ins_reply_675_1_3 = {
-		value = ""
+		value = "可以路上抓到什麼吃什麼"
 	}
 	pg.base.activity_ins_language.ins_discuss_675_2 = {
-		value = ""
+		value = "回來的時候記得帶點閃亮的伴手禮，港區見不到的那種"
 	}
 	pg.base.activity_ins_language.ins_reply_675_2_1 = {
-		value = ""
+		value = "港區見不到的……北極熊？"
 	}
 	pg.base.activity_ins_language.ins_reply_675_2_2 = {
-		value = ""
+		value = "那還是算了，我房間放不下"
 	}
 	pg.base.activity_ins_language.ins_discuss_675_3 = {
-		value = ""
+		value = "決定了！自由行VLOG下一站——去冰河！"
 	}
 	pg.base.activity_ins_language.ins_reply_675_3_1 = {
-		value = ""
+		value = "喔喔喔~！！不錯哦"
 	}
 	pg.base.activity_ins_language.ins_reply_675_3_2 = {
-		value = ""
+		value = "自由行，感覺好酷……我也能做得到嗎？"
 	}
 	pg.base.activity_ins_language.ins_reply_675_3_3 = {
-		value = ""
+		value = "Of course！車上還有空位，我們一起出發吧！"
 	}
 	pg.base.activity_ins_language.ins_reply_675_3_4 = {
-		value = ""
+		value = "！！我現在就收拾行李"
 	}
 	pg.base.activity_ins_language.ins_reply_675_3_5 = {
-		value = ""
+		value = "那個……羅傑斯，晚上還回來煮飯嘛？"
 	}
 	pg.base.activity_ins_language.ins_op_675_1_1 = {
-		value = ""
+		value = "冰河一定很美吧"
 	}
 	pg.base.activity_ins_language.op_reply_675_1_1 = {
-		value = ""
+		value = "嗯，很大，很白，但有點硬。指揮官，跟我一起去吧？"
 	}
 	pg.base.activity_ins_language.ins_op_675_1_2 = {
-		value = ""
+		value = "一個人看冰河會孤獨嗎？"
 	}
 	pg.base.activity_ins_language.op_reply_675_1_2 = {
-		value = ""
+		value = "之前不覺得，說完之後有感覺了。所以，下次想跟指揮官一起去"
 	}
 	pg.base.activity_ins_language.ins_676 = {
-		value = ""
+		value = "嘻嘻嘻~我窺見了哦，妳的命運~"
 	}
 	pg.base.activity_ins_language.ins_discuss_676_1 = {
-		value = ""
+		value = "髮膠不錯，推薦一下"
 	}
 	pg.base.activity_ins_language.ins_reply_676_1_1 = {
-		value = ""
+		value = "我沒用髮膠，這是天生的~"
 	}
 	pg.base.activity_ins_language.ins_reply_676_1_2 = {
-		value = ""
+		value = "還有妳就不能好奇占卜的結果是什麼嗎？！我擺這個pose很吃力的啊！"
 	}
 	pg.base.activity_ins_language.ins_reply_676_1_3 = {
-		value = ""
+		value = "那占卜的結果是什麼呢？"
 	}
 	pg.base.activity_ins_language.ins_reply_676_1_4 = {
-		value = ""
+		value = "是秘密哦，嘻嘻~"
 	}
 	pg.base.activity_ins_language.ins_reply_676_1_5 = {
-		value = ""
+		value = "妳還是推薦一下髮膠吧"
 	}
 	pg.base.activity_ins_language.ins_discuss_676_2 = {
-		value = ""
+		value = "嗚呼呼~這個姿勢在尼羅河文化中亦有記載，是源自那個占卜牌面吧~"
 	}
 	pg.base.activity_ins_language.ins_reply_676_2_1 = {
-		value = ""
+		value = "……竟然說對了"
 	}
 	pg.base.activity_ins_language.ins_reply_676_2_2 = {
-		value = ""
+		value = "沒錯，妳很懂嘛，就是那張牌！"
 	}
 	pg.base.activity_ins_language.ins_discuss_676_3 = {
-		value = ""
+		value = "看起來像是被捕獵陷阱吊起來了一樣，妳準備怎麼下來？"
 	}
 	pg.base.activity_ins_language.ins_reply_676_3_1 = {
-		value = ""
+		value = "……總之我會有辦法的！"
 	}
 	pg.base.activity_ins_language.ins_reply_676_3_2 = {
-		value = ""
+		value = "妳還好嗎？看起來好像又玩過頭了？"
 	}
 	pg.base.activity_ins_language.ins_reply_676_3_3 = {
-		value = ""
+		value = "沒有！絕對沒有！百分之百沒有！我只是想多吊一下子而已！"
 	}
 	pg.base.activity_ins_language.ins_op_676_1_1 = {
-		value = ""
+		value = "沒看懂……這是什麼意思？"
 	}
 	pg.base.activity_ins_language.op_reply_676_1_1 = {
-		value = ""
+		value = "我私聊發你地址了，趕快過來吧指揮官，我會親自跟你講解命運喔~"
 	}
 	pg.base.activity_ins_language.ins_op_676_1_2 = {
-		value = ""
+		value = "妳看起來需要幫助？"
 	}
 	pg.base.activity_ins_language.op_reply_676_1_2 = {
-		value = ""
+		value = "……不！不需要哦！但要是指揮官想占卜命運的話，我可以私聊發給你地址，你快點來！"
 	}
 	pg.base.activity_ins_language.ins_677 = {
-		value = ""
+		value = "好舒服的地方，又潮濕又涼快，還有好多好吃的~"
 	}
 	pg.base.activity_ins_language.ins_discuss_677_1 = {
-		value = ""
+		value = "這裡的魚，看起來都很美味"
 	}
 	pg.base.activity_ins_language.ins_reply_677_1_1 = {
-		value = ""
+		value = "我不會把位置告訴妳的，妳的話一定會把這裡的魚都吃光吧"
 	}
 	pg.base.activity_ins_language.ins_reply_677_1_2 = {
-		value = ""
+		value = "我已經透過背景看出來呵呵了……小魚們，我來了~"
 	}
 	pg.base.activity_ins_language.ins_reply_677_1_3 = {
-		value = ""
+		value = "休想！"
 	}
 	pg.base.activity_ins_language.ins_discuss_677_2 = {
-		value = ""
+		value = "這種魚竿，會不會韌性不夠？跟大魚角力的時候會有點麻煩吧"
 	}
 	pg.base.activity_ins_language.ins_reply_677_2_1 = {
-		value = ""
+		value = "沒關係，魚上鉤以後直接給一下就解決了"
 	}
 	pg.base.activity_ins_language.ins_reply_677_2_2 = {
-		value = ""
+		value = "聽起來好有趣~我的大槌也能這麼幹吧！"
 	}
 end)()
 (function ()
 	pg.base.activity_ins_language.ins_reply_677_2_3 = {
-		value = ""
+		value = "哈哈，所以說強者從不抱怨環境！"
 	}
 	pg.base.activity_ins_language.ins_op_677_1_1 = {
-		value = ""
+		value = "看得我也餓了"
 	}
 	pg.base.activity_ins_language.op_reply_677_1_1 = {
-		value = ""
+		value = "這次由我來投餵飼主嗎？聽起來不錯，來嘴對嘴餵吧——"
 	}
 	pg.base.activity_ins_language.ins_op_677_1_2 = {
-		value = ""
+		value = "我帶著我的魚竿來了！"
 	}
 	pg.base.activity_ins_language.op_reply_677_1_2 = {
-		value = ""
+		value = "歡迎，這樣我就可以只吃不幹活了！"
 	}
 	pg.base.activity_ins_language.ins_678 = {
-		value = ""
+		value = "試煉……看我一命通關！（剛剛學到的新說法，沒用錯吧？）"
 	}
 	pg.base.activity_ins_language.ins_discuss_678_1 = {
-		value = ""
+		value = "以戰士的標準來說，妳的裝備似乎簡陋了一些"
 	}
 	pg.base.activity_ins_language.ins_reply_678_1_1 = {
-		value = ""
+		value = "嗯……我自備的裝備被遊樂場暫時收起來了，讓我拿著「初始裝備」來挑戰"
 	}
 	pg.base.activity_ins_language.ins_reply_678_1_2 = {
-		value = ""
+		value = "這種挑戰聽起來好有趣！我也要玩！"
 	}
 	pg.base.activity_ins_language.ins_discuss_678_2 = {
-		value = ""
+		value = "看起來像是什麼電子遊戲的場景？"
 	}
 	pg.base.activity_ins_language.ins_reply_678_2_1 = {
-		value = ""
+		value = "確實，還有血條"
 	}
 	pg.base.activity_ins_language.ins_reply_678_2_2 = {
-		value = ""
+		value = "電子遊戲是什麼？"
 	}
 	pg.base.activity_ins_language.ins_reply_678_2_3 = {
-		value = ""
+		value = "是一種很有趣的東西哦，有空一起玩就知道~"
 	}
 	pg.base.activity_ins_language.ins_discuss_678_3 = {
-		value = ""
+		value = "血條見底了呢，先吃點烤肉回一下血哇！"
 	}
 	pg.base.activity_ins_language.ins_reply_678_3_1 = {
-		value = ""
+		value = "很好的建議，我會記下來的~現在就出發去迷宮狩獵~"
 	}
 	pg.base.activity_ins_language.ins_reply_678_3_2 = {
-		value = ""
+		value = "這種迷宮裡的生物肉真的能吃嗎……？"
 	}
 	pg.base.activity_ins_language.ins_reply_678_3_3 = {
-		value = ""
+		value = "嗯……看來有必要編纂一本《迷宮食物指南》"
 	}
 	pg.base.activity_ins_language.ins_op_678_1_1 = {
-		value = ""
+		value = "本次試煉成功了嗎？"
 	}
 	pg.base.activity_ins_language.op_reply_678_1_1 = {
-		value = ""
+		value = "盾牌耐久掉完了，惜敗……如果指揮官能來跟我搭檔就好了呢~"
 	}
 	pg.base.activity_ins_language.ins_op_678_1_2 = {
-		value = ""
+		value = "下次我來幫妳吧"
 	}
 	pg.base.activity_ins_language.op_reply_678_1_2 = {
+		value = "有指揮官幫忙的話，一定能輕鬆過關了！"
+	}
+	pg.base.activity_ins_language.ins_679 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.ins_discuss_679_1 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.ins_reply_679_1_1 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.ins_reply_679_1_2 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.ins_reply_679_1_3 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.ins_discuss_679_2 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.ins_reply_679_2_1 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.ins_discuss_679_3 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.ins_reply_679_3_1 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.ins_reply_679_3_2 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.ins_reply_679_3_3 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.ins_op_679_1_1 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.op_reply_679_1_1 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.ins_op_679_1_2 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.op_reply_679_1_2 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.ins_680 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.ins_discuss_680_1 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.ins_reply_680_1_1 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.ins_discuss_680_2 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.ins_reply_680_2_1 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.ins_discuss_680_3 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.ins_reply_680_3_1 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.ins_reply_680_3_2 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.ins_reply_680_3_3 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.ins_discuss_680_4 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.ins_reply_680_4_1 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.ins_reply_680_4_2 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.ins_op_680_1_1 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.op_reply_680_1_1 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.ins_op_680_1_2 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.op_reply_680_1_2 = {
 		value = ""
 	}
 	pg.base.activity_ins_language.ins_20001 = {
@@ -33716,6 +33840,8 @@ end)()
 	pg.base.activity_ins_language.ins_reply_20002_9_1 = {
 		value = ""
 	}
+end)()
+(function ()
 	pg.base.activity_ins_language.ins_reply_20002_9_2 = {
 		value = ""
 	}
@@ -33809,8 +33935,6 @@ end)()
 	pg.base.activity_ins_language.ins_reply_20004_5_1 = {
 		value = ""
 	}
-end)()
-(function ()
 	pg.base.activity_ins_language.ins_reply_20004_5_2 = {
 		value = ""
 	}
@@ -34018,6 +34142,8 @@ end)()
 	pg.base.activity_ins_language.ins_op_20006_1_1 = {
 		value = ""
 	}
+end)()
+(function ()
 	pg.base.activity_ins_language.op_reply_20006_1_1 = {
 		value = ""
 	}
@@ -34111,8 +34237,6 @@ end)()
 	pg.base.activity_ins_language.ins_reply_20005_13_4 = {
 		value = ""
 	}
-end)()
-(function ()
 	pg.base.activity_ins_language.ins_discuss_20005_14 = {
 		value = ""
 	}
@@ -34320,6 +34444,8 @@ end)()
 	pg.base.activity_ins_language.ins_reply_20011_7_1 = {
 		value = ""
 	}
+end)()
+(function ()
 	pg.base.activity_ins_language.ins_reply_20011_7_2 = {
 		value = ""
 	}
@@ -34413,8 +34539,6 @@ end)()
 	pg.base.activity_ins_language.ins_discuss_20012_4 = {
 		value = ""
 	}
-end)()
-(function ()
 	pg.base.activity_ins_language.ins_reply_20012_4_1 = {
 		value = ""
 	}
@@ -34622,6 +34746,8 @@ end)()
 	pg.base.activity_ins_language.ins_reply_20010_9_1 = {
 		value = ""
 	}
+end)()
+(function ()
 	pg.base.activity_ins_language.ins_reply_20010_9_2 = {
 		value = ""
 	}
@@ -34715,8 +34841,6 @@ end)()
 	pg.base.activity_ins_language.ins_reply_20015_4_3 = {
 		value = ""
 	}
-end)()
-(function ()
 	pg.base.activity_ins_language.ins_discuss_20015_5 = {
 		value = ""
 	}
@@ -34924,6 +35048,8 @@ end)()
 	pg.base.activity_ins_language.ins_discuss_20016_2 = {
 		value = ""
 	}
+end)()
+(function ()
 	pg.base.activity_ins_language.ins_discuss_20016_3 = {
 		value = ""
 	}
@@ -35017,8 +35143,6 @@ end)()
 	pg.base.activity_ins_language.op_reply_20016_2_3 = {
 		value = ""
 	}
-end)()
-(function ()
 	pg.base.activity_ins_language.op_reply_20016_2_4 = {
 		value = ""
 	}

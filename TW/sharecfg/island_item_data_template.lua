@@ -218,6 +218,20 @@ pg.island_item_data_template.all = {
 	4040,
 	4041,
 	4042,
+	4043,
+	4044,
+	4045,
+	4046,
+	4047,
+	4048,
+	4049,
+	4050,
+	4051,
+	4052,
+	4053,
+	4054,
+	4055,
+	4056,
 	5001,
 	5002,
 	5003,
@@ -300,6 +314,11 @@ pg.island_item_data_template.all = {
 	200032,
 	200033,
 	200034,
+	200035,
+	200036,
+	200037,
+	200038,
+	200039,
 	300001,
 	300002,
 	300003,
@@ -533,6 +552,20 @@ pg.island_item_data_template.get_id_list_by_usage = {
 		4040,
 		4041,
 		4042,
+		4043,
+		4044,
+		4045,
+		4046,
+		4047,
+		4048,
+		4049,
+		4050,
+		4051,
+		4052,
+		4053,
+		4054,
+		4055,
+		4056,
 		5001,
 		5002,
 		5003,
@@ -609,6 +642,11 @@ pg.island_item_data_template.get_id_list_by_usage = {
 		200032,
 		200033,
 		200034,
+		200035,
+		200036,
+		200037,
+		200038,
+		200039,
 		300001,
 		300002,
 		300003,
@@ -817,6 +855,20 @@ pg.island_item_data_template.get_id_list_by_type = {
 		4040,
 		4041,
 		4042,
+		4043,
+		4044,
+		4045,
+		4046,
+		4047,
+		4048,
+		4049,
+		4050,
+		4051,
+		4052,
+		4053,
+		4054,
+		4055,
+		4056,
 		5001,
 		5002,
 		5003,
@@ -900,6 +952,11 @@ pg.island_item_data_template.get_id_list_by_type = {
 		200032,
 		200033,
 		200034,
+		200035,
+		200036,
+		200037,
+		200038,
+		200039,
 		300001,
 		300002,
 		300003,
@@ -7357,7 +7414,8 @@ end)()
 		have_max = 0,
 		filter = {
 			10113,
-			10127
+			10127,
+			20000
 		},
 		sub_attribute = {
 			4,
@@ -7392,7 +7450,8 @@ end)()
 		have_max = 0,
 		filter = {
 			10113,
-			10127
+			10127,
+			20000
 		},
 		sub_attribute = {
 			5,
@@ -7497,7 +7556,8 @@ end)()
 		have_max = 0,
 		filter = {
 			10113,
-			10128
+			10128,
+			20000
 		},
 		sub_attribute = {
 			4,
@@ -7532,7 +7592,8 @@ end)()
 		have_max = 0,
 		filter = {
 			10113,
-			10128
+			10128,
+			20000
 		},
 		sub_attribute = {
 			3,
@@ -7841,7 +7902,8 @@ end)()
 		have_max = 0,
 		filter = {
 			10113,
-			10128
+			10128,
+			20000
 		},
 		sub_attribute = {
 			1,
@@ -7876,7 +7938,8 @@ end)()
 		have_max = 0,
 		filter = {
 			10113,
-			10128
+			10128,
+			20000
 		},
 		sub_attribute = {
 			6,
@@ -7911,7 +7974,8 @@ end)()
 		have_max = 0,
 		filter = {
 			10113,
-			10127
+			10127,
+			20000
 		},
 		sub_attribute = {
 			2,
@@ -7946,7 +8010,8 @@ end)()
 		have_max = 0,
 		filter = {
 			10113,
-			10127
+			10127,
+			20000
 		},
 		sub_attribute = {
 			2,
@@ -8503,6 +8568,488 @@ end)()
 		jump_page = {
 			{
 				"夏季特產經營 手工製作裝置",
+				{}
+			}
+		}
+	}
+	pg.base.island_item_data_template[4043] = {
+		name = "梅花",
+		desc = "傲雪綻放的梅花，花色清雅幽香淡淡，是冬日里最亮眼的風景。",
+		type = 1,
+		manage_influence = 0,
+		pt_num = 72,
+		group_max = 0,
+		usage = "usage_undefined",
+		usage_arg = "[]",
+		drop_after_use = 0,
+		order_price = 1,
+		tech_id = 0,
+		icon = "IslandProps/item_4043",
+		price = 1,
+		icon_normal = "",
+		rarity = 3,
+		convert = 1,
+		resource_type = 1,
+		id = 4043,
+		have_max = 0,
+		filter = {
+			10111
+		},
+		sub_attribute = {},
+		jump_page = {
+			{
+				"冬季特產經營 地圖採集",
+				{}
+			}
+		}
+	}
+	pg.base.island_item_data_template[4044] = {
+		name = "水仙花",
+		desc = "清麗潔白的水仙花，花姿亭亭，散發著溫柔淡雅的冬日香氣。",
+		type = 1,
+		manage_influence = 0,
+		pt_num = 1,
+		group_max = 0,
+		usage = "usage_undefined",
+		usage_arg = "[]",
+		drop_after_use = 0,
+		order_price = 1,
+		tech_id = 0,
+		icon = "IslandProps/item_4044",
+		price = 1,
+		icon_normal = "",
+		rarity = 1,
+		convert = 1,
+		resource_type = 1,
+		id = 4044,
+		have_max = 0,
+		filter = {
+			10111
+		},
+		sub_attribute = {},
+		jump_page = {
+			{
+				"冬季特產經營 地圖採集",
+				{}
+			}
+		}
+	}
+	pg.base.island_item_data_template[4045] = {
+		name = "冬菇",
+		desc = "肉厚鮮美的冬菇，香氣濃郁，是燉湯入菜的上好食材。",
+		type = 1,
+		manage_influence = 0,
+		pt_num = 36,
+		group_max = 0,
+		usage = "usage_undefined",
+		usage_arg = "[]",
+		drop_after_use = 0,
+		order_price = 1,
+		tech_id = 0,
+		icon = "IslandProps/item_4045",
+		price = 1,
+		icon_normal = "",
+		rarity = 2,
+		convert = 1,
+		resource_type = 1,
+		id = 4045,
+		have_max = 0,
+		filter = {
+			10111
+		},
+		sub_attribute = {},
+		jump_page = {
+			{
+				"冬季特產經營 地圖採集",
+				{}
+			}
+		}
+	}
+	pg.base.island_item_data_template[4046] = {
+		name = "馬蹄",
+		desc = "清甜爽脆的馬蹄，水分充足，入口帶著冬日特有的清潤滋味。",
+		type = 1,
+		manage_influence = 0,
+		pt_num = 25,
+		group_max = 0,
+		usage = "usage_undefined",
+		usage_arg = "[]",
+		drop_after_use = 0,
+		order_price = 1,
+		tech_id = 0,
+		icon = "IslandProps/item_4046",
+		price = 1,
+		icon_normal = "",
+		rarity = 2,
+		convert = 1,
+		resource_type = 1,
+		id = 4046,
+		have_max = 0,
+		filter = {
+			10111
+		},
+		sub_attribute = {},
+		jump_page = {
+			{
+				"冬季特產經營 地圖採集",
+				{}
+			}
+		}
+	}
+	pg.base.island_item_data_template[4047] = {
+		name = "砂糖橘",
+		desc = "金燦燦的砂糖橘，果肉飽滿多汁，剝開便是滿滿的甜蜜香氣。",
+		type = 1,
+		manage_influence = 0,
+		pt_num = 8,
+		group_max = 0,
+		usage = "usage_undefined",
+		usage_arg = "[]",
+		drop_after_use = 0,
+		order_price = 1,
+		tech_id = 0,
+		icon = "IslandProps/item_4047",
+		price = 1,
+		icon_normal = "",
+		rarity = 2,
+		convert = 1,
+		resource_type = 1,
+		id = 4047,
+		have_max = 0,
+		filter = {
+			10111,
+			10125
+		},
+		sub_attribute = {},
+		jump_page = {
+			{
+				"冬季特產經營 墜香果園",
+				{}
+			}
+		}
+	}
+	pg.base.island_item_data_template[4048] = {
+		name = "砂糖橘樹種",
+		desc = "砂糖橘樹種，埋進土裡後便藏起了一份甜蜜的期待。",
+		type = 1,
+		manage_influence = 0,
+		pt_num = 1,
+		group_max = 0,
+		usage = "usage_undefined",
+		usage_arg = "[]",
+		drop_after_use = 0,
+		order_price = 1,
+		tech_id = 0,
+		icon = "IslandProps/item_4048",
+		price = 1,
+		icon_normal = "",
+		rarity = 1,
+		convert = 1,
+		resource_type = 1,
+		id = 4048,
+		have_max = 0,
+		filter = {
+			10114
+		},
+		sub_attribute = {},
+		jump_page = {
+			{
+				"冬季特產經營 商店購買",
+				{
+					"IslandShopPage",
+					{
+						1,
+						2,
+						3,
+						4,
+						5
+					},
+					{
+						10028
+					}
+				}
+			}
+		}
+	}
+	pg.base.island_item_data_template[4049] = {
+		name = "青棗",
+		desc = "青翠飽滿的青棗，口感爽脆清甜，是冬日里清新的時令果品。",
+		type = 1,
+		manage_influence = 0,
+		pt_num = 2,
+		group_max = 0,
+		usage = "usage_undefined",
+		usage_arg = "[]",
+		drop_after_use = 0,
+		order_price = 1,
+		tech_id = 0,
+		icon = "IslandProps/item_4049",
+		price = 1,
+		icon_normal = "",
+		rarity = 2,
+		convert = 1,
+		resource_type = 1,
+		id = 4049,
+		have_max = 0,
+		filter = {
+			10111,
+			10125
+		},
+		sub_attribute = {},
+		jump_page = {
+			{
+				"冬季特產經營 墜香果園",
+				{}
+			}
+		}
+	}
+	pg.base.island_item_data_template[4050] = {
+		name = "青棗樹種",
+		desc = "青棗樹種，小小一顆蘊著生機，可培育出清甜脆爽的果實。",
+		type = 1,
+		manage_influence = 0,
+		pt_num = 1,
+		group_max = 0,
+		usage = "usage_undefined",
+		usage_arg = "[]",
+		drop_after_use = 0,
+		order_price = 1,
+		tech_id = 0,
+		icon = "IslandProps/item_4050",
+		price = 1,
+		icon_normal = "",
+		rarity = 1,
+		convert = 1,
+		resource_type = 1,
+		id = 4050,
+		have_max = 0,
+		filter = {
+			10114
+		},
+		sub_attribute = {},
+		jump_page = {
+			{
+				"冬季特產經營 商店購買",
+				{
+					"IslandShopPage",
+					{
+						1,
+						2,
+						3,
+						4,
+						5
+					},
+					{
+						10028
+					}
+				}
+			}
+		}
+	}
+	pg.base.island_item_data_template[4051] = {
+		name = "冬菇燉雞",
+		desc = "鮮香濃郁的冬菇燉雞，冬菇與雞肉慢慢燉煮，熱氣騰騰十分暖心。",
+		type = 1,
+		manage_influence = 250,
+		pt_num = 80,
+		group_max = 0,
+		usage = "usage_undefined",
+		usage_arg = "[]",
+		drop_after_use = 0,
+		order_price = 800,
+		tech_id = 0,
+		icon = "IslandProps/item_4051",
+		price = 1,
+		icon_normal = "",
+		rarity = 2,
+		convert = 1,
+		resource_type = 1,
+		id = 4051,
+		have_max = 0,
+		filter = {
+			10113,
+			10127,
+			20000
+		},
+		sub_attribute = {
+			3,
+			35
+		},
+		jump_page = {
+			{
+				"冬季特產經營 有魚餐館",
+				{}
+			}
+		}
+	}
+	pg.base.island_item_data_template[4052] = {
+		name = "青棗粥",
+		desc = "軟糯清甜的青棗粥，米香與果香輕輕交融，入口溫潤又舒服。",
+		type = 1,
+		manage_influence = 250,
+		pt_num = 12,
+		group_max = 0,
+		usage = "usage_undefined",
+		usage_arg = "[]",
+		drop_after_use = 0,
+		order_price = 120,
+		tech_id = 0,
+		icon = "IslandProps/item_4052",
+		price = 1,
+		icon_normal = "",
+		rarity = 2,
+		convert = 1,
+		resource_type = 1,
+		id = 4052,
+		have_max = 0,
+		filter = {
+			10113,
+			10127,
+			20000
+		},
+		sub_attribute = {
+			1,
+			35
+		},
+		jump_page = {
+			{
+				"冬季特產經營 有魚餐館",
+				{}
+			}
+		}
+	}
+	pg.base.island_item_data_template[4053] = {
+		name = "馬蹄糕",
+		desc = "晶瑩軟彈的馬蹄糕，帶著馬蹄的清甜爽脆，是別具風味的傳統點心。",
+		type = 1,
+		manage_influence = 250,
+		pt_num = 60,
+		group_max = 0,
+		usage = "usage_undefined",
+		usage_arg = "[]",
+		drop_after_use = 0,
+		order_price = 600,
+		tech_id = 0,
+		icon = "IslandProps/item_4053",
+		price = 1,
+		icon_normal = "",
+		rarity = 2,
+		convert = 1,
+		resource_type = 1,
+		id = 4053,
+		have_max = 0,
+		filter = {
+			10113,
+			10129,
+			20000
+		},
+		sub_attribute = {
+			2,
+			35
+		},
+		jump_page = {
+			{
+				"冬季特產經營 啾啾簡餐",
+				{}
+			}
+		}
+	}
+	pg.base.island_item_data_template[4054] = {
+		name = "砂糖橘大福",
+		desc = "軟糯可愛的砂糖橘大福，包入整顆清甜果肉，一口咬下滿是驚喜。",
+		type = 1,
+		manage_influence = 250,
+		pt_num = 38,
+		group_max = 0,
+		usage = "usage_undefined",
+		usage_arg = "[]",
+		drop_after_use = 0,
+		order_price = 320,
+		tech_id = 0,
+		icon = "IslandProps/item_4054",
+		price = 1,
+		icon_normal = "",
+		rarity = 3,
+		convert = 1,
+		resource_type = 1,
+		id = 4054,
+		have_max = 0,
+		filter = {
+			10113,
+			10129,
+			20000
+		},
+		sub_attribute = {
+			6,
+			35
+		},
+		jump_page = {
+			{
+				"冬季特產經營 啾啾簡餐",
+				{}
+			}
+		}
+	}
+	pg.base.island_item_data_template[4055] = {
+		name = "梅花香包",
+		desc = "綴有梅花意趣的精巧香包，幽幽清香隨身相伴，添上一抹冬日雅致。",
+		type = 1,
+		manage_influence = 0,
+		pt_num = 270,
+		group_max = 0,
+		usage = "usage_undefined",
+		usage_arg = "[]",
+		drop_after_use = 0,
+		order_price = 1,
+		tech_id = 0,
+		icon = "IslandProps/item_4055",
+		price = 1,
+		icon_normal = "",
+		rarity = 4,
+		convert = 1,
+		resource_type = 1,
+		id = 4055,
+		have_max = 0,
+		filter = {
+			10113,
+			10131
+		},
+		sub_attribute = {},
+		jump_page = {
+			{
+				"冬季特產經營 手工製作裝置",
+				{}
+			}
+		}
+	}
+	pg.base.island_item_data_template[4056] = {
+		name = "冬季花束",
+		desc = "清雅明亮的冬季花束，精選梅花與水仙搭配，捧起一束溫柔冬意。",
+		type = 1,
+		manage_influence = 0,
+		pt_num = 156,
+		group_max = 0,
+		usage = "usage_undefined",
+		usage_arg = "[]",
+		drop_after_use = 0,
+		order_price = 1,
+		tech_id = 0,
+		icon = "IslandProps/item_4056",
+		price = 1,
+		icon_normal = "",
+		rarity = 3,
+		convert = 1,
+		resource_type = 1,
+		id = 4056,
+		have_max = 0,
+		filter = {
+			10113,
+			10131
+		},
+		sub_attribute = {},
+		jump_page = {
+			{
+				"冬季特產經營 手工製作裝置",
 				{}
 			}
 		}
@@ -10884,6 +11431,8 @@ end)()
 			}
 		}
 	}
+end)()
+(function ()
 	pg.base.island_item_data_template[200025] = {
 		name = "拉菲島嶼許可權認證函",
 		desc = "拉菲的島嶼許可權認證函。透過島嶼許可權認證裝置，可獲得角色奇異點島嶼出入許可權。",
@@ -11194,6 +11743,161 @@ end)()
 			}
 		}
 	}
+	pg.base.island_item_data_template[200035] = {
+		name = "火力島嶼權限認證函",
+		desc = "火力的島嶼權限認證函。通過島嶼權限認證裝置，可獲得角色奇異點島嶼出入權限。",
+		type = 2,
+		manage_influence = 0,
+		pt_num = 0,
+		group_max = 0,
+		usage = "usage_undefined",
+		usage_arg = "[]",
+		drop_after_use = 0,
+		order_price = 0,
+		tech_id = 0,
+		icon = "IslandProps/item_200035",
+		price = 0,
+		icon_normal = "",
+		rarity = 4,
+		convert = 0,
+		resource_type = 0,
+		id = 200035,
+		have_max = 0,
+		filter = {
+			10213
+		},
+		sub_attribute = {},
+		jump_page = {
+			{
+				"商店",
+				{}
+			}
+		}
+	}
+	pg.base.island_item_data_template[200036] = {
+		name = "{namecode:480}島嶼權限認證函",
+		desc = "{namecode:480}的島嶼權限認證函。通過島嶼權限認證裝置，可獲得角色奇異點島嶼出入權限。",
+		type = 2,
+		manage_influence = 0,
+		pt_num = 0,
+		group_max = 0,
+		usage = "usage_undefined",
+		usage_arg = "[]",
+		drop_after_use = 0,
+		order_price = 0,
+		tech_id = 0,
+		icon = "IslandProps/item_200036",
+		price = 0,
+		icon_normal = "",
+		rarity = 4,
+		convert = 0,
+		resource_type = 0,
+		id = 200036,
+		have_max = 0,
+		filter = {
+			10213
+		},
+		sub_attribute = {},
+		jump_page = {
+			{
+				"星彩獎",
+				{}
+			}
+		}
+	}
+	pg.base.island_item_data_template[200037] = {
+		name = "百眼巨人島嶼權限認證函",
+		desc = "百眼巨人的島嶼權限認證函。通過島嶼權限認證裝置，可獲得角色奇異點島嶼出入權限。",
+		type = 2,
+		manage_influence = 0,
+		pt_num = 0,
+		group_max = 0,
+		usage = "usage_undefined",
+		usage_arg = "[]",
+		drop_after_use = 0,
+		order_price = 0,
+		tech_id = 0,
+		icon = "IslandProps/item_200037",
+		price = 0,
+		icon_normal = "",
+		rarity = 4,
+		convert = 0,
+		resource_type = 0,
+		id = 200037,
+		have_max = 0,
+		filter = {
+			10213
+		},
+		sub_attribute = {},
+		jump_page = {
+			{
+				"星彩獎",
+				{}
+			}
+		}
+	}
+	pg.base.island_item_data_template[200038] = {
+		name = "{namecode:74}島嶼權限認證函",
+		desc = "{namecode:74}的島嶼權限認證函。通過島嶼權限認證裝置，可獲得角色奇異點島嶼出入權限。",
+		type = 2,
+		manage_influence = 0,
+		pt_num = 0,
+		group_max = 0,
+		usage = "usage_undefined",
+		usage_arg = "[]",
+		drop_after_use = 0,
+		order_price = 0,
+		tech_id = 0,
+		icon = "IslandProps/item_200038",
+		price = 0,
+		icon_normal = "",
+		rarity = 4,
+		convert = 0,
+		resource_type = 0,
+		id = 200038,
+		have_max = 0,
+		filter = {
+			10213
+		},
+		sub_attribute = {},
+		jump_page = {
+			{
+				"星彩獎",
+				{}
+			}
+		}
+	}
+	pg.base.island_item_data_template[200039] = {
+		name = "華甲島嶼權限認證函",
+		desc = "華甲的島嶼權限認證函。通過島嶼權限認證裝置，可獲得角色奇異點島嶼出入權限。",
+		type = 2,
+		manage_influence = 0,
+		pt_num = 0,
+		group_max = 0,
+		usage = "usage_undefined",
+		usage_arg = "[]",
+		drop_after_use = 0,
+		order_price = 0,
+		tech_id = 0,
+		icon = "IslandProps/item_200039",
+		price = 0,
+		icon_normal = "",
+		rarity = 4,
+		convert = 0,
+		resource_type = 0,
+		id = 200039,
+		have_max = 0,
+		filter = {
+			10213
+		},
+		sub_attribute = {},
+		jump_page = {
+			{
+				"開發季II開發商店",
+				{}
+			}
+		}
+	}
 	pg.base.island_item_data_template[300001] = {
 		name = "豐壤農田委派效率提高 4%",
 		desc = "獲得後，豐壤農田委派效率提高 4%",
@@ -11310,8 +12014,6 @@ end)()
 			}
 		}
 	}
-end)()
-(function ()
 	pg.base.island_item_data_template[300005] = {
 		name = "墜香果園委派效率提高 8%",
 		desc = "獲得後，墜香果園委派效率提高 8%",

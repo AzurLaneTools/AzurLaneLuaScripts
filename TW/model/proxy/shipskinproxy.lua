@@ -273,7 +273,7 @@ slot0.GetAllSkins = function(slot0)
 
 		slot5, slot6 = pg.TimeMgr.GetInstance():inTime(slot2.time)
 
-		if (ShopConst.GetShopConfig(slot0).collaboration_skin_time == "" or slot3 == slot2.time) and slot5 then
+		if (ShopConst.GetShopConfig(slot0).collaboration_skin_time == "" or table.equal(slot2.time, slot3)) and slot5 then
 			table.insert(uv1, slot1)
 		end
 	end

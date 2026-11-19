@@ -4491,4 +4491,8 @@ end)()
 			15701
 		}
 	}
+	pg.base.gameset.skip_duplicate_characters_rarity = {
+		description = "",
+		key_value = 5
+	}
 end)()

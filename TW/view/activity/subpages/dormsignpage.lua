@@ -1,5 +1,11 @@
 slot0 = class("DormSignPage", import("view.base.BaseActivityPage"))
 
+slot0.getResource = function(slot0)
+	return {
+		"ui/activityuipage/dormsignpage_atlas"
+	}
+end
+
 slot0.getUIName = function(slot0)
 	return "DormSignPage"
 end
@@ -98,6 +104,10 @@ slot0.IsShowAwardRed = function()
 	return _.any(slot0:getTaskById(ActivityConst.DORM_SIGN_ID), function (slot0)
 		return slot0:getTaskStatus() == 1
 	end)
+end
+
+slot0.GetBgParams = function(slot0)
+	return slot0.bg:Find("bg"), "ui/activityuipage/dormsignpage_atlas", "bg"
 end
 
 return slot0

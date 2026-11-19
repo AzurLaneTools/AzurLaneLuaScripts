@@ -47,7 +47,7 @@ return {
 			},
 			ui = {
 				pathIndex = -1,
-				path = "OverlayCamera/Overlay/UIMain/blur/top/back"
+				path = "OverlayCamera/Overlay/UIMain/blur/adapt/top/back"
 			}
 		},
 		{

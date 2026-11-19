@@ -21,6 +21,7 @@ slot0.TYPE_PERFORMANCE = 21
 slot0.TYPE_NEXT_INTERACTION = 22
 slot0.TYPE_FOLLOW_PLAYER = 23
 slot0.TYPE_SP_TRANSFER = 24
+slot0.TYPE_AGORA_FOLLOW_SHIP = 25
 slot0.SIGNIN_TIME_ID = 4002
 
 slot0.GetInteractionOptions = function(slot0, slot1, slot2)
@@ -78,10 +79,14 @@ slot4 = function(slot0, slot1, slot2)
 end
 
 slot5 = function(slot0, slot1)
-	slot1:Op("AgoraVirtualInterActionEnd", slot0, slot1.view.player.id)
+	slot1:Op("AgoraVirtualShipInterAction", slot0, slot1.view.player.id)
 end
 
 slot6 = function(slot0, slot1)
+	slot1:Op("AgoraVirtualInterActionEnd", slot0, slot1.view.player.id)
+end
+
+slot7 = function(slot0, slot1)
 	if not getProxy(SettingsProxy):ShouldTipIslandRestEvet() then
 		return false
 	end
@@ -89,7 +94,7 @@ slot6 = function(slot0, slot1)
 	return slot0:GetManageAgency():GetRestaurant(slot1):GetEventInfo() ~= 0
 end
 
-slot7 = function(slot0, slot1, slot2)
+slot8 = function(slot0, slot1, slot2)
 	slot3 = Clone(slot0)
 
 	table.remove(slot3, 1)
@@ -112,11 +117,11 @@ slot7 = function(slot0, slot1, slot2)
 	end
 end
 
-slot8 = function(slot0, slot1)
+slot9 = function(slot0, slot1)
 	slot1:NotifiyIsland(ISLAND_EX_EVT.SWITCH_MAP, tonumber(slot0))
 end
 
-slot9 = function(slot0, slot1, slot2)
+slot10 = function(slot0, slot1, slot2)
 	if slot2:GetView():GetUnitModule(slot1).behaviourTreeOwner then
 		if tonumber(slot0[2]) then
 			LuaHelper.NodeCanvasSetIntVariableValue(slot3.behaviourTreeOwner, slot0[1], slot0[2])
@@ -126,27 +131,27 @@ slot9 = function(slot0, slot1, slot2)
 	end
 end
 
-slot10 = function(slot0, slot1, slot2)
+slot11 = function(slot0, slot1, slot2)
 	slot1:Op("WorldObjectInterAction", slot0, slot1.view.player.id, tonumber(slot2))
 end
 
-slot11 = function(slot0, slot1)
+slot12 = function(slot0, slot1)
 	slot1:Op("WorldObjectInterActionEnd", slot0, slot1.view.player.id)
 end
 
-slot12 = function(slot0, slot1)
+slot13 = function(slot0, slot1)
 	slot1:NotifiyIsland(ISLAND_EX_EVT.TRIGGER_TASK, tonumber(slot0))
 end
 
-slot13 = function(slot0, slot1)
+slot14 = function(slot0, slot1)
 	slot1:NotifiyIsland(ISLAND_EX_EVT.SUBMIT_TASK, tonumber(slot0))
 end
 
-slot14 = function(slot0)
+slot15 = function(slot0)
 	slot0:NotifiyIsland(ISLAND_EX_EVT.EMIT, IslandMediator.SIGNIN)
 end
 
-slot15 = function(slot0)
+slot16 = function(slot0)
 	slot1 = slot0:GetView()
 
 	if not slot1:GetUnitModule(slot1.selectedUnitId) then
@@ -156,7 +161,7 @@ slot15 = function(slot0)
 	slot0:NotifiyIsland(ISLAND_EX_EVT.EMIT, IslandMediator.SELECT_GIFT, slot1:GetIsland().id, slot2.data.index)
 end
 
-slot16 = function(slot0)
+slot17 = function(slot0)
 	slot0:NotifiyIsland(ISLAND_EX_EVT.OPEN_PAGE)
 end
 
@@ -164,13 +169,13 @@ slot0.AddInteractionTaskProgress = function(slot0, slot1)
 	slot0:Op("NotifiyIsland", ISLAND_EX_EVT.ADD_TASK_PROGRESS, IslandTaskTargetType.INTERACTION, slot1)
 end
 
-slot17 = function(slot0)
+slot18 = function(slot0)
 	slot0:NotifiyIsland(ISLAND_EX_EVT.EMIT, IslandMediator.GET_THEMES, function ()
 		uv0:Op("EnterEditMode")
 	end)
 end
 
-slot18 = function(slot0)
+slot19 = function(slot0)
 	if not slot0:GetView():GetIsland():GetAgoraAgency():CanUpgrade() then
 		pg.TipsMgr.GetInstance():ShowTips(i18n("island_agora_max_level"))
 
@@ -186,17 +191,17 @@ slot18 = function(slot0)
 	})
 end
 
-slot19 = function(slot0, slot1)
+slot20 = function(slot0, slot1)
 	slot0:NotifiyIsland(ISLAND_EX_EVT.PLAY_PERFORMANCE, {
 		name = slot1
 	})
 end
 
-slot20 = function(slot0, slot1)
+slot21 = function(slot0, slot1)
 	slot0:GetView():GetSubView(IslandInteractionView):ShowNextInteractionBtns(slot1)
 end
 
-slot21 = function(slot0, slot1)
+slot22 = function(slot0, slot1)
 	slot2 = pg.island_strollnpc[slot1]
 	slot3 = nil
 
@@ -222,40 +227,42 @@ slot0.Response = function(slot0, slot1, slot2)
 		uv3(slot3.param[1], slot3.param[2], slot0)
 	elseif slot3.type == uv0.TYPE_AGORA then
 		uv4(slot1, slot0, slot3.param)
-	elseif slot3.type == uv0.TYPE_AGORA_CANCEL then
+	elseif slot3.type == uv0.TYPE_AGORA_FOLLOW_SHIP then
 		uv5(slot1, slot0)
+	elseif slot3.type == uv0.TYPE_AGORA_CANCEL then
+		uv6(slot1, slot0)
 	elseif slot3.type == uv0.TYPE_OPEN_PAGE then
-		uv6(slot3.param, slot0, slot1)
+		uv7(slot3.param, slot0, slot1)
 	elseif slot3.type == uv0.TYPE_TRANSFER or slot3.type == uv0.TYPE_SP_TRANSFER then
-		uv7(slot3.param, slot0)
+		uv8(slot3.param, slot0)
 	elseif slot3.type == uv0.TYPE_BT_VALUE then
-		uv8(slot3.param, slot1, slot0)
+		uv9(slot3.param, slot1, slot0)
 	elseif slot3.type == uv0.TYPE_ITEM_INTERACT then
-		uv9(slot1, slot0, slot3.param)
+		uv10(slot1, slot0, slot3.param)
 	elseif slot3.type == uv0.TYPE_ITEM_INTERACT_CANCEL then
-		uv10(slot1, slot0)
+		uv11(slot1, slot0)
 	elseif slot3.type == uv0.TYPE_ACCEPT_TASK then
-		uv11(slot3.param, slot0)
-	elseif slot3.type == uv0.TYPE_SUBMIT_TASK then
 		uv12(slot3.param, slot0)
+	elseif slot3.type == uv0.TYPE_SUBMIT_TASK then
+		uv13(slot3.param, slot0)
 	elseif slot3.type == uv0.TYPE_SIGNIN then
-		uv13(slot0)
-	elseif slot3.type == uv0.TYPE_SELECT_GIFT then
 		uv14(slot0)
+	elseif slot3.type == uv0.TYPE_SELECT_GIFT then
+		uv15(slot0)
 	elseif slot3.type == uv0.TYPE_NOTHING then
 		-- Nothing
 	elseif slot3.type == uv0.TYPE_DECORATION then
-		uv15(slot0)
-	elseif slot3.type == uv0.TYPE_EXTEND_AGORA then
 		uv16(slot0)
+	elseif slot3.type == uv0.TYPE_EXTEND_AGORA then
+		uv17(slot0)
 	elseif slot3.type == uv0.TYPE_ECHANGE_AGORA_BASE then
 		-- Nothing
 	elseif slot3.type == uv0.TYPE_PERFORMANCE then
-		uv17(slot0, slot3.param)
-	elseif slot3.type == uv0.TYPE_NEXT_INTERACTION then
 		uv18(slot0, slot3.param)
+	elseif slot3.type == uv0.TYPE_NEXT_INTERACTION then
+		uv19(slot0, slot3.param)
 	elseif slot3.type == uv0.TYPE_FOLLOW_PLAYER then
-		uv19(slot0, slot1)
+		uv20(slot0, slot1)
 	else
 		assert(false, "未处理类型:" .. slot3.type)
 	end

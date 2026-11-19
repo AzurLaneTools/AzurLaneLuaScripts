@@ -29,7 +29,7 @@ temp = function()
 	uv0["倫"] = {
 		["敦"] = {
 			this = true,
-			["‧"] = {
+			["."] = {
 				["改"] = {
 					this = true
 				}

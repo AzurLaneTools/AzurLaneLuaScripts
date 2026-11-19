@@ -766,6 +766,8 @@ pg.ship_data_group.all = {
 	10156,
 	10171,
 	10172,
+	10181,
+	10182,
 	20001,
 	20002,
 	20003,
@@ -871,6 +873,7 @@ pg.ship_data_group.all = {
 	30056,
 	30057,
 	30059,
+	30058,
 	30060,
 	30061,
 	30065
@@ -3168,6 +3171,9 @@ pg.ship_data_group.get_id_list_by_group_type = {
 	[970210] = {
 		30059
 	},
+	[970211] = {
+		30058
+	},
 	[970212] = {
 		30060
 	},
@@ -3485,6 +3491,12 @@ pg.ship_data_group.get_id_list_by_group_type = {
 	},
 	[1170002] = {
 		10172
+	},
+	[1180001] = {
+		10181
+	},
+	[1180002] = {
+		10182
 	}
 }
 pg.ship_data_group.get_id_list_by_handbook_type = {
@@ -4252,7 +4264,9 @@ pg.ship_data_group.get_id_list_by_handbook_type = {
 		10155,
 		10156,
 		10171,
-		10172
+		10172,
+		10181,
+		10182
 	},
 	{
 		20001,
@@ -4362,6 +4376,7 @@ pg.ship_data_group.get_id_list_by_handbook_type = {
 		30056,
 		30057,
 		30059,
+		30058,
 		30060,
 		30061,
 		30065
@@ -35933,6 +35948,70 @@ end)()
 			}
 		}
 	}
+	pg.base.ship_data_group[10181] = {
+		nationality = 118,
+		type = 6,
+		trans_type = 0,
+		handbook_type = 1,
+		redirect_id = 101,
+		trans_skin = 0,
+		hide = 0,
+		group_type = 1180001,
+		index_id = 10181,
+		code = 10181,
+		share_group_id = {},
+		property_hexagon = {
+			"E",
+			"E",
+			"A",
+			"E",
+			"B",
+			"B"
+		},
+		trans_radar_chart = {},
+		trans_skill = {},
+		description = {
+			{
+				"限時活動：開幕！天使們的碧藍舞台",
+				{
+					""
+				},
+				0
+			}
+		}
+	}
+	pg.base.ship_data_group[10182] = {
+		nationality = 118,
+		type = 2,
+		trans_type = 0,
+		handbook_type = 1,
+		redirect_id = 101,
+		trans_skin = 0,
+		hide = 0,
+		group_type = 1180002,
+		index_id = 10182,
+		code = 10182,
+		share_group_id = {},
+		property_hexagon = {
+			"A",
+			"E",
+			"E",
+			"B",
+			"B",
+			"B"
+		},
+		trans_radar_chart = {},
+		trans_skill = {},
+		description = {
+			{
+				"限時活動：開幕！天使們的碧藍舞台",
+				{
+					""
+				},
+				0
+			}
+		}
+	}
 	pg.base.ship_data_group[20001] = {
 		nationality = 2,
 		type = 2,
@@ -37197,6 +37276,8 @@ end)()
 			}
 		}
 	}
+end)()
+(function ()
 	pg.base.ship_data_group[20037] = {
 		nationality = 8,
 		type = 2,
@@ -37267,8 +37348,6 @@ end)()
 			}
 		}
 	}
-end)()
-(function ()
 	pg.base.ship_data_group[20038] = {
 		nationality = 1,
 		type = 5,
@@ -39581,6 +39660,41 @@ end)()
 					"METACHARACTER",
 					{
 						autoOpenShipConfigID = 9702101
+					}
+				},
+				0
+			}
+		}
+	}
+	pg.base.ship_data_group[30058] = {
+		nationality = 97,
+		type = 2,
+		trans_type = 0,
+		handbook_type = 3,
+		redirect_id = 101,
+		trans_skin = 0,
+		hide = 0,
+		group_type = 970211,
+		index_id = 30058,
+		code = 30058,
+		share_group_id = {},
+		property_hexagon = {
+			"B",
+			"A",
+			"E",
+			"B",
+			"B",
+			"C"
+		},
+		trans_radar_chart = {},
+		trans_skill = {},
+		description = {
+			{
+				"限時活動：META研究室-資訊同步",
+				{
+					"METACHARACTER",
+					{
+						autoOpenShipConfigID = 9702111
 					}
 				},
 				0

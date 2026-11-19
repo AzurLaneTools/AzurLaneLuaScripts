@@ -237,6 +237,8 @@ slot0.execute = function(slot0, slot1)
 	elseif slot9 == 18 then
 		if slot10 == 2 then
 			slot0:sendNotification(GAME.GO_SCENE, SCENE.LEVEL, slot8)
+		elseif slot10 == 6 then
+			slot0:sendNotification(GAME.GO_SCENE, SCENE.DAILYLEVEL)
 		end
 	elseif slot9 == 30 then
 		if slot10 == 4 then

@@ -23,7 +23,8 @@ pg.world_joint_boss_template.all = {
 	18,
 	19,
 	20,
-	21
+	21,
+	22
 }
 pg.base = pg.base or {}
 pg.base.world_joint_boss_template = {}
@@ -762,6 +763,64 @@ pg.base.world_joint_boss_template = {}
 		p_offset_other = {
 			190,
 			467,
+			0.65,
+			0.65
+		}
+	}
+	pg.base.world_joint_boss_template[22] = {
+		name = "雷根斯堡·META",
+		boss_level_id = 316,
+		item_id = 100000,
+		painting = "leigensibao",
+		meta_id = 970211,
+		id = 22,
+		description = {
+			{
+				"強者狩獵",
+				2,
+				"進入戰鬥後，雷根斯堡·META將分別向<color=#92fc63>我方角色炮擊、雷擊、航空、機動、命中</color>五項數值中，各自<color=#92fc63>數值最高者</color>釋放一枚強者印記，若我方所有角色該項數值均為0，則不會釋放對應的印記。\n多枚強者印記可疊加在同一角色身上，擁有強者印記會<color=#92fc63>使持有者受到來自雷根斯堡·META的傷害增加</color>，第一枚增加10%，第二枚及之後每一枚額外增加200%；若持有者位於主力艦隊，還會持續受到火焰造成的點燃效果（點燃效果與印記數量無關）\n無論是一開始就未釋放，還是持有者被擊敗時所攜帶的印記都會回到瑞吉娜·META手中，<color=#92fc63>每一枚為其提升20%的減傷效果</color>。"
+			},
+			{
+				"階段式勝利",
+				1,
+				"我方單位每次<color=#92fc63>被擊敗或消失</color>離開戰鬥海域，都會使雷根斯堡·META的士氣增加，提升其15%炮擊與雷擊。"
+			}
+		},
+		state = {
+			{
+				{
+					2026,
+					11,
+					19
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2027,
+					2,
+					17
+				},
+				{
+					14,
+					59,
+					59
+				}
+			}
+		},
+		p_offset = {
+			-330,
+			470,
+			0.7,
+			0.7
+		},
+		p_offset_other = {
+			330,
+			470,
 			0.65,
 			0.65
 		}

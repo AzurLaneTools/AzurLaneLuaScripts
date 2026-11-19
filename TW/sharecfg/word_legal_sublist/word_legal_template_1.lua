@@ -706,7 +706,7 @@ temp = function()
 				["尼"] = {
 					["亞"] = {
 						this = true,
-						["·"] = {
+						["."] = {
 							["改"] = {
 								this = true
 							}

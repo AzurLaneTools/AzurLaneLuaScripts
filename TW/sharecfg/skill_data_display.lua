@@ -3314,6 +3314,14 @@ pg.skill_data_display.all = {
 	117070,
 	117073,
 	117079,
+	118011,
+	118018,
+	118021,
+	118051,
+	118052,
+	118063,
+	118071,
+	118073,
 	152581,
 	152582,
 	152583,
@@ -3975,6 +3983,8 @@ pg.skill_data_display.all = {
 	201895,
 	201898,
 	201905,
+	201952,
+	201954,
 	1011540,
 	1011541,
 	1090010,
@@ -17565,6 +17575,38 @@ end)()
 		id = 117079,
 		name = "重擊破斬+"
 	}
+	pg.base.skill_data_display[118011] = {
+		id = 118011,
+		name = "莉莉艾露治療"
+	}
+	pg.base.skill_data_display[118018] = {
+		id = 118018,
+		name = "莉莉艾露治療"
+	}
+	pg.base.skill_data_display[118021] = {
+		id = 118021,
+		name = "莉莉艾露爆破"
+	}
+	pg.base.skill_data_display[118051] = {
+		id = 118051,
+		name = "美莉艾拉射擊"
+	}
+	pg.base.skill_data_display[118052] = {
+		id = 118052,
+		name = "美莉艾拉射擊"
+	}
+	pg.base.skill_data_display[118063] = {
+		id = 118063,
+		name = "美莉艾拉共鳴"
+	}
+	pg.base.skill_data_display[118071] = {
+		id = 118071,
+		name = "美莉艾拉共鳴 +"
+	}
+	pg.base.skill_data_display[118073] = {
+		id = 118073,
+		name = "美莉艾拉共鳴 +"
+	}
 	pg.base.skill_data_display[152581] = {
 		id = 152581,
 		name = "更幸運！"
@@ -17893,6 +17935,8 @@ end)()
 		id = 600184,
 		name = "光風霽月"
 	}
+end)()
+(function ()
 	pg.base.skill_data_display[600185] = {
 		id = 600185,
 		name = "光風霽月"
@@ -17925,8 +17969,6 @@ end)()
 		id = 800033,
 		name = "榮光之鋒"
 	}
-end)()
-(function ()
 	pg.base.skill_data_display[800040] = {
 		id = 800040,
 		name = "燼火之刃"
@@ -18295,6 +18337,8 @@ end)()
 		id = 800460,
 		name = "熔岩之刃"
 	}
+end)()
+(function ()
 	pg.base.skill_data_display[800470] = {
 		id = 800470,
 		name = "反擊焰火"
@@ -18327,8 +18371,6 @@ end)()
 		id = 800510,
 		name = "殤視之怒"
 	}
-end)()
-(function ()
 	pg.base.skill_data_display[800520] = {
 		id = 800520,
 		name = "殤視之盾"
@@ -18697,6 +18739,8 @@ end)()
 		id = 801373,
 		name = "雨積雨散I"
 	}
+end)()
+(function ()
 	pg.base.skill_data_display[801374] = {
 		id = 801374,
 		name = "雨積雨散II"
@@ -18729,8 +18773,6 @@ end)()
 		id = 801410,
 		name = "勇氣的奇蹟"
 	}
-end)()
-(function ()
 	pg.base.skill_data_display[801411] = {
 		id = 801411,
 		name = "勇氣的奇蹟"
@@ -19099,6 +19141,8 @@ end)()
 		id = 802382,
 		name = "耀眼★完美演出"
 	}
+end)()
+(function ()
 	pg.base.skill_data_display[802391] = {
 		id = 802391,
 		name = "炫丽★舞台变幻"
@@ -19131,8 +19175,6 @@ end)()
 		id = 902201,
 		name = "幻想之環"
 	}
-end)()
-(function ()
 	pg.base.skill_data_display[1010140] = {
 		id = 1010140,
 		name = "白鷹之淚 +"
@@ -19501,6 +19543,8 @@ end)()
 		id = 200487,
 		name = "戴拿賽諾"
 	}
+end)()
+(function ()
 	pg.base.skill_data_display[200497] = {
 		id = 200497,
 		name = "古立特(宇宙鬥士)"
@@ -19533,8 +19577,6 @@ end)()
 		id = 200547,
 		name = "陸上神國-I"
 	}
-end)()
-(function ()
 	pg.base.skill_data_display[200548] = {
 		id = 200548,
 		name = "陸上神國-II"
@@ -19903,6 +19945,8 @@ end)()
 		id = 201169,
 		name = "聯合艦隊，出擊！"
 	}
+end)()
+(function ()
 	pg.base.skill_data_display[201171] = {
 		id = 201171,
 		name = "百鬼之影·壹之卷"
@@ -19935,8 +19979,6 @@ end)()
 		id = 201196,
 		name = "永恆之星"
 	}
-end)()
-(function ()
 	pg.base.skill_data_display[201197] = {
 		id = 201197,
 		name = "永恆之星"
@@ -20221,6 +20263,14 @@ end)()
 		id = 201905,
 		name = "共鳴之聲"
 	}
+	pg.base.skill_data_display[201952] = {
+		id = 201952,
+		name = "「歐根親王援助」"
+	}
+	pg.base.skill_data_display[201954] = {
+		id = 201954,
+		name = "「Grin and fire！」"
+	}
 	pg.base.skill_data_display[1011540] = {
 		id = 1011540,
 		name = "最後的炮火+"
@@ -20297,6 +20347,8 @@ end)()
 		id = 1090033,
 		name = "防空模式·蒙彼利埃"
 	}
+end)()
+(function ()
 	pg.base.skill_data_display[1010340] = {
 		id = 1010340,
 		name = "裝甲空母 +"
@@ -20337,8 +20389,6 @@ end)()
 		id = 1011360,
 		name = "塔薩法隆格逆襲 +"
 	}
-end)()
-(function ()
 	pg.base.skill_data_display[1011361] = {
 		id = 1011361,
 		name = "塔薩法隆格逆襲 +"
@@ -20699,6 +20749,8 @@ end)()
 		id = 1010962,
 		name = "特型領艦 +"
 	}
+end)()
+(function ()
 	pg.base.skill_data_display[1011150] = {
 		id = 1011150,
 		name = "巴倫支海的逆襲 +"
@@ -20739,8 +20791,6 @@ end)()
 		id = 1011251,
 		name = "萨沃岛突袭 +"
 	}
-end)()
-(function ()
 	pg.base.skill_data_display[1014341] = {
 		id = 1014341,
 		name = "荣光的紫焰 +"
@@ -21101,6 +21151,8 @@ end)()
 		id = 1090261,
 		name = "快速裝填·斯彭斯"
 	}
+end)()
+(function ()
 	pg.base.skill_data_display[1090273] = {
 		id = 1090273,
 		name = "戰術指揮·{namecode:424}"
@@ -21141,8 +21193,6 @@ end)()
 		id = 1090331,
 		name = "雷擊指揮·{namecode:15}"
 	}
-end)()
-(function ()
 	pg.base.skill_data_display[1090341] = {
 		id = 1090341,
 		name = "快速起飛·博格"

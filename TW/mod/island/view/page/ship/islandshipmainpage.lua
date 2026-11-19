@@ -345,6 +345,9 @@ slot0.OnDestroy = function(slot0)
 end
 
 slot0.OnHide = function(slot0)
+	slot0:ClosePage(IslandDockPage)
+	slot0:OnCloseDock()
+
 	if slot0.shipDressHelper then
 		slot0.shipDressHelper:Destroy()
 	end

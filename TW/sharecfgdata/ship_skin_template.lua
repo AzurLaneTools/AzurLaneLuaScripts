@@ -329418,11 +329418,11 @@ _G.pg.base.ship_skin_template[9702100] = {
 
 
 _G.pg.base.ship_skin_template[9702110] = {
-	name = "{namecode:516}·META",
+	name = "雷根斯堡·META",
 	shop_offset = "",
 	change_skin = "",
 	illustrator2 = -1,
-	desc = "我是神圣联合帝国选侯之一的{namecode:516}。指挥官，希望你能比那些笼中的野兽更有趣些，毕竟，驯服你这样的存在，才配得上我的闲暇时光。 ",
+	desc = "我是神聖聯合帝國選侯之一的雷根斯堡。指揮官，希望你比那些籠中的野獸更有趣點，畢竟，馴服你這樣的存在，才配得上我的閒暇時光。",
 	group_index = 0,
 	purchase_offset = "",
 	painting = "leigensibao_alter",
@@ -353487,6 +353487,600 @@ _G.pg.base.ship_skin_template[11700021] = {
 			{
 				278,
 				-229,
+				2,
+				0,
+				-148,
+				2
+			}
+		}
+	}
+}
+
+
+_G.pg.base.ship_skin_template[11800010] = {
+	name = "莉莉艾露 天使空降隊/理理沙",
+	shop_offset = "",
+	change_skin = "",
+	illustrator2 = -1,
+	desc = "輕型航空母艦——莉莉艾露 天使空降隊/理理沙",
+	group_index = 0,
+	purchase_offset = "",
+	painting = "lilisha",
+	lover_hand = "hand_2_02",
+	bg_sp = "",
+	shop_type_id = 0,
+	l2d_ignore_drag = 0,
+	hand_id = 13,
+	lip_smoothing = 0,
+	l2d_animations = "",
+	lover_kiss = "lip02",
+	ship_group = 1180001,
+	bg = "",
+	bgm = "",
+	spine_use_live2d = 0,
+	spine_action_offset = false,
+	spine_offset_profile = "",
+	skin_type = -1,
+	special_effects = "",
+	id = 11800010,
+	voice_actor_2 = -1,
+	gyro = 0,
+	ship_l2d_id = "",
+	l2d_drag_rate = "",
+	prefab = "lilisha",
+	l2d_se = "",
+	no_showing = "0",
+	part_scale = "",
+	main_UI_FX = "",
+	shop_id = 0,
+	voice_actor = 291,
+	get_showing = "",
+	spine_offset = "",
+	illustrator = -1,
+	rarity_bg = "",
+	shop_dynamic_hx = 0,
+	double_char = 0,
+	skeleton_default_skin = "",
+	voice_lang = "",
+	time = "",
+	l2d_para_range = "",
+	lip_sync_gain = 0,
+	live2d_offset_profile = "",
+	show_skin = "stand",
+	l2d_voice_calibrate = "",
+	tag = {},
+	live2d_offset = {
+		0,
+		0,
+		0
+	},
+	fx_container = {
+		{
+			0,
+			1.99185,
+			1.15
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0.75,
+			-1.299
+		},
+		{
+			0,
+			0,
+			0
+		}
+	},
+	bound_bone = {
+		cannon = {
+			{
+				0.91,
+				0.801,
+				0
+			}
+		},
+		vicegun = {
+			{
+				1.446,
+				0.762,
+				0
+			}
+		},
+		torpedo = {
+			{
+				0,
+				0,
+				0
+			}
+		},
+		antiaircraft = {
+			{
+				0.666,
+				2.465,
+				0
+			}
+		}
+	},
+	smoke = {
+		{
+			50,
+			{
+				{
+					"smoke",
+					{
+						-0.609,
+						2.334,
+						0
+					}
+				}
+			}
+		}
+	}
+}
+
+
+_G.pg.base.ship_skin_template[11800011] = {
+	name = "身心皆奉",
+	change_skin = "",
+	illustrator2 = -1,
+	desc = "換裝可是故事裡的重頭戲呢！——咳咳！天使莉莉艾露，覺醒了全新的力量！這樣一來，我也是港區的一員了！從今以後，我也會全心全意為親愛的獻上助力！今後也請多多關照♡",
+	group_index = 1,
+	purchase_offset = "",
+	painting = "lilisha_2",
+	lover_hand = "hand_2_02",
+	bg_sp = "",
+	shop_type_id = 9,
+	l2d_ignore_drag = 0,
+	hand_id = 13,
+	lip_smoothing = 0,
+	l2d_animations = "",
+	lover_kiss = "lip02",
+	ship_group = 1180001,
+	bg = "196",
+	bgm = "story-richang-lightsweet",
+	spine_use_live2d = 0,
+	spine_action_offset = false,
+	skin_type = 0,
+	special_effects = "",
+	id = 11800011,
+	voice_actor_2 = -1,
+	gyro = 0,
+	ship_l2d_id = "",
+	l2d_drag_rate = "",
+	prefab = "lilisha_2",
+	l2d_se = "",
+	no_showing = "0",
+	part_scale = "",
+	main_UI_FX = "",
+	shop_id = 71422,
+	voice_actor = 291,
+	illustrator = -1,
+	rarity_bg = "",
+	shop_dynamic_hx = 0,
+	double_char = 0,
+	skeleton_default_skin = "",
+	voice_lang = "",
+	time = "",
+	l2d_para_range = "",
+	lip_sync_gain = 0,
+	live2d_offset_profile = "",
+	show_skin = "stand",
+	l2d_voice_calibrate = "",
+	tag = {
+		6,
+		2,
+		5
+	},
+	live2d_offset = {
+		0,
+		0,
+		0
+	},
+	shop_offset = {
+		-186.5,
+		60,
+		0,
+		0.3
+	},
+	spine_offset_profile = {
+		-100,
+		75,
+		0,
+		0.32
+	},
+	fx_container = {
+		{
+			0,
+			1.99185,
+			1.15
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0.75,
+			-1.299
+		},
+		{
+			0,
+			0,
+			0
+		}
+	},
+	bound_bone = {
+		cannon = {
+			{
+				0.887,
+				0.803,
+				0
+			}
+		},
+		torpedo = {
+			{
+				0,
+				0,
+				0
+			}
+		},
+		antiaircraft = {
+			{
+				0.673,
+				2.38,
+				0
+			}
+		}
+	},
+	smoke = {
+		{
+			50,
+			{
+				{
+					"smoke",
+					{
+						-0.593,
+						2.321,
+						0
+					}
+				}
+			}
+		}
+	},
+	spine_offset = {
+		140,
+		0,
+		0,
+		0.4
+	},
+	get_showing = {
+		show = 1,
+		data = {
+			{
+				-1853,
+				422,
+				2,
+				0,
+				160,
+				2
+			},
+			{
+				-437,
+				609,
+				2,
+				160,
+				0,
+				2
+			},
+			{
+				-991,
+				-195,
+				2,
+				0,
+				-148,
+				2
+			}
+		}
+	}
+}
+
+
+_G.pg.base.ship_skin_template[11800020] = {
+	name = "美莉艾拉 天使空降隊/美花莉",
+	shop_offset = "",
+	change_skin = "",
+	illustrator2 = -1,
+	desc = "輕巡洋艦——美莉艾拉 天使空降隊/美花莉",
+	group_index = 0,
+	purchase_offset = "",
+	painting = "jumeihuali",
+	lover_hand = "hand_2_02",
+	bg_sp = "",
+	shop_type_id = 0,
+	l2d_ignore_drag = 0,
+	hand_id = 13,
+	lip_smoothing = 0,
+	l2d_animations = "",
+	lover_kiss = "lip02",
+	ship_group = 1180002,
+	bg = "",
+	bgm = "",
+	spine_use_live2d = 0,
+	spine_action_offset = false,
+	spine_offset_profile = "",
+	skin_type = -1,
+	special_effects = "",
+	id = 11800020,
+	voice_actor_2 = -1,
+	gyro = 0,
+	ship_l2d_id = "",
+	l2d_drag_rate = "",
+	prefab = "jumeihuali",
+	l2d_se = "",
+	no_showing = "0",
+	part_scale = "",
+	main_UI_FX = "",
+	shop_id = 0,
+	voice_actor = 82,
+	get_showing = "",
+	spine_offset = "",
+	illustrator = -1,
+	rarity_bg = "",
+	shop_dynamic_hx = 0,
+	double_char = 0,
+	skeleton_default_skin = "",
+	voice_lang = "",
+	time = "",
+	l2d_para_range = "",
+	lip_sync_gain = 0,
+	live2d_offset_profile = "",
+	show_skin = "stand",
+	l2d_voice_calibrate = "",
+	tag = {},
+	live2d_offset = {
+		0,
+		0,
+		0
+	},
+	fx_container = {
+		{
+			0,
+			1.99185,
+			1.15
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0.75,
+			-1.299
+		},
+		{
+			0,
+			0,
+			0
+		}
+	},
+	bound_bone = {
+		cannon = {
+			{
+				1.032,
+				0.787,
+				0
+			}
+		},
+		vicegun = {
+			{
+				1.126,
+				1.044,
+				0
+			}
+		},
+		antiaircraft = {
+			{
+				0.793,
+				2.354,
+				0
+			}
+		}
+	},
+	smoke = {
+		{
+			70,
+			{
+				{
+					"smoke",
+					{
+						-0.57,
+						0.48,
+						0
+					}
+				}
+			}
+		},
+		{
+			30,
+			{
+				{
+					"smoke",
+					{
+						0.53,
+						0.47,
+						0
+					}
+				}
+			}
+		}
+	}
+}
+
+
+_G.pg.base.ship_skin_template[11800021] = {
+	name = "獻給幸運的你",
+	change_skin = "",
+	illustrator2 = -1,
+	desc = "Guten Tag，指揮官。我是獲得了全新力量的超級美莉艾拉！這下無論面對什麼樣的敵人我都不會輸了！——大概是這種感覺？怎麼樣，這副打扮？我自己倒是覺得特別適合……不過想聽聽你的真實感想呢。",
+	group_index = 1,
+	purchase_offset = "",
+	painting = "jumeihuali_2",
+	lover_hand = "hand_2_02",
+	bg_sp = "",
+	shop_type_id = 9,
+	l2d_ignore_drag = 0,
+	hand_id = 13,
+	lip_smoothing = 0,
+	l2d_animations = "",
+	lover_kiss = "lip02",
+	ship_group = 1180002,
+	bg = "196",
+	bgm = "story-richang-lightsweet",
+	spine_use_live2d = 0,
+	spine_action_offset = false,
+	skin_type = 0,
+	special_effects = "",
+	id = 11800021,
+	voice_actor_2 = -1,
+	gyro = 0,
+	ship_l2d_id = "",
+	l2d_drag_rate = "",
+	prefab = "jumeihuali_2",
+	l2d_se = "",
+	no_showing = "0",
+	part_scale = "",
+	main_UI_FX = "",
+	shop_id = 71423,
+	voice_actor = 82,
+	illustrator = -1,
+	rarity_bg = "",
+	shop_dynamic_hx = 0,
+	double_char = 0,
+	skeleton_default_skin = "",
+	voice_lang = "",
+	time = "",
+	l2d_para_range = "",
+	lip_sync_gain = 0,
+	live2d_offset_profile = "",
+	show_skin = "stand",
+	l2d_voice_calibrate = "",
+	tag = {
+		6,
+		2,
+		5
+	},
+	live2d_offset = {
+		0,
+		0,
+		0
+	},
+	shop_offset = {
+		128.4,
+		-645.1,
+		0,
+		0.42
+	},
+	spine_offset_profile = {
+		194,
+		-613,
+		0,
+		0.4
+	},
+	fx_container = {
+		{
+			0,
+			1.99185,
+			1.15
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0.75,
+			-1.299
+		},
+		{
+			0,
+			0,
+			0
+		}
+	},
+	bound_bone = {
+		cannon = {
+			{
+				1.24,
+				0.932,
+				0
+			}
+		},
+		torpedo = {
+			{
+				0,
+				0,
+				0
+			}
+		},
+		antiaircraft = {
+			{
+				0.768,
+				2.393,
+				0
+			}
+		}
+	},
+	smoke = {
+		{
+			50,
+			{
+				{
+					"smoke",
+					{
+						-0.566,
+						2.409,
+						0
+					}
+				}
+			}
+		}
+	},
+	spine_offset = {
+		50,
+		-747,
+		0,
+		0.45
+	},
+	get_showing = {
+		show = 1,
+		data = {
+			{
+				-1357,
+				-87,
+				2,
+				0,
+				160,
+				2
+			},
+			{
+				-665,
+				489,
+				2,
+				160,
+				0,
+				2
+			},
+			{
+				-40,
+				-177,
 				2,
 				0,
 				-148,

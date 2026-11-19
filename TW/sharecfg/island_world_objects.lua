@@ -147,47 +147,6 @@ pg.island_world_objects.all = {
 	10100012,
 	10100013,
 	10100014,
-	10050000,
-	10050001,
-	10050002,
-	10050003,
-	10050004,
-	10050005,
-	10050006,
-	10050007,
-	10050008,
-	10050009,
-	10050010,
-	10050011,
-	10050012,
-	10050013,
-	10050014,
-	10050015,
-	10050016,
-	10050017,
-	10050018,
-	10050019,
-	10050020,
-	10050021,
-	10050022,
-	10050023,
-	10050024,
-	10050025,
-	10050026,
-	10050027,
-	10050028,
-	10050029,
-	10050030,
-	10050031,
-	10050032,
-	10050033,
-	10050034,
-	10050035,
-	10050036,
-	10050037,
-	10050038,
-	10050039,
-	10050040,
 	10030001,
 	10030002,
 	10030003,
@@ -298,100 +257,6 @@ pg.island_world_objects.all = {
 	10020083,
 	10020084,
 	10020085,
-	10040001,
-	10040002,
-	10040003,
-	10040004,
-	10040005,
-	10040006,
-	10040007,
-	10040008,
-	10040009,
-	10040010,
-	10040011,
-	10040012,
-	10040013,
-	10040014,
-	10040015,
-	10040016,
-	10040017,
-	10040018,
-	10040019,
-	10040020,
-	10040021,
-	10040022,
-	10040023,
-	10040024,
-	10040025,
-	10040026,
-	10040027,
-	10040028,
-	10040029,
-	10040030,
-	10040031,
-	10040032,
-	10040033,
-	10040034,
-	10040035,
-	10040036,
-	10040037,
-	10040038,
-	10040039,
-	10040040,
-	10040041,
-	10040042,
-	10040043,
-	10040044,
-	10040045,
-	10040046,
-	10040047,
-	10040048,
-	10040049,
-	10040050,
-	10040051,
-	10040052,
-	10040053,
-	10040054,
-	10040055,
-	10040056,
-	10040057,
-	10040058,
-	10040059,
-	10040060,
-	10040061,
-	10040062,
-	10040063,
-	10040064,
-	10040065,
-	10040066,
-	10040067,
-	10040068,
-	10040069,
-	10040070,
-	10040071,
-	10040072,
-	10040073,
-	10040074,
-	10040075,
-	10040076,
-	10040077,
-	10040078,
-	10040079,
-	10040080,
-	10040081,
-	10040082,
-	10040083,
-	10040084,
-	10040085,
-	10040086,
-	10040087,
-	10040088,
-	10040089,
-	10040090,
-	10040091,
-	10040092,
-	10040093,
-	10040094,
 	10010001,
 	10010002,
 	10010003,
@@ -488,7 +353,150 @@ pg.island_world_objects.all = {
 	10010094,
 	10010095,
 	10010096,
-	10010097
+	10010097,
+	10040001,
+	10040002,
+	10040003,
+	10040004,
+	10040005,
+	10040006,
+	10040007,
+	10040008,
+	10040009,
+	10040010,
+	10040011,
+	10040012,
+	10040013,
+	10040014,
+	10040015,
+	10040016,
+	10040017,
+	10040018,
+	10040019,
+	10040020,
+	10040021,
+	10040022,
+	10040023,
+	10040024,
+	10040025,
+	10040026,
+	10040027,
+	10040028,
+	10040029,
+	10040030,
+	10040031,
+	10040032,
+	10040033,
+	10040034,
+	10040035,
+	10040036,
+	10040037,
+	10040038,
+	10040039,
+	10040040,
+	10040041,
+	10040042,
+	10040043,
+	10040044,
+	10040045,
+	10040046,
+	10040047,
+	10040048,
+	10040049,
+	10040050,
+	10040051,
+	10040052,
+	10040053,
+	10040054,
+	10040055,
+	10040056,
+	10040057,
+	10040058,
+	10040059,
+	10040060,
+	10040061,
+	10040062,
+	10040063,
+	10040064,
+	10040065,
+	10040066,
+	10040067,
+	10040068,
+	10040069,
+	10040070,
+	10040071,
+	10040072,
+	10040073,
+	10040074,
+	10040075,
+	10040076,
+	10040077,
+	10040078,
+	10040079,
+	10040080,
+	10040081,
+	10040082,
+	10040083,
+	10040084,
+	10040085,
+	10040086,
+	10040087,
+	10040088,
+	10040089,
+	10040090,
+	10040091,
+	10040092,
+	10040093,
+	10040094,
+	10040095,
+	10040096,
+	10040097,
+	10040098,
+	10050000,
+	10050001,
+	10050002,
+	10050003,
+	10050004,
+	10050005,
+	10050006,
+	10050007,
+	10050008,
+	10050009,
+	10050010,
+	10050011,
+	10050012,
+	10050013,
+	10050014,
+	10050015,
+	10050016,
+	10050017,
+	10050018,
+	10050019,
+	10050020,
+	10050021,
+	10050022,
+	10050023,
+	10050024,
+	10050025,
+	10050026,
+	10050027,
+	10050028,
+	10050029,
+	10050030,
+	10050031,
+	10050032,
+	10050033,
+	10050034,
+	10050035,
+	10050036,
+	10050037,
+	10050038,
+	10050039,
+	10050040,
+	10050041,
+	10050042,
+	10050043,
+	10050044
 }
 pg.island_world_objects.get_id_list_by_mapId = {
 	[1001] = {
@@ -791,7 +799,11 @@ pg.island_world_objects.get_id_list_by_mapId = {
 		10040091,
 		10040092,
 		10040093,
-		10040094
+		10040094,
+		10040095,
+		10040096,
+		10040097,
+		10040098
 	},
 	[1005] = {
 		10050000,
@@ -834,7 +846,11 @@ pg.island_world_objects.get_id_list_by_mapId = {
 		10050037,
 		10050038,
 		10050039,
-		10050040
+		10050040,
+		10050041,
+		10050042,
+		10050043,
+		10050044
 	},
 	[1006] = {
 		10060001,
@@ -5413,1248 +5429,6 @@ end)()
 			}
 		}
 	}
-	pg.base.island_world_objects[10050000] = {
-		behaviourTree = "",
-		unitId = 101100,
-		type = 1,
-		name = "StoryNpc_luxi1",
-		gen_type = 0,
-		id = 10050000,
-		mapId = 1005,
-		show_param = {},
-		hide_param = {
-			{
-				3,
-				3100081,
-				0
-			}
-		},
-		param = {
-			hide = false,
-			position = {
-				81.938,
-				2.486,
-				78.866
-			},
-			rotation = {
-				0,
-				329.5504,
-				0
-			},
-			scale = {
-				1,
-				1,
-				1
-			}
-		}
-	}
-	pg.base.island_world_objects[10050001] = {
-		behaviourTree = "Island/NodeCanvas/Player",
-		unitId = 0,
-		type = 2,
-		name = "SpawnPoint",
-		gen_type = 0,
-		id = 10050001,
-		mapId = 1005,
-		show_param = {},
-		hide_param = {},
-		param = {
-			hide = false,
-			position = {
-				76.18,
-				2.411,
-				94.94
-			},
-			rotation = {
-				0,
-				130,
-				0
-			},
-			scale = {
-				1,
-				1,
-				1
-			}
-		}
-	}
-	pg.base.island_world_objects[10050002] = {
-		behaviourTree = "Island/NodeCanvas/PlaceNpc_1011",
-		unitId = 101100,
-		type = 1,
-		name = "PlaceNpc_guoyuan",
-		gen_type = 2,
-		id = 10050002,
-		mapId = 1005,
-		show_param = {
-			{
-				3,
-				3100082,
-				4
-			}
-		},
-		hide_param = {
-			{
-				2,
-				10003070,
-				1
-			}
-		},
-		param = {
-			hide = false,
-			position = {
-				119.15,
-				2.384,
-				91.39
-			},
-			rotation = {
-				0,
-				0,
-				0
-			},
-			scale = {
-				1,
-				1,
-				1
-			}
-		}
-	}
-	pg.base.island_world_objects[10050003] = {
-		behaviourTree = "Island/NodeCanvas/PlaceNpc_1014",
-		unitId = 101400,
-		type = 1,
-		name = "PlaceNpc_miaopu",
-		gen_type = 0,
-		id = 10050003,
-		mapId = 1005,
-		show_param = {},
-		hide_param = {},
-		param = {
-			hide = false,
-			position = {
-				80.126,
-				2.38,
-				78.882
-			},
-			rotation = {
-				0,
-				26.31711,
-				0
-			},
-			scale = {
-				1,
-				1,
-				1
-			}
-		}
-	}
-	pg.base.island_world_objects[10050004] = {
-		behaviourTree = "",
-		unitId = 1014,
-		type = 0,
-		name = "OrchardPost1",
-		gen_type = 1,
-		id = 10050004,
-		mapId = 1005,
-		show_param = {},
-		hide_param = {},
-		param = {
-			hide = false,
-			position = {
-				90.86,
-				2.72,
-				99.89
-			},
-			rotation = {
-				0,
-				0,
-				0
-			},
-			scale = {
-				1,
-				1,
-				1
-			}
-		}
-	}
-	pg.base.island_world_objects[10050005] = {
-		behaviourTree = "",
-		unitId = 1014,
-		type = 0,
-		name = "OrchardPost2",
-		gen_type = 1,
-		id = 10050005,
-		mapId = 1005,
-		show_param = {},
-		hide_param = {},
-		param = {
-			hide = false,
-			position = {
-				90.86,
-				2.72,
-				111.62
-			},
-			rotation = {
-				0,
-				0,
-				0
-			},
-			scale = {
-				1,
-				1,
-				1
-			}
-		}
-	}
-	pg.base.island_world_objects[10050006] = {
-		behaviourTree = "",
-		unitId = 1014,
-		type = 0,
-		name = "OrchardPost3",
-		gen_type = 1,
-		id = 10050006,
-		mapId = 1005,
-		show_param = {},
-		hide_param = {},
-		param = {
-			hide = false,
-			position = {
-				115.61,
-				2.72,
-				99.89
-			},
-			rotation = {
-				0,
-				0,
-				0
-			},
-			scale = {
-				1,
-				1,
-				1
-			}
-		}
-	}
-	pg.base.island_world_objects[10050007] = {
-		behaviourTree = "",
-		unitId = 1014,
-		type = 0,
-		name = "OrchardPost4",
-		gen_type = 1,
-		id = 10050007,
-		mapId = 1005,
-		show_param = {},
-		hide_param = {},
-		param = {
-			hide = false,
-			position = {
-				115.61,
-				2.72,
-				111.31
-			},
-			rotation = {
-				0,
-				0,
-				0
-			},
-			scale = {
-				1,
-				1,
-				1
-			}
-		}
-	}
-	pg.base.island_world_objects[10050008] = {
-		behaviourTree = "",
-		unitId = 1014,
-		type = 0,
-		name = "GardenPost1",
-		gen_type = 1,
-		id = 10050008,
-		mapId = 1005,
-		show_param = {},
-		hide_param = {},
-		param = {
-			hide = false,
-			position = {
-				85.76,
-				2.72,
-				78.06
-			},
-			rotation = {
-				0,
-				0,
-				0
-			},
-			scale = {
-				1,
-				1,
-				1
-			}
-		}
-	}
-	pg.base.island_world_objects[10050009] = {
-		behaviourTree = "",
-		unitId = 1014,
-		type = 0,
-		name = "GardenPost2",
-		gen_type = 1,
-		id = 10050009,
-		mapId = 1005,
-		show_param = {},
-		hide_param = {},
-		param = {
-			hide = false,
-			position = {
-				87.38,
-				2.72,
-				88.17
-			},
-			rotation = {
-				0,
-				0,
-				0
-			},
-			scale = {
-				1,
-				1,
-				1
-			}
-		}
-	}
-	pg.base.island_world_objects[10050010] = {
-		behaviourTree = "",
-		unitId = 0,
-		type = 0,
-		name = "OrchardPlantingSite1",
-		gen_type = 1,
-		id = 10050010,
-		mapId = 1005,
-		show_param = {},
-		hide_param = {},
-		param = {
-			hide = false,
-			position = {
-				86.35,
-				2.171,
-				102.17
-			},
-			rotation = {
-				0,
-				0,
-				0
-			},
-			scale = {
-				1,
-				1,
-				1
-			}
-		}
-	}
-	pg.base.island_world_objects[10050011] = {
-		behaviourTree = "",
-		unitId = 0,
-		type = 0,
-		name = "OrchardPlantingSite2",
-		gen_type = 1,
-		id = 10050011,
-		mapId = 1005,
-		show_param = {},
-		hide_param = {},
-		param = {
-			hide = false,
-			position = {
-				95.66,
-				2.171,
-				102.06
-			},
-			rotation = {
-				0,
-				0,
-				0
-			},
-			scale = {
-				1,
-				1,
-				1
-			}
-		}
-	}
-	pg.base.island_world_objects[10050012] = {
-		behaviourTree = "",
-		unitId = 0,
-		type = 0,
-		name = "OrchardPlantingSite3",
-		gen_type = 1,
-		id = 10050012,
-		mapId = 1005,
-		show_param = {},
-		hide_param = {},
-		param = {
-			hide = false,
-			position = {
-				86.37,
-				2.171,
-				108.05
-			},
-			rotation = {
-				0,
-				0,
-				0
-			},
-			scale = {
-				1,
-				1,
-				1
-			}
-		}
-	}
-	pg.base.island_world_objects[10050013] = {
-		behaviourTree = "",
-		unitId = 0,
-		type = 0,
-		name = "OrchardPlantingSite4",
-		gen_type = 1,
-		id = 10050013,
-		mapId = 1005,
-		show_param = {},
-		hide_param = {},
-		param = {
-			hide = false,
-			position = {
-				95.89,
-				2.171,
-				107.98
-			},
-			rotation = {
-				0,
-				0,
-				0
-			},
-			scale = {
-				1,
-				1,
-				1
-			}
-		}
-	}
-	pg.base.island_world_objects[10050014] = {
-		behaviourTree = "",
-		unitId = 0,
-		type = 0,
-		name = "OrchardPlantingSite5",
-		gen_type = 1,
-		id = 10050014,
-		mapId = 1005,
-		show_param = {},
-		hide_param = {},
-		param = {
-			hide = false,
-			position = {
-				86.33,
-				2.171,
-				113.77
-			},
-			rotation = {
-				0,
-				0,
-				0
-			},
-			scale = {
-				1,
-				1,
-				1
-			}
-		}
-	}
-	pg.base.island_world_objects[10050015] = {
-		behaviourTree = "",
-		unitId = 0,
-		type = 0,
-		name = "OrchardPlantingSite6",
-		gen_type = 1,
-		id = 10050015,
-		mapId = 1005,
-		show_param = {},
-		hide_param = {},
-		param = {
-			hide = false,
-			position = {
-				95.55,
-				2.171,
-				113.87
-			},
-			rotation = {
-				0,
-				0,
-				0
-			},
-			scale = {
-				1,
-				1,
-				1
-			}
-		}
-	}
-	pg.base.island_world_objects[10050016] = {
-		behaviourTree = "",
-		unitId = 0,
-		type = 0,
-		name = "OrchardPlantingSite7",
-		gen_type = 1,
-		id = 10050016,
-		mapId = 1005,
-		show_param = {},
-		hide_param = {},
-		param = {
-			hide = false,
-			position = {
-				86.42,
-				2.171,
-				119.23
-			},
-			rotation = {
-				0,
-				0,
-				0
-			},
-			scale = {
-				1,
-				1,
-				1
-			}
-		}
-	}
-	pg.base.island_world_objects[10050017] = {
-		behaviourTree = "",
-		unitId = 0,
-		type = 0,
-		name = "OrchardPlantingSite8",
-		gen_type = 1,
-		id = 10050017,
-		mapId = 1005,
-		show_param = {},
-		hide_param = {},
-		param = {
-			hide = false,
-			position = {
-				95.6,
-				2.171,
-				119.48
-			},
-			rotation = {
-				0,
-				0,
-				0
-			},
-			scale = {
-				1,
-				1,
-				1
-			}
-		}
-	}
-	pg.base.island_world_objects[10050018] = {
-		behaviourTree = "",
-		unitId = 0,
-		type = 0,
-		name = "OrchardPlantingSite9",
-		gen_type = 1,
-		id = 10050018,
-		mapId = 1005,
-		show_param = {},
-		hide_param = {},
-		param = {
-			hide = false,
-			position = {
-				111.44,
-				2.171,
-				101.94
-			},
-			rotation = {
-				0,
-				0,
-				0
-			},
-			scale = {
-				1,
-				1,
-				1
-			}
-		}
-	}
-	pg.base.island_world_objects[10050019] = {
-		behaviourTree = "",
-		unitId = 0,
-		type = 0,
-		name = "OrchardPlantingSite10",
-		gen_type = 1,
-		id = 10050019,
-		mapId = 1005,
-		show_param = {},
-		hide_param = {},
-		param = {
-			hide = false,
-			position = {
-				119.92,
-				2.171,
-				101.94
-			},
-			rotation = {
-				0,
-				0,
-				0
-			},
-			scale = {
-				1,
-				1,
-				1
-			}
-		}
-	}
-	pg.base.island_world_objects[10050020] = {
-		behaviourTree = "",
-		unitId = 0,
-		type = 0,
-		name = "OrchardPlantingSite11",
-		gen_type = 1,
-		id = 10050020,
-		mapId = 1005,
-		show_param = {},
-		hide_param = {},
-		param = {
-			hide = false,
-			position = {
-				111.59,
-				2.171,
-				108.27
-			},
-			rotation = {
-				0,
-				0,
-				0
-			},
-			scale = {
-				1,
-				1,
-				1
-			}
-		}
-	}
-	pg.base.island_world_objects[10050021] = {
-		behaviourTree = "",
-		unitId = 0,
-		type = 0,
-		name = "OrchardPlantingSite12",
-		gen_type = 1,
-		id = 10050021,
-		mapId = 1005,
-		show_param = {},
-		hide_param = {},
-		param = {
-			hide = false,
-			position = {
-				119.88,
-				2.171,
-				108.34
-			},
-			rotation = {
-				0,
-				0,
-				0
-			},
-			scale = {
-				1,
-				1,
-				1
-			}
-		}
-	}
-	pg.base.island_world_objects[10050022] = {
-		behaviourTree = "",
-		unitId = 0,
-		type = 0,
-		name = "OrchardPlantingSite13",
-		gen_type = 1,
-		id = 10050022,
-		mapId = 1005,
-		show_param = {},
-		hide_param = {},
-		param = {
-			hide = false,
-			position = {
-				111.92,
-				2.171,
-				114.48
-			},
-			rotation = {
-				0,
-				0,
-				0
-			},
-			scale = {
-				1,
-				1,
-				1
-			}
-		}
-	}
-	pg.base.island_world_objects[10050023] = {
-		behaviourTree = "",
-		unitId = 0,
-		type = 0,
-		name = "OrchardPlantingSite14",
-		gen_type = 1,
-		id = 10050023,
-		mapId = 1005,
-		show_param = {},
-		hide_param = {},
-		param = {
-			hide = false,
-			position = {
-				119.72,
-				2.171,
-				114.74
-			},
-			rotation = {
-				0,
-				0,
-				0
-			},
-			scale = {
-				1,
-				1,
-				1
-			}
-		}
-	}
-	pg.base.island_world_objects[10050024] = {
-		behaviourTree = "",
-		unitId = 0,
-		type = 0,
-		name = "OrchardPlantingSite15",
-		gen_type = 1,
-		id = 10050024,
-		mapId = 1005,
-		show_param = {},
-		hide_param = {},
-		param = {
-			hide = false,
-			position = {
-				111.92,
-				2.171,
-				120.05
-			},
-			rotation = {
-				0,
-				0,
-				0
-			},
-			scale = {
-				1,
-				1,
-				1
-			}
-		}
-	}
-	pg.base.island_world_objects[10050025] = {
-		behaviourTree = "",
-		unitId = 0,
-		type = 0,
-		name = "OrchardPlantingSite16",
-		gen_type = 1,
-		id = 10050025,
-		mapId = 1005,
-		show_param = {},
-		hide_param = {},
-		param = {
-			hide = false,
-			position = {
-				119.77,
-				2.171,
-				120.18
-			},
-			rotation = {
-				0,
-				0,
-				0
-			},
-			scale = {
-				1,
-				1,
-				1
-			}
-		}
-	}
-	pg.base.island_world_objects[10050026] = {
-		behaviourTree = "",
-		unitId = 0,
-		type = 0,
-		name = "GardenPlantingSpot1",
-		gen_type = 1,
-		id = 10050026,
-		mapId = 1005,
-		show_param = {},
-		hide_param = {},
-		param = {
-			hide = false,
-			position = {
-				82.595,
-				2.384,
-				82.32
-			},
-			rotation = {
-				0,
-				0,
-				0
-			},
-			scale = {
-				1,
-				1,
-				1
-			}
-		}
-	}
-	pg.base.island_world_objects[10050027] = {
-		behaviourTree = "",
-		unitId = 0,
-		type = 0,
-		name = "GardenPlantingSpot2",
-		gen_type = 1,
-		id = 10050027,
-		mapId = 1005,
-		show_param = {},
-		hide_param = {},
-		param = {
-			hide = false,
-			position = {
-				85.695,
-				2.384,
-				82.325
-			},
-			rotation = {
-				0,
-				0,
-				0
-			},
-			scale = {
-				1,
-				1,
-				1
-			}
-		}
-	}
-	pg.base.island_world_objects[10050028] = {
-		behaviourTree = "",
-		unitId = 0,
-		type = 0,
-		name = "GardenPlantingSpot3",
-		gen_type = 1,
-		id = 10050028,
-		mapId = 1005,
-		show_param = {},
-		hide_param = {},
-		param = {
-			hide = false,
-			position = {
-				88.761,
-				2.384,
-				82.325
-			},
-			rotation = {
-				0,
-				0,
-				0
-			},
-			scale = {
-				1,
-				1,
-				1
-			}
-		}
-	}
-	pg.base.island_world_objects[10050029] = {
-		behaviourTree = "",
-		unitId = 0,
-		type = 0,
-		name = "GardenPlantingSpot4",
-		gen_type = 1,
-		id = 10050029,
-		mapId = 1005,
-		show_param = {},
-		hide_param = {},
-		param = {
-			hide = false,
-			position = {
-				84.141,
-				2.384,
-				84.99
-			},
-			rotation = {
-				0,
-				0,
-				0
-			},
-			scale = {
-				1,
-				1,
-				1
-			}
-		}
-	}
-	pg.base.island_world_objects[10050030] = {
-		behaviourTree = "",
-		unitId = 0,
-		type = 0,
-		name = "GardenPlantingSpot5",
-		gen_type = 1,
-		id = 10050030,
-		mapId = 1005,
-		show_param = {},
-		hide_param = {},
-		param = {
-			hide = false,
-			position = {
-				87.265,
-				2.384,
-				84.967
-			},
-			rotation = {
-				0,
-				0,
-				0
-			},
-			scale = {
-				1,
-				1,
-				1
-			}
-		}
-	}
-	pg.base.island_world_objects[10050031] = {
-		behaviourTree = "",
-		unitId = 0,
-		type = 0,
-		name = "GardenPlantingSpot6",
-		gen_type = 1,
-		id = 10050031,
-		mapId = 1005,
-		show_param = {},
-		hide_param = {},
-		param = {
-			hide = false,
-			position = {
-				90.31,
-				2.384,
-				84.976
-			},
-			rotation = {
-				0,
-				0,
-				0
-			},
-			scale = {
-				1,
-				1,
-				1
-			}
-		}
-	}
-	pg.base.island_world_objects[10050032] = {
-		behaviourTree = "Island/NodeCanvas/WildGatherItem",
-		unitId = 20061,
-		type = 0,
-		name = "fengmitong",
-		gen_type = 1,
-		id = 10050032,
-		mapId = 1005,
-		show_param = {},
-		hide_param = {},
-		param = {
-			hide = false,
-			position = {
-				88.584,
-				2.366,
-				75.962
-			},
-			rotation = {
-				0,
-				0,
-				0
-			},
-			scale = {
-				1,
-				1,
-				1
-			}
-		}
-	}
-	pg.base.island_world_objects[10050033] = {
-		behaviourTree = "",
-		unitId = 101100,
-		type = 1,
-		name = "StoryNpc_luxi2",
-		gen_type = 2,
-		id = 10050033,
-		mapId = 1005,
-		show_param = {
-			{
-				2,
-				10003070,
-				0
-			},
-			{
-				2,
-				10003080,
-				2
-			}
-		},
-		hide_param = {
-			{
-				3,
-				3100082,
-				0
-			}
-		},
-		param = {
-			hide = false,
-			position = {
-				96.55,
-				2.383,
-				97.25
-			},
-			rotation = {
-				0,
-				293.3554,
-				0
-			},
-			scale = {
-				1,
-				1,
-				1
-			}
-		}
-	}
-	pg.base.island_world_objects[10050034] = {
-		behaviourTree = "Island/NodeCanvas/StoryItem_fengchao",
-		unitId = 20036,
-		type = 0,
-		name = "StoryItem_fengchao",
-		gen_type = 2,
-		id = 10050034,
-		mapId = 1005,
-		show_param = {
-			{
-				0,
-				10003060,
-				0
-			}
-		},
-		hide_param = {},
-		param = {
-			hide = false,
-			position = {
-				72.717,
-				4.042,
-				123.327
-			},
-			rotation = {
-				0.5110396,
-				84.50013,
-				5.543053
-			},
-			scale = {
-				1,
-				1,
-				1
-			}
-		}
-	}
-	pg.base.island_world_objects[10050035] = {
-		behaviourTree = "",
-		unitId = 1031,
-		type = 0,
-		name = "Fish_point1",
-		gen_type = 1,
-		id = 10050035,
-		mapId = 1005,
-		show_param = {},
-		hide_param = {},
-		param = {
-			hide = false,
-			position = {
-				90.73,
-				1.6,
-				57.54
-			},
-			rotation = {
-				0,
-				0,
-				0
-			},
-			scale = {
-				1,
-				1,
-				1
-			}
-		}
-	}
-	pg.base.island_world_objects[10050036] = {
-		behaviourTree = "Island/NodeCanvas/Sidetask_2001200N",
-		unitId = 1022,
-		type = 0,
-		name = "Sidetask_20012004",
-		gen_type = 2,
-		id = 10050036,
-		mapId = 1005,
-		show_param = {
-			{
-				0,
-				20012004,
-				0
-			}
-		},
-		hide_param = {},
-		param = {
-			hide = false,
-			position = {
-				95.32,
-				2.157,
-				99.33
-			},
-			rotation = {
-				0,
-				0,
-				0
-			},
-			scale = {
-				1,
-				1,
-				1
-			}
-		}
-	}
-	pg.base.island_world_objects[10050037] = {
-		behaviourTree = "Island/NodeCanvas/Sidetask_2001200N",
-		unitId = 1022,
-		type = 0,
-		name = "Sidetask_20012010",
-		gen_type = 2,
-		id = 10050037,
-		mapId = 1005,
-		show_param = {
-			{
-				0,
-				20012010,
-				0
-			}
-		},
-		hide_param = {},
-		param = {
-			hide = false,
-			position = {
-				95.32,
-				2.157,
-				99.33
-			},
-			rotation = {
-				0,
-				0,
-				0
-			},
-			scale = {
-				1,
-				1,
-				1
-			}
-		}
-	}
-	pg.base.island_world_objects[10050038] = {
-		behaviourTree = "Island/NodeCanvas/Orchard_station",
-		unitId = 1012,
-		type = 0,
-		name = "Station",
-		gen_type = 0,
-		id = 10050038,
-		mapId = 1005,
-		show_param = {},
-		hide_param = {},
-		param = {
-			hide = true,
-			position = {
-				70.06,
-				2.34,
-				104.66
-			},
-			rotation = {
-				0,
-				85.39124,
-				0
-			},
-			scale = {
-				1,
-				1,
-				1
-			}
-		}
-	}
-	pg.base.island_world_objects[10050039] = {
-		behaviourTree = "",
-		unitId = 1032,
-		type = 0,
-		name = "Fish_guide1",
-		gen_type = 0,
-		id = 10050039,
-		mapId = 1005,
-		show_param = {},
-		hide_param = {},
-		param = {
-			hide = false,
-			position = {
-				93.36,
-				2.3346,
-				60.046
-			},
-			rotation = {
-				0,
-				100.0017,
-				0
-			},
-			scale = {
-				1,
-				1,
-				1
-			}
-		}
-	}
-	pg.base.island_world_objects[10050040] = {
-		behaviourTree = "",
-		unitId = 100501,
-		type = 0,
-		name = "Collider",
-		gen_type = 0,
-		id = 10050040,
-		mapId = 1005,
-		show_param = {},
-		hide_param = {},
-		param = {
-			hide = false,
-			position = {
-				0,
-				0,
-				0
-			},
-			rotation = {
-				0,
-				0,
-				0
-			},
-			scale = {
-				1,
-				1,
-				1
-			}
-		}
-	}
 	pg.base.island_world_objects[10030001] = {
 		behaviourTree = "Island/NodeCanvas/Player",
 		unitId = 0,
@@ -7126,8 +5900,6 @@ end)()
 			}
 		}
 	}
-end)()
-(function ()
 	pg.base.island_world_objects[10030016] = {
 		behaviourTree = "Island/NodeCanvas/PlaceNpc_1013",
 		unitId = 101300,
@@ -8521,6 +7293,8 @@ end)()
 			}
 		}
 	}
+end)()
+(function ()
 	pg.base.island_world_objects[10020032] = {
 		behaviourTree = "",
 		unitId = 1022,
@@ -10145,2973 +8919,6 @@ end)()
 			}
 		}
 	}
-	pg.base.island_world_objects[10040001] = {
-		behaviourTree = "Island/NodeCanvas/Player",
-		unitId = 0,
-		type = 2,
-		name = "Player",
-		gen_type = 0,
-		id = 10040001,
-		mapId = 1004,
-		show_param = {},
-		hide_param = {},
-		param = {
-			hide = false,
-			position = {
-				27.95,
-				3.348,
-				105.17
-			},
-			rotation = {
-				0,
-				119.7555,
-				0
-			},
-			scale = {
-				1,
-				1,
-				1
-			}
-		}
-	}
-	pg.base.island_world_objects[10040002] = {
-		behaviourTree = "Island/NodeCanvas/PlaceNpc_1007",
-		unitId = 100700,
-		type = 1,
-		name = "npc-famu",
-		gen_type = 2,
-		id = 10040002,
-		mapId = 1004,
-		show_param = {
-			{
-				2,
-				10001000,
-				1
-			},
-			{
-				3,
-				3100014,
-				3
-			},
-			{
-				0,
-				10001000,
-				0
-			},
-			{
-				2,
-				20001009,
-				0
-			}
-		},
-		hide_param = {
-			{
-				3,
-				3100007,
-				2
-			},
-			{
-				0,
-				20001009,
-				0
-			}
-		},
-		param = {
-			hide = false,
-			position = {
-				74.85,
-				2.912,
-				111.58
-			},
-			rotation = {
-				0,
-				198.9234,
-				0
-			},
-			scale = {
-				1,
-				1,
-				1
-			}
-		}
-	}
-	pg.base.island_world_objects[10040003] = {
-		behaviourTree = "Island/NodeCanvas/PlaceCollectionPoint",
-		unitId = 0,
-		type = 0,
-		name = "MinePoint1",
-		gen_type = 1,
-		id = 10040003,
-		mapId = 1004,
-		show_param = {},
-		hide_param = {},
-		param = {
-			hide = false,
-			position = {
-				39.667,
-				8.67,
-				53.965
-			},
-			rotation = {
-				0,
-				20.42698,
-				0
-			},
-			scale = {
-				0.45,
-				0.45,
-				1
-			}
-		}
-	}
-	pg.base.island_world_objects[10040004] = {
-		behaviourTree = "Island/NodeCanvas/PlaceCollectionPoint",
-		unitId = 0,
-		type = 0,
-		name = "MinePoint2",
-		gen_type = 1,
-		id = 10040004,
-		mapId = 1004,
-		show_param = {},
-		hide_param = {},
-		param = {
-			hide = false,
-			position = {
-				28.458,
-				8.863,
-				54.082
-			},
-			rotation = {
-				5.122642e-06,
-				22.70899,
-				45.00001
-			},
-			scale = {
-				0.5,
-				0.5,
-				1
-			}
-		}
-	}
-	pg.base.island_world_objects[10040005] = {
-		behaviourTree = "Island/NodeCanvas/PlaceCollectionPoint",
-		unitId = 0,
-		type = 0,
-		name = "MinePoint3",
-		gen_type = 1,
-		id = 10040005,
-		mapId = 1004,
-		show_param = {},
-		hide_param = {},
-		param = {
-			hide = false,
-			position = {
-				39.653,
-				11.288,
-				48.286
-			},
-			rotation = {
-				343.942,
-				12.17626,
-				37.3582
-			},
-			scale = {
-				1,
-				1,
-				1
-			}
-		}
-	}
-end)()
-(function ()
-	pg.base.island_world_objects[10040006] = {
-		behaviourTree = "Island/NodeCanvas/PlaceCollectionPoint",
-		unitId = 0,
-		type = 0,
-		name = "MinePoint4",
-		gen_type = 1,
-		id = 10040006,
-		mapId = 1004,
-		show_param = {},
-		hide_param = {},
-		param = {
-			hide = false,
-			position = {
-				31.287,
-				8.237,
-				65.702
-			},
-			rotation = {
-				1.536793e-05,
-				114.419,
-				45.00012
-			},
-			scale = {
-				0.45,
-				0.45,
-				1
-			}
-		}
-	}
-	pg.base.island_world_objects[10040007] = {
-		behaviourTree = "Island/NodeCanvas/PlaceCollectionPoint",
-		unitId = 0,
-		type = 0,
-		name = "MinePoint5",
-		gen_type = 1,
-		id = 10040007,
-		mapId = 1004,
-		show_param = {},
-		hide_param = {},
-		param = {
-			hide = false,
-			position = {
-				33.128,
-				7.473,
-				56.147
-			},
-			rotation = {
-				1.898381,
-				18.62296,
-				31.70918
-			},
-			scale = {
-				0.5,
-				0.5,
-				1
-			}
-		}
-	}
-	pg.base.island_world_objects[10040008] = {
-		behaviourTree = "Island/NodeCanvas/PlaceCollectionPoint",
-		unitId = 0,
-		type = 0,
-		name = "MinePoint6",
-		gen_type = 1,
-		id = 10040008,
-		mapId = 1004,
-		show_param = {},
-		hide_param = {},
-		param = {
-			hide = false,
-			position = {
-				43.752,
-				8.383,
-				52.386
-			},
-			rotation = {
-				-8.537737e-07,
-				22.88621,
-				145
-			},
-			scale = {
-				1,
-				1,
-				1
-			}
-		}
-	}
-	pg.base.island_world_objects[10040009] = {
-		behaviourTree = "",
-		unitId = 1014,
-		type = 0,
-		name = "MinePost1",
-		gen_type = 1,
-		id = 10040009,
-		mapId = 1004,
-		show_param = {},
-		hide_param = {},
-		param = {
-			hide = false,
-			position = {
-				61.29,
-				3.902,
-				61.71
-			},
-			rotation = {
-				0,
-				90,
-				0
-			},
-			scale = {
-				1,
-				1,
-				1
-			}
-		}
-	}
-	pg.base.island_world_objects[10040010] = {
-		behaviourTree = "",
-		unitId = 1014,
-		type = 0,
-		name = "MinePost2",
-		gen_type = 1,
-		id = 10040010,
-		mapId = 1004,
-		show_param = {},
-		hide_param = {},
-		param = {
-			hide = false,
-			position = {
-				61.78,
-				3.902,
-				63.87
-			},
-			rotation = {
-				0,
-				90,
-				0
-			},
-			scale = {
-				1,
-				1,
-				1
-			}
-		}
-	}
-	pg.base.island_world_objects[10040011] = {
-		behaviourTree = "",
-		unitId = 1014,
-		type = 0,
-		name = "MinePost3",
-		gen_type = 1,
-		id = 10040011,
-		mapId = 1004,
-		show_param = {},
-		hide_param = {},
-		param = {
-			hide = false,
-			position = {
-				57.69,
-				3.902,
-				63.38
-			},
-			rotation = {
-				0,
-				90,
-				0
-			},
-			scale = {
-				1,
-				1,
-				1
-			}
-		}
-	}
-	pg.base.island_world_objects[10040012] = {
-		behaviourTree = "",
-		unitId = 1014,
-		type = 0,
-		name = "MinePost4",
-		gen_type = 1,
-		id = 10040012,
-		mapId = 1004,
-		show_param = {},
-		hide_param = {},
-		param = {
-			hide = false,
-			position = {
-				58.1,
-				3.902,
-				65.53
-			},
-			rotation = {
-				0,
-				90,
-				0
-			},
-			scale = {
-				1,
-				1,
-				1
-			}
-		}
-	}
-	pg.base.island_world_objects[10040013] = {
-		behaviourTree = "",
-		unitId = 1014,
-		type = 0,
-		name = "LoggingPost1",
-		gen_type = 1,
-		id = 10040013,
-		mapId = 1004,
-		show_param = {},
-		hide_param = {},
-		param = {
-			hide = false,
-			position = {
-				58.947,
-				2.874932,
-				118.451
-			},
-			rotation = {
-				0,
-				150.975,
-				0
-			},
-			scale = {
-				1,
-				1,
-				1
-			}
-		}
-	}
-	pg.base.island_world_objects[10040014] = {
-		behaviourTree = "",
-		unitId = 1014,
-		type = 0,
-		name = "LoggingPost2",
-		gen_type = 1,
-		id = 10040014,
-		mapId = 1004,
-		show_param = {},
-		hide_param = {},
-		param = {
-			hide = false,
-			position = {
-				60.594,
-				2.874932,
-				119.252
-			},
-			rotation = {
-				0,
-				150.975,
-				0
-			},
-			scale = {
-				1,
-				1,
-				1
-			}
-		}
-	}
-	pg.base.island_world_objects[10040015] = {
-		behaviourTree = "",
-		unitId = 1014,
-		type = 0,
-		name = "LoggingPost3",
-		gen_type = 1,
-		id = 10040015,
-		mapId = 1004,
-		show_param = {},
-		hide_param = {},
-		param = {
-			hide = false,
-			position = {
-				62.217,
-				2.874932,
-				119.926
-			},
-			rotation = {
-				0,
-				150.975,
-				0
-			},
-			scale = {
-				1,
-				1,
-				1
-			}
-		}
-	}
-	pg.base.island_world_objects[10040016] = {
-		behaviourTree = "",
-		unitId = 1014,
-		type = 0,
-		name = "LoggingPost4",
-		gen_type = 1,
-		id = 10040016,
-		mapId = 1004,
-		show_param = {},
-		hide_param = {},
-		param = {
-			hide = false,
-			position = {
-				63.914,
-				2.874932,
-				120.601
-			},
-			rotation = {
-				0,
-				174.1441,
-				0
-			},
-			scale = {
-				1,
-				1,
-				1
-			}
-		}
-	}
-	pg.base.island_world_objects[10040017] = {
-		behaviourTree = "Island/NodeCanvas/PlaceFellCollectionPoint",
-		unitId = 0,
-		type = 0,
-		name = "LoggingPoint1",
-		gen_type = 1,
-		id = 10040017,
-		mapId = 1004,
-		show_param = {},
-		hide_param = {},
-		param = {
-			hide = false,
-			position = {
-				54.466,
-				3.64,
-				116.945
-			},
-			rotation = {
-				0,
-				0,
-				0
-			},
-			scale = {
-				1,
-				1,
-				1
-			}
-		}
-	}
-	pg.base.island_world_objects[10040018] = {
-		behaviourTree = "Island/NodeCanvas/PlaceFellCollectionPoint",
-		unitId = 0,
-		type = 0,
-		name = "LoggingPoint2",
-		gen_type = 1,
-		id = 10040018,
-		mapId = 1004,
-		show_param = {},
-		hide_param = {},
-		param = {
-			hide = false,
-			position = {
-				52.921,
-				3.345,
-				127.262
-			},
-			rotation = {
-				0,
-				0,
-				0
-			},
-			scale = {
-				1,
-				1,
-				1
-			}
-		}
-	}
-	pg.base.island_world_objects[10040019] = {
-		behaviourTree = "Island/NodeCanvas/PlaceFellCollectionPoint",
-		unitId = 0,
-		type = 0,
-		name = "LoggingPoint3",
-		gen_type = 1,
-		id = 10040019,
-		mapId = 1004,
-		show_param = {},
-		hide_param = {},
-		param = {
-			hide = false,
-			position = {
-				69.078,
-				3.304,
-				121.434
-			},
-			rotation = {
-				0,
-				0,
-				0
-			},
-			scale = {
-				1,
-				1,
-				1
-			}
-		}
-	}
-	pg.base.island_world_objects[10040020] = {
-		behaviourTree = "Island/NodeCanvas/PlaceFellCollectionPoint",
-		unitId = 0,
-		type = 0,
-		name = "LoggingPoint4",
-		gen_type = 1,
-		id = 10040020,
-		mapId = 1004,
-		show_param = {},
-		hide_param = {},
-		param = {
-			hide = false,
-			position = {
-				65.357,
-				3.438,
-				131.013
-			},
-			rotation = {
-				0,
-				0,
-				0
-			},
-			scale = {
-				1,
-				1,
-				1
-			}
-		}
-	}
-	pg.base.island_world_objects[10040021] = {
-		behaviourTree = "",
-		unitId = 1008,
-		type = 0,
-		name = "Minecart",
-		gen_type = 0,
-		id = 10040021,
-		mapId = 1004,
-		show_param = {},
-		hide_param = {},
-		param = {
-			hide = false,
-			position = {
-				60.547,
-				4.071,
-				68.194
-			},
-			rotation = {
-				0,
-				10.41414,
-				0
-			},
-			scale = {
-				1,
-				1,
-				1
-			}
-		}
-	}
-	pg.base.island_world_objects[10040022] = {
-		behaviourTree = "Island/NodeCanvas/PlaceNpc_1006",
-		unitId = 100600,
-		type = 1,
-		name = "npc-kuangchang",
-		gen_type = 0,
-		id = 10040022,
-		mapId = 1004,
-		show_param = {},
-		hide_param = {
-			{
-				0,
-				10001050,
-				0
-			},
-			{
-				0,
-				10001060,
-				0
-			}
-		},
-		param = {
-			hide = false,
-			position = {
-				69.612,
-				3.938,
-				69.897
-			},
-			rotation = {
-				0,
-				0,
-				0
-			},
-			scale = {
-				1,
-				1,
-				1
-			}
-		}
-	}
-	pg.base.island_world_objects[10040023] = {
-		behaviourTree = "",
-		unitId = 1009,
-		type = 0,
-		name = "MineGate",
-		gen_type = 0,
-		id = 10040023,
-		mapId = 1004,
-		show_param = {},
-		hide_param = {},
-		param = {
-			hide = false,
-			position = {
-				56.806,
-				3.73,
-				51.88
-			},
-			rotation = {
-				0,
-				187.47,
-				0
-			},
-			scale = {
-				1,
-				1.2753,
-				-1
-			}
-		}
-	}
-	pg.base.island_world_objects[10040024] = {
-		behaviourTree = "Island/NodeCanvas/Player",
-		unitId = 0,
-		type = 2,
-		name = "BornStation",
-		gen_type = 0,
-		id = 10040024,
-		mapId = 1004,
-		show_param = {},
-		hide_param = {},
-		param = {
-			hide = false,
-			position = {
-				37.4,
-				2.575,
-				99.5
-			},
-			rotation = {
-				0,
-				26.44602,
-				0
-			},
-			scale = {
-				1,
-				1,
-				1
-			}
-		}
-	}
-	pg.base.island_world_objects[10040025] = {
-		behaviourTree = "Island/NodeCanvas/SceneAnimal_Cat",
-		unitId = 300902,
-		type = 1,
-		name = "SceneAnimalCat",
-		gen_type = 0,
-		id = 10040025,
-		mapId = 1004,
-		show_param = {},
-		hide_param = {},
-		param = {
-			hide = false,
-			position = {
-				44.832,
-				3.274,
-				90.89
-			},
-			rotation = {
-				0,
-				0,
-				0
-			},
-			scale = {
-				1,
-				1,
-				1
-			}
-		}
-	}
-	pg.base.island_world_objects[10040026] = {
-		behaviourTree = "Island/NodeCanvas/WildGatherItem",
-		unitId = 20036,
-		type = 0,
-		name = "fengmi301",
-		gen_type = 1,
-		id = 10040026,
-		mapId = 1004,
-		show_param = {},
-		hide_param = {},
-		param = {
-			hide = false,
-			position = {
-				55.394,
-				4.21,
-				156.518
-			},
-			rotation = {
-				0,
-				178.6864,
-				0
-			},
-			scale = {
-				1,
-				1,
-				1
-			}
-		}
-	}
-	pg.base.island_world_objects[10040027] = {
-		behaviourTree = "Island/NodeCanvas/WildGatherItem",
-		unitId = 20036,
-		type = 0,
-		name = "fengmi302",
-		gen_type = 1,
-		id = 10040027,
-		mapId = 1004,
-		show_param = {},
-		hide_param = {},
-		param = {
-			hide = false,
-			position = {
-				51.769,
-				3.805,
-				150.794
-			},
-			rotation = {
-				0,
-				128.879,
-				0
-			},
-			scale = {
-				1,
-				1,
-				1
-			}
-		}
-	}
-	pg.base.island_world_objects[10040028] = {
-		behaviourTree = "",
-		unitId = 100401,
-		type = 0,
-		name = "Collider",
-		gen_type = 0,
-		id = 10040028,
-		mapId = 1004,
-		show_param = {},
-		hide_param = {},
-		param = {
-			hide = false,
-			position = {
-				0,
-				0,
-				0
-			},
-			rotation = {
-				0,
-				0,
-				0
-			},
-			scale = {
-				1,
-				1,
-				1
-			}
-		}
-	}
-	pg.base.island_world_objects[10040029] = {
-		behaviourTree = "",
-		unitId = 100402,
-		type = 0,
-		name = "Station",
-		gen_type = 0,
-		id = 10040029,
-		mapId = 1004,
-		show_param = {},
-		hide_param = {},
-		param = {
-			hide = false,
-			position = {
-				35.995,
-				2.843,
-				96.938
-			},
-			rotation = {
-				0,
-				0,
-				0
-			},
-			scale = {
-				1,
-				1,
-				1
-			}
-		}
-	}
-	pg.base.island_world_objects[10040030] = {
-		behaviourTree = "Island/NodeCanvas/PlaceCollectionPoint",
-		unitId = 1014,
-		type = 0,
-		name = "MissionMinePoint1",
-		gen_type = 1,
-		id = 10040030,
-		mapId = 1004,
-		show_param = {},
-		hide_param = {},
-		param = {
-			hide = false,
-			position = {
-				28.846,
-				8.237,
-				60.275
-			},
-			rotation = {
-				-1.707547e-06,
-				114.676,
-				145
-			},
-			scale = {
-				0.5,
-				0.5,
-				1
-			}
-		}
-	}
-	pg.base.island_world_objects[10040031] = {
-		behaviourTree = "",
-		unitId = 100700,
-		type = 1,
-		name = "npc-famu-task2",
-		gen_type = 2,
-		id = 10040031,
-		mapId = 1004,
-		show_param = {
-			{
-				3,
-				3120001,
-				1
-			}
-		},
-		hide_param = {
-			{
-				2,
-				10001060,
-				2
-			}
-		},
-		param = {
-			hide = false,
-			position = {
-				41.57,
-				2.657,
-				94.38
-			},
-			rotation = {
-				0,
-				18.75212,
-				0
-			},
-			scale = {
-				1,
-				1,
-				1
-			}
-		}
-	}
-	pg.base.island_world_objects[10040032] = {
-		behaviourTree = "Island/NodeCanvas/PlaceNpc_fell_mining_task",
-		unitId = 100600,
-		type = 1,
-		name = "npc-kuangchang-task1",
-		gen_type = 2,
-		id = 10040032,
-		mapId = 1004,
-		show_param = {
-			{
-				2,
-				10001040,
-				1
-			}
-		},
-		hide_param = {
-			{
-				2,
-				10001060,
-				2
-			}
-		},
-		param = {
-			hide = false,
-			position = {
-				39.78,
-				2.625,
-				95.31
-			},
-			rotation = {
-				359.9536,
-				40.29847,
-				359.9767
-			},
-			scale = {
-				1,
-				1,
-				1
-			}
-		}
-	}
-	pg.base.island_world_objects[10040033] = {
-		behaviourTree = "Island/NodeCanvas/Fell_station",
-		unitId = 1012,
-		type = 0,
-		name = "Station1",
-		gen_type = 2,
-		id = 10040033,
-		mapId = 1004,
-		show_param = {
-			{
-				3,
-				3100010,
-				1
-			}
-		},
-		hide_param = {},
-		param = {
-			hide = true,
-			position = {
-				36.154,
-				2.613,
-				96.721
-			},
-			rotation = {
-				0,
-				25.5517,
-				0
-			},
-			scale = {
-				1,
-				1,
-				1
-			}
-		}
-	}
-	pg.base.island_world_objects[10040034] = {
-		behaviourTree = "",
-		unitId = 1011,
-		type = 0,
-		name = "Station2",
-		gen_type = 0,
-		id = 10040034,
-		mapId = 1004,
-		show_param = {},
-		hide_param = {
-			{
-				0,
-				10001060,
-				1
-			},
-			{
-				2,
-				10001060,
-				1
-			}
-		},
-		param = {
-			hide = true,
-			position = {
-				36.154,
-				2.613,
-				96.721
-			},
-			rotation = {
-				0,
-				25.5517,
-				0
-			},
-			scale = {
-				1,
-				1,
-				1
-			}
-		}
-	}
-	pg.base.island_world_objects[10040035] = {
-		behaviourTree = "",
-		unitId = 1014,
-		type = 0,
-		name = "MissionMinePoint1_Track",
-		gen_type = 2,
-		id = 10040035,
-		mapId = 1004,
-		show_param = {
-			{
-				0,
-				10001030,
-				0
-			}
-		},
-		hide_param = {},
-		param = {
-			hide = false,
-			position = {
-				28.638,
-				8.237,
-				60.303
-			},
-			rotation = {
-				-1.707547e-06,
-				114.676,
-				145
-			},
-			scale = {
-				0.5,
-				0.5,
-				1
-			}
-		}
-	}
-	pg.base.island_world_objects[10040036] = {
-		behaviourTree = "",
-		unitId = 1014,
-		type = 0,
-		name = "Loggingperform1",
-		gen_type = 0,
-		id = 10040036,
-		mapId = 1004,
-		show_param = {},
-		hide_param = {},
-		param = {
-			hide = false,
-			position = {
-				57.423,
-				3.437,
-				140.164
-			},
-			rotation = {
-				0,
-				0,
-				0
-			},
-			scale = {
-				1,
-				1,
-				1
-			}
-		}
-	}
-	pg.base.island_world_objects[10040037] = {
-		behaviourTree = "",
-		unitId = 1014,
-		type = 0,
-		name = "Loggingperform2",
-		gen_type = 0,
-		id = 10040037,
-		mapId = 1004,
-		show_param = {},
-		hide_param = {},
-		param = {
-			hide = false,
-			position = {
-				43.961,
-				3.437,
-				139.18
-			},
-			rotation = {
-				0,
-				0,
-				0
-			},
-			scale = {
-				1,
-				1,
-				1
-			}
-		}
-	}
-	pg.base.island_world_objects[10040038] = {
-		behaviourTree = "",
-		unitId = 1014,
-		type = 0,
-		name = "Loggingperform3",
-		gen_type = 0,
-		id = 10040038,
-		mapId = 1004,
-		show_param = {},
-		hide_param = {},
-		param = {
-			hide = false,
-			position = {
-				39.165,
-				4.4,
-				149.385
-			},
-			rotation = {
-				0,
-				0,
-				0
-			},
-			scale = {
-				1,
-				1,
-				1
-			}
-		}
-	}
-	pg.base.island_world_objects[10040039] = {
-		behaviourTree = "",
-		unitId = 1014,
-		type = 0,
-		name = "Loggingperform4",
-		gen_type = 0,
-		id = 10040039,
-		mapId = 1004,
-		show_param = {},
-		hide_param = {},
-		param = {
-			hide = false,
-			position = {
-				50.398,
-				4.64,
-				157.768
-			},
-			rotation = {
-				0,
-				0,
-				0
-			},
-			scale = {
-				1,
-				1,
-				1
-			}
-		}
-	}
-	pg.base.island_world_objects[10040040] = {
-		behaviourTree = "Island/NodeCanvas/PlaceFellCollectionPoint",
-		unitId = 0,
-		type = 0,
-		name = "MissionloggingPoint1",
-		gen_type = 1,
-		id = 10040040,
-		mapId = 1004,
-		show_param = {},
-		hide_param = {},
-		param = {
-			hide = false,
-			position = {
-				50.35,
-				5.19,
-				157.692
-			},
-			rotation = {
-				0,
-				0,
-				0
-			},
-			scale = {
-				1,
-				1,
-				1
-			}
-		}
-	}
-	pg.base.island_world_objects[10040041] = {
-		behaviourTree = "",
-		unitId = 1014,
-		type = 0,
-		name = "MissionloggingPoint1_Track",
-		gen_type = 2,
-		id = 10040041,
-		mapId = 1004,
-		show_param = {
-			{
-				0,
-				10001040,
-				0
-			}
-		},
-		hide_param = {},
-		param = {
-			hide = false,
-			position = {
-				69.001,
-				3.17,
-				121.427
-			},
-			rotation = {
-				0,
-				0,
-				0
-			},
-			scale = {
-				1,
-				1,
-				1
-			}
-		}
-	}
-	pg.base.island_world_objects[10040042] = {
-		behaviourTree = "Island/NodeCanvas/Player",
-		unitId = 0,
-		type = 2,
-		name = "DefaultSpawnPoint",
-		gen_type = 1,
-		id = 10040042,
-		mapId = 1004,
-		show_param = {},
-		hide_param = {},
-		param = {
-			hide = false,
-			position = {
-				93.05,
-				2.969,
-				65.89
-			},
-			rotation = {
-				0,
-				0,
-				0
-			},
-			scale = {
-				1,
-				1,
-				1
-			}
-		}
-	}
-	pg.base.island_world_objects[10040043] = {
-		behaviourTree = "",
-		unitId = 1021,
-		type = 0,
-		name = "GuideCollider",
-		gen_type = 2,
-		id = 10040043,
-		mapId = 1004,
-		show_param = {
-			{
-				0,
-				10001000,
-				0
-			}
-		},
-		hide_param = {},
-		param = {
-			hide = false,
-			position = {
-				0,
-				0,
-				0
-			},
-			rotation = {
-				0,
-				0,
-				0
-			},
-			scale = {
-				1,
-				1,
-				1
-			}
-		}
-	}
-	pg.base.island_world_objects[10040044] = {
-		behaviourTree = "",
-		unitId = 1022,
-		type = 0,
-		name = "GuideEffect1",
-		gen_type = 2,
-		id = 10040044,
-		mapId = 1004,
-		show_param = {
-			{
-				0,
-				10001000,
-				0
-			}
-		},
-		hide_param = {},
-		param = {
-			hide = false,
-			position = {
-				78.09,
-				3.05,
-				85.83
-			},
-			rotation = {
-				0,
-				0,
-				0
-			},
-			scale = {
-				1,
-				1,
-				1
-			}
-		}
-	}
-	pg.base.island_world_objects[10040045] = {
-		behaviourTree = "",
-		unitId = 100700,
-		type = 1,
-		name = "npc-famu-task1",
-		gen_type = 2,
-		id = 10040045,
-		mapId = 1004,
-		show_param = {
-			{
-				2,
-				10001030,
-				2
-			}
-		},
-		hide_param = {
-			{
-				3,
-				3120000,
-				2
-			}
-		},
-		param = {
-			hide = false,
-			position = {
-				80.028,
-				3.169,
-				72.687
-			},
-			rotation = {
-				0,
-				234.2948,
-				0
-			},
-			scale = {
-				1,
-				1,
-				1
-			}
-		}
-	}
-	pg.base.island_world_objects[10040046] = {
-		behaviourTree = "Island/NodeCanvas/WildCollectItem",
-		unitId = 20037,
-		type = 0,
-		name = "feixingqi06",
-		gen_type = 1,
-		id = 10040046,
-		mapId = 1004,
-		show_param = {},
-		hide_param = {},
-		param = {
-			hide = false,
-			position = {
-				54.654,
-				3.178518,
-				123.6498
-			},
-			rotation = {
-				356.8235,
-				0,
-				0
-			},
-			scale = {
-				1,
-				1,
-				1
-			}
-		}
-	}
-	pg.base.island_world_objects[10040047] = {
-		behaviourTree = "Island/NodeCanvas/WildCollectItem",
-		unitId = 20039,
-		type = 0,
-		name = "feixingqi07",
-		gen_type = 1,
-		id = 10040047,
-		mapId = 1004,
-		show_param = {},
-		hide_param = {},
-		param = {
-			hide = false,
-			position = {
-				41.75,
-				9.96,
-				51.02
-			},
-			rotation = {
-				352.0229,
-				119.8817,
-				355.738
-			},
-			scale = {
-				1,
-				1,
-				1
-			}
-		}
-	}
-	pg.base.island_world_objects[10040048] = {
-		behaviourTree = "Island/NodeCanvas/WildCollectItem",
-		unitId = 20040,
-		type = 0,
-		name = "feixingqi08",
-		gen_type = 1,
-		id = 10040048,
-		mapId = 1004,
-		show_param = {},
-		hide_param = {},
-		param = {
-			hide = false,
-			position = {
-				89.41952,
-				3.520228,
-				101.4244
-			},
-			rotation = {
-				351.9954,
-				4.367276,
-				356.6403
-			},
-			scale = {
-				1,
-				1,
-				1
-			}
-		}
-	}
-	pg.base.island_world_objects[10040049] = {
-		behaviourTree = "Island/NodeCanvas/WildCollectItem",
-		unitId = 20041,
-		type = 0,
-		name = "feixingqi09",
-		gen_type = 1,
-		id = 10040049,
-		mapId = 1004,
-		show_param = {},
-		hide_param = {},
-		param = {
-			hide = false,
-			position = {
-				36.39441,
-				4.879592,
-				82.368
-			},
-			rotation = {
-				0,
-				0,
-				350.3124
-			},
-			scale = {
-				1,
-				1,
-				1
-			}
-		}
-	}
-	pg.base.island_world_objects[10040050] = {
-		behaviourTree = "Island/NodeCanvas/Sidetask_20010001",
-		unitId = 1022,
-		type = 0,
-		name = "Sidetask_20010001",
-		gen_type = 2,
-		id = 10040050,
-		mapId = 1004,
-		show_param = {
-			{
-				0,
-				20001001,
-				0
-			}
-		},
-		hide_param = {},
-		param = {
-			hide = false,
-			position = {
-				51.7,
-				2.978,
-				121.48
-			},
-			rotation = {
-				0,
-				0,
-				0
-			},
-			scale = {
-				1,
-				1,
-				1
-			}
-		}
-	}
-	pg.base.island_world_objects[10040051] = {
-		behaviourTree = "Island/NodeCanvas/Sidetask_20014002&3",
-		unitId = 1014,
-		type = 0,
-		name = "Sidetask_20014002&3",
-		gen_type = 2,
-		id = 10040051,
-		mapId = 1004,
-		show_param = {
-			{
-				0,
-				20014002,
-				0
-			},
-			{
-				0,
-				20014003,
-				0
-			}
-		},
-		hide_param = {},
-		param = {
-			hide = false,
-			position = {
-				23.246,
-				3.565,
-				142.84
-			},
-			rotation = {
-				0,
-				0,
-				0
-			},
-			scale = {
-				1,
-				1,
-				1
-			}
-		}
-	}
-	pg.base.island_world_objects[10040052] = {
-		behaviourTree = "Island/NodeCanvas/WildGatherItem",
-		unitId = 20036,
-		type = 0,
-		name = "fengmi303",
-		gen_type = 1,
-		id = 10040052,
-		mapId = 1004,
-		show_param = {},
-		hide_param = {},
-		param = {
-			hide = false,
-			position = {
-				58.763,
-				4.083,
-				156.64
-			},
-			rotation = {
-				0,
-				87.3877,
-				0
-			},
-			scale = {
-				1,
-				1,
-				1
-			}
-		}
-	}
-	pg.base.island_world_objects[10040053] = {
-		behaviourTree = "Island/NodeCanvas/WildGatherItem",
-		unitId = 20036,
-		type = 0,
-		name = "fengmi401",
-		gen_type = 1,
-		id = 10040053,
-		mapId = 1004,
-		show_param = {},
-		hide_param = {},
-		param = {
-			hide = false,
-			position = {
-				66.729,
-				3.344,
-				124.838
-			},
-			rotation = {
-				0,
-				167.1911,
-				0
-			},
-			scale = {
-				1,
-				1,
-				1
-			}
-		}
-	}
-	pg.base.island_world_objects[10040054] = {
-		behaviourTree = "Island/NodeCanvas/WildGatherItem",
-		unitId = 20036,
-		type = 0,
-		name = "fengmi402",
-		gen_type = 1,
-		id = 10040054,
-		mapId = 1004,
-		show_param = {},
-		hide_param = {},
-		param = {
-			hide = false,
-			position = {
-				69.99,
-				2.74,
-				128.62
-			},
-			rotation = {
-				0,
-				283.0175,
-				0
-			},
-			scale = {
-				1,
-				1,
-				1
-			}
-		}
-	}
-	pg.base.island_world_objects[10040055] = {
-		behaviourTree = "Island/NodeCanvas/WildGatherItem",
-		unitId = 20036,
-		type = 0,
-		name = "fengmi403",
-		gen_type = 1,
-		id = 10040055,
-		mapId = 1004,
-		show_param = {},
-		hide_param = {},
-		param = {
-			hide = false,
-			position = {
-				76.06,
-				2.73,
-				123.77
-			},
-			rotation = {
-				0,
-				246.2951,
-				0
-			},
-			scale = {
-				1,
-				1,
-				1
-			}
-		}
-	}
-	pg.base.island_world_objects[10040056] = {
-		behaviourTree = "",
-		unitId = 1022,
-		type = 0,
-		name = "Sidetask_20001009",
-		gen_type = 2,
-		id = 10040056,
-		mapId = 1004,
-		show_param = {
-			{
-				0,
-				20001009,
-				0
-			}
-		},
-		hide_param = {},
-		param = {
-			hide = false,
-			position = {
-				94.96,
-				2.72,
-				102.02
-			},
-			rotation = {
-				0,
-				0,
-				0
-			},
-			scale = {
-				1,
-				1,
-				1
-			}
-		}
-	}
-	pg.base.island_world_objects[10040057] = {
-		behaviourTree = "Island/NodeCanvas/Sidetask_2000700N",
-		unitId = 1014,
-		type = 0,
-		name = "Sidetask_20007001",
-		gen_type = 2,
-		id = 10040057,
-		mapId = 1004,
-		show_param = {
-			{
-				2,
-				10003060,
-				0
-			},
-			{
-				1,
-				20007001,
-				0
-			},
-			{
-				0,
-				20007010,
-				0
-			},
-			{
-				3,
-				3130054,
-				1
-			}
-		},
-		hide_param = {
-			{
-				0,
-				20007001,
-				0
-			},
-			{
-				2,
-				20007001,
-				0
-			},
-			{
-				3,
-				3130055,
-				0
-			}
-		},
-		param = {
-			hide = false,
-			position = {
-				44.445,
-				5.068,
-				161.267
-			},
-			rotation = {
-				0,
-				0,
-				0
-			},
-			scale = {
-				1,
-				1,
-				1
-			}
-		}
-	}
-	pg.base.island_world_objects[10040058] = {
-		behaviourTree = "Island/NodeCanvas/Sidetask_2000700N",
-		unitId = 20036,
-		type = 0,
-		name = "Sidetask_20007001_1",
-		gen_type = 2,
-		id = 10040058,
-		mapId = 1004,
-		show_param = {
-			{
-				0,
-				20007001,
-				0
-			}
-		},
-		hide_param = {},
-		param = {
-			hide = false,
-			position = {
-				60.387,
-				4.656,
-				152.026
-			},
-			rotation = {
-				0,
-				325.0818,
-				0
-			},
-			scale = {
-				1,
-				1,
-				1
-			}
-		}
-	}
-	pg.base.island_world_objects[10040059] = {
-		behaviourTree = "",
-		unitId = 1022,
-		type = 0,
-		name = "Sidetask_20009001",
-		gen_type = 2,
-		id = 10040059,
-		mapId = 1004,
-		show_param = {
-			{
-				0,
-				20009001,
-				0
-			}
-		},
-		hide_param = {},
-		param = {
-			hide = false,
-			position = {
-				80.25,
-				2.99,
-				63.23
-			},
-			rotation = {
-				0,
-				0,
-				0
-			},
-			scale = {
-				1,
-				1,
-				1
-			}
-		}
-	}
-	pg.base.island_world_objects[10040060] = {
-		behaviourTree = "Island/NodeCanvas/Main_Quest_Fell_Aobulaien1",
-		unitId = 100700,
-		type = 1,
-		name = "Storynpc_famu1",
-		gen_type = 2,
-		id = 10040060,
-		mapId = 1004,
-		show_param = {
-			{
-				3,
-				3120000,
-				0
-			}
-		},
-		hide_param = {
-			{
-				3,
-				3120001,
-				0
-			}
-		},
-		param = {
-			hide = false,
-			position = {
-				60.42,
-				2.88,
-				114.36
-			},
-			rotation = {
-				0,
-				0,
-				0
-			},
-			scale = {
-				1,
-				1,
-				1
-			}
-		}
-	}
-	pg.base.island_world_objects[10040061] = {
-		behaviourTree = "Island/NodeCanvas/Sidetask_1007",
-		unitId = 100700,
-		type = 1,
-		name = "npc-famu-Sidetask_20001009",
-		gen_type = 2,
-		id = 10040061,
-		mapId = 1004,
-		show_param = {
-			{
-				0,
-				20001009,
-				0
-			},
-			{
-				1,
-				20001009,
-				0
-			}
-		},
-		hide_param = {
-			{
-				3,
-				3130010,
-				0
-			}
-		},
-		param = {
-			hide = false,
-			position = {
-				95.101,
-				2.72,
-				103.44
-			},
-			rotation = {
-				0,
-				188.3768,
-				0
-			},
-			scale = {
-				1,
-				1,
-				1
-			}
-		}
-	}
-	pg.base.island_world_objects[10040062] = {
-		behaviourTree = "Island/NodeCanvas/WildGatherItem",
-		unitId = 20050,
-		type = 0,
-		name = "luweicong01",
-		gen_type = 1,
-		id = 10040062,
-		mapId = 1004,
-		show_param = {},
-		hide_param = {},
-		param = {
-			hide = false,
-			position = {
-				95.75,
-				2.459,
-				107.24
-			},
-			rotation = {
-				0,
-				0,
-				0
-			},
-			scale = {
-				1,
-				1,
-				1
-			}
-		}
-	}
-	pg.base.island_world_objects[10040063] = {
-		behaviourTree = "Island/NodeCanvas/WildGatherItem",
-		unitId = 20050,
-		type = 0,
-		name = "luweicong02",
-		gen_type = 1,
-		id = 10040063,
-		mapId = 1004,
-		show_param = {},
-		hide_param = {},
-		param = {
-			hide = false,
-			position = {
-				97.97686,
-				2.41,
-				104.9117
-			},
-			rotation = {
-				0,
-				289.1514,
-				0
-			},
-			scale = {
-				1,
-				1,
-				1
-			}
-		}
-	}
-	pg.base.island_world_objects[10040064] = {
-		behaviourTree = "Island/NodeCanvas/WildGatherItem",
-		unitId = 20048,
-		type = 0,
-		name = "jvhuacong01",
-		gen_type = 1,
-		id = 10040064,
-		mapId = 1004,
-		show_param = {},
-		hide_param = {},
-		param = {
-			hide = false,
-			position = {
-				38.714,
-				2.2,
-				111.068
-			},
-			rotation = {
-				0,
-				0,
-				0
-			},
-			scale = {
-				1,
-				1,
-				1
-			}
-		}
-	}
-	pg.base.island_world_objects[10040065] = {
-		behaviourTree = "Island/NodeCanvas/WildGatherItem",
-		unitId = 20048,
-		type = 0,
-		name = "jvhuacong02",
-		gen_type = 1,
-		id = 10040065,
-		mapId = 1004,
-		show_param = {},
-		hide_param = {},
-		param = {
-			hide = false,
-			position = {
-				43.2255,
-				2.27,
-				112.057
-			},
-			rotation = {
-				0,
-				340.642,
-				0
-			},
-			scale = {
-				1,
-				1,
-				1
-			}
-		}
-	}
-	pg.base.island_world_objects[10040066] = {
-		behaviourTree = "",
-		unitId = 1014,
-		type = 0,
-		name = "Station_task",
-		gen_type = 0,
-		id = 10040066,
-		mapId = 1004,
-		show_param = {},
-		hide_param = {
-			{
-				2,
-				10001060,
-				0
-			}
-		},
-		param = {
-			hide = false,
-			position = {
-				40.61,
-				2.613,
-				94.669
-			},
-			rotation = {
-				0,
-				0,
-				0
-			},
-			scale = {
-				1,
-				1,
-				1
-			}
-		}
-	}
-	pg.base.island_world_objects[10040067] = {
-		behaviourTree = "",
-		unitId = 0,
-		type = 0,
-		name = "Sidetask_qianglideren4",
-		gen_type = 1,
-		id = 10040067,
-		mapId = 1004,
-		show_param = {},
-		hide_param = {},
-		param = {
-			hide = false,
-			position = {
-				44.615,
-				5.115,
-				161.071
-			},
-			rotation = {
-				0,
-				0,
-				0
-			},
-			scale = {
-				1,
-				1,
-				1
-			}
-		}
-	}
-	pg.base.island_world_objects[10040068] = {
-		behaviourTree = "",
-		unitId = 0,
-		type = 0,
-		name = "Sidetask_qianglideren5",
-		gen_type = 1,
-		id = 10040068,
-		mapId = 1004,
-		show_param = {},
-		hide_param = {},
-		param = {
-			hide = false,
-			position = {
-				44.615,
-				5.115,
-				161.071
-			},
-			rotation = {
-				0,
-				0,
-				0
-			},
-			scale = {
-				1,
-				1,
-				1
-			}
-		}
-	}
-	pg.base.island_world_objects[10040069] = {
-		behaviourTree = "",
-		unitId = 101500,
-		type = 1,
-		name = "SidetaskNpc_qianglideren",
-		gen_type = 2,
-		id = 10040069,
-		mapId = 1004,
-		show_param = {
-			{
-				2,
-				20007010,
-				1
-			}
-		},
-		hide_param = {
-			{
-				3,
-				3130063,
-				2
-			}
-		},
-		param = {
-			hide = false,
-			position = {
-				48.856,
-				4.367,
-				157.868
-			},
-			rotation = {
-				0,
-				278.1066,
-				0
-			},
-			scale = {
-				1,
-				1,
-				1
-			}
-		}
-	}
-	pg.base.island_world_objects[10040070] = {
-		behaviourTree = "Island/NodeCanvas/PlaceCollectionPoint",
-		unitId = 0,
-		type = 0,
-		name = "MinePoint7",
-		gen_type = 1,
-		id = 10040070,
-		mapId = 1004,
-		show_param = {},
-		hide_param = {},
-		param = {
-			hide = false,
-			position = {
-				36.718,
-				1.482,
-				62.308
-			},
-			rotation = {
-				359.2002,
-				17.06201,
-				34.66647
-			},
-			scale = {
-				1,
-				1,
-				1
-			}
-		}
-	}
-	pg.base.island_world_objects[10040071] = {
-		behaviourTree = "Island/NodeCanvas/PlaceCollectionPoint",
-		unitId = 0,
-		type = 0,
-		name = "MinePoint8",
-		gen_type = 1,
-		id = 10040071,
-		mapId = 1004,
-		show_param = {},
-		hide_param = {},
-		param = {
-			hide = false,
-			position = {
-				39.882,
-				2.038,
-				59.492
-			},
-			rotation = {
-				0,
-				22.77457,
-				0
-			},
-			scale = {
-				1,
-				1,
-				1
-			}
-		}
-	}
-	pg.base.island_world_objects[10040072] = {
-		behaviourTree = "Island/NodeCanvas/PlaceCollectionPoint",
-		unitId = 0,
-		type = 0,
-		name = "MinePoint9",
-		gen_type = 1,
-		id = 10040072,
-		mapId = 1004,
-		show_param = {},
-		hide_param = {},
-		param = {
-			hide = false,
-			position = {
-				45.165,
-				5.04,
-				55.289
-			},
-			rotation = {
-				0,
-				0,
-				0
-			},
-			scale = {
-				1,
-				1,
-				1
-			}
-		}
-	}
-	pg.base.island_world_objects[10040073] = {
-		behaviourTree = "Island/NodeCanvas/PlaceFellCollectionPoint",
-		unitId = 0,
-		type = 0,
-		name = "LoggingPoint5",
-		gen_type = 1,
-		id = 10040073,
-		mapId = 1004,
-		show_param = {},
-		hide_param = {},
-		param = {
-			hide = false,
-			position = {
-				57.399,
-				3.438,
-				140.151
-			},
-			rotation = {
-				0,
-				0,
-				0
-			},
-			scale = {
-				1,
-				1,
-				1
-			}
-		}
-	}
-	pg.base.island_world_objects[10040074] = {
-		behaviourTree = "Island/NodeCanvas/PlaceFellCollectionPoint",
-		unitId = 0,
-		type = 0,
-		name = "LoggingPoint6",
-		gen_type = 1,
-		id = 10040074,
-		mapId = 1004,
-		show_param = {},
-		hide_param = {},
-		param = {
-			hide = false,
-			position = {
-				68.804,
-				3.438,
-				141.674
-			},
-			rotation = {
-				0,
-				0,
-				0
-			},
-			scale = {
-				1,
-				1,
-				1
-			}
-		}
-	}
-	pg.base.island_world_objects[10040075] = {
-		behaviourTree = "Island/NodeCanvas/PlaceFellCollectionPoint",
-		unitId = 0,
-		type = 0,
-		name = "LoggingPoint7",
-		gen_type = 1,
-		id = 10040075,
-		mapId = 1004,
-		show_param = {},
-		hide_param = {},
-		param = {
-			hide = false,
-			position = {
-				43.99,
-				3.438,
-				139.237
-			},
-			rotation = {
-				0,
-				0,
-				0
-			},
-			scale = {
-				1,
-				1,
-				1
-			}
-		}
-	}
-	pg.base.island_world_objects[10040076] = {
-		behaviourTree = "Island/NodeCanvas/PlaceFellCollectionPoint",
-		unitId = 0,
-		type = 0,
-		name = "LoggingPoint8",
-		gen_type = 1,
-		id = 10040076,
-		mapId = 1004,
-		show_param = {},
-		hide_param = {},
-		param = {
-			hide = false,
-			position = {
-				60.506,
-				4.72,
-				151.584
-			},
-			rotation = {
-				0,
-				0,
-				0
-			},
-			scale = {
-				1,
-				1,
-				1
-			}
-		}
-	}
-	pg.base.island_world_objects[10040077] = {
-		behaviourTree = "Island/NodeCanvas/PlaceFellCollectionPoint",
-		unitId = 0,
-		type = 0,
-		name = "LoggingPoint9",
-		gen_type = 1,
-		id = 10040077,
-		mapId = 1004,
-		show_param = {},
-		hide_param = {},
-		param = {
-			hide = false,
-			position = {
-				48.589,
-				4.7,
-				149.58
-			},
-			rotation = {
-				0,
-				0,
-				0
-			},
-			scale = {
-				1,
-				1,
-				1
-			}
-		}
-	}
-	pg.base.island_world_objects[10040078] = {
-		behaviourTree = "Island/NodeCanvas/Interactable/Interactable_chair",
-		unitId = 100205,
-		type = 3,
-		name = "InteractBed",
-		gen_type = 0,
-		id = 10040078,
-		mapId = 1004,
-		show_param = {},
-		hide_param = {},
-		param = {
-			hide = false,
-			position = {
-				86.18,
-				3.9,
-				84.3
-			},
-			rotation = {
-				0,
-				0,
-				0
-			},
-			scale = {
-				1,
-				1,
-				1
-			}
-		}
-	}
-	pg.base.island_world_objects[10040079] = {
-		behaviourTree = "",
-		unitId = 1014,
-		type = 0,
-		name = "miningDirPoint",
-		gen_type = 0,
-		id = 10040079,
-		mapId = 1004,
-		show_param = {},
-		hide_param = {},
-		param = {
-			hide = false,
-			position = {
-				30.96,
-				7.006,
-				59.37
-			},
-			rotation = {
-				0,
-				20,
-				0
-			},
-			scale = {
-				1,
-				1,
-				1
-			}
-		}
-	}
-	pg.base.island_world_objects[10040080] = {
-		behaviourTree = "",
-		unitId = 0,
-		type = 0,
-		name = "LoggingDirPoint",
-		gen_type = 1,
-		id = 10040080,
-		mapId = 1004,
-		show_param = {},
-		hide_param = {},
-		param = {
-			hide = false,
-			position = {
-				58.947,
-				2.874932,
-				118.451
-			},
-			rotation = {
-				0,
-				0,
-				0
-			},
-			scale = {
-				1,
-				1,
-				1
-			}
-		}
-	}
-	pg.base.island_world_objects[10040081] = {
-		behaviourTree = "",
-		unitId = 1031,
-		type = 0,
-		name = "Fish_point3",
-		gen_type = 1,
-		id = 10040081,
-		mapId = 1004,
-		show_param = {},
-		hide_param = {},
-		param = {
-			hide = false,
-			position = {
-				84.65,
-				2.47,
-				144.77
-			},
-			rotation = {
-				0,
-				0,
-				0
-			},
-			scale = {
-				1,
-				1,
-				1
-			}
-		}
-	}
-	pg.base.island_world_objects[10040082] = {
-		behaviourTree = "",
-		unitId = 1032,
-		type = 0,
-		name = "Fish_guide1",
-		gen_type = 0,
-		id = 10040082,
-		mapId = 1004,
-		show_param = {},
-		hide_param = {},
-		param = {
-			hide = false,
-			position = {
-				104.784,
-				2.684,
-				66.469
-			},
-			rotation = {
-				0,
-				4.357056,
-				0
-			},
-			scale = {
-				1,
-				1,
-				1
-			}
-		}
-	}
-	pg.base.island_world_objects[10040083] = {
-		behaviourTree = "",
-		unitId = 1032,
-		type = 0,
-		name = "Fish_guide2",
-		gen_type = 0,
-		id = 10040083,
-		mapId = 1004,
-		show_param = {},
-		hide_param = {},
-		param = {
-			hide = false,
-			position = {
-				94.594,
-				2.609,
-				111.069
-			},
-			rotation = {
-				0,
-				323.1419,
-				0
-			},
-			scale = {
-				1,
-				1,
-				1
-			}
-		}
-	}
-	pg.base.island_world_objects[10040084] = {
-		behaviourTree = "",
-		unitId = 1032,
-		type = 0,
-		name = "Fish_guide3",
-		gen_type = 0,
-		id = 10040084,
-		mapId = 1004,
-		show_param = {},
-		hide_param = {},
-		param = {
-			hide = false,
-			position = {
-				81.403,
-				2.588,
-				141.3
-			},
-			rotation = {
-				0,
-				352.6466,
-				0
-			},
-			scale = {
-				1,
-				1,
-				1
-			}
-		}
-	}
-	pg.base.island_world_objects[10040085] = {
-		behaviourTree = "",
-		unitId = 1031,
-		type = 0,
-		name = "Fish_point1",
-		gen_type = 1,
-		id = 10040085,
-		mapId = 1004,
-		show_param = {},
-		hide_param = {},
-		param = {
-			hide = false,
-			position = {
-				106.236,
-				2.47,
-				63.354
-			},
-			rotation = {
-				0,
-				0,
-				0
-			},
-			scale = {
-				1,
-				1,
-				1
-			}
-		}
-	}
-	pg.base.island_world_objects[10040086] = {
-		behaviourTree = "",
-		unitId = 1031,
-		type = 0,
-		name = "Fish_point2",
-		gen_type = 1,
-		id = 10040086,
-		mapId = 1004,
-		show_param = {},
-		hide_param = {},
-		param = {
-			hide = false,
-			position = {
-				98.98,
-				2.47,
-				111.12
-			},
-			rotation = {
-				0,
-				0,
-				0
-			},
-			scale = {
-				1,
-				1,
-				1
-			}
-		}
-	}
-	pg.base.island_world_objects[10040087] = {
-		behaviourTree = "Island/NodeCanvas/WildGatherItem",
-		unitId = 20066,
-		type = 0,
-		name = "molihua01",
-		gen_type = 1,
-		id = 10040087,
-		mapId = 1004,
-		show_param = {},
-		hide_param = {},
-		param = {
-			hide = false,
-			position = {
-				48.45,
-				2.376,
-				90.679
-			},
-			rotation = {
-				0,
-				0,
-				0
-			},
-			scale = {
-				1,
-				1,
-				1
-			}
-		}
-	}
-	pg.base.island_world_objects[10040088] = {
-		behaviourTree = "Island/NodeCanvas/WildGatherItem",
-		unitId = 20062,
-		type = 0,
-		name = "chunsun01",
-		gen_type = 1,
-		id = 10040088,
-		mapId = 1004,
-		show_param = {},
-		hide_param = {},
-		param = {
-			hide = false,
-			position = {
-				39.23,
-				2.9,
-				135.98
-			},
-			rotation = {
-				0,
-				0,
-				0
-			},
-			scale = {
-				1,
-				1,
-				1
-			}
-		}
-	}
-	pg.base.island_world_objects[10040089] = {
-		behaviourTree = "Island/NodeCanvas/WildGatherItem",
-		unitId = 20062,
-		type = 0,
-		name = "chunsun02",
-		gen_type = 1,
-		id = 10040089,
-		mapId = 1004,
-		show_param = {},
-		hide_param = {},
-		param = {
-			hide = false,
-			position = {
-				39.94,
-				3.625,
-				145.88
-			},
-			rotation = {
-				0,
-				0,
-				0
-			},
-			scale = {
-				1,
-				1,
-				1
-			}
-		}
-	}
-	pg.base.island_world_objects[10040090] = {
-		behaviourTree = "Island/NodeCanvas/WildGatherItem",
-		unitId = 20065,
-		type = 0,
-		name = "fengxinzi01",
-		gen_type = 1,
-		id = 10040090,
-		mapId = 1004,
-		show_param = {},
-		hide_param = {},
-		param = {
-			hide = false,
-			position = {
-				75.903,
-				2.954,
-				80.327
-			},
-			rotation = {
-				0,
-				0,
-				0
-			},
-			scale = {
-				1,
-				1,
-				1
-			}
-		}
-	}
-	pg.base.island_world_objects[10040091] = {
-		behaviourTree = "Island/NodeCanvas/WildGatherItem",
-		unitId = 20065,
-		type = 0,
-		name = "fengxinzi02",
-		gen_type = 1,
-		id = 10040091,
-		mapId = 1004,
-		show_param = {},
-		hide_param = {},
-		param = {
-			hide = false,
-			position = {
-				69.642,
-				2.952,
-				81.751
-			},
-			rotation = {
-				0,
-				0,
-				0
-			},
-			scale = {
-				1,
-				1,
-				1
-			}
-		}
-	}
-	pg.base.island_world_objects[10040092] = {
-		behaviourTree = "Island/NodeCanvas/WildGatherItem",
-		unitId = 20066,
-		type = 0,
-		name = "molihua02",
-		gen_type = 1,
-		id = 10040092,
-		mapId = 1004,
-		show_param = {},
-		hide_param = {},
-		param = {
-			hide = false,
-			position = {
-				45.69,
-				2.37,
-				99.71
-			},
-			rotation = {
-				0,
-				0,
-				0
-			},
-			scale = {
-				1,
-				1,
-				1
-			}
-		}
-	}
-	pg.base.island_world_objects[10040093] = {
-		behaviourTree = "Island/NodeCanvas/WildGatherItem",
-		unitId = 20067,
-		type = 0,
-		name = "xiangrikui01",
-		gen_type = 1,
-		id = 10040093,
-		mapId = 1004,
-		show_param = {},
-		hide_param = {},
-		param = {
-			hide = false,
-			position = {
-				55.11,
-				2.859,
-				113.27
-			},
-			rotation = {
-				0,
-				0,
-				0
-			},
-			scale = {
-				1,
-				1,
-				1
-			}
-		}
-	}
-	pg.base.island_world_objects[10040094] = {
-		behaviourTree = "Island/NodeCanvas/WildGatherItem",
-		unitId = 20067,
-		type = 0,
-		name = "xiangrikui02",
-		gen_type = 1,
-		id = 10040094,
-		mapId = 1004,
-		show_param = {},
-		hide_param = {},
-		param = {
-			hide = false,
-			position = {
-				57.98,
-				2.814,
-				122.25
-			},
-			rotation = {
-				0,
-				0,
-				0
-			},
-			scale = {
-				1,
-				1,
-				1
-			}
-		}
-	}
 	pg.base.island_world_objects[10010001] = {
 		behaviourTree = "",
 		unitId = 100101,
@@ -13448,8 +9255,6 @@ end)()
 			}
 		}
 	}
-end)()
-(function ()
 	pg.base.island_world_objects[10010012] = {
 		behaviourTree = "",
 		unitId = 0,
@@ -14489,6 +10294,8 @@ end)()
 			}
 		}
 	}
+end)()
+(function ()
 	pg.base.island_world_objects[10010047] = {
 		behaviourTree = "",
 		unitId = 1014,
@@ -16149,6 +11956,4447 @@ end)()
 				1,
 				1,
 				1
+			}
+		}
+	}
+	pg.base.island_world_objects[10040001] = {
+		behaviourTree = "Island/NodeCanvas/Player",
+		unitId = 0,
+		type = 2,
+		name = "Player",
+		gen_type = 0,
+		id = 10040001,
+		mapId = 1004,
+		show_param = {},
+		hide_param = {},
+		param = {
+			hide = false,
+			position = {
+				27.95,
+				3.348,
+				105.17
+			},
+			rotation = {
+				0,
+				119.7555,
+				0
+			},
+			scale = {
+				1,
+				1,
+				1
+			}
+		}
+	}
+	pg.base.island_world_objects[10040002] = {
+		behaviourTree = "Island/NodeCanvas/PlaceNpc_1007",
+		unitId = 100700,
+		type = 1,
+		name = "npc-famu",
+		gen_type = 2,
+		id = 10040002,
+		mapId = 1004,
+		show_param = {
+			{
+				2,
+				10001000,
+				1
+			},
+			{
+				3,
+				3100014,
+				3
+			},
+			{
+				0,
+				10001000,
+				0
+			},
+			{
+				2,
+				20001009,
+				0
+			}
+		},
+		hide_param = {
+			{
+				3,
+				3100007,
+				2
+			},
+			{
+				0,
+				20001009,
+				0
+			}
+		},
+		param = {
+			hide = false,
+			position = {
+				74.85,
+				2.912,
+				111.58
+			},
+			rotation = {
+				0,
+				198.9234,
+				0
+			},
+			scale = {
+				1,
+				1,
+				1
+			}
+		}
+	}
+	pg.base.island_world_objects[10040003] = {
+		behaviourTree = "Island/NodeCanvas/PlaceCollectionPoint",
+		unitId = 0,
+		type = 0,
+		name = "MinePoint1",
+		gen_type = 1,
+		id = 10040003,
+		mapId = 1004,
+		show_param = {},
+		hide_param = {},
+		param = {
+			hide = false,
+			position = {
+				39.667,
+				8.67,
+				53.965
+			},
+			rotation = {
+				0,
+				20.42698,
+				0
+			},
+			scale = {
+				0.45,
+				0.45,
+				1
+			}
+		}
+	}
+	pg.base.island_world_objects[10040004] = {
+		behaviourTree = "Island/NodeCanvas/PlaceCollectionPoint",
+		unitId = 0,
+		type = 0,
+		name = "MinePoint2",
+		gen_type = 1,
+		id = 10040004,
+		mapId = 1004,
+		show_param = {},
+		hide_param = {},
+		param = {
+			hide = false,
+			position = {
+				28.458,
+				8.863,
+				54.082
+			},
+			rotation = {
+				5.122642e-06,
+				22.70899,
+				45.00001
+			},
+			scale = {
+				0.5,
+				0.5,
+				1
+			}
+		}
+	}
+	pg.base.island_world_objects[10040005] = {
+		behaviourTree = "Island/NodeCanvas/PlaceCollectionPoint",
+		unitId = 0,
+		type = 0,
+		name = "MinePoint3",
+		gen_type = 1,
+		id = 10040005,
+		mapId = 1004,
+		show_param = {},
+		hide_param = {},
+		param = {
+			hide = false,
+			position = {
+				39.653,
+				11.288,
+				48.286
+			},
+			rotation = {
+				343.942,
+				12.17626,
+				37.3582
+			},
+			scale = {
+				1,
+				1,
+				1
+			}
+		}
+	}
+	pg.base.island_world_objects[10040006] = {
+		behaviourTree = "Island/NodeCanvas/PlaceCollectionPoint",
+		unitId = 0,
+		type = 0,
+		name = "MinePoint4",
+		gen_type = 1,
+		id = 10040006,
+		mapId = 1004,
+		show_param = {},
+		hide_param = {},
+		param = {
+			hide = false,
+			position = {
+				31.287,
+				8.237,
+				65.702
+			},
+			rotation = {
+				1.536793e-05,
+				114.419,
+				45.00012
+			},
+			scale = {
+				0.45,
+				0.45,
+				1
+			}
+		}
+	}
+	pg.base.island_world_objects[10040007] = {
+		behaviourTree = "Island/NodeCanvas/PlaceCollectionPoint",
+		unitId = 0,
+		type = 0,
+		name = "MinePoint5",
+		gen_type = 1,
+		id = 10040007,
+		mapId = 1004,
+		show_param = {},
+		hide_param = {},
+		param = {
+			hide = false,
+			position = {
+				33.128,
+				7.473,
+				56.147
+			},
+			rotation = {
+				1.898381,
+				18.62296,
+				31.70918
+			},
+			scale = {
+				0.5,
+				0.5,
+				1
+			}
+		}
+	}
+	pg.base.island_world_objects[10040008] = {
+		behaviourTree = "Island/NodeCanvas/PlaceCollectionPoint",
+		unitId = 0,
+		type = 0,
+		name = "MinePoint6",
+		gen_type = 1,
+		id = 10040008,
+		mapId = 1004,
+		show_param = {},
+		hide_param = {},
+		param = {
+			hide = false,
+			position = {
+				43.752,
+				8.383,
+				52.386
+			},
+			rotation = {
+				-8.537737e-07,
+				22.88621,
+				145
+			},
+			scale = {
+				1,
+				1,
+				1
+			}
+		}
+	}
+	pg.base.island_world_objects[10040009] = {
+		behaviourTree = "",
+		unitId = 1014,
+		type = 0,
+		name = "MinePost1",
+		gen_type = 1,
+		id = 10040009,
+		mapId = 1004,
+		show_param = {},
+		hide_param = {},
+		param = {
+			hide = false,
+			position = {
+				61.29,
+				3.902,
+				61.71
+			},
+			rotation = {
+				0,
+				90,
+				0
+			},
+			scale = {
+				1,
+				1,
+				1
+			}
+		}
+	}
+	pg.base.island_world_objects[10040010] = {
+		behaviourTree = "",
+		unitId = 1014,
+		type = 0,
+		name = "MinePost2",
+		gen_type = 1,
+		id = 10040010,
+		mapId = 1004,
+		show_param = {},
+		hide_param = {},
+		param = {
+			hide = false,
+			position = {
+				61.78,
+				3.902,
+				63.87
+			},
+			rotation = {
+				0,
+				90,
+				0
+			},
+			scale = {
+				1,
+				1,
+				1
+			}
+		}
+	}
+	pg.base.island_world_objects[10040011] = {
+		behaviourTree = "",
+		unitId = 1014,
+		type = 0,
+		name = "MinePost3",
+		gen_type = 1,
+		id = 10040011,
+		mapId = 1004,
+		show_param = {},
+		hide_param = {},
+		param = {
+			hide = false,
+			position = {
+				57.69,
+				3.902,
+				63.38
+			},
+			rotation = {
+				0,
+				90,
+				0
+			},
+			scale = {
+				1,
+				1,
+				1
+			}
+		}
+	}
+	pg.base.island_world_objects[10040012] = {
+		behaviourTree = "",
+		unitId = 1014,
+		type = 0,
+		name = "MinePost4",
+		gen_type = 1,
+		id = 10040012,
+		mapId = 1004,
+		show_param = {},
+		hide_param = {},
+		param = {
+			hide = false,
+			position = {
+				58.1,
+				3.902,
+				65.53
+			},
+			rotation = {
+				0,
+				90,
+				0
+			},
+			scale = {
+				1,
+				1,
+				1
+			}
+		}
+	}
+	pg.base.island_world_objects[10040013] = {
+		behaviourTree = "",
+		unitId = 1014,
+		type = 0,
+		name = "LoggingPost1",
+		gen_type = 1,
+		id = 10040013,
+		mapId = 1004,
+		show_param = {},
+		hide_param = {},
+		param = {
+			hide = false,
+			position = {
+				58.947,
+				2.874932,
+				118.451
+			},
+			rotation = {
+				0,
+				150.975,
+				0
+			},
+			scale = {
+				1,
+				1,
+				1
+			}
+		}
+	}
+	pg.base.island_world_objects[10040014] = {
+		behaviourTree = "",
+		unitId = 1014,
+		type = 0,
+		name = "LoggingPost2",
+		gen_type = 1,
+		id = 10040014,
+		mapId = 1004,
+		show_param = {},
+		hide_param = {},
+		param = {
+			hide = false,
+			position = {
+				60.594,
+				2.874932,
+				119.252
+			},
+			rotation = {
+				0,
+				150.975,
+				0
+			},
+			scale = {
+				1,
+				1,
+				1
+			}
+		}
+	}
+	pg.base.island_world_objects[10040015] = {
+		behaviourTree = "",
+		unitId = 1014,
+		type = 0,
+		name = "LoggingPost3",
+		gen_type = 1,
+		id = 10040015,
+		mapId = 1004,
+		show_param = {},
+		hide_param = {},
+		param = {
+			hide = false,
+			position = {
+				62.217,
+				2.874932,
+				119.926
+			},
+			rotation = {
+				0,
+				150.975,
+				0
+			},
+			scale = {
+				1,
+				1,
+				1
+			}
+		}
+	}
+	pg.base.island_world_objects[10040016] = {
+		behaviourTree = "",
+		unitId = 1014,
+		type = 0,
+		name = "LoggingPost4",
+		gen_type = 1,
+		id = 10040016,
+		mapId = 1004,
+		show_param = {},
+		hide_param = {},
+		param = {
+			hide = false,
+			position = {
+				63.914,
+				2.874932,
+				120.601
+			},
+			rotation = {
+				0,
+				174.1441,
+				0
+			},
+			scale = {
+				1,
+				1,
+				1
+			}
+		}
+	}
+	pg.base.island_world_objects[10040017] = {
+		behaviourTree = "Island/NodeCanvas/PlaceFellCollectionPoint",
+		unitId = 0,
+		type = 0,
+		name = "LoggingPoint1",
+		gen_type = 1,
+		id = 10040017,
+		mapId = 1004,
+		show_param = {},
+		hide_param = {},
+		param = {
+			hide = false,
+			position = {
+				54.466,
+				3.64,
+				116.945
+			},
+			rotation = {
+				0,
+				0,
+				0
+			},
+			scale = {
+				1,
+				1,
+				1
+			}
+		}
+	}
+	pg.base.island_world_objects[10040018] = {
+		behaviourTree = "Island/NodeCanvas/PlaceFellCollectionPoint",
+		unitId = 0,
+		type = 0,
+		name = "LoggingPoint2",
+		gen_type = 1,
+		id = 10040018,
+		mapId = 1004,
+		show_param = {},
+		hide_param = {},
+		param = {
+			hide = false,
+			position = {
+				52.921,
+				3.345,
+				127.262
+			},
+			rotation = {
+				0,
+				0,
+				0
+			},
+			scale = {
+				1,
+				1,
+				1
+			}
+		}
+	}
+	pg.base.island_world_objects[10040019] = {
+		behaviourTree = "Island/NodeCanvas/PlaceFellCollectionPoint",
+		unitId = 0,
+		type = 0,
+		name = "LoggingPoint3",
+		gen_type = 1,
+		id = 10040019,
+		mapId = 1004,
+		show_param = {},
+		hide_param = {},
+		param = {
+			hide = false,
+			position = {
+				69.078,
+				3.304,
+				121.434
+			},
+			rotation = {
+				0,
+				0,
+				0
+			},
+			scale = {
+				1,
+				1,
+				1
+			}
+		}
+	}
+	pg.base.island_world_objects[10040020] = {
+		behaviourTree = "Island/NodeCanvas/PlaceFellCollectionPoint",
+		unitId = 0,
+		type = 0,
+		name = "LoggingPoint4",
+		gen_type = 1,
+		id = 10040020,
+		mapId = 1004,
+		show_param = {},
+		hide_param = {},
+		param = {
+			hide = false,
+			position = {
+				65.357,
+				3.438,
+				131.013
+			},
+			rotation = {
+				0,
+				0,
+				0
+			},
+			scale = {
+				1,
+				1,
+				1
+			}
+		}
+	}
+	pg.base.island_world_objects[10040021] = {
+		behaviourTree = "",
+		unitId = 1008,
+		type = 0,
+		name = "Minecart",
+		gen_type = 0,
+		id = 10040021,
+		mapId = 1004,
+		show_param = {},
+		hide_param = {},
+		param = {
+			hide = false,
+			position = {
+				60.547,
+				4.071,
+				68.194
+			},
+			rotation = {
+				0,
+				10.41414,
+				0
+			},
+			scale = {
+				1,
+				1,
+				1
+			}
+		}
+	}
+	pg.base.island_world_objects[10040022] = {
+		behaviourTree = "Island/NodeCanvas/PlaceNpc_1006",
+		unitId = 100600,
+		type = 1,
+		name = "npc-kuangchang",
+		gen_type = 0,
+		id = 10040022,
+		mapId = 1004,
+		show_param = {},
+		hide_param = {
+			{
+				0,
+				10001050,
+				0
+			},
+			{
+				0,
+				10001060,
+				0
+			}
+		},
+		param = {
+			hide = false,
+			position = {
+				69.612,
+				3.938,
+				69.897
+			},
+			rotation = {
+				0,
+				0,
+				0
+			},
+			scale = {
+				1,
+				1,
+				1
+			}
+		}
+	}
+	pg.base.island_world_objects[10040023] = {
+		behaviourTree = "",
+		unitId = 1009,
+		type = 0,
+		name = "MineGate",
+		gen_type = 0,
+		id = 10040023,
+		mapId = 1004,
+		show_param = {},
+		hide_param = {},
+		param = {
+			hide = false,
+			position = {
+				56.806,
+				3.73,
+				51.88
+			},
+			rotation = {
+				0,
+				187.47,
+				0
+			},
+			scale = {
+				1,
+				1.2753,
+				-1
+			}
+		}
+	}
+	pg.base.island_world_objects[10040024] = {
+		behaviourTree = "Island/NodeCanvas/Player",
+		unitId = 0,
+		type = 2,
+		name = "BornStation",
+		gen_type = 0,
+		id = 10040024,
+		mapId = 1004,
+		show_param = {},
+		hide_param = {},
+		param = {
+			hide = false,
+			position = {
+				37.4,
+				2.575,
+				99.5
+			},
+			rotation = {
+				0,
+				26.44602,
+				0
+			},
+			scale = {
+				1,
+				1,
+				1
+			}
+		}
+	}
+	pg.base.island_world_objects[10040025] = {
+		behaviourTree = "Island/NodeCanvas/SceneAnimal_Cat",
+		unitId = 300902,
+		type = 1,
+		name = "SceneAnimalCat",
+		gen_type = 0,
+		id = 10040025,
+		mapId = 1004,
+		show_param = {},
+		hide_param = {},
+		param = {
+			hide = false,
+			position = {
+				44.832,
+				3.274,
+				90.89
+			},
+			rotation = {
+				0,
+				0,
+				0
+			},
+			scale = {
+				1,
+				1,
+				1
+			}
+		}
+	}
+	pg.base.island_world_objects[10040026] = {
+		behaviourTree = "Island/NodeCanvas/WildGatherItem",
+		unitId = 20036,
+		type = 0,
+		name = "fengmi301",
+		gen_type = 1,
+		id = 10040026,
+		mapId = 1004,
+		show_param = {},
+		hide_param = {},
+		param = {
+			hide = false,
+			position = {
+				55.394,
+				4.21,
+				156.518
+			},
+			rotation = {
+				0,
+				178.6864,
+				0
+			},
+			scale = {
+				1,
+				1,
+				1
+			}
+		}
+	}
+	pg.base.island_world_objects[10040027] = {
+		behaviourTree = "Island/NodeCanvas/WildGatherItem",
+		unitId = 20036,
+		type = 0,
+		name = "fengmi302",
+		gen_type = 1,
+		id = 10040027,
+		mapId = 1004,
+		show_param = {},
+		hide_param = {},
+		param = {
+			hide = false,
+			position = {
+				51.769,
+				3.805,
+				150.794
+			},
+			rotation = {
+				0,
+				128.879,
+				0
+			},
+			scale = {
+				1,
+				1,
+				1
+			}
+		}
+	}
+	pg.base.island_world_objects[10040028] = {
+		behaviourTree = "",
+		unitId = 100401,
+		type = 0,
+		name = "Collider",
+		gen_type = 0,
+		id = 10040028,
+		mapId = 1004,
+		show_param = {},
+		hide_param = {},
+		param = {
+			hide = false,
+			position = {
+				0,
+				0,
+				0
+			},
+			rotation = {
+				0,
+				0,
+				0
+			},
+			scale = {
+				1,
+				1,
+				1
+			}
+		}
+	}
+	pg.base.island_world_objects[10040029] = {
+		behaviourTree = "",
+		unitId = 100402,
+		type = 0,
+		name = "Station",
+		gen_type = 0,
+		id = 10040029,
+		mapId = 1004,
+		show_param = {},
+		hide_param = {},
+		param = {
+			hide = false,
+			position = {
+				35.995,
+				2.843,
+				96.938
+			},
+			rotation = {
+				0,
+				0,
+				0
+			},
+			scale = {
+				1,
+				1,
+				1
+			}
+		}
+	}
+	pg.base.island_world_objects[10040030] = {
+		behaviourTree = "Island/NodeCanvas/PlaceCollectionPoint",
+		unitId = 1014,
+		type = 0,
+		name = "MissionMinePoint1",
+		gen_type = 1,
+		id = 10040030,
+		mapId = 1004,
+		show_param = {},
+		hide_param = {},
+		param = {
+			hide = false,
+			position = {
+				28.846,
+				8.237,
+				60.275
+			},
+			rotation = {
+				-1.707547e-06,
+				114.676,
+				145
+			},
+			scale = {
+				0.5,
+				0.5,
+				1
+			}
+		}
+	}
+	pg.base.island_world_objects[10040031] = {
+		behaviourTree = "",
+		unitId = 100700,
+		type = 1,
+		name = "npc-famu-task2",
+		gen_type = 2,
+		id = 10040031,
+		mapId = 1004,
+		show_param = {
+			{
+				3,
+				3120001,
+				1
+			}
+		},
+		hide_param = {
+			{
+				2,
+				10001060,
+				2
+			}
+		},
+		param = {
+			hide = false,
+			position = {
+				41.57,
+				2.657,
+				94.38
+			},
+			rotation = {
+				0,
+				18.75212,
+				0
+			},
+			scale = {
+				1,
+				1,
+				1
+			}
+		}
+	}
+	pg.base.island_world_objects[10040032] = {
+		behaviourTree = "Island/NodeCanvas/PlaceNpc_fell_mining_task",
+		unitId = 100600,
+		type = 1,
+		name = "npc-kuangchang-task1",
+		gen_type = 2,
+		id = 10040032,
+		mapId = 1004,
+		show_param = {
+			{
+				2,
+				10001040,
+				1
+			}
+		},
+		hide_param = {
+			{
+				2,
+				10001060,
+				2
+			}
+		},
+		param = {
+			hide = false,
+			position = {
+				39.78,
+				2.625,
+				95.31
+			},
+			rotation = {
+				359.9536,
+				40.29847,
+				359.9767
+			},
+			scale = {
+				1,
+				1,
+				1
+			}
+		}
+	}
+	pg.base.island_world_objects[10040033] = {
+		behaviourTree = "Island/NodeCanvas/Fell_station",
+		unitId = 1012,
+		type = 0,
+		name = "Station1",
+		gen_type = 2,
+		id = 10040033,
+		mapId = 1004,
+		show_param = {
+			{
+				3,
+				3100010,
+				1
+			}
+		},
+		hide_param = {},
+		param = {
+			hide = true,
+			position = {
+				36.154,
+				2.613,
+				96.721
+			},
+			rotation = {
+				0,
+				25.5517,
+				0
+			},
+			scale = {
+				1,
+				1,
+				1
+			}
+		}
+	}
+	pg.base.island_world_objects[10040034] = {
+		behaviourTree = "",
+		unitId = 1011,
+		type = 0,
+		name = "Station2",
+		gen_type = 0,
+		id = 10040034,
+		mapId = 1004,
+		show_param = {},
+		hide_param = {
+			{
+				0,
+				10001060,
+				1
+			},
+			{
+				2,
+				10001060,
+				1
+			}
+		},
+		param = {
+			hide = true,
+			position = {
+				36.154,
+				2.613,
+				96.721
+			},
+			rotation = {
+				0,
+				25.5517,
+				0
+			},
+			scale = {
+				1,
+				1,
+				1
+			}
+		}
+	}
+	pg.base.island_world_objects[10040035] = {
+		behaviourTree = "",
+		unitId = 1014,
+		type = 0,
+		name = "MissionMinePoint1_Track",
+		gen_type = 2,
+		id = 10040035,
+		mapId = 1004,
+		show_param = {
+			{
+				0,
+				10001030,
+				0
+			}
+		},
+		hide_param = {},
+		param = {
+			hide = false,
+			position = {
+				28.638,
+				8.237,
+				60.303
+			},
+			rotation = {
+				-1.707547e-06,
+				114.676,
+				145
+			},
+			scale = {
+				0.5,
+				0.5,
+				1
+			}
+		}
+	}
+	pg.base.island_world_objects[10040036] = {
+		behaviourTree = "",
+		unitId = 1014,
+		type = 0,
+		name = "Loggingperform1",
+		gen_type = 0,
+		id = 10040036,
+		mapId = 1004,
+		show_param = {},
+		hide_param = {},
+		param = {
+			hide = false,
+			position = {
+				57.423,
+				3.437,
+				140.164
+			},
+			rotation = {
+				0,
+				0,
+				0
+			},
+			scale = {
+				1,
+				1,
+				1
+			}
+		}
+	}
+	pg.base.island_world_objects[10040037] = {
+		behaviourTree = "",
+		unitId = 1014,
+		type = 0,
+		name = "Loggingperform2",
+		gen_type = 0,
+		id = 10040037,
+		mapId = 1004,
+		show_param = {},
+		hide_param = {},
+		param = {
+			hide = false,
+			position = {
+				43.961,
+				3.437,
+				139.18
+			},
+			rotation = {
+				0,
+				0,
+				0
+			},
+			scale = {
+				1,
+				1,
+				1
+			}
+		}
+	}
+	pg.base.island_world_objects[10040038] = {
+		behaviourTree = "",
+		unitId = 1014,
+		type = 0,
+		name = "Loggingperform3",
+		gen_type = 0,
+		id = 10040038,
+		mapId = 1004,
+		show_param = {},
+		hide_param = {},
+		param = {
+			hide = false,
+			position = {
+				39.165,
+				4.4,
+				149.385
+			},
+			rotation = {
+				0,
+				0,
+				0
+			},
+			scale = {
+				1,
+				1,
+				1
+			}
+		}
+	}
+	pg.base.island_world_objects[10040039] = {
+		behaviourTree = "",
+		unitId = 1014,
+		type = 0,
+		name = "Loggingperform4",
+		gen_type = 0,
+		id = 10040039,
+		mapId = 1004,
+		show_param = {},
+		hide_param = {},
+		param = {
+			hide = false,
+			position = {
+				50.398,
+				4.64,
+				157.768
+			},
+			rotation = {
+				0,
+				0,
+				0
+			},
+			scale = {
+				1,
+				1,
+				1
+			}
+		}
+	}
+	pg.base.island_world_objects[10040040] = {
+		behaviourTree = "Island/NodeCanvas/PlaceFellCollectionPoint",
+		unitId = 0,
+		type = 0,
+		name = "MissionloggingPoint1",
+		gen_type = 1,
+		id = 10040040,
+		mapId = 1004,
+		show_param = {},
+		hide_param = {},
+		param = {
+			hide = false,
+			position = {
+				50.35,
+				5.19,
+				157.692
+			},
+			rotation = {
+				0,
+				0,
+				0
+			},
+			scale = {
+				1,
+				1,
+				1
+			}
+		}
+	}
+	pg.base.island_world_objects[10040041] = {
+		behaviourTree = "",
+		unitId = 1014,
+		type = 0,
+		name = "MissionloggingPoint1_Track",
+		gen_type = 2,
+		id = 10040041,
+		mapId = 1004,
+		show_param = {
+			{
+				0,
+				10001040,
+				0
+			}
+		},
+		hide_param = {},
+		param = {
+			hide = false,
+			position = {
+				69.001,
+				3.17,
+				121.427
+			},
+			rotation = {
+				0,
+				0,
+				0
+			},
+			scale = {
+				1,
+				1,
+				1
+			}
+		}
+	}
+	pg.base.island_world_objects[10040042] = {
+		behaviourTree = "Island/NodeCanvas/Player",
+		unitId = 0,
+		type = 2,
+		name = "DefaultSpawnPoint",
+		gen_type = 1,
+		id = 10040042,
+		mapId = 1004,
+		show_param = {},
+		hide_param = {},
+		param = {
+			hide = false,
+			position = {
+				93.05,
+				2.969,
+				65.89
+			},
+			rotation = {
+				0,
+				0,
+				0
+			},
+			scale = {
+				1,
+				1,
+				1
+			}
+		}
+	}
+	pg.base.island_world_objects[10040043] = {
+		behaviourTree = "",
+		unitId = 1021,
+		type = 0,
+		name = "GuideCollider",
+		gen_type = 2,
+		id = 10040043,
+		mapId = 1004,
+		show_param = {
+			{
+				0,
+				10001000,
+				0
+			}
+		},
+		hide_param = {},
+		param = {
+			hide = false,
+			position = {
+				0,
+				0,
+				0
+			},
+			rotation = {
+				0,
+				0,
+				0
+			},
+			scale = {
+				1,
+				1,
+				1
+			}
+		}
+	}
+	pg.base.island_world_objects[10040044] = {
+		behaviourTree = "",
+		unitId = 1022,
+		type = 0,
+		name = "GuideEffect1",
+		gen_type = 2,
+		id = 10040044,
+		mapId = 1004,
+		show_param = {
+			{
+				0,
+				10001000,
+				0
+			}
+		},
+		hide_param = {},
+		param = {
+			hide = false,
+			position = {
+				78.09,
+				3.05,
+				85.83
+			},
+			rotation = {
+				0,
+				0,
+				0
+			},
+			scale = {
+				1,
+				1,
+				1
+			}
+		}
+	}
+	pg.base.island_world_objects[10040045] = {
+		behaviourTree = "",
+		unitId = 100700,
+		type = 1,
+		name = "npc-famu-task1",
+		gen_type = 2,
+		id = 10040045,
+		mapId = 1004,
+		show_param = {
+			{
+				2,
+				10001030,
+				2
+			}
+		},
+		hide_param = {
+			{
+				3,
+				3120000,
+				2
+			}
+		},
+		param = {
+			hide = false,
+			position = {
+				80.028,
+				3.169,
+				72.687
+			},
+			rotation = {
+				0,
+				234.2948,
+				0
+			},
+			scale = {
+				1,
+				1,
+				1
+			}
+		}
+	}
+	pg.base.island_world_objects[10040046] = {
+		behaviourTree = "Island/NodeCanvas/WildCollectItem",
+		unitId = 20037,
+		type = 0,
+		name = "feixingqi06",
+		gen_type = 1,
+		id = 10040046,
+		mapId = 1004,
+		show_param = {},
+		hide_param = {},
+		param = {
+			hide = false,
+			position = {
+				54.654,
+				3.178518,
+				123.6498
+			},
+			rotation = {
+				356.8235,
+				0,
+				0
+			},
+			scale = {
+				1,
+				1,
+				1
+			}
+		}
+	}
+	pg.base.island_world_objects[10040047] = {
+		behaviourTree = "Island/NodeCanvas/WildCollectItem",
+		unitId = 20039,
+		type = 0,
+		name = "feixingqi07",
+		gen_type = 1,
+		id = 10040047,
+		mapId = 1004,
+		show_param = {},
+		hide_param = {},
+		param = {
+			hide = false,
+			position = {
+				41.75,
+				9.96,
+				51.02
+			},
+			rotation = {
+				352.0229,
+				119.8817,
+				355.738
+			},
+			scale = {
+				1,
+				1,
+				1
+			}
+		}
+	}
+	pg.base.island_world_objects[10040048] = {
+		behaviourTree = "Island/NodeCanvas/WildCollectItem",
+		unitId = 20040,
+		type = 0,
+		name = "feixingqi08",
+		gen_type = 1,
+		id = 10040048,
+		mapId = 1004,
+		show_param = {},
+		hide_param = {},
+		param = {
+			hide = false,
+			position = {
+				89.41952,
+				3.520228,
+				101.4244
+			},
+			rotation = {
+				351.9954,
+				4.367276,
+				356.6403
+			},
+			scale = {
+				1,
+				1,
+				1
+			}
+		}
+	}
+	pg.base.island_world_objects[10040049] = {
+		behaviourTree = "Island/NodeCanvas/WildCollectItem",
+		unitId = 20041,
+		type = 0,
+		name = "feixingqi09",
+		gen_type = 1,
+		id = 10040049,
+		mapId = 1004,
+		show_param = {},
+		hide_param = {},
+		param = {
+			hide = false,
+			position = {
+				36.39441,
+				4.879592,
+				82.368
+			},
+			rotation = {
+				0,
+				0,
+				350.3124
+			},
+			scale = {
+				1,
+				1,
+				1
+			}
+		}
+	}
+end)()
+(function ()
+	pg.base.island_world_objects[10040050] = {
+		behaviourTree = "Island/NodeCanvas/Sidetask_20010001",
+		unitId = 1022,
+		type = 0,
+		name = "Sidetask_20010001",
+		gen_type = 2,
+		id = 10040050,
+		mapId = 1004,
+		show_param = {
+			{
+				0,
+				20001001,
+				0
+			}
+		},
+		hide_param = {},
+		param = {
+			hide = false,
+			position = {
+				51.7,
+				2.978,
+				121.48
+			},
+			rotation = {
+				0,
+				0,
+				0
+			},
+			scale = {
+				1,
+				1,
+				1
+			}
+		}
+	}
+	pg.base.island_world_objects[10040051] = {
+		behaviourTree = "Island/NodeCanvas/Sidetask_20014002&3",
+		unitId = 1014,
+		type = 0,
+		name = "Sidetask_20014002&3",
+		gen_type = 2,
+		id = 10040051,
+		mapId = 1004,
+		show_param = {
+			{
+				0,
+				20014002,
+				0
+			},
+			{
+				0,
+				20014003,
+				0
+			}
+		},
+		hide_param = {},
+		param = {
+			hide = false,
+			position = {
+				23.246,
+				3.565,
+				142.84
+			},
+			rotation = {
+				0,
+				0,
+				0
+			},
+			scale = {
+				1,
+				1,
+				1
+			}
+		}
+	}
+	pg.base.island_world_objects[10040052] = {
+		behaviourTree = "Island/NodeCanvas/WildGatherItem",
+		unitId = 20036,
+		type = 0,
+		name = "fengmi303",
+		gen_type = 1,
+		id = 10040052,
+		mapId = 1004,
+		show_param = {},
+		hide_param = {},
+		param = {
+			hide = false,
+			position = {
+				58.763,
+				4.083,
+				156.64
+			},
+			rotation = {
+				0,
+				87.3877,
+				0
+			},
+			scale = {
+				1,
+				1,
+				1
+			}
+		}
+	}
+	pg.base.island_world_objects[10040053] = {
+		behaviourTree = "Island/NodeCanvas/WildGatherItem",
+		unitId = 20036,
+		type = 0,
+		name = "fengmi401",
+		gen_type = 1,
+		id = 10040053,
+		mapId = 1004,
+		show_param = {},
+		hide_param = {},
+		param = {
+			hide = false,
+			position = {
+				66.729,
+				3.344,
+				124.838
+			},
+			rotation = {
+				0,
+				167.1911,
+				0
+			},
+			scale = {
+				1,
+				1,
+				1
+			}
+		}
+	}
+	pg.base.island_world_objects[10040054] = {
+		behaviourTree = "Island/NodeCanvas/WildGatherItem",
+		unitId = 20036,
+		type = 0,
+		name = "fengmi402",
+		gen_type = 1,
+		id = 10040054,
+		mapId = 1004,
+		show_param = {},
+		hide_param = {},
+		param = {
+			hide = false,
+			position = {
+				69.99,
+				2.74,
+				128.62
+			},
+			rotation = {
+				0,
+				283.0175,
+				0
+			},
+			scale = {
+				1,
+				1,
+				1
+			}
+		}
+	}
+	pg.base.island_world_objects[10040055] = {
+		behaviourTree = "Island/NodeCanvas/WildGatherItem",
+		unitId = 20036,
+		type = 0,
+		name = "fengmi403",
+		gen_type = 1,
+		id = 10040055,
+		mapId = 1004,
+		show_param = {},
+		hide_param = {},
+		param = {
+			hide = false,
+			position = {
+				76.06,
+				2.73,
+				123.77
+			},
+			rotation = {
+				0,
+				246.2951,
+				0
+			},
+			scale = {
+				1,
+				1,
+				1
+			}
+		}
+	}
+	pg.base.island_world_objects[10040056] = {
+		behaviourTree = "",
+		unitId = 1022,
+		type = 0,
+		name = "Sidetask_20001009",
+		gen_type = 2,
+		id = 10040056,
+		mapId = 1004,
+		show_param = {
+			{
+				0,
+				20001009,
+				0
+			}
+		},
+		hide_param = {},
+		param = {
+			hide = false,
+			position = {
+				94.96,
+				2.72,
+				102.02
+			},
+			rotation = {
+				0,
+				0,
+				0
+			},
+			scale = {
+				1,
+				1,
+				1
+			}
+		}
+	}
+	pg.base.island_world_objects[10040057] = {
+		behaviourTree = "Island/NodeCanvas/Sidetask_2000700N",
+		unitId = 1014,
+		type = 0,
+		name = "Sidetask_20007001",
+		gen_type = 2,
+		id = 10040057,
+		mapId = 1004,
+		show_param = {
+			{
+				2,
+				10003060,
+				0
+			},
+			{
+				1,
+				20007001,
+				0
+			},
+			{
+				0,
+				20007010,
+				0
+			},
+			{
+				3,
+				3130054,
+				1
+			}
+		},
+		hide_param = {
+			{
+				0,
+				20007001,
+				0
+			},
+			{
+				2,
+				20007001,
+				0
+			},
+			{
+				3,
+				3130055,
+				0
+			}
+		},
+		param = {
+			hide = false,
+			position = {
+				44.445,
+				5.068,
+				161.267
+			},
+			rotation = {
+				0,
+				0,
+				0
+			},
+			scale = {
+				1,
+				1,
+				1
+			}
+		}
+	}
+	pg.base.island_world_objects[10040058] = {
+		behaviourTree = "Island/NodeCanvas/Sidetask_2000700N",
+		unitId = 20036,
+		type = 0,
+		name = "Sidetask_20007001_1",
+		gen_type = 2,
+		id = 10040058,
+		mapId = 1004,
+		show_param = {
+			{
+				0,
+				20007001,
+				0
+			}
+		},
+		hide_param = {},
+		param = {
+			hide = false,
+			position = {
+				60.387,
+				4.656,
+				152.026
+			},
+			rotation = {
+				0,
+				325.0818,
+				0
+			},
+			scale = {
+				1,
+				1,
+				1
+			}
+		}
+	}
+	pg.base.island_world_objects[10040059] = {
+		behaviourTree = "",
+		unitId = 1022,
+		type = 0,
+		name = "Sidetask_20009001",
+		gen_type = 2,
+		id = 10040059,
+		mapId = 1004,
+		show_param = {
+			{
+				0,
+				20009001,
+				0
+			}
+		},
+		hide_param = {},
+		param = {
+			hide = false,
+			position = {
+				80.25,
+				2.99,
+				63.23
+			},
+			rotation = {
+				0,
+				0,
+				0
+			},
+			scale = {
+				1,
+				1,
+				1
+			}
+		}
+	}
+	pg.base.island_world_objects[10040060] = {
+		behaviourTree = "Island/NodeCanvas/Main_Quest_Fell_Aobulaien1",
+		unitId = 100700,
+		type = 1,
+		name = "Storynpc_famu1",
+		gen_type = 2,
+		id = 10040060,
+		mapId = 1004,
+		show_param = {
+			{
+				3,
+				3120000,
+				0
+			}
+		},
+		hide_param = {
+			{
+				3,
+				3120001,
+				0
+			}
+		},
+		param = {
+			hide = false,
+			position = {
+				60.42,
+				2.88,
+				114.36
+			},
+			rotation = {
+				0,
+				0,
+				0
+			},
+			scale = {
+				1,
+				1,
+				1
+			}
+		}
+	}
+	pg.base.island_world_objects[10040061] = {
+		behaviourTree = "Island/NodeCanvas/Sidetask_1007",
+		unitId = 100700,
+		type = 1,
+		name = "npc-famu-Sidetask_20001009",
+		gen_type = 2,
+		id = 10040061,
+		mapId = 1004,
+		show_param = {
+			{
+				0,
+				20001009,
+				0
+			},
+			{
+				1,
+				20001009,
+				0
+			}
+		},
+		hide_param = {
+			{
+				3,
+				3130010,
+				0
+			}
+		},
+		param = {
+			hide = false,
+			position = {
+				95.101,
+				2.72,
+				103.44
+			},
+			rotation = {
+				0,
+				188.3768,
+				0
+			},
+			scale = {
+				1,
+				1,
+				1
+			}
+		}
+	}
+	pg.base.island_world_objects[10040062] = {
+		behaviourTree = "Island/NodeCanvas/WildGatherItem",
+		unitId = 20050,
+		type = 0,
+		name = "luweicong01",
+		gen_type = 1,
+		id = 10040062,
+		mapId = 1004,
+		show_param = {},
+		hide_param = {},
+		param = {
+			hide = false,
+			position = {
+				95.75,
+				2.459,
+				107.24
+			},
+			rotation = {
+				0,
+				0,
+				0
+			},
+			scale = {
+				1,
+				1,
+				1
+			}
+		}
+	}
+	pg.base.island_world_objects[10040063] = {
+		behaviourTree = "Island/NodeCanvas/WildGatherItem",
+		unitId = 20050,
+		type = 0,
+		name = "luweicong02",
+		gen_type = 1,
+		id = 10040063,
+		mapId = 1004,
+		show_param = {},
+		hide_param = {},
+		param = {
+			hide = false,
+			position = {
+				97.97686,
+				2.41,
+				104.9117
+			},
+			rotation = {
+				0,
+				289.1514,
+				0
+			},
+			scale = {
+				1,
+				1,
+				1
+			}
+		}
+	}
+	pg.base.island_world_objects[10040064] = {
+		behaviourTree = "Island/NodeCanvas/WildGatherItem",
+		unitId = 20048,
+		type = 0,
+		name = "jvhuacong01",
+		gen_type = 1,
+		id = 10040064,
+		mapId = 1004,
+		show_param = {},
+		hide_param = {},
+		param = {
+			hide = false,
+			position = {
+				38.714,
+				2.2,
+				111.068
+			},
+			rotation = {
+				0,
+				0,
+				0
+			},
+			scale = {
+				1,
+				1,
+				1
+			}
+		}
+	}
+	pg.base.island_world_objects[10040065] = {
+		behaviourTree = "Island/NodeCanvas/WildGatherItem",
+		unitId = 20048,
+		type = 0,
+		name = "jvhuacong02",
+		gen_type = 1,
+		id = 10040065,
+		mapId = 1004,
+		show_param = {},
+		hide_param = {},
+		param = {
+			hide = false,
+			position = {
+				43.2255,
+				2.27,
+				112.057
+			},
+			rotation = {
+				0,
+				340.642,
+				0
+			},
+			scale = {
+				1,
+				1,
+				1
+			}
+		}
+	}
+	pg.base.island_world_objects[10040066] = {
+		behaviourTree = "",
+		unitId = 1014,
+		type = 0,
+		name = "Station_task",
+		gen_type = 0,
+		id = 10040066,
+		mapId = 1004,
+		show_param = {},
+		hide_param = {
+			{
+				2,
+				10001060,
+				0
+			}
+		},
+		param = {
+			hide = false,
+			position = {
+				40.61,
+				2.613,
+				94.669
+			},
+			rotation = {
+				0,
+				0,
+				0
+			},
+			scale = {
+				1,
+				1,
+				1
+			}
+		}
+	}
+	pg.base.island_world_objects[10040067] = {
+		behaviourTree = "",
+		unitId = 0,
+		type = 0,
+		name = "Sidetask_qianglideren4",
+		gen_type = 1,
+		id = 10040067,
+		mapId = 1004,
+		show_param = {},
+		hide_param = {},
+		param = {
+			hide = false,
+			position = {
+				44.615,
+				5.115,
+				161.071
+			},
+			rotation = {
+				0,
+				0,
+				0
+			},
+			scale = {
+				1,
+				1,
+				1
+			}
+		}
+	}
+	pg.base.island_world_objects[10040068] = {
+		behaviourTree = "",
+		unitId = 0,
+		type = 0,
+		name = "Sidetask_qianglideren5",
+		gen_type = 1,
+		id = 10040068,
+		mapId = 1004,
+		show_param = {},
+		hide_param = {},
+		param = {
+			hide = false,
+			position = {
+				44.615,
+				5.115,
+				161.071
+			},
+			rotation = {
+				0,
+				0,
+				0
+			},
+			scale = {
+				1,
+				1,
+				1
+			}
+		}
+	}
+	pg.base.island_world_objects[10040069] = {
+		behaviourTree = "",
+		unitId = 101500,
+		type = 1,
+		name = "SidetaskNpc_qianglideren",
+		gen_type = 2,
+		id = 10040069,
+		mapId = 1004,
+		show_param = {
+			{
+				2,
+				20007010,
+				1
+			}
+		},
+		hide_param = {
+			{
+				3,
+				3130063,
+				2
+			}
+		},
+		param = {
+			hide = false,
+			position = {
+				48.856,
+				4.367,
+				157.868
+			},
+			rotation = {
+				0,
+				278.1066,
+				0
+			},
+			scale = {
+				1,
+				1,
+				1
+			}
+		}
+	}
+	pg.base.island_world_objects[10040070] = {
+		behaviourTree = "Island/NodeCanvas/PlaceCollectionPoint",
+		unitId = 0,
+		type = 0,
+		name = "MinePoint7",
+		gen_type = 1,
+		id = 10040070,
+		mapId = 1004,
+		show_param = {},
+		hide_param = {},
+		param = {
+			hide = false,
+			position = {
+				36.718,
+				1.482,
+				62.308
+			},
+			rotation = {
+				359.2002,
+				17.06201,
+				34.66647
+			},
+			scale = {
+				1,
+				1,
+				1
+			}
+		}
+	}
+	pg.base.island_world_objects[10040071] = {
+		behaviourTree = "Island/NodeCanvas/PlaceCollectionPoint",
+		unitId = 0,
+		type = 0,
+		name = "MinePoint8",
+		gen_type = 1,
+		id = 10040071,
+		mapId = 1004,
+		show_param = {},
+		hide_param = {},
+		param = {
+			hide = false,
+			position = {
+				39.882,
+				2.038,
+				59.492
+			},
+			rotation = {
+				0,
+				22.77457,
+				0
+			},
+			scale = {
+				1,
+				1,
+				1
+			}
+		}
+	}
+	pg.base.island_world_objects[10040072] = {
+		behaviourTree = "Island/NodeCanvas/PlaceCollectionPoint",
+		unitId = 0,
+		type = 0,
+		name = "MinePoint9",
+		gen_type = 1,
+		id = 10040072,
+		mapId = 1004,
+		show_param = {},
+		hide_param = {},
+		param = {
+			hide = false,
+			position = {
+				45.165,
+				5.04,
+				55.289
+			},
+			rotation = {
+				0,
+				0,
+				0
+			},
+			scale = {
+				1,
+				1,
+				1
+			}
+		}
+	}
+	pg.base.island_world_objects[10040073] = {
+		behaviourTree = "Island/NodeCanvas/PlaceFellCollectionPoint",
+		unitId = 0,
+		type = 0,
+		name = "LoggingPoint5",
+		gen_type = 1,
+		id = 10040073,
+		mapId = 1004,
+		show_param = {},
+		hide_param = {},
+		param = {
+			hide = false,
+			position = {
+				57.399,
+				3.438,
+				140.151
+			},
+			rotation = {
+				0,
+				0,
+				0
+			},
+			scale = {
+				1,
+				1,
+				1
+			}
+		}
+	}
+	pg.base.island_world_objects[10040074] = {
+		behaviourTree = "Island/NodeCanvas/PlaceFellCollectionPoint",
+		unitId = 0,
+		type = 0,
+		name = "LoggingPoint6",
+		gen_type = 1,
+		id = 10040074,
+		mapId = 1004,
+		show_param = {},
+		hide_param = {},
+		param = {
+			hide = false,
+			position = {
+				68.804,
+				3.438,
+				141.674
+			},
+			rotation = {
+				0,
+				0,
+				0
+			},
+			scale = {
+				1,
+				1,
+				1
+			}
+		}
+	}
+	pg.base.island_world_objects[10040075] = {
+		behaviourTree = "Island/NodeCanvas/PlaceFellCollectionPoint",
+		unitId = 0,
+		type = 0,
+		name = "LoggingPoint7",
+		gen_type = 1,
+		id = 10040075,
+		mapId = 1004,
+		show_param = {},
+		hide_param = {},
+		param = {
+			hide = false,
+			position = {
+				43.99,
+				3.438,
+				139.237
+			},
+			rotation = {
+				0,
+				0,
+				0
+			},
+			scale = {
+				1,
+				1,
+				1
+			}
+		}
+	}
+	pg.base.island_world_objects[10040076] = {
+		behaviourTree = "Island/NodeCanvas/PlaceFellCollectionPoint",
+		unitId = 0,
+		type = 0,
+		name = "LoggingPoint8",
+		gen_type = 1,
+		id = 10040076,
+		mapId = 1004,
+		show_param = {},
+		hide_param = {},
+		param = {
+			hide = false,
+			position = {
+				60.506,
+				4.72,
+				151.584
+			},
+			rotation = {
+				0,
+				0,
+				0
+			},
+			scale = {
+				1,
+				1,
+				1
+			}
+		}
+	}
+	pg.base.island_world_objects[10040077] = {
+		behaviourTree = "Island/NodeCanvas/PlaceFellCollectionPoint",
+		unitId = 0,
+		type = 0,
+		name = "LoggingPoint9",
+		gen_type = 1,
+		id = 10040077,
+		mapId = 1004,
+		show_param = {},
+		hide_param = {},
+		param = {
+			hide = false,
+			position = {
+				48.589,
+				4.7,
+				149.58
+			},
+			rotation = {
+				0,
+				0,
+				0
+			},
+			scale = {
+				1,
+				1,
+				1
+			}
+		}
+	}
+	pg.base.island_world_objects[10040078] = {
+		behaviourTree = "Island/NodeCanvas/Interactable/Interactable_chair",
+		unitId = 100205,
+		type = 3,
+		name = "InteractBed",
+		gen_type = 0,
+		id = 10040078,
+		mapId = 1004,
+		show_param = {},
+		hide_param = {},
+		param = {
+			hide = false,
+			position = {
+				86.18,
+				3.9,
+				84.3
+			},
+			rotation = {
+				0,
+				0,
+				0
+			},
+			scale = {
+				1,
+				1,
+				1
+			}
+		}
+	}
+	pg.base.island_world_objects[10040079] = {
+		behaviourTree = "",
+		unitId = 1014,
+		type = 0,
+		name = "miningDirPoint",
+		gen_type = 0,
+		id = 10040079,
+		mapId = 1004,
+		show_param = {},
+		hide_param = {},
+		param = {
+			hide = false,
+			position = {
+				30.96,
+				7.006,
+				59.37
+			},
+			rotation = {
+				0,
+				20,
+				0
+			},
+			scale = {
+				1,
+				1,
+				1
+			}
+		}
+	}
+	pg.base.island_world_objects[10040080] = {
+		behaviourTree = "",
+		unitId = 0,
+		type = 0,
+		name = "LoggingDirPoint",
+		gen_type = 1,
+		id = 10040080,
+		mapId = 1004,
+		show_param = {},
+		hide_param = {},
+		param = {
+			hide = false,
+			position = {
+				58.947,
+				2.874932,
+				118.451
+			},
+			rotation = {
+				0,
+				0,
+				0
+			},
+			scale = {
+				1,
+				1,
+				1
+			}
+		}
+	}
+	pg.base.island_world_objects[10040081] = {
+		behaviourTree = "",
+		unitId = 1031,
+		type = 0,
+		name = "Fish_point3",
+		gen_type = 1,
+		id = 10040081,
+		mapId = 1004,
+		show_param = {},
+		hide_param = {},
+		param = {
+			hide = false,
+			position = {
+				84.65,
+				2.47,
+				144.77
+			},
+			rotation = {
+				0,
+				0,
+				0
+			},
+			scale = {
+				1,
+				1,
+				1
+			}
+		}
+	}
+	pg.base.island_world_objects[10040082] = {
+		behaviourTree = "",
+		unitId = 1032,
+		type = 0,
+		name = "Fish_guide1",
+		gen_type = 0,
+		id = 10040082,
+		mapId = 1004,
+		show_param = {},
+		hide_param = {},
+		param = {
+			hide = false,
+			position = {
+				104.784,
+				2.684,
+				66.469
+			},
+			rotation = {
+				0,
+				4.357056,
+				0
+			},
+			scale = {
+				1,
+				1,
+				1
+			}
+		}
+	}
+	pg.base.island_world_objects[10040083] = {
+		behaviourTree = "",
+		unitId = 1032,
+		type = 0,
+		name = "Fish_guide2",
+		gen_type = 0,
+		id = 10040083,
+		mapId = 1004,
+		show_param = {},
+		hide_param = {},
+		param = {
+			hide = false,
+			position = {
+				94.594,
+				2.609,
+				111.069
+			},
+			rotation = {
+				0,
+				323.1419,
+				0
+			},
+			scale = {
+				1,
+				1,
+				1
+			}
+		}
+	}
+	pg.base.island_world_objects[10040084] = {
+		behaviourTree = "",
+		unitId = 1032,
+		type = 0,
+		name = "Fish_guide3",
+		gen_type = 0,
+		id = 10040084,
+		mapId = 1004,
+		show_param = {},
+		hide_param = {},
+		param = {
+			hide = false,
+			position = {
+				81.403,
+				2.588,
+				141.3
+			},
+			rotation = {
+				0,
+				352.6466,
+				0
+			},
+			scale = {
+				1,
+				1,
+				1
+			}
+		}
+	}
+	pg.base.island_world_objects[10040085] = {
+		behaviourTree = "",
+		unitId = 1031,
+		type = 0,
+		name = "Fish_point1",
+		gen_type = 1,
+		id = 10040085,
+		mapId = 1004,
+		show_param = {},
+		hide_param = {},
+		param = {
+			hide = false,
+			position = {
+				106.236,
+				2.47,
+				63.354
+			},
+			rotation = {
+				0,
+				0,
+				0
+			},
+			scale = {
+				1,
+				1,
+				1
+			}
+		}
+	}
+	pg.base.island_world_objects[10040086] = {
+		behaviourTree = "",
+		unitId = 1031,
+		type = 0,
+		name = "Fish_point2",
+		gen_type = 1,
+		id = 10040086,
+		mapId = 1004,
+		show_param = {},
+		hide_param = {},
+		param = {
+			hide = false,
+			position = {
+				98.98,
+				2.47,
+				111.12
+			},
+			rotation = {
+				0,
+				0,
+				0
+			},
+			scale = {
+				1,
+				1,
+				1
+			}
+		}
+	}
+	pg.base.island_world_objects[10040087] = {
+		behaviourTree = "Island/NodeCanvas/WildGatherItem",
+		unitId = 20066,
+		type = 0,
+		name = "molihua01",
+		gen_type = 1,
+		id = 10040087,
+		mapId = 1004,
+		show_param = {},
+		hide_param = {},
+		param = {
+			hide = false,
+			position = {
+				48.45,
+				2.376,
+				90.679
+			},
+			rotation = {
+				0,
+				0,
+				0
+			},
+			scale = {
+				1,
+				1,
+				1
+			}
+		}
+	}
+	pg.base.island_world_objects[10040088] = {
+		behaviourTree = "Island/NodeCanvas/WildGatherItem",
+		unitId = 20062,
+		type = 0,
+		name = "chunsun01",
+		gen_type = 1,
+		id = 10040088,
+		mapId = 1004,
+		show_param = {},
+		hide_param = {},
+		param = {
+			hide = false,
+			position = {
+				39.23,
+				2.9,
+				135.98
+			},
+			rotation = {
+				0,
+				0,
+				0
+			},
+			scale = {
+				1,
+				1,
+				1
+			}
+		}
+	}
+	pg.base.island_world_objects[10040089] = {
+		behaviourTree = "Island/NodeCanvas/WildGatherItem",
+		unitId = 20062,
+		type = 0,
+		name = "chunsun02",
+		gen_type = 1,
+		id = 10040089,
+		mapId = 1004,
+		show_param = {},
+		hide_param = {},
+		param = {
+			hide = false,
+			position = {
+				39.94,
+				3.625,
+				145.88
+			},
+			rotation = {
+				0,
+				0,
+				0
+			},
+			scale = {
+				1,
+				1,
+				1
+			}
+		}
+	}
+	pg.base.island_world_objects[10040090] = {
+		behaviourTree = "Island/NodeCanvas/WildGatherItem",
+		unitId = 20065,
+		type = 0,
+		name = "fengxinzi01",
+		gen_type = 1,
+		id = 10040090,
+		mapId = 1004,
+		show_param = {},
+		hide_param = {},
+		param = {
+			hide = false,
+			position = {
+				75.903,
+				2.954,
+				80.327
+			},
+			rotation = {
+				0,
+				0,
+				0
+			},
+			scale = {
+				1,
+				1,
+				1
+			}
+		}
+	}
+	pg.base.island_world_objects[10040091] = {
+		behaviourTree = "Island/NodeCanvas/WildGatherItem",
+		unitId = 20065,
+		type = 0,
+		name = "fengxinzi02",
+		gen_type = 1,
+		id = 10040091,
+		mapId = 1004,
+		show_param = {},
+		hide_param = {},
+		param = {
+			hide = false,
+			position = {
+				69.642,
+				2.952,
+				81.751
+			},
+			rotation = {
+				0,
+				0,
+				0
+			},
+			scale = {
+				1,
+				1,
+				1
+			}
+		}
+	}
+	pg.base.island_world_objects[10040092] = {
+		behaviourTree = "Island/NodeCanvas/WildGatherItem",
+		unitId = 20066,
+		type = 0,
+		name = "molihua02",
+		gen_type = 1,
+		id = 10040092,
+		mapId = 1004,
+		show_param = {},
+		hide_param = {},
+		param = {
+			hide = false,
+			position = {
+				45.69,
+				2.37,
+				99.71
+			},
+			rotation = {
+				0,
+				0,
+				0
+			},
+			scale = {
+				1,
+				1,
+				1
+			}
+		}
+	}
+	pg.base.island_world_objects[10040093] = {
+		behaviourTree = "Island/NodeCanvas/WildGatherItem",
+		unitId = 20067,
+		type = 0,
+		name = "xiangrikui01",
+		gen_type = 1,
+		id = 10040093,
+		mapId = 1004,
+		show_param = {},
+		hide_param = {},
+		param = {
+			hide = false,
+			position = {
+				55.11,
+				2.859,
+				113.27
+			},
+			rotation = {
+				0,
+				0,
+				0
+			},
+			scale = {
+				1,
+				1,
+				1
+			}
+		}
+	}
+	pg.base.island_world_objects[10040094] = {
+		behaviourTree = "Island/NodeCanvas/WildGatherItem",
+		unitId = 20067,
+		type = 0,
+		name = "xiangrikui02",
+		gen_type = 1,
+		id = 10040094,
+		mapId = 1004,
+		show_param = {},
+		hide_param = {},
+		param = {
+			hide = false,
+			position = {
+				57.98,
+				2.814,
+				122.25
+			},
+			rotation = {
+				0,
+				0,
+				0
+			},
+			scale = {
+				1,
+				1,
+				1
+			}
+		}
+	}
+	pg.base.island_world_objects[10040095] = {
+		behaviourTree = "Island/NodeCanvas/WildGatherItem",
+		unitId = 20171,
+		type = 0,
+		name = "donggu01",
+		gen_type = 1,
+		id = 10040095,
+		mapId = 1004,
+		show_param = {},
+		hide_param = {},
+		param = {
+			hide = false,
+			position = {
+				37.82,
+				2.883,
+				93.92062
+			},
+			rotation = {
+				10.07507,
+				0,
+				0
+			},
+			scale = {
+				1,
+				1,
+				1
+			}
+		}
+	}
+	pg.base.island_world_objects[10040096] = {
+		behaviourTree = "Island/NodeCanvas/WildGatherItem",
+		unitId = 20171,
+		type = 0,
+		name = "donggu02",
+		gen_type = 1,
+		id = 10040096,
+		mapId = 1004,
+		show_param = {},
+		hide_param = {},
+		param = {
+			hide = false,
+			position = {
+				31.749,
+				2.832,
+				107.543
+			},
+			rotation = {
+				0,
+				0,
+				0
+			},
+			scale = {
+				1,
+				1,
+				1
+			}
+		}
+	}
+	pg.base.island_world_objects[10040097] = {
+		behaviourTree = "Island/NodeCanvas/WildGatherItem",
+		unitId = 20172,
+		type = 0,
+		name = "mati01",
+		gen_type = 1,
+		id = 10040097,
+		mapId = 1004,
+		show_param = {},
+		hide_param = {},
+		param = {
+			hide = false,
+			position = {
+				98.574,
+				2.658,
+				104.521
+			},
+			rotation = {
+				0,
+				0,
+				0
+			},
+			scale = {
+				1,
+				1,
+				1
+			}
+		}
+	}
+	pg.base.island_world_objects[10040098] = {
+		behaviourTree = "Island/NodeCanvas/WildGatherItem",
+		unitId = 20172,
+		type = 0,
+		name = "mati02",
+		gen_type = 1,
+		id = 10040098,
+		mapId = 1004,
+		show_param = {},
+		hide_param = {},
+		param = {
+			hide = false,
+			position = {
+				96.81,
+				2.668,
+				106.554
+			},
+			rotation = {
+				0,
+				46.28693,
+				0
+			},
+			scale = {
+				1,
+				1,
+				1
+			}
+		}
+	}
+	pg.base.island_world_objects[10050000] = {
+		behaviourTree = "",
+		unitId = 101100,
+		type = 1,
+		name = "StoryNpc_luxi1",
+		gen_type = 0,
+		id = 10050000,
+		mapId = 1005,
+		show_param = {},
+		hide_param = {
+			{
+				3,
+				3100081,
+				0
+			}
+		},
+		param = {
+			hide = false,
+			position = {
+				81.938,
+				2.486,
+				78.866
+			},
+			rotation = {
+				0,
+				329.5504,
+				0
+			},
+			scale = {
+				1,
+				1,
+				1
+			}
+		}
+	}
+	pg.base.island_world_objects[10050001] = {
+		behaviourTree = "Island/NodeCanvas/Player",
+		unitId = 0,
+		type = 2,
+		name = "SpawnPoint",
+		gen_type = 0,
+		id = 10050001,
+		mapId = 1005,
+		show_param = {},
+		hide_param = {},
+		param = {
+			hide = false,
+			position = {
+				76.18,
+				2.411,
+				94.94
+			},
+			rotation = {
+				0,
+				130,
+				0
+			},
+			scale = {
+				1,
+				1,
+				1
+			}
+		}
+	}
+	pg.base.island_world_objects[10050002] = {
+		behaviourTree = "Island/NodeCanvas/PlaceNpc_1011",
+		unitId = 101100,
+		type = 1,
+		name = "PlaceNpc_guoyuan",
+		gen_type = 2,
+		id = 10050002,
+		mapId = 1005,
+		show_param = {
+			{
+				3,
+				3100082,
+				4
+			}
+		},
+		hide_param = {
+			{
+				2,
+				10003070,
+				1
+			}
+		},
+		param = {
+			hide = false,
+			position = {
+				119.15,
+				2.384,
+				91.39
+			},
+			rotation = {
+				0,
+				0,
+				0
+			},
+			scale = {
+				1,
+				1,
+				1
+			}
+		}
+	}
+	pg.base.island_world_objects[10050003] = {
+		behaviourTree = "Island/NodeCanvas/PlaceNpc_1014",
+		unitId = 101400,
+		type = 1,
+		name = "PlaceNpc_miaopu",
+		gen_type = 0,
+		id = 10050003,
+		mapId = 1005,
+		show_param = {},
+		hide_param = {},
+		param = {
+			hide = false,
+			position = {
+				80.126,
+				2.38,
+				78.882
+			},
+			rotation = {
+				0,
+				26.31711,
+				0
+			},
+			scale = {
+				1,
+				1,
+				1
+			}
+		}
+	}
+	pg.base.island_world_objects[10050004] = {
+		behaviourTree = "",
+		unitId = 1014,
+		type = 0,
+		name = "OrchardPost1",
+		gen_type = 1,
+		id = 10050004,
+		mapId = 1005,
+		show_param = {},
+		hide_param = {},
+		param = {
+			hide = false,
+			position = {
+				90.86,
+				2.72,
+				99.89
+			},
+			rotation = {
+				0,
+				0,
+				0
+			},
+			scale = {
+				1,
+				1,
+				1
+			}
+		}
+	}
+	pg.base.island_world_objects[10050005] = {
+		behaviourTree = "",
+		unitId = 1014,
+		type = 0,
+		name = "OrchardPost2",
+		gen_type = 1,
+		id = 10050005,
+		mapId = 1005,
+		show_param = {},
+		hide_param = {},
+		param = {
+			hide = false,
+			position = {
+				90.86,
+				2.72,
+				111.62
+			},
+			rotation = {
+				0,
+				0,
+				0
+			},
+			scale = {
+				1,
+				1,
+				1
+			}
+		}
+	}
+	pg.base.island_world_objects[10050006] = {
+		behaviourTree = "",
+		unitId = 1014,
+		type = 0,
+		name = "OrchardPost3",
+		gen_type = 1,
+		id = 10050006,
+		mapId = 1005,
+		show_param = {},
+		hide_param = {},
+		param = {
+			hide = false,
+			position = {
+				115.61,
+				2.72,
+				99.89
+			},
+			rotation = {
+				0,
+				0,
+				0
+			},
+			scale = {
+				1,
+				1,
+				1
+			}
+		}
+	}
+	pg.base.island_world_objects[10050007] = {
+		behaviourTree = "",
+		unitId = 1014,
+		type = 0,
+		name = "OrchardPost4",
+		gen_type = 1,
+		id = 10050007,
+		mapId = 1005,
+		show_param = {},
+		hide_param = {},
+		param = {
+			hide = false,
+			position = {
+				115.61,
+				2.72,
+				111.31
+			},
+			rotation = {
+				0,
+				0,
+				0
+			},
+			scale = {
+				1,
+				1,
+				1
+			}
+		}
+	}
+	pg.base.island_world_objects[10050008] = {
+		behaviourTree = "",
+		unitId = 1014,
+		type = 0,
+		name = "GardenPost1",
+		gen_type = 1,
+		id = 10050008,
+		mapId = 1005,
+		show_param = {},
+		hide_param = {},
+		param = {
+			hide = false,
+			position = {
+				85.76,
+				2.72,
+				78.06
+			},
+			rotation = {
+				0,
+				0,
+				0
+			},
+			scale = {
+				1,
+				1,
+				1
+			}
+		}
+	}
+	pg.base.island_world_objects[10050009] = {
+		behaviourTree = "",
+		unitId = 1014,
+		type = 0,
+		name = "GardenPost2",
+		gen_type = 1,
+		id = 10050009,
+		mapId = 1005,
+		show_param = {},
+		hide_param = {},
+		param = {
+			hide = false,
+			position = {
+				87.38,
+				2.72,
+				88.17
+			},
+			rotation = {
+				0,
+				0,
+				0
+			},
+			scale = {
+				1,
+				1,
+				1
+			}
+		}
+	}
+	pg.base.island_world_objects[10050010] = {
+		behaviourTree = "",
+		unitId = 0,
+		type = 0,
+		name = "OrchardPlantingSite1",
+		gen_type = 1,
+		id = 10050010,
+		mapId = 1005,
+		show_param = {},
+		hide_param = {},
+		param = {
+			hide = false,
+			position = {
+				86.35,
+				2.171,
+				102.17
+			},
+			rotation = {
+				0,
+				0,
+				0
+			},
+			scale = {
+				1,
+				1,
+				1
+			}
+		}
+	}
+	pg.base.island_world_objects[10050011] = {
+		behaviourTree = "",
+		unitId = 0,
+		type = 0,
+		name = "OrchardPlantingSite2",
+		gen_type = 1,
+		id = 10050011,
+		mapId = 1005,
+		show_param = {},
+		hide_param = {},
+		param = {
+			hide = false,
+			position = {
+				95.66,
+				2.171,
+				102.06
+			},
+			rotation = {
+				0,
+				0,
+				0
+			},
+			scale = {
+				1,
+				1,
+				1
+			}
+		}
+	}
+	pg.base.island_world_objects[10050012] = {
+		behaviourTree = "",
+		unitId = 0,
+		type = 0,
+		name = "OrchardPlantingSite3",
+		gen_type = 1,
+		id = 10050012,
+		mapId = 1005,
+		show_param = {},
+		hide_param = {},
+		param = {
+			hide = false,
+			position = {
+				86.37,
+				2.171,
+				108.05
+			},
+			rotation = {
+				0,
+				0,
+				0
+			},
+			scale = {
+				1,
+				1,
+				1
+			}
+		}
+	}
+	pg.base.island_world_objects[10050013] = {
+		behaviourTree = "",
+		unitId = 0,
+		type = 0,
+		name = "OrchardPlantingSite4",
+		gen_type = 1,
+		id = 10050013,
+		mapId = 1005,
+		show_param = {},
+		hide_param = {},
+		param = {
+			hide = false,
+			position = {
+				95.89,
+				2.171,
+				107.98
+			},
+			rotation = {
+				0,
+				0,
+				0
+			},
+			scale = {
+				1,
+				1,
+				1
+			}
+		}
+	}
+	pg.base.island_world_objects[10050014] = {
+		behaviourTree = "",
+		unitId = 0,
+		type = 0,
+		name = "OrchardPlantingSite5",
+		gen_type = 1,
+		id = 10050014,
+		mapId = 1005,
+		show_param = {},
+		hide_param = {},
+		param = {
+			hide = false,
+			position = {
+				86.33,
+				2.171,
+				113.77
+			},
+			rotation = {
+				0,
+				0,
+				0
+			},
+			scale = {
+				1,
+				1,
+				1
+			}
+		}
+	}
+	pg.base.island_world_objects[10050015] = {
+		behaviourTree = "",
+		unitId = 0,
+		type = 0,
+		name = "OrchardPlantingSite6",
+		gen_type = 1,
+		id = 10050015,
+		mapId = 1005,
+		show_param = {},
+		hide_param = {},
+		param = {
+			hide = false,
+			position = {
+				95.55,
+				2.171,
+				113.87
+			},
+			rotation = {
+				0,
+				0,
+				0
+			},
+			scale = {
+				1,
+				1,
+				1
+			}
+		}
+	}
+	pg.base.island_world_objects[10050016] = {
+		behaviourTree = "",
+		unitId = 0,
+		type = 0,
+		name = "OrchardPlantingSite7",
+		gen_type = 1,
+		id = 10050016,
+		mapId = 1005,
+		show_param = {},
+		hide_param = {},
+		param = {
+			hide = false,
+			position = {
+				86.42,
+				2.171,
+				119.23
+			},
+			rotation = {
+				0,
+				0,
+				0
+			},
+			scale = {
+				1,
+				1,
+				1
+			}
+		}
+	}
+	pg.base.island_world_objects[10050017] = {
+		behaviourTree = "",
+		unitId = 0,
+		type = 0,
+		name = "OrchardPlantingSite8",
+		gen_type = 1,
+		id = 10050017,
+		mapId = 1005,
+		show_param = {},
+		hide_param = {},
+		param = {
+			hide = false,
+			position = {
+				95.6,
+				2.171,
+				119.48
+			},
+			rotation = {
+				0,
+				0,
+				0
+			},
+			scale = {
+				1,
+				1,
+				1
+			}
+		}
+	}
+	pg.base.island_world_objects[10050018] = {
+		behaviourTree = "",
+		unitId = 0,
+		type = 0,
+		name = "OrchardPlantingSite9",
+		gen_type = 1,
+		id = 10050018,
+		mapId = 1005,
+		show_param = {},
+		hide_param = {},
+		param = {
+			hide = false,
+			position = {
+				111.44,
+				2.171,
+				101.94
+			},
+			rotation = {
+				0,
+				0,
+				0
+			},
+			scale = {
+				1,
+				1,
+				1
+			}
+		}
+	}
+	pg.base.island_world_objects[10050019] = {
+		behaviourTree = "",
+		unitId = 0,
+		type = 0,
+		name = "OrchardPlantingSite10",
+		gen_type = 1,
+		id = 10050019,
+		mapId = 1005,
+		show_param = {},
+		hide_param = {},
+		param = {
+			hide = false,
+			position = {
+				119.92,
+				2.171,
+				101.94
+			},
+			rotation = {
+				0,
+				0,
+				0
+			},
+			scale = {
+				1,
+				1,
+				1
+			}
+		}
+	}
+	pg.base.island_world_objects[10050020] = {
+		behaviourTree = "",
+		unitId = 0,
+		type = 0,
+		name = "OrchardPlantingSite11",
+		gen_type = 1,
+		id = 10050020,
+		mapId = 1005,
+		show_param = {},
+		hide_param = {},
+		param = {
+			hide = false,
+			position = {
+				111.59,
+				2.171,
+				108.27
+			},
+			rotation = {
+				0,
+				0,
+				0
+			},
+			scale = {
+				1,
+				1,
+				1
+			}
+		}
+	}
+	pg.base.island_world_objects[10050021] = {
+		behaviourTree = "",
+		unitId = 0,
+		type = 0,
+		name = "OrchardPlantingSite12",
+		gen_type = 1,
+		id = 10050021,
+		mapId = 1005,
+		show_param = {},
+		hide_param = {},
+		param = {
+			hide = false,
+			position = {
+				119.88,
+				2.171,
+				108.34
+			},
+			rotation = {
+				0,
+				0,
+				0
+			},
+			scale = {
+				1,
+				1,
+				1
+			}
+		}
+	}
+	pg.base.island_world_objects[10050022] = {
+		behaviourTree = "",
+		unitId = 0,
+		type = 0,
+		name = "OrchardPlantingSite13",
+		gen_type = 1,
+		id = 10050022,
+		mapId = 1005,
+		show_param = {},
+		hide_param = {},
+		param = {
+			hide = false,
+			position = {
+				111.92,
+				2.171,
+				114.48
+			},
+			rotation = {
+				0,
+				0,
+				0
+			},
+			scale = {
+				1,
+				1,
+				1
+			}
+		}
+	}
+	pg.base.island_world_objects[10050023] = {
+		behaviourTree = "",
+		unitId = 0,
+		type = 0,
+		name = "OrchardPlantingSite14",
+		gen_type = 1,
+		id = 10050023,
+		mapId = 1005,
+		show_param = {},
+		hide_param = {},
+		param = {
+			hide = false,
+			position = {
+				119.72,
+				2.171,
+				114.74
+			},
+			rotation = {
+				0,
+				0,
+				0
+			},
+			scale = {
+				1,
+				1,
+				1
+			}
+		}
+	}
+	pg.base.island_world_objects[10050024] = {
+		behaviourTree = "",
+		unitId = 0,
+		type = 0,
+		name = "OrchardPlantingSite15",
+		gen_type = 1,
+		id = 10050024,
+		mapId = 1005,
+		show_param = {},
+		hide_param = {},
+		param = {
+			hide = false,
+			position = {
+				111.92,
+				2.171,
+				120.05
+			},
+			rotation = {
+				0,
+				0,
+				0
+			},
+			scale = {
+				1,
+				1,
+				1
+			}
+		}
+	}
+	pg.base.island_world_objects[10050025] = {
+		behaviourTree = "",
+		unitId = 0,
+		type = 0,
+		name = "OrchardPlantingSite16",
+		gen_type = 1,
+		id = 10050025,
+		mapId = 1005,
+		show_param = {},
+		hide_param = {},
+		param = {
+			hide = false,
+			position = {
+				119.77,
+				2.171,
+				120.18
+			},
+			rotation = {
+				0,
+				0,
+				0
+			},
+			scale = {
+				1,
+				1,
+				1
+			}
+		}
+	}
+	pg.base.island_world_objects[10050026] = {
+		behaviourTree = "",
+		unitId = 0,
+		type = 0,
+		name = "GardenPlantingSpot1",
+		gen_type = 1,
+		id = 10050026,
+		mapId = 1005,
+		show_param = {},
+		hide_param = {},
+		param = {
+			hide = false,
+			position = {
+				82.595,
+				2.384,
+				82.32
+			},
+			rotation = {
+				0,
+				0,
+				0
+			},
+			scale = {
+				1,
+				1,
+				1
+			}
+		}
+	}
+	pg.base.island_world_objects[10050027] = {
+		behaviourTree = "",
+		unitId = 0,
+		type = 0,
+		name = "GardenPlantingSpot2",
+		gen_type = 1,
+		id = 10050027,
+		mapId = 1005,
+		show_param = {},
+		hide_param = {},
+		param = {
+			hide = false,
+			position = {
+				85.695,
+				2.384,
+				82.325
+			},
+			rotation = {
+				0,
+				0,
+				0
+			},
+			scale = {
+				1,
+				1,
+				1
+			}
+		}
+	}
+	pg.base.island_world_objects[10050028] = {
+		behaviourTree = "",
+		unitId = 0,
+		type = 0,
+		name = "GardenPlantingSpot3",
+		gen_type = 1,
+		id = 10050028,
+		mapId = 1005,
+		show_param = {},
+		hide_param = {},
+		param = {
+			hide = false,
+			position = {
+				88.761,
+				2.384,
+				82.325
+			},
+			rotation = {
+				0,
+				0,
+				0
+			},
+			scale = {
+				1,
+				1,
+				1
+			}
+		}
+	}
+	pg.base.island_world_objects[10050029] = {
+		behaviourTree = "",
+		unitId = 0,
+		type = 0,
+		name = "GardenPlantingSpot4",
+		gen_type = 1,
+		id = 10050029,
+		mapId = 1005,
+		show_param = {},
+		hide_param = {},
+		param = {
+			hide = false,
+			position = {
+				84.141,
+				2.384,
+				84.99
+			},
+			rotation = {
+				0,
+				0,
+				0
+			},
+			scale = {
+				1,
+				1,
+				1
+			}
+		}
+	}
+	pg.base.island_world_objects[10050030] = {
+		behaviourTree = "",
+		unitId = 0,
+		type = 0,
+		name = "GardenPlantingSpot5",
+		gen_type = 1,
+		id = 10050030,
+		mapId = 1005,
+		show_param = {},
+		hide_param = {},
+		param = {
+			hide = false,
+			position = {
+				87.265,
+				2.384,
+				84.967
+			},
+			rotation = {
+				0,
+				0,
+				0
+			},
+			scale = {
+				1,
+				1,
+				1
+			}
+		}
+	}
+	pg.base.island_world_objects[10050031] = {
+		behaviourTree = "",
+		unitId = 0,
+		type = 0,
+		name = "GardenPlantingSpot6",
+		gen_type = 1,
+		id = 10050031,
+		mapId = 1005,
+		show_param = {},
+		hide_param = {},
+		param = {
+			hide = false,
+			position = {
+				90.31,
+				2.384,
+				84.976
+			},
+			rotation = {
+				0,
+				0,
+				0
+			},
+			scale = {
+				1,
+				1,
+				1
+			}
+		}
+	}
+	pg.base.island_world_objects[10050032] = {
+		behaviourTree = "Island/NodeCanvas/WildGatherItem",
+		unitId = 20061,
+		type = 0,
+		name = "fengmitong",
+		gen_type = 1,
+		id = 10050032,
+		mapId = 1005,
+		show_param = {},
+		hide_param = {},
+		param = {
+			hide = false,
+			position = {
+				88.584,
+				2.366,
+				75.962
+			},
+			rotation = {
+				0,
+				0,
+				0
+			},
+			scale = {
+				1,
+				1,
+				1
+			}
+		}
+	}
+	pg.base.island_world_objects[10050033] = {
+		behaviourTree = "",
+		unitId = 101100,
+		type = 1,
+		name = "StoryNpc_luxi2",
+		gen_type = 2,
+		id = 10050033,
+		mapId = 1005,
+		show_param = {
+			{
+				2,
+				10003070,
+				0
+			},
+			{
+				2,
+				10003080,
+				2
+			}
+		},
+		hide_param = {
+			{
+				3,
+				3100082,
+				0
+			}
+		},
+		param = {
+			hide = false,
+			position = {
+				96.55,
+				2.383,
+				97.25
+			},
+			rotation = {
+				0,
+				293.3554,
+				0
+			},
+			scale = {
+				1,
+				1,
+				1
+			}
+		}
+	}
+	pg.base.island_world_objects[10050034] = {
+		behaviourTree = "Island/NodeCanvas/StoryItem_fengchao",
+		unitId = 20036,
+		type = 0,
+		name = "StoryItem_fengchao",
+		gen_type = 2,
+		id = 10050034,
+		mapId = 1005,
+		show_param = {
+			{
+				0,
+				10003060,
+				0
+			}
+		},
+		hide_param = {},
+		param = {
+			hide = false,
+			position = {
+				72.717,
+				4.042,
+				123.327
+			},
+			rotation = {
+				0.5110396,
+				84.50013,
+				5.543053
+			},
+			scale = {
+				1,
+				1,
+				1
+			}
+		}
+	}
+	pg.base.island_world_objects[10050035] = {
+		behaviourTree = "",
+		unitId = 1031,
+		type = 0,
+		name = "Fish_point1",
+		gen_type = 1,
+		id = 10050035,
+		mapId = 1005,
+		show_param = {},
+		hide_param = {},
+		param = {
+			hide = false,
+			position = {
+				90.73,
+				1.6,
+				57.54
+			},
+			rotation = {
+				0,
+				0,
+				0
+			},
+			scale = {
+				1,
+				1,
+				1
+			}
+		}
+	}
+	pg.base.island_world_objects[10050036] = {
+		behaviourTree = "Island/NodeCanvas/Sidetask_2001200N",
+		unitId = 1022,
+		type = 0,
+		name = "Sidetask_20012004",
+		gen_type = 2,
+		id = 10050036,
+		mapId = 1005,
+		show_param = {
+			{
+				0,
+				20012004,
+				0
+			}
+		},
+		hide_param = {},
+		param = {
+			hide = false,
+			position = {
+				95.32,
+				2.157,
+				99.33
+			},
+			rotation = {
+				0,
+				0,
+				0
+			},
+			scale = {
+				1,
+				1,
+				1
+			}
+		}
+	}
+	pg.base.island_world_objects[10050037] = {
+		behaviourTree = "Island/NodeCanvas/Sidetask_2001200N",
+		unitId = 1022,
+		type = 0,
+		name = "Sidetask_20012010",
+		gen_type = 2,
+		id = 10050037,
+		mapId = 1005,
+		show_param = {
+			{
+				0,
+				20012010,
+				0
+			}
+		},
+		hide_param = {},
+		param = {
+			hide = false,
+			position = {
+				95.32,
+				2.157,
+				99.33
+			},
+			rotation = {
+				0,
+				0,
+				0
+			},
+			scale = {
+				1,
+				1,
+				1
+			}
+		}
+	}
+	pg.base.island_world_objects[10050038] = {
+		behaviourTree = "Island/NodeCanvas/Orchard_station",
+		unitId = 1012,
+		type = 0,
+		name = "Station",
+		gen_type = 0,
+		id = 10050038,
+		mapId = 1005,
+		show_param = {},
+		hide_param = {},
+		param = {
+			hide = true,
+			position = {
+				70.06,
+				2.34,
+				104.66
+			},
+			rotation = {
+				0,
+				85.39124,
+				0
+			},
+			scale = {
+				1,
+				1,
+				1
+			}
+		}
+	}
+	pg.base.island_world_objects[10050039] = {
+		behaviourTree = "",
+		unitId = 1032,
+		type = 0,
+		name = "Fish_guide1",
+		gen_type = 0,
+		id = 10050039,
+		mapId = 1005,
+		show_param = {},
+		hide_param = {},
+		param = {
+			hide = false,
+			position = {
+				93.36,
+				2.3346,
+				60.046
+			},
+			rotation = {
+				0,
+				100.0017,
+				0
+			},
+			scale = {
+				1,
+				1,
+				1
+			}
+		}
+	}
+	pg.base.island_world_objects[10050040] = {
+		behaviourTree = "",
+		unitId = 100501,
+		type = 0,
+		name = "Collider",
+		gen_type = 0,
+		id = 10050040,
+		mapId = 1005,
+		show_param = {},
+		hide_param = {},
+		param = {
+			hide = false,
+			position = {
+				0,
+				0,
+				0
+			},
+			rotation = {
+				0,
+				0,
+				0
+			},
+			scale = {
+				1,
+				1,
+				1
+			}
+		}
+	}
+	pg.base.island_world_objects[10050041] = {
+		behaviourTree = "Island/NodeCanvas/WildGatherItem",
+		unitId = 20169,
+		type = 0,
+		name = "meihuashu01",
+		gen_type = 1,
+		id = 10050041,
+		mapId = 1005,
+		show_param = {},
+		hide_param = {},
+		param = {
+			hide = false,
+			position = {
+				69.1,
+				2.35,
+				89.267
+			},
+			rotation = {
+				0,
+				0,
+				0
+			},
+			scale = {
+				3,
+				3,
+				3
+			}
+		}
+	}
+	pg.base.island_world_objects[10050042] = {
+		behaviourTree = "Island/NodeCanvas/WildGatherItem",
+		unitId = 20169,
+		type = 0,
+		name = "meihuashu02",
+		gen_type = 1,
+		id = 10050042,
+		mapId = 1005,
+		show_param = {},
+		hide_param = {},
+		param = {
+			hide = false,
+			position = {
+				100.637,
+				2.36,
+				94.11
+			},
+			rotation = {
+				0,
+				0,
+				0
+			},
+			scale = {
+				3,
+				3,
+				3
+			}
+		}
+	}
+	pg.base.island_world_objects[10050043] = {
+		behaviourTree = "Island/NodeCanvas/WildGatherItem",
+		unitId = 20170,
+		type = 0,
+		name = "shuixianhua01",
+		gen_type = 1,
+		id = 10050043,
+		mapId = 1005,
+		show_param = {},
+		hide_param = {},
+		param = {
+			hide = false,
+			position = {
+				87.91,
+				1.98,
+				61.54
+			},
+			rotation = {
+				0,
+				0,
+				0
+			},
+			scale = {
+				2,
+				2,
+				2
+			}
+		}
+	}
+	pg.base.island_world_objects[10050044] = {
+		behaviourTree = "Island/NodeCanvas/WildGatherItem",
+		unitId = 20170,
+		type = 0,
+		name = "shuixianhua02",
+		gen_type = 1,
+		id = 10050044,
+		mapId = 1005,
+		show_param = {},
+		hide_param = {},
+		param = {
+			hide = false,
+			position = {
+				95.561,
+				2.031,
+				59.33
+			},
+			rotation = {
+				0,
+				66.41664,
+				0
+			},
+			scale = {
+				2,
+				2,
+				2
 			}
 		}
 	}

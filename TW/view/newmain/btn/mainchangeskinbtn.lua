@@ -1,6 +1,12 @@
 slot0 = class("MainChangeSkinBtn", import(".MainBaseBtn"))
 
 slot0.OnClick = function(slot0)
+	if slot0._clickTime and Time.realtimeSinceStartup - slot0._clickTime < 1 then
+		return
+	end
+
+	slot0._clickTime = Time.realtimeSinceStartup
+
 	slot0:emit(NewMainScene.ON_CHANGE_SKIN)
 end
 

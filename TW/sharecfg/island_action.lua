@@ -33,13 +33,20 @@ pg.island_action.all = {
 	1028,
 	1029,
 	1030,
+	1031,
+	1032,
+	1033,
+	1034,
+	1035,
+	1036,
 	2000,
 	2001,
 	2002,
 	2003,
 	2004,
 	2005,
-	2006
+	2006,
+	2007
 }
 pg.island_action.get_id_list_by_type = {
 	{
@@ -72,7 +79,13 @@ pg.island_action.get_id_list_by_type = {
 		1027,
 		1028,
 		1029,
-		1030
+		1030,
+		1031,
+		1032,
+		1033,
+		1034,
+		1035,
+		1036
 	},
 	{
 		2000,
@@ -81,7 +94,8 @@ pg.island_action.get_id_list_by_type = {
 		2003,
 		2004,
 		2005,
-		2006
+		2006,
+		2007
 	}
 }
 pg.base = pg.base or {}
@@ -96,6 +110,7 @@ pg.base.island_action = {}
 		sigle_action_reply_type = 2,
 		resource = "hi",
 		desc = "自然流暢的打招呼，生動形象地表達情感與態度。",
+		respond_dir = 0,
 		tech_id = 0,
 		id = 1000,
 		responder_feedback = "",
@@ -114,6 +129,7 @@ pg.base.island_action = {}
 		sigle_action_reply_type = 2,
 		resource = "bye",
 		desc = "自然流暢的道別，生動形象地表達情感與態度。",
+		respond_dir = 0,
 		tech_id = 0,
 		id = 1001,
 		responder_feedback = "",
@@ -130,6 +146,7 @@ pg.base.island_action = {}
 		sigle_action_reply_type = 2,
 		resource = "nod",
 		desc = "自然流暢的點頭，生動形象地表達情感與態度。",
+		respond_dir = 0,
 		tech_id = 0,
 		id = 1002,
 		responder_feedback = "",
@@ -147,6 +164,7 @@ pg.base.island_action = {}
 		sigle_action_reply_type = 2,
 		resource = "shakehead",
 		desc = "自然流暢的搖頭，生動形象地表達情感與態度。",
+		respond_dir = 0,
 		tech_id = 0,
 		id = 1003,
 		responder_feedback = "",
@@ -164,6 +182,7 @@ pg.base.island_action = {}
 		sigle_action_reply_type = 2,
 		resource = "clap",
 		desc = "自然流暢的拍手，生動形象地表達情感與態度。",
+		respond_dir = 0,
 		tech_id = 0,
 		id = 1004,
 		responder_feedback = "",
@@ -181,6 +200,7 @@ pg.base.island_action = {}
 		sigle_action_reply_type = 2,
 		resource = "handsup",
 		desc = "自然流暢的讚美太陽，生動形象地表達情感與態度。",
+		respond_dir = 0,
 		tech_id = 0,
 		id = 1005,
 		responder_feedback = "",
@@ -203,6 +223,7 @@ pg.base.island_action = {}
 		sigle_action_reply_type = 2,
 		resource = "akimbo",
 		desc = "自然流暢的叉腰，生動形象地表達情感與態度。",
+		respond_dir = 0,
 		tech_id = 0,
 		id = 1006,
 		responder_feedback = "",
@@ -219,6 +240,7 @@ pg.base.island_action = {}
 		sigle_action_reply_type = 2,
 		resource = "bow",
 		desc = "自然流暢的鞠躬，生動形象地表達情感與態度。",
+		respond_dir = 0,
 		tech_id = 0,
 		id = 1007,
 		responder_feedback = "",
@@ -241,6 +263,7 @@ pg.base.island_action = {}
 		sigle_action_reply_type = 2,
 		resource = "vjump",
 		desc = "自然流暢的勝利起跳，生動形象地表達情感與態度。",
+		respond_dir = 0,
 		tech_id = 0,
 		id = 1008,
 		responder_feedback = "",
@@ -263,6 +286,7 @@ pg.base.island_action = {}
 		sigle_action_reply_type = 2,
 		resource = "stomp",
 		desc = "自然流暢的跺腳，生動形象地表達情感與態度。",
+		respond_dir = 0,
 		tech_id = 0,
 		id = 1009,
 		responder_feedback = "",
@@ -280,6 +304,7 @@ pg.base.island_action = {}
 		sigle_action_reply_type = 2,
 		resource = "muscle",
 		desc = "自然流暢的展示肌肉，生動形象地表達情感與態度。",
+		respond_dir = 0,
 		tech_id = 0,
 		id = 1011,
 		responder_feedback = "",
@@ -302,6 +327,7 @@ pg.base.island_action = {}
 		sigle_action_reply_type = 2,
 		resource = "dance",
 		desc = "自然流暢的跳舞，生動形象地表達情感與態度。",
+		respond_dir = 0,
 		tech_id = 0,
 		id = 1012,
 		responder_feedback = "",
@@ -324,6 +350,7 @@ pg.base.island_action = {}
 		sigle_action_reply_type = 2,
 		resource = "herocoming",
 		desc = "自然流暢的英雄登場，生動形象地表達情感與態度。",
+		respond_dir = 0,
 		tech_id = 0,
 		id = 1013,
 		responder_feedback = "",
@@ -346,6 +373,7 @@ pg.base.island_action = {}
 		sigle_action_reply_type = 2,
 		resource = "stretch",
 		desc = "自然流暢的伸懶腰，生動形象地表達情感與態度。",
+		respond_dir = 0,
 		tech_id = 0,
 		id = 1014,
 		responder_feedback = "",
@@ -367,6 +395,7 @@ pg.base.island_action = {}
 		sigle_action_reply_type = 2,
 		resource = "fearshake",
 		desc = "自然流暢的害怕，生動形象地表達情感與態度。",
+		respond_dir = 0,
 		tech_id = 0,
 		id = 1015,
 		responder_feedback = "",
@@ -389,6 +418,7 @@ pg.base.island_action = {}
 		sigle_action_reply_type = 2,
 		resource = "holdfist",
 		desc = "自然流暢的抱拳，生動形象地表達情感與態度。",
+		respond_dir = 0,
 		tech_id = 0,
 		id = 1016,
 		responder_feedback = "",
@@ -411,6 +441,7 @@ pg.base.island_action = {}
 		sigle_action_reply_type = 2,
 		resource = "vouch",
 		desc = "自然流暢的自誇，生動形象地表達情感與態度。",
+		respond_dir = 0,
 		tech_id = 0,
 		id = 1017,
 		responder_feedback = "",
@@ -433,6 +464,7 @@ pg.base.island_action = {}
 		sigle_action_reply_type = 2,
 		resource = "float",
 		desc = "自然流暢的打坐，生動形象地表達情感與態度。",
+		respond_dir = 0,
 		tech_id = 0,
 		id = 1018,
 		responder_feedback = "",
@@ -455,6 +487,7 @@ pg.base.island_action = {}
 		sigle_action_reply_type = 2,
 		resource = "refuse",
 		desc = "自然流暢的拒絕，生動形象地表達情感與態度。",
+		respond_dir = 0,
 		tech_id = 0,
 		id = 1019,
 		responder_feedback = "",
@@ -477,6 +510,7 @@ pg.base.island_action = {}
 		sigle_action_reply_type = 2,
 		resource = "yawn",
 		desc = "自然流暢的打哈欠，生動形象地表達情感與態度。",
+		respond_dir = 0,
 		tech_id = 0,
 		id = 1020,
 		responder_feedback = "",
@@ -499,6 +533,7 @@ pg.base.island_action = {}
 		sigle_action_reply_type = 2,
 		resource = "wipingsweat",
 		desc = "自然流暢的擦汗，生動形象地表達情感與態度。",
+		respond_dir = 0,
 		tech_id = 0,
 		id = 1021,
 		responder_feedback = "",
@@ -520,6 +555,7 @@ pg.base.island_action = {}
 		sigle_action_reply_type = 2,
 		resource = "scratchinghead",
 		desc = "自然流暢的撓頭，生動形象地表達情感與態度。",
+		respond_dir = 0,
 		tech_id = 0,
 		id = 1022,
 		responder_feedback = "",
@@ -542,6 +578,7 @@ pg.base.island_action = {}
 		sigle_action_reply_type = 2,
 		resource = "shootingbasketball",
 		desc = "自然流暢的投籃，生動形象地表達情感與態度。",
+		respond_dir = 0,
 		tech_id = 0,
 		id = 1023,
 		responder_feedback = "",
@@ -564,6 +601,7 @@ pg.base.island_action = {}
 		sigle_action_reply_type = 2,
 		resource = "blowkisses",
 		desc = "自然流暢的飛吻，生動形象地表達情感與態度。",
+		respond_dir = 0,
 		tech_id = 0,
 		id = 1024,
 		responder_feedback = "",
@@ -587,6 +625,7 @@ pg.base.island_action = {}
 		sigle_action_reply_type = 2,
 		resource = "point",
 		desc = "自然流暢的前指，生動形象地表達情感與態度。",
+		respond_dir = 0,
 		tech_id = 0,
 		id = 1025,
 		responder_feedback = "",
@@ -609,6 +648,7 @@ pg.base.island_action = {}
 		sigle_action_reply_type = 2,
 		resource = "welcome",
 		desc = "自然流暢的迎賓，生動形象地表達情感與態度。",
+		respond_dir = 0,
 		tech_id = 0,
 		id = 1026,
 		responder_feedback = "",
@@ -631,6 +671,7 @@ pg.base.island_action = {}
 		sigle_action_reply_type = 2,
 		resource = "lookover",
 		desc = "自然流暢的審視，生動形象地表達情感與態度。",
+		respond_dir = 0,
 		tech_id = 0,
 		id = 1027,
 		responder_feedback = "",
@@ -653,6 +694,7 @@ pg.base.island_action = {}
 		sigle_action_reply_type = 2,
 		resource = "slapbelly",
 		desc = "自然流暢的拍肚皮，生動形象地表達情感與態度。",
+		respond_dir = 0,
 		tech_id = 0,
 		id = 1028,
 		responder_feedback = "",
@@ -675,6 +717,7 @@ pg.base.island_action = {}
 		sigle_action_reply_type = 2,
 		resource = "doze",
 		desc = "自然流暢的瞌睡，生動形象地表達情感與態度。",
+		respond_dir = 0,
 		tech_id = 0,
 		id = 1029,
 		responder_feedback = "",
@@ -697,12 +740,151 @@ pg.base.island_action = {}
 		sigle_action_reply_type = 2,
 		resource = "jumpinplace",
 		desc = "自然流暢的原地蹦跳，生動形象地表達情感與態度。",
+		respond_dir = 0,
 		tech_id = 0,
 		id = 1030,
 		responder_feedback = "",
 		chara_sigle_action_reply = {
 			103,
 			104
+		},
+		jump_page = {
+			{
+				"星彩獎",
+				{}
+			}
+		}
+	}
+	pg.base.island_action[1031] = {
+		name = "練功",
+		respond_point = "",
+		type = 1,
+		feedback_type = 1,
+		sigle_action_reply_type = 2,
+		resource = "kungfu",
+		desc = "自然流暢的練功，生動形象地表達情感與態度。",
+		respond_dir = 0,
+		tech_id = 0,
+		id = 1031,
+		responder_feedback = "",
+		chara_sigle_action_reply = {
+			104,
+			106
+		},
+		jump_page = {
+			{
+				"開發季V-開發商店",
+				{}
+			}
+		}
+	}
+	pg.base.island_action[1032] = {
+		name = "揉肚子",
+		respond_point = "",
+		type = 1,
+		feedback_type = 1,
+		sigle_action_reply_type = 2,
+		resource = "rub",
+		desc = "自然流暢的揉肚子，生動形象地表達情感與態度。",
+		respond_dir = 0,
+		tech_id = 0,
+		id = 1032,
+		responder_feedback = "",
+		chara_sigle_action_reply = {
+			108,
+			203
+		},
+		jump_page = {
+			{
+				"開發季V-開發商店",
+				{}
+			}
+		}
+	}
+	pg.base.island_action[1033] = {
+		name = "躲避",
+		respond_point = "",
+		type = 1,
+		feedback_type = 1,
+		sigle_action_reply_type = 2,
+		resource = "dodge",
+		desc = "自然流暢的躲避，生動形象地表達情感與態度。",
+		respond_dir = 0,
+		tech_id = 0,
+		id = 1033,
+		responder_feedback = "",
+		chara_sigle_action_reply = {
+			202,
+			103
+		},
+		jump_page = {
+			{
+				"開發季V-開發商店",
+				{}
+			}
+		}
+	}
+	pg.base.island_action[1034] = {
+		name = "倒立",
+		respond_point = "",
+		type = 1,
+		feedback_type = 1,
+		sigle_action_reply_type = 2,
+		resource = "handstand",
+		desc = "自然流暢的倒立，生動形象地表達情感與態度。",
+		respond_dir = 0,
+		tech_id = 0,
+		id = 1034,
+		responder_feedback = "",
+		chara_sigle_action_reply = {
+			103,
+			107
+		},
+		jump_page = {
+			{
+				"開發季V-開發商店",
+				{}
+			}
+		}
+	}
+	pg.base.island_action[1035] = {
+		name = "敬禮",
+		respond_point = "",
+		type = 1,
+		feedback_type = 1,
+		sigle_action_reply_type = 2,
+		resource = "salute",
+		desc = "自然流暢的敬禮，生動形象地表達情感與態度。",
+		respond_dir = 0,
+		tech_id = 0,
+		id = 1035,
+		responder_feedback = "",
+		chara_sigle_action_reply = {
+			102,
+			107
+		},
+		jump_page = {
+			{
+				"星彩獎",
+				{}
+			}
+		}
+	}
+	pg.base.island_action[1036] = {
+		name = "展示",
+		respond_point = "",
+		type = 1,
+		feedback_type = 1,
+		sigle_action_reply_type = 2,
+		resource = "show",
+		desc = "自然流暢的展示，生動形象地表達情感與態度。",
+		respond_dir = 0,
+		tech_id = 0,
+		id = 1036,
+		responder_feedback = "",
+		chara_sigle_action_reply = {
+			103,
+			107
 		},
 		jump_page = {
 			{
@@ -719,6 +901,7 @@ pg.base.island_action = {}
 		sigle_action_reply_type = 0,
 		resource = "givemefive",
 		desc = "自然流暢的擊掌，生動形象地表達情感與態度。",
+		respond_dir = 0,
 		tech_id = 0,
 		id = 2000,
 		responder_feedback = "givemefive_end",
@@ -737,6 +920,7 @@ pg.base.island_action = {}
 		sigle_action_reply_type = 0,
 		resource = "handshake",
 		desc = "自然流暢的握手，生動形象地表達情感與態度。",
+		respond_dir = 0,
 		tech_id = 0,
 		id = 2001,
 		responder_feedback = "handshake_end",
@@ -760,6 +944,7 @@ pg.base.island_action = {}
 		sigle_action_reply_type = 0,
 		resource = "hug",
 		desc = "自然流暢的擁抱，生動形象地表達情感與態度。",
+		respond_dir = 0,
 		tech_id = 0,
 		id = 2002,
 		responder_feedback = "hug_end",
@@ -783,6 +968,7 @@ pg.base.island_action = {}
 		sigle_action_reply_type = 0,
 		resource = "claphands",
 		desc = "自然流暢的慶祝，生動形象地表達情感與態度。",
+		respond_dir = 0,
 		tech_id = 0,
 		id = 2003,
 		responder_feedback = "claphands_end",
@@ -806,6 +992,7 @@ pg.base.island_action = {}
 		sigle_action_reply_type = 0,
 		resource = "handheart",
 		desc = "自然流暢的比心，生動形象地表達情感與態度。",
+		respond_dir = 0,
 		tech_id = 0,
 		id = 2004,
 		responder_feedback = "handheart_end",
@@ -829,6 +1016,7 @@ pg.base.island_action = {}
 		sigle_action_reply_type = 0,
 		resource = "curtaincall",
 		desc = "自然流暢的謝幕，生動形象地表達情感與態度。",
+		respond_dir = 0,
 		tech_id = 0,
 		id = 2005,
 		responder_feedback = "curtaincall_end_sp",
@@ -852,6 +1040,7 @@ pg.base.island_action = {}
 		sigle_action_reply_type = 0,
 		resource = "mutidance",
 		desc = "自然流暢的多人共舞，生動形象地表達情感與態度。",
+		respond_dir = 0,
 		tech_id = 0,
 		id = 2006,
 		responder_feedback = "mutidance_end",
@@ -859,6 +1048,30 @@ pg.base.island_action = {}
 			0,
 			0,
 			1.41529
+		},
+		jump_page = {
+			{
+				"星彩獎",
+				{}
+			}
+		}
+	}
+	pg.base.island_action[2007] = {
+		chara_sigle_action_reply = "",
+		name = "合體變身",
+		type = 2,
+		feedback_type = 0,
+		sigle_action_reply_type = 0,
+		resource = "combine",
+		desc = "自然流暢的合體變身，生動地形象表達情感與態度。",
+		respond_dir = 1,
+		tech_id = 0,
+		id = 2007,
+		responder_feedback = "combine_end_sp",
+		respond_point = {
+			-2.181,
+			0,
+			0
 		},
 		jump_page = {
 			{

@@ -1156,41 +1156,51 @@ end
 slot5.GetAircraftResource = function(slot0, slot1, slot2, slot3)
 	slot4 = {}
 	slot5 = uv0.GetAircraftTmpDataFromID(slot0)
-	slot6, slot7, slot8, slot9 = nil
 
 	if (slot2 or 0) ~= 0 then
-		slot6, slot11, slot8, slot9 = uv0.GetEquipSkin(slot2)
+		for slot9, slot10 in ipairs(uv0.GetEquipSkinGroupList(slot2)) do
+			slot11 = uv0.GetEquipSkinDataFromID(slot10)
+			slot12, slot13, slot14, slot15 = uv0.GetEquipSkin(slot10)
 
-		if slot11 ~= "" then
-			slot4[#slot4 + 1] = uv1.GetBulletPath(slot7)
-		end
+			if slot13 ~= "" then
+				slot4[#slot4 + 1] = uv1.GetBulletPath(slot13)
+			end
 
-		if slot8 ~= "" then
-			slot4[#slot4 + 1] = uv1.GetBulletPath(slot8)
-		end
+			if slot14 ~= "" then
+				slot4[#slot4 + 1] = uv1.GetBulletPath(slot14)
+			end
 
-		if slot9 ~= "" then
-			slot4[#slot4 + 1] = uv1.GetBulletPath(slot9)
+			if slot15 ~= "" then
+				slot4[#slot4 + 1] = uv1.GetBulletPath(slot15)
+			end
+
+			if slot11.fire_fx_name ~= "" then
+				slot4[#slot4 + 1] = uv1.GetFXPath(slot11.fire_fx_name)
+			end
+
+			if slot11.hit_fx_name ~= "" then
+				slot4[#slot4 + 1] = uv1.GetFXPath(slot11.hit_fx_name)
+			end
+
+			slot4[#slot4 + 1] = uv1.GetCharacterGoPath(slot12)
 		end
 	else
-		slot6 = slot5.model_ID
+		slot4[#slot4 + 1] = uv1.GetCharacterGoPath(slot5.model_ID)
 	end
-
-	slot4[#slot4 + 1] = uv1.GetCharacterGoPath(slot6)
 
 	if slot3 then
 		slot4[#slot4 + 1] = uv1.GetAircraftIconPath(slot5.model_ID)
 	end
 
 	if type(slot1 or slot5.weapon_ID) == "table" then
-		for slot14, slot15 in ipairs(slot10) do
-			for slot20, slot21 in ipairs(uv1.GetWeaponResource(slot15)) do
-				slot4[#slot4 + 1] = slot21
+		for slot10, slot11 in ipairs(slot6) do
+			for slot16, slot17 in ipairs(uv1.GetWeaponResource(slot11)) do
+				slot4[#slot4 + 1] = slot17
 			end
 		end
 	else
-		for slot15, slot16 in ipairs(uv1.GetWeaponResource(slot10)) do
-			slot4[#slot4 + 1] = slot16
+		for slot11, slot12 in ipairs(uv1.GetWeaponResource(slot6)) do
+			slot4[#slot4 + 1] = slot12
 		end
 	end
 
@@ -1470,37 +1480,39 @@ end
 
 slot5.GetEquipSkinBulletRes = function(slot0)
 	slot1 = {}
-	slot2, slot3, slot4, slot5 = uv0.GetEquipSkin(slot0)
 
-	slot6 = function(slot0)
+	slot2 = function(slot0)
 		if slot0 ~= "" then
 			uv0[#uv0 + 1] = uv1.GetBulletPath(slot0)
 		end
 	end
 
-	slot8 = false
+	for slot6, slot7 in ipairs(uv1.GetEquipSkinGroupList(slot0)) do
+		slot8, slot9, slot10, slot11 = uv1.GetEquipSkin(slot7)
+		slot13 = false
 
-	for slot12, slot13 in ipairs(uv0.GetEquipSkinDataFromID(slot0).equip_type) do
-		if table.contains(EquipType.AircraftSkinType, slot13) then
-			slot8 = true
+		for slot17, slot18 in ipairs(uv1.GetEquipSkinDataFromID(slot7).equip_type) do
+			if table.contains(EquipType.AircraftSkinType, slot18) then
+				slot13 = true
+			end
 		end
+
+		if slot13 then
+			if slot8 ~= "" then
+				slot1[#slot1 + 1] = uv0.GetCharacterGoPath(slot8)
+			end
+		else
+			slot2(slot8)
+
+			if slot12.mirror == 1 then
+				slot1[#slot1 + 1] = uv0.GetBulletPath(slot8 .. uv2.Battle.BattleBulletUnit.MIRROR_RES)
+			end
+		end
+
+		slot2(slot9)
+		slot2(slot10)
+		slot2(slot11)
 	end
-
-	if slot8 then
-		if slot2 ~= "" then
-			slot1[#slot1 + 1] = uv1.GetCharacterGoPath(slot2)
-		end
-	else
-		slot6(slot2)
-
-		if uv0.GetEquipSkinDataFromID(slot0).mirror == 1 then
-			slot1[#slot1 + 1] = uv1.GetBulletPath(slot2 .. uv2.Battle.BattleBulletUnit.MIRROR_RES)
-		end
-	end
-
-	slot6(slot3)
-	slot6(slot4)
-	slot6(slot5)
 
 	return slot1
 end
