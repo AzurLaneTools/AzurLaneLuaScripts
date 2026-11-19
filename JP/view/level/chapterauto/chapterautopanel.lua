@@ -268,8 +268,26 @@ slot0.OnStart = function(slot0, slot1)
 	end)
 end
 
+slot1 = function(slot0, slot1, slot2)
+	slot4 = slot2:Find("LevelDropUpTag")
+
+	if not (slot1:getConfig("type") == 99) then
+		setActive(slot4, false)
+
+		return
+	end
+
+	setActive(slot4, _.all(slot1:getConfig("display_icon"), function (slot0)
+		slot2 = slot0[2]
+
+		return slot0[1] == DROP_TYPE_SHIP
+	end) and slot0 and LevelDropUpActUtil.IsDropUpChapter(slot0.id))
+end
+
 slot0.UpdateAwardTpl = function(slot0, slot1, slot2)
-	updateDrop(slot2, Drop.Create(slot0.awards[slot1 + 1]))
+	slot4 = Drop.Create(slot0.awards[slot1 + 1])
+
+	updateDrop(slot2, slot4)
 	onButton(slot0, slot2, function ()
 		if ({
 			[99.0] = true
@@ -298,6 +316,7 @@ slot0.UpdateAwardTpl = function(slot0, slot1, slot2)
 			uv1:emit(BaseUI.ON_DROP, uv0)
 		end
 	end, SFX_PANEL)
+	uv0(slot0.chapter, slot4, slot2)
 end
 
 slot0.OnDestroy = function(slot0)

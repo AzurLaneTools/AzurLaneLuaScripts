@@ -615,6 +615,7 @@ slot0.didEnter = function(slot0)
 		uv0:ShowSelectedMap(uv0:GetInitializeMap())
 	end, SFX_PANEL)
 	setText(slot0.entranceLayer:Find("enters/enter_main/Text"), getProxy(ChapterProxy):getLastUnlockMap():getLastUnlockChapterName())
+	setActive(slot0.entranceLayer:Find("enters/enter_main/LevelDropUpTag"), LevelDropUpActUtil.EixstLevelDropUpAct())
 	onButton(slot0, slot0.entranceLayer:Find("enters/enter_world/enter"), function ()
 		if uv0:isfrozen() then
 			return

@@ -289,6 +289,7 @@ pg.memory_group.all = {
 	381,
 	382,
 	383,
+	384,
 	501,
 	502,
 	503,
@@ -7777,6 +7778,22 @@ end)()
 			5632
 		}
 	}
+	pg.base.memory_group[384] = {
+		ship_group = 0,
+		icon = "title_event",
+		type = 2,
+		link_event = 50662,
+		title = "着せ替え特集：ナイトコール",
+		auto_unlock = "",
+		subtype = 3,
+		id = 384,
+		group_id = "",
+		memories = {
+			5641,
+			5642,
+			5643
+		}
+	}
 	pg.base.memory_group[501] = {
 		ship_group = 31201,
 		icon = "title_chara_mingshi",
@@ -8096,6 +8113,8 @@ end)()
 			10000
 		}
 	}
+end)()
+(function ()
 	pg.base.memory_group[516] = {
 		ship_group = 80201,
 		icon = "title_chara_aimier",
@@ -8118,8 +8137,6 @@ end)()
 			10000
 		}
 	}
-end)()
-(function ()
 	pg.base.memory_group[517] = {
 		ship_group = 80801,
 		icon = "title_chara_xukufu",
@@ -10298,6 +10315,8 @@ end)()
 			10000
 		}
 	}
+end)()
+(function ()
 	pg.base.memory_group[617] = {
 		ship_group = 10233,
 		icon = "title_chara_fage",
@@ -10320,8 +10339,6 @@ end)()
 			10000
 		}
 	}
-end)()
-(function ()
 	pg.base.memory_group[618] = {
 		ship_group = 60501,
 		icon = "title_chara_weineituo",

@@ -192213,6 +192213,33 @@ _G.pg.base.item_virtual_data_statistics[67003] = {
 }
 
 
+_G.pg.base.item_virtual_data_statistics[67005] = {
+	drop_gold_max = 0,
+	name = "試着貸出チケット（2026.12.09まで）",
+	display = "「試着貸出」対象になった着せ替えを一定時間内使用可能にするチケット",
+	type = 98,
+	is_world = 0,
+	shop_id = 1,
+	replace_item = 0,
+	time_limit = 0,
+	link_id = 0,
+	drop_arg = "",
+	album_config = "",
+	icon = "Props/skinTicket",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	drop_oil_max = 0,
+	virtual_type = 0,
+	id = 67005,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+
 _G.pg.base.item_virtual_data_statistics[68081] = {
 	drop_gold_max = 0,
 	name = "友好度-エーギルちゃん",
@@ -202510,7 +202537,7 @@ _G.pg.base.item_virtual_data_statistics[86226] = {
 	drop_gold_max = 0,
 	name = "ランダム衣装",
 	display = [[
-購入すると当該着せ替えの中からランダムで未所持の着せ替え1着（すべての着せ替えを所持している場合は自動でダイヤ×680に変換されます）。各着せ替えは均一の確率で出現します;
+購入すると当該着せ替えの中からランダムで未所持の着せ替え1着（すべての着せ替えを所持している場合は自動でダイヤ×680に変換されます）。各着せ替えは均一の確率で出現します：
 サンフアン「ロンギング・プリンセス」；
 ビロクシ「羅府エンプレス」；
 ウィチタ「ジェネラル・バンケット」；

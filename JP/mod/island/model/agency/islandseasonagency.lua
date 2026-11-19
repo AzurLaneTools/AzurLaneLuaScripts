@@ -1,5 +1,6 @@
 slot0 = class("IslandSeasonAgency", import(".IslandBaseAgency"))
 slot0.ADD_PT = "IslandSeasonAgency.ADD_PT"
+slot0.TW_SEASON_START = 4
 
 slot0.OnInit = function(slot0, slot1)
 	slot0.season = IslandSeason.New(slot1.season)

@@ -2,7 +2,7 @@ slot1 = {
 	room = "dorm3d/scenesres/scenes/",
 	apartment = "dorm3d/character/"
 }
-slot2 = nil
+slot2, slot3 = nil
 
 return {
 	DormGroupName = "DORM",
@@ -155,24 +155,39 @@ return {
 		slot0 = {}
 
 		if GroupHelper.GetGroupMgrByName(uv0.DormGroupName).toUpdate then
-			for slot6 = 0, slot1.toUpdate.Count - 1 do
-				slot7 = slot1.toUpdate[slot6]
-				slot9 = slot7[1]
-				slot10 = slot7[2]
-
-				table.insert(slot0, slot7[0])
+			for slot7 = 0, slot2.Count - 1 do
+				table.insert(slot0, slot2[slot7][0])
 			end
 		end
 
 		return slot0
 	end,
+	WithDownloadResourceSnapshot = function (slot0)
+		if uv0 then
+			slot0()
+
+			return
+		end
+
+		uv0 = {}
+		slot1, slot2 = xpcall(slot0, debug.traceback)
+		uv0 = nil
+
+		if not slot1 then
+			error(slot2, 0)
+		end
+	end,
 	GetDownloadResourceDic = function ()
-		if not uv0 then
-			uv0 = {}
+		if uv0 and uv0.resourceDic then
+			return uv0.resourceDic
+		end
+
+		if not uv1 then
+			uv1 = {}
 
 			for slot3, slot4 in ipairs(pg.dorm3d_rooms.all) do
 				if pg.dorm3d_rooms[slot4].is_common ~= 1 then
-					uv0[string.lower(slot5.resource_name)] = true
+					uv1[string.lower(slot5.resource_name)] = true
 				end
 			end
 		end
@@ -182,11 +197,11 @@ return {
 		for slot4, slot5 in ipairs(DormGroupConst.GetDownloadList()) do
 			slot6 = "common"
 
-			for slot10, slot11 in pairs(uv1) do
+			for slot10, slot11 in pairs(uv2) do
 				slot12, slot13 = string.find(slot5, slot11)
 
 				if slot13 then
-					if uv0[string.split(string.sub(slot5, slot13 + 1), "/")[1]] then
+					if uv1[string.split(string.sub(slot5, slot13 + 1), "/")[1]] then
 						slot6 = slot10 .. "_" .. slot14
 					end
 
@@ -197,6 +212,10 @@ return {
 			slot0[slot6] = slot0[slot6] or {}
 
 			table.insert(slot0[slot6], slot5)
+		end
+
+		if uv0 then
+			uv0.resourceDic = slot0
 		end
 
 		return slot0

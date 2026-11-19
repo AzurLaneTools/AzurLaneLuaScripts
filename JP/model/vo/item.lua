@@ -27,6 +27,7 @@ slot0.LOVE_LETTER_TYPE = 23
 slot0.SPWEAPON_MATERIAL_TYPE = 24
 slot0.METALESSON_TYPE = 25
 slot0.SKIN_ASSIGNED_TYPE = 26
+slot0.MESH_SKIN_ASSIGNED_TYPE = 27
 slot0.SHIP_GIFT = 50
 
 slot0.Ctor = function(slot0, slot1)
@@ -136,12 +137,56 @@ slot0.IsDoaSelectCharItem = function(slot0)
 	return slot0.id == uv0.DOA_SELECT_CHAR_ID
 end
 
+slot0.IsExpired = function(slot0)
+	if slot0:IsExchangeSkinType() then
+		if not pg.item_data_limted[slot0.id] then
+			return false
+		end
+
+		return not getProxy(ActivityProxy):IsActivityNotEnd(slot1.acticity_id)
+	else
+		return false
+	end
+end
+
 slot0.getConfig = function(slot0, slot1)
 	if slot1 == "display" and uv0.super.getConfig(slot0, "combination_display") and #slot2 > 0 then
 		return slot0:CombinationDisplay(slot2)
 	end
 
+	if uv0.super.getConfig(slot0, "type") == uv0.MESH_SKIN_ASSIGNED_TYPE and slot1 == "usage_arg" then
+		assert(pg.item_data_limted[slot0.id], string.format("item_data_limted not found for id %d", slot0.id))
+
+		return {
+			pg.item_data_limted[slot0.id].acticity_id,
+			getProxy(ShipSkinProxy):GetAllCanPurchaseMeshImageSkins(),
+			{},
+			0,
+			0
+		}
+	elseif slot1 == "usage_arg" and slot0:IsVItemSkinCoupon() then
+		slot5 = {}
+
+		for slot9, slot10 in ipairs(pg.activity_event_shop_discount[slot0:getConfig("link_id")].shop_list) do
+			if pg.shop_template[slot10] then
+				table.insert(slot5, pg.shop_template[slot10].effect_args[1])
+			end
+		end
+
+		return {
+			slot3,
+			slot5,
+			{},
+			0,
+			0
+		}
+	end
+
 	return uv0.super.getConfig(slot0, slot1)
+end
+
+slot0.IsVItemSkinCoupon = function(slot0)
+	return slot0:getConfig("type") == Item.PUZZLA_TYPE and slot0:getConfig("virtual_type") == VIRTUAL_DROP_TYPE_SKIN_COUPON
 end
 
 slot0.StaticCombinationDisplay = function(slot0)
@@ -177,15 +222,19 @@ slot0.CombinationDisplay = function(slot0, slot1)
 end
 
 slot0.InTimeLimitSkinAssigned = function(slot0)
-	if uv0.getConfigData(slot0).type ~= uv0.SKIN_ASSIGNED_TYPE then
+	slot1 = Item.New({
+		id = slot0
+	})
+
+	if not uv0.StaticIsExchangeSkinType(slot1:getConfig("type"), slot1:getConfig("virtual_type")) then
 		return false
 	end
 
-	return getProxy(ActivityProxy):IsActivityNotEnd(slot1.usage_arg[1])
+	return getProxy(ActivityProxy):IsActivityNotEnd(slot1:getConfig("usage_arg")[1])
 end
 
 slot0.GetValidSkinList = function(slot0)
-	assert(slot0:getConfig("type") == uv0.SKIN_ASSIGNED_TYPE)
+	assert(uv0.StaticIsExchangeSkinType(slot0:getConfig("type"), slot0:getConfig("virtual_type")))
 
 	slot1 = slot0:getConfig("usage_arg")
 
@@ -196,14 +245,34 @@ slot0.GetValidSkinList = function(slot0)
 	end
 end
 
-slot0.IsAllSkinOwner = function(slot0)
-	assert(slot0:getConfig("type") == uv0.SKIN_ASSIGNED_TYPE)
+slot0.IsOwningAllCurrentSkins = function(slot0)
+	assert(uv0.StaticIsExchangeSkinType(slot0:getConfig("type"), slot0:getConfig("virtual_type")))
 
 	slot1 = getProxy(ShipSkinProxy)
 
 	return underscore.all(slot0:GetValidSkinList(), function (slot0)
 		return uv0:hasNonLimitSkin(slot0)
 	end)
+end
+
+slot0.IsAllSkinOwner = function(slot0)
+	slot1 = slot0:getConfig("type")
+
+	assert(uv0.StaticIsExchangeSkinType(slot1, slot0:getConfig("virtual_type")))
+
+	if slot1 == Item.MESH_SKIN_ASSIGNED_TYPE then
+		return false
+	end
+
+	return slot0:IsOwningAllCurrentSkins()
+end
+
+slot0.StaticIsExchangeSkinType = function(slot0, slot1)
+	return slot0 == Item.SKIN_ASSIGNED_TYPE or slot0 == Item.MESH_SKIN_ASSIGNED_TYPE or slot0 == Item.PUZZLA_TYPE and slot1 == VIRTUAL_DROP_TYPE_SKIN_COUPON
+end
+
+slot0.IsExchangeSkinType = function(slot0)
+	return uv0.StaticIsExchangeSkinType(slot0:getConfig("type"), slot0:getConfig("virtual_type"))
 end
 
 slot0.GetOverflowCheckItems = function(slot0, slot1)
@@ -263,6 +332,16 @@ end
 
 slot0.IsSkinExperienceType = function(slot0)
 	return slot0:getConfig("usage") == ItemUsage.USAGE_SKIN_EXP
+end
+
+slot0.IsMeshImageSkinExchangeType = function(slot0)
+	return slot0:getConfig("usage") == ItemUsage.MESH_IMAGE_SKIN_EXCHANGE
+end
+
+slot0.GetDiscount = function(slot0)
+	if slot0:IsExclusiveDiscountType() then
+		return slot0:getConfig("usage_arg")[2] or 0
+	end
 end
 
 slot0.CanUseForShop = function(slot0, slot1)

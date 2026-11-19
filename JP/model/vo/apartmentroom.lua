@@ -72,39 +72,46 @@ slot0.bindConfigTable = function(slot0)
 	return pg.dorm3d_rooms
 end
 
+slot0.getDownloadBelongList = function(slot0)
+	slot1 = string.lower(slot0:getConfig("resource_name"))
+
+	if slot0:getConfig("type") == 1 then
+		return {
+			"room_" .. slot1,
+			"common"
+		}
+	elseif slot2 == 2 then
+		return {
+			"room_" .. slot1,
+			"apartment_" .. slot1,
+			"common"
+		}
+	else
+		assert(false, "without room type:" .. slot2)
+	end
+end
+
 slot0.getDownloadNameList = function(slot0)
 	slot1 = DormGroupConst.GetDownloadResourceDic()
-	slot2 = string.lower(slot0:getConfig("resource_name"))
+	slot2 = {}
 
-	switch(slot0:getConfig("type"), {
-		function ()
-			uv0 = {
-				"room_" .. uv1,
-				"common"
-			}
-		end,
-		function ()
-			uv0 = {
-				"room_" .. uv1,
-				"apartment_" .. uv1,
-				"common"
-			}
-		end
-	}, function ()
-		assert(false, "without room type:" .. uv0:getConfig("type"))
-	end)
-
-	slot4 = {}
-
-	for slot8, slot9 in ipairs({}) do
-		table.insertto(slot4, slot1[slot9] or {})
+	for slot6, slot7 in ipairs(slot0:getDownloadBelongList()) do
+		table.insertto(slot2, slot1[slot7] or {})
 	end
 
-	return slot4
+	return slot2
 end
 
 slot0.needDownload = function(slot0)
-	return #slot0:getDownloadNameList() > 0
+	slot1 = DormGroupConst.GetDownloadResourceDic()
+
+	for slot5, slot6 in ipairs(slot0:getDownloadBelongList()) do
+		if slot1[slot6] and #slot7 > 0 then
+			return true
+		end
+	end
+
+	return false
 end
 
 slot0.getDownloadNeedSize = function(slot0)

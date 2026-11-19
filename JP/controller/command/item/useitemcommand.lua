@@ -63,6 +63,14 @@ slot0.execute = function(slot0, slot1)
 				})
 			elseif uv3 == ItemUsage.DROP or uv3 == ItemUsage.DROP_TEMPLATE or uv3 == ItemUsage.DROP_APPOINTED or uv3 == ItemUsage.INVITATION or uv3 == ItemUsage.SKIN_SELECT or uv3 == ItemUsage.RANDOM_SKIN or uv3 == ItemUsage.SHIP_GIFT or uv3 == ItemUsage.REPAIR_LOVE_LETTER then
 				slot1 = PlayerConst.addTranDrop(slot0.drop_list)
+			elseif uv3 == ItemUsage.MESH_IMAGE_SKIN_EXCHANGE then
+				slot1 = PlayerConst.addTranDrop(slot0.drop_list)
+
+				if uv5[2] then
+					uv4:sendNotification(GAME.SKIN_SHOPPIGN_DONE, {
+						id = uv5[2]
+					})
+				end
 			elseif uv3 == ItemUsage.USAGE_SKIN_EXP then
 				slot3 = uv5[1]
 				slot4 = ShopConst.GetShopConfig(slot3)

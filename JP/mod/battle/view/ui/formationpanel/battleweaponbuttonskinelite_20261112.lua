@@ -10,42 +10,6 @@ slot1.ConfigSkin = function(slot0, slot1)
 	slot0._glowEff = slot0._filled:Find("gizmos")
 end
 
-slot1.SetToCombatUIPreview = function(slot0, slot1)
-	if slot1 ~= CombatUIPreviewer.WeaponButtonPreviewMode.UNFILLED then
-		SetActive(slot0._filled, true)
-		SetActive(slot0._unfill, false)
-
-		slot0._progressBar.fillAmount = 1
-
-		if slot0._bgEff then
-			slot0._skin:Find("ActCtl/bg_eff"):GetComponent(typeof(CanvasGroup)).alpha = 1
-		end
-
-		slot0._countTxt.text = "1/1"
-
-		if slot0._gizmos1 then
-			SetActive(slot0._gizmos1, true)
-			SetActive(slot0._gizmosXue, true)
-		end
-	else
-		SetActive(slot0._unfill, true)
-		SetActive(slot0._filled, false)
-
-		slot0._progressBar.fillAmount = 0
-
-		if slot0._bgEff then
-			slot0._skin:Find("ActCtl/bg_eff"):GetComponent(typeof(CanvasGroup)).alpha = 0
-		end
-
-		slot0._countTxt.text = "0/0"
-
-		if slot0._gizmos1 then
-			SetActive(slot0._gizmos1, false)
-			SetActive(slot0._gizmosXue, false)
-		end
-	end
-end
-
 slot1.OnTotalChange = function(slot0, slot1)
 	if slot0._progressInfo:GetTotal() <= 0 then
 		slot0._block:SetActive(true)

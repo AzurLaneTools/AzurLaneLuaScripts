@@ -134,6 +134,22 @@ slot0.ExistExclusiveDiscountItem = function(slot0)
 	return #getProxy(BagProxy):GetExclusiveDiscountItem4Shop(slot0.id) > 0
 end
 
+slot0.ExistMeshImageSkinExchangeItem = function(slot0)
+	if slot0.type ~= Goods.TYPE_SKIN then
+		return false
+	end
+
+	return getProxy(BagProxy):ExistMeshImageSkinExchangeItem4Skin(slot0:getSkinId())
+end
+
+slot0.GetMeshImageSkinExchangeItems = function(slot0)
+	if slot0.type ~= Goods.TYPE_SKIN then
+		return {}
+	end
+
+	return getProxy(BagProxy):GetMeshImageSkinsExchangeItem4Skin(slot0:getSkinId())
+end
+
 slot0.StaticCanUseVoucherType = function(slot0, slot1)
 	if #slot1 <= 0 then
 		return false

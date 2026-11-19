@@ -266095,6 +266095,132 @@ _G.pg.base.task_data_template[27816] = {
 }
 
 
+_G.pg.base.task_data_template[27817] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 907699,
+	type = 14,
+	is_head = 1,
+	count_inherit = 0,
+	name = "『261119I活动』皮肤剧情签到活动1",
+	desc = "ゲームにログインする",
+	sub_type = 1011,
+	task_fold = 0,
+	story_icon = "",
+	scene = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 0,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	tutorial_handbook_pic = "",
+	activity_client_config = "",
+	id = 27817,
+	target_num = 1,
+	fix_task = 0,
+	target_id = "0",
+	open_need = {},
+	award_display = {
+		{
+			2,
+			65736,
+			1
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[27818] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 907700,
+	type = 14,
+	is_head = 1,
+	count_inherit = 0,
+	name = "『261119I活动』皮肤剧情签到活动2",
+	desc = "ゲームにログインする",
+	sub_type = 1011,
+	task_fold = 0,
+	story_icon = "",
+	scene = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 0,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	tutorial_handbook_pic = "",
+	activity_client_config = "",
+	id = 27818,
+	target_num = 1,
+	fix_task = 0,
+	target_id = "0",
+	open_need = {},
+	award_display = {
+		{
+			2,
+			65736,
+			1
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[27819] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 907701,
+	type = 14,
+	is_head = 1,
+	count_inherit = 0,
+	name = "『261119I活动』皮肤剧情签到活动3",
+	desc = "ゲームにログインする",
+	sub_type = 1011,
+	task_fold = 0,
+	story_icon = "",
+	scene = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 0,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	tutorial_handbook_pic = "",
+	activity_client_config = "",
+	id = 27819,
+	target_num = 1,
+	fix_task = 0,
+	target_id = "0",
+	open_need = {},
+	award_display = {
+		{
+			2,
+			65736,
+			1
+		}
+	}
+}
+
+
 _G.pg.base.task_data_template[29001] = {
 	target_id_2 = "",
 	guild_coin_award = 0,
@@ -267963,6 +268089,48 @@ _G.pg.base.task_data_template[29072] = {
 			8,
 			54032,
 			2
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[29213] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 88516,
+	type = 6,
+	is_head = 1,
+	count_inherit = 0,
+	name = "『20261119须臾望月抄常驻』登录送皮肤体验券活动",
+	desc = "ゲームにログインする",
+	sub_type = 1011,
+	task_fold = 0,
+	story_icon = "",
+	scene = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 1,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	tutorial_handbook_pic = "",
+	activity_client_config = "",
+	id = 29213,
+	target_num = 1,
+	fix_task = 0,
+	target_id = "0",
+	open_need = {},
+	award_display = {
+		{
+			1,
+			786,
+			3
 		}
 	}
 }

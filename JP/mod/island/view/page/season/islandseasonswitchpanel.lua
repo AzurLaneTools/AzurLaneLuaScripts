@@ -41,7 +41,9 @@ end
 
 slot0.UpdateSelector = function(slot0)
 	if slot0.isOpen then
-		slot0.uiList:align(IslandSeasonAgency.GetCurrentSeason() - 1 or 0)
+		slot1 = IslandSeasonAgency.GetCurrentSeason()
+
+		slot0.uiList:align(PLATFORM_CODE == PLATFORM_CHT and slot1 - IslandSeasonAgency.TW_SEASON_START or slot1 - 1 or 0)
 	end
 
 	setActive(slot0.selectorPanel, slot0.isOpen)
@@ -58,7 +60,9 @@ slot0.Hide = function(slot0)
 end
 
 slot0.UpdateItem = function(slot0, slot1, slot2)
-	setText(slot2, pg.island_season[slot1 + 1].name_short)
+	slot3 = nil
+
+	setText(slot2, pg.island_season[PLATFORM_CODE == PLATFORM_CHT and IslandSeasonAgency.TW_SEASON_START + slot1 or slot1 + 1].name_short)
 	onButton(slot0, slot2, function ()
 		uv0.filterTxt.text = uv1
 

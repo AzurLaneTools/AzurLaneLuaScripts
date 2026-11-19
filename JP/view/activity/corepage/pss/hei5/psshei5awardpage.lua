@@ -140,11 +140,11 @@ slot0.UpdateNextAward = function(slot0, slot1)
 end
 
 slot0.GetAllAward = function(slot0)
-	if #slot0.activity:GetHei5UnreceiveAward() > 0 then
-		slot2 = {}
+	slot1 = function(slot0)
+		slot1 = {}
 
-		if slot0:CheckLimitMax(slot1) then
-			table.insert(slot2, function (slot0)
+		if uv0:CheckLimitMax(slot0) then
+			table.insert(slot1, function (slot0)
 				pg.NewStyleMsgboxMgr.GetInstance():Show(pg.NewStyleMsgboxMgr.TYPE_COMMON_MSGBOX, {
 					contentText = i18n("player_expResource_mail_fullBag"),
 					onConfirm = slot0
@@ -152,9 +152,30 @@ slot0.GetAllAward = function(slot0)
 			end)
 		end
 
-		seriesAsync(slot2, function ()
+		seriesAsync(slot1, function ()
 			uv0:emit(PSSHei5Mediator.EVENT_GET_AWARD_ALL)
 		end)
+	end
+
+	if #slot0.activity:GetHei5UnreceiveAward() > 0 then
+		slot3 = false
+
+		for slot7, slot8 in ipairs(slot2) do
+			if slot8.id == 65559 then
+				pg.MsgboxMgr.GetInstance():ShowMsgBox({
+					content = i18n("shop_new_coupon_tip3"),
+					onYes = function ()
+						uv0(uv1)
+					end
+				})
+
+				break
+			end
+		end
+
+		if not slot3 then
+			slot1(slot2)
+		end
 	end
 end
 

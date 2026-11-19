@@ -26,9 +26,13 @@ slot0.Execute = function(slot0, slot1)
 	end
 
 	slot5 = {}
-	slot9 = Item.SKIN_ASSIGNED_TYPE
+	slot9 = {
+		Item.SKIN_ASSIGNED_TYPE,
+		slot10
+	}
+	slot10 = Item.MESH_SKIN_ASSIGNED_TYPE
 
-	for slot9, slot10 in ipairs(getProxy(BagProxy):getItemsByType(slot9)) do
+	for slot9, slot10 in ipairs(getProxy(BagProxy):getItemsByTypeList(slot9)) do
 		slot5[slot11] = slot5[slot10:getConfig("usage_arg")[1]] or {}
 
 		table.insert(slot5[slot11], {

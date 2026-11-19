@@ -354,6 +354,10 @@ pg.expedition_data_by_map.all = {
 	2100602,
 	2100611,
 	2100612,
+	2100621,
+	2100622,
+	2100631,
+	2100632,
 	2200000,
 	2200010,
 	2200020,
@@ -560,6 +564,8 @@ pg.expedition_data_by_map.get_id_list_by_type = {
 		2100582,
 		2100601,
 		2100602,
+		2100621,
+		2100622,
 		2200040,
 		2200070,
 		2200130,
@@ -684,6 +690,8 @@ pg.expedition_data_by_map.get_id_list_by_type = {
 		2100592,
 		2100611,
 		2100612,
+		2100631,
+		2100632,
 		2200171
 	},
 	{
@@ -24567,6 +24575,210 @@ end)()
 					},
 					"map_1740007"
 				}
+			}
+		}
+	}
+	pg.base.expedition_data_by_map[2100621] = {
+		map = 2100621,
+		name = "須臾望月抄·前編|| ||CHAPTER EX||E.X.",
+		pos_type = 0,
+		type = 4,
+		anchor = "",
+		title = "EX",
+		drop_by_map_display = "",
+		level_limit = 1,
+		enter_story = "XUYUWANGYUECHAO1",
+		animtor = 1,
+		guide_id = "",
+		ani_name = "Map_1750001",
+		ani_controller = "",
+		default_background = "",
+		on_activity = 0,
+		map_name = "",
+		cloud_suffix = "",
+		story_inactive_color = "",
+		bgm = "theme-unzen",
+		ui_type = 1,
+		bg = "Map_1750001",
+		story_id = "",
+		chapterGroups = "",
+		destory_icon_suffix = "blue",
+		default_bgm = "",
+		uifx = "",
+		bind_map = 2100631,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	}
+	pg.base.expedition_data_by_map[2100622] = {
+		map = 2100622,
+		name = "須臾望月抄·後編|| ||CHAPTER EX||E.X.",
+		pos_type = 0,
+		type = 4,
+		anchor = "",
+		title = "EX",
+		drop_by_map_display = "",
+		level_limit = 1,
+		enter_story = "XUYUWANGYUECHAO12",
+		animtor = 1,
+		guide_id = "",
+		ani_name = "Map_1750002",
+		ani_controller = "",
+		default_background = "",
+		on_activity = 0,
+		map_name = "",
+		cloud_suffix = "",
+		story_inactive_color = "",
+		bgm = "theme-sakuraholyplace",
+		ui_type = 1,
+		bg = "Map_1750002",
+		story_id = "",
+		chapterGroups = "",
+		destory_icon_suffix = "blue",
+		default_bgm = "",
+		uifx = "",
+		bind_map = 2100632,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	}
+	pg.base.expedition_data_by_map[2100631] = {
+		map = 2100631,
+		name = "須臾望月抄·前編|| ||CHAPTER EX||E.X.",
+		pos_type = 0,
+		type = 5,
+		anchor = "",
+		title = "EX",
+		drop_by_map_display = "",
+		level_limit = 1,
+		enter_story = "XUYUWANGYUECHAO1",
+		animtor = 1,
+		guide_id = "",
+		ani_name = "Map_1750003",
+		ani_controller = "",
+		default_background = "",
+		on_activity = 0,
+		map_name = "",
+		cloud_suffix = "",
+		story_inactive_color = "",
+		bgm = "theme-unzen",
+		ui_type = 1,
+		bg = "Map_1750003",
+		story_id = "",
+		chapterGroups = "",
+		destory_icon_suffix = "blue",
+		default_bgm = "",
+		uifx = "",
+		bind_map = 2100621,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	}
+	pg.base.expedition_data_by_map[2100632] = {
+		map = 2100632,
+		name = "須臾望月抄·後編|| ||CHAPTER EX||E.X.",
+		pos_type = 0,
+		type = 5,
+		anchor = "",
+		title = "EX",
+		drop_by_map_display = "",
+		level_limit = 1,
+		enter_story = "XUYUWANGYUECHAO12",
+		animtor = 1,
+		guide_id = "",
+		ani_name = "Map_1750004",
+		ani_controller = "",
+		default_background = "",
+		on_activity = 0,
+		map_name = "",
+		cloud_suffix = "",
+		story_inactive_color = "",
+		bgm = "theme-sakuraholyplace",
+		ui_type = 1,
+		bg = "Map_1750004",
+		story_id = "",
+		chapterGroups = "",
+		destory_icon_suffix = "blue",
+		default_bgm = "",
+		uifx = "",
+		bind_map = 2100622,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
 			}
 		}
 	}

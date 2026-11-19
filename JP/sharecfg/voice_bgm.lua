@@ -82,14 +82,14 @@ pg.base.voice_bgm = {}
 		bgm = "main"
 	}
 	pg.base.voice_bgm.LoginScene = {
-		default_bgm = "theme-25ds-az",
+		default_bgm = "login",
 		special_bgm = "",
-		bgm = "theme-25ds-az"
+		bgm = "login"
 	}
 	pg.base.voice_bgm.NewMainScene = {
-		default_bgm = "theme-25ds-az",
+		default_bgm = "main",
 		special_bgm = "",
-		bgm = "theme-25ds-az"
+		bgm = "main"
 	}
 	pg.base.voice_bgm.HoloLiveLinkGameView = {
 		default_bgm = "holo-fff-inst",
@@ -2554,6 +2554,11 @@ end)()
 		special_bgm = "",
 		bgm = "danmachi-3"
 	}
+	pg.base.voice_bgm.AEBCSStoryPage = {
+		default_bgm = "danmachi-3",
+		special_bgm = "",
+		bgm = "danmachi-3"
+	}
 	pg.base.voice_bgm.ClemenceauMainRePage = {
 		default_bgm = "theme-clemenceau",
 		special_bgm = "",
@@ -2704,13 +2709,13 @@ end)()
 		special_bgm = "",
 		bgm = "story-date-light"
 	}
+end)()
+(function ()
 	pg.base.voice_bgm.HelenaUrExchangePage = {
 		default_bgm = "theme-fushun-adventure",
 		special_bgm = "",
 		bgm = "theme-fushun-adventure"
 	}
-end)()
-(function ()
 	pg.base.voice_bgm.WinterFestival2025SkinMagazinePage = {
 		default_bgm = "story-fantasyland-summer",
 		special_bgm = "",
@@ -3206,13 +3211,13 @@ end)()
 		special_bgm = "",
 		bgm = "nier-ruinscity-a-2"
 	}
+end)()
+(function ()
 	pg.base.voice_bgm.NieRAutomataStagePage = {
 		default_bgm = "nier-ruinscity-b-2",
 		special_bgm = "",
 		bgm = "nier-ruinscity-b-2"
 	}
-end)()
-(function ()
 	pg.base.voice_bgm.NieRAutomataOmenPage = {
 		default_bgm = "nier-ruinscity-a-1",
 		special_bgm = "",
@@ -3443,6 +3448,26 @@ end)()
 		special_bgm = "",
 		bgm = "story-richang"
 	}
+	pg.base.voice_bgm.BlackFriday2026SkinMagazinePage = {
+		default_bgm = "story-fantasyland-light",
+		special_bgm = "",
+		bgm = "story-fantasyland-light"
+	}
+	pg.base.voice_bgm.BlackFriday2026ReturnPage = {
+		default_bgm = "ReturnAwardPage",
+		special_bgm = "",
+		bgm = "ReturnAwardPage"
+	}
+	pg.base.voice_bgm.BlackFriday2026DiscountPage = {
+		default_bgm = "story-villaisland-night",
+		special_bgm = "",
+		bgm = "story-villaisland-night"
+	}
+	pg.base.voice_bgm.BlackFriday2026Page = {
+		default_bgm = "theme-goldensea",
+		special_bgm = "",
+		bgm = "theme-goldensea"
+	}
 	pg.base.voice_bgm.BayardTecCatchupPage = {
 		default_bgm = "theme-designshipVI",
 		special_bgm = "",
@@ -3472,10 +3497,5 @@ end)()
 		default_bgm = "theme-25ds-az",
 		special_bgm = "",
 		bgm = "theme-25ds-az"
-	}
-	pg.base.voice_bgm.AEBCSStoryPage = {
-		default_bgm = "story-richang-lightsweet",
-		special_bgm = "",
-		bgm = "story-richang-lightsweet"
 	}
 end)()

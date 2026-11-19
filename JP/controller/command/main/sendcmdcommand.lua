@@ -5,11 +5,9 @@ slot0.execute = function(slot0, slot1)
 
 	assert(slot2.cmd, "cmd should exist")
 
-	slot3 = slot2.cmd
-	slot4 = slot2.arg1
-	slot5 = pg.ConnectionMgr.GetInstance()
+	slot3 = pg.ConnectionMgr.GetInstance()
 
-	slot5:Send(11100, {
+	slot3:Send(11100, {
 		cmd = slot2.cmd,
 		arg1 = slot2.arg1,
 		arg2 = slot2.arg2,

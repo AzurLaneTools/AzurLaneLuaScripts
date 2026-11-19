@@ -64174,7 +64174,7 @@ end)()
 		name = "戦闘用戦術バイザー",
 		type = 1,
 		preview_hit_distance = 0,
-		icon = "97732",
+		icon = "98641",
 		orbit_rotate = false,
 		orbit_combat = "shebei_yanzhao",
 		ship_config_id = 100011,

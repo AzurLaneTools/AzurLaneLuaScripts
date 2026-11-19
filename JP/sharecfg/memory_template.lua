@@ -4449,6 +4449,9 @@ pg.memory_template.all = {
 	5625,
 	5631,
 	5632,
+	5641,
+	5642,
+	5643,
 	10000,
 	10001,
 	10002,
@@ -6091,7 +6094,7 @@ pg.base.memory_template = {}
 		title = "序",
 		condition = "『紅染の来訪者・上』開始",
 		story = "GUOQING1",
-		mask = "bg/bg_memory_shuanghe",
+		mask = "bg/bg_memory",
 		task = 0,
 		year = 0,
 		id = 114,
@@ -6109,7 +6112,7 @@ pg.base.memory_template = {}
 		title = "嵐の果て・上",
 		condition = "『紅染の来訪者』A1/C1開始",
 		story = "GUOQING3",
-		mask = "bg/bg_memory_shuanghe",
+		mask = "bg/bg_memory",
 		task = 0,
 		year = 0,
 		id = 115,
@@ -6127,7 +6130,7 @@ pg.base.memory_template = {}
 		title = "嵐の果て・下",
 		condition = "『紅染の来訪者』A1/C1ボス発見",
 		story = "GUOQING4",
-		mask = "bg/bg_memory_shuanghe",
+		mask = "bg/bg_memory",
 		task = 0,
 		year = 0,
 		id = 116,
@@ -6145,7 +6148,7 @@ pg.base.memory_template = {}
 		title = "断章",
 		condition = "『紅染の来訪者』A1/C1クリア",
 		story = "GUOQING5",
-		mask = "bg/bg_memory_shuanghe",
+		mask = "bg/bg_memory",
 		task = 0,
 		year = 0,
 		id = 117,
@@ -6163,7 +6166,7 @@ pg.base.memory_template = {}
 		title = "救難信号の向こう・上",
 		condition = "『紅染の来訪者』A2/C2開始",
 		story = "GUOQING6",
-		mask = "bg/bg_memory_shuanghe",
+		mask = "bg/bg_memory",
 		task = 0,
 		year = 0,
 		id = 118,
@@ -6181,7 +6184,7 @@ pg.base.memory_template = {}
 		title = "救難信号の向こう・下",
 		condition = "『紅染の来訪者』A2/C2ボス発見",
 		story = "GUOQING7",
-		mask = "bg/bg_memory_shuanghe",
+		mask = "bg/bg_memory",
 		task = 0,
 		year = 0,
 		id = 119,
@@ -6199,7 +6202,7 @@ pg.base.memory_template = {}
 		title = "回想",
 		condition = "『紅染の来訪者』A3/C3開始",
 		story = "GUOQING8",
-		mask = "bg/bg_memory_shuanghe",
+		mask = "bg/bg_memory",
 		task = 0,
 		year = 0,
 		id = 120,
@@ -6217,7 +6220,7 @@ pg.base.memory_template = {}
 		title = "聖域の守り人・上",
 		condition = "『紅染の来訪者』A3/C3ボス発見",
 		story = "GUOQING9",
-		mask = "bg/bg_memory_shuanghe",
+		mask = "bg/bg_memory",
 		task = 0,
 		year = 0,
 		id = 121,
@@ -6235,7 +6238,7 @@ pg.base.memory_template = {}
 		title = "聖域の守り人・下",
 		condition = "『紅染の来訪者』A3/C3クリア",
 		story = "GUOQING10",
-		mask = "bg/bg_memory_shuanghe",
+		mask = "bg/bg_memory",
 		task = 0,
 		year = 0,
 		id = 122,
@@ -6253,7 +6256,7 @@ pg.base.memory_template = {}
 		title = "断章-2",
 		condition = "『紅染の来訪者・下』開始",
 		story = "GUOQING11",
-		mask = "bg/bg_memory_shuanghe",
+		mask = "bg/bg_memory",
 		task = 0,
 		year = 0,
 		id = 123,
@@ -6271,7 +6274,7 @@ pg.base.memory_template = {}
 		title = "「幸運艦」・上",
 		condition = "『紅染の来訪者』B1/D1ボス発見",
 		story = "GUOQING12",
-		mask = "bg/bg_memory_shuanghe",
+		mask = "bg/bg_memory",
 		task = 0,
 		year = 0,
 		id = 124,
@@ -6289,7 +6292,7 @@ pg.base.memory_template = {}
 		title = "「幸運艦」・下",
 		condition = "『紅染の来訪者』B1/D1クリア",
 		story = "GUOQING13",
-		mask = "bg/bg_memory_shuanghe",
+		mask = "bg/bg_memory",
 		task = 0,
 		year = 0,
 		id = 125,
@@ -6307,7 +6310,7 @@ pg.base.memory_template = {}
 		title = "「姉妹」の絆・上",
 		condition = "『紅染の来訪者』B2/D2開始",
 		story = "GUOQING14",
-		mask = "bg/bg_memory_shuanghe",
+		mask = "bg/bg_memory",
 		task = 0,
 		year = 0,
 		id = 126,
@@ -6325,7 +6328,7 @@ pg.base.memory_template = {}
 		title = "「姉妹」の絆・中",
 		condition = "『紅染の来訪者』B2/D2ボス発見",
 		story = "GUOQING15",
-		mask = "bg/bg_memory_shuanghe",
+		mask = "bg/bg_memory",
 		task = 0,
 		year = 0,
 		id = 127,
@@ -6343,7 +6346,7 @@ pg.base.memory_template = {}
 		title = "「姉妹」の絆・下",
 		condition = "『紅染の来訪者』B2/D2クリア",
 		story = "GUOQING16",
-		mask = "bg/bg_memory_shuanghe",
+		mask = "bg/bg_memory",
 		task = 0,
 		year = 0,
 		id = 128,
@@ -6361,7 +6364,7 @@ pg.base.memory_template = {}
 		title = "紅染の守護者・上",
 		condition = "『紅染の来訪者』B3/D3開始",
 		story = "GUOQING17",
-		mask = "bg/bg_memory_shuanghe",
+		mask = "bg/bg_memory",
 		task = 0,
 		year = 0,
 		id = 129,
@@ -6379,7 +6382,7 @@ pg.base.memory_template = {}
 		title = "紅染の守護者・中",
 		condition = "『紅染の来訪者』B3/D3ボス発見",
 		story = "GUOQING18",
-		mask = "bg/bg_memory_shuanghe",
+		mask = "bg/bg_memory",
 		task = 0,
 		year = 0,
 		id = 130,
@@ -6397,7 +6400,7 @@ pg.base.memory_template = {}
 		title = "紅染の守護者・下",
 		condition = "『紅染の来訪者』B3/D3クリア",
 		story = "GUOQING19",
-		mask = "bg/bg_memory_shuanghe",
+		mask = "bg/bg_memory",
 		task = 0,
 		year = 0,
 		id = 131,
@@ -84853,6 +84856,60 @@ end)()
 			"TIANSHIMENDEBILANWUTAIRICHANG2"
 		}
 	}
+	pg.base.memory_template[5641] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "未熟な検査見習い",
+		condition = "「着せ替え特集：ナイトコール」ナポリのストーリーを開放",
+		story = "SHISHANGTEKANXINDONGZHENLIAOSHIJIAN1",
+		mask = "bg/bg_memory",
+		task = 0,
+		year = 0,
+		id = 5641,
+		icon = "memory_gangqushishangtekan",
+		is_open = 0,
+		unlock_pre = {
+			"SHISHANGTEKANXINDONGZHENLIAOSHIJIAN1"
+		}
+	}
+	pg.base.memory_template[5642] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "診療タイムの交わり",
+		condition = "「着せ替え特集：ナイトコール」ニューオリンズのストーリーを開放",
+		story = "SHISHANGTEKANXINDONGZHENLIAOSHIJIAN2",
+		mask = "bg/bg_memory",
+		task = 0,
+		year = 0,
+		id = 5642,
+		icon = "memory_gangqushishangtekan",
+		is_open = 0,
+		unlock_pre = {
+			"SHISHANGTEKANXINDONGZHENLIAOSHIJIAN2"
+		}
+	}
+	pg.base.memory_template[5643] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "幸ある純白の囁き",
+		condition = "「着せ替え特集：ナイトコール」パンルヴェのストーリーを開放",
+		story = "SHISHANGTEKANXINDONGZHENLIAOSHIJIAN3",
+		mask = "bg/bg_memory",
+		task = 0,
+		year = 0,
+		id = 5643,
+		icon = "memory_gangqushishangtekan",
+		is_open = 0,
+		unlock_pre = {
+			"SHISHANGTEKANXINDONGZHENLIAOSHIJIAN3"
+		}
+	}
 	pg.base.memory_template[10000] = {
 		ship_group = 0,
 		subtitle = "",
@@ -85789,6 +85846,8 @@ end)()
 			"YINGHUA1"
 		}
 	}
+end)()
+(function ()
 	pg.base.memory_template[10052] = {
 		ship_group = 0,
 		subtitle = "",
@@ -85843,8 +85902,6 @@ end)()
 			"YINGHUA4"
 		}
 	}
-end)()
-(function ()
 	pg.base.memory_template[10055] = {
 		ship_group = 0,
 		subtitle = "",
@@ -87591,6 +87648,8 @@ end)()
 			"LINGHANGYUANTANXIN19"
 		}
 	}
+end)()
+(function ()
 	pg.base.memory_template[20071] = {
 		ship_group = 0,
 		subtitle = "",
@@ -87645,8 +87704,6 @@ end)()
 			"LINGHANGYUANTANXIN22"
 		}
 	}
-end)()
-(function ()
 	pg.base.memory_template[20074] = {
 		ship_group = 0,
 		subtitle = "",
@@ -89393,6 +89450,8 @@ end)()
 			"TANSUOZHEYANGCHENGJIHUA22"
 		}
 	}
+end)()
+(function ()
 	pg.base.memory_template[20172] = {
 		ship_group = 0,
 		subtitle = "",
@@ -89447,8 +89506,6 @@ end)()
 			"TANSUOZHEYANGCHENGJIHUA25"
 		}
 	}
-end)()
-(function ()
 	pg.base.memory_template[20175] = {
 		ship_group = 0,
 		subtitle = "",

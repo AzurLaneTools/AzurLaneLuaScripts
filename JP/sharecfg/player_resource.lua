@@ -581,6 +581,10 @@ pg.player_resource.all = {
 	768,
 	777,
 	778,
+	783,
+	784,
+	785,
+	786,
 	760,
 	761,
 	762,
@@ -674,6 +678,7 @@ pg.player_resource.all = {
 	4024,
 	4101,
 	4102,
+	4106,
 	4025,
 	4026,
 	4027,
@@ -811,6 +816,9 @@ pg.player_resource.get_id_list_by_name = {
 	},
 	Battlepass_black_friday = {
 		4101
+	},
+	Battlepass_black_friday2026 = {
+		4106
 	},
 	Battlepass_winter = {
 		4102
@@ -1420,6 +1428,15 @@ pg.player_resource.get_id_list_by_name = {
 	},
 	limit_skinticket13 = {
 		472
+	},
+	limit_skinticket130 = {
+		783
+	},
+	limit_skinticket131 = {
+		784
+	},
+	limit_skinticket132 = {
+		785
 	},
 	limit_skinticket14 = {
 		473
@@ -2032,6 +2049,9 @@ pg.player_resource.get_id_list_by_name = {
 	},
 	skinTicket127 = {
 		770
+	},
+	skinTicket129 = {
+		786
 	},
 	skinTicket13 = {
 		184
@@ -5754,6 +5774,26 @@ end)()
 		name = "battery_nico",
 		itemid = 68756
 	}
+	pg.base.player_resource[783] = {
+		id = 783,
+		name = "limit_skinticket130",
+		itemid = 68400
+	}
+	pg.base.player_resource[784] = {
+		id = 784,
+		name = "limit_skinticket131",
+		itemid = 68401
+	}
+	pg.base.player_resource[785] = {
+		id = 785,
+		name = "limit_skinticket132",
+		itemid = 68402
+	}
+	pg.base.player_resource[786] = {
+		id = 786,
+		name = "skinTicket129",
+		itemid = 67005
+	}
 	pg.base.player_resource[760] = {
 		id = 760,
 		name = "limit_skinticket118",
@@ -5844,6 +5884,8 @@ end)()
 		name = "contribution_worldboss624",
 		itemid = 60057
 	}
+end)()
+(function ()
 	pg.base.player_resource[2007] = {
 		id = 2007,
 		name = "worldboss624_ticket",
@@ -5864,8 +5906,6 @@ end)()
 		name = "contribution_worldboss127",
 		itemid = 59265
 	}
-end)()
-(function ()
 	pg.base.player_resource[2011] = {
 		id = 2011,
 		name = "worldboss127_ticket",
@@ -6221,6 +6261,11 @@ end)()
 		name = "Battlepass_winter",
 		itemid = 65112
 	}
+	pg.base.player_resource[4106] = {
+		id = 4106,
+		name = "Battlepass_black_friday2026",
+		itemid = 65122
+	}
 	pg.base.player_resource[4025] = {
 		id = 4025,
 		name = "Battlepass_25",
@@ -6341,6 +6386,8 @@ end)()
 		name = "skinTicket40588",
 		itemid = 59301
 	}
+end)()
+(function ()
 	pg.base.player_resource[40614] = {
 		id = 40614,
 		name = "contribution_worldboss_tw411",
@@ -6366,8 +6413,6 @@ end)()
 		name = "skinTicket40713",
 		itemid = 80010
 	}
-end)()
-(function ()
 	pg.base.player_resource[40730] = {
 		id = 40730,
 		name = "skinTicket40730",

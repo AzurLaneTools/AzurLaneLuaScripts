@@ -49,14 +49,13 @@ slot0.LoadAsset = function(slot0, slot1, slot2, slot3, slot4, slot5)
 
 	if slot3 then
 		AssetBundleHelper.LoadAssetBundle(slot6, slot3, true, function (slot0)
-			slot1 = AssetBundleHelper.LoadAssetBundle(uv0, uv1, true)
-			slot2 = true
+			slot1 = true
 
-			if uv2 ~= "" then
-				slot2 = table.contains(slot1:GetAllAssetNames(), slot1:ChangeAssetName(uv3))
+			if uv0 ~= "" then
+				slot1 = table.contains(slot0:GetAllAssetNames(), slot0:ChangeAssetName(uv1))
 			end
 
-			slot1:LoadAssetAsync(slot2 and uv3 or uv2, uv4, function (slot0)
+			slot0:LoadAssetAsync(slot1 and uv1 or uv0, uv2, function (slot0)
 				uv0(slot0)
 				uv1.AutoUnloadAssetBundle(uv2, uv3)
 			end, false, false)

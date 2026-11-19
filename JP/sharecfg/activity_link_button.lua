@@ -35,7 +35,8 @@ pg.activity_link_button.all = {
 	115,
 	116,
 	121,
-	122
+	122,
+	129
 }
 pg.activity_link_button.get_id_list_by_name = {
 	event_Atelier = {
@@ -70,7 +71,8 @@ pg.activity_link_button.get_id_list_by_name = {
 	event_core_2 = {
 		110,
 		113,
-		115
+		115,
+		129
 	},
 	event_dreamland = {
 		103
@@ -584,6 +586,20 @@ pg.base.activity_link_button = {}
 		time = {
 			"default",
 			51130
+		}
+	}
+	pg.base.activity_link_button[129] = {
+		param = "BlackFriday2026CoreActivityUI",
+		name = "event_core_2",
+		text_pic = "text_event_core2",
+		type = 16,
+		pic = "event_20261119",
+		id = 129,
+		group_id = 1,
+		order = 1,
+		time = {
+			"default",
+			50662
 		}
 	}
 end)()

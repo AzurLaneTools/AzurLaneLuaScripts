@@ -12347,6 +12347,86 @@ pg.activity_ins_chat_language.all = {
 	12427,
 	12428,
 	12429,
+	12759,
+	12760,
+	12761,
+	12762,
+	12763,
+	12764,
+	12765,
+	12766,
+	12767,
+	12768,
+	12769,
+	12770,
+	12771,
+	12772,
+	12773,
+	12774,
+	12775,
+	12776,
+	12777,
+	12778,
+	12779,
+	12780,
+	12781,
+	12782,
+	12783,
+	12784,
+	12785,
+	12786,
+	12787,
+	12788,
+	12789,
+	12790,
+	12791,
+	12792,
+	12793,
+	12794,
+	12795,
+	12796,
+	12797,
+	12798,
+	12799,
+	12800,
+	12801,
+	12802,
+	12803,
+	12804,
+	12805,
+	12806,
+	12807,
+	12808,
+	12809,
+	12810,
+	12811,
+	12812,
+	12813,
+	12814,
+	12815,
+	12816,
+	12817,
+	12818,
+	12819,
+	12820,
+	12821,
+	12822,
+	12823,
+	12824,
+	12825,
+	12826,
+	12827,
+	12828,
+	12829,
+	12830,
+	12831,
+	12832,
+	12833,
+	12834,
+	12835,
+	12836,
+	12837,
+	12838,
 	12430,
 	12431,
 	12432,
@@ -120993,6 +121073,713 @@ end)()
 		id = 12429,
 		flag = 5
 	}
+	pg.base.activity_ins_chat_language[12759] = {
+		param = "おはよう……指揮官",
+		ship_group = 20606,
+		option = "",
+		type = 1,
+		id = 12759,
+		flag = 0
+	}
+	pg.base.activity_ins_chat_language[12760] = {
+		param = "起きてる？",
+		ship_group = 20606,
+		option = "",
+		type = 1,
+		id = 12760,
+		flag = 0
+	}
+	pg.base.activity_ins_chat_language[12761] = {
+		param = "……",
+		ship_group = 20606,
+		option = "",
+		type = 1,
+		id = 12761,
+		flag = 0
+	}
+	pg.base.activity_ins_chat_language[12762] = {
+		param = "……「早起きの鳥は虫を捕らえる」って言うけど、指揮官は餓死する方の鳥みたいね",
+		ship_group = 20606,
+		type = 1,
+		id = 12762,
+		flag = 0,
+		option = {
+			{
+				1,
+				"ずいぶん直球だな"
+			}
+		}
+	}
+	pg.base.activity_ins_chat_language[12763] = {
+		param = "ずいぶん直球だな……",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 12763,
+		flag = 1
+	}
+	pg.base.activity_ins_chat_language[12764] = {
+		param = "顔を洗ってたから見れてなかっただけだよ",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 12764,
+		flag = 1
+	}
+	pg.base.activity_ins_chat_language[12765] = {
+		param = "そう……",
+		ship_group = 20606,
+		option = "",
+		type = 1,
+		id = 12765,
+		flag = 1
+	}
+	pg.base.activity_ins_chat_language[12766] = {
+		param = "まあ、寝坊したくらいで本当に餓死はしないでしょうけど",
+		ship_group = 20606,
+		option = "",
+		type = 1,
+		id = 12766,
+		flag = 1
+	}
+	pg.base.activity_ins_chat_language[12767] = {
+		param = "その鳥が、飛ぶのすら面倒くさがるようなら…話は別だけど",
+		ship_group = 20606,
+		type = 1,
+		id = 12767,
+		flag = 1,
+		option = {
+			{
+				2,
+				"どういう意味？"
+			}
+		}
+	}
+	pg.base.activity_ins_chat_language[12768] = {
+		param = "どういう意味？",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 12768,
+		flag = 2
+	}
+	pg.base.activity_ins_chat_language[12769] = {
+		param = "……誰かが鳥の仕事場に、パンと牛乳を置いていったみたいよ",
+		ship_group = 20606,
+		option = "",
+		type = 1,
+		id = 12769,
+		flag = 2
+	}
+	pg.base.activity_ins_chat_language[12770] = {
+		param = "大したごちそうじゃないけど、少なくとも賞味期限は切れてないわ",
+		ship_group = 20606,
+		option = "",
+		type = 1,
+		id = 12770,
+		flag = 2
+	}
+	pg.base.activity_ins_chat_language[12771] = {
+		param = "……たぶん",
+		ship_group = 20606,
+		type = 1,
+		id = 12771,
+		flag = 2,
+		option = {
+			{
+				3,
+				"パーシュースが…"
+			}
+		}
+	}
+	pg.base.activity_ins_chat_language[12772] = {
+		param = "パーシュースが差し入れてくれたの？",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 12772,
+		flag = 3
+	}
+	pg.base.activity_ins_chat_language[12773] = {
+		param = "キッチンに寄ったついでに準備しただけよ。食べるなら早く来て",
+		ship_group = 20606,
+		option = "",
+		type = 1,
+		id = 12773,
+		flag = 3
+	}
+	pg.base.activity_ins_chat_language[12774] = {
+		param = "ん……？思ったより早く来そうね…",
+		ship_group = 20606,
+		type = 1,
+		id = 12774,
+		flag = 3,
+		option = {
+			{
+				4,
+				"もしかして…"
+			}
+		}
+	}
+	pg.base.activity_ins_chat_language[12775] = {
+		param = "もしかしてこっちを観察してる…？",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 12775,
+		flag = 4
+	}
+	pg.base.activity_ins_chat_language[12776] = {
+		param = "……",
+		ship_group = 20606,
+		option = "",
+		type = 1,
+		id = 12776,
+		flag = 4
+	}
+	pg.base.activity_ins_chat_language[12777] = {
+		param = "たまたま目に入っただけ",
+		ship_group = 20606,
+		option = "",
+		type = 1,
+		id = 12777,
+		flag = 4
+	}
+	pg.base.activity_ins_chat_language[12778] = {
+		param = "わざわざ観察してるわけじゃないわ",
+		ship_group = 20606,
+		option = "",
+		type = 1,
+		id = 12778,
+		flag = 4
+	}
+	pg.base.activity_ins_chat_language[12779] = {
+		param = "それを食べた後、少し休んでから仕事を始めてもらっても構わない",
+		ship_group = 20606,
+		option = "",
+		type = 1,
+		id = 12779,
+		flag = 4
+	}
+	pg.base.activity_ins_chat_language[12780] = {
+		param = "期限が近い分は先に片付けておいたから",
+		ship_group = 20606,
+		option = "",
+		type = 1,
+		id = 12780,
+		flag = 4
+	}
+	pg.base.activity_ins_chat_language[12781] = {
+		param = "指揮官は今日、安心して怠け者の鳥でいられるわね",
+		ship_group = 20606,
+		option = "",
+		type = 1,
+		id = 12781,
+		flag = 4
+	}
+	pg.base.activity_ins_chat_language[12782] = {
+		param = "……",
+		ship_group = 20606,
+		option = "",
+		type = 1,
+		id = 12782,
+		flag = 0
+	}
+	pg.base.activity_ins_chat_language[12783] = {
+		param = "指揮官いるかしら？",
+		ship_group = 20606,
+		type = 1,
+		id = 12783,
+		flag = 0,
+		option = {
+			{
+				1,
+				"いるよ"
+			}
+		}
+	}
+	pg.base.activity_ins_chat_language[12784] = {
+		param = "いるよ、どうしたの？",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 12784,
+		flag = 1
+	}
+	pg.base.activity_ins_chat_language[12785] = {
+		param = "……別に。いるかどうか確かめたかっただけ",
+		ship_group = 20606,
+		option = "",
+		type = 1,
+		id = 12785,
+		flag = 1
+	}
+	pg.base.activity_ins_chat_language[12786] = {
+		param = "今日のお茶会に指揮官も来てたでしょ",
+		ship_group = 20606,
+		option = "",
+		type = 1,
+		id = 12786,
+		flag = 1
+	}
+	pg.base.activity_ins_chat_language[12787] = {
+		param = "みんな楽しそうだったわね",
+		ship_group = 20606,
+		option = "",
+		type = 1,
+		id = 12787,
+		flag = 1
+	}
+	pg.base.activity_ins_chat_language[12788] = {
+		param = "冗談を言うのが上手みたいで…",
+		ship_group = 20606,
+		option = "",
+		type = 1,
+		id = 12788,
+		flag = 1
+	}
+	pg.base.activity_ins_chat_language[12789] = {
+		param = "いいわね……",
+		ship_group = 20606,
+		type = 1,
+		id = 12789,
+		flag = 1,
+		option = {
+			{
+				2,
+				"パーシュースもいたよね？"
+			}
+		}
+	}
+	pg.base.activity_ins_chat_language[12790] = {
+		param = "パーシュースもいたよね？あまり見かけなかったけど…",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 12790,
+		flag = 2
+	}
+	pg.base.activity_ins_chat_language[12791] = {
+		param = "うん……",
+		ship_group = 20606,
+		option = "",
+		type = 1,
+		id = 12791,
+		flag = 2
+	}
+	pg.base.activity_ins_chat_language[12792] = {
+		param = "ずっと隅に座ってた",
+		ship_group = 20606,
+		option = "",
+		type = 1,
+		id = 12792,
+		flag = 2
+	}
+	pg.base.activity_ins_chat_language[12793] = {
+		param = "ただお茶を飲んで、お菓子を食べてたわ",
+		ship_group = 20606,
+		type = 1,
+		id = 12793,
+		flag = 2,
+		option = {
+			{
+				3,
+				"おしゃべりしなかったの？"
+			}
+		}
+	}
+	pg.base.activity_ins_chat_language[12794] = {
+		param = "みんなとおしゃべりしなかったの？",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 12794,
+		flag = 3
+	}
+	pg.base.activity_ins_chat_language[12795] = {
+		param = "……どこから入ればいいか分からないもの",
+		ship_group = 20606,
+		option = "",
+		type = 1,
+		id = 12795,
+		flag = 3
+	}
+	pg.base.activity_ins_chat_language[12796] = {
+		param = "どう切り出すか心の中で考えてはいるけど",
+		ship_group = 20606,
+		option = "",
+		type = 1,
+		id = 12796,
+		flag = 3
+	}
+	pg.base.activity_ins_chat_language[12797] = {
+		param = "口に出そうと思った時には、話題が変わって置いてかれて……",
+		ship_group = 20606,
+		type = 1,
+		id = 12797,
+		flag = 3,
+		option = {
+			{
+				4,
+				"みんなの輪に入りたい？"
+			}
+		}
+	}
+	pg.base.activity_ins_chat_language[12798] = {
+		param = "みんなの輪に入りたい？",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 12798,
+		flag = 4
+	}
+	pg.base.activity_ins_chat_language[12799] = {
+		param = "……",
+		ship_group = 20606,
+		option = "",
+		type = 1,
+		id = 12799,
+		flag = 4
+	}
+	pg.base.activity_ins_chat_language[12800] = {
+		param = "……分からない",
+		ship_group = 20606,
+		option = "",
+		type = 1,
+		id = 12800,
+		flag = 4
+	}
+	pg.base.activity_ins_chat_language[12801] = {
+		param = "今のままでも別に困ってないし",
+		ship_group = 20606,
+		option = "",
+		type = 1,
+		id = 12801,
+		flag = 4
+	}
+	pg.base.activity_ins_chat_language[12802] = {
+		param = "どうしても混ざりたいわけでもないと思うわ",
+		ship_group = 20606,
+		option = "",
+		type = 1,
+		id = 12802,
+		flag = 4
+	}
+	pg.base.activity_ins_chat_language[12803] = {
+		param = "ただ、思ったことをそのまま口に出せる人はすごいと思うだけ",
+		ship_group = 20606,
+		option = "",
+		type = 1,
+		id = 12803,
+		flag = 4
+	}
+	pg.base.activity_ins_chat_language[12804] = {
+		param = "みんな当たり前のように言いたいことを……全部言葉にしてるというか",
+		ship_group = 20606,
+		option = "",
+		type = 1,
+		id = 12804,
+		flag = 4
+	}
+	pg.base.activity_ins_chat_language[12805] = {
+		param = "私みたいに、一言一言を延々と考えたりしない",
+		ship_group = 20606,
+		type = 1,
+		id = 12805,
+		flag = 4,
+		option = {
+			{
+				5,
+				"今はちゃんと話せてるよ"
+			}
+		}
+	}
+	pg.base.activity_ins_chat_language[12806] = {
+		param = "今はちゃんと話せてるよ",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 12806,
+		flag = 5
+	}
+	pg.base.activity_ins_chat_language[12807] = {
+		param = "たぶん……相手が指揮官だからでしょ",
+		ship_group = 20606,
+		option = "",
+		type = 1,
+		id = 12807,
+		flag = 5
+	}
+	pg.base.activity_ins_chat_language[12808] = {
+		param = "……今日は喋りすぎた。もう気力が尽きたわ",
+		ship_group = 20606,
+		option = "",
+		type = 1,
+		id = 12808,
+		flag = 5
+	}
+	pg.base.activity_ins_chat_language[12809] = {
+		param = "とにかく、もう寝るから",
+		ship_group = 20606,
+		option = "",
+		type = 1,
+		id = 12809,
+		flag = 5
+	}
+	pg.base.activity_ins_chat_language[12810] = {
+		param = "おやすみ",
+		ship_group = 20606,
+		option = "",
+		type = 1,
+		id = 12810,
+		flag = 5
+	}
+	pg.base.activity_ins_chat_language[12811] = {
+		param = "指揮官、まだ起きてる？",
+		ship_group = 20606,
+		option = "",
+		type = 1,
+		id = 12811,
+		flag = 0
+	}
+	pg.base.activity_ins_chat_language[12812] = {
+		param = "寝たなら返事しなくていいわよ",
+		ship_group = 20606,
+		type = 1,
+		id = 12812,
+		flag = 0,
+		option = {
+			{
+				1,
+				"まだ起きてるよ"
+			}
+		}
+	}
+	pg.base.activity_ins_chat_language[12813] = {
+		param = "まだ起きてるよ。どうしたの？",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 12813,
+		flag = 1
+	}
+	pg.base.activity_ins_chat_language[12814] = {
+		param = "……別に",
+		ship_group = 20606,
+		option = "",
+		type = 1,
+		id = 12814,
+		flag = 1
+	}
+	pg.base.activity_ins_chat_language[12815] = {
+		param = "あなたがいるってことが分かればそれで十分よ",
+		ship_group = 20606,
+		option = "",
+		type = 1,
+		id = 12815,
+		flag = 1
+	}
+end)()
+(function ()
+	pg.base.activity_ins_chat_language[12816] = {
+		param = "今日はずっと忙しそうだったから",
+		ship_group = 20606,
+		option = "",
+		type = 1,
+		id = 12816,
+		flag = 1
+	}
+	pg.base.activity_ins_chat_language[12817] = {
+		param = "私が急に話しかけたら邪魔になるかもって思って",
+		ship_group = 20606,
+		type = 1,
+		id = 12817,
+		flag = 1,
+		option = {
+			{
+				2,
+				"気にしないでいいのに"
+			}
+		}
+	}
+	pg.base.activity_ins_chat_language[12818] = {
+		param = "気にしないでいいのに。いつでも話しかけて",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 12818,
+		flag = 2
+	}
+	pg.base.activity_ins_chat_language[12819] = {
+		param = "……本当？",
+		ship_group = 20606,
+		option = "",
+		type = 1,
+		id = 12819,
+		flag = 2
+	}
+	pg.base.activity_ins_chat_language[12820] = {
+		param = "うまい言い方が思いつかなくて、急に黙ることがあってもいいの？",
+		ship_group = 20606,
+		option = "",
+		type = 1,
+		id = 12820,
+		flag = 2
+	}
+	pg.base.activity_ins_chat_language[12821] = {
+		param = "じゃあ……指揮官は指揮官のやりたいことをしてて。私はこのまま起きてるから",
+		ship_group = 20606,
+		option = "",
+		type = 1,
+		id = 12821,
+		flag = 2
+	}
+	pg.base.activity_ins_chat_language[12822] = {
+		param = "話したいとき、たまに返してくれればそれでいいから",
+		ship_group = 20606,
+		type = 1,
+		id = 12822,
+		flag = 2,
+		option = {
+			{
+				3,
+				"わかった"
+			}
+		}
+	}
+	pg.base.activity_ins_chat_language[12823] = {
+		param = "わかった",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 12823,
+		flag = 3
+	}
+	pg.base.activity_ins_chat_language[12824] = {
+		param = "……うん",
+		ship_group = 20606,
+		option = "",
+		type = 1,
+		id = 12824,
+		flag = 3
+	}
+	pg.base.activity_ins_chat_language[12825] = {
+		param = "指揮官、まだいる？",
+		ship_group = 20606,
+		type = 1,
+		id = 12825,
+		flag = 3,
+		option = {
+			{
+				4,
+				"いるよ"
+			}
+		}
+	}
+	pg.base.activity_ins_chat_language[12826] = {
+		param = "いるよ",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 12826,
+		flag = 4
+	}
+	pg.base.activity_ins_chat_language[12827] = {
+		param = "……本当にいるのね",
+		ship_group = 20606,
+		option = "",
+		type = 1,
+		id = 12827,
+		flag = 4
+	}
+	pg.base.activity_ins_chat_language[12828] = {
+		param = "前までは誰かと一緒にいるとき",
+		ship_group = 20606,
+		option = "",
+		type = 1,
+		id = 12828,
+		flag = 4
+	}
+	pg.base.activity_ins_chat_language[12829] = {
+		param = "黙ってると、いたたまれなくなって",
+		ship_group = 20606,
+		option = "",
+		type = 1,
+		id = 12829,
+		flag = 4
+	}
+	pg.base.activity_ins_chat_language[12830] = {
+		param = "何か言ったほうがいいのかって、ずっと考えるんだけど",
+		ship_group = 20606,
+		option = "",
+		type = 1,
+		id = 12830,
+		flag = 4
+	}
+	pg.base.activity_ins_chat_language[12831] = {
+		param = "考えるほど緊張して、結局その場から逃げちゃってた",
+		ship_group = 20606,
+		option = "",
+		type = 1,
+		id = 12831,
+		flag = 4
+	}
+	pg.base.activity_ins_chat_language[12832] = {
+		param = "でも指揮官と一緒だと、沈黙の時間があっても安心できるの",
+		ship_group = 20606,
+		option = "",
+		type = 1,
+		id = 12832,
+		flag = 4
+	}
+	pg.base.activity_ins_chat_language[12833] = {
+		param = "いちいち悩まなくてもいい場所をやっと見つけられたみたい",
+		ship_group = 20606,
+		option = "",
+		type = 1,
+		id = 12833,
+		flag = 4
+	}
+	pg.base.activity_ins_chat_language[12834] = {
+		param = "うぅ……頭が回ってないせいで、普段なら言わないことまで言ってる",
+		ship_group = 20606,
+		option = "",
+		type = 1,
+		id = 12834,
+		flag = 4
+	}
+	pg.base.activity_ins_chat_language[12835] = {
+		param = "まあ、相手が指揮官なら……何を言ってもいいよね…",
+		ship_group = 20606,
+		option = "",
+		type = 1,
+		id = 12835,
+		flag = 4
+	}
+	pg.base.activity_ins_chat_language[12836] = {
+		param = "……ちょっとわがままかしら",
+		ship_group = 20606,
+		option = "",
+		type = 1,
+		id = 12836,
+		flag = 4
+	}
+	pg.base.activity_ins_chat_language[12837] = {
+		param = "もういいわ。私をこんな……あなたに頼りっぱなしで、わがままを言う子にしたんだから",
+		ship_group = 20606,
+		option = "",
+		type = 1,
+		id = 12837,
+		flag = 4
+	}
+	pg.base.activity_ins_chat_language[12838] = {
+		param = "ちゃんと責任……取ってよね",
+		ship_group = 20606,
+		option = "",
+		type = 1,
+		id = 12838,
+		flag = 4
+	}
 	pg.base.activity_ins_chat_language[12430] = {
 		param = "指揮官、深夜の海原を見つめしことは？",
 		ship_group = 89902,
@@ -121486,8 +122273,6 @@ end)()
 		id = 12486,
 		flag = 4
 	}
-end)()
-(function ()
 	pg.base.activity_ins_chat_language[12487] = {
 		param = "雨音が……シャンパーニュに代わりて窓をそっと叩き、胸の内にあり、繰り返し続けている言葉を伝えてほしい",
 		ship_group = 89902,
@@ -121662,6 +122447,8 @@ end)()
 		id = 12506,
 		flag = 3
 	}
+end)()
+(function ()
 	pg.base.activity_ins_chat_language[12507] = {
 		param = "明日を確かめられるとともに、シャンパーニュの存在もまた確かめられる",
 		ship_group = 89902,

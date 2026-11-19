@@ -12945,17 +12945,17 @@ _G.pg.base.gametip.buildship_new_tip = {
 
 
 _G.pg.base.gametip.buildship_heavy_tip = {
-	tip = "「クレマンソー」「リヨン」「シュフラン」常設実装！ "
+	tip = "「雲仙」「尾張」常設実装！"
 }
 
 
 _G.pg.base.gametip.buildship_light_tip = {
-	tip = "「ギシャン」常設実装！"
+	tip = "「初月」「名取」常設実装！"
 }
 
 
 _G.pg.base.gametip.buildship_special_tip = {
-	tip = "「パンルヴェ」常設実装！"
+	tip = "「雲仙」常設実装！"
 }
 
 
@@ -41348,6 +41348,11 @@ _G.pg.base.gametip.shop_new_able_to_exchange = {
 }
 
 
+_G.pg.base.gametip.shop_new_able_to_exchange_1 = {
+	tip = "割引販売一覧"
+}
+
+
 _G.pg.base.gametip.shop_countdown = {
 	tip = "$1日$2時間$3分後に終了"
 }
@@ -52923,6 +52928,35 @@ _G.pg.base.gametip.resource_repair_finish_tips = {
 
 _G.pg.base.gametip.windfog_skin_stroy_finish = {
 	tip = "ストーリー全部確認して入手"
+}
+
+
+_G.pg.base.gametip.SkinDiscountHelp_BlackFriday2026 = {
+	tip = {
+		{
+			info = "1.活动期间，以<color=#92fc63>原价</color>（不使用换装折扣券）购买一件黑五返场换装或一个换装礼盒(黑五)时，可领取一张<color=#92fc63>换装折扣券（黑五）</color>\n2.<color=#92fc63>换装折扣券（黑五）</color>可用于购买黑五返场任意换装时抵扣300钻石（购买福袋时不可抵扣）\n3.未使用的<color=#92fc63>换装折扣券（黑五）</color>将会在活动结束后（2026年12月9日23:59:59）消失"
+		}
+	}
+}
+
+
+_G.pg.base.gametip.blackfriday_luckybag_172 = {
+	tip = "当前已拥有换装（$1/$2）。如果已拥有礼盒内全部换装，则返还1080钻石。\n是否确认购买该礼包？"
+}
+
+
+_G.pg.base.gametip.blackfriday_luckybag_177 = {
+	tip = "当前已拥有换装（$1/$2）。如果已拥有礼盒内全部换装，则自动置换成等价钻石。\n是否确认购买该礼包？"
+}
+
+
+_G.pg.base.gametip.exchange_op = {
+	tip = "クーポンを利用する"
+}
+
+
+_G.pg.base.gametip.exchange_op1 = {
+	tip = "<color=#92fc63>全額割引</color>"
 }
 
 
