@@ -13648,7 +13648,6 @@ end)()
 		skill = "",
 		profile = "",
 		mission_complete = "",
-		headtouch = "",
 		feeling2 = "",
 		battle = "",
 		login = {
@@ -13661,6 +13660,12 @@ end)()
 			{
 				1100,
 				"4"
+			}
+		},
+		headtouch = {
+			{
+				1100,
+				"2"
 			}
 		},
 		detail = {
@@ -29765,6 +29770,69 @@ end)()
 			{
 				1100,
 				"3"
+			}
+		}
+	}
+	pg.base.ship_skin_expression_ex.xinaoerliang = {
+		feeling3 = "",
+		main_1 = "",
+		mission = "",
+		expedition = "",
+		win_mvp = "",
+		mail = "",
+		painting = "xinaoerliang",
+		feeling1 = "",
+		main_2 = "",
+		lose = "",
+		main_3 = "",
+		upgrade = "",
+		feeling4 = "",
+		skill = "",
+		profile = "",
+		mission_complete = "",
+		feeling2 = "",
+		battle = "",
+		detail = "",
+		login = {
+			{
+				1100,
+				"4"
+			}
+		},
+		home = {
+			{
+				1100,
+				"2"
+			}
+		},
+		headtouch = {
+			{
+				1100,
+				"4"
+			}
+		},
+		main_ex = {
+			{
+				1100,
+				"5|1|4"
+			}
+		},
+		touch = {
+			{
+				1100,
+				"4"
+			}
+		},
+		touch2 = {
+			{
+				1100,
+				"5"
+			}
+		},
+		feeling5 = {
+			{
+				1100,
+				"5"
 			}
 		}
 	}

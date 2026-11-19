@@ -155,6 +155,7 @@ pg.pay_data_display.all = {
 	1029,
 	1030,
 	1302,
+	1306,
 	2001,
 	2002,
 	2003,
@@ -530,7 +531,8 @@ pg.pay_data_display.get_id_list_by_extra_service = {
 		1028,
 		1029,
 		1030,
-		1302
+		1302,
+		1306
 	},
 	[6] = {
 		70001,
@@ -17932,6 +17934,85 @@ end)()
 		limit_args = {},
 		drop_item = {}
 	}
+	pg.base.pay_data_display[1306] = {
+		picture = "battlepass_blackfriday_1",
+		name = "黑五通行证（美服2026）",
+		type = 0,
+		second_text = "",
+		tag = 2,
+		subject = "特许巡游凭证",
+		gem = 0,
+		first_pay_double = 0,
+		show_group = "",
+		money = 50,
+		descrip_extra = "*需要通过任务达成对应巡游进度后才可获取",
+		limit_group = 0,
+		id = 1306,
+		type_order = 6,
+		package_tag = "",
+		limit_type = 2,
+		package_sort_id = 0,
+		first_icon = "",
+		tip = "",
+		tip_open = 0,
+		cash_show = 0,
+		id_str = "com.bilibili.blhx.battlepass304",
+		extra_gem = 0,
+		descrip = "可获得200巡游点数，同时解锁特许巡游奖励",
+		airijp_id = "com.yostarjp.azurlane.seasonpass303",
+		name_display = "黑色星期五特许巡游凭证",
+		first_text = "",
+		akashi_pick = 1,
+		skin_inquire_relation = 0,
+		extra_service = 4,
+		limit_arg = 1,
+		package_tag_open = 0,
+		extra_service_item = {
+			8,
+			65107,
+			200
+		},
+		time = {
+			{
+				{
+					2026,
+					11,
+					19
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2026,
+					12,
+					9
+				},
+				{
+					22,
+					59,
+					59
+				}
+			}
+		},
+		display = {
+			{
+				8,
+				65107,
+				200
+			}
+		},
+		sub_display = {
+			7306,
+			200
+		},
+		ignorePlatform = {},
+		limit_args = {},
+		drop_item = {}
+	}
 	pg.base.pay_data_display[2001] = {
 		picture = "tech1_display",
 		name = "最高方案研发礼包(一期)",
@@ -22191,6 +22272,8 @@ end)()
 			}
 		}
 	}
+end)()
+(function ()
 	pg.base.pay_data_display[2049] = {
 		picture = "boxSkill",
 		name = "舰艇教材礼包(2025春)",
@@ -22310,8 +22393,6 @@ end)()
 			}
 		}
 	}
-end)()
-(function ()
 	pg.base.pay_data_display[2050] = {
 		picture = "ui5",
 		name = "海滨假日主题礼包",
@@ -25379,7 +25460,7 @@ end)()
 				{
 					2026,
 					11,
-					25
+					26
 				},
 				{
 					23,
@@ -25462,7 +25543,7 @@ end)()
 				{
 					2026,
 					11,
-					25
+					26
 				},
 				{
 					23,
@@ -25556,7 +25637,7 @@ end)()
 				{
 					2026,
 					11,
-					25
+					26
 				},
 				{
 					23,

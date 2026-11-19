@@ -27,7 +27,7 @@ slot0.execute = function(slot0, slot1)
 			if uv0.cmd == 1 then
 				slot1 = PlayerConst.addTranDrop(slot0.award_list)
 
-				uv1:SyncAwardRecords(pg.black_friday_battlepass_event_pt[uv1.id])
+				uv1:SyncAwardRecords()
 			elseif uv0.cmd == 2 then
 				slot1 = PlayerConst.addTranDrop(slot0.award_list)
 

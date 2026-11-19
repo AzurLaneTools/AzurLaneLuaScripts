@@ -182,7 +182,7 @@ slot0.UpdateTaskDisplay = function(slot0, slot1, slot2)
 	setActive(slot1:Find("got"), slot6 == 2)
 	setText(slot1:Find("go/Text"), i18n("island_word_go"))
 	setText(slot1:Find("get/Text"), i18n("handbook_research_final_task_btn_claim"))
-	setText(slot1:Find("got/Text"), i18n("handbook_research_final_task_btn_finished"))
+	setText(slot1:Find("got/Text") or slot1:Find("got/Image/Text"), i18n("handbook_research_final_task_btn_finished"))
 
 	slot7 = Drop.Create(slot2:getConfig("award_display")[1])
 

@@ -1162,6 +1162,8 @@ pg.activity_template.all = {
 	50658,
 	50659,
 	50660,
+	50661,
+	50662,
 	50837,
 	51001,
 	51002,
@@ -1280,6 +1282,7 @@ pg.activity_template.all = {
 	51614,
 	51615,
 	51616,
+	7000,
 	51301,
 	51302,
 	51303,
@@ -1639,7 +1642,8 @@ pg.activity_template.all = {
 pg.activity_template.get_id_list_by_type = {
 	[0] = {
 		40,
-		711
+		711,
+		7000
 	},
 	{
 		4893,
@@ -3179,7 +3183,8 @@ pg.activity_template.get_id_list_by_type = {
 		50235,
 		50290,
 		50301,
-		50412
+		50412,
+		50662
 	},
 	[87] = {
 		4903,
@@ -3410,7 +3415,8 @@ pg.activity_template.get_id_list_by_type = {
 	},
 	[131] = {
 		50242,
-		50660
+		50660,
+		50661
 	},
 	[132] = {
 		50256
@@ -38461,6 +38467,119 @@ end)()
 			}
 		}
 	}
+	pg.base.activity_template[50661] = {
+		mark = 20261119,
+		page_info = "",
+		type = 131,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 0,
+		title_res_tag = "",
+		id = 50661,
+		page_core = "",
+		config_data = {
+			{
+				699022,
+				807023,
+				103122
+			},
+			907705
+		},
+		time = {
+			"timer",
+			{
+				{
+					2026,
+					11,
+					19
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2026,
+					11,
+					25
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		config_client = {
+			packageID = 60825,
+			drop = {
+				2,
+				15006,
+				1
+			}
+		}
+	}
+	pg.base.activity_template[50662] = {
+		mark = 20261119,
+		type = 86,
+		login_pop = 0,
+		config_id = 1,
+		is_show = 3,
+		title_res_tag = "BlackFriday2026CoreActivityUI_subtitle_3",
+		id = 50662,
+		page_core = "BlackFriday2026CoreActivityUI",
+		config_data = {
+			27817,
+			27818,
+			27819
+		},
+		time = {
+			"timer",
+			{
+				{
+					2026,
+					11,
+					19
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2026,
+					11,
+					25
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		page_info = {
+			class_name = "BlackFriday2026SkinMagazinePage",
+			ui_name = "BlackFriday2026SkinMagazinePage"
+		},
+		config_client = {
+			story = {
+				{
+					"SHISHANGTEKANXINDONGZHENLIAOSHIJIAN2"
+				},
+				{
+					"SHISHANGTEKANXINDONGZHENLIAOSHIJIAN3"
+				},
+				{
+					"SHISHANGTEKANXINDONGZHENLIAOSHIJIAN1"
+				}
+			}
+		}
+	}
 	pg.base.activity_template[50837] = {
 		mark = 20260326,
 		page_info = "",
@@ -39571,6 +39690,8 @@ end)()
 		page_core = "",
 		config_data = {}
 	}
+end)()
+(function ()
 	pg.base.activity_template[51062] = {
 		mark = 20260709,
 		page_info = "",
@@ -39614,8 +39735,6 @@ end)()
 			link_act = 51062
 		}
 	}
-end)()
-(function ()
 	pg.base.activity_template[51070] = {
 		mark = 20260723,
 		page_info = "",
@@ -41810,6 +41929,49 @@ end)()
 			}
 		}
 	}
+	pg.base.activity_template[7000] = {
+		mark = 20261119,
+		type = 0,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 1,
+		config_client = "",
+		title_res_tag = "VeritasAcademyCoreActivity_subtitle_4",
+		id = 7000,
+		page_core = "",
+		config_data = {},
+		time = {
+			"timer",
+			{
+				{
+					2026,
+					11,
+					19
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2026,
+					12,
+					3
+				},
+				{
+					12,
+					0,
+					0
+				}
+			}
+		},
+		page_info = {
+			class_name = "LevelDropUpPage",
+			ui_name = "LevelDropUpPage"
+		}
+	}
 	pg.base.activity_template[51301] = {
 		mark = 20261112,
 		type = 13,
@@ -43054,6 +43216,8 @@ end)()
 			ui_name = "CrusingDisplayActPage22"
 		}
 	}
+end)()
+(function ()
 	pg.base.activity_template[7023] = {
 		mark = 20250529,
 		type = 54,
@@ -43213,8 +43377,6 @@ end)()
 			ui_name = "CrusingDisplayActPage25"
 		}
 	}
-end)()
-(function ()
 	pg.base.activity_template[7026] = {
 		mark = 20251120,
 		type = 54,
@@ -50667,6 +50829,8 @@ end)()
 			}
 		}
 	}
+end)()
+(function ()
 	pg.base.activity_template[2001] = {
 		mark = 20180327,
 		page_info = "",
@@ -50718,8 +50882,6 @@ end)()
 			{}
 		}
 	}
-end)()
-(function ()
 	pg.base.activity_template[2004] = {
 		mark = 20180327,
 		page_info = "",
@@ -53643,6 +53805,8 @@ end)()
 			}
 		}
 	}
+end)()
+(function ()
 	pg.base.activity_template[990003] = {
 		mark = 20250929,
 		page_info = "",
@@ -53783,8 +53947,6 @@ end)()
 			}
 		}
 	}
-end)()
-(function ()
 	pg.base.activity_template[990006] = {
 		mark = 20260205,
 		page_info = "",
@@ -57094,6 +57256,8 @@ end)()
 			10000237
 		}
 	}
+end)()
+(function ()
 	pg.base.activity_template[1000095] = {
 		mark = 20261008,
 		page_info = "",
@@ -57214,8 +57378,6 @@ end)()
 			10000409
 		}
 	}
-end)()
-(function ()
 	pg.base.activity_template[1000098] = {
 		mark = 20261008,
 		page_info = "",

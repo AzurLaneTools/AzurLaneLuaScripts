@@ -259,6 +259,20 @@ slot0.remove = function(slot0)
 	slot0.timers = nil
 end
 
+slot0.GetAllCanPurchaseMeshImageSkins = function(slot0)
+	slot1 = {}
+
+	for slot6, slot7 in ipairs(slot0:GetAllSkins()) do
+		if slot7.type ~= Goods.TYPE_ACTIVITY and slot7.type ~= Goods.TYPE_ACTIVITY_EXTRA and not ShipSkin.New({
+			id = slot7:getSkinId()
+		}):IsLive2d() and not slot9:IsLive2dPlus() and not slot9:IsSpine() and not slot9:IsSpinePlus() then
+			table.insert(slot1, slot8)
+		end
+	end
+
+	return slot1
+end
+
 slot0.GetAllSkins = function(slot0)
 	slot1 = {}
 

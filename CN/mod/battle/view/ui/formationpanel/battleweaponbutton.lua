@@ -304,39 +304,257 @@ slot1.Update = function(slot0)
 end
 
 slot1.SetToCombatUIPreview = function(slot0, slot1)
-	if slot1 ~= CombatUIPreviewer.WeaponButtonPreviewMode.UNFILLED then
-		SetActive(slot0._filled, true)
-		SetActive(slot0._unfill, false)
+	slot2 = CombatUIPreviewer.WeaponButtonPreviewMode
 
-		slot0._progressBar.fillAmount = 1
+	switch(slot1, {
+		[slot2.UNFILLED] = function ()
+			SetActive(uv0._unfill, true)
+			SetActive(uv0._filled, false)
 
-		if slot0._bgEff then
-			slot0._skin:Find("ActCtl/bg_eff"):GetComponent(typeof(CanvasGroup)).alpha = 1
+			uv0._progressBar.fillAmount = 0
+
+			if uv0._bgEff then
+				uv0._skin:Find("ActCtl/bg_eff"):GetComponent(typeof(CanvasGroup)).alpha = 0
+			end
+
+			uv0._countTxt.text = "0/0"
+
+			if uv0._gizmos1 then
+				SetActive(uv0._gizmos1, false)
+				SetActive(uv0._gizmosXue, false)
+			end
+		end,
+		[slot2.FILLED] = function ()
+			SetActive(uv0._filled, true)
+			SetActive(uv0._unfill, false)
+
+			uv0._progressBar.fillAmount = 1
+
+			if uv0._bgEff then
+				uv0._skin:Find("ActCtl/bg_eff"):GetComponent(typeof(CanvasGroup)).alpha = 1
+			end
+
+			uv0._countTxt.text = "1/1"
+
+			if uv0._gizmos1 then
+				SetActive(uv0._gizmos1, true)
+				SetActive(uv0._gizmosXue, true)
+			end
+		end,
+		[slot2.LOOP] = function ()
+			uv0:SetToCombatUIPreview(uv1.FILLED)
+		end,
+		[slot2.USABLE] = function ()
+			slot0 = uv0:GetProgressFaker(1)
+			slot0.current = slot0.max
+			slot0.count = 1
+			uv0._progressInfo = slot0
+
+			uv0:OnCountChange()
+			uv0:OnOverLoadChange()
 		end
+	})
+end
 
-		slot0._countTxt.text = "1/1"
+slot1.PREVIEW_LOOP_CONFIG = {
+	usableDuration = 2,
+	useInterval = 1.5,
+	restartDelay = 1.5,
+	chargeDurations = {
+		4,
+		2
+	}
+}
+slot2 = 0.033
+slot3 = {
+	CHARGE = 1,
+	USE = 3,
+	USABLE = 2
+}
 
-		if slot0._gizmos1 then
-			SetActive(slot0._gizmos1, true)
-			SetActive(slot0._gizmosXue, true)
-		end
-	else
-		SetActive(slot0._unfill, true)
-		SetActive(slot0._filled, false)
-
-		slot0._progressBar.fillAmount = 0
-
-		if slot0._bgEff then
-			slot0._skin:Find("ActCtl/bg_eff"):GetComponent(typeof(CanvasGroup)).alpha = 0
-		end
-
-		slot0._countTxt.text = "0/0"
-
-		if slot0._gizmos1 then
-			SetActive(slot0._gizmos1, false)
-			SetActive(slot0._gizmosXue, false)
-		end
+slot1.getPreviewGCD = function(slot0)
+	if slot0.PREVIEW_LOOP_CONFIG.gcd then
+		return slot1.gcd
 	end
+
+	slot2 = uv0.Battle.BattleConfig
+
+	return ({
+		slot2.ChargeWeaponConfig.GCD,
+		slot2.TorpedoCFG.GCD,
+		slot2.AirAssistCFG.GCD
+	})[slot0._iconIndex] or slot2.TorpedoCFG.GCD
+end
+
+slot1.GetProgressFaker = function(slot0, slot1)
+	return {
+		current = 0,
+		count = 0,
+		max = 1,
+		total = slot1 or 1,
+		GetCurrent = function ()
+			return uv0.current
+		end,
+		GetMax = function ()
+			return uv0.max
+		end,
+		GetCount = function ()
+			return uv0.count
+		end,
+		GetTotal = function ()
+			return uv0.total
+		end,
+		IsOverLoad = function ()
+			return uv0.current < uv0.max or uv0.count < 1
+		end,
+		GetCurrentWeaponIconIndex = function ()
+			return uv0._iconIndex
+		end,
+		RegisterEventListener = function ()
+		end,
+		UnregisterEventListener = function ()
+		end
+	}
+end
+
+slot1.StartCombatUIPreviewLoop = function(slot0)
+	slot2 = slot0:GetProgressFaker(#slot0.PREVIEW_LOOP_CONFIG.chargeDurations)
+	slot0._progressInfo = slot2
+	slot0._previewProgress = slot2
+
+	slot0:enterCombatUIPreviewStep(uv0.CHARGE)
+end
+
+slot1.StopCombatUIPreviewLoop = function(slot0)
+	slot0._previewStep = nil
+	slot0._previewElapsed = nil
+	slot0._previewProgress = nil
+end
+
+slot1.previewPlus = function(slot0)
+	slot1 = slot0._previewProgress
+	slot1.count = slot1.count + 1
+	slot1.current = 1
+	slot1.max = 1
+
+	slot0:OnCountChange()
+	slot0:OnfilledEffect()
+	slot0:OnOverLoadChange({
+		Data = {
+			preCast = slot1.count
+		}
+	})
+end
+
+slot1.previewDeduct = function(slot0)
+	slot1 = slot0._previewProgress
+	slot1.count = math.max(slot1.count - 1, 0)
+
+	if slot1.count > 0 then
+		slot1.max = slot0:getPreviewGCD()
+	end
+
+	slot1.current = 0
+
+	slot0:OnCountChange()
+	slot0:OnOverLoadChange({
+		Data = {
+			postCast = true
+		}
+	})
+end
+
+slot1.updatePreviewGCD = function(slot0, slot1)
+	if slot0._previewProgress.count <= 0 or slot2.max <= slot2.current then
+		return
+	end
+
+	slot2.current = slot2.current + slot1
+
+	if slot2.max <= slot2.current then
+		slot2.current = slot2.max
+
+		slot0:OnOverLoadChange()
+	else
+		slot0:updateProgressBar()
+	end
+end
+
+slot1.enterCombatUIPreviewStep = function(slot0, slot1)
+	slot2 = slot0._previewProgress
+	slot0._previewStep = slot1
+	slot0._previewElapsed = 0
+
+	switch(slot1, {
+		[uv0.CHARGE] = function ()
+			uv0.count = 0
+			uv0.current = 0
+			uv0.max = uv1.PREVIEW_LOOP_CONFIG.chargeDurations[1]
+			uv1._previewLayer = 1
+
+			uv1:OnCountChange()
+			uv1:OnOverLoadChange()
+		end,
+		[uv0.USABLE] = function ()
+		end,
+		[uv0.USE] = function ()
+			uv0._previewUseTimes = 1
+
+			uv0:previewDeduct()
+		end
+	})
+end
+
+slot1.UpdateCombatUIPreviewLoop = function(slot0, slot1)
+	if not slot0._previewStep then
+		return
+	end
+
+	slot2 = slot0.PREVIEW_LOOP_CONFIG
+	slot3 = slot0._previewProgress
+	slot0._previewElapsed = slot0._previewElapsed + (slot1 or uv0)
+
+	switch(slot0._previewStep, {
+		[uv1.CHARGE] = function ()
+			slot0 = uv0.chargeDurations[uv1._previewLayer]
+
+			if uv2.count == 0 then
+				uv2.current = math.min(uv1._previewElapsed, uv2.max)
+
+				uv1:updateProgressBar()
+			end
+
+			if slot0 <= uv1._previewElapsed then
+				uv1._previewElapsed = uv1._previewElapsed - slot0
+				uv1._previewLayer = uv1._previewLayer + 1
+
+				uv1:previewPlus()
+
+				if uv2.total <= uv2.count then
+					uv1:enterCombatUIPreviewStep(uv3.USABLE)
+				end
+			end
+		end,
+		[uv1.USABLE] = function ()
+			if uv1.usableDuration <= uv0._previewElapsed then
+				uv0:enterCombatUIPreviewStep(uv2.USE)
+			end
+		end,
+		[uv1.USE] = function ()
+			uv0:updatePreviewGCD(uv1)
+
+			if uv0._previewUseTimes < uv2.total then
+				if uv3.useInterval <= uv0._previewElapsed then
+					uv0._previewElapsed = uv0._previewElapsed - uv3.useInterval
+					uv0._previewUseTimes = uv0._previewUseTimes + 1
+
+					uv0:previewDeduct()
+				end
+			elseif uv3.restartDelay <= uv0._previewElapsed then
+				uv0:enterCombatUIPreviewStep(uv4.CHARGE)
+			end
+		end
+	})
 end
 
 slot1.updateProgressBar = function(slot0)

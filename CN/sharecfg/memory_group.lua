@@ -292,6 +292,7 @@ pg.memory_group.all = {
 	381,
 	382,
 	383,
+	384,
 	501,
 	502,
 	503,
@@ -7822,6 +7823,22 @@ end)()
 			5632
 		}
 	}
+	pg.base.memory_group[384] = {
+		ship_group = 0,
+		icon = "title_event",
+		type = 2,
+		link_event = 50662,
+		title = "港区时尚特刊：心动诊疗时间",
+		auto_unlock = "",
+		subtype = 3,
+		id = 384,
+		group_id = "",
+		memories = {
+			5641,
+			5642,
+			5643
+		}
+	}
 	pg.base.memory_group[501] = {
 		ship_group = 31201,
 		icon = "title_chara_mingshi",
@@ -8075,6 +8092,8 @@ end)()
 			10000
 		}
 	}
+end)()
+(function ()
 	pg.base.memory_group[512] = {
 		ship_group = 30312,
 		icon = "title_chara_aidang",
@@ -8097,8 +8116,6 @@ end)()
 			10000
 		}
 	}
-end)()
-(function ()
 	pg.base.memory_group[513] = {
 		ship_group = 40146,
 		icon = "title_chara_z46",
@@ -10277,6 +10294,8 @@ end)()
 			10000
 		}
 	}
+end)()
+(function ()
 	pg.base.memory_group[614] = {
 		ship_group = 30225,
 		icon = "title_chara_dulianglai",
@@ -10299,8 +10318,6 @@ end)()
 			10000
 		}
 	}
-end)()
-(function ()
 	pg.base.memory_group[615] = {
 		ship_group = 960014,
 		icon = "title_chara_zhenzhuhao",

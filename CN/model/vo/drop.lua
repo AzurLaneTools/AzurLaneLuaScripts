@@ -1600,7 +1600,7 @@ slot0.InitSwitch = function()
 		end,
 		[DROP_TYPE_VITEM] = function (slot0, slot1, slot2)
 			if slot0:getConfig("virtual_type") == VIRTUAL_DROP_TYPE_SKIN_COUPON then
-				setText(slot2, slot0:GetSkinCouponDesc(slot0))
+				setText(slot2, "")
 			else
 				setText(slot2, slot0:getConfig("display"))
 			end

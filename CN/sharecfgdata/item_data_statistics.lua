@@ -56244,6 +56244,43 @@ _G.pg.base.item_data_statistics[40145] = {
 }
 
 
+_G.pg.base.item_data_statistics[40146] = {
+	open_directly = 1,
+	name = "心动诊疗特别礼包",
+	type = 17,
+	display = "购买三件指定换装可获得永恒礼盒*1",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_undefined",
+	display_effect = "",
+	link_id = 50661,
+	is_world = 0,
+	icon = "Props/black5bundle3",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "[]",
+	id = 40146,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			2,
+			15006,
+			1
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	limit = {}
+}
+
+
 _G.pg.base.item_data_statistics[40701] = {
 	open_directly = 1,
 	name = "回归补给礼包",
@@ -138680,6 +138717,357 @@ _G.pg.base.item_data_statistics[68384] = {
 	combination_display = {},
 	usage_arg = {
 		90548
+	},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[68394] = {
+	open_directly = 1,
+	name = "换装抵扣礼包(误入纯白迷途)",
+	type = 17,
+	display = "购买后可获得<color=#92fc63FF>那不勒斯</color>换装<color=#92fc63FF>误入纯白迷途</color>的钻石抵扣券等道具",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_drop",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "ChargeIcon/skin_ticket_package",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "88513",
+	id = 68394,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			2,
+			68397,
+			1
+		},
+		{
+			2,
+			68400,
+			1
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[68395] = {
+	open_directly = 1,
+	name = "换装抵扣礼包(深夜的亲密触诊)",
+	type = 17,
+	display = "购买后可获得<color=#92fc63FF>新奥尔良</color>换装<color=#92fc63FF>深夜的亲密触诊</color>的钻石抵扣券等道具",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_drop",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "ChargeIcon/skin_ticket_package",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "88514",
+	id = 68395,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			2,
+			68398,
+			1
+		},
+		{
+			2,
+			68401,
+			1
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[68396] = {
+	open_directly = 1,
+	name = "换装抵扣礼包(风中的纯白絮语)",
+	type = 17,
+	display = "购买后可获得<color=#92fc63FF>伴尔维</color>换装<color=#92fc63FF>风中的纯白絮语</color>的钻石抵扣券等道具",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_drop",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "ChargeIcon/skin_ticket_package",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "88515",
+	id = 68396,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			2,
+			68399,
+			1
+		},
+		{
+			2,
+			68402,
+			1
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[68397] = {
+	open_directly = 0,
+	name = "换装抵扣券(误入纯白迷途)",
+	type = 1,
+	display = "持有此道具时，购买<color=#92fc63FF>那不勒斯</color>换装<color=#92fc63FF>误入纯白迷途</color>时可消耗此道具，并抵扣300钻石\n<color=#ff5c5c>道具有效期：自获得后～2026年11月25日 23:59，过期后此道具将消失，并自动转化为300钻石</color>",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_shop_discount",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/limit_skin_300",
+	order = 1,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 1,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	id = 68397,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	price = {
+		14,
+		300
+	},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	usage_arg = {
+		{
+			71424
+		},
+		300
+	},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[68398] = {
+	open_directly = 0,
+	name = "换装抵扣券(深夜的亲密触诊)",
+	type = 1,
+	display = "持有此道具时，购买<color=#92fc63FF>新奥尔良</color>换装<color=#92fc63FF>深夜的亲密触诊</color>时可消耗此道具，并抵扣300钻石\n<color=#ff5c5c>道具有效期：自获得后～2026年11月25日 23:59，过期后此道具将消失，并自动转化为300钻石</color>",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_shop_discount",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/limit_skin_300",
+	order = 1,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 1,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	id = 68398,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	price = {
+		14,
+		300
+	},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	usage_arg = {
+		{
+			71425
+		},
+		300
+	},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[68399] = {
+	open_directly = 0,
+	name = "换装抵扣券(风中的纯白絮语)",
+	type = 1,
+	display = "持有此道具时，购买<color=#92fc63FF>伴尔维</color>换装<color=#92fc63FF>风中的纯白絮语</color>时可消耗此道具，并抵扣300钻石\n<color=#ff5c5c>道具有效期：自获得后～2026年11月25日 23:59，过期后此道具将消失，并自动转化为300钻石</color>",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_shop_discount",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/limit_skin_300",
+	order = 1,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 1,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	id = 68399,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	price = {
+		14,
+		300
+	},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	usage_arg = {
+		{
+			71426
+		},
+		300
+	},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[68400] = {
+	open_directly = 0,
+	name = "换装体验券(误入纯白迷途)",
+	type = 1,
+	display = "使用后可前往换装体验兑换界面，界面内可以选择兑换<color=#92fc63FF>那不勒斯</color>换装<color=#92fc63FF>误入纯白迷途</color>的2天换装体验资格\n<color=#ff5c5c>道具有效期：自获得后～2026年11月25日 23:59，过期后此道具将消失</color>",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_skin_exp",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/limit_skinticket",
+	order = 1,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 1,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	id = 68400,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	price = {
+		1,
+		0
+	},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	usage_arg = {
+		90558
+	},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[68401] = {
+	open_directly = 0,
+	name = "换装体验券(深夜的亲密触诊)",
+	type = 1,
+	display = "使用后可前往换装体验兑换界面，界面内可以选择兑换<color=#92fc63FF>新奥尔良</color>换装<color=#92fc63FF>深夜的亲密触诊</color>的2天换装体验资格\n<color=#ff5c5c>道具有效期：自获得后～2026年11月25日 23:59，过期后此道具将消失</color>",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_skin_exp",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/limit_skinticket",
+	order = 1,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 1,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	id = 68401,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	price = {
+		1,
+		0
+	},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	usage_arg = {
+		90559
+	},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[68402] = {
+	open_directly = 0,
+	name = "换装体验券(风中的纯白絮语)",
+	type = 1,
+	display = "使用后可前往换装体验兑换界面，界面内可以选择兑换<color=#92fc63FF>伴尔维</color>换装<color=#92fc63FF>风中的纯白絮语</color>的2天换装体验资格\n<color=#ff5c5c>道具有效期：自获得后～2026年11月25日 23:59，过期后此道具将消失</color>",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_skin_exp",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/limit_skinticket",
+	order = 1,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 1,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	id = 68402,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	price = {
+		1,
+		0
+	},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	usage_arg = {
+		90560
 	},
 	limit = {}
 }

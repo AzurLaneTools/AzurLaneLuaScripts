@@ -88,31 +88,41 @@ slot0.Show = function(slot0, slot1, slot2)
 			end)
 		end
 	}, function ()
-		slot0 = uv0.transform
+		if uv0._state == uv1.STATES.DESTROY then
+			slot0 = PoolMgr.GetInstance()
 
-		slot0:SetParent(uv1.uiLayer, false)
+			slot0:ReturnUI(uv2, uv3)
+			slot0:ReturnUI(uv2, uv4)
+			slot0:ReturnUI(uv5, uv6)
 
-		slot0 = uv2.transform
+			return
+		end
 
-		slot0:SetParent(uv1.uiLayer, false)
+		slot0 = uv6.transform
+
+		slot0:SetParent(uv0.uiLayer, false)
 
 		slot0 = uv3.transform
 
-		slot0:SetParent(uv1.uiLayer, false)
+		slot0:SetParent(uv0.uiLayer, false)
 
-		uv0.transform.localScale = Vector3(uv1.sea.rect.width / 1920, uv1.sea.rect.height / 1080, 1)
-		uv1.previewer = CombatUIPreviewer.New(uv1.rawImage)
-		slot2 = uv1.previewer
+		slot0 = uv4.transform
+
+		slot0:SetParent(uv0.uiLayer, false)
+
+		uv6.transform.localScale = Vector3(uv0.sea.rect.width / 1920, uv0.sea.rect.height / 1080, 1)
+		uv0.previewer = CombatUIPreviewer.New(uv0.rawImage)
+		slot2 = uv0.previewer
 
 		slot2:setDisplayWeapon({
 			100
 		})
 
-		slot2 = uv1.previewer
+		slot2 = uv0.previewer
 
-		slot2:setCombatUI(uv0, uv2, uv3, uv4)
+		slot2:setCombatUI(uv6, uv3, uv4, uv7)
 
-		slot4 = uv1.previewer
+		slot4 = uv0.previewer
 
 		slot4:load(40000, Ship.New({
 			id = 100001,

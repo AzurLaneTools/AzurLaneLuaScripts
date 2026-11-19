@@ -4,6 +4,7 @@ slot0.OPEN_ACTIVITY = "LatestSkinShopMediator.OPEN_ACTIVITY"
 slot0.ON_SHOPPING_BY_ACT = "LatestSkinShopMediator.ON_SHOPPING_BY_ACT"
 slot0.ON_SHOPPING = "LatestSkinShopMediator.ON_SHOPPING"
 slot0.ON_ITEM_PURCHASE = "LatestSkinShopMediator.ON_ITEM_PURCHASE"
+slot0.ON_ITEM_PURCHASE_4_MESHIMAGE = "LatestSkinShopMediator.ON_ITEM_PURCHASE_4_MESHIMAGE"
 slot0.GO_SHOPS_LAYER = "LatestSkinShopMediator.GO_SHOPS_LAYER"
 slot0.OPEN_SCENE = "LatestSkinShopMediator.OPEN_SCENE"
 slot0.ON_BACKYARD_SHOP = "LatestSkinShopMediator.ON_BACKYARD_SHOP"
@@ -46,6 +47,16 @@ slot0.register = function(slot0)
 			id = slot1,
 			arg = {
 				slot2
+			}
+		})
+	end)
+	slot0:bind(uv0.ON_ITEM_PURCHASE_4_MESHIMAGE, function (slot0, slot1, slot2, slot3)
+		uv0:sendNotification(GAME.USE_ITEM, {
+			count = 1,
+			id = slot1,
+			arg = {
+				slot2,
+				slot3
 			}
 		})
 	end)

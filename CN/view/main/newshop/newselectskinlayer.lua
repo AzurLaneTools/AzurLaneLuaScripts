@@ -4,8 +4,19 @@ slot0.MODE_VIEW = 2
 
 slot0.init = function(slot0)
 	uv0.super.init(slot0)
-	setText(slot0._tf:Find("adapt/top/title/Text"), i18n("shop_new_able_to_exchange"))
-	setText(slot0._tf:Find("adapt/top/have/Text"), i18n("shop_new_able_to_exchange"))
+
+	slot1 = "shop_new_able_to_exchange"
+
+	if slot0.contextData.itemId and Item.New({
+		id = slot2
+	}):IsVItemSkinCoupon() then
+		slot1 = "shop_new_able_to_exchange_1"
+	end
+
+	slot3 = i18n(slot1)
+
+	setText(slot0._tf:Find("adapt/top/title/Text"), slot3)
+	setText(slot0._tf:Find("adapt/top/have/Text"), slot3)
 
 	slot0.msgBox = SelectSkinMsgbox.New(slot0._tf, slot0.event)
 end

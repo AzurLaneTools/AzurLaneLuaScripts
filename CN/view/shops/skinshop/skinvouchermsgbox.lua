@@ -1,14 +1,14 @@
 slot0 = class("SkinVoucherMsgBox", import(".SkinCouponMsgBox"))
 slot1 = 0
 slot2 = 1
+slot0.OPTION_TYPE_COMMOM_ITEM = 1
+slot0.OPTION_TYPE_MESH_IMAGE = 2
 
 slot0.getUIName = function(slot0)
 	return "SkinVoucherMsgBoxUI"
 end
 
 slot0.OnLoaded = function(slot0)
-	pg.UIMgr.GetInstance():OverlayPanel(slot0._tf)
-
 	slot0.closeBtn = slot0._tf:Find("window/top/btnBack")
 	slot0.cancelBtn = slot0._tf:Find("window/button_container/cancel")
 	slot0.confirmBtn = slot0._tf:Find("window/button_container/confirm")
@@ -34,9 +34,9 @@ slot0.OnLoaded = function(slot0)
 	slot0.tipBar = slot0._tf:Find("window/frame/tipBar")
 	slot0.tipText = slot0.tipBar:Find("Text")
 	slot0.linkText = slot0._tf:Find("window/frame/option/use/link/Text"):GetComponent(typeof(Text))
+	slot0.gemIcon = slot0._tf:Find("window/frame/option/use/link/line_1")
 
 	setText(slot0._tf:Find("window/frame/option/nonuse/Text"), i18n("skin_shop_nonuse_label"))
-	setText(slot0._tf:Find("window/frame/option/use/Text"), i18n("skin_shop_use_label"))
 end
 
 slot0.RegisterBtn = function(slot0, slot1)
@@ -90,11 +90,34 @@ slot0.RegisterBtn = function(slot0, slot1)
 	end, SFX_PANEL)
 end
 
+slot0.GetDisplayListAndOptionType = function(slot0, slot1)
+	slot2 = {}
+	slot4 = slot1.meshImageItemList
+
+	if #slot1.itemList > 0 and #slot4 > 0 then
+		assert(false, "use SkinVoucherMulOpMsgBox if you want to show both item and mesh image options")
+	elseif #slot3 <= 0 and #slot4 <= 0 then
+		assert(false, "no item or mesh image to display")
+	end
+
+	slot5 = nil
+
+	if #slot3 <= 0 then
+		slot2 = slot4
+		slot5 = uv0
+	elseif #slot4 <= 0 then
+		slot2 = slot3
+		slot5 = uv1
+	end
+
+	return slot2, slot5
+end
+
 slot0.GetDefaultItem = function(slot0)
 	slot0.selectedItemId = slot0.selectedItemId or (function ()
-		if #_.map(uv0.settings.itemList, function (slot0)
+		if #_.map(uv0.displays, function (slot0)
 			return {
-				gem = pg.item_data_statistics[slot0].usage_arg[2] or 0,
+				gem = uv0:GetDiscount(slot0, uv0.settings.price),
 				id = slot0,
 				time = pg.item_data_statistics[slot0].time_limit
 			}
@@ -121,7 +144,7 @@ slot0.UpdateContent = function(slot0, slot1)
 	slot3 = slot1.price
 
 	if slot0.prevSelId then
-		slot0.label1.text = i18n(math.max(0, slot3 - pg.item_data_statistics[slot0.prevSelId].usage_arg[2]) > 0 and "skin_purchase_confirm" or "skin_purchase_over_price", slot4.name, slot6, slot2)
+		slot0.label1.text = i18n(math.max(0, slot3 - slot0:GetDiscount(slot0.prevSelId, slot3)) > 0 and "skin_purchase_confirm" or "skin_purchase_over_price", pg.item_data_statistics[slot0.prevSelId].name, slot6, slot2)
 	else
 		slot0.label1.text = i18n("charge_scene_buy_confirm", slot3, slot2)
 	end
@@ -131,7 +154,23 @@ slot0.UpdateContent = function(slot0, slot1)
 end
 
 slot0.UpdateLink = function(slot0)
-	slot0.linkText.text = i18n("skin_shop_discount_item_link", pg.item_data_statistics[slot0:GetDefaultItem()].usage_arg[2] or 0)
+	setActive(slot0.gemIcon, slot0.optionType == uv0)
+
+	if slot0.optionType == uv1 then
+		slot0.linkText.text = i18n("exchange_op1")
+	elseif slot0.optionType == uv0 then
+		slot0.linkText.text = i18n("skin_shop_discount_item_link", slot0:GetDiscount(slot0:GetDefaultItem(), slot0.settings.price))
+	end
+end
+
+slot0.GetDiscount = function(slot0, slot1, slot2)
+	if Item.New({
+		id = slot1
+	}):IsMeshImageSkinExchangeType() then
+		return slot2 or 0
+	else
+		return slot3:getConfig("usage_arg")[2] or 0
+	end
 end
 
 slot0.UpdateItem = function(slot0, slot1)
@@ -139,7 +178,7 @@ slot0.UpdateItem = function(slot0, slot1)
 	slot4 = slot0._tf
 	slot5 = slot0._tf
 
-	UIItemList.StaticAlign(slot4:Find("window/frame/scrollrect/list"), slot5:Find("window/frame/left"), #slot1.itemList, function (slot0, slot1, slot2)
+	UIItemList.StaticAlign(slot4:Find("window/frame/scrollrect/list"), slot5:Find("window/frame/left"), #slot0.displays, function (slot0, slot1, slot2)
 		if slot0 == UIItemList.EventUpdate then
 			uv0:FlushItem(uv1[slot1 + 1], slot2)
 		end
@@ -167,15 +206,26 @@ slot0.ClearPrevSel = function(slot0)
 end
 
 slot0.Show = function(slot0, slot1)
+	pg.UIMgr.GetInstance():OverlayPanel(slot0._tf)
 	setActive(slot0._tf, true)
 
 	slot0.settings = slot1
+	slot0.displays, slot0.optionType = slot0:GetDisplayListAndOptionType(slot1)
 
 	slot0:UpdateItem(slot1)
 	slot0:RegisterBtn(slot1)
 	slot0:UpdateContent(slot1)
 	slot0:UpdateStyle(uv0)
+	slot0:UpdateOptionName(slot1)
 	triggerToggle(slot0.useBtn, true)
+end
+
+slot0.UpdateOptionName = function(slot0, slot1)
+	if slot0.optionType == uv0 then
+		setText(slot0._tf:Find("window/frame/option/use/Text"), i18n("exchange_op"))
+	elseif slot0.optionType == uv1 then
+		setText(slot0._tf:Find("window/frame/option/use/Text"), i18n("skin_shop_use_label"))
+	end
 end
 
 slot0.UpdateStyle = function(slot0, slot1)
@@ -201,6 +251,8 @@ slot0.Hide = function(slot0)
 		removeOnToggle(slot5)
 		triggerToggle(slot5, false)
 	end
+
+	pg.UIMgr.GetInstance():UnOverlayPanel(slot0._tf)
 end
 
 slot0.SetTipText = function(slot0, slot1)
@@ -235,7 +287,10 @@ end
 
 slot0.OnDestroy = function(slot0)
 	slot0.super:OnDestroy()
-	pg.UIMgr.GetInstance():UnOverlayPanel(slot0._tf)
+
+	if slot0:isShowing() then
+		slot0:Hide()
+	end
 end
 
 return slot0

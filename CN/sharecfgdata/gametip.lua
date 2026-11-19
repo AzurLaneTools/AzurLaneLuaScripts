@@ -12582,17 +12582,17 @@ _G.pg.base.gametip.buildship_new_tip = {
 
 
 _G.pg.base.gametip.buildship_heavy_tip = {
-	tip = "克莱蒙梭、里昂、絮弗伦 建造追加！"
+	tip = "{namecode:294}、{namecode:295} 等角色 建造追加！"
 }
 
 
 _G.pg.base.gametip.buildship_light_tip = {
-	tip = "吉尚 建造追加！"
+	tip = "{namecode:189}、{namecode:297} 等角色 建造追加！"
 }
 
 
 _G.pg.base.gametip.buildship_special_tip = {
-	tip = "伴尔维 建造追加！"
+	tip = "{namecode:294} 等角色 建造追加！"
 }
 
 
@@ -40822,6 +40822,11 @@ _G.pg.base.gametip.shop_new_able_to_exchange = {
 }
 
 
+_G.pg.base.gametip.shop_new_able_to_exchange_1 = {
+	tip = "折扣换装列表"
+}
+
+
 _G.pg.base.gametip.shop_countdown = {
 	tip = "$1天$2小时$3分后下架"
 }
@@ -52454,6 +52459,103 @@ _G.pg.base.gametip.resource_repair_finish_tips = {
 
 _G.pg.base.gametip.windfog_skin_stroy_finish = {
 	tip = "完成所有故事可获得"
+}
+
+
+_G.pg.base.gametip.SkinDiscountHelp_BlackFriday2026 = {
+	tip = {
+		{
+			info = "1.活动期间，以<color=#92fc63>原价</color>（不使用换装折扣券）购买一件黑五返场换装或一个换装礼盒(黑五)时，可领取一张<color=#92fc63>换装折扣券（黑五）</color>\n2.<color=#92fc63>换装折扣券（黑五）</color>可用于购买黑五返场任意换装时抵扣300钻石（购买福袋时不可抵扣）\n3.未使用的<color=#92fc63>换装折扣券（黑五）</color>将会在活动结束后（2026年12月9日23:59:59）消失"
+		}
+	}
+}
+
+
+_G.pg.base.gametip.blackfriday_cruise_title_1119 = {
+	tip = "Black Friday Cruise Missions"
+}
+
+
+_G.pg.base.gametip.blackfriday_battlepass_main_help_1119 = {
+	tip = {
+		{
+			info = [[
+世界巡游(2026.11.19-2026.12.9)
+
+·<color=#92fc63>开放时间</color>
+ 2026.11.19 0点 ~ 2026.12.9 23:59:59
+
+·<color=#92fc63>巡游进度说明</color>
+（1）活动期间，指挥官通过完成巡游任务，可获取「巡游点数」。
+（2）巡游任务随时间开放解锁。
+（3）每获取100点「巡游点数」即可增加1巡游进度
+（4）巡游进度提升后可以获取相应等级的奖励，巡游进度最高可达15。
+
+·<color=#92fc63>奖励规则</color>
+巡游进度奖励分为两种：
+（1）基础巡游奖励：包含<color=#ff5c5c>皮肤折扣券</color>、<color=#ff5c5c>高级定向蓝图·八期</color>等奖励；
+ 当巡游达到指定进度时，指挥官可以直接领取相应的基础巡游奖励。
+（2）特许巡游奖励：包含<color=#ff5c5c>心智魔方</color>、<color=#ff5c5c>钻石</color>等奖励；
+ 购买「特许巡游凭证」，且巡游达到指定进度时，可以领取特许巡游奖励。
+ 注：购买「特许巡游凭证」后，不会影响基础巡游奖励的领取。
+
+·<color=#92fc63>「特许巡游凭证」说明</color>
+（1）「特许巡游凭证」可于「商店」-「优惠礼包」中购买，购买后可立刻获得<color=#ff5c5c>200点</color>「巡游点数」同时解锁特许巡游奖励。
+（2）「特许巡游凭证」将于<color=#ff5c5c>活动结束前一小时</color>停止售卖(即12.9 22:59:59停止)，请指挥官注意购买时间。
+
+·<color=#92fc63>任务说明</color>
+巡游任务分为两种：
+（1）每日任务 
+ 巡游任务中共有12组每日任务。自活动开始后解锁第一天任务，之后每日0点解锁下一组每日任务
+（2）S.P.任务
+ S.P.任务为一组特殊任务，在活动开始后会直接处于全部解锁状态。
+（3）巡游任务在解锁后将自动接取，满足任务完成条件时，会自动完成并获取对应奖励。
+
+·<color=#ff5c5c>特别提示</color>
+（1）在本期世界巡游活动结束后，所有巡游任务将会无法继续完成，所有巡游奖励将会无法继续领取，请各位指挥官务必注意活动结束时间，提前领取奖励。
+（2）巡游进度、[特许巡游凭证]仅对本期世界巡游活动生效]]
+		}
+	}
+}
+
+
+_G.pg.base.gametip.blackfriday_cruise_task_help_1119 = {
+	tip = {
+		{
+			info = [[
+巡游任务说明
+
+·<color=#92fc63>开放时间</color>
+ 2026.11.19 0点 ~ 2026.12.9 23:59:59
+
+·<color=#92fc63>巡游任务分为两种</color>
+（1）每日任务
+ 巡游任务中共有12组每日任务。自活动开始后解锁第一日任务，之后每日0点解锁下一组每日任务。
+（2）S.P.任务
+ S.P.任务为一组特殊任务，在活动开始后会直接处于全部解锁状态。
+（3）巡游任务在解锁后将自动接取，满足任务完成条件时，会自动完成并获取对应奖励。]]
+		}
+	}
+}
+
+
+_G.pg.base.gametip.blackfriday_luckybag_172 = {
+	tip = "当前已拥有换装（$1/$2）。如果已拥有礼盒内全部换装，则返还1080钻石。\n是否确认购买该礼包？"
+}
+
+
+_G.pg.base.gametip.blackfriday_luckybag_177 = {
+	tip = "当前已拥有换装（$1/$2）。如果已拥有礼盒内全部换装，则自动置换成等价钻石。\n是否确认购买该礼包？"
+}
+
+
+_G.pg.base.gametip.exchange_op = {
+	tip = "使用兑换券"
+}
+
+
+_G.pg.base.gametip.exchange_op1 = {
+	tip = "<color=#92fc63>全额抵扣</color>"
 }
 
 

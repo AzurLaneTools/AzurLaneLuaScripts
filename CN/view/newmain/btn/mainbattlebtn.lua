@@ -8,6 +8,10 @@ slot0.OnClick = function(slot0)
 	})
 end
 
+slot0.Flush = function(slot0, slot1)
+	SetActive(slot0:GetTarget():Find("LevelDropUpTag"), LevelDropUpActUtil.EixstLevelDropUpAct())
+end
+
 slot0.IsFixed = function(slot0)
 	return true
 end

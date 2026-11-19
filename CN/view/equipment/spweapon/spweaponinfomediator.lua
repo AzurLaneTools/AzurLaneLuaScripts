@@ -117,9 +117,16 @@ slot0.BindEvent = function(slot0)
 		})
 	end)
 	slot0:bind(uv0.ON_SKIP_UNIQUE_SHIPS, function (slot0, slot1)
-		if getProxy(ContextProxy):getCurrentContext() and slot2.scene == SCENE.EQUIPSCENE then
+		slot2 = getProxy(ContextProxy):getCurrentContext()
+
+		if pg.MsgboxMgr.GetInstance().enable then
+			slot3:hide()
+		end
+
+		if slot2 and slot2.scene == SCENE.EQUIPSCENE then
 			slot2.data.warp = StoreHouseConst.WARP_TO_WEAPON
 			slot2.data.mode = StoreHouseConst.SPWEAPON
+			slot2.cleanChild = true
 		end
 
 		uv0:sendNotification(GAME.GO_SCENE, SCENE.DOCKYARD, {

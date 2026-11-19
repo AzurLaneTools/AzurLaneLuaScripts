@@ -2,7 +2,12 @@ slot0 = class("CombatUIPreviewer")
 slot0.WeaponButtonPreviewMode = {
 	LOOP = 3,
 	FILLED = 2,
-	UNFILLED = 1
+	UNFILLED = 1,
+	USABLE = 4
+}
+slot0.EnableLoop = true
+slot0.LoopWeaponButtons = {
+	3
 }
 slot2 = Vector3(0, 1, 40)
 slot3 = Vector3(35, 1, 40)
@@ -30,6 +35,14 @@ slot0.setDisplayWeapon = function(slot0, slot1, slot2, slot3)
 	slot0.equipSkinId = slot2 or 0
 end
 
+slot0.setHeroHpBarOffset = function(slot0, slot1)
+	slot0.heroHpBarOffset = slot1
+end
+
+slot0.setEnemyHpBarOffset = function(slot0, slot1)
+	slot0.enemyHpBarOffset = slot1
+end
+
 slot0.setCombatUI = function(slot0, slot1, slot2, slot3, slot4)
 	slot0.uiGO = slot1
 	slot0.hpBarGO = slot2
@@ -49,6 +62,7 @@ slot0.setCombatUI = function(slot0, slot1, slot2, slot3, slot4)
 	setText(slot0.timer:Find("Text"), "03:00")
 
 	slot0.buttonContainer = slot5:Find("Weapon_button_container")
+	slot0.weaponButtons = {}
 	slot6 = {
 		uv0.UNFILLED,
 		uv0.FILLED,
@@ -59,8 +73,6 @@ slot0.setCombatUI = function(slot0, slot1, slot2, slot3, slot4)
 		slot11 = nil
 		slot11 = (not ys.Battle["BattleWeaponButton" .. slot0.skinKey] or ys.Battle["BattleWeaponButton" .. slot0.skinKey].New()) and ys.Battle.BattleWeaponButton.New()
 		slot12 = cloneTplTo(slot5:Find("Weapon_button_progress"), slot0.buttonContainer)
-		skinName = "Skill_" .. slot10
-		slot13 = {}
 
 		ys.Battle.BattleSkillView.SetSkillButtonPreferences(slot12, slot10)
 		slot11:ConfigSkin(slot12)
@@ -68,11 +80,20 @@ slot0.setCombatUI = function(slot0, slot1, slot2, slot3, slot4)
 		slot11:SwitchIconEffect(slot10, slot4)
 		slot11:SetTextActive(true)
 		slot11:SetToCombatUIPreview(slot6[slot10])
+		table.insert(slot0.weaponButtons, slot11)
 
 		if slot10 == 3 and GetOrAddComponent(go(slot12), typeof(UnityEngine.Playables.PlayableDirector)) then
-			slot14.enabled = true
+			slot13.enabled = true
 		end
 	end
+
+	slot0.submarineButton = (ys.Battle["BattleSubmarineButton" .. slot0.skinKey] or ys.Battle.BattleSubmarineButton).New()
+	slot8 = cloneTplTo(slot5:Find("Weapon_button"), slot0.buttonContainer)
+
+	slot0.submarineButton:ConfigSkin(slot8)
+	slot0.submarineButton:SwitchIcon(4, slot4)
+	ys.Battle.BattleSkillView.SetSkillButtonPreferences(slot8, 4)
+	slot0.submarineButton:SetToCombatUIPreview(uv0.USABLE)
 
 	slot0.heroBar = slot2.transform
 
@@ -100,16 +121,16 @@ slot0.setCombatUI = function(slot0, slot1, slot2, slot3, slot4)
 
 	setActive(slot0.bossHPBar, true)
 
-	for slot12 = 0, slot0.bossHPBar:Find("bloodBarContainer").childCount - 1 do
-		slot7:GetChild(slot12):GetComponent(typeof(Image)).fillAmount = 1
-		slot12 = slot12 + 1
+	for slot14 = 0, slot0.bossHPBar:Find("bloodBarContainer").childCount - 1 do
+		slot9:GetChild(slot14):GetComponent(typeof(Image)).fillAmount = 1
+		slot14 = slot14 + 1
 	end
 
 	slot0.skillContainer = slot5:Find("Skill_Activation/Root")
 	slot0.skill = slot5:Find("Skill_Activation/mask")
 
 	if slot5:Find("Stick/Area/BG/spine") then
-		slot9:GetComponent(typeof(SpineAnimUI)):SetAction("normal", 0)
+		slot11:GetComponent(typeof(SpineAnimUI)):SetAction("normal", 0)
 	end
 
 	slot0.stick = slot5:Find("Stick/Area/Stick")
@@ -270,14 +291,51 @@ slot0.load = function(slot0, slot1, slot2, slot3, slot4, slot5)
 	pg.UIMgr.GetInstance():LoadingOn()
 end
 
+slot11 = 0.033
+
+slot0.loop = function(slot0, slot1, slot2)
+	if slot0._roundTimer then
+		pg.TimeMgr.GetInstance():RemoveBattleTimer(slot0._roundTimer)
+
+		slot0._roundTimer = nil
+	end
+
+	for slot6, slot7 in ipairs(slot0.weaponButtons) do
+		slot7:StopCombatUIPreviewLoop()
+	end
+
+	if not slot1 or #slot0.weaponButtons == 0 then
+		return
+	end
+
+	if slot1 and table.isEmpty(slot2) then
+		slot2 = {}
+
+		for slot6, slot7 in ipairs(slot0.weaponButtons) do
+			table.insert(slot2, slot6)
+		end
+	end
+
+	for slot6, slot7 in ipairs(slot2) do
+		slot0.weaponButtons[slot7]:StartCombatUIPreviewLoop()
+	end
+
+	slot4 = pg.TimeMgr.GetInstance()
+	slot0._roundTimer = slot4:AddBattleTimer("weaponButtonRoundTimer", -1, uv0, function ()
+		for slot3, slot4 in ipairs(uv0) do
+			uv1.weaponButtons[slot4]:UpdateCombatUIPreviewLoop(uv2)
+		end
+	end)
+end
+
 slot0.updateBarPos = function(slot0)
 	if slot0.seaCharacter then
-		slot0.heroBar.localPosition = uv0
+		slot0.heroBar.localPosition = slot0.heroHpBarOffset or uv0
 		slot0.flagShipMark.localPosition = uv1
 	end
 
 	if slot0.seaEnemy then
-		slot0.enemyBar.localPosition = uv2
+		slot0.enemyBar.localPosition = slot0.enemyHpBarOffset or uv2
 	end
 end
 
@@ -358,11 +416,11 @@ slot0.updateHPPop = function(slot0)
 	slot3:Play()
 end
 
-slot11 = 250
-slot12 = 50
-slot13 = 1000
-slot14 = 2
-slot15 = 3
+slot12 = 250
+slot13 = 50
+slot14 = 1000
+slot15 = 2
+slot16 = 3
 
 slot0.updateStick = function(slot0)
 	if slot0._stickMoveCount and slot0._stickMoveCount <= uv0 then
@@ -416,47 +474,43 @@ slot0.updateStick = function(slot0)
 end
 
 slot0.SeaUpdate = function(slot0)
-	slot1 = -20
-	slot2 = 60
-	slot3 = 0
-	slot4 = 60
-	slot5 = ys.Battle.BattleConfig
-	slot6 = ys.Battle.BattleConst
-	slot8 = pg.TimeMgr.GetInstance()
-
-	slot8:AddBattleTimer("barrageUpdateTimer", -1, 0.033, function ()
+	pg.TimeMgr.GetInstance():AddBattleTimer("barrageUpdateTimer", -1, 0.033, function ()
 		uv0:updateBarPos()
 	end)
 
 	slot0._stickStopCount = 0
 	slot0.stickPos = Vector2.New(0, 0)
-	slot9 = pg.TimeMgr.GetInstance()
 
-	slot9:AddBattleTimer("stickUpdateTimer", -1, 0.033, function ()
+	pg.TimeMgr.GetInstance():AddBattleTimer("stickUpdateTimer", -1, 0.033, function ()
 		uv0:updateStick()
 	end)
-
-	slot10 = pg.TimeMgr.GetInstance()
-
-	slot10:AddBattleTimer("popupUpdateTimer", -1, 10, function ()
+	pg.TimeMgr.GetInstance():AddBattleTimer("popupUpdateTimer", -1, 10, function ()
 		uv0:updatePopUp()
 	end)
-
-	slot11 = pg.TimeMgr.GetInstance()
-
-	slot11:AddBattleTimer("skillFloatUpdateTimer", -1, 10, function ()
+	pg.TimeMgr.GetInstance():AddBattleTimer("skillFloatUpdateTimer", -1, 10, function ()
 		uv0:updateSkillFloat()
 	end)
-
-	slot12 = pg.TimeMgr.GetInstance()
-
-	slot12:AddBattleTimer("HPPopUpdateTimer", -1, 3, function ()
+	pg.TimeMgr.GetInstance():AddBattleTimer("HPPopUpdateTimer", -1, 3, function ()
 		uv0:updateHPPop()
 	end)
+	slot0:loop(uv0.EnableLoop, uv0.LoopWeaponButtons)
 end
 
 slot0.clear = function(slot0)
+	if slot0.weaponButtons then
+		slot0:loop(false)
+	end
+
 	pg.TimeMgr.GetInstance():RemoveAllBattleTimer()
+
+	slot0._roundTimer = nil
+	slot0.weaponButtons = {}
+	slot0.submarineButton = nil
+
+	if slot0.chatPop then
+		LeanTween.cancel(go(slot0.chatPop))
+	end
+
 	Destroy(slot0.seaCharacter)
 	Destroy(slot0.seaEnemy)
 	Destroy(slot0.uiGO)
@@ -500,6 +554,8 @@ slot0.clear = function(slot0)
 	slot0.seaCamera.enabled = true
 	slot0.seaCameraGO = nil
 	slot0.seaCamera = nil
+	slot0.heroHpBarOffset = nil
+	slot0.enemyHpBarOffset = nil
 	slot0.loading = false
 	slot0.loaded = false
 end

@@ -192,4 +192,12 @@ slot0.StaticCanUseVoucherType = function(slot0, slot1)
 	return false
 end
 
+slot0.ExistMeshImageSkinExchangeItem = function(slot0)
+	return false
+end
+
+slot0.GetMeshImageSkinExchangeItems = function(slot0)
+	return {}
+end
+
 return slot0

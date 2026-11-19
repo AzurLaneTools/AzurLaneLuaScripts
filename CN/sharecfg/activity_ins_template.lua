@@ -688,7 +688,8 @@ pg.activity_ins_template.all = {
 	20013,
 	20014,
 	20015,
-	20016
+	20016,
+	20017
 }
 pg.base = pg.base or {}
 pg.base.activity_ins_template = {}
@@ -28782,6 +28783,33 @@ end)()
 				2026,
 				10,
 				22
+			},
+			{
+				14,
+				0,
+				0
+			}
+		},
+		time_persist = {},
+		npc_discuss_persist = {}
+	}
+	pg.base.activity_ins_template[20017] = {
+		ship_group = 0,
+		name = "",
+		type = 2,
+		picture_persist = "",
+		title = "【港区访谈】{namecode:98}专访——经商传奇",
+		message_persist = "",
+		is_active = 1,
+		oalist_pic_persist = "",
+		sculpture = "",
+		id = 20017,
+		group_id = 20017,
+		time = {
+			{
+				2026,
+				11,
+				19
 			},
 			{
 				14,
