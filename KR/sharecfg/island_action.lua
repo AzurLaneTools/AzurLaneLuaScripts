@@ -33,13 +33,20 @@ pg.island_action.all = {
 	1028,
 	1029,
 	1030,
+	1031,
+	1032,
+	1033,
+	1034,
+	1035,
+	1036,
 	2000,
 	2001,
 	2002,
 	2003,
 	2004,
 	2005,
-	2006
+	2006,
+	2007
 }
 pg.island_action.get_id_list_by_type = {
 	{
@@ -72,7 +79,13 @@ pg.island_action.get_id_list_by_type = {
 		1027,
 		1028,
 		1029,
-		1030
+		1030,
+		1031,
+		1032,
+		1033,
+		1034,
+		1035,
+		1036
 	},
 	{
 		2000,
@@ -81,7 +94,8 @@ pg.island_action.get_id_list_by_type = {
 		2003,
 		2004,
 		2005,
-		2006
+		2006,
+		2007
 	}
 }
 pg.base = pg.base or {}
@@ -96,6 +110,7 @@ pg.base.island_action = {}
 		sigle_action_reply_type = 2,
 		resource = "hi",
 		desc = "캐릭터 액션 - 인사. 자신의 감정을 어필하세요!",
+		respond_dir = 0,
 		tech_id = 0,
 		id = 1000,
 		responder_feedback = "",
@@ -114,6 +129,7 @@ pg.base.island_action = {}
 		sigle_action_reply_type = 2,
 		resource = "bye",
 		desc = "캐릭터 액션 - 작별 인사. 자신의 감정을 어필하세요!",
+		respond_dir = 0,
 		tech_id = 0,
 		id = 1001,
 		responder_feedback = "",
@@ -130,6 +146,7 @@ pg.base.island_action = {}
 		sigle_action_reply_type = 2,
 		resource = "nod",
 		desc = "캐릭터 액션 - 끄덕임. 자신의 감정을 어필하세요!",
+		respond_dir = 0,
 		tech_id = 0,
 		id = 1002,
 		responder_feedback = "",
@@ -147,6 +164,7 @@ pg.base.island_action = {}
 		sigle_action_reply_type = 2,
 		resource = "shakehead",
 		desc = "캐릭터 액션 - 머리 흔들기. 자신의 감정을 어필하세요!",
+		respond_dir = 0,
 		tech_id = 0,
 		id = 1003,
 		responder_feedback = "",
@@ -164,6 +182,7 @@ pg.base.island_action = {}
 		sigle_action_reply_type = 2,
 		resource = "clap",
 		desc = "캐릭터 액션 - 박수. 자신의 감정을 어필하세요!",
+		respond_dir = 0,
 		tech_id = 0,
 		id = 1004,
 		responder_feedback = "",
@@ -181,6 +200,7 @@ pg.base.island_action = {}
 		sigle_action_reply_type = 2,
 		resource = "handsup",
 		desc = "캐릭터 액션 - 태양 포즈. 자신의 감정을 어필하세요!",
+		respond_dir = 0,
 		tech_id = 0,
 		id = 1005,
 		responder_feedback = "",
@@ -198,6 +218,7 @@ pg.base.island_action = {}
 		sigle_action_reply_type = 2,
 		resource = "akimbo",
 		desc = "캐릭터 액션 - 양손을 허리에. 자신의 감정을 어필하세요!",
+		respond_dir = 0,
 		tech_id = 0,
 		id = 1006,
 		responder_feedback = "",
@@ -214,6 +235,7 @@ pg.base.island_action = {}
 		sigle_action_reply_type = 2,
 		resource = "bow",
 		desc = "캐릭터 액션 - 인사. 자신의 감정을 어필하세요!",
+		respond_dir = 0,
 		tech_id = 0,
 		id = 1007,
 		responder_feedback = "",
@@ -236,6 +258,7 @@ pg.base.island_action = {}
 		sigle_action_reply_type = 2,
 		resource = "vjump",
 		desc = "캐릭터 액션 - 승리의 점프. 자신의 감정을 어필하세요!",
+		respond_dir = 0,
 		tech_id = 0,
 		id = 1008,
 		responder_feedback = "",
@@ -258,6 +281,7 @@ pg.base.island_action = {}
 		sigle_action_reply_type = 2,
 		resource = "stomp",
 		desc = "캐릭터 액션 - 발 구르기. 자신의 감정을 어필하세요!",
+		respond_dir = 0,
 		tech_id = 0,
 		id = 1009,
 		responder_feedback = "",
@@ -275,6 +299,7 @@ pg.base.island_action = {}
 		sigle_action_reply_type = 2,
 		resource = "muscle",
 		desc = "캐릭터 액션 - 근육 자랑. 자신의 감정을 어필하세요!",
+		respond_dir = 0,
 		tech_id = 0,
 		id = 1011,
 		responder_feedback = "",
@@ -297,6 +322,7 @@ pg.base.island_action = {}
 		sigle_action_reply_type = 2,
 		resource = "dance",
 		desc = "캐릭터 액션 - 춤추기. 자신의 감정을 어필하세요!",
+		respond_dir = 0,
 		tech_id = 0,
 		id = 1012,
 		responder_feedback = "",
@@ -314,6 +340,7 @@ pg.base.island_action = {}
 		sigle_action_reply_type = 2,
 		resource = "herocoming",
 		desc = "캐릭터 액션 - 히어로 등장. 자신의 감정을 어필하세요!",
+		respond_dir = 0,
 		tech_id = 0,
 		id = 1013,
 		responder_feedback = "",
@@ -336,6 +363,7 @@ pg.base.island_action = {}
 		sigle_action_reply_type = 2,
 		resource = "stretch",
 		desc = "상호작용 액션 「기지개」",
+		respond_dir = 0,
 		tech_id = 0,
 		id = 1014,
 		responder_feedback = "",
@@ -357,6 +385,7 @@ pg.base.island_action = {}
 		sigle_action_reply_type = 2,
 		resource = "fearshake",
 		desc = "상호작용 액션 「겁먹음」",
+		respond_dir = 0,
 		tech_id = 0,
 		id = 1015,
 		responder_feedback = "",
@@ -379,6 +408,7 @@ pg.base.island_action = {}
 		sigle_action_reply_type = 2,
 		resource = "holdfist",
 		desc = "상호작용 액션 「포권례」",
+		respond_dir = 0,
 		tech_id = 0,
 		id = 1016,
 		responder_feedback = "",
@@ -401,6 +431,7 @@ pg.base.island_action = {}
 		sigle_action_reply_type = 2,
 		resource = "vouch",
 		desc = "상호작용 액션「으쓱대기」",
+		respond_dir = 0,
 		tech_id = 0,
 		id = 1017,
 		responder_feedback = "",
@@ -423,6 +454,7 @@ pg.base.island_action = {}
 		sigle_action_reply_type = 2,
 		resource = "float",
 		desc = "상호작용 액션 「좌선」",
+		respond_dir = 0,
 		tech_id = 0,
 		id = 1018,
 		responder_feedback = "",
@@ -445,6 +477,7 @@ pg.base.island_action = {}
 		sigle_action_reply_type = 2,
 		resource = "refuse",
 		desc = "상호작용 「거절」",
+		respond_dir = 0,
 		tech_id = 0,
 		id = 1019,
 		responder_feedback = "",
@@ -467,6 +500,7 @@ pg.base.island_action = {}
 		sigle_action_reply_type = 2,
 		resource = "yawn",
 		desc = "상호작용 「하품」",
+		respond_dir = 0,
 		tech_id = 0,
 		id = 1020,
 		responder_feedback = "",
@@ -489,6 +523,7 @@ pg.base.island_action = {}
 		sigle_action_reply_type = 2,
 		resource = "wipingsweat",
 		desc = "상호작용 「땀 닦기」",
+		respond_dir = 0,
 		tech_id = 0,
 		id = 1021,
 		responder_feedback = "",
@@ -510,6 +545,7 @@ pg.base.island_action = {}
 		sigle_action_reply_type = 2,
 		resource = "scratchinghead",
 		desc = "상호작용 「머리 긁적임」",
+		respond_dir = 0,
 		tech_id = 0,
 		id = 1022,
 		responder_feedback = "",
@@ -532,6 +568,7 @@ pg.base.island_action = {}
 		sigle_action_reply_type = 2,
 		resource = "shootingbasketball",
 		desc = "상호작용 「슛」",
+		respond_dir = 0,
 		tech_id = 0,
 		id = 1023,
 		responder_feedback = "",
@@ -554,6 +591,7 @@ pg.base.island_action = {}
 		sigle_action_reply_type = 2,
 		resource = "blowkisses",
 		desc = "상호작용 「키스 날리기」",
+		respond_dir = 0,
 		tech_id = 0,
 		id = 1024,
 		responder_feedback = "",
@@ -577,6 +615,7 @@ pg.base.island_action = {}
 		sigle_action_reply_type = 2,
 		resource = "point",
 		desc = "상호작용 「척」",
+		respond_dir = 0,
 		tech_id = 0,
 		id = 1025,
 		responder_feedback = "",
@@ -599,6 +638,7 @@ pg.base.island_action = {}
 		sigle_action_reply_type = 2,
 		resource = "welcome",
 		desc = "상호작용 「환영」",
+		respond_dir = 0,
 		tech_id = 0,
 		id = 1026,
 		responder_feedback = "",
@@ -621,6 +661,7 @@ pg.base.island_action = {}
 		sigle_action_reply_type = 2,
 		resource = "lookover",
 		desc = "상호작용 「응시」",
+		respond_dir = 0,
 		tech_id = 0,
 		id = 1027,
 		responder_feedback = "",
@@ -643,6 +684,7 @@ pg.base.island_action = {}
 		sigle_action_reply_type = 2,
 		resource = "slapbelly",
 		desc = "상호작용 「배 통통」",
+		respond_dir = 0,
 		tech_id = 0,
 		id = 1028,
 		responder_feedback = "",
@@ -665,6 +707,7 @@ pg.base.island_action = {}
 		sigle_action_reply_type = 2,
 		resource = "doze",
 		desc = "상호작용 「졸려」",
+		respond_dir = 0,
 		tech_id = 0,
 		id = 1029,
 		responder_feedback = "",
@@ -687,12 +730,151 @@ pg.base.island_action = {}
 		sigle_action_reply_type = 2,
 		resource = "jumpinplace",
 		desc = "상호작용 「점프」",
+		respond_dir = 0,
 		tech_id = 0,
 		id = 1030,
 		responder_feedback = "",
 		chara_sigle_action_reply = {
 			103,
 			104
+		},
+		jump_page = {
+			{
+				"별빛상",
+				{}
+			}
+		}
+	}
+	pg.base.island_action[1031] = {
+		name = "수련",
+		respond_point = "",
+		type = 1,
+		feedback_type = 1,
+		sigle_action_reply_type = 2,
+		resource = "kungfu",
+		desc = "상호작용 액션 「수련」",
+		respond_dir = 0,
+		tech_id = 0,
+		id = 1031,
+		responder_feedback = "",
+		chara_sigle_action_reply = {
+			104,
+			106
+		},
+		jump_page = {
+			{
+				"시즌V - 개발 상점",
+				{}
+			}
+		}
+	}
+	pg.base.island_action[1032] = {
+		name = "배 문질문질",
+		respond_point = "",
+		type = 1,
+		feedback_type = 1,
+		sigle_action_reply_type = 2,
+		resource = "rub",
+		desc = "상호작용 액션 「배 문질문질」",
+		respond_dir = 0,
+		tech_id = 0,
+		id = 1032,
+		responder_feedback = "",
+		chara_sigle_action_reply = {
+			108,
+			203
+		},
+		jump_page = {
+			{
+				"시즌V - 개발 상점",
+				{}
+			}
+		}
+	}
+	pg.base.island_action[1033] = {
+		name = "피하기",
+		respond_point = "",
+		type = 1,
+		feedback_type = 1,
+		sigle_action_reply_type = 2,
+		resource = "dodge",
+		desc = "상호작용 액션 「피하기」",
+		respond_dir = 0,
+		tech_id = 0,
+		id = 1033,
+		responder_feedback = "",
+		chara_sigle_action_reply = {
+			202,
+			103
+		},
+		jump_page = {
+			{
+				"시즌V - 개발 상점",
+				{}
+			}
+		}
+	}
+	pg.base.island_action[1034] = {
+		name = "물구나무",
+		respond_point = "",
+		type = 1,
+		feedback_type = 1,
+		sigle_action_reply_type = 2,
+		resource = "handstand",
+		desc = "상호작용 액션 「물구나무」",
+		respond_dir = 0,
+		tech_id = 0,
+		id = 1034,
+		responder_feedback = "",
+		chara_sigle_action_reply = {
+			103,
+			107
+		},
+		jump_page = {
+			{
+				"시즌V - 개발 상점",
+				{}
+			}
+		}
+	}
+	pg.base.island_action[1035] = {
+		name = "경례",
+		respond_point = "",
+		type = 1,
+		feedback_type = 1,
+		sigle_action_reply_type = 2,
+		resource = "salute",
+		desc = "상호작용 액션 「경례」",
+		respond_dir = 0,
+		tech_id = 0,
+		id = 1035,
+		responder_feedback = "",
+		chara_sigle_action_reply = {
+			102,
+			107
+		},
+		jump_page = {
+			{
+				"별빛상",
+				{}
+			}
+		}
+	}
+	pg.base.island_action[1036] = {
+		name = "선보이기",
+		respond_point = "",
+		type = 1,
+		feedback_type = 1,
+		sigle_action_reply_type = 2,
+		resource = "show",
+		desc = "상호작용 액션 「선보이기」",
+		respond_dir = 0,
+		tech_id = 0,
+		id = 1036,
+		responder_feedback = "",
+		chara_sigle_action_reply = {
+			103,
+			107
 		},
 		jump_page = {
 			{
@@ -709,6 +891,7 @@ pg.base.island_action = {}
 		sigle_action_reply_type = 0,
 		resource = "givemefive",
 		desc = "캐릭터 액션 - 하이파이브. 자신의 감정을 어필하세요!",
+		respond_dir = 0,
 		tech_id = 0,
 		id = 2000,
 		responder_feedback = "givemefive_end",
@@ -727,6 +910,7 @@ pg.base.island_action = {}
 		sigle_action_reply_type = 0,
 		resource = "handshake",
 		desc = "캐릭터 액션 - 악수. 자신의 감정을 어필하세요!",
+		respond_dir = 0,
 		tech_id = 0,
 		id = 2001,
 		responder_feedback = "handshake_end",
@@ -750,6 +934,7 @@ pg.base.island_action = {}
 		sigle_action_reply_type = 0,
 		resource = "hug",
 		desc = "캐릭터 액션 - 포옹. 자신의 감정을 어필하세요!",
+		respond_dir = 0,
 		tech_id = 0,
 		id = 2002,
 		responder_feedback = "hug_end",
@@ -768,6 +953,7 @@ pg.base.island_action = {}
 		sigle_action_reply_type = 0,
 		resource = "claphands",
 		desc = "상호작용 액션 「축하」",
+		respond_dir = 0,
 		tech_id = 0,
 		id = 2003,
 		responder_feedback = "claphands_end",
@@ -791,6 +977,7 @@ pg.base.island_action = {}
 		sigle_action_reply_type = 0,
 		resource = "handheart",
 		desc = "상호작용 액션 「손하트」",
+		respond_dir = 0,
 		tech_id = 0,
 		id = 2004,
 		responder_feedback = "handheart_end",
@@ -814,6 +1001,7 @@ pg.base.island_action = {}
 		sigle_action_reply_type = 0,
 		resource = "curtaincall",
 		desc = "상호작용 「커튼콜」",
+		respond_dir = 0,
 		tech_id = 0,
 		id = 2005,
 		responder_feedback = "curtaincall_end_sp",
@@ -837,6 +1025,7 @@ pg.base.island_action = {}
 		sigle_action_reply_type = 0,
 		resource = "mutidance",
 		desc = "상호작용 「그룹 댄스」",
+		respond_dir = 0,
 		tech_id = 0,
 		id = 2006,
 		responder_feedback = "mutidance_end",
@@ -844,6 +1033,30 @@ pg.base.island_action = {}
 			0,
 			0,
 			1.41529
+		},
+		jump_page = {
+			{
+				"별빛상",
+				{}
+			}
+		}
+	}
+	pg.base.island_action[2007] = {
+		chara_sigle_action_reply = "",
+		name = "합체 변신",
+		type = 2,
+		feedback_type = 0,
+		sigle_action_reply_type = 0,
+		resource = "combine",
+		desc = "상호작용 액션 「합체 변신」",
+		respond_dir = 1,
+		tech_id = 0,
+		id = 2007,
+		responder_feedback = "combine_end_sp",
+		respond_point = {
+			-2.181,
+			0,
+			0
 		},
 		jump_page = {
 			{

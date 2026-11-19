@@ -4837,6 +4837,127 @@ _G.pg.base.bullet_template_2[161275] = {
 }
 
 
+_G.pg.base.bullet_template_2[161276] = {
+	range_offset = 10,
+	modle_ID = "kuasheAP",
+	type = 1,
+	velocity = 22,
+	antisub_enhancement = 0,
+	out_bound = 0,
+	hit_sfx = "battle/hit",
+	miss_fx = "ShellMissBig",
+	miss_sfx = "battle/sink",
+	alert_fx = "",
+	hit_fx = "Clhit",
+	range = 80,
+	effect_type = 1,
+	pierce_count = 0,
+	ammo_type = 2,
+	id = 161276,
+	random_damage_rate = 0,
+	damage_type = {
+		1.1,
+		1.1,
+		1.1
+	},
+	DMG_font = {
+		{
+			2,
+			1.2
+		},
+		{
+			2,
+			1.2
+		},
+		{
+			2,
+			1.2
+		}
+	},
+	acceleration = {},
+	cld_box = {
+		5,
+		2,
+		2
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	hit_type = {},
+	attach_buff = {},
+	extra_param = {
+		ignoreB = true,
+		ignoreShield = true
+	}
+}
+
+
+_G.pg.base.bullet_template_2[161277] = {
+	range_offset = 15,
+	modle_ID = "kuasheAP",
+	type = 2,
+	velocity = 18,
+	antisub_enhancement = 0,
+	out_bound = 0,
+	hit_sfx = "battle/hit",
+	miss_fx = "ShellMissBig",
+	miss_sfx = "battle/sink",
+	alert_fx = "AlertArea",
+	hit_fx = "ShellHit",
+	range = 110,
+	effect_type = 1,
+	pierce_count = 0,
+	ammo_type = 2,
+	id = 161277,
+	random_damage_rate = 0,
+	damage_type = {
+		1.1,
+		1.1,
+		1.1
+	},
+	DMG_font = {
+		{
+			2,
+			1.2
+		},
+		{
+			2,
+			1.2
+		},
+		{
+			2,
+			1.2
+		}
+	},
+	acceleration = {},
+	cld_box = {
+		5,
+		2,
+		2
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	hit_type = {
+		time = -1,
+		range = 16
+	},
+	attach_buff = {},
+	extra_param = {
+		gravity = -0.05,
+		randomOffsetX = 4,
+		randomOffsetZ = 4,
+		diveFilter = {
+			2
+		}
+	}
+}
+
+
 _G.pg.base.bullet_template_2[164099] = {
 	range_offset = 10,
 	modle_ID = "BulletJP",
@@ -13598,6 +13719,79 @@ _G.pg.base.bullet_template_2[183954] = {
 			2
 		}
 	}
+}
+
+
+_G.pg.base.bullet_template_2[183955] = {
+	range_offset = 10,
+	modle_ID = "BulletUSA_big",
+	type = 1,
+	velocity = 1.5,
+	antisub_enhancement = 0,
+	out_bound = 0,
+	hit_sfx = "battle/hit",
+	miss_fx = "ShellMiss",
+	miss_sfx = "battle/sink",
+	alert_fx = "",
+	hit_fx = "ShellMiss",
+	range = 100,
+	effect_type = 1,
+	pierce_count = 0,
+	ammo_type = 1,
+	id = 183955,
+	random_damage_rate = 0,
+	damage_type = {
+		1.1,
+		1.1,
+		1.1
+	},
+	DMG_font = {
+		{
+			1,
+			1
+		},
+		{
+			1,
+			1
+		},
+		{
+			1,
+			1
+		}
+	},
+	acceleration = {
+		{
+			u = -0.025,
+			flip = false,
+			v = 0,
+			t = 0
+		},
+		{
+			u = 0,
+			flip = false,
+			v = 0,
+			t = 0.22
+		},
+		{
+			u = 0.2,
+			flip = false,
+			v = 0,
+			t = 1
+		}
+	},
+	cld_box = {
+		6,
+		2,
+		2
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	hit_type = {},
+	attach_buff = {},
+	extra_param = {}
 }
 
 

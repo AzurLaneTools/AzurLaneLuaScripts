@@ -4419,6 +4419,14 @@ pg.memory_template.all = {
 	5550,
 	5551,
 	5552,
+	5601,
+	5611,
+	5612,
+	5613,
+	5614,
+	5615,
+	5616,
+	5617,
 	10000,
 	10001,
 	10002,
@@ -84273,6 +84281,150 @@ end)()
 			"YICHANGDERICHANGDUANJUQING39"
 		}
 	}
+	pg.base.memory_template[5601] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "새로운 여정 - 에기르",
+		condition = "특별계획함 강화 레벨 30 달성",
+		story = "LUCK49905",
+		mask = "bg/bg_memory",
+		task = 0,
+		year = 0,
+		id = 5601,
+		icon = "memory_jhaijier",
+		is_open = 0,
+		unlock_pre = {
+			"LUCK49905"
+		}
+	}
+	pg.base.memory_template[5611] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "시와 투영",
+		condition = "「지금이 곧 영원이 되리」 임무1 오픈",
+		story = "XIANGBIN1",
+		mask = "bg/bg_memory",
+		task = 500301,
+		year = 0,
+		id = 5611,
+		icon = "",
+		is_open = 0,
+		unlock_pre = {
+			"XIANGBIN1"
+		}
+	}
+	pg.base.memory_template[5612] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "꿈과 현실",
+		condition = "「지금이 곧 영원이 되리」 임무2 오픈",
+		story = "XIANGBIN2",
+		mask = "bg/bg_memory",
+		task = 500302,
+		year = 0,
+		id = 5612,
+		icon = "",
+		is_open = 0,
+		unlock_pre = {
+			"XIANGBIN2"
+		}
+	}
+	pg.base.memory_template[5613] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "과거와 미래",
+		condition = "「지금이 곧 영원이 되리」 임무3 오픈",
+		story = "XIANGBIN3",
+		mask = "bg/bg_memory",
+		task = 500303,
+		year = 0,
+		id = 5613,
+		icon = "",
+		is_open = 0,
+		unlock_pre = {
+			"XIANGBIN3"
+		}
+	}
+	pg.base.memory_template[5614] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "지금은 역사가 되어",
+		condition = "「지금이 곧 영원이 되리」 임무4 오픈",
+		story = "XIANGBIN4",
+		mask = "bg/bg_memory",
+		task = 500304,
+		year = 0,
+		id = 5614,
+		icon = "",
+		is_open = 0,
+		unlock_pre = {
+			"XIANGBIN4"
+		}
+	}
+	pg.base.memory_template[5615] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "시의 스텝",
+		condition = "「지금이 곧 영원이 되리」 임무5 오픈",
+		story = "XIANGBIN5",
+		mask = "bg/bg_memory",
+		task = 500305,
+		year = 0,
+		id = 5615,
+		icon = "",
+		is_open = 0,
+		unlock_pre = {
+			"XIANGBIN5"
+		}
+	}
+	pg.base.memory_template[5616] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "잠시 잠에 취해",
+		condition = "「지금이 곧 영원이 되리」 임무6 오픈",
+		story = "XIANGBIN6",
+		mask = "bg/bg_memory",
+		task = 500306,
+		year = 0,
+		id = 5616,
+		icon = "",
+		is_open = 0,
+		unlock_pre = {
+			"XIANGBIN6"
+		}
+	}
+	pg.base.memory_template[5617] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "함께 취하리라",
+		condition = "「지금이 곧 영원이 되리」 임무7 오픈",
+		story = "XIANGBIN7",
+		mask = "bg/bg_memory",
+		task = 500307,
+		year = 0,
+		id = 5617,
+		icon = "",
+		is_open = 0,
+		unlock_pre = {
+			"XIANGBIN7"
+		}
+	}
 	pg.base.memory_template[10000] = {
 		ship_group = 0,
 		subtitle = "",
@@ -85659,6 +85811,8 @@ end)()
 			"LINGHANGYUANYANGCHENGJIHUA7"
 		}
 	}
+end)()
+(function ()
 	pg.base.memory_template[20007] = {
 		ship_group = 0,
 		subtitle = "",
@@ -85803,8 +85957,6 @@ end)()
 			"LINGHANGYUANYANGCHENGJIHUA15"
 		}
 	}
-end)()
-(function ()
 	pg.base.memory_template[20015] = {
 		ship_group = 0,
 		subtitle = "",
@@ -87461,6 +87613,8 @@ end)()
 			"LINGYANGZHEYANGCHENGJIHUA26"
 		}
 	}
+end)()
+(function ()
 	pg.base.memory_template[20107] = {
 		ship_group = 0,
 		subtitle = "",
@@ -87605,8 +87759,6 @@ end)()
 			"LINGYANGZHEYANGCHENGJIHUA34"
 		}
 	}
-end)()
-(function ()
 	pg.base.memory_template[20115] = {
 		ship_group = 0,
 		subtitle = "",
@@ -89263,6 +89415,8 @@ end)()
 			"TANSUOZHELAIFANGJISHI2"
 		}
 	}
+end)()
+(function ()
 	pg.base.memory_template[20208] = {
 		ship_group = 0,
 		subtitle = "",
@@ -89407,8 +89561,6 @@ end)()
 			"TANSUOZHELAIFANGJISHI10"
 		}
 	}
-end)()
-(function ()
 	pg.base.memory_template[20216] = {
 		ship_group = 0,
 		subtitle = "",

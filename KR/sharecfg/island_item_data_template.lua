@@ -218,6 +218,20 @@ pg.island_item_data_template.all = {
 	4040,
 	4041,
 	4042,
+	4043,
+	4044,
+	4045,
+	4046,
+	4047,
+	4048,
+	4049,
+	4050,
+	4051,
+	4052,
+	4053,
+	4054,
+	4055,
+	4056,
 	5001,
 	5002,
 	5003,
@@ -300,6 +314,11 @@ pg.island_item_data_template.all = {
 	200032,
 	200033,
 	200034,
+	200035,
+	200036,
+	200037,
+	200038,
+	200039,
 	300001,
 	300002,
 	300003,
@@ -533,6 +552,20 @@ pg.island_item_data_template.get_id_list_by_usage = {
 		4040,
 		4041,
 		4042,
+		4043,
+		4044,
+		4045,
+		4046,
+		4047,
+		4048,
+		4049,
+		4050,
+		4051,
+		4052,
+		4053,
+		4054,
+		4055,
+		4056,
 		5001,
 		5002,
 		5003,
@@ -609,6 +642,11 @@ pg.island_item_data_template.get_id_list_by_usage = {
 		200032,
 		200033,
 		200034,
+		200035,
+		200036,
+		200037,
+		200038,
+		200039,
 		300001,
 		300002,
 		300003,
@@ -817,6 +855,20 @@ pg.island_item_data_template.get_id_list_by_type = {
 		4040,
 		4041,
 		4042,
+		4043,
+		4044,
+		4045,
+		4046,
+		4047,
+		4048,
+		4049,
+		4050,
+		4051,
+		4052,
+		4053,
+		4054,
+		4055,
+		4056,
 		5001,
 		5002,
 		5003,
@@ -900,6 +952,11 @@ pg.island_item_data_template.get_id_list_by_type = {
 		200032,
 		200033,
 		200034,
+		200035,
+		200036,
+		200037,
+		200038,
+		200039,
 		300001,
 		300002,
 		300003,
@@ -7345,7 +7402,8 @@ end)()
 		have_max = 0,
 		filter = {
 			10113,
-			10127
+			10127,
+			20000
 		},
 		sub_attribute = {
 			4,
@@ -7380,7 +7438,8 @@ end)()
 		have_max = 0,
 		filter = {
 			10113,
-			10127
+			10127,
+			20000
 		},
 		sub_attribute = {
 			5,
@@ -7485,7 +7544,8 @@ end)()
 		have_max = 0,
 		filter = {
 			10113,
-			10128
+			10128,
+			20000
 		},
 		sub_attribute = {
 			4,
@@ -7520,7 +7580,8 @@ end)()
 		have_max = 0,
 		filter = {
 			10113,
-			10128
+			10128,
+			20000
 		},
 		sub_attribute = {
 			3,
@@ -7829,7 +7890,8 @@ end)()
 		have_max = 0,
 		filter = {
 			10113,
-			10128
+			10128,
+			20000
 		},
 		sub_attribute = {
 			1,
@@ -7864,7 +7926,8 @@ end)()
 		have_max = 0,
 		filter = {
 			10113,
-			10128
+			10128,
+			20000
 		},
 		sub_attribute = {
 			6,
@@ -7899,7 +7962,8 @@ end)()
 		have_max = 0,
 		filter = {
 			10113,
-			10127
+			10127,
+			20000
 		},
 		sub_attribute = {
 			2,
@@ -7934,7 +7998,8 @@ end)()
 		have_max = 0,
 		filter = {
 			10113,
-			10127
+			10127,
+			20000
 		},
 		sub_attribute = {
 			2,
@@ -8491,6 +8556,488 @@ end)()
 		jump_page = {
 			{
 				"여름 특산품 의뢰 - 수공제작 설비",
+				{}
+			}
+		}
+	}
+	pg.base.island_item_data_template[4043] = {
+		name = "매화",
+		desc = "눈 속에서도 굴하지 않고 피어나는 매화. 고운 빛깔과 은은한 향은 겨울 최고의 풍경이다.",
+		type = 1,
+		manage_influence = 0,
+		pt_num = 72,
+		group_max = 0,
+		usage = "usage_undefined",
+		usage_arg = "[]",
+		drop_after_use = 0,
+		order_price = 1,
+		tech_id = 0,
+		icon = "IslandProps/item_4043",
+		price = 1,
+		icon_normal = "",
+		rarity = 3,
+		convert = 1,
+		resource_type = 1,
+		id = 4043,
+		have_max = 0,
+		filter = {
+			10111
+		},
+		sub_attribute = {},
+		jump_page = {
+			{
+				"겨울 특산품 의뢰 - 지도 채집",
+				{}
+			}
+		}
+	}
+	pg.base.island_item_data_template[4044] = {
+		name = "수선화",
+		desc = "희고 청초한 수선화. 늘씬한 자태에서 은은하고 우아한 겨울의 향기가 감돈다.",
+		type = 1,
+		manage_influence = 0,
+		pt_num = 1,
+		group_max = 0,
+		usage = "usage_undefined",
+		usage_arg = "[]",
+		drop_after_use = 0,
+		order_price = 1,
+		tech_id = 0,
+		icon = "IslandProps/item_4044",
+		price = 1,
+		icon_normal = "",
+		rarity = 1,
+		convert = 1,
+		resource_type = 1,
+		id = 4044,
+		have_max = 0,
+		filter = {
+			10111
+		},
+		sub_attribute = {},
+		jump_page = {
+			{
+				"겨울 특산품 의뢰 - 지도 채집",
+				{}
+			}
+		}
+	}
+	pg.base.island_item_data_template[4045] = {
+		name = "겨울 표고버섯",
+		desc = "두툼하고 감칠맛이 풍부한 겨울 표고버섯. 향이 진해 국이나 각종 요리에 안성맞춤인 식재료다.",
+		type = 1,
+		manage_influence = 0,
+		pt_num = 36,
+		group_max = 0,
+		usage = "usage_undefined",
+		usage_arg = "[]",
+		drop_after_use = 0,
+		order_price = 1,
+		tech_id = 0,
+		icon = "IslandProps/item_4045",
+		price = 1,
+		icon_normal = "",
+		rarity = 2,
+		convert = 1,
+		resource_type = 1,
+		id = 4045,
+		have_max = 0,
+		filter = {
+			10111
+		},
+		sub_attribute = {},
+		jump_page = {
+			{
+				"겨울 특산품 의뢰 - 지도 채집",
+				{}
+			}
+		}
+	}
+	pg.base.island_item_data_template[4046] = {
+		name = "물밤",
+		desc = "과즙이 풍부하고 아삭하면서 달콤한 물밤. 겨울에만 맛볼 수 있는 산뜻한 풍미.",
+		type = 1,
+		manage_influence = 0,
+		pt_num = 25,
+		group_max = 0,
+		usage = "usage_undefined",
+		usage_arg = "[]",
+		drop_after_use = 0,
+		order_price = 1,
+		tech_id = 0,
+		icon = "IslandProps/item_4046",
+		price = 1,
+		icon_normal = "",
+		rarity = 2,
+		convert = 1,
+		resource_type = 1,
+		id = 4046,
+		have_max = 0,
+		filter = {
+			10111
+		},
+		sub_attribute = {},
+		jump_page = {
+			{
+				"겨울 특산품 의뢰 - 지도 채집",
+				{}
+			}
+		}
+	}
+	pg.base.island_item_data_template[4047] = {
+		name = "설탕귤",
+		desc = "금빛으로 빛나는 설탕귤. 과육은 촉촉하고, 껍질을 벗기면 달콤한 향이 가득 퍼진다.",
+		type = 1,
+		manage_influence = 0,
+		pt_num = 8,
+		group_max = 0,
+		usage = "usage_undefined",
+		usage_arg = "[]",
+		drop_after_use = 0,
+		order_price = 1,
+		tech_id = 0,
+		icon = "IslandProps/item_4047",
+		price = 1,
+		icon_normal = "",
+		rarity = 2,
+		convert = 1,
+		resource_type = 1,
+		id = 4047,
+		have_max = 0,
+		filter = {
+			10111,
+			10125
+		},
+		sub_attribute = {},
+		jump_page = {
+			{
+				"겨울 특산품 의뢰 - 향기로운 과수원",
+				{}
+			}
+		}
+	}
+	pg.base.island_item_data_template[4048] = {
+		name = "설탕귤 씨앗",
+		desc = "설탕귤의 씨앗. 땅에 심어두면 달콤한 열매에 대한 기대가 살며시 피어난다.",
+		type = 1,
+		manage_influence = 0,
+		pt_num = 1,
+		group_max = 0,
+		usage = "usage_undefined",
+		usage_arg = "[]",
+		drop_after_use = 0,
+		order_price = 1,
+		tech_id = 0,
+		icon = "IslandProps/item_4048",
+		price = 1,
+		icon_normal = "",
+		rarity = 1,
+		convert = 1,
+		resource_type = 1,
+		id = 4048,
+		have_max = 0,
+		filter = {
+			10114
+		},
+		sub_attribute = {},
+		jump_page = {
+			{
+				"겨울 특산품 의뢰 - 상점 구매",
+				{
+					"IslandShopPage",
+					{
+						1,
+						2,
+						3,
+						4,
+						5
+					},
+					{
+						10025
+					}
+				}
+			}
+		}
+	}
+	pg.base.island_item_data_template[4049] = {
+		name = "푸른 대추",
+		desc = "푸른빛으로 탐스럽게 익은 대추. 아삭하면서도 달콤한 식감이 겨울철 입맛을 돋우는 제철 과일이다.",
+		type = 1,
+		manage_influence = 0,
+		pt_num = 2,
+		group_max = 0,
+		usage = "usage_undefined",
+		usage_arg = "[]",
+		drop_after_use = 0,
+		order_price = 1,
+		tech_id = 0,
+		icon = "IslandProps/item_4049",
+		price = 1,
+		icon_normal = "",
+		rarity = 2,
+		convert = 1,
+		resource_type = 1,
+		id = 4049,
+		have_max = 0,
+		filter = {
+			10111,
+			10125
+		},
+		sub_attribute = {},
+		jump_page = {
+			{
+				"겨울 특산품 의뢰 - 향기로운 과수원",
+				{}
+			}
+		}
+	}
+	pg.base.island_item_data_template[4050] = {
+		name = "푸른 대추 씨앗",
+		desc = "푸른 대추의 씨앗. 작은 씨앗 하나에 생명력이 가득 담겨 있어, 달콤하고 아삭한 열매로 자라난다.",
+		type = 1,
+		manage_influence = 0,
+		pt_num = 1,
+		group_max = 0,
+		usage = "usage_undefined",
+		usage_arg = "[]",
+		drop_after_use = 0,
+		order_price = 1,
+		tech_id = 0,
+		icon = "IslandProps/item_4050",
+		price = 1,
+		icon_normal = "",
+		rarity = 1,
+		convert = 1,
+		resource_type = 1,
+		id = 4050,
+		have_max = 0,
+		filter = {
+			10114
+		},
+		sub_attribute = {},
+		jump_page = {
+			{
+				"겨울 특산품 의뢰 - 상점 구매",
+				{
+					"IslandShopPage",
+					{
+						1,
+						2,
+						3,
+						4,
+						5
+					},
+					{
+						10025
+					}
+				}
+			}
+		}
+	}
+	pg.base.island_item_data_template[4051] = {
+		name = "겨울 표고버섯 닭고기 조림",
+		desc = "겨울 표고버섯과 닭고기를 오랫동안 푹 끓여 낸 향긋한 요리. 따뜻한 김이 피어오르며 마음까지 훈훈하게 해 준다.",
+		type = 1,
+		manage_influence = 250,
+		pt_num = 80,
+		group_max = 0,
+		usage = "usage_undefined",
+		usage_arg = "[]",
+		drop_after_use = 0,
+		order_price = 800,
+		tech_id = 0,
+		icon = "IslandProps/item_4051",
+		price = 1,
+		icon_normal = "",
+		rarity = 2,
+		convert = 1,
+		resource_type = 1,
+		id = 4051,
+		have_max = 0,
+		filter = {
+			10113,
+			10127,
+			20000
+		},
+		sub_attribute = {
+			3,
+			35
+		},
+		jump_page = {
+			{
+				"겨울 특산품 의뢰 - 유어 레스토랑",
+				{}
+			}
+		}
+	}
+	pg.base.island_item_data_template[4052] = {
+		name = "푸른 대추죽",
+		desc = "걸쭉하고 달콤한 푸른 대추죽. 쌀과 과일의 향이 부드럽게 어우러져 한결 부드러운 맛을 낸다.",
+		type = 1,
+		manage_influence = 250,
+		pt_num = 12,
+		group_max = 0,
+		usage = "usage_undefined",
+		usage_arg = "[]",
+		drop_after_use = 0,
+		order_price = 120,
+		tech_id = 0,
+		icon = "IslandProps/item_4052",
+		price = 1,
+		icon_normal = "",
+		rarity = 2,
+		convert = 1,
+		resource_type = 1,
+		id = 4052,
+		have_max = 0,
+		filter = {
+			10113,
+			10127,
+			20000
+		},
+		sub_attribute = {
+			1,
+			35
+		},
+		jump_page = {
+			{
+				"겨울 특산품 의뢰 - 유어 레스토랑",
+				{}
+			}
+		}
+	}
+	pg.base.island_item_data_template[4053] = {
+		name = "물밤 케이크",
+		desc = "투명하고 탱글탱글하게 쪄낸 음식. 물밤 특유의 아삭한 식감을 즐길 수 있는 풍미 가득한 전통 디저트다.",
+		type = 1,
+		manage_influence = 250,
+		pt_num = 60,
+		group_max = 0,
+		usage = "usage_undefined",
+		usage_arg = "[]",
+		drop_after_use = 0,
+		order_price = 600,
+		tech_id = 0,
+		icon = "IslandProps/item_4053",
+		price = 1,
+		icon_normal = "",
+		rarity = 2,
+		convert = 1,
+		resource_type = 1,
+		id = 4053,
+		have_max = 0,
+		filter = {
+			10113,
+			10129,
+			20000
+		},
+		sub_attribute = {
+			2,
+			35
+		},
+		jump_page = {
+			{
+				"겨울 특산품 의뢰 - 츄츄 간편식",
+				{}
+			}
+		}
+	}
+	pg.base.island_item_data_template[4054] = {
+		name = "설탕귤 찹쌀떡",
+		desc = "쫄깃쫄깃한 설탕귤 찹쌀떡. 달콤한 과육을 통째로 감싸 한입 베어 물면 놀라운 맛을 느낄 수 있다.",
+		type = 1,
+		manage_influence = 250,
+		pt_num = 38,
+		group_max = 0,
+		usage = "usage_undefined",
+		usage_arg = "[]",
+		drop_after_use = 0,
+		order_price = 320,
+		tech_id = 0,
+		icon = "IslandProps/item_4054",
+		price = 1,
+		icon_normal = "",
+		rarity = 3,
+		convert = 1,
+		resource_type = 1,
+		id = 4054,
+		have_max = 0,
+		filter = {
+			10113,
+			10129,
+			20000
+		},
+		sub_attribute = {
+			6,
+			35
+		},
+		jump_page = {
+			{
+				"겨울 특산품 의뢰 - 츄츄 간편식",
+				{}
+			}
+		}
+	}
+	pg.base.island_item_data_template[4055] = {
+		name = "매화 향낭",
+		desc = "매화로 장식한 작은 향낭. 은은한 향기가 늘 곁을 맴돌며 겨울의 우아한 정취를 더해 준다.",
+		type = 1,
+		manage_influence = 0,
+		pt_num = 270,
+		group_max = 0,
+		usage = "usage_undefined",
+		usage_arg = "[]",
+		drop_after_use = 0,
+		order_price = 1,
+		tech_id = 0,
+		icon = "IslandProps/item_4055",
+		price = 1,
+		icon_normal = "",
+		rarity = 4,
+		convert = 1,
+		resource_type = 1,
+		id = 4055,
+		have_max = 0,
+		filter = {
+			10113,
+			10131
+		},
+		sub_attribute = {},
+		jump_page = {
+			{
+				"겨울 특산품 의뢰 - 수공제작 설비",
+				{}
+			}
+		}
+	}
+	pg.base.island_item_data_template[4056] = {
+		name = "겨울 꽃다발",
+		desc = "맑고 화사한 색감의 꽃다발. 매화와 수선화의 조화가 겨울에 따스한 온기를 더해 준다.",
+		type = 1,
+		manage_influence = 0,
+		pt_num = 156,
+		group_max = 0,
+		usage = "usage_undefined",
+		usage_arg = "[]",
+		drop_after_use = 0,
+		order_price = 1,
+		tech_id = 0,
+		icon = "IslandProps/item_4056",
+		price = 1,
+		icon_normal = "",
+		rarity = 3,
+		convert = 1,
+		resource_type = 1,
+		id = 4056,
+		have_max = 0,
+		filter = {
+			10113,
+			10131
+		},
+		sub_attribute = {},
+		jump_page = {
+			{
+				"겨울 특산품 의뢰 - 수공제작 설비",
 				{}
 			}
 		}
@@ -10838,6 +11385,8 @@ end)()
 			}
 		}
 	}
+end)()
+(function ()
 	pg.base.island_item_data_template[200025] = {
 		name = "라피 - 아일랜드 권한 인증",
 		desc = "라피 - 아일랜드 권한 인증 아일랜드 권한 인증 장치를 사용하면, 캐릭터에게 아일랜드 개발 구역의 출입 권한을 부여할 수 있다.",
@@ -11148,6 +11697,161 @@ end)()
 			}
 		}
 	}
+	pg.base.island_item_data_template[200035] = {
+		name = "오그네보이 - 아일랜드 권한 인증",
+		desc = "오그네보이의 아일랜드 권한 인증. 아일랜드 권한 인증 장치를 사용하면, 캐릭터에게 아일랜드 개발 구역의 출입 권한을 부여할 수 있다.",
+		type = 2,
+		manage_influence = 0,
+		pt_num = 0,
+		group_max = 0,
+		usage = "usage_undefined",
+		usage_arg = "[]",
+		drop_after_use = 0,
+		order_price = 0,
+		tech_id = 0,
+		icon = "IslandProps/item_200035",
+		price = 0,
+		icon_normal = "",
+		rarity = 4,
+		convert = 0,
+		resource_type = 0,
+		id = 200035,
+		have_max = 0,
+		filter = {
+			10213
+		},
+		sub_attribute = {},
+		jump_page = {
+			{
+				"상점",
+				{}
+			}
+		}
+	}
+	pg.base.island_item_data_template[200036] = {
+		name = "에기르 - 아일랜드 권한 인증",
+		desc = "에기르의 아일랜드 권한 인증. 아일랜드 권한 인증 장치를 사용하면, 캐릭터에게 아일랜드 개발 구역의 출입 권한을 부여할 수 있다.",
+		type = 2,
+		manage_influence = 0,
+		pt_num = 0,
+		group_max = 0,
+		usage = "usage_undefined",
+		usage_arg = "[]",
+		drop_after_use = 0,
+		order_price = 0,
+		tech_id = 0,
+		icon = "IslandProps/item_200036",
+		price = 0,
+		icon_normal = "",
+		rarity = 4,
+		convert = 0,
+		resource_type = 0,
+		id = 200036,
+		have_max = 0,
+		filter = {
+			10213
+		},
+		sub_attribute = {},
+		jump_page = {
+			{
+				"별빛상",
+				{}
+			}
+		}
+	}
+	pg.base.island_item_data_template[200037] = {
+		name = "아거스 - 아일랜드 권한 인증",
+		desc = "아거스의 아일랜드 권한 인증. 아일랜드 권한 인증 장치를 사용하면, 캐릭터에게 아일랜드 개발 구역의 출입 권한을 부여할 수 있다.",
+		type = 2,
+		manage_influence = 0,
+		pt_num = 0,
+		group_max = 0,
+		usage = "usage_undefined",
+		usage_arg = "[]",
+		drop_after_use = 0,
+		order_price = 0,
+		tech_id = 0,
+		icon = "IslandProps/item_200037",
+		price = 0,
+		icon_normal = "",
+		rarity = 4,
+		convert = 0,
+		resource_type = 0,
+		id = 200037,
+		have_max = 0,
+		filter = {
+			10213
+		},
+		sub_attribute = {},
+		jump_page = {
+			{
+				"별빛상",
+				{}
+			}
+		}
+	}
+	pg.base.island_item_data_template[200038] = {
+		name = "나가토 - 아일랜드 권한 인증",
+		desc = "나가토의 아일랜드 권한 인증. 아일랜드 권한 인증 장치를 사용하면, 캐릭터에게 아일랜드 개발 구역의 출입 권한을 부여할 수 있다.",
+		type = 2,
+		manage_influence = 0,
+		pt_num = 0,
+		group_max = 0,
+		usage = "usage_undefined",
+		usage_arg = "[]",
+		drop_after_use = 0,
+		order_price = 0,
+		tech_id = 0,
+		icon = "IslandProps/item_200038",
+		price = 0,
+		icon_normal = "",
+		rarity = 4,
+		convert = 0,
+		resource_type = 0,
+		id = 200038,
+		have_max = 0,
+		filter = {
+			10213
+		},
+		sub_attribute = {},
+		jump_page = {
+			{
+				"별빛상",
+				{}
+			}
+		}
+	}
+	pg.base.island_item_data_template[200039] = {
+		name = "화지아 - 아일랜드 권한 인증",
+		desc = "화지아의 아일랜드 권한 인증. 아일랜드 권한 인증 장치를 사용하면, 캐릭터에게 아일랜드 개발 구역의 출입 권한을 부여할 수 있다.",
+		type = 2,
+		manage_influence = 0,
+		pt_num = 0,
+		group_max = 0,
+		usage = "usage_undefined",
+		usage_arg = "[]",
+		drop_after_use = 0,
+		order_price = 0,
+		tech_id = 0,
+		icon = "IslandProps/item_200039",
+		price = 0,
+		icon_normal = "",
+		rarity = 4,
+		convert = 0,
+		resource_type = 0,
+		id = 200039,
+		have_max = 0,
+		filter = {
+			10213
+		},
+		sub_attribute = {},
+		jump_page = {
+			{
+				"개발 상점",
+				{}
+			}
+		}
+	}
 	pg.base.island_item_data_template[300001] = {
 		name = "비옥한 농지 배치 작업 효율 4% 상승",
 		desc = "획득 후 비옥한 농지 배치 작업 효율 4% 상승",
@@ -11264,8 +11968,6 @@ end)()
 			}
 		}
 	}
-end)()
-(function ()
 	pg.base.island_item_data_template[300005] = {
 		name = "향기로운 과수원 배치 작업 효율 8% 상승",
 		desc = "획득 후 향기로운 과수원 배치 작업 효율 8% 상승",

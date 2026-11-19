@@ -11,19 +11,24 @@ pg.island_skin_colordiff_template.all = {
 	1990302,
 	2012102,
 	2021202,
+	2060202,
 	2060302,
 	2990302,
 	3031102,
 	3031202,
 	3040702,
+	3050502,
 	3120102,
 	4030302,
 	4990202,
+	4990502,
 	4990602,
 	5010702,
 	5010802,
 	5020102,
 	5060102,
+	5060202,
+	7011102,
 	9010702,
 	96000102
 }
@@ -52,6 +57,9 @@ pg.island_skin_colordiff_template.get_id_list_by_skin_group = {
 	[2021201] = {
 		2021202
 	},
+	[2060201] = {
+		2060202
+	},
 	[2060301] = {
 		2060302
 	},
@@ -67,6 +75,9 @@ pg.island_skin_colordiff_template.get_id_list_by_skin_group = {
 	[3040701] = {
 		3040702
 	},
+	[3050501] = {
+		3050502
+	},
 	[3120101] = {
 		3120102
 	},
@@ -75,6 +86,9 @@ pg.island_skin_colordiff_template.get_id_list_by_skin_group = {
 	},
 	[4990201] = {
 		4990202
+	},
+	[4990501] = {
+		4990502
 	},
 	[4990601] = {
 		4990602
@@ -90,6 +104,12 @@ pg.island_skin_colordiff_template.get_id_list_by_skin_group = {
 	},
 	[5060101] = {
 		5060102
+	},
+	[5060201] = {
+		5060202
+	},
+	[7011101] = {
+		7011102
 	},
 	[9010701] = {
 		9010702
@@ -198,6 +218,18 @@ pg.base.island_skin_colordiff_template = {}
 			}
 		}
 	}
+	pg.base.island_skin_colordiff_template[2060202] = {
+		id = 2060202,
+		model = 2060202,
+		color_icon = "color_2060202",
+		skin_group = 2060201,
+		cost = {
+			{
+				3,
+				1
+			}
+		}
+	}
 	pg.base.island_skin_colordiff_template[2060302] = {
 		id = 2060302,
 		model = 2060302,
@@ -258,6 +290,18 @@ pg.base.island_skin_colordiff_template = {}
 			}
 		}
 	}
+	pg.base.island_skin_colordiff_template[3050502] = {
+		id = 3050502,
+		model = 3050502,
+		color_icon = "color_3050502",
+		skin_group = 3050501,
+		cost = {
+			{
+				3,
+				1
+			}
+		}
+	}
 	pg.base.island_skin_colordiff_template[3120102] = {
 		id = 3120102,
 		model = 3120102,
@@ -287,6 +331,18 @@ pg.base.island_skin_colordiff_template = {}
 		model = 4990202,
 		color_icon = "color_4990202",
 		skin_group = 4990201,
+		cost = {
+			{
+				3,
+				1
+			}
+		}
+	}
+	pg.base.island_skin_colordiff_template[4990502] = {
+		id = 4990502,
+		model = 4990502,
+		color_icon = "color_4990502",
+		skin_group = 4990501,
 		cost = {
 			{
 				3,
@@ -347,6 +403,30 @@ pg.base.island_skin_colordiff_template = {}
 		model = 5060102,
 		color_icon = "color_5060102",
 		skin_group = 5060101,
+		cost = {
+			{
+				3,
+				1
+			}
+		}
+	}
+	pg.base.island_skin_colordiff_template[5060202] = {
+		id = 5060202,
+		model = 5060202,
+		color_icon = "color_5060202",
+		skin_group = 5060201,
+		cost = {
+			{
+				3,
+				1
+			}
+		}
+	}
+	pg.base.island_skin_colordiff_template[7011102] = {
+		id = 7011102,
+		model = 7011102,
+		color_icon = "color_7011102",
+		skin_group = 7011101,
 		cost = {
 			{
 				3,

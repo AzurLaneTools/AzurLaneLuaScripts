@@ -645,9 +645,22 @@ slot0.FromPlural = function(slot0, slot1, slot2, slot3, slot4, slot5, slot6)
 end
 
 slot0.FromObjPack = function(slot0, slot1, slot2, slot3, slot4, slot5)
+	slot6 = slot1
 	slot7 = {}
+	slot8 = slot1
+	slot9 = slot2
 
-	if not slot0.pools_pack[slot1] then
+	if HXSet.isHx() then
+		if slot2 == "" then
+			if checkABExist(slot8 .. "_hx") then
+				slot8 = slot8 .. "_hx"
+			end
+		else
+			slot9 = slot9 .. "_hx"
+		end
+	end
+
+	if not slot0.pools_pack[slot6] then
 		table.insert(slot7, function (slot0)
 			AssetBundleHelper.LoadAssetBundle(uv0, uv1, true, function (slot0)
 				uv0:AddPoolsPack(uv1, slot0)

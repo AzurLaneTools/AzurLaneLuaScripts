@@ -37,8 +37,15 @@ slot0.GetPaintingName = function(slot0)
 end
 
 slot0.OnLoad = function(slot0, slot1)
+	slot2 = slot0:GetPaintingName()
+
 	slot0:ClearScalePart()
-	LoadPaintingPrefabAsync(slot0.container, slot0.paintingName, slot0:GetPaintingName(), "mainNormal", function ()
+
+	if IsNil(slot0.container) then
+		return
+	end
+
+	LoadPaintingPrefabAsync(slot0.container, slot0.paintingName, slot2, "mainNormal", function (slot0)
 		if uv0:IsExited() then
 			uv0:Unload()
 
@@ -46,14 +53,14 @@ slot0.OnLoad = function(slot0, slot1)
 		end
 
 		uv0.loadPaintingName = uv1
+		uv0._paintingGO = slot0
 
 		uv0:InitSpecialDrag(uv0:InitSpecialTouch())
 
 		if uv0.expression then
-			ShipExpressionHelper.UpdateExpression(findTF(uv0.container, "fitter"):GetChild(0), uv0.paintingName, uv0.expression)
+			ShipExpressionHelper.UpdateExpression(uv0._paintingGO, uv0.paintingName, uv0.expression)
 		end
 
-		uv0:Breath()
 		uv0:InitScalePart()
 		uv2()
 	end)
@@ -61,7 +68,7 @@ end
 
 slot0.GetCenterPos = function(slot0)
 	if slot0:IsLoaded() then
-		slot1 = slot0.container:Find("fitter"):GetChild(0)
+		slot1 = slot0._paintingGO
 
 		return slot1:TransformPoint(slot1.localPosition + Vector3((0.5 - slot1.pivot.x) * slot1.sizeDelta.x, 0, 0))
 	else
@@ -86,7 +93,7 @@ slot0.PlayChangeSkinActionOut = function(slot0, slot1)
 end
 
 slot0.InitSpecialTouch = function(slot0)
-	if not findTF(findTF(slot0.container, "fitter"):GetChild(0), "Touch") then
+	if not findTF(slot0._paintingGO, "Touch") then
 		return
 	end
 
@@ -104,7 +111,7 @@ slot0.InitSpecialTouch = function(slot0)
 end
 
 slot0.InitSpecialDrag = function(slot0, slot1)
-	if not findTF(findTF(slot0.container, "fitter"):GetChild(0), "Drag") then
+	if not findTF(slot0._paintingGO, "Drag") then
 		return
 	end
 
@@ -239,7 +246,7 @@ slot0.ClearSpecialDrag = function(slot0)
 		return
 	end
 
-	if not findTF(findTF(slot0.container, "fitter"):GetChild(0), "Drag") then
+	if not findTF(slot0._paintingGO, "Drag") then
 		return
 	end
 
@@ -268,7 +275,7 @@ slot0.OnLongPress = function(slot0)
 end
 
 slot0.OnDisplayWorld = function(slot0, slot1)
-	slot3, slot0.expression = ShipExpressionHelper.SetExpression(findTF(slot0.container, "fitter"):GetChild(0), slot0.paintingName, slot1, slot0.ship:getCVIntimacy(), slot0.ship:getSkinId())
+	slot3, slot0.expression = ShipExpressionHelper.SetExpression(slot0._paintingGO, slot0.paintingName, slot1, slot0.ship:getCVIntimacy(), slot0.ship:getSkinId())
 end
 
 slot0.OnTriggerEvent = function(slot0)
@@ -277,14 +284,6 @@ end
 
 slot0.OnTriggerEventAuto = function(slot0)
 	slot0:Shake(uv0.CHAT_HEIGHT, uv0.CHAT_DURATION)
-end
-
-slot0.GetMeshPainting = function(slot0)
-	if findTF(slot0.container, "fitter").childCount <= 0 then
-		return nil
-	end
-
-	return slot1:GetChild(0)
 end
 
 slot0.Shake = function(slot0, slot1, slot2, slot3)
@@ -298,7 +297,7 @@ slot0.Shake = function(slot0, slot1, slot2, slot3)
 		return
 	end
 
-	if not slot0:GetMeshPainting() then
+	if not slot0._paintingGO then
 		return
 	end
 
@@ -313,19 +312,21 @@ slot0.Shake = function(slot0, slot1, slot2, slot3)
 end
 
 slot0.Breath = function(slot0)
-	if not slot0:GetMeshPainting() then
+	if not slot0._paintingGO then
 		return
 	end
 
+	print("start breath")
 	LeanTween.cancel(go(slot1))
 	LeanTween.moveY(rtf(slot1), slot2 and slot2 - 10 or uv0.DEFAULT_HEIGHT, uv0.BREATH_DURATION):setLoopPingPong():setEase(LeanTweenType.easeInOutCubic):setFrom(nil or uv0.BREATH_HEIGHT)
 end
 
 slot0.StopBreath = function(slot0)
-	if not slot0:GetMeshPainting() then
+	if not slot0._paintingGO then
 		return
 	end
 
+	print("stop breath")
 	LeanTween.cancel(go(slot1))
 end
 
@@ -337,8 +338,20 @@ slot0.OnEnableOrDisableDragAndZoom = function(slot0, slot1)
 	end
 end
 
+slot0.OnPaintingFade = function(slot0, slot1)
+	if not slot0:IsLoaded() then
+		return
+	end
+
+	if slot1 then
+		slot0:StopBreath()
+	else
+		slot0:Breath()
+	end
+end
+
 slot0.GetPaintingTransform = function(slot0)
-	return slot0:GetMeshPainting()
+	return tf(slot0._paintingGO)
 end
 
 slot0.GetPartScaleData = function(slot0)
@@ -360,8 +373,9 @@ slot0.GetOffset = function(slot0)
 end
 
 slot0.OnResume = function(slot0)
-	checkCullResume(slot0.container:Find("fitter"):GetChild(0))
+	checkCullResume(slot0._paintingGO)
 	slot0:Breath()
+	slot0:emit(NewMainScene.PAINTING_LOAD_COMPLETE)
 end
 
 slot0.Unload = function(slot0)
@@ -371,11 +385,14 @@ slot0.Unload = function(slot0)
 end
 
 slot0.OnUnload = function(slot0)
-	slot0:StopBreath()
 	slot0:ClearSpecialDrag()
 
-	if slot0.loadPaintingName then
-		retPaintingPrefab(slot0.container, slot0.loadPaintingName)
+	if slot0.loadPaintingName and slot0._paintingGO then
+		if slot0._paintingGO.transform.parent.parent then
+			retPaintingPrefab(slot1, slot0.loadPaintingName)
+		else
+			Destroy(slot0._paintingGO)
+		end
 
 		slot0.loadPaintingName = nil
 	end

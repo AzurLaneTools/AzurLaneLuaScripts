@@ -31,9 +31,18 @@ slot0.init = function(slot0)
 
 	slot0.rtRightPanel = slot0._tf:Find("adapt/right_panel")
 	slot0.rtNothingTip = slot0.rtRightPanel:Find("nothing_tip")
+
+	setText(slot0.rtNothingTip:Find("Text"), i18n("world_task_notask"))
+
 	slot0.btnClose = slot0.rtRightPanel:Find("title/close_btn")
 	slot0.toggleAll = slot0.rtRightPanel:Find("title/task_all")
+
+	setText(slot0.toggleAll, i18n("world_task_all"))
+
 	slot0.toggleMain = slot0.rtRightPanel:Find("title/task_main")
+
+	setText(slot0.toggleAll, i18n("world_task_main"))
+
 	slot0.rtContainer = slot0.rtRightPanel:Find("main/viewport/content")
 	slot0.taskItemList = UIItemList.New(slot0.rtContainer, slot0.rtContainer:Find("task_tpl"))
 
@@ -44,6 +53,10 @@ slot0.init = function(slot0)
 	end)
 
 	slot0.btnDailyTask = slot0.rtLeftPanel:Find("world_info/task_btn")
+	slot1 = slot0.rtContainer:Find("task_tpl")
+
+	setText(slot1:Find("base_panel/btn_go/Text"), i18n("world_task_view"))
+	setText(slot1:Find("base_panel/btn_get/Text"), i18n("world_task_get"))
 end
 
 slot0.didEnter = function(slot0)

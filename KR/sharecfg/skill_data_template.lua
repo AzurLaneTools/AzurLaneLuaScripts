@@ -1523,6 +1523,8 @@ pg.skill_data_template.all = {
 	18350,
 	18380,
 	18400,
+	18410,
+	18430,
 	18440,
 	18460,
 	18500,
@@ -3187,6 +3189,8 @@ pg.skill_data_template.all = {
 	1014200,
 	1013070,
 	1019170,
+	1012310,
+	1012500,
 	1090010,
 	1090020,
 	1090030,
@@ -131691,6 +131695,164 @@ end)()
 			}
 		}
 	}
+	pg.base.skill_data_template[18410] = {
+		desc_get = "",
+		name = "해신의 매력 +",
+		type = 3,
+		max_level = 10,
+		desc = "전투 중 어뢰 공격을 할 때마다 전장에 있는 적을 5초 동안 [해신의 소용돌이] 상태로 만든다. [해신의 소용돌이] 상태의 적은 흡인 효과를 받는 것으로 취급되며, 항속이 $1 저하한다. 자신이 「탄약 고갈」 상태가 아니라면 기동이 $2 상승한다.",
+		id = 18410,
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {
+			{
+				"30.0%",
+				"60.0%"
+			},
+			{
+				"5.0%",
+				"15.0%"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"30.0%",
+					"+3.3%"
+				},
+				{
+					"33.3%",
+					"+3.3%"
+				},
+				{
+					"36.6%",
+					"+3.3%"
+				},
+				{
+					"39.9%",
+					"+3.3%"
+				},
+				{
+					"43.2%",
+					"+3.3%"
+				},
+				{
+					"46.5%",
+					"+3.3%"
+				},
+				{
+					"49.8%",
+					"+3.3%"
+				},
+				{
+					"53.1%",
+					"+3.3%"
+				},
+				{
+					"56.4%",
+					"+3.6%"
+				},
+				{
+					"60.0%"
+				}
+			},
+			{
+				{
+					"5.0%",
+					"+1.1%"
+				},
+				{
+					"6.1%",
+					"+1.1%"
+				},
+				{
+					"7.2%",
+					"+1.1%"
+				},
+				{
+					"8.3%",
+					"+1.1%"
+				},
+				{
+					"9.4%",
+					"+1.1%"
+				},
+				{
+					"10.5%",
+					"+1.1%"
+				},
+				{
+					"11.6%",
+					"+1.1%"
+				},
+				{
+					"12.7%",
+					"+1.1%"
+				},
+				{
+					"13.8%",
+					"+1.2%"
+				},
+				{
+					"15.0%"
+				}
+			}
+		}
+	}
+	pg.base.skill_data_template[18430] = {
+		desc_get = "",
+		name = "물어뜯는 턱 +",
+		type = 1,
+		max_level = 10,
+		desc = "자신의 주포 공격이 명중한 적을 장갑 파괴 상태로 만든다. 자신이 주포 공격을 4회 할 때마다 [특수 탄막+]$1(을)를 발동한다(위력은 스킬 레벨에 따라 다름. 대구경 함포를 장비한 경우, 발동에 필요한 주포 공격 횟수가 2회로 감소).",
+		id = 18430,
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {
+			{
+				"Lv.1",
+				"Lv.10"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"Lv.1"
+				},
+				{
+					"Lv.2"
+				},
+				{
+					"Lv.3"
+				},
+				{
+					"Lv.4"
+				},
+				{
+					"Lv.5"
+				},
+				{
+					"Lv.6"
+				},
+				{
+					"Lv.7"
+				},
+				{
+					"Lv.8"
+				},
+				{
+					"Lv.9"
+				},
+				{
+					"Lv.10"
+				}
+			}
+		}
+	}
 	pg.base.skill_data_template[18440] = {
 		desc_get = "",
 		name = "Riddle a riddle +",
@@ -139829,6 +139991,8 @@ end)()
 			}
 		}
 	}
+end)()
+(function ()
 	pg.base.skill_data_template[19650] = {
 		desc_get = "",
 		name = "부활의 서사시",
@@ -140113,8 +140277,6 @@ end)()
 			}
 		}
 	}
-end)()
-(function ()
 	pg.base.skill_data_template[19660] = {
 		desc_get = "",
 		name = "멀티 링크 시스템 LOCK",
@@ -145560,6 +145722,8 @@ end)()
 		desc_get_add = {},
 		desc_add = {}
 	}
+end)()
+(function ()
 	pg.base.skill_data_template[21031] = {
 		desc_get = "",
 		name = "전탄 발사 - C급I",
@@ -145588,8 +145752,6 @@ end)()
 		desc_get_add = {},
 		desc_add = {}
 	}
-end)()
-(function ()
 	pg.base.skill_data_template[21041] = {
 		desc_get = "",
 		name = "전탄 발사 - F급I",
@@ -146962,6 +147124,8 @@ end)()
 		desc_get_add = {},
 		desc_add = {}
 	}
+end)()
+(function ()
 	pg.base.skill_data_template[23032] = {
 		desc_get = "",
 		name = "전탄 발사 - 1936년형II",
@@ -146990,8 +147154,6 @@ end)()
 		desc_get_add = {},
 		desc_add = {}
 	}
-end)()
-(function ()
 	pg.base.skill_data_template[23042] = {
 		desc_get = "",
 		name = "전탄 발사 – 1936A년형II",
@@ -148364,6 +148526,8 @@ end)()
 		desc_get_add = {},
 		desc_add = {}
 	}
+end)()
+(function ()
 	pg.base.skill_data_template[28262] = {
 		desc_get = "",
 		name = "전탄 발사Ⅱ",
@@ -148392,8 +148556,6 @@ end)()
 		desc_get_add = {},
 		desc_add = {}
 	}
-end)()
-(function ()
 	pg.base.skill_data_template[28272] = {
 		desc_get = "",
 		name = "전탄 발사Ⅱ",
@@ -149770,6 +149932,8 @@ end)()
 		desc_get_add = {},
 		desc_add = {}
 	}
+end)()
+(function ()
 	pg.base.skill_data_template[29462] = {
 		desc_get = "",
 		name = "특수 탄막 - 셰필드(μ장비)II",
@@ -149798,8 +149962,6 @@ end)()
 		desc_get_add = {},
 		desc_add = {}
 	}
-end)()
-(function ()
 	pg.base.skill_data_template[29472] = {
 		desc_get = "",
 		name = "특수 탄막 - 아드미랄 히퍼(μ장비)II",
@@ -151176,6 +151338,8 @@ end)()
 		desc_get_add = {},
 		desc_add = {}
 	}
+end)()
+(function ()
 	pg.base.skill_data_template[29982] = {
 		desc_get = "",
 		name = "특수 탄막-스킬라II",
@@ -151204,8 +151368,6 @@ end)()
 		desc_get_add = {},
 		desc_add = {}
 	}
-end)()
-(function ()
 	pg.base.skill_data_template[29992] = {
 		desc_get = "",
 		name = "특수 탄막-보로실로프II",
@@ -152578,6 +152740,8 @@ end)()
 		desc_get_add = {},
 		desc_add = {}
 	}
+end)()
+(function ()
 	pg.base.skill_data_template[30502] = {
 		desc_get = "",
 		name = "특수 탄막-드미트리 돈스코이II",
@@ -152606,8 +152770,6 @@ end)()
 		desc_get_add = {},
 		desc_add = {}
 	}
-end)()
-(function ()
 	pg.base.skill_data_template[30512] = {
 		desc_get = "",
 		name = "특수 탄막 - 르 아르디Ⅱ",
@@ -157674,6 +157836,8 @@ end)()
 			}
 		}
 	}
+end)()
+(function ()
 	pg.base.skill_data_template[106040] = {
 		desc_get = "",
 		name = "필살☆대폭발",
@@ -157825,8 +157989,6 @@ end)()
 			}
 		}
 	}
-end)()
-(function ()
 	pg.base.skill_data_template[106060] = {
 		desc_get = "",
 		name = "노을꽃",
@@ -166773,6 +166935,8 @@ end)()
 			}
 		}
 	}
+end)()
+(function ()
 	pg.base.skill_data_template[108300] = {
 		desc_get = "",
 		name = "사운드라스 풀 버스트",
@@ -167075,8 +167239,6 @@ end)()
 			}
 		}
 	}
-end)()
-(function ()
 	pg.base.skill_data_template[108320] = {
 		desc_get = "",
 		name = "정신 차려!",
@@ -175078,6 +175240,8 @@ end)()
 			}
 		}
 	}
+end)()
+(function ()
 	pg.base.skill_data_template[112020] = {
 		desc_get = "",
 		name = "세계 초월·리미터 해제+",
@@ -175380,8 +175544,6 @@ end)()
 			}
 		}
 	}
-end)()
-(function ()
 	pg.base.skill_data_template[112040] = {
 		desc_get = "",
 		name = "★Rock Fire",
@@ -183713,6 +183875,8 @@ end)()
 		desc_get_add = {},
 		desc_add = {}
 	}
+end)()
+(function ()
 	pg.base.skill_data_template[800125] = {
 		desc_get = "",
 		name = "섬멸의 횃불·헬레나I",
@@ -183745,8 +183909,6 @@ end)()
 		desc_get_add = {},
 		desc_add = {}
 	}
-end)()
-(function ()
 	pg.base.skill_data_template[800130] = {
 		desc_get = "",
 		name = "불꽃 하나후다",
@@ -188058,6 +188220,8 @@ end)()
 			}
 		}
 	}
+end)()
+(function ()
 	pg.base.skill_data_template[800690] = {
 		desc_get = "",
 		name = "쉐도우 스토커",
@@ -188180,8 +188344,6 @@ end)()
 		desc_get_add = {},
 		desc_add = {}
 	}
-end)()
-(function ()
 	pg.base.skill_data_template[800702] = {
 		desc_get = "",
 		name = "섬멸의 횃불·셰필드II",
@@ -193477,6 +193639,8 @@ end)()
 		desc_get_add = {},
 		desc_add = {}
 	}
+end)()
+(function ()
 	pg.base.skill_data_template[801232] = {
 		desc_get = "",
 		name = "일렁이는 불꽃 - 베아른Ⅱ",
@@ -193509,8 +193673,6 @@ end)()
 		desc_get_add = {},
 		desc_add = {}
 	}
-end)()
-(function ()
 	pg.base.skill_data_template[801237] = {
 		desc_get = "",
 		name = "일렁이는 불꽃 - 베아른Ⅱ",
@@ -198912,6 +199074,8 @@ end)()
 		desc_get_add = {},
 		desc_add = {}
 	}
+end)()
+(function ()
 	pg.base.skill_data_template[801787] = {
 		desc_get = "",
 		name = "염추의 재·글로리어스Ⅱ",
@@ -198989,8 +199153,6 @@ end)()
 			}
 		}
 	}
-end)()
-(function ()
 	pg.base.skill_data_template[801810] = {
 		desc_get = "",
 		name = "피의 그림자와 함께",
@@ -204363,6 +204525,8 @@ end)()
 		desc_get_add = {},
 		desc_add = {}
 	}
+end)()
+(function ()
 	pg.base.skill_data_template[802332] = {
 		desc_get = "",
 		name = "섬멸의 횃불 - 빅토리어스Ⅱ",
@@ -204395,8 +204559,6 @@ end)()
 		desc_get_add = {},
 		desc_add = {}
 	}
-end)()
-(function ()
 	pg.base.skill_data_template[802337] = {
 		desc_get = "",
 		name = "섬멸의 횃불 - 빅토리어스Ⅱ",
@@ -210837,6 +210999,8 @@ end)()
 			}
 		}
 	}
+end)()
+(function ()
 	pg.base.skill_data_template[1011940] = {
 		desc_get = "",
 		name = "하늘과 바다의 관측자+",
@@ -211049,8 +211213,6 @@ end)()
 			}
 		}
 	}
-end)()
-(function ()
 	pg.base.skill_data_template[1010480] = {
 		desc_get = "",
 		name = "자매의 연 +",
@@ -223010,6 +223172,299 @@ end)()
 			}
 		}
 	}
+	pg.base.skill_data_template[1012310] = {
+		desc_get = "",
+		name = "파이어 컨트롤 시스템 +",
+		type = 1,
+		max_level = 10,
+		desc = "전투 중 자신의 크리티컬율·크리티컬 피해량이 $1 증가하고, 구축함·경순양함에 대한 자신의 명중률이 $2 증가한다. 자신의 주포 공격이 적에게 명중했을 때 30% 확률로 6초 동안 해당 적의 회피율을 $2 감소시킨다. 전투 중 15초마다 특수 탄막 $3(을)를 전개한다(위력은 스킬 레벨에 따라 다름).",
+		id = 1012310,
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {
+			{
+				"10.0%",
+				"30.0%"
+			},
+			{
+				"4.0%",
+				"10.0%"
+			},
+			{
+				"LV1",
+				"LV10"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"10.0%",
+					"+2.2%"
+				},
+				{
+					"12.2%",
+					"+2.2%"
+				},
+				{
+					"14.4%",
+					"+2.2%"
+				},
+				{
+					"16.6%",
+					"+2.2%"
+				},
+				{
+					"18.8%",
+					"+2.2%"
+				},
+				{
+					"21.0%",
+					"+2.2%"
+				},
+				{
+					"23.2%",
+					"+2.2%"
+				},
+				{
+					"25.4%",
+					"+2.2%"
+				},
+				{
+					"27.6%",
+					"+2.4%"
+				},
+				{
+					"30.0%"
+				}
+			},
+			{
+				{
+					"4.0%",
+					"+0.6%"
+				},
+				{
+					"4.6%",
+					"+0.6%"
+				},
+				{
+					"5.2%",
+					"+0.8%"
+				},
+				{
+					"6.0%",
+					"+0.6%"
+				},
+				{
+					"6.6%",
+					"+0.6%"
+				},
+				{
+					"7.2%",
+					"+0.8%"
+				},
+				{
+					"8.0%",
+					"+0.6%"
+				},
+				{
+					"8.6%",
+					"+0.6%"
+				},
+				{
+					"9.2%",
+					"+0.8%"
+				},
+				{
+					"10.0%"
+				}
+			},
+			{
+				{
+					"Lv.1"
+				},
+				{
+					"Lv.2"
+				},
+				{
+					"Lv.3"
+				},
+				{
+					"Lv.4"
+				},
+				{
+					"Lv.5"
+				},
+				{
+					"Lv.6"
+				},
+				{
+					"Lv.7"
+				},
+				{
+					"Lv.8"
+				},
+				{
+					"Lv.9"
+				},
+				{
+					"Lv.10"
+				}
+			}
+		}
+	}
+	pg.base.skill_data_template[1012500] = {
+		desc_get = "",
+		name = "도전자의 포효 +",
+		type = 1,
+		max_level = 10,
+		desc = "전투 시작 시 항공·명중이 $2 상승한다. F6F 헬캣 또는 F6F 헬캣(HVAR 탑재형)을 장비한 경우, 전투기 슬롯의 장비 보정이 $1 상승하고, 항공 공격 시 F6F 헬캣과 F6F 헬캣(HVAR 탑재형)이 추가 항공 공격 $3(을)를 실시한다(위력은 스킬 레벨에 따라 다름).",
+		id = 1012500,
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {
+			{
+				"10.0%",
+				"30.0%"
+			},
+			{
+				"5.0%",
+				"15.0%"
+			},
+			{
+				"Lv.1",
+				"Lv.10"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"10.0%",
+					"+2.2%"
+				},
+				{
+					"12.2%",
+					"+2.2%"
+				},
+				{
+					"14.4%",
+					"+2.2%"
+				},
+				{
+					"16.6%",
+					"+2.2%"
+				},
+				{
+					"18.8%",
+					"+2.2%"
+				},
+				{
+					"21.0%",
+					"+2.2%"
+				},
+				{
+					"23.2%",
+					"+2.2%"
+				},
+				{
+					"25.4%",
+					"+2.2%"
+				},
+				{
+					"27.6%",
+					"+2.4%"
+				},
+				{
+					"30.0%"
+				}
+			},
+			{
+				{
+					"5.0%",
+					"+1.1%"
+				},
+				{
+					"6.1%",
+					"+1.1%"
+				},
+				{
+					"7.2%",
+					"+1.1%"
+				},
+				{
+					"8.3%",
+					"+1.1%"
+				},
+				{
+					"9.4%",
+					"+1.1%"
+				},
+				{
+					"10.5%",
+					"+1.1%"
+				},
+				{
+					"11.6%",
+					"+1.1%"
+				},
+				{
+					"12.7%",
+					"+1.1%"
+				},
+				{
+					"13.8%",
+					"+1.2%"
+				},
+				{
+					"15.0%"
+				}
+			},
+			{
+				{
+					"Lv.1",
+					"+1"
+				},
+				{
+					"Lv.2",
+					"+1"
+				},
+				{
+					"Lv.3",
+					"+1"
+				},
+				{
+					"Lv.4",
+					"+1"
+				},
+				{
+					"Lv.5",
+					"+1"
+				},
+				{
+					"Lv.6",
+					"+1"
+				},
+				{
+					"Lv.7",
+					"+1"
+				},
+				{
+					"Lv.8",
+					"+1"
+				},
+				{
+					"Lv.9",
+					"+1"
+				},
+				{
+					"Lv.10"
+				}
+			}
+		}
+	}
 	pg.base.skill_data_template[1090010] = {
 		desc_get = "",
 		name = "편대항모·글로리어스",
@@ -224723,6 +225178,8 @@ end)()
 			}
 		}
 	}
+end)()
+(function ()
 	pg.base.skill_data_template[1090140] = {
 		desc_get = "",
 		name = "엄호포격·새러토가",
@@ -225158,8 +225615,6 @@ end)()
 			}
 		}
 	}
-end)()
-(function ()
 	pg.base.skill_data_template[1090180] = {
 		desc_get = "",
 		name = "포화제압·후소",

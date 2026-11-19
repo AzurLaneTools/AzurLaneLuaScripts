@@ -70,8 +70,8 @@ pg.base.island_shop_normal_template = {}
 			{
 				{
 					2026,
-					8,
-					20
+					11,
+					19
 				},
 				{
 					0,
@@ -81,9 +81,9 @@ pg.base.island_shop_normal_template = {}
 			},
 			{
 				{
-					2026,
-					11,
-					19
+					2027,
+					2,
+					17
 				},
 				{
 					12,
@@ -104,7 +104,7 @@ pg.base.island_shop_normal_template = {}
 			{
 				{
 					2026,
-					9,
+					12,
 					17
 				},
 				{
@@ -115,9 +115,9 @@ pg.base.island_shop_normal_template = {}
 			},
 			{
 				{
-					2026,
-					11,
-					19
+					2027,
+					2,
+					17
 				},
 				{
 					12,
@@ -137,9 +137,9 @@ pg.base.island_shop_normal_template = {}
 		exist_time = {
 			{
 				{
-					2026,
-					10,
-					22
+					2027,
+					1,
+					21
 				},
 				{
 					0,
@@ -149,9 +149,9 @@ pg.base.island_shop_normal_template = {}
 			},
 			{
 				{
-					2026,
-					11,
-					19
+					2027,
+					2,
+					17
 				},
 				{
 					12,

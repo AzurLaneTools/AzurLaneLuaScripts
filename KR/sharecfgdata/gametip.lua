@@ -12600,17 +12600,17 @@ _G.pg.base.gametip.buildship_new_tip = {
 
 
 _G.pg.base.gametip.buildship_heavy_tip = {
-	tip = "「퀸 앤즈 리벤지」 등 상시 건조 추가!"
+	tip = "「클레망소」, 「리옹」, 「쉬프랑」 상시 건조 추가! "
 }
 
 
 _G.pg.base.gametip.buildship_light_tip = {
-	tip = "「라임」, 「팬시」 상시 건조 추가!"
+	tip = "「기샹」 상시 건조 추가!"
 }
 
 
 _G.pg.base.gametip.buildship_special_tip = {
-	tip = "「아미티」 상시 건조 추가!"
+	tip = "「팽르베」 상시 건조 추가!"
 }
 
 
@@ -40337,6 +40337,36 @@ _G.pg.base.gametip.shop_new_gift = {
 }
 
 
+_G.pg.base.gametip.shop_new_lower_price = {
+	tip = "최저가"
+}
+
+
+_G.pg.base.gametip.shop_new_cannot_use_coupon = {
+	tip = "할인 판매 중이므로 할인 쿠폰을 사용할 수 없습니다"
+}
+
+
+_G.pg.base.gametip.shop_new_only_use_one_coupon = {
+	tip = "할인 쿠폰은 1장만 선택할 수 있습니다"
+}
+
+
+_G.pg.base.gametip.shop_new_coupon_tip1 = {
+	tip = "\n대상 스킨:\n"
+}
+
+
+_G.pg.base.gametip.shop_new_coupon_tip2 = {
+	tip = "$1 스킨 $2\n"
+}
+
+
+_G.pg.base.gametip.shop_new_coupon_tip3 = {
+	tip = "해당 할인 쿠폰은 스킨 구매 시에 우선적으로 사용됩니다. 할인 쿠폰을 획득하시겠습니까?"
+}
+
+
 _G.pg.base.gametip.shop_new_gem_transform = {
 	tip = "보유 중인 스킨을 다시 획득하면 자동으로 다이아로 변환됩니다."
 }
@@ -44171,6 +44201,56 @@ _G.pg.base.gametip.island_spoperation_item_2605_4 = {
 }
 
 
+_G.pg.base.gametip.island_spoperation_tip_2611_1 = {
+	tip = "이벤트 기간 중에 피어리의 특산품 의뢰가 등장합니다. 특산품 의뢰를 처리하면 시즌 PT를 비롯한 보상을 획득할 수 있습니다. \n*특산품 의뢰는 의뢰 완성 한도에 영향을 주지 않으며, 평가 레벨을 상승시킬 수 없습니다."
+}
+
+
+_G.pg.base.gametip.island_spoperation_btn_2611_1 = {
+	tip = "특산품 채집"
+}
+
+
+_G.pg.base.gametip.island_spoperation_btn_2611_2 = {
+	tip = "특산품 제작"
+}
+
+
+_G.pg.base.gametip.island_spoperation_btn_2611_3 = {
+	tip = "이벤트 관리자"
+}
+
+
+_G.pg.base.gametip.island_spoperation_tip_2611_3 = {
+	tip = "이벤트 기간 내 [향기로운 과수원], [유어 레스토랑], [츄츄 간편식], [기지 공장]에서 대응하는 특산품 생산 가능"
+}
+
+
+_G.pg.base.gametip.island_spoperation_item_2611_1 = {
+	tip = "매화"
+}
+
+
+_G.pg.base.gametip.island_spoperation_item_2611_2 = {
+	tip = "수선화"
+}
+
+
+_G.pg.base.gametip.island_spoperation_item_2611_3 = {
+	tip = "겨울 표고버섯"
+}
+
+
+_G.pg.base.gametip.island_spoperation_item_2611_4 = {
+	tip = "물밤"
+}
+
+
+_G.pg.base.gametip.island_spoperation_tip_2611_2 = {
+	tip = "이벤트 기간 중 특정 구역 내에 매일 이벤트 채집 아이템이 등장합니다. 어서 찾으러 가보세요!"
+}
+
+
 _G.pg.base.gametip.island_follow_success = {
 	tip = "동반 성공"
 }
@@ -44786,6 +44866,11 @@ _G.pg.base.gametip.graphi_api_switch_opengl = {
 
 _G.pg.base.gametip.graphi_api_switch_vulkan = {
 	tip = "렌더링 호환 모드에서는 AR 기능을 사용할 수 없습니다. 렌더링 호환 모드 설정을 변경하면 게임을 다시 시작해야 합니다. 렌더링 호환 모드를 변경하시겠습니까?"
+}
+
+
+_G.pg.base.gametip.openGLerror_warning = {
+	tip = "현재 이용 중인 기기에서는 Vulkan 렌더링을 이용할 수 없습니다. 「설정」에서 렌더링 호환 모드를 ON으로 설정하세요. \n※ 렌더링 호환 모드 설정을 변경하면 게임을 다시 시작해야 합니다."
 }
 
 
@@ -51417,6 +51502,11 @@ _G.pg.base.gametip.auto_battle_help = {
 }
 
 
+_G.pg.base.gametip.island_furniture_interaction_tip1 = {
+	tip = "아일랜드 소유자가 사용 중인 가구입니다. 잠시 후 다시 시도하시기 바랍니다."
+}
+
+
 _G.pg.base.gametip.auto_battle_in_world = {
 	tip = "수행 중인 위임 작전이 있으므로 작전을 새로 위임할 수 없습니다."
 }
@@ -51956,6 +52046,131 @@ _G.pg.base.gametip.HurricaneTreasureCoreActivityUI_subtitle_1 = {
 }
 
 
+_G.pg.base.gametip.skin_double_coupon_confirm = {
+	tip = "<color=#92fc63>$1*1</color>을 소비하여 할인가\n<icon name=gem w=0.6 h=0.6/><color=#FFDE38FF>$2</color>(으)로 스킨 <color=#92fc63>$3</color>(을)를 구매하시겠습니까? 할인 쿠폰은 중복으로 사용할 수 없습니다."
+}
+
+
+_G.pg.base.gametip.skin_double_coupon_tip = {
+	tip = "할인 쿠폰은 1장만 선택할 수 있습니다"
+}
+
+
+_G.pg.base.gametip.display_ship_get_repeat = {
+	tip = "등록 완료 함선 획득 연출"
+}
+
+
+_G.pg.base.gametip.trun_on_display_ship_get_repeat = {
+	tip = "등록 완료 함선 획득 연출을 ON으로 설정했습니다"
+}
+
+
+_G.pg.base.gametip.trun_off_display_ship_get_repeat = {
+	tip = "등록 완료 함선 획득 연출을 OFF로 설정했습니다 (해역 드롭 한정)"
+}
+
+
+_G.pg.base.gametip.resource_repair_tips1 = {
+	tip = "「확인」을 탭하면 리소스 복구를 시작할 수 있습니다 ※ 다소 시간이 소요될 수 있습니다"
+}
+
+
+_G.pg.base.gametip.resource_repair_tips2 = {
+	tip = "<color=#c5cfdf>리소스 복구 중에는 다른 조작이 불가능합니다. 잠시만 기다려 주세요.</color>"
+}
+
+
+_G.pg.base.gametip.resource_repair_tips3 = {
+	tip = "복구할 리소스를 1개 이상 선택하세요"
+}
+
+
+_G.pg.base.gametip.resource_repair_op1 = {
+	tip = "기본 리소스"
+}
+
+
+_G.pg.base.gametip.resource_repair_op2 = {
+	tip = "L2D"
+}
+
+
+_G.pg.base.gametip.resource_repair_op3 = {
+	tip = "스탠딩 이미지"
+}
+
+
+_G.pg.base.gametip.resource_repair_op4 = {
+	tip = "시크릿즈"
+}
+
+
+_G.pg.base.gametip.resource_repair_op5 = {
+	tip = "음성"
+}
+
+
+_G.pg.base.gametip.resource_repair_check = {
+	tip = "리소스 그룹 검증 중: $1($2): $3%"
+}
+
+
+_G.pg.base.gametip.resource_repairing = {
+	tip = "리소스 그룹 복구 중: $1($2): $3%"
+}
+
+
+_G.pg.base.gametip.resource_repair_report1 = {
+	tip = "이상 없는 리소스 그룹: $1"
+}
+
+
+_G.pg.base.gametip.resource_repair_report2 = {
+	tip = "복구에 성공한 리소스 그룹: $1"
+}
+
+
+_G.pg.base.gametip.resource_repair_report3 = {
+	tip = "복구에 실패한 리소스 그룹: $1"
+}
+
+
+_G.pg.base.gametip.resource_repair_finish_tips = {
+	tip = "복구가 완료되었습니다. 게임을 재실행해 주세요."
+}
+
+
 _G.pg.base.gametip.windfog_skin_stroy_finish = {
 	tip = "스토리를 전부 확인하여 획득 "
+}
+
+
+_G.pg.base.gametip.entrance_maintain = {
+	tip = "준비 중입니다"
+}
+
+
+_G.pg.base.gametip.world_task_get = {
+	tip = "보상 수령"
+}
+
+
+_G.pg.base.gametip.world_task_view = {
+	tip = "구역 확인"
+}
+
+
+_G.pg.base.gametip.world_task_all = {
+	tip = "임무 목록"
+}
+
+
+_G.pg.base.gametip.world_task_main = {
+	tip = "메인"
+}
+
+
+_G.pg.base.gametip.world_task_notask = {
+	tip = "수락할 수 있는 임무가 없습니다"
 }

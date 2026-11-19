@@ -71,6 +71,8 @@ slot0.AddAgoraListeners = function(slot0)
 	slot0:AddAgoraListener(ISLAND_AGORA_EVT.MAP_SIZE_UPDATE, slot0.OnBoardUpdate)
 	slot0:AddAgoraListener(ISLAND_AGORA_EVT.START_INTERACTION, slot0.OnAgoraVirtualStartInteraction)
 	slot0:AddAgoraListener(ISLAND_AGORA_EVT.END_INTERACTION, slot0.OnAgoraVirtualEndInteraction)
+	slot0:AddAgoraListener(ISLAND_AGORA_EVT.SHIP_START_INTERACTION, slot0.OnAgoraShipStartInteraction)
+	slot0:AddAgoraListener(ISLAND_AGORA_EVT.SHIP_END_INTERACTION, slot0.OnAgoraShipEndInteraction)
 	slot0:AddAgoraListener(ISLAND_AGORA_EVT.ITEM_OCCUPIED, slot0.OnPositionOccupied)
 	slot0:AddAgoraListener(ISLAND_AGORA_EVT.ITEM_CLEAR_OCCUPIED, slot0.OnClearPositionOccupied)
 	slot0:AddAgoraListener(ISLAND_AGORA_EVT.SIGN_IN_CNT_UPDATE, slot0.OnSignCntUpdate)
@@ -112,6 +114,8 @@ slot0.RemoveAgoraListeners = function(slot0)
 	slot0:RemoveAgoraListener(ISLAND_AGORA_EVT.MAP_SIZE_UPDATE, slot0.OnBoardUpdate)
 	slot0:RemoveAgoraListener(ISLAND_AGORA_EVT.START_INTERACTION, slot0.OnAgoraVirtualStartInteraction)
 	slot0:RemoveAgoraListener(ISLAND_AGORA_EVT.END_INTERACTION, slot0.OnAgoraVirtualEndInteraction)
+	slot0:RemoveAgoraListener(ISLAND_AGORA_EVT.SHIP_START_INTERACTION, slot0.OnAgoraShipStartInteraction)
+	slot0:RemoveAgoraListener(ISLAND_AGORA_EVT.SHIP_END_INTERACTION, slot0.OnAgoraShipEndInteraction)
 	slot0:RemoveAgoraListener(ISLAND_AGORA_EVT.ITEM_OCCUPIED, slot0.OnPositionOccupied)
 	slot0:RemoveAgoraListener(ISLAND_AGORA_EVT.ITEM_CLEAR_OCCUPIED, slot0.OnClearPositionOccupied)
 	slot0:RemoveAgoraListener(ISLAND_AGORA_EVT.SIGN_IN_CNT_UPDATE, slot0.OnSignCntUpdate)
@@ -352,34 +356,69 @@ slot0.OnClearPositionOccupied = function(slot0, slot1)
 	end
 end
 
-slot0.OnAgoraVirtualStartInteraction = function(slot0, slot1, slot2, slot3)
-	slot4 = slot2:GetHostId()
-	slot5 = slot2:GetUserId()
+slot0.OnAgoraVirtualStartInteraction = function(slot0, slot1, slot2, slot3, slot4, slot5)
+	slot7 = slot0:GetPlayerUnitModule(slot3)
 
-	warning("start", slot4, slot5, slot3, slot2.id)
+	if not slot0:GetUnitModule(slot1.id) or not slot7 then
+		return
+	end
 
-	slot6 = slot0:GetUnitModule(slot4)
+	if not slot1:GetTimeline()[slot4] then
+		warning(string.format("agora view start dropped: timeline config missing unit=%s param=%s", tostring(slot1.id), tostring(slot4)))
 
-	if slot0.player == slot0:GetPlayerUnitModule(slot5) then
+		return
+	end
+
+	if slot0.player == slot7 then
 		slot0:GetSubView(AgoraOpView):StartInteraction()
 	end
 
-	slot6:StartInteract(slot7, slot2.id, slot3, slot1:GetTimeline()[slot3], slot1:GetBlackboardParam()[slot3], slot1:AnySlotUsing(), slot8, slot1:GetPlayerParentPath(slot2.id))
+	slot6:StartInteract(slot7, slot2, slot4, slot5, slot9)
 end
 
-slot0.OnAgoraVirtualEndInteraction = function(slot0, slot1, slot2)
-	slot3 = slot2:GetHostId()
-	slot4 = slot2:GetUserId()
+slot0.OnAgoraVirtualEndInteraction = function(slot0, slot1, slot2, slot3, slot4)
+	slot6 = slot0:GetPlayerUnitModule(slot3)
 
-	warning("end", slot3, slot4, slot2.id)
+	if not slot0:GetUnitModule(slot1.id) or not slot6 then
+		return
+	end
 
-	slot5 = slot0:GetUnitModule(slot3)
-
-	if slot0.player == slot0:GetPlayerUnitModule(slot4) then
+	if slot0.player == slot6 then
 		slot0:GetSubView(AgoraOpView):EndInteraction()
 	end
 
-	slot5:EndInteract(slot6, slot2.id, not slot1:AnySlotUsing(), slot7)
+	slot5:EndInteract(slot6, slot2, slot4, slot7)
+end
+
+slot0.OnAgoraShipStartInteraction = function(slot0, slot1, slot2, slot3, slot4)
+	slot6 = slot0:GetPlayerUnitModule(slot3)
+
+	if not slot0:GetUnitModule(slot1.id) or not slot6 then
+		return
+	end
+
+	if not slot1:GetTimeline()[slot4] then
+		warning(string.format("ship view start dropped: timeline config missing unit=%s param=%s", tostring(slot1.id), tostring(slot4)))
+
+		return
+	end
+
+	if slot0.player == slot6 then
+		slot0:GetSubView(AgoraOpView):StartInteraction()
+	end
+
+	slot5:StartShipInteract(slot6, slot2 or {}, slot4, slot8)
+end
+
+slot0.OnAgoraShipEndInteraction = function(slot0, slot1, slot2)
+	slot4 = slot0:GetPlayerUnitModule(slot0.player and slot0.player.id)
+
+	if not slot0:GetUnitModule(slot1.id) or not slot4 then
+		return
+	end
+
+	slot0:GetSubView(AgoraOpView):EndInteraction()
+	slot3:EndShipInteract(slot4, slot2 or {}, true, true)
 end
 
 slot0.OnMapStateUpdate = function(slot0, slot1)

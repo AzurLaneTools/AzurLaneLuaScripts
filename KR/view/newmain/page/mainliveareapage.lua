@@ -14,6 +14,11 @@ slot0.getResource = function(slot0)
 	table.insert(slot1, slot2:GetBg(LivingAreaCover.TYPE_DAY))
 	table.insert(slot1, slot2:GetBg(LivingAreaCover.TYPE_NIGHT))
 
+	if HXSet.isHx() then
+		table.insert(slot1, slot2:GetBg(LivingAreaCover.TYPE_DAY) .. "_hx")
+		table.insert(slot1, slot2:GetBg(LivingAreaCover.TYPE_NIGHT) .. "_hx")
+	end
+
 	return table.insertto(slot1, uv0.super.getResource(slot0))
 end
 

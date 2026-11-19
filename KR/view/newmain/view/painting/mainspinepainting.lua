@@ -23,9 +23,12 @@ slot0.OnLoad = function(slot0, slot1)
 		parent = slot0.spTF,
 		effectParent = slot0.spBg
 	}), function (slot0)
+		if not uv0.spinePainting then
+			uv0.spinePainting = slot0
+		end
+
 		uv0:AdJustOrderInLayer(slot0)
 		uv0:InitSpecialTouch()
-		uv1()
 
 		for slot4, slot5 in ipairs(uv0._initCallback) do
 			slot5()
@@ -39,6 +42,10 @@ slot0.OnLoad = function(slot0, slot1)
 		end
 
 		uv0:InitScalePart()
+
+		if uv1 then
+			uv1(uv0)
+		end
 	end)
 	slot3 = slot0.spinePainting
 
@@ -185,6 +192,12 @@ slot0.InitSpecialTouch = function(slot0)
 	end)
 end
 
+slot0.OnPaintingFade = function(slot0, slot1)
+	if slot0.spinePainting then
+		slot0.spinePainting:UpdateGraphic()
+	end
+end
+
 slot0.OnClick = function(slot0)
 	if slot0.spinePainting:isInAction() or slot0._asmrFlag then
 		return
@@ -245,7 +258,7 @@ end
 
 slot0.GetPaintingTransform = function(slot0)
 	if slot0.spinePainting then
-		return slot0.spinePainting:GetSpineTrasform()
+		return slot0.spinePainting:GetSpineTransform()
 	end
 
 	return nil
@@ -381,6 +394,7 @@ slot0.OnResume = function(slot0)
 	if slot0.spinePainting then
 		slot0.spinePainting:SetVisible(true)
 		slot0.spinePainting:SetEmptyAction(1)
+		slot0:emit(NewMainScene.PAINTING_LOAD_COMPLETE)
 	end
 end
 

@@ -135,7 +135,14 @@ slot0.GetEntranceActivityResList = function()
 	slot0 = {}
 
 	if getProxy(ActivityProxy):getEnterReadyActivity()[1] and noEmptyStr(slot1:getConfig("config_client").entrance_bg) then
+		slot3 = "activitybanner"
+
+		if string.sub(slot2, 1, #slot3) == slot3 then
+			slot2 = "MainUIBanner" .. string.sub(slot2, #slot3 + 1)
+		end
+
 		table.insert(slot0, slot2)
+		table.insert(slot0, slot2 .. "_hx")
 	end
 
 	return slot0

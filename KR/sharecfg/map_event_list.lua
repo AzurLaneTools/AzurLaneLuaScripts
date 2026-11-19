@@ -409,6 +409,16 @@ pg.map_event_list.all = {
 	2100596,
 	2100597,
 	2100598,
+	2100602,
+	2100603,
+	2100604,
+	2100605,
+	2100606,
+	2100612,
+	2100613,
+	2100614,
+	2100615,
+	2100616,
 	2200071,
 	2200072,
 	2200073,
@@ -6811,6 +6821,128 @@ end)()
 		event_list_loop = {},
 		help_pictures = {
 			"helpbg/battle_bisimaiz"
+		}
+	}
+	pg.base.map_event_list[2100602] = {
+		help_open = 0,
+		chapter_id = 2100602,
+		event_list = {
+			813
+		},
+		event_list_loop = {
+			813
+		},
+		help_pictures = {}
+	}
+	pg.base.map_event_list[2100603] = {
+		help_open = 0,
+		chapter_id = 2100603,
+		event_list = {
+			814,
+			815,
+			816
+		},
+		event_list_loop = {
+			850,
+			851,
+			816
+		},
+		help_pictures = {}
+	}
+	pg.base.map_event_list[2100604] = {
+		help_open = 0,
+		chapter_id = 2100604,
+		event_list = {
+			819
+		},
+		event_list_loop = {
+			819
+		},
+		help_pictures = {
+			"helpbg/battle_faxiv2_2"
+		}
+	}
+	pg.base.map_event_list[2100605] = {
+		help_open = 0,
+		chapter_id = 2100605,
+		event_list = {
+			820
+		},
+		event_list_loop = {
+			820
+		},
+		help_pictures = {
+			"helpbg/battle_faxiv2_2"
+		}
+	}
+	pg.base.map_event_list[2100606] = {
+		help_open = 0,
+		chapter_id = 2100606,
+		event_list = {},
+		event_list_loop = {},
+		help_pictures = {
+			"helpbg/battle_faxiv2_2"
+		}
+	}
+	pg.base.map_event_list[2100612] = {
+		help_open = 0,
+		chapter_id = 2100612,
+		event_list = {
+			813
+		},
+		event_list_loop = {
+			813
+		},
+		help_pictures = {}
+	}
+	pg.base.map_event_list[2100613] = {
+		help_open = 0,
+		chapter_id = 2100613,
+		event_list = {
+			814,
+			817,
+			818
+		},
+		event_list_loop = {
+			850,
+			851,
+			818
+		},
+		help_pictures = {}
+	}
+	pg.base.map_event_list[2100614] = {
+		help_open = 0,
+		chapter_id = 2100614,
+		event_list = {
+			819
+		},
+		event_list_loop = {
+			819
+		},
+		help_pictures = {
+			"helpbg/battle_faxiv2_2"
+		}
+	}
+	pg.base.map_event_list[2100615] = {
+		help_open = 0,
+		chapter_id = 2100615,
+		event_list = {
+			820
+		},
+		event_list_loop = {
+			820
+		},
+		help_pictures = {
+			"helpbg/battle_faxiv2_2"
+		}
+	}
+	pg.base.map_event_list[2100616] = {
+		help_open = 0,
+		chapter_id = 2100616,
+		event_list = {},
+		event_list_loop = {},
+		help_pictures = {
+			"helpbg/battle_faxiv2_2"
 		}
 	}
 	pg.base.map_event_list[2200071] = {

@@ -97,7 +97,7 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					number = 0.85,
+					number = 0.085,
 					label = {
 						"IJN",
 						"CB",
@@ -115,7 +115,7 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					number = 0.95,
+					number = 0.095,
 					label = {
 						"IJN",
 						"CB",

@@ -32193,9 +32193,20 @@ end)()
 		trans_skill = {},
 		description = {
 			{
-				"한정 이벤트: 어리석은 자의 천칭",
+				"이벤트: 어리석은 자의 천칭",
 				{
 					""
+				},
+				0
+			},
+			{
+				"소형함 건조",
+				{
+					"GETBOAT",
+					{
+						projectName = "light",
+						page = 1
+					}
 				},
 				0
 			}
@@ -32257,9 +32268,20 @@ end)()
 		trans_skill = {},
 		description = {
 			{
-				"한정 이벤트: 어리석은 자의 천칭",
+				"이벤트: 어리석은 자의 천칭",
 				{
 					""
+				},
+				0
+			},
+			{
+				"대형함 건조",
+				{
+					"GETBOAT",
+					{
+						projectName = "heavy",
+						page = 1
+					}
 				},
 				0
 			}
@@ -32428,9 +32450,20 @@ end)()
 		trans_skill = {},
 		description = {
 			{
-				"한정 이벤트: 어리석은 자의 천칭",
+				"이벤트: 어리석은 자의 천칭",
 				{
 					""
+				},
+				0
+			},
+			{
+				"대형함 건조",
+				{
+					"GETBOAT",
+					{
+						projectName = "heavy",
+						page = 1
+					}
 				},
 				0
 			}
@@ -32598,9 +32631,20 @@ end)()
 		trans_skill = {},
 		description = {
 			{
-				"한정 이벤트: 어리석은 자의 천칭",
+				"이벤트: 어리석은 자의 천칭",
 				{
 					""
+				},
+				0
+			},
+			{
+				"특형함 건조",
+				{
+					"GETBOAT",
+					{
+						projectName = "special",
+						page = 1
+					}
 				},
 				0
 			}
@@ -32843,9 +32887,19 @@ end)()
 		trans_skill = {},
 		description = {
 			{
-				"한정 이벤트: 어리석은 자의 천칭",
+				"이벤트: 어리석은 자의 천칭",
 				{
 					""
+				},
+				0
+			},
+			{
+				"연습 상점(랜덤 출현)",
+				{
+					"SHOP",
+					{
+						warp = "supplies"
+					}
 				},
 				0
 			}
@@ -33498,9 +33552,20 @@ end)()
 		trans_skill = {},
 		description = {
 			{
-				"한정 이벤트: 어리석은 자의 천칭",
+				"이벤트: 어리석은 자의 천칭",
 				{
 					""
+				},
+				0
+			},
+			{
+				"대형함 건조",
+				{
+					"GETBOAT",
+					{
+						projectName = "heavy",
+						page = 1
+					}
 				},
 				0
 			}

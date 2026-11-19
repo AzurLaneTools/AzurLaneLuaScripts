@@ -16,6 +16,7 @@ slot0.execute = function(slot0, slot1)
 	}, 21308, function (slot0)
 		if slot0.result == 0 then
 			uv0:UpdatePlacedData(uv1, true)
+			uv2:GetInteractSyncAgency():RebuildAgoraSlotMeta()
 			pg.TipsMgr.GetInstance():ShowTips(i18n("island_agora_save_success"))
 			pg.GameTrackerMgr.GetInstance():Record(GameTrackerBuilder.BuildIslandAgoraSave())
 		else

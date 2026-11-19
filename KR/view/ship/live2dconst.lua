@@ -1,7 +1,6 @@
 slot0 = class("Live2dConst")
 slot0.l2d_bound_open = false
 slot0.l2d_arm_32 = false
-slot0.UnLoadL2dPating = nil
 slot0.PAINTING_BGM_VOLUME = "painting_bgm_volume"
 
 slot0.SaveL2dIdle = function(slot0, slot1, slot2)

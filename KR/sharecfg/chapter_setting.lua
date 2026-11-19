@@ -1707,6 +1707,18 @@ pg.chapter_setting.all = {
 	2100596,
 	2100597,
 	2100598,
+	2100601,
+	2100602,
+	2100603,
+	2100604,
+	2100605,
+	2100606,
+	2100611,
+	2100612,
+	2100613,
+	2100614,
+	2100615,
+	2100616,
 	2200001,
 	2200002,
 	2200003,
@@ -10389,6 +10401,66 @@ end)()
 		expedite = 1,
 		hide = 1
 	}
+	pg.base.chapter_setting[2100601] = {
+		id = 2100601,
+		expedite = 1,
+		hide = 0
+	}
+	pg.base.chapter_setting[2100602] = {
+		id = 2100602,
+		expedite = 1,
+		hide = 0
+	}
+	pg.base.chapter_setting[2100603] = {
+		id = 2100603,
+		expedite = 1,
+		hide = 0
+	}
+	pg.base.chapter_setting[2100604] = {
+		id = 2100604,
+		expedite = 1,
+		hide = 0
+	}
+	pg.base.chapter_setting[2100605] = {
+		id = 2100605,
+		expedite = 1,
+		hide = 0
+	}
+	pg.base.chapter_setting[2100606] = {
+		id = 2100606,
+		expedite = 1,
+		hide = 0
+	}
+	pg.base.chapter_setting[2100611] = {
+		id = 2100611,
+		expedite = 1,
+		hide = 0
+	}
+	pg.base.chapter_setting[2100612] = {
+		id = 2100612,
+		expedite = 1,
+		hide = 0
+	}
+	pg.base.chapter_setting[2100613] = {
+		id = 2100613,
+		expedite = 1,
+		hide = 0
+	}
+	pg.base.chapter_setting[2100614] = {
+		id = 2100614,
+		expedite = 1,
+		hide = 0
+	}
+	pg.base.chapter_setting[2100615] = {
+		id = 2100615,
+		expedite = 1,
+		hide = 0
+	}
+	pg.base.chapter_setting[2100616] = {
+		id = 2100616,
+		expedite = 1,
+		hide = 0
+	}
 	pg.base.chapter_setting[2200001] = {
 		id = 2200001,
 		expedite = 1,
@@ -10809,6 +10881,8 @@ end)()
 		expedite = 1,
 		hide = 0
 	}
+end)()
+(function ()
 	pg.base.chapter_setting[5100006] = {
 		id = 5100006,
 		expedite = 1,
@@ -10869,8 +10943,6 @@ end)()
 		expedite = 1,
 		hide = 0
 	}
-end)()
-(function ()
 	pg.base.chapter_setting[5100105] = {
 		id = 5100105,
 		expedite = 1,

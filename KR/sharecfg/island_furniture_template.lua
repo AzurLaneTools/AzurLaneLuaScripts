@@ -30,6 +30,7 @@ pg.island_furniture_template.all = {
 	101,
 	102,
 	103,
+	104,
 	10101,
 	10201,
 	10301,
@@ -188,7 +189,37 @@ pg.island_furniture_template.all = {
 	50325,
 	50347,
 	50348,
-	50349
+	50349,
+	50350,
+	50351,
+	50352,
+	50353,
+	50354,
+	50355,
+	50356,
+	50357,
+	50358,
+	50359,
+	50360,
+	50361,
+	50362,
+	50364,
+	50365,
+	50366,
+	50367,
+	50368,
+	50369,
+	50370,
+	50371,
+	50372,
+	50373,
+	50374,
+	50375,
+	50376,
+	50377,
+	50380,
+	50381,
+	50382
 }
 pg.base = pg.base or {}
 pg.base.island_furniture_template = {}
@@ -772,6 +803,32 @@ pg.base.island_furniture_template = {}
 		jump_page = {
 			{
 				"가을 특산품 경영",
+				{}
+			}
+		}
+	}
+	pg.base.island_furniture_template[104] = {
+		setNum = 1,
+		describe = "트로피 위에 투명한 얼음꽃이 고요히 피어난다. 눈송이를 비추며 반짝이는 꽃잎 사이로 차갑지만 부드러운 겨울의 기운이 감돈다.",
+		name = "겨울 아일랜드 개발 트로피",
+		type = 7,
+		hierarchy = 5,
+		rarity = 4,
+		icon = "furniture_104",
+		prosperity = 0,
+		capacityCost = 20,
+		interact_point = "",
+		model = "island/item/05/50005/prefab/pre_item_05_50005",
+		bt = "",
+		id = 104,
+		tech_id = 0,
+		size = {
+			2,
+			2
+		},
+		jump_page = {
+			{
+				"겨울 특산품 경영",
 				{}
 			}
 		}
@@ -2376,6 +2433,8 @@ pg.base.island_furniture_template = {}
 			}
 		}
 	}
+end)()
+(function ()
 	pg.base.island_furniture_template[30303] = {
 		setNum = 999,
 		describe = "잘 다듬어진 풍부한 녹음으로 꾸며진 아치형 게이트. 위에는 클래식 샹들리에가 달려 있어 정원 입구를 화사하게 밝혀준다.",
@@ -2402,8 +2461,6 @@ pg.base.island_furniture_template = {}
 			}
 		}
 	}
-end)()
-(function ()
 	pg.base.island_furniture_template[30304] = {
 		setNum = 999,
 		describe = "아름다운 세계는 모든 이에게 열려 있다!",
@@ -4608,5 +4665,796 @@ end)()
 			5
 		},
 		jump_page = {}
+	}
+	pg.base.island_furniture_template[50350] = {
+		setNum = 1,
+		describe = "판다 무늬와 대나무 장식으로 꾸민 건물. 섬에서도 단연 눈길을 끄는 휴식 공간.",
+		name = "판다 죽원관",
+		type = 1,
+		hierarchy = 5,
+		rarity = 4,
+		icon = "furniture_50350",
+		prosperity = 0,
+		capacityCost = 0,
+		interact_point = "",
+		model = "island/item/05/50350/prefab/pre_item_05_50350",
+		bt = "",
+		id = 50350,
+		tech_id = 0,
+		size = {
+			22,
+			19
+		},
+		jump_page = {
+			{
+				"별빛상",
+				{}
+			}
+		}
+	}
+	pg.base.island_furniture_template[50351] = {
+		setNum = 1,
+		describe = "판다 발바닥과 대나무 우산으로 장식한 연무대. 가볍게 실력을 겨루기에 안성맞춤이다.",
+		name = "판다 연무대",
+		type = 2,
+		hierarchy = 5,
+		rarity = 4,
+		icon = "furniture_50351",
+		prosperity = 0,
+		capacityCost = 0,
+		model = "island/item/05/50351/prefab/pre_item_05_50351",
+		bt = "",
+		id = 50351,
+		tech_id = 0,
+		size = {
+			13,
+			13
+		},
+		interact_point = {
+			29
+		},
+		jump_page = {
+			{
+				"별빛상",
+				{}
+			}
+		}
+	}
+	pg.base.island_furniture_template[50352] = {
+		setNum = 999,
+		describe = "판다 쿠션이 깔린 거문고 받침대. 거문고를 올려놓고 마음 가는 대로 연주하면, 부드러운 선율이 탄생할지도?",
+		name = "판다 거문고 받침대",
+		type = 3,
+		hierarchy = 5,
+		rarity = 2,
+		icon = "furniture_50352",
+		prosperity = 0,
+		capacityCost = 20,
+		model = "island/item/05/50352/prefab/pre_item_05_50352",
+		bt = "",
+		id = 50352,
+		tech_id = 0,
+		size = {
+			3,
+			3
+		},
+		interact_point = {
+			30
+		},
+		jump_page = {
+			{
+				"별빛상",
+				{}
+			}
+		}
+	}
+	pg.base.island_furniture_template[50353] = {
+		setNum = 999,
+		describe = "판다의 요소를 더한 수련용 목인. 대련하며 몸을 풀거나 기술의 위력을 시험해 볼 수 있다.",
+		name = "수련용 목인",
+		type = 4,
+		hierarchy = 5,
+		rarity = 2,
+		icon = "furniture_50353",
+		prosperity = 0,
+		capacityCost = 20,
+		interact_point = "",
+		model = "island/item/05/50353/prefab/pre_item_05_50353",
+		bt = "",
+		id = 50353,
+		tech_id = 0,
+		size = {
+			1,
+			1
+		},
+		jump_page = {
+			{
+				"별빛상",
+				{}
+			}
+		}
+	}
+	pg.base.island_furniture_template[50354] = {
+		setNum = 999,
+		describe = "고풍스러운 석등에서 흘러나오는 은은한 빛이 정원에 차분한 분위기를 더한다.",
+		name = "푸른 석등",
+		type = 3,
+		hierarchy = 5,
+		rarity = 2,
+		icon = "furniture_50354",
+		prosperity = 0,
+		capacityCost = 20,
+		interact_point = "",
+		model = "island/item/05/50354/prefab/pre_item_05_50354",
+		bt = "",
+		id = 50354,
+		tech_id = 0,
+		size = {
+			1,
+			1
+		},
+		jump_page = {
+			{
+				"별빛상",
+				{}
+			}
+		}
+	}
+	pg.base.island_furniture_template[50355] = {
+		setNum = 999,
+		describe = "높이가 다른 대나무 통을 늘어놓은 말뚝. 발놀림과 균형 감각, 반응 속도를 단련할 수 있다.",
+		name = "수련용 대나무 말뚝",
+		type = 3,
+		hierarchy = 5,
+		rarity = 3,
+		icon = "furniture_50355",
+		prosperity = 0,
+		capacityCost = 60,
+		model = "island/item/05/50370/prefab/pre_item_05_50370",
+		bt = "",
+		id = 50355,
+		tech_id = 0,
+		size = {
+			7,
+			7
+		},
+		interact_point = {
+			31,
+			32
+		},
+		jump_page = {
+			{
+				"별빛상",
+				{}
+			}
+		}
+	}
+	pg.base.island_furniture_template[50356] = {
+		setNum = 999,
+		describe = "동글동글하고 사랑스러운 돌사자 장식품. 위엄 속에서도 친근한 매력이 느껴진다.",
+		name = "복을 부르는 돌사자",
+		type = 4,
+		hierarchy = 5,
+		rarity = 3,
+		icon = "furniture_50356",
+		prosperity = 0,
+		capacityCost = 40,
+		interact_point = "",
+		model = "island/item/05/50367/prefab/pre_item_05_50367",
+		bt = "",
+		id = 50356,
+		tech_id = 0,
+		size = {
+			2,
+			2
+		},
+		jump_page = {
+			{
+				"별빛상",
+				{}
+			}
+		}
+	}
+	pg.base.island_furniture_template[50357] = {
+		setNum = 999,
+		describe = "판다 발자국과 대나무 잎 모양으로 장식한 문. 문을 지날 때마다 열렬한 환영을 받는 기분이 든다.",
+		name = "판다 영빈문",
+		type = 4,
+		hierarchy = 5,
+		rarity = 2,
+		icon = "furniture_50357",
+		prosperity = 0,
+		capacityCost = 60,
+		interact_point = "",
+		model = "island/item/05/50368/prefab/pre_item_05_50368",
+		bt = "",
+		id = 50357,
+		tech_id = 0,
+		size = {
+			5,
+			1
+		},
+		jump_page = {
+			{
+				"별빛상",
+				{}
+			}
+		}
+	}
+	pg.base.island_furniture_template[50358] = {
+		setNum = 999,
+		describe = "꽃가지와 족자, 얕은 연못을 조합한 작은 풍경. 산뜻하고 귀여운 분위기가 단연 눈길을 끈다.",
+		name = "꽃 연못의 풍경",
+		type = 4,
+		hierarchy = 5,
+		rarity = 2,
+		icon = "furniture_50358",
+		prosperity = 0,
+		capacityCost = 40,
+		interact_point = "",
+		model = "island/item/05/50369/prefab/pre_item_05_50369",
+		bt = "",
+		id = 50358,
+		tech_id = 0,
+		size = {
+			4,
+			5
+		},
+		jump_page = {
+			{
+				"별빛상",
+				{}
+			}
+		}
+	}
+	pg.base.island_furniture_template[50359] = {
+		setNum = 999,
+		describe = "귀여운 모습의 단로에서 연기가 피어오른다. 안에 무엇이 들어 있을지 궁금해서 견딜 수 없다.",
+		name = "청현 단로",
+		type = 4,
+		hierarchy = 5,
+		rarity = 3,
+		icon = "furniture_50359",
+		prosperity = 0,
+		capacityCost = 60,
+		model = "island/item/05/50371/prefab/pre_item_05_50371",
+		bt = "",
+		id = 50359,
+		tech_id = 0,
+		size = {
+			9,
+			9
+		},
+		interact_point = {
+			33
+		},
+		jump_page = {
+			{
+				"별빛상",
+				{}
+			}
+		}
+	}
+	pg.base.island_furniture_template[50360] = {
+		setNum = 999,
+		describe = "동글동글한 판다 조형물. 느긋한 모습이 무척 사랑스럽다.",
+		name = "동글동글 판다 조형물",
+		type = 4,
+		hierarchy = 5,
+		rarity = 2,
+		icon = "furniture_50360",
+		prosperity = 0,
+		capacityCost = 20,
+		interact_point = "",
+		model = "island/item/05/50372/prefab/pre_item_05_50372",
+		bt = "",
+		id = 50360,
+		tech_id = 0,
+		size = {
+			3,
+			1
+		},
+		jump_page = {
+			{
+				"별빛상",
+				{}
+			}
+		}
+	}
+	pg.base.island_furniture_template[50361] = {
+		setNum = 999,
+		describe = "대나무 그림자가 그려진 병풍. 공간을 나누는 용도로도, 우아한 배경으로도 활용할 수 있다.",
+		name = "대나무 그림자 병풍",
+		type = 3,
+		hierarchy = 5,
+		rarity = 2,
+		icon = "furniture_50361",
+		prosperity = 0,
+		capacityCost = 60,
+		interact_point = "",
+		model = "island/item/05/50373/prefab/pre_item_05_50373",
+		bt = "",
+		id = 50361,
+		tech_id = 0,
+		size = {
+			3,
+			1
+		},
+		jump_page = {
+			{
+				"별빛상",
+				{}
+			}
+		}
+	}
+	pg.base.island_furniture_template[50362] = {
+		setNum = 999,
+		describe = "정원에 놓인, 승부가 나지 않은 바둑판. 쉬는 시간에 동료들과 느긋하게 대국을 즐기기에 안성맞춤이다.",
+		name = "대국 중인 바둑판",
+		type = 4,
+		hierarchy = 5,
+		rarity = 2,
+		icon = "furniture_50362",
+		prosperity = 0,
+		capacityCost = 60,
+		interact_point = "",
+		model = "island/item/05/50375/prefab/pre_item_05_50375",
+		bt = "",
+		id = 50362,
+		tech_id = 0,
+		size = {
+			8,
+			8
+		},
+		jump_page = {
+			{
+				"별빛상",
+				{}
+			}
+		}
+	}
+end)()
+(function ()
+	pg.base.island_furniture_template[50364] = {
+		setNum = 999,
+		describe = "판다 발자국이 새겨진 깃발. 연무장이나 행사장을 엄숙하고 멋스럽게 꾸며 준다.",
+		name = "판다 깃발",
+		type = 4,
+		hierarchy = 5,
+		rarity = 2,
+		icon = "furniture_50363",
+		prosperity = 0,
+		capacityCost = 20,
+		interact_point = "",
+		model = "island/item/05/50357/prefab/pre_item_05_50357",
+		bt = "",
+		id = 50364,
+		tech_id = 0,
+		size = {
+			1,
+			1
+		},
+		jump_page = {
+			{
+				"별빛상",
+				{}
+			}
+		}
+	}
+	pg.base.island_furniture_template[50365] = {
+		setNum = 999,
+		describe = "맑고 투명한 빛깔의 물항아리. 소박하면서도 실용적인 형태에서 생활의 온기가 느껴진다.",
+		name = "청자 물항아리",
+		type = 3,
+		hierarchy = 5,
+		rarity = 2,
+		icon = "furniture_50365",
+		prosperity = 0,
+		capacityCost = 60,
+		interact_point = "",
+		model = "island/item/05/50355/prefab/pre_item_05_50355",
+		bt = "",
+		id = 50365,
+		tech_id = 0,
+		size = {
+			2,
+			2
+		},
+		jump_page = {
+			{
+				"별빛상",
+				{}
+			}
+		}
+	}
+	pg.base.island_furniture_template[50366] = {
+		setNum = 999,
+		describe = "연못에서 작은 판다들이 신나게 놀고 있다. 반짝이는 수면이 시원하면서도 사랑스러운 한순간을 연출한다.",
+		name = "판다 수영장",
+		type = 4,
+		hierarchy = 5,
+		rarity = 2,
+		icon = "furniture_50366",
+		prosperity = 0,
+		capacityCost = 60,
+		interact_point = "",
+		model = "island/item/05/50356/prefab/pre_item_05_50356",
+		bt = "",
+		id = 50366,
+		tech_id = 0,
+		size = {
+			3,
+			2
+		},
+		jump_page = {
+			{
+				"별빛상",
+				{}
+			}
+		}
+	}
+	pg.base.island_furniture_template[50367] = {
+		setNum = 999,
+		describe = "푸른 대나무를 본뜬 조형물. 자연의 싱그러움을 더해 준다.",
+		name = "푸른 대나무 조형물",
+		type = 3,
+		hierarchy = 5,
+		rarity = 2,
+		icon = "furniture_50367",
+		prosperity = 0,
+		capacityCost = 20,
+		interact_point = "",
+		model = "island/item/05/50358/prefab/pre_item_05_50358",
+		bt = "",
+		id = 50367,
+		tech_id = 0,
+		size = {
+			3,
+			1
+		},
+		jump_page = {
+			{
+				"별빛상",
+				{}
+			}
+		}
+	}
+	pg.base.island_furniture_template[50368] = {
+		setNum = 999,
+		describe = "판다 모양의 가로등. 불이 켜지면 따끈따끈한 경단처럼 보인다.",
+		name = "동글동글 판다 가로등",
+		type = 4,
+		hierarchy = 5,
+		rarity = 2,
+		icon = "furniture_50368",
+		prosperity = 0,
+		capacityCost = 20,
+		interact_point = "",
+		model = "island/item/05/50359/prefab/pre_item_05_50359",
+		bt = "",
+		id = 50368,
+		tech_id = 0,
+		size = {
+			1,
+			1
+		},
+		jump_page = {
+			{
+				"별빛상",
+				{}
+			}
+		}
+	}
+	pg.base.island_furniture_template[50369] = {
+		setNum = 999,
+		describe = "삿갓을 쓰고 망토를 두른 판다. 동글동글한 모습이지만 어딘가 협객의 풍모가 느껴진다.",
+		name = "협객 판다",
+		type = 4,
+		hierarchy = 5,
+		rarity = 2,
+		icon = "furniture_50369",
+		prosperity = 0,
+		capacityCost = 40,
+		interact_point = "",
+		model = "island/item/05/50362/prefab/pre_item_05_50362",
+		bt = "",
+		id = 50369,
+		tech_id = 0,
+		size = {
+			1,
+			1
+		},
+		jump_page = {
+			{
+				"시즌V - 합계 PT",
+				{}
+			}
+		}
+	}
+	pg.base.island_furniture_template[50370] = {
+		setNum = 999,
+		describe = "돌을 깎아 만든 장기 장식품. 묵직한 질감 속에 장난스러운 매력도 엿보인다.",
+		name = "석제 장기",
+		type = 4,
+		hierarchy = 5,
+		rarity = 2,
+		icon = "furniture_50370",
+		prosperity = 0,
+		capacityCost = 20,
+		interact_point = "",
+		model = "island/item/05/50360/prefab/pre_item_05_50360",
+		bt = "",
+		id = 50370,
+		tech_id = 0,
+		size = {
+			1,
+			1
+		},
+		jump_page = {
+			{
+				"별빛상",
+				{}
+			}
+		}
+	}
+	pg.base.island_furniture_template[50371] = {
+		setNum = 999,
+		describe = "맛 좋은 술을 담아 봉해 둔 술항아리. 가까이 다가가면 은은한 대나무 향이 풍긴다.",
+		name = "죽향 술항아리",
+		type = 4,
+		hierarchy = 5,
+		rarity = 2,
+		icon = "furniture_50371",
+		prosperity = 0,
+		capacityCost = 20,
+		interact_point = "",
+		model = "island/item/05/50361/prefab/pre_item_05_50361",
+		bt = "",
+		id = 50371,
+		tech_id = 0,
+		size = {
+			1,
+			1
+		},
+		jump_page = {
+			{
+				"별빛상",
+				{}
+			}
+		}
+	}
+	pg.base.island_furniture_template[50372] = {
+		setNum = 999,
+		describe = "일 년 내내 푸르른 대나무. 정원에 고요하고 자연스러운 운치를 더해 준다.",
+		name = "늘 푸른 대나무",
+		type = 4,
+		hierarchy = 5,
+		rarity = 2,
+		icon = "furniture_50372",
+		prosperity = 0,
+		capacityCost = 20,
+		interact_point = "",
+		model = "island/item/05/50377/prefab/pre_item_05_50377",
+		bt = "",
+		id = 50372,
+		tech_id = 0,
+		size = {
+			1,
+			1
+		},
+		jump_page = {
+			{
+				"별빛상",
+				{}
+			}
+		}
+	}
+	pg.base.island_furniture_template[50373] = {
+		setNum = 999,
+		describe = "이제 막 땅 위로 고개를 내민 죽순. 판다들이 가장 좋아하는 먹거리다.",
+		name = "갓 돋아난 죽순",
+		type = 4,
+		hierarchy = 5,
+		rarity = 2,
+		icon = "furniture_50373",
+		prosperity = 0,
+		capacityCost = 20,
+		interact_point = "",
+		model = "island/item/05/50363/prefab/pre_item_05_50363",
+		bt = "",
+		id = 50373,
+		tech_id = 0,
+		size = {
+			1,
+			1
+		},
+		jump_page = {
+			{
+				"별빛상",
+				{}
+			}
+		}
+	}
+	pg.base.island_furniture_template[50374] = {
+		setNum = 999,
+		describe = "푸른 대나무를 끈으로 묶어 만든 울타리. 산뜻한 색감이 경관에 자연스러운 분위기를 더해 준다.",
+		name = "대나무 매듭 울타리",
+		type = 3,
+		hierarchy = 5,
+		rarity = 2,
+		icon = "furniture_50374",
+		prosperity = 0,
+		capacityCost = 40,
+		interact_point = "",
+		model = "island/item/05/50364/prefab/pre_item_05_50364",
+		bt = "",
+		id = 50374,
+		tech_id = 0,
+		size = {
+			1,
+			1
+		},
+		jump_page = {
+			{
+				"시즌V - 합계 PT",
+				{}
+			}
+		}
+	}
+	pg.base.island_furniture_template[50375] = {
+		setNum = 999,
+		describe = "희미하게 이끼가 낀 청석 장식품. 오랫동안 바라보아도 질리지 않는 둥근 형태.",
+		name = "청석 조형물",
+		type = 4,
+		hierarchy = 5,
+		rarity = 2,
+		icon = "furniture_50375",
+		prosperity = 0,
+		capacityCost = 20,
+		interact_point = "",
+		model = "island/item/05/50365/prefab/pre_item_05_50365",
+		bt = "",
+		id = 50375,
+		tech_id = 0,
+		size = {
+			2,
+			2
+		},
+		jump_page = {
+			{
+				"시즌V - 합계 PT",
+				{}
+			}
+		}
+	}
+	pg.base.island_furniture_template[50376] = {
+		setNum = 999,
+		describe = "청석 몇 개를 불규칙하게 쌓아 올린 조형물. 이끼가 포인트가 되어 운치를 한층 더해 준다.",
+		name = "돌탑 조형물",
+		type = 4,
+		hierarchy = 5,
+		rarity = 2,
+		icon = "furniture_50376",
+		prosperity = 0,
+		capacityCost = 20,
+		interact_point = "",
+		model = "island/item/05/50366/prefab/pre_item_05_50366",
+		bt = "",
+		id = 50376,
+		tech_id = 0,
+		size = {
+			2,
+			1
+		},
+		jump_page = {
+			{
+				"시즌V - 합계 PT",
+				{}
+			}
+		}
+	}
+	pg.base.island_furniture_template[50377] = {
+		setNum = 999,
+		describe = "바닥에 납작하게 드러누운 판다 장식품. 축 늘어진 모습이 너무도 편안해 보인다.",
+		name = "드러누운 판다",
+		type = 4,
+		hierarchy = 5,
+		rarity = 2,
+		icon = "furniture_50377",
+		prosperity = 0,
+		capacityCost = 60,
+		interact_point = "",
+		model = "island/item/05/50376/prefab/pre_item_05_50376",
+		bt = "",
+		id = 50377,
+		tech_id = 0,
+		size = {
+			6,
+			4
+		},
+		jump_page = {
+			{
+				"시즌V - 합계 PT",
+				{}
+			}
+		}
+	}
+	pg.base.island_furniture_template[50380] = {
+		setNum = 999,
+		describe = "촘촘한 대나무 잎을 가득 새겨 넣은 산뜻한 타일. 발밑에 작은 대나무 숲의 푸르름을 더하자.",
+		name = "대나무 숲 타일 (소)",
+		type = 8,
+		hierarchy = 6,
+		rarity = 2,
+		icon = "furniture_50380",
+		prosperity = 0,
+		capacityCost = 0,
+		interact_point = "",
+		model = "island/item/05/50380/prefab/pre_item_05_50380",
+		bt = "",
+		id = 50380,
+		tech_id = 0,
+		size = {
+			2,
+			2
+		},
+		jump_page = {
+			{
+				"별빛상",
+				{}
+			}
+		}
+	}
+	pg.base.island_furniture_template[50381] = {
+		setNum = 999,
+		describe = "촘촘한 대나무 잎을 가득 새겨 넣은 산뜻한 타일. 발밑에 작은 대나무 숲의 푸르름을 더하자.",
+		name = "대나무 숲 타일 (중)",
+		type = 8,
+		hierarchy = 6,
+		rarity = 2,
+		icon = "furniture_50381",
+		prosperity = 0,
+		capacityCost = 0,
+		interact_point = "",
+		model = "island/item/05/50381/prefab/pre_item_05_50381",
+		bt = "",
+		id = 50381,
+		tech_id = 0,
+		size = {
+			3,
+			3
+		},
+		jump_page = {
+			{
+				"별빛상",
+				{}
+			}
+		}
+	}
+	pg.base.island_furniture_template[50382] = {
+		setNum = 999,
+		describe = "촘촘한 대나무 잎을 가득 새겨 넣은 산뜻한 타일. 발밑에 작은 대나무 숲의 푸르름을 더하자.",
+		name = "대나무 숲 타일 (대)",
+		type = 8,
+		hierarchy = 6,
+		rarity = 2,
+		icon = "furniture_50382",
+		prosperity = 0,
+		capacityCost = 0,
+		interact_point = "",
+		model = "island/item/05/50382/prefab/pre_item_05_50382",
+		bt = "",
+		id = 50382,
+		tech_id = 0,
+		size = {
+			5,
+			5
+		},
+		jump_page = {
+			{
+				"별빛상",
+				{}
+			}
+		}
 	}
 end)()

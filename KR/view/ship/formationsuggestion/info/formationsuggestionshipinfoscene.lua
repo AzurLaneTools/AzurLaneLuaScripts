@@ -117,13 +117,29 @@ slot0.didEnter = function(slot0)
 	slot0.skillList:align(#slot1.skill_lv)
 	slot0.obtainList:make(function (slot0, slot1, slot2)
 		if slot0 == UIItemList.EventUpdate then
-			setScrollText(findTF(slot2, "text/text"), i18n("formation_suggestion_info_obtain", uv0.source[slot1 + 1][2]))
-			onButton(uv1, findTF(slot2, "goBtn"), function ()
-				uv0:emit(FormationSuggestionShipInfoMediator.JUMP_TO_SCENE, uv1[1])
-			end)
+			slot3 = uv0[slot1 + 1]
+
+			setScrollText(findTF(slot2, "text/text"), i18n("formation_suggestion_info_obtain", HXSet.hxLan(slot3[1])))
+
+			slot5 = slot3[2][1] == ""
+
+			setGray(findTF(slot2, "goBtn"), slot5)
+
+			if not slot5 then
+				onButton(uv1, slot4, function ()
+					if uv0[2][1] == "" then
+						return
+					end
+
+					uv1:emit(FormationSuggestionShipInfoMediator.JUMP_TO_SCENE, {
+						sceneData = uv0[2],
+						activityID = uv0[3]
+					})
+				end, SFX_PANEL)
+			end
 		end
 	end)
-	slot0.obtainList:align(#slot1.source)
+	slot0.obtainList:align(#pg.ship_data_group[pg.ship_data_group.get_id_list_by_group_type[slot2:getGroupId()][1]].description)
 end
 
 slot0.willExit = function(slot0)

@@ -41,6 +41,10 @@ slot0.getResource = function(slot0)
 	_.each(pg.re_map_template.all, function (slot0)
 		if pg.re_map_template[slot0] and noEmptyStr(slot1.bg) then
 			table.insert(uv0, ResPathSupport.CombinePath(ResPathSupport.ConstPath.UI.ActivityBanner, slot1.bg))
+
+			if HXSet.isHx() then
+				table.insert(uv0, slot2 .. "_hx")
+			end
 		end
 
 		_.each(slot1.drop_gain or {}, function (slot0)
@@ -271,10 +275,21 @@ slot0.HandleActTypeRemaster = function(slot0, slot1)
 		uv0:emit(LevelMediator2.ON_BOSSRUSH_REMASTER_ACTIVITY, uv1)
 	end
 
+	slot7 = function()
+		seriesAsync({
+			function (slot0)
+				slot1 = BossRushChapterRemasterHelper.GetRemasterByActivityId(uv0)
+
+				assert(slot1, "oldTempplate is nil, activityId: " .. uv0)
+				uv1:emit(LevelMediator2.RECORD_ACTIVITY_PERMANENT_PROGRESS, slot1.id, slot0)
+			end
+		}, uv2)
+	end
+
 	if getProxy(ActivityPermanentProxy):GetActivityTypeById(slot1.activity_id) and slot3:getDoingActivityId(slot4) and slot5 ~= slot2 then
 		pg.MsgboxMgr.GetInstance():ShowMsgBox({
 			content = i18n("bossrush_act_remaster_close_prev_one_tip"),
-			onYes = slot6
+			onYes = slot7
 		})
 
 		return

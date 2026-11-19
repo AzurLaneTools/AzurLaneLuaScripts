@@ -11,19 +11,24 @@ pg.island_skin_template.all = {
 	1990301,
 	2012101,
 	2021201,
+	2060201,
 	2060301,
 	2990301,
 	3031101,
 	3031201,
 	3040701,
+	3050501,
 	3120101,
 	4030301,
 	4990201,
+	4990501,
 	4990601,
 	5010701,
 	5010801,
 	5020101,
 	5060101,
+	5060201,
+	7011101,
 	9010701,
 	96000101,
 	99000201,
@@ -58,6 +63,9 @@ pg.island_skin_template.get_id_list_by_ship_group = {
 	[20212] = {
 		2021201
 	},
+	[20602] = {
+		2060201
+	},
 	[20603] = {
 		2060301
 	},
@@ -73,6 +81,9 @@ pg.island_skin_template.get_id_list_by_ship_group = {
 	[30407] = {
 		3040701
 	},
+	[30505] = {
+		3050501
+	},
 	[31201] = {
 		3120101
 	},
@@ -81,6 +92,9 @@ pg.island_skin_template.get_id_list_by_ship_group = {
 	},
 	[49902] = {
 		4990201
+	},
+	[49905] = {
+		4990501
 	},
 	[49906] = {
 		4990601
@@ -96,6 +110,12 @@ pg.island_skin_template.get_id_list_by_ship_group = {
 	},
 	[50601] = {
 		5060101
+	},
+	[50602] = {
+		5060201
+	},
+	[70111] = {
+		7011101
 	},
 	[90107] = {
 		9010701
@@ -232,6 +252,20 @@ pg.base.island_skin_template = {}
 		icon = "skin_2021201",
 		icon_normal = ""
 	}
+	pg.base.island_skin_template[2060201] = {
+		ship_group = 20602,
+		name = "이른 아침의 페이스",
+		jump_page = "",
+		tech_id = 0,
+		tag = "",
+		shop_id = 0,
+		desc = "살짝 서늘한 아침바람 속, 소녀는 리듬을 가다듬으며 오늘 하루를 천천히 시작하려 한다.",
+		shop_goods_id = 0,
+		model = 2060201,
+		id = 2060201,
+		icon = "skin_2060201",
+		icon_normal = ""
+	}
 	pg.base.island_skin_template[2060301] = {
 		ship_group = 20603,
 		name = "동경의 별빛",
@@ -302,6 +336,20 @@ pg.base.island_skin_template = {}
 		icon_normal = "props/skin_3040701",
 		jump_page = {}
 	}
+	pg.base.island_skin_template[3050501] = {
+		ship_group = 30505,
+		name = "준비 시간",
+		jump_page = "",
+		tech_id = 0,
+		tag = "",
+		shop_id = 0,
+		desc = "가벼운 준비에도 진지하게 임한다. 여행에서 무엇 하나 소홀히 하지 말고 소중히 마음에 새기려는 듯하다.",
+		shop_goods_id = 0,
+		model = 3050501,
+		id = 3050501,
+		icon = "skin_3050501",
+		icon_normal = ""
+	}
 	pg.base.island_skin_template[3120101] = {
 		ship_group = 31201,
 		name = "밤의 방울소리",
@@ -342,6 +390,20 @@ pg.base.island_skin_template = {}
 		model = 4990201,
 		id = 4990201,
 		icon = "skin_4990201",
+		icon_normal = ""
+	}
+	pg.base.island_skin_template[4990501] = {
+		ship_group = 49905,
+		name = "필승 스텝",
+		jump_page = "",
+		tech_id = 0,
+		tag = "",
+		shop_id = 0,
+		desc = "몸에 꼭 맞는 스포츠웨어가 그 분위기를 한층 예리하게 드러낸다. 무심코 내딛는 한 걸음조차 주변에 무시할 수 없는 압박감을 선사한다.",
+		shop_goods_id = 0,
+		model = 4990501,
+		id = 4990501,
+		icon = "skin_4990501",
 		icon_normal = ""
 	}
 	pg.base.island_skin_template[4990601] = {
@@ -412,6 +474,34 @@ pg.base.island_skin_template = {}
 		model = 5060101,
 		id = 5060101,
 		icon = "skin_5060101",
+		icon_normal = ""
+	}
+	pg.base.island_skin_template[5060201] = {
+		ship_group = 50602,
+		name = "경쾌한 리듬",
+		jump_page = "",
+		tech_id = 0,
+		tag = "",
+		shop_id = 0,
+		desc = "호흡에 맞춰 리듬이 경쾌하게 살아난다. 동작에는 여유가 묻어나고, 잠시 멈춰 서는 순간조차 딱 알맞다.",
+		shop_goods_id = 0,
+		model = 5060201,
+		id = 5060201,
+		icon = "skin_5060201",
+		icon_normal = ""
+	}
+	pg.base.island_skin_template[7011101] = {
+		ship_group = 70111,
+		name = "활기찬 출발",
+		jump_page = "",
+		tech_id = 0,
+		tag = "",
+		shop_id = 0,
+		desc = "바람이 한발 앞서 달려 나간다. 카운트다운이 끝나기도 전에 설레는 마음은 이미 출발선을 넘어――",
+		shop_goods_id = 0,
+		model = 7011101,
+		id = 7011101,
+		icon = "skin_7011101",
 		icon_normal = ""
 	}
 	pg.base.island_skin_template[9010701] = {

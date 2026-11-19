@@ -66,12 +66,12 @@ pg.base.island_manage_restaurant = {}
 				601102
 			},
 			{
-				4009,
-				9900003
+				4051,
+				9900027
 			},
 			{
-				4010,
-				9900004
+				4052,
+				9900028
 			}
 		},
 		assistant_slot = {
@@ -136,14 +136,6 @@ pg.base.island_manage_restaurant = {}
 			{
 				3105,
 				602103
-			},
-			{
-				4013,
-				9900007
-			},
-			{
-				4014,
-				9900008
 			}
 		},
 		assistant_slot = {
@@ -212,6 +204,14 @@ pg.base.island_manage_restaurant = {}
 			{
 				3118,
 				603007
+			},
+			{
+				4053,
+				9900029
+			},
+			{
+				4054,
+				9900030
 			}
 		},
 		assistant_slot = {

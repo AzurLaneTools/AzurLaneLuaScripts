@@ -698,6 +698,11 @@ pg.ship_strengthen_blueprint.all = {
 	2028,
 	2029,
 	2030,
+	2031,
+	2032,
+	2033,
+	2034,
+	2035,
 	2101,
 	2102,
 	2103,
@@ -21009,6 +21014,164 @@ end)()
 			"주포 효율 15% 상승"
 		}
 	}
+	pg.base.ship_strengthen_blueprint[2031] = {
+		effect_breakout = 0,
+		effect_desc = "운 +3",
+		extra_desc = "",
+		effect_base = "",
+		effect_preload = "",
+		need_lv = 70,
+		effect_equipment_proficiency = "",
+		effect_skill = "",
+		effect_dialog = "",
+		special = 1,
+		effect_skin = 0,
+		id = 2031,
+		need_exp = 200,
+		lv = 31,
+		change_skill = "",
+		effect = {
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		effect_attr = {
+			{
+				"luck",
+				3
+			}
+		}
+	}
+	pg.base.ship_strengthen_blueprint[2032] = {
+		effect_breakout = 0,
+		effect_desc = "운 +4",
+		extra_desc = "",
+		effect_base = "",
+		effect_preload = "",
+		need_lv = 70,
+		effect_equipment_proficiency = "",
+		effect_skill = "",
+		effect_dialog = "",
+		special = 1,
+		effect_skin = 0,
+		id = 2032,
+		need_exp = 300,
+		lv = 32,
+		change_skill = "",
+		effect = {
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		effect_attr = {
+			{
+				"luck",
+				4
+			}
+		}
+	}
+	pg.base.ship_strengthen_blueprint[2033] = {
+		effect_breakout = 0,
+		effect_desc = "운 +5|스킬 [해신의 매력]이 [해신의 매력+]로 강화",
+		extra_desc = "",
+		effect_base = "",
+		effect_preload = "",
+		need_lv = 70,
+		effect_equipment_proficiency = "",
+		effect_skill = "",
+		effect_dialog = "",
+		special = 1,
+		effect_skin = 0,
+		id = 2033,
+		need_exp = 400,
+		lv = 33,
+		effect = {
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		effect_attr = {
+			{
+				"luck",
+				5
+			}
+		},
+		change_skill = {
+			19410,
+			18410
+		}
+	}
+	pg.base.ship_strengthen_blueprint[2034] = {
+		effect_breakout = 0,
+		effect_desc = "운 +6",
+		extra_desc = "",
+		effect_base = "",
+		effect_preload = "",
+		need_lv = 70,
+		effect_equipment_proficiency = "",
+		effect_skill = "",
+		effect_dialog = "",
+		special = 1,
+		effect_skin = 0,
+		id = 2034,
+		need_exp = 500,
+		lv = 34,
+		change_skill = "",
+		effect = {
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		effect_attr = {
+			{
+				"luck",
+				6
+			}
+		}
+	}
+	pg.base.ship_strengthen_blueprint[2035] = {
+		effect_breakout = 0,
+		effect_desc = "운 +7|스킬 [물어뜯는 턱]이 [물어뜯는 턱+]로 강화",
+		extra_desc = "",
+		effect_base = "",
+		effect_preload = "",
+		need_lv = 100,
+		effect_equipment_proficiency = "",
+		effect_skill = "",
+		effect_dialog = "",
+		special = 1,
+		effect_skin = 0,
+		id = 2035,
+		need_exp = 750,
+		lv = 35,
+		effect = {
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		effect_attr = {
+			{
+				"luck",
+				7
+			}
+		},
+		change_skill = {
+			19430,
+			18430
+		}
+	}
+end)()
+(function ()
 	pg.base.ship_strengthen_blueprint[2101] = {
 		effect_breakout = 0,
 		effect_desc = "도감 개방: 로그인, 모항귀환, 자기소개",
@@ -21158,8 +21321,6 @@ end)()
 			"mission"
 		}
 	}
-end)()
-(function ()
 	pg.base.ship_strengthen_blueprint[2106] = {
 		effect_breakout = 0,
 		effect_desc = "",
@@ -23790,6 +23951,8 @@ end)()
 			"특수 탄막 업그레이드"
 		}
 	}
+end)()
+(function ()
 	pg.base.ship_strengthen_blueprint[2401] = {
 		effect_breakout = 0,
 		effect_desc = "도감 개방 : 로그인, 모항귀환, 도감 소개",
@@ -23935,8 +24098,6 @@ end)()
 			"mission"
 		}
 	}
-end)()
-(function ()
 	pg.base.ship_strengthen_blueprint[2406] = {
 		effect_breakout = 0,
 		effect_desc = "",
@@ -26564,6 +26725,8 @@ end)()
 			"뇌격기 효율 +15%"
 		}
 	}
+end)()
+(function ()
 	pg.base.ship_strengthen_blueprint[2631] = {
 		effect_breakout = 0,
 		effect_desc = "행운+1",
@@ -26717,8 +26880,6 @@ end)()
 			18610
 		}
 	}
-end)()
-(function ()
 	pg.base.ship_strengthen_blueprint[2701] = {
 		effect_breakout = 0,
 		effect_desc = "도감 개방 : 로그인, 모항귀환, 도감 소개",
@@ -29349,6 +29510,8 @@ end)()
 			18760
 		}
 	}
+end)()
+(function ()
 	pg.base.ship_strengthen_blueprint[3001] = {
 		effect_breakout = 0,
 		effect_desc = "도감 오픈: 로그인, 모항 귀환, 자기소개",
@@ -29495,8 +29658,6 @@ end)()
 			"mission"
 		}
 	}
-end)()
-(function ()
 	pg.base.ship_strengthen_blueprint[3006] = {
 		effect_breakout = 0,
 		effect_desc = "",
@@ -32132,6 +32293,8 @@ end)()
 			18730
 		}
 	}
+end)()
+(function ()
 	pg.base.ship_strengthen_blueprint[3301] = {
 		effect_breakout = 0,
 		effect_desc = "도감 오픈: 로그인, 모항 귀환, 자기소개",
@@ -32277,8 +32440,6 @@ end)()
 			"mission"
 		}
 	}
-end)()
-(function ()
 	pg.base.ship_strengthen_blueprint[3306] = {
 		effect_breakout = 0,
 		effect_desc = "",
@@ -34911,6 +35072,8 @@ end)()
 			"무기 보정 +5%"
 		}
 	}
+end)()
+(function ()
 	pg.base.ship_strengthen_blueprint[3601] = {
 		effect_breakout = 0,
 		effect_desc = "도감 오픈: 로그인, 모항 귀환, 자기소개",
@@ -35057,8 +35220,6 @@ end)()
 			"mission"
 		}
 	}
-end)()
-(function ()
 	pg.base.ship_strengthen_blueprint[3606] = {
 		effect_breakout = 0,
 		effect_desc = "",
@@ -37692,6 +37853,8 @@ end)()
 			18980
 		}
 	}
+end)()
+(function ()
 	pg.base.ship_strengthen_blueprint[3901] = {
 		effect_breakout = 0,
 		effect_desc = "도감 개방: 로그인, 모항귀환, 자기소개",
@@ -37837,8 +38000,6 @@ end)()
 			"mission"
 		}
 	}
-end)()
-(function ()
 	pg.base.ship_strengthen_blueprint[3906] = {
 		effect_breakout = 0,
 		effect_desc = "",
@@ -40463,6 +40624,8 @@ end)()
 			180000
 		}
 	}
+end)()
+(function ()
 	pg.base.ship_strengthen_blueprint[4201] = {
 		effect_breakout = 0,
 		effect_desc = "도감 개방: 로그인, 모항귀환, 자기소개",
@@ -40613,8 +40776,6 @@ end)()
 			"mission"
 		}
 	}
-end)()
-(function ()
 	pg.base.ship_strengthen_blueprint[4206] = {
 		effect_breakout = 0,
 		effect_desc = "",
@@ -43223,6 +43384,8 @@ end)()
 			"뇌격기 보정 +5%"
 		}
 	}
+end)()
+(function ()
 	pg.base.ship_strengthen_blueprint[4511] = {
 		effect_breakout = 0,
 		effect_desc = "",
@@ -43368,8 +43531,6 @@ end)()
 			"mission_complete"
 		}
 	}
-end)()
-(function ()
 	pg.base.ship_strengthen_blueprint[4516] = {
 		effect_breakout = 0,
 		effect_desc = "",

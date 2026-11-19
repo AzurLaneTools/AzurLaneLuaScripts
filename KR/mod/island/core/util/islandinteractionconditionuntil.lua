@@ -13,10 +13,11 @@ slot0.SHOW_TYPE_ABILITY = 11
 slot0.SHOW_TYPE_TASK_TARGET = 12
 slot0.SHOW_TYPE_SELF_ABILITY = 13
 slot0.SHOW_TYPE_ACTIVITY = 14
+slot0.SHOW_TYPE_CAN_SHIP_INTERACT = 15
 
-slot0.Check = function(slot0, slot1)
-	slot3 = slot1[2]
-	slot4 = slot1[3]
+slot0.Check = function(slot0, slot1, slot2)
+	slot4 = slot1[2]
+	slot5 = slot1[3]
 
 	return switch(slot1[1], {
 		[uv0.SHOW_TYPE_CAN_ACCEPT_TASK] = function ()
@@ -56,6 +57,31 @@ slot0.Check = function(slot0, slot1)
 		end,
 		[uv0.SHOW_TYPE_ACTIVITY] = function ()
 			return getProxy(ActivityProxy):IsActivityNotEnd(uv0)
+		end,
+		[uv0.SHOW_TYPE_CAN_SHIP_INTERACT] = function ()
+			slot1 = uv1 and uv0:GetInteractSyncAgency():GetPointId(uv1)
+
+			if not slot1 or not pg.island_interact_point[slot1] or slot2.allow_ship_interact ~= 1 then
+				return false
+			end
+
+			if slot0:GetSlotCnt(uv1) <= 1 then
+				return false
+			end
+
+			if slot0:IsLocalInteracting() then
+				return false
+			end
+
+			if slot0:HasOwner(uv1, slot0:GetLocalPlayerId()) then
+				return false
+			end
+
+			if slot0:IsSpecialOccupied(uv1) then
+				return false
+			end
+
+			return #uv0:GetFollowerAgency():GetFollowers() > 0
 		end
 	}, function ()
 		assert(false, "非法显示条件类型:" .. uv0)

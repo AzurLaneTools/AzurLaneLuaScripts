@@ -42,6 +42,10 @@ slot0.getResource = function(slot0)
 
 	for slot7, slot8 in ipairs(uv0.GetOnShowEntranceData()) do
 		slot2("activitybanner/" .. slot8.banner)
+
+		if HXSet.isHx() then
+			slot2("activitybanner/" .. slot8.banner .. "_hx")
+		end
 	end
 
 	table.insertto(slot1, uv0.super.getResource(slot0))

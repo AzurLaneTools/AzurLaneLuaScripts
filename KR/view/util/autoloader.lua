@@ -174,24 +174,50 @@ slot0.GetSpriteDirect = function(slot0, slot1, slot2, slot3, slot4)
 	slot0:ClearRequest(slot4)
 
 	slot4 = slot4 or slot0:GenerateUID4LoadingRequest()
-	slot5 = nil
-	slot5 = uv0.New(slot1, slot2, function (slot0)
+
+	slot5 = function(slot0)
 		uv0._loadingRequest[uv1] = nil
 
 		if uv2 then
 			uv2(slot0)
 		end
-	end)
-
-	if uv1 then
-		warning("AutoLoader Loading Atlas: " .. slot1 .. " Name: " .. slot2 .. " ;")
 	end
 
-	slot0._loadingRequest[slot4] = slot5
+	slot6 = function(slot0, slot1, slot2)
+		slot3 = uv0.New(slot0, slot1, slot2)
 
-	slot5:Start()
+		if uv1 then
+			warning("AutoLoader Loading Atlas: " .. slot0 .. " Name: " .. slot1 .. " ;")
+		end
 
-	slot0._returnRequest[slot1] = uv2.New(slot1)
+		uv2._loadingRequest[uv3] = slot3
+		uv2._returnRequest[slot0] = uv4.New(slot0)
+
+		slot3:Start()
+	end
+
+	if HXSet.isHx() then
+		slot7 = slot1
+		slot8 = slot2
+
+		if slot2 == "" then
+			if checkABExist(slot7 .. "_hx") then
+				slot7 = slot7 .. "_hx"
+			end
+		else
+			slot8 = slot8 .. "_hx"
+		end
+
+		slot6(slot7, slot8, function (slot0)
+			if slot0 == nil then
+				uv0(uv1, uv2, uv3)
+			else
+				uv3(slot0)
+			end
+		end)
+	else
+		slot6(slot1, slot2, slot5)
+	end
 
 	return slot4
 end

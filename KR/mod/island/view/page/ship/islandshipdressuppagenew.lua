@@ -107,6 +107,9 @@ slot0.OnLoaded = function(slot0)
 	slot0.hatOn = slot0.hatTF:Find("hatOn")
 	slot0.hatOff = slot0.hatTF:Find("hatOff")
 	slot0.morphTF = slot0._tf:Find("adapt/btns/morph")
+
+	setActive(slot0.morphTF, false)
+
 	slot0.morphBtn = slot0.morphTF and slot0.morphTF:Find("morphBtn")
 	slot0.morphBlocker = slot0._tf:Find("adapt/morph_blocker")
 

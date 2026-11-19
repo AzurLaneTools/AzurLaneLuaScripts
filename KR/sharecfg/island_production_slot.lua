@@ -1103,10 +1103,10 @@ pg.base.island_production_slot = {}
 		},
 		activity_formula = {
 			{
-				990025,
+				990030,
 				{
-					9900001,
-					9900002
+					9900025,
+					9900026
 				}
 			}
 		}
@@ -1132,10 +1132,10 @@ pg.base.island_production_slot = {}
 		},
 		activity_formula = {
 			{
-				990025,
+				990030,
 				{
-					9900001,
-					9900002
+					9900025,
+					9900026
 				}
 			}
 		}
@@ -1161,10 +1161,10 @@ pg.base.island_production_slot = {}
 		},
 		activity_formula = {
 			{
-				990025,
+				990030,
 				{
-					9900001,
-					9900002
+					9900025,
+					9900026
 				}
 			}
 		}
@@ -1190,10 +1190,10 @@ pg.base.island_production_slot = {}
 		},
 		activity_formula = {
 			{
-				990025,
+				990030,
 				{
-					9900001,
-					9900002
+					9900025,
+					9900026
 				}
 			}
 		}
@@ -1219,10 +1219,10 @@ pg.base.island_production_slot = {}
 		},
 		activity_formula = {
 			{
-				990025,
+				990030,
 				{
-					9900001,
-					9900002
+					9900025,
+					9900026
 				}
 			}
 		}
@@ -1248,10 +1248,10 @@ pg.base.island_production_slot = {}
 		},
 		activity_formula = {
 			{
-				990025,
+				990030,
 				{
-					9900001,
-					9900002
+					9900025,
+					9900026
 				}
 			}
 		}
@@ -1277,10 +1277,10 @@ pg.base.island_production_slot = {}
 		},
 		activity_formula = {
 			{
-				990025,
+				990030,
 				{
-					9900001,
-					9900002
+					9900025,
+					9900026
 				}
 			}
 		}
@@ -1306,10 +1306,10 @@ pg.base.island_production_slot = {}
 		},
 		activity_formula = {
 			{
-				990025,
+				990030,
 				{
-					9900001,
-					9900002
+					9900025,
+					9900026
 				}
 			}
 		}
@@ -1335,10 +1335,10 @@ pg.base.island_production_slot = {}
 		},
 		activity_formula = {
 			{
-				990025,
+				990030,
 				{
-					9900001,
-					9900002
+					9900025,
+					9900026
 				}
 			}
 		}
@@ -1364,10 +1364,10 @@ pg.base.island_production_slot = {}
 		},
 		activity_formula = {
 			{
-				990025,
+				990030,
 				{
-					9900001,
-					9900002
+					9900025,
+					9900026
 				}
 			}
 		}
@@ -1393,10 +1393,10 @@ pg.base.island_production_slot = {}
 		},
 		activity_formula = {
 			{
-				990025,
+				990030,
 				{
-					9900001,
-					9900002
+					9900025,
+					9900026
 				}
 			}
 		}
@@ -1422,10 +1422,10 @@ pg.base.island_production_slot = {}
 		},
 		activity_formula = {
 			{
-				990025,
+				990030,
 				{
-					9900001,
-					9900002
+					9900025,
+					9900026
 				}
 			}
 		}
@@ -1451,10 +1451,10 @@ pg.base.island_production_slot = {}
 		},
 		activity_formula = {
 			{
-				990025,
+				990030,
 				{
-					9900001,
-					9900002
+					9900025,
+					9900026
 				}
 			}
 		}
@@ -1480,10 +1480,10 @@ pg.base.island_production_slot = {}
 		},
 		activity_formula = {
 			{
-				990025,
+				990030,
 				{
-					9900001,
-					9900002
+					9900025,
+					9900026
 				}
 			}
 		}
@@ -1509,10 +1509,10 @@ pg.base.island_production_slot = {}
 		},
 		activity_formula = {
 			{
-				990025,
+				990030,
 				{
-					9900001,
-					9900002
+					9900025,
+					9900026
 				}
 			}
 		}
@@ -1538,10 +1538,10 @@ pg.base.island_production_slot = {}
 		},
 		activity_formula = {
 			{
-				990025,
+				990030,
 				{
-					9900001,
-					9900002
+					9900025,
+					9900026
 				}
 			}
 		}
@@ -2344,10 +2344,10 @@ pg.base.island_production_slot = {}
 		},
 		activity_formula = {
 			{
-				990025,
+				990030,
 				{
-					9900003,
-					9900004
+					9900027,
+					9900028
 				}
 			}
 		}
@@ -2374,10 +2374,10 @@ pg.base.island_production_slot = {}
 		},
 		activity_formula = {
 			{
-				990025,
+				990030,
 				{
-					9900003,
-					9900004
+					9900027,
+					9900028
 				}
 			}
 		}
@@ -2401,15 +2401,7 @@ pg.base.island_production_slot = {}
 			602102,
 			602103
 		},
-		activity_formula = {
-			{
-				990025,
-				{
-					9900007,
-					9900008
-				}
-			}
-		}
+		activity_formula = {}
 	}
 	pg.base.island_production_slot[9072] = {
 		exclusion_slot = "",
@@ -2430,15 +2422,7 @@ pg.base.island_production_slot = {}
 			602102,
 			602103
 		},
-		activity_formula = {
-			{
-				990025,
-				{
-					9900007,
-					9900008
-				}
-			}
-		}
+		activity_formula = {}
 	}
 end)()
 (function ()
@@ -2462,7 +2446,15 @@ end)()
 			603102,
 			603103
 		},
-		activity_formula = {}
+		activity_formula = {
+			{
+				990030,
+				{
+					9900029,
+					9900030
+				}
+			}
+		}
 	}
 	pg.base.island_production_slot[9082] = {
 		exclusion_slot = "",
@@ -2484,7 +2476,15 @@ end)()
 			603102,
 			603103
 		},
-		activity_formula = {}
+		activity_formula = {
+			{
+				990030,
+				{
+					9900029,
+					9900030
+				}
+			}
+		}
 	}
 	pg.base.island_production_slot[9091] = {
 		exclusion_slot = "",
@@ -2552,10 +2552,10 @@ end)()
 		},
 		activity_formula = {
 			{
-				990025,
+				990030,
 				{
-					9900001,
-					9900002
+					9900025,
+					9900026
 				}
 			}
 		}
@@ -2584,10 +2584,10 @@ end)()
 		},
 		activity_formula = {
 			{
-				990025,
+				990030,
 				{
-					9900001,
-					9900002
+					9900025,
+					9900026
 				}
 			}
 		}
@@ -2616,10 +2616,10 @@ end)()
 		},
 		activity_formula = {
 			{
-				990025,
+				990030,
 				{
-					9900001,
-					9900002
+					9900025,
+					9900026
 				}
 			}
 		}
@@ -2648,10 +2648,10 @@ end)()
 		},
 		activity_formula = {
 			{
-				990025,
+				990030,
 				{
-					9900001,
-					9900002
+					9900025,
+					9900026
 				}
 			}
 		}
@@ -2825,10 +2825,10 @@ end)()
 		},
 		activity_formula = {
 			{
-				990025,
+				990030,
 				{
-					9900005,
-					9900006
+					9900031,
+					9900032
 				}
 			}
 		}
@@ -2852,10 +2852,10 @@ end)()
 		},
 		activity_formula = {
 			{
-				990025,
+				990030,
 				{
-					9900005,
-					9900006
+					9900031,
+					9900032
 				}
 			}
 		}

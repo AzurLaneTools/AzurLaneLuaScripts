@@ -12346,7 +12346,95 @@ pg.activity_ins_chat_language.all = {
 	12426,
 	12427,
 	12428,
-	12429
+	12429,
+	12430,
+	12431,
+	12432,
+	12433,
+	12434,
+	12435,
+	12436,
+	12437,
+	12438,
+	12439,
+	12440,
+	12441,
+	12442,
+	12443,
+	12444,
+	12445,
+	12446,
+	12447,
+	12448,
+	12449,
+	12450,
+	12451,
+	12452,
+	12453,
+	12454,
+	12455,
+	12456,
+	12457,
+	12458,
+	12459,
+	12460,
+	12461,
+	12462,
+	12463,
+	12464,
+	12465,
+	12466,
+	12467,
+	12468,
+	12469,
+	12470,
+	12471,
+	12472,
+	12473,
+	12474,
+	12475,
+	12476,
+	12477,
+	12478,
+	12479,
+	12480,
+	12481,
+	12482,
+	12483,
+	12484,
+	12485,
+	12486,
+	12487,
+	12488,
+	12489,
+	12490,
+	12491,
+	12492,
+	12493,
+	12494,
+	12495,
+	12496,
+	12497,
+	12498,
+	12499,
+	12500,
+	12501,
+	12502,
+	12503,
+	12504,
+	12505,
+	12506,
+	12507,
+	12508,
+	12509,
+	12510,
+	12511,
+	12512,
+	12513,
+	12514,
+	12515,
+	12516,
+	12517
 }
 pg.base = pg.base or {}
 pg.base.activity_ins_chat_language = {}
@@ -120914,5 +121002,762 @@ end)()
 		type = 1,
 		id = 12429,
 		flag = 5
+	}
+	pg.base.activity_ins_chat_language[12430] = {
+		param = "지휘관, 깊은 밤의 바다를 바라본 적 있는가?",
+		ship_group = 89902,
+		option = "",
+		type = 1,
+		id = 12430,
+		flag = 0
+	}
+	pg.base.activity_ins_chat_language[12431] = {
+		param = "달빛이 바다 위로 펼쳐져, 부서진 은빛이 엮어 낸 길과도 같나니.",
+		ship_group = 89902,
+		option = "",
+		type = 1,
+		id = 12431,
+		flag = 0
+	}
+	pg.base.activity_ins_chat_language[12432] = {
+		param = "볼 때마다 떠오르는 것은 피안. 아직 말로 쓰이지 않았고, 닿을 수도 없는 피안이로다.",
+		ship_group = 89902,
+		type = 1,
+		id = 12432,
+		flag = 0,
+		option = {
+			{
+				1,
+				"아름다운 표현이네"
+			},
+			{
+				2,
+				"신비로운 세상으로 이어지는 계단 같아…"
+			}
+		}
+	}
+	pg.base.activity_ins_chat_language[12433] = {
+		param = "참 아름다운 표현이네. 그런데 어딘가 쓸쓸한 느낌이…",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 12433,
+		flag = 1
+	}
+	pg.base.activity_ins_chat_language[12434] = {
+		param = "쓸쓸함…… 그럴지도 모르지……",
+		ship_group = 89902,
+		option = "",
+		type = 1,
+		id = 12434,
+		flag = 1
+	}
+	pg.base.activity_ins_chat_language[12435] = {
+		param = "허나 그것은 황량한 적막이 아닌, 운명에 도달하기 전 반드시 거쳐야만 하는 침묵에 가깝도다.",
+		ship_group = 89902,
+		option = "",
+		type = 1,
+		id = 12435,
+		flag = 1
+	}
+	pg.base.activity_ins_chat_language[12436] = {
+		param = "바다는 고요해 보이나, 언제나 달빛에 화답하고 있나니.",
+		ship_group = 89902,
+		option = "",
+		type = 1,
+		id = 12436,
+		flag = 1
+	}
+	pg.base.activity_ins_chat_language[12437] = {
+		param = "허무 속에서 태어났으나, 화답해 줄 목소리를 기다리는 샹파뉴처럼.",
+		ship_group = 89902,
+		option = "",
+		type = 1,
+		id = 12437,
+		flag = 1
+	}
+	pg.base.activity_ins_chat_language[12438] = {
+		param = "어딘가 신비로운 세상으로 이어지는 계단 같아… 그 끝에는 뭐가 있을까?",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 12438,
+		flag = 2
+	}
+	pg.base.activity_ins_chat_language[12439] = {
+		param = "그 끝…… 어쩌면 그곳에 있는 것은 더욱 깊고, 헤아릴 수 없이 아득한 푸름.",
+		ship_group = 89902,
+		option = "",
+		type = 1,
+		id = 12439,
+		flag = 2
+	}
+	pg.base.activity_ins_chat_language[12440] = {
+		param = "아니면 그저 달빛이 엮어 낸 다정한 환영일 수도 있나니.",
+		ship_group = 89902,
+		option = "",
+		type = 1,
+		id = 12440,
+		flag = 2
+	}
+	pg.base.activity_ins_chat_language[12441] = {
+		param = "진정으로 도달해야 할 피안이라면, 샹파뉴는 있는 힘껏 노를 저으리.",
+		ship_group = 89902,
+		option = "",
+		type = 1,
+		id = 12441,
+		flag = 2
+	}
+	pg.base.activity_ins_chat_language[12442] = {
+		param = "한 번 사명을 부여받으면 도중에 멈출 수는 없으니까.",
+		ship_group = 89902,
+		option = "",
+		type = 1,
+		id = 12442,
+		flag = 2
+	}
+	pg.base.activity_ins_chat_language[12443] = {
+		param = "문득 떠오르는, 과거에 시집에서 읽었던 한 구절.",
+		ship_group = 89902,
+		option = "",
+		type = 1,
+		id = 12443,
+		flag = 0
+	}
+	pg.base.activity_ins_chat_language[12444] = {
+		param = "「달빛이여, 애처롭고도 아름답고, 쓸쓸하구나…… 나무 사이의 작은 새들을 깊은 꿈속으로 이끄는구나……」",
+		ship_group = 89902,
+		option = "",
+		type = 1,
+		id = 12444,
+		flag = 0
+	}
+	pg.base.activity_ins_chat_language[12445] = {
+		param = "이 바다가 한 권의 시집이라면, 조용히 책장을 넘기는 독자가 되고 싶은가, 아니면 직접 시를 써 내려가는 창작자가 되고 싶은가?",
+		ship_group = 89902,
+		type = 1,
+		id = 12445,
+		flag = 0,
+		option = {
+			{
+				3,
+				"읽는 쪽"
+			},
+			{
+				4,
+				"써 내려가는 쪽"
+			}
+		}
+	}
+	pg.base.activity_ins_chat_language[12446] = {
+		param = "읽는 쪽이려나? ……내 흔적을 남기는 것보다 우선 바다를 알아 가는 게 더 중요할 것 같아.",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 12446,
+		flag = 3
+	}
+	pg.base.activity_ins_chat_language[12447] = {
+		param = "즉, 독자로구나. 평가하는 대신 눈여겨보고, 침묵에는 시선으로 답하겠다는 것.",
+		ship_group = 89902,
+		option = "",
+		type = 1,
+		id = 12447,
+		flag = 3
+	}
+	pg.base.activity_ins_chat_language[12448] = {
+		param = "그 선택은 지휘관이라는 존재와도 맞닿아 있는 듯하군.",
+		ship_group = 89902,
+		option = "",
+		type = 1,
+		id = 12448,
+		flag = 3
+	}
+	pg.base.activity_ins_chat_language[12449] = {
+		param = "섣불리 빠져들지도, 가볍게 부정하지도 않고, 한 줄 한 줄에 존재할 가치가 있는지 확인할 뿐.",
+		ship_group = 89902,
+		option = "",
+		type = 1,
+		id = 12449,
+		flag = 3
+	}
+	pg.base.activity_ins_chat_language[12450] = {
+		param = "샹파뉴 또한 그 구절이라면…… 그렇게 적힌 이유를 누군가 읽어 주기를 바라리라.",
+		ship_group = 89902,
+		option = "",
+		type = 1,
+		id = 12450,
+		flag = 3
+	}
+	pg.base.activity_ins_chat_language[12451] = {
+		param = "써 내려가는 쪽이려나? 기회가 된다면 나와 샹파뉴만의 좌표를 남기고 싶어.",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 12451,
+		flag = 4
+	}
+	pg.base.activity_ins_chat_language[12452] = {
+		param = "즉, 창작자로구나. 의지를 여백에 새기고, 형태 없는 것에 윤곽을 부여하는 자.",
+		ship_group = 89902,
+		option = "",
+		type = 1,
+		id = 12452,
+		flag = 4
+	}
+	pg.base.activity_ins_chat_language[12453] = {
+		param = "그 또한 더없이 다정하면서도, 무엇보다 굳건한 힘이나니.",
+		ship_group = 89902,
+		option = "",
+		type = 1,
+		id = 12453,
+		flag = 4
+	}
+	pg.base.activity_ins_chat_language[12454] = {
+		param = "지휘관에게 받은 사명 또한 그런 한 줄의 시일지도 모르겠군.",
+		ship_group = 89902,
+		option = "",
+		type = 1,
+		id = 12454,
+		flag = 4
+	}
+	pg.base.activity_ins_chat_language[12455] = {
+		param = "샹파뉴를 허무에서 현실로 이끌고, 이 세상에서 살아갈 이유를 주었으니.",
+		ship_group = 89902,
+		option = "",
+		type = 1,
+		id = 12455,
+		flag = 4
+	}
+	pg.base.activity_ins_chat_language[12456] = {
+		param = "우리 사이에 있는 것은 명령과 수행만이 아니지.",
+		ship_group = 89902,
+		option = "",
+		type = 1,
+		id = 12456,
+		flag = 0
+	}
+	pg.base.activity_ins_chat_language[12457] = {
+		param = "서로를 바라보는 시선이 있고, 그에 대한 응답이 있으며, 침묵 속에서 서로의 존재를 확인하는 찰나 또한 함께 깃들어 있나니.",
+		ship_group = 89902,
+		option = "",
+		type = 1,
+		id = 12457,
+		flag = 0
+	}
+	pg.base.activity_ins_chat_language[12458] = {
+		param = "지휘관, 내 감사를 받아주길.",
+		ship_group = 89902,
+		option = "",
+		type = 1,
+		id = 12458,
+		flag = 0
+	}
+	pg.base.activity_ins_chat_language[12459] = {
+		param = "오늘 밤은 달빛과 시의 정서가 살며시 감싸는 꿈을 꾸기를.",
+		ship_group = 89902,
+		option = "",
+		type = 1,
+		id = 12459,
+		flag = 0
+	}
+	pg.base.activity_ins_chat_language[12460] = {
+		param = "지휘관, 창밖에서 빗방울이 유리창을 두드리는 소리에 귀를 기울여 본 적 있는가?",
+		ship_group = 89902,
+		option = "",
+		type = 1,
+		id = 12460,
+		flag = 0
+	}
+	pg.base.activity_ins_chat_language[12461] = {
+		param = "운율은 있으나 반복되지는 않는, 마치 감춰진 고대의 언어와도 같은 소리.",
+		ship_group = 89902,
+		option = "",
+		type = 1,
+		id = 12461,
+		flag = 0
+	}
+	pg.base.activity_ins_chat_language[12462] = {
+		param = "문득 한 가지 의문이 떠올랐는데……",
+		ship_group = 89902,
+		option = "",
+		type = 1,
+		id = 12462,
+		flag = 0
+	}
+	pg.base.activity_ins_chat_language[12463] = {
+		param = "침묵에도 무게란 것이 존재하는가?",
+		ship_group = 89902,
+		option = "",
+		type = 1,
+		id = 12463,
+		flag = 0
+	}
+	pg.base.activity_ins_chat_language[12464] = {
+		param = "빗소리는 높게 울리지만, 사람의 마음에는 고요함을 가져다주지.",
+		ship_group = 89902,
+		option = "",
+		type = 1,
+		id = 12464,
+		flag = 0
+	}
+	pg.base.activity_ins_chat_language[12465] = {
+		param = "하지만 때로 두 사람 사이의 침묵은 빗소리보다도 무거운 법.",
+		ship_group = 89902,
+		type = 1,
+		id = 12465,
+		flag = 0,
+		option = {
+			{
+				1,
+				"침묵의 무게는…"
+			}
+		}
+	}
+	pg.base.activity_ins_chat_language[12466] = {
+		param = "침묵의 무게는… 서로의 거리에 달려 있다고 생각해.",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 12466,
+		flag = 1
+	}
+	pg.base.activity_ins_chat_language[12467] = {
+		param = "거리…… 지휘관의 답이 옳군.",
+		ship_group = 89902,
+		option = "",
+		type = 1,
+		id = 12467,
+		flag = 1
+	}
+	pg.base.activity_ins_chat_language[12468] = {
+		param = "두 개의 별에 비유하자면, 침묵의 거리는 그 사이에 놓인 우주. 즉, 차가운 허무.",
+		ship_group = 89902,
+		option = "",
+		type = 1,
+		id = 12468,
+		flag = 1
+	}
+	pg.base.activity_ins_chat_language[12469] = {
+		param = "하지만 충분히 가까워지면 침묵은 더 이상 공허가 아니며, 다하지 못한 말로 가득 차오르나니.",
+		ship_group = 89902,
+		option = "",
+		type = 1,
+		id = 12469,
+		flag = 1
+	}
+	pg.base.activity_ins_chat_language[12470] = {
+		param = "그 침묵은 채워야 할 빈자리인가?",
+		ship_group = 89902,
+		option = "",
+		type = 1,
+		id = 12470,
+		flag = 1
+	}
+	pg.base.activity_ins_chat_language[12471] = {
+		param = "우리 사이의 말 없는 순간을 지휘관도 두려워하는가…?",
+		ship_group = 89902,
+		type = 1,
+		id = 12471,
+		flag = 1,
+		option = {
+			{
+				2,
+				"가끔은 그렇지……"
+			},
+			{
+				3,
+				"침묵도 편안할 수 있어"
+			}
+		}
+	}
+	pg.base.activity_ins_chat_language[12472] = {
+		param = "가끔은 그렇지… 무슨 말을 해야 할지 모르겠을 때가 있어.",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 12472,
+		flag = 2
+	}
+	pg.base.activity_ins_chat_language[12473] = {
+		param = "지휘관에게도 하고 싶은 말을 망설이는 순간이 있었군.",
+		ship_group = 89902,
+		option = "",
+		type = 1,
+		id = 12473,
+		flag = 2
+	}
+	pg.base.activity_ins_chat_language[12474] = {
+		param = "그 순간이 찾아오면 샹파뉴는 그저 조용히 기다리리라. 침묵의 밑바닥에서 말이 떠오를 때까지.",
+		ship_group = 89902,
+		option = "",
+		type = 1,
+		id = 12474,
+		flag = 2
+	}
+	pg.base.activity_ins_chat_language[12475] = {
+		param = "아니면…… 지휘관의 침묵에 귀를 기울여 보도록 하지.",
+		ship_group = 89902,
+		option = "",
+		type = 1,
+		id = 12475,
+		flag = 2
+	}
+	pg.base.activity_ins_chat_language[12476] = {
+		param = "아니, 난 침묵도 편안할 수 있다고 봐.",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 12476,
+		flag = 3
+	}
+	pg.base.activity_ins_chat_language[12477] = {
+		param = "……편안하다. 아름다운 비유로군.",
+		ship_group = 89902,
+		option = "",
+		type = 1,
+		id = 12477,
+		flag = 3
+	}
+	pg.base.activity_ins_chat_language[12478] = {
+		param = "나란히 자라는 두 줄기 덩굴이 누구의 눈길도 닿지 않는 구석에서 뿌리를 흙 속에서 조용히 얽어맨 것처럼.",
+		ship_group = 89902,
+		option = "",
+		type = 1,
+		id = 12478,
+		flag = 3
+	}
+	pg.base.activity_ins_chat_language[12479] = {
+		param = "말이 없어도 가지와 잎이 서로 맞닿는 것. 그야말로 이심전심.",
+		ship_group = 89902,
+		option = "",
+		type = 1,
+		id = 12479,
+		flag = 3
+	}
+	pg.base.activity_ins_chat_language[12480] = {
+		param = "침묵이 이토록 연모와도 같다고 느낀 건 처음이나니.",
+		ship_group = 89902,
+		option = "",
+		type = 1,
+		id = 12480,
+		flag = 0
+	}
+	pg.base.activity_ins_chat_language[12481] = {
+		param = "언젠가 비 오는 날, 같은 처마 아래에서 잠시 침묵을 함께할 수 있다면……",
+		ship_group = 89902,
+		option = "",
+		type = 1,
+		id = 12481,
+		flag = 0
+	}
+	pg.base.activity_ins_chat_language[12482] = {
+		param = "말을 엮어 내지 않고, 빗소리와 서로의 숨소리에 귀를 기울이며……",
+		ship_group = 89902,
+		type = 1,
+		id = 12482,
+		flag = 0,
+		option = {
+			{
+				4,
+				"만약……"
+			}
+		}
+	}
+	pg.base.activity_ins_chat_language[12483] = {
+		param = "만약 못 참고 침묵을 깨버리면……?",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 12483,
+		flag = 4
+	}
+	pg.base.activity_ins_chat_language[12484] = {
+		param = "그 또한 무방하리라.",
+		ship_group = 89902,
+		option = "",
+		type = 1,
+		id = 12484,
+		flag = 4
+	}
+	pg.base.activity_ins_chat_language[12485] = {
+		param = "지휘관이 엮어 내는 모든 말은 깊은 생각 끝에 나온 것이든, 무심코 입에 올린 것이든, 모두 가슴에 소중히 새겨 둘 테니……",
+		ship_group = 89902,
+		option = "",
+		type = 1,
+		id = 12485,
+		flag = 4
+	}
+	pg.base.activity_ins_chat_language[12486] = {
+		param = "편안한 잠을, 지휘관. 오늘 밤 꿈에도 다정한 비가 내리기를.",
+		ship_group = 89902,
+		option = "",
+		type = 1,
+		id = 12486,
+		flag = 4
+	}
+end)()
+(function ()
+	pg.base.activity_ins_chat_language[12487] = {
+		param = "빗소리가…… 샹파뉴를 대신해 창문을 살며시 두드리며, 가슴속에서만 끊임없이 되뇌는 말을 전해 주기를.",
+		ship_group = 89902,
+		option = "",
+		type = 1,
+		id = 12487,
+		flag = 4
+	}
+	pg.base.activity_ins_chat_language[12488] = {
+		param = "지휘관. 사람은 자신도 모르는 사이에 사소한 행동을 반복한다던데, 알고 있는가?",
+		ship_group = 89902,
+		option = "",
+		type = 1,
+		id = 12488,
+		flag = 0
+	}
+	pg.base.activity_ins_chat_language[12489] = {
+		param = "예를 들면 잔을 내려놓을 때면 반드시 정해진 자리에 놓는 것.",
+		ship_group = 89902,
+		option = "",
+		type = 1,
+		id = 12489,
+		flag = 0
+	}
+	pg.base.activity_ins_chat_language[12490] = {
+		param = "긴 복도를 걸을 때면 창밖의 구름을 한 번쯤 올려다보는 것.",
+		ship_group = 89902,
+		option = "",
+		type = 1,
+		id = 12490,
+		flag = 0
+	}
+	pg.base.activity_ins_chat_language[12491] = {
+		param = "또 예를 들면, 이미 확인했을 텐데도 잠들기 전에 다시 한번 자물쇠를 만져 보는 것.",
+		ship_group = 89902,
+		option = "",
+		type = 1,
+		id = 12491,
+		flag = 0
+	}
+	pg.base.activity_ins_chat_language[12492] = {
+		param = "대단한 행동도 아니고, 특별한 의미가 있는 것도 아니지만.",
+		ship_group = 89902,
+		option = "",
+		type = 1,
+		id = 12492,
+		flag = 0
+	}
+	pg.base.activity_ins_chat_language[12493] = {
+		param = "작은 닻처럼 사람을 일상의 흐름에 붙들어 두지.",
+		ship_group = 89902,
+		option = "",
+		type = 1,
+		id = 12493,
+		flag = 0
+	}
+	pg.base.activity_ins_chat_language[12494] = {
+		param = "지휘관에게도…… 자신의 존재를 확인하기 위한 사소한 의식이…?",
+		ship_group = 89902,
+		type = 1,
+		id = 12494,
+		flag = 0,
+		option = {
+			{
+				1,
+				"아침에 마시는 블랙커피려나"
+			},
+			{
+				2,
+				"자기 전에 내일 일정을 확인하는 거려나"
+			}
+		}
+	}
+	pg.base.activity_ins_chat_language[12495] = {
+		param = "아침에 블랙커피를 마시며 잠을 깨는 것도 그런 행동에 들어갈까?",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 12495,
+		flag = 1
+	}
+	pg.base.activity_ins_chat_language[12496] = {
+		param = "쓴맛으로 아침의 빛을 여는 것. 지휘관다운 습관이로군.",
+		ship_group = 89902,
+		option = "",
+		type = 1,
+		id = 12496,
+		flag = 1
+	}
+	pg.base.activity_ins_chat_language[12497] = {
+		param = "쓴맛으로 스스로를 깨우고, 그 온기를…… 지키고자 하는 대상에게 쏟는 것.",
+		ship_group = 89902,
+		option = "",
+		type = 1,
+		id = 12497,
+		flag = 1
+	}
+	pg.base.activity_ins_chat_language[12498] = {
+		param = "그 한 모금의 쓴맛이 부럽도다……",
+		ship_group = 89902,
+		option = "",
+		type = 1,
+		id = 12498,
+		flag = 1
+	}
+	pg.base.activity_ins_chat_language[12499] = {
+		param = "지휘관이 새벽에 홀로 되뇌는 말을 샹파뉴 대신 맛보고 있을 테니.",
+		ship_group = 89902,
+		option = "",
+		type = 1,
+		id = 12499,
+		flag = 1
+	}
+	pg.base.activity_ins_chat_language[12500] = {
+		param = "자기 전에 내일 일정을 확인하는 거려나?",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 12500,
+		flag = 2
+	}
+	pg.base.activity_ins_chat_language[12501] = {
+		param = "이성적으로 하루를 준비하면서도 다정함을 잃지 않는 것. 지휘관다운 습관이로다.",
+		ship_group = 89902,
+		option = "",
+		type = 1,
+		id = 12501,
+		flag = 2
+	}
+	pg.base.activity_ins_chat_language[12502] = {
+		param = "지휘관이 지키는 것은 질서가 가져다주는 평온에 가까운 것.",
+		ship_group = 89902,
+		option = "",
+		type = 1,
+		id = 12502,
+		flag = 2
+	}
+	pg.base.activity_ins_chat_language[12503] = {
+		param = "샹파뉴도 그 의식 속으로 고요히 스며들 수 있을런지……",
+		ship_group = 89902,
+		type = 1,
+		id = 12503,
+		flag = 0,
+		option = {
+			{
+				3,
+				"일정을 확인할 때면…"
+			}
+		}
+	}
+	pg.base.activity_ins_chat_language[12504] = {
+		param = "일정을 확인할 때면, 샹파뉴랑 관련된 일정이 있는지 꼭 확인하고 있어.",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 12504,
+		flag = 3
+	}
+	pg.base.activity_ins_chat_language[12505] = {
+		param = "만약 있으면 내일이 오는 게 기다려지거든.",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 12505,
+		flag = 3
+	}
+	pg.base.activity_ins_chat_language[12506] = {
+		param = "……지휘관.",
+		ship_group = 89902,
+		option = "",
+		type = 1,
+		id = 12506,
+		flag = 3
+	}
+	pg.base.activity_ins_chat_language[12507] = {
+		param = "내일을 확인함과 동시에 샹파뉴의 존재 또한 확인하고 있었군.",
+		ship_group = 89902,
+		option = "",
+		type = 1,
+		id = 12507,
+		flag = 3
+	}
+	pg.base.activity_ins_chat_language[12508] = {
+		param = "그 한마디는 샹파뉴가 예상했던 것보다 훨씬 더 무겁구나.",
+		ship_group = 89902,
+		option = "",
+		type = 1,
+		id = 12508,
+		flag = 3
+	}
+	pg.base.activity_ins_chat_language[12509] = {
+		param = "샹파뉴라는 이름은 그저 종이 위에 적힌 글자가 아니나니.",
+		ship_group = 89902,
+		option = "",
+		type = 1,
+		id = 12509,
+		flag = 3
+	}
+	pg.base.activity_ins_chat_language[12510] = {
+		param = "지휘관의 손으로 「내일」이라는 다정한 장소에 놓인 것과 같도다.",
+		ship_group = 89902,
+		option = "",
+		type = 1,
+		id = 12510,
+		flag = 3
+	}
+	pg.base.activity_ins_chat_language[12511] = {
+		param = "지휘관은 알고 있는가?",
+		ship_group = 89902,
+		option = "",
+		type = 1,
+		id = 12511,
+		flag = 3
+	}
+	pg.base.activity_ins_chat_language[12512] = {
+		param = "기억되는 것과 누군가에게 필요한 존재가 되는 것은 결코 같지 않음을.",
+		ship_group = 89902,
+		option = "",
+		type = 1,
+		id = 12512,
+		flag = 3
+	}
+	pg.base.activity_ins_chat_language[12513] = {
+		param = "필요한 존재가 되었을 때, 샹파뉴는 나아가야 할 방향을 얻지만.",
+		ship_group = 89902,
+		option = "",
+		type = 1,
+		id = 12513,
+		flag = 3
+	}
+	pg.base.activity_ins_chat_language[12514] = {
+		param = "기억될 때…… 샹파뉴는 비로소 지휘관의 마음에 한 걸음 더 다가갈 수 있으리라.",
+		ship_group = 89902,
+		option = "",
+		type = 1,
+		id = 12514,
+		flag = 3
+	}
+	pg.base.activity_ins_chat_language[12515] = {
+		param = "좋은 꿈을 꾸기를. 지휘관.",
+		ship_group = 89902,
+		option = "",
+		type = 1,
+		id = 12515,
+		flag = 3
+	}
+	pg.base.activity_ins_chat_language[12516] = {
+		param = "샹파뉴 또한 지휘관의 이름을 모든 내일에 새겨 두겠노라.",
+		ship_group = 89902,
+		option = "",
+		type = 1,
+		id = 12516,
+		flag = 3
+	}
+	pg.base.activity_ins_chat_language[12517] = {
+		param = "낮과 밤이 지휘관으로 가득 차 있는 것처럼.",
+		ship_group = 89902,
+		option = "",
+		type = 1,
+		id = 12517,
+		flag = 3
 	}
 end)()

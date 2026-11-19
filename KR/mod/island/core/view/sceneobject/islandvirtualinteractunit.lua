@@ -36,22 +36,16 @@ slot0.GetTargetRoot = function(slot0)
 	end
 end
 
-slot0.GetPlayerParent = function(slot0)
-	if slot0.tempPlayerParentPath == nil then
+slot0.GetPlayerParent = function(slot0, slot1)
+	if slot0.data:GetPlayerParentPath(slot1) == nil then
 		return slot0:GetTargetRoot()
 	else
-		slot1 = slot0:GetTargetRoot():Find(slot0.tempPlayerParentPath)
+		slot3 = slot0:GetTargetRoot():Find(slot2)
 
-		assert(slot1, "can't find player parent with path: " .. slot0.tempPlayerParentPath)
+		assert(slot3, "can't find player parent with path: " .. slot2)
 
-		return slot1
+		return slot3
 	end
-end
-
-slot0.StartInteract = function(slot0, slot1, slot2, slot3, slot4, slot5, slot6, slot7, slot8)
-	slot0.tempPlayerParentPath = slot8
-
-	uv0.super.StartInteract(slot0, slot1, slot2, slot3, slot4, slot5, slot6, slot7)
 end
 
 return slot0

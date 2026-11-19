@@ -52,6 +52,7 @@ pg.ship_l2d_tips.all = {
 	299035,
 	137060,
 	102053,
+	905021,
 	303191,
 	307083,
 	118021,
@@ -7396,6 +7397,65 @@ pg.base.ship_l2d_tips = {}
 				icon = "l2dui_6",
 				drawable = {
 					"TouchDrag2"
+				}
+			}
+		},
+		tips_offset = {
+			{
+				drawable = {
+					"TouchDrag1",
+					"TouchDrag2",
+					"TouchDrag3"
+				},
+				offset = {
+					0,
+					0
+				}
+			}
+		},
+		tips_scale = {
+			{
+				drawable = {
+					"TouchDrag1",
+					"TouchDrag2",
+					"TouchDrag3"
+				},
+				scale = {
+					1,
+					1,
+					1
+				}
+			}
+		},
+		idle_black_list = {
+			{
+				drawable = {},
+				idle = {
+					0
+				}
+			}
+		},
+		anim_white_list = {
+			{
+				drawable = {},
+				white_list = {}
+			}
+		}
+	}
+	pg.base.ship_l2d_tips[905021] = {
+		id = 905021,
+		tips_icon = {
+			{
+				icon = "l2dui",
+				drawable = {
+					"TouchDrag1",
+					"TouchDrag2"
+				}
+			},
+			{
+				icon = "l2dui_5",
+				drawable = {
+					"TouchDrag3"
 				}
 			}
 		},

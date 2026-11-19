@@ -8,12 +8,19 @@ slot0.Ctor = function(slot0, slot1, slot2)
 end
 
 slot0.Get = function(slot0, slot1, slot2)
-	if not slot0.items[slot1] then
-		slot0.items[slot1] = slot0.ab:LoadAssetSync(slot1, slot2, false, false)
-		slot0.typeDic[slot1] = slot2
+	slot3 = slot1
+	slot4 = true
+
+	if HXSet.isHx() and slot3 ~= "" then
+		slot4 = table.contains(slot0.ab:GetAllAssetNames(), slot0.ab:ChangeAssetName(slot3 .. "_hx"))
 	end
 
-	return slot0.items[slot1]
+	if not slot0.items[slot4 and slot3 or slot1] then
+		slot0.items[slot3] = slot0.ab:LoadAssetSync(slot3, slot2, false, false)
+		slot0.typeDic[slot3] = slot2
+	end
+
+	return slot0.items[slot3]
 end
 
 slot0.Remove = function(slot0, slot1)

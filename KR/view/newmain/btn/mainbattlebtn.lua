@@ -1,6 +1,7 @@
 slot0 = class("MainBattleBtn", import(".MainBaseBtn"))
 
 slot0.OnClick = function(slot0)
+	getProxy(ChapterAutoProxy):MarkBattleExpiredTip()
 	slot0:emit(NewMainMediator.GO_SCENE, SCENE.LEVEL, {
 		chapterId = getProxy(ChapterProxy):getActiveChapter() and slot2.id,
 		mapIdx = slot2 and slot2:getConfig("map")

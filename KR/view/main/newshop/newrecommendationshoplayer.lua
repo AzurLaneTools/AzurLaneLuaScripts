@@ -104,6 +104,10 @@ slot0.getResource = function(slot0)
 		for slot20, slot21 in ipairs(slot16) do
 			if noEmptyStr(uv0[slot21].pic) then
 				table.insert(slot8, slot22.pic)
+
+				if HXSet.isHx() then
+					table.insert(slot8, slot22.pic .. "_hx")
+				end
 			end
 
 			if slot22.relation_param ~= "" then
