@@ -85,7 +85,7 @@ slot0.getItemsByExclude = function(slot0)
 	slot1 = {}
 
 	for slot5, slot6 in pairs(slot0.data) do
-		if not Item.INVISIBLE_TYPE[slot6:getConfig("type")] and slot6.count > 0 then
+		if not Item.INVISIBLE_TYPE[slot6:getConfig("type")] and slot6.count > 0 and not slot6:IsExpired() then
 			if slot0.extraItemData[slot5] then
 				slot8 = slot6.count
 
@@ -112,6 +112,18 @@ slot0.getItemsByExclude = function(slot0)
 	end
 
 	return slot1
+end
+
+slot0.getItemsByTypeList = function(slot0, slot1)
+	slot2 = {}
+
+	for slot6, slot7 in pairs(slot0.data) do
+		if table.contains(slot1, slot7:getConfig("type")) and slot7.count > 0 then
+			table.insert(slot2, slot7)
+		end
+	end
+
+	return Clone(slot2)
 end
 
 slot0.getItemsByType = function(slot0, slot1)
@@ -266,6 +278,32 @@ slot0.GetExclusiveDiscountItem4Shop = function(slot0, slot1)
 
 	for slot6, slot7 in pairs(slot0.data) do
 		if slot7.count > 0 and slot7:IsExclusiveDiscountType() and slot7:CanUseForShop(slot1) then
+			table.insert(slot2, slot7)
+		end
+	end
+
+	return slot2
+end
+
+slot0.ExistMeshImageSkinExchangeItem4Skin = function(slot0, slot1)
+	for slot5, slot6 in pairs(slot0.data) do
+		if slot6.count > 0 and slot6:IsMeshImageSkinExchangeType() then
+			return _.any(slot6:GetValidSkinList(), function (slot0)
+				return slot0 == uv0
+			end)
+		end
+	end
+
+	return false
+end
+
+slot0.GetMeshImageSkinsExchangeItem4Skin = function(slot0, slot1)
+	slot2 = {}
+
+	for slot6, slot7 in pairs(slot0.data) do
+		if slot7.count > 0 and slot7:IsMeshImageSkinExchangeType() and _.any(slot7:GetValidSkinList(), function (slot0)
+			return slot0 == uv0
+		end) then
 			table.insert(slot2, slot7)
 		end
 	end

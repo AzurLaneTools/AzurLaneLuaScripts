@@ -12,6 +12,7 @@ pg.activity_banner.all = {
 	7,
 	8,
 	9,
+	10,
 	90,
 	91,
 	95,
@@ -49,7 +50,11 @@ pg.activity_banner.all = {
 	1061,
 	1062,
 	1063,
-	1064
+	1064,
+	1065,
+	1066,
+	1067,
+	1068
 }
 pg.activity_banner.get_id_list_by_type = {
 	[2] = {
@@ -60,7 +65,9 @@ pg.activity_banner.get_id_list_by_type = {
 		5,
 		6,
 		7,
+		8,
 		9,
+		10,
 		1001,
 		1002,
 		1003,
@@ -88,10 +95,11 @@ pg.activity_banner.get_id_list_by_type = {
 		1061,
 		1062,
 		1063,
-		1064
-	},
-	[3] = {
-		8
+		1064,
+		1065,
+		1066,
+		1067,
+		1068
 	},
 	[9] = {
 		90,
@@ -123,15 +131,17 @@ pg.base.activity_banner = {}
 		id = 1,
 		pic = "temp1",
 		param = {
-			"scene skinshop",
-			{}
+			"scene core activity",
+			{
+				coreName = "BlackFriday2026CoreActivityUI"
+			}
 		},
 		time = {
 			{
 				{
 					2026,
 					11,
-					12
+					19
 				},
 				{
 					0,
@@ -142,8 +152,8 @@ pg.base.activity_banner = {}
 			{
 				{
 					2026,
-					11,
-					25
+					12,
+					9
 				},
 				{
 					23,
@@ -154,15 +164,37 @@ pg.base.activity_banner = {}
 		}
 	}
 	pg.base.activity_banner[2] = {
-		time = "stop",
 		type = 2,
 		id = 2,
 		pic = "temp2",
 		param = {
-			"scene get boat",
+			"scene skinshop",
+			{}
+		},
+		time = {
 			{
-				projectName = "new",
-				page = 1
+				{
+					2026,
+					11,
+					19
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2026,
+					12,
+					9
+				},
+				{
+					23,
+					59,
+					59
+				}
 			}
 		}
 	}
@@ -181,7 +213,154 @@ pg.base.activity_banner = {}
 				{
 					2026,
 					11,
-					12
+					19
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2026,
+					12,
+					9
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	}
+	pg.base.activity_banner[4] = {
+		type = 2,
+		id = 4,
+		pic = "temp4",
+		param = {
+			"scene charge",
+			{
+				wrap = 2
+			}
+		},
+		time = {
+			{
+				{
+					2026,
+					11,
+					19
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2026,
+					12,
+					9
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	}
+	pg.base.activity_banner[5] = {
+		type = 2,
+		id = 5,
+		pic = "temp5",
+		param = {
+			"scene core activity",
+			{
+				coreName = "BlackFriday2026CoreActivityUI"
+			}
+		},
+		time = {
+			{
+				{
+					2026,
+					11,
+					19
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2026,
+					12,
+					9
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	}
+	pg.base.activity_banner[6] = {
+		type = 2,
+		id = 6,
+		pic = "temp6",
+		param = {
+			"scene Cryptolalia",
+			{}
+		},
+		time = {
+			{
+				{
+					2026,
+					11,
+					19
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2026,
+					12,
+					9
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	}
+	pg.base.activity_banner[7] = {
+		type = 2,
+		id = 7,
+		pic = "temp7",
+		param = {
+			"scene level",
+			{
+				open_remaster = true,
+				isEX = true
+			}
+		},
+		time = {
+			{
+				{
+					2026,
+					11,
+					19
 				},
 				{
 					0,
@@ -203,10 +382,45 @@ pg.base.activity_banner = {}
 			}
 		}
 	}
-	pg.base.activity_banner[4] = {
+	pg.base.activity_banner[8] = {
 		type = 2,
-		id = 4,
-		pic = "temp4",
+		id = 8,
+		pic = "temp8",
+		param = {
+			"scene skinshop",
+			{}
+		},
+		time = {
+			{
+				{
+					2026,
+					11,
+					19
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2026,
+					12,
+					9
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	}
+	pg.base.activity_banner[9] = {
+		type = 2,
+		id = 9,
+		pic = "temp9",
 		param = {
 			"scene core activity",
 			{
@@ -240,24 +454,15 @@ pg.base.activity_banner = {}
 			}
 		}
 	}
-	pg.base.activity_banner[5] = {
-		time = "stop",
+	pg.base.activity_banner[10] = {
 		type = 2,
-		id = 5,
-		pic = "temp5",
+		id = 10,
+		pic = "temp10",
 		param = {
 			"scene charge",
 			{
-				wrap = 2
+				wrap = 4
 			}
-		}
-	}
-	pg.base.activity_banner[6] = {
-		type = 2,
-		id = 6,
-		pic = "temp6",
-		param = {
-			"scene court yard"
 		},
 		time = {
 			{
@@ -286,64 +491,6 @@ pg.base.activity_banner = {}
 			}
 		}
 	}
-	pg.base.activity_banner[7] = {
-		time = "stop",
-		type = 2,
-		id = 7,
-		pic = "temp7",
-		param = {
-			"scene equip",
-			{
-				designPage = 2,
-				warp = "WARP_TO_DESIGN"
-			}
-		}
-	}
-	pg.base.activity_banner[8] = {
-		param = "51305",
-		type = 3,
-		id = 8,
-		pic = "temp8",
-		time = {
-			{
-				{
-					2026,
-					11,
-					12
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2026,
-					11,
-					24
-				},
-				{
-					12,
-					0,
-					0
-				}
-			}
-		}
-	}
-	pg.base.activity_banner[9] = {
-		time = "stop",
-		type = 2,
-		id = 9,
-		pic = "temp9",
-		param = {
-			"scene equip",
-			{
-				designPage = 2,
-				warp = "WARP_TO_DESIGN"
-			}
-		}
-	}
 	pg.base.activity_banner[90] = {
 		param = "",
 		time = "stop",
@@ -367,10 +514,35 @@ pg.base.activity_banner = {}
 	}
 	pg.base.activity_banner[99] = {
 		param = "",
-		time = "stop",
 		type = 12,
 		id = 99,
-		pic = "limit_skin"
+		pic = "limit_skin",
+		time = {
+			{
+				{
+					2026,
+					11,
+					19
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2026,
+					12,
+					9
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
 	}
 	pg.base.activity_banner[100] = {
 		param = "Dumplings|A world-famous delight from the Dragon Empery! <color=#92fc63>(Increases EXP gained by 5% for 60 minutes.)</color>",
@@ -775,6 +947,55 @@ pg.base.activity_banner = {}
 		type = 2,
 		id = 1064,
 		pic = "temp1063",
+		param = {
+			"scene shop",
+			{
+				warp = "shopstreet"
+			}
+		}
+	}
+	pg.base.activity_banner[1065] = {
+		time = "stop",
+		type = 2,
+		id = 1065,
+		pic = "temp1065",
+		param = {
+			"scene get boat",
+			{
+				projectName = "new",
+				page = 1
+			}
+		}
+	}
+	pg.base.activity_banner[1066] = {
+		time = "stop",
+		type = 2,
+		id = 1066,
+		pic = "temp998",
+		param = {
+			"scene charge",
+			{
+				wrap = 2
+			}
+		}
+	}
+	pg.base.activity_banner[1067] = {
+		time = "stop",
+		type = 2,
+		id = 1067,
+		pic = "temp1066",
+		param = {
+			"scene core activity",
+			{
+				coreName = "TianYuTianYuanCoreActivityReUI"
+			}
+		}
+	}
+	pg.base.activity_banner[1068] = {
+		time = "stop",
+		type = 2,
+		id = 1068,
+		pic = "temp1067",
 		param = {
 			"scene shop",
 			{

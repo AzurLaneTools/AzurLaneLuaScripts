@@ -18,10 +18,10 @@ slot0.setActivity = function(slot0, slot1)
 	end
 
 	slot0.contextData.phase = slot0.phase
+	slot0.helpBtnTip = "blackfriday_battlepass_main_help_" .. pg.black_friday_battlepass_event_pt[slot0.activity.id].map_name
 end
 
 slot0.initTplVar = function(slot0)
-	slot0.helpBtnTip = "blackfriday_battlepass_main_help_" .. pg.black_friday_battlepass_event_pt[slot0.activity.id].map_name
 	slot0.awardPageCls = PSSHei5AwardPage
 	slot0.taskPageCls = PSSHei5TaskPage
 	slot0.chargePageCls = PSSCruiseChargePage

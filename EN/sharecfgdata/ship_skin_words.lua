@@ -10612,6 +10612,43 @@ _G.pg.base.ship_skin_words[103121] = {
 }
 
 
+_G.pg.base.ship_skin_words[103122] = {
+	hp_warning = "",
+	feeling3 = "",
+	mail = "",
+	expedition = "",
+	win_mvp = "",
+	home = "You better not be pushing yourself too hard, okay? Come on, let me give you a check-up.",
+	unlock = "Commander, go ahead and describe your symptoms for me, if you would. It's okay, I'll examine you thoroughly. Nothing about you will escape my notice.",
+	touch2 = "Keeping all that stress bottled up is bad for you. Leave it to me. I'll fix you right up.",
+	mission = "",
+	vote = "",
+	drop_descrip = "Commander, go ahead and describe your symptoms for me, if you would. It's okay, I'll examine you thoroughly. Nothing about you will escape my notice.",
+	feeling4 = "",
+	lose = "",
+	feeling1 = "",
+	skill = "",
+	upgrade = "",
+	propose = "",
+	feeling5 = "If you let your fatigue and your longing for intimacy accumulate, it'll manifest as sickness before long. And that goes for me too. So let's stop holding ourselves back... Do let me spoil you as much as you want, Commander.",
+	main = "Why is my uniform so loose-fitting? To keep your undivided attention on me during the examinations, of course.|On a night this quiet, we don't need a stethoscope to feel each other's pulse.|Commander, I'm going to start with your physical now. Do you feel pressure here? Tell me if it hurts. You shouldn't keep anything from your doctor, you know~",
+	touch = "Is there anything bothering you, Commander? Feel free to tell me if you feel any discomfort.",
+	voice_key_2 = -1,
+	mission_complete = "",
+	battle = "",
+	id = 103122,
+	gift_dislike = "",
+	gift_prefer = "",
+	profile = "",
+	voice_key = 0,
+	headtouch = "Don't get frisky. The test results will come in soon. In the meantime, though... would you be up for some more \"thorough\" examinations?",
+	feeling2 = "",
+	login = "Working overtime again, are you? As your care provider, I'm responsible for your health. Would you mind coming in and staying for some tests? You'll be in capable hands.",
+	detail = "The test results are in. And your diagnosis is... a clear case of overwork. And don't think you'll be able to talk your way out of it this time.",
+	couple_encourage = {}
+}
+
+
 _G.pg.base.ship_skin_words[103130] = {
 	hp_warning = "Hey, it seems like these guys are giving us a bit of trouble.",
 	feeling3 = "There’s actually a few places in port that I am interested in investigating. Let’s go and explore them now! ...Work? We can still make it on time even if we wait a bit longer!",
@@ -82619,7 +82656,7 @@ _G.pg.base.ship_skin_words[807020] = {
 	gift_prefer = "I've never said that I wanted this, so how did you... Th-thank you very much!",
 	profile = "I am aircraft carrier Painlevé, and I stand here only because of wishes. Making our wishes come true isn't easy – it comes with sacrifices and regrets. But despite all that, we can never stop wishing.",
 	voice_key = 80702,
-	headtouch = "",
+	headtouch = "Commander... Are you trying to bless me?",
 	feeling2 = "Ah... Umm... Yes, I understand your wish. As for me, I'd prefer to maintain an appropriate distance...",
 	login = "Oh, Commander... I'm not done praying yet. If you don't mind... could you please wait a bit?",
 	detail = "Only by truly wishing for it can we continue to reach greater heights. Commander, as someone who travels with the blessing of the Holy Iris at your back, do not forget this.",
@@ -82716,6 +82753,43 @@ _G.pg.base.ship_skin_words[807022] = {
 	feeling2 = "",
 	login = "Welcome back, Commander. My prayers have made this parfait even more delicious, so please, eat up. ...Okay, open up, and I'll feed you.",
 	detail = "You have a little request? And the request is that you want to feed me? I-I see... Come to think of it, I happened to have a similar little request...",
+	couple_encourage = {}
+}
+
+
+_G.pg.base.ship_skin_words[807023] = {
+	hp_warning = "",
+	feeling3 = "",
+	mail = "",
+	expedition = "",
+	win_mvp = "",
+	home = "Welcome back, Commander. I just finished washing the sheets. They smell nice and warm.... Like sunlight, and, umm... like me...",
+	unlock = "Oh no...! Phew, the sheets nearly blew away... I'm glad you were there to grab onto them, Commander. Say, um... if you don't mind, could you also help hold down the hem of my skirt? It's also getting picked up by the wind...",
+	touch2 = "W-wait, you still haven't fully recovered yet, Commander... Ahhn...",
+	mission = "",
+	vote = "",
+	drop_descrip = "Oh no...! Phew, the sheets nearly blew away... I'm glad you were there to grab onto them, Commander. Say, um... if you don't mind, could you also help hold down the hem of my skirt? It's also getting picked up by the wind...",
+	feeling4 = "",
+	lose = "",
+	feeling1 = "",
+	skill = "",
+	upgrade = "",
+	propose = "",
+	feeling5 = "The wind feels gentler than usual today... like it's nudging me, imploring me to tell you how I really feel... Commander, I can't hide my love for you anymore... Please push apart these sheets and embrace me...",
+	main = "Why am I staring at the floor? Oh, I'm just doing a bit of fortune-telling... Based on the water stains on the sheets, you're going to have a lucky encounter on the rooftop today.|It's a sunny day today, Commander. Getting a little sun and fresh air will be good for your health.|Ugh.. When I hold down the back of my skirt, the wind blows up its front... I'm so embarrassed... C-Commander, you don't have to turn around...!",
+	touch = "The wind isn't going to blow me away, you know...? Ah, does this mean... you want me to stay by your side?",
+	voice_key_2 = -1,
+	mission_complete = "",
+	battle = "",
+	id = 807023,
+	gift_dislike = "",
+	gift_prefer = "",
+	profile = "",
+	voice_key = 0,
+	headtouch = "It's fine. This is my holy duty... So long as I can be of service to you, nothing could make me happier, Commander.",
+	feeling2 = "",
+	login = "I was praying that the first person I'd meet today would be you, Commander... Perhaps these sheets warmed by sunlight are my lucky items today?",
+	detail = "An angel in white? P-please don't call me that... You'll make me blush...",
 	couple_encourage = {}
 }
 
@@ -111269,6 +111343,43 @@ _G.pg.base.ship_skin_words[699021] = {
 	feeling2 = "",
 	login = "Won't you come here and teach me how to play cards, like you promised? I think I should be able to handle it.",
 	detail = "What are you looking for, Commander? ...There is a card missing? Hmm. Perhaps it is under me. You're free to come closer and look for it if you wish. Heehee.",
+	couple_encourage = {}
+}
+
+
+_G.pg.base.ship_skin_words[699022] = {
+	hp_warning = "",
+	feeling3 = "",
+	mail = "",
+	expedition = "",
+	win_mvp = "",
+	home = "Are you coming back from a house call? Oh? You're not actually a doctor? Oh... I was really looking forward to you nursing me back to health.",
+	unlock = "Oh my... It seems I have wandered my way into a strange place, and now I'm being treated as a patient... Well, with a doctor like you, I would be more than glad to play the role, my Dr. Commander.♪",
+	touch2 = "So this is your \"special remedy\"? ...I'll be sure to cherish it~",
+	mission = "",
+	vote = "",
+	drop_descrip = "Oh my... It seems I have wandered my way into a strange place, and now I'm being treated as a patient... Well, with a doctor like you, I would be more than glad to play the role, my Dr. Commander.♪",
+	feeling4 = "",
+	lose = "",
+	feeling1 = "",
+	skill = "",
+	upgrade = "",
+	propose = "",
+	feeling5 = "If I am a migratory bird that has lost her way, you would be the one who takes care of me until my wings could fly again. Dr. Commander, I do hope you'll take responsibility for me until the very end~",
+	main = "\"To surrender oneself to trusted hands is to fill one's heart with tender love...\" If you're the one to treat me, please be gentle...|What kind of position does the patient have to be in for surgery? Dr. Commander, could you help me?|Commander, give your hand. This is the spot that doesn't feel quite right. Does it feel weird to you? Hm... I feel like I'm heating up...|Commander, do you mind if I lean on you for a moment? If somebody asks, it's just a procedure to help keep your patient relaxed~",
+	touch = "This is... a pre-op examination? Hmm... it feels rather curious...",
+	voice_key_2 = -1,
+	mission_complete = "",
+	battle = "",
+	id = 699022,
+	gift_dislike = "",
+	gift_prefer = "",
+	profile = "",
+	voice_key = 0,
+	headtouch = "Your hands are a little chilly. They feel really nice on my forehead~",
+	feeling2 = "",
+	login = "Commander? It seems I dozed off. But I'm feeling much better now. Examine away~",
+	detail = "",
 	couple_encourage = {}
 }
 

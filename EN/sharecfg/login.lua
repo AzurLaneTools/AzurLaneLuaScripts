@@ -92,7 +92,8 @@ pg.login.all = {
 	105,
 	4001,
 	4002,
-	4003
+	4003,
+	4004
 }
 pg.base = pg.base or {}
 pg.base.login = {}
@@ -4000,6 +4001,42 @@ pg.base.login = {}
 					2025,
 					11,
 					19
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	}
+	pg.base.login[4004] = {
+		op_play = 0,
+		op_time = "",
+		effective_channel = 0,
+		id = 4004,
+		login_static = "login_20261119us",
+		login_cri = "login_20261119us",
+		bgm = "",
+		date = {
+			"timer",
+			{
+				{
+					2026,
+					11,
+					19
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2026,
+					11,
+					23
 				},
 				{
 					23,

@@ -13044,17 +13044,17 @@ _G.pg.base.gametip.buildship_new_tip = {
 
 
 _G.pg.base.gametip.buildship_heavy_tip = {
-	tip = "Clemenceau, Lyon, and Suffren added to standard build pool!"
+	tip = "Unzen and Owari added to standard build pool!"
 }
 
 
 _G.pg.base.gametip.buildship_light_tip = {
-	tip = "Guichen added to standard build pool!"
+	tip = "Hatsuzuki and Natori added to standard build pool!"
 }
 
 
 _G.pg.base.gametip.buildship_special_tip = {
-	tip = "Painlevé added to standard build pool!"
+	tip = "Unzen added to standard build pool!"
 }
 
 
@@ -38686,7 +38686,7 @@ _G.pg.base.gametip.SkinDiscountHelp_School = {
 _G.pg.base.gametip.SkinDiscountHelp_BlackFriday = {
 	tip = {
 		{
-			info = "1. During the campaign, if you purchase a Black Friday rerun skin in this campaign <color=#92fc63>without using a coupon</color> or purchase any one of the Black Friday campaign's lucky bags, you may claim a <color=#92fc63>Skin Coupon (Black Friday 2025)</color> from the campaign page.\n2. The <color=#92fc63>Skin Coupon (Black Friday 2025)</color> gives you a discount of 300 Gems when purchasing a Black Friday rerun skin. This discount is not applicable to item packs.\n3. If you have not used this coupon before the campaign ends (at the server reset on December 3rd, 2025), it will be removed automatically."
+			info = "1. During the campaign, if you purchase a Black Friday rerun skin in this campaign <color=#92fc63>without using a coupon</color> or purchase any one of the Black Friday campaign's lucky bags, you may claim a <color=#92fc63>Skin Coupon (Black Friday 2026)</color> from the campaign page.\n2. The <color=#92fc63>Skin Coupon (Black Friday 2026)</color> gives you a discount of 300 Gems when purchasing a Black Friday rerun skin. This discount is not applicable to item packs.\n3. If you have not used this coupon before the campaign ends (at the server reset on December 9th, 2026), it will be removed automatically."
 		}
 	}
 }
@@ -41145,6 +41145,11 @@ _G.pg.base.gametip.shop_new_retro = {
 
 _G.pg.base.gametip.shop_new_able_to_exchange = {
 	tip = "Can be exchanged"
+}
+
+
+_G.pg.base.gametip.shop_new_able_to_exchange_1 = {
+	tip = "Discounted Skins:"
 }
 
 
@@ -46496,7 +46501,7 @@ _G.pg.base.gametip.blackfriday_cruise_task_day = {
 
 
 _G.pg.base.gametip.blackfriday_battlepass_pay_acquire = {
-	tip = "Buy Now to Get:"
+	tip = "Buy Now to Get:  "
 }
 
 
@@ -52638,6 +52643,102 @@ _G.pg.base.gametip.windfog_skin_stroy_finish = {
 }
 
 
+_G.pg.base.gametip.SkinDiscountHelp_BlackFriday2026 = {
+	tip = {
+		{
+			info = "1. During the campaign, if you purchase a Black Friday rerun skin in this campaign <color=#92fc63>without using a coupon</color> or purchase any one of the Black Friday campaign's lucky bags, you may claim a <color=#92fc63>Skin Coupon (Black Friday 2026)</color> from the campaign page.\n2. The <color=#92fc63>Skin Coupon (Black Friday 2026)</color> gives you a discount of 300 Gems when purchasing a Black Friday rerun skin. This discount is not applicable to item packs.\n3. If you have not used this coupon before the campaign ends (at the server reset on December 9th, 2026), it will be removed automatically."
+		}
+	}
+}
+
+
+_G.pg.base.gametip.blackfriday_cruise_title_1119 = {
+	tip = "Black Friday Cruise Missions"
+}
+
+
+_G.pg.base.gametip.blackfriday_battlepass_main_help_1119 = {
+	tip = {
+		{
+			info = [[
+Black Friday Cruise Missions
+11/19/2026 00:00 – 12/9/2026 23:59
+
+- Overview -
+"Black Friday Cruise Missions" is a special campaign where you can complete special missions, collect BF Progress Pts., and obtain great rewards for reaching certain Progress milestones.
+Additionally, you can unlock an additional set of "Black Friday Cruise" rewards by purchasing the "Black Friday Cruise Pass" item from Akashi's shop.
+
+
+- How to Play -
+· Two types of missions will be released at the same time at the start of the campaign season:
+a) Daily Missions - Missions unlocked in batches every day during the campaign, for a total of 12 batches.
+b) SP Missions - One set of missions available for the entire campaign, available from the start of the campaign.
+· All of the above missions are automatically active, and when you open the Black Friday Cruise Missions menu, you will automatically obtain BF Progress Pts. for any missions you've completed.
+· If you purchase the Black Friday Cruise Pass, you will automatically receive <color=#ff5c5c>200 BF Progress Pts.</color>
+· You can purchase the Black Friday Cruise Pass up until 1 hour before the campaign ends, i.e. 12/9/2026 22:59:59.
+· You can receive rewards for reaching certain Progress milestones. There are two types of rewards:
+a) Base Rewards - Rewards that can be obtained based on the total number of accumulated BF Progress Pts. There are a total of 15 levels. Base Rewards include <color=#ff5c5c>Skin Coupon (BF Cruise Missions)</color>, <color=#ff5c5c>Special General Blueprint - Series 8</color> and more.
+b) Bonus Rewards - An additional set of rewards that will be unlocked when you purchase a Black Friday Cruise Pass. As with the Base Rewards, there are a total of 15 levels, and they can be collected alongside Base Rewards at the same Progress level. Bonus Rewards include <color=#ff5c5c>Wisdom Cubes</color>, <color=#ff5c5c>Gems</color> and more.
+
+- Tips - 
+· When the campaign ends, you cannot continue completing the missions or collecting the rewards. Please take note of the campaign period and collect the rewards on time.
+· BF Progress Pts. and Black Friday Cruise Pass only apply to the Black Friday Cruise Missions Campaign, and not to any other Cruise Missions Campaign.]]
+		}
+	}
+}
+
+
+_G.pg.base.gametip.blackfriday_cruise_task_help_1119 = {
+	tip = {
+		{
+			info = [[
+- Regarding Cruise Missions - 
+11/19/2026 00:00 – 12/9/2026 23:59
+
+· Two types of missions will be released at the same time at the start of the campaign season:
+a) Daily Missions - Missions unlocked in batches every day during the campaign, for a total of 12 batches.
+b) SP Missions - One set of missions available for the entire campaign, available from the start of the campaign.
+· All of the above missions are automatically active, and when you open the Black Friday Cruise Missions menu, you will automatically obtain BF Progress Pts. for any missions you've completed.]]
+		}
+	}
+}
+
+
+_G.pg.base.gametip.blackfriday_luckybag_172 = {
+	tip = "You already own at least one skin ($1/$2). If you already own all the eligible skins, you will receive 1,080 Gems instead.\nDo you want to buy this pack?"
+}
+
+
+_G.pg.base.gametip.blackfriday_luckybag_177 = {
+	tip = "You already own at least one skin ($1/$2). If you already own all the eligible skins, this item will instead be converted into an equivalent amount of Gems.\nDo you want to buy this pack?"
+}
+
+
+_G.pg.base.gametip.exchange_op = {
+	tip = "Use Coupon"
+}
+
+
+_G.pg.base.gametip.exchange_op1 = {
+	tip = "<color=#92fc63>Full Discount</color>"
+}
+
+
+_G.pg.base.gametip.twopointfive_role_name_1 = {
+	tip = "Miriella Angel Paratroopers/Mikari"
+}
+
+
+_G.pg.base.gametip.twopointfive_role_name_2 = {
+	tip = "Liliel Angel Paratroopers/Ririsa"
+}
+
+
+_G.pg.base.gametip.combatUI_stick_set = {
+	tip = "Display joystick during Auto Combat"
+}
+
+
 _G.pg.base.gametip.entrance_maintain = {
 	tip = "Under development..."
 }
@@ -52665,19 +52766,4 @@ _G.pg.base.gametip.world_task_main = {
 
 _G.pg.base.gametip.world_task_notask = {
 	tip = "You don't have any missions yet, Commander."
-}
-
-
-_G.pg.base.gametip.twopointfive_role_name_1 = {
-	tip = "Miriella Angel Paratroopers/Mikari"
-}
-
-
-_G.pg.base.gametip.twopointfive_role_name_2 = {
-	tip = "Liliel Angel Paratroopers/Ririsa"
-}
-
-
-_G.pg.base.gametip.combatUI_stick_set = {
-	tip = "Display joystick during Auto Combat"
 }

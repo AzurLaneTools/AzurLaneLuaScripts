@@ -281,6 +281,7 @@ pg.memory_group.all = {
 	379,
 	380,
 	381,
+	384,
 	382,
 	383,
 	501,
@@ -7570,6 +7571,22 @@ end)()
 			5596
 		}
 	}
+	pg.base.memory_group[384] = {
+		ship_group = 0,
+		icon = "title_event",
+		type = 2,
+		link_event = 50662,
+		title = "Port Fashion Collection: Heartful Remedies",
+		auto_unlock = "",
+		subtype = 3,
+		id = 384,
+		group_id = "",
+		memories = {
+			5641,
+			5642,
+			5643
+		}
+	}
 	pg.base.memory_group[382] = {
 		ship_group = 0,
 		icon = "title_event",
@@ -8054,6 +8071,8 @@ end)()
 			10000
 		}
 	}
+end)()
+(function ()
 	pg.base.memory_group[522] = {
 		ship_group = 10802,
 		icon = "title_chara_daqinghuayu",
@@ -8076,8 +8095,6 @@ end)()
 			10000
 		}
 	}
-end)()
-(function ()
 	pg.base.memory_group[523] = {
 		ship_group = 30707,
 		icon = "title_chara_dafeng",
@@ -10256,6 +10273,8 @@ end)()
 			10000
 		}
 	}
+end)()
+(function ()
 	pg.base.memory_group[623] = {
 		ship_group = 60508,
 		icon = "title_chara_lafeier",
@@ -10278,8 +10297,6 @@ end)()
 			10000
 		}
 	}
-end)()
-(function ()
 	pg.base.memory_group[624] = {
 		ship_group = 29905,
 		icon = "title_chara_pulimaosi",

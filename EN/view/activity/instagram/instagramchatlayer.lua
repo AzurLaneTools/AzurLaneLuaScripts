@@ -1658,7 +1658,7 @@ slot0.ShowOfficialAccountsInfo = function(slot0, slot1)
 
 	slot3 = slot0.officialAccountsInfoItem
 
-	setScrollText(slot3:Find("title/Text"), slot1:getConfig("title"))
+	setScrollText(slot3:Find("title/Text"), HXSet.hxLan(slot1:getConfig("title")))
 
 	slot3 = slot0.officialAccountsInfoItem
 

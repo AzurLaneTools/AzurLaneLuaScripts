@@ -21,39 +21,6 @@ slot1.OnCountChange = function(slot0)
 	SetActive(slot0._gizmosXue, slot0._progressInfo:GetCount() > 0)
 end
 
-slot1.SetToCombatUIPreview = function(slot0, slot1)
-	if slot1 ~= CombatUIPreviewer.WeaponButtonPreviewMode.UNFILLED then
-		SetActive(slot0._filled, true)
-		SetActive(slot0._unfill, false)
-
-		slot0._progressBar.fillAmount = 1
-		slot0._bgEff:GetComponent(typeof(CanvasGroup)).alpha = 0
-		slot0._countTxt.text = "1/1"
-
-		if slot0._gizmos1 then
-			SetActive(slot0._gizmos1, true)
-			SetActive(slot0._gizmosXue, true)
-		end
-
-		SetActive(slot0._glowEff, true)
-		quickCheckAndPlayAnimator(slot0._skin, "weapon_button_progress_filled")
-	else
-		SetActive(slot0._unfill, true)
-		SetActive(slot0._filled, false)
-
-		slot0._progressBar.fillAmount = 0
-		slot0._bgEff:GetComponent(typeof(CanvasGroup)).alpha = 1
-		slot0._countTxt.text = "0/0"
-
-		SetActive(slot0._glowEff, false)
-
-		if slot0._gizmos1 then
-			SetActive(slot0._gizmos1, false)
-			SetActive(slot0._gizmosXue, false)
-		end
-	end
-end
-
 slot1.OnOverLoadChange = function(slot0, slot1)
 	if slot1 and slot1.Data and slot1.Data.postCast then
 		slot2 = math.random(4)
@@ -76,4 +43,57 @@ slot1.updateProgressBar = function(slot0)
 			slot0._bgEff:GetComponent(typeof(CanvasGroup)).alpha = 1 - slot1
 		end
 	end
+end
+
+slot1.SetToCombatUIPreview = function(slot0, slot1)
+	slot2 = CombatUIPreviewer.WeaponButtonPreviewMode
+
+	switch(slot1, {
+		[slot2.UNFILLED] = function ()
+			SetActive(uv0._unfill, true)
+			SetActive(uv0._filled, false)
+
+			uv0._progressBar.fillAmount = 0
+
+			if uv0._bgEff then
+				uv0._skin:Find("ActCtl/bg_eff"):GetComponent(typeof(CanvasGroup)).alpha = 1
+			end
+
+			uv0._countTxt.text = "0/0"
+
+			if uv0._gizmos1 then
+				SetActive(uv0._gizmos1, false)
+				SetActive(uv0._gizmosXue, false)
+			end
+		end,
+		[slot2.FILLED] = function ()
+			SetActive(uv0._filled, true)
+			SetActive(uv0._unfill, false)
+
+			uv0._progressBar.fillAmount = 1
+
+			if uv0._bgEff then
+				uv0._skin:Find("ActCtl/bg_eff"):GetComponent(typeof(CanvasGroup)).alpha = 0
+			end
+
+			uv0._countTxt.text = "1/1"
+
+			if uv0._gizmos1 then
+				SetActive(uv0._gizmos1, true)
+				SetActive(uv0._gizmosXue, true)
+			end
+		end,
+		[slot2.LOOP] = function ()
+			uv0:SetToCombatUIPreview(uv1.FILLED)
+		end,
+		[slot2.USABLE] = function ()
+			slot0 = uv0:GetProgressFaker(1)
+			slot0.current = slot0.max
+			slot0.count = 1
+			uv0._progressInfo = slot0
+
+			uv0:OnCountChange()
+			uv0:OnOverLoadChange()
+		end
+	})
 end

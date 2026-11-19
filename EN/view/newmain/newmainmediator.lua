@@ -310,23 +310,32 @@ slot0.initNotificationHandleDic = function(slot0)
 end
 
 slot0.BuildDebugBattleLoop = function(slot0, slot1)
-	if not IsUnityEditor then
-		return
-	end
-
 	slot2 = {}
 
-	for slot6, slot7 in slot1:gmatch("%s+(%S+)") do
-		table.insert(slot2, slot6)
-	end
+	table.insert(slot2, function (slot0)
+		slot1 = uv0
 
-	_G.InDebugBattleLoop = {
-		loopCount = tonumber(slot2[2]),
-		loopStages = underscore.rest(slot2, 3),
-		tempList = {}
-	}
+		slot1:sendNotification(GAME.SEND_CMD_GM_VALID, function (slot0)
+			if slot0 then
+				uv0()
+			end
+		end)
+	end)
+	seriesAsync(slot2, function ()
+		slot0 = {}
 
-	slot0.viewComponent:CheckDebugBattleLoop()
+		for slot4, slot5 in uv0:gmatch("%s+(%S+)") do
+			table.insert(slot0, slot4)
+		end
+
+		_G.InDebugBattleLoop = {
+			loopCount = tonumber(slot0[2]),
+			loopStages = underscore.rest(slot0, 3),
+			tempList = {}
+		}
+
+		uv1.viewComponent:CheckDebugBattleLoop()
+	end)
 end
 
 return slot0

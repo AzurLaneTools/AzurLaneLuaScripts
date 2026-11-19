@@ -55,7 +55,8 @@ pg.re_map_template.all = {
 	51,
 	52,
 	53,
-	54
+	54,
+	55
 }
 pg.base = pg.base or {}
 pg.base.re_map_template = {}
@@ -3230,6 +3231,78 @@ pg.base.re_map_template = {}
 					11046
 				},
 				"D2"
+			}
+		},
+		tickets = {}
+	}
+	pg.base.re_map_template[55] = {
+		name = "须臾望月抄常驻复刻",
+		memory_group = 257,
+		bg = "temp_yunxian",
+		activity_id = 0,
+		id = 55,
+		activity_type = 1,
+		order = 55,
+		config_data = {
+			2100621,
+			2100622,
+			2100623,
+			2100624,
+			2100625,
+			2100626,
+			2100631,
+			2100632,
+			2100633,
+			2100634,
+			2100635,
+			2100636
+		},
+		chapter_progress = {
+			16,
+			33,
+			50,
+			66,
+			78,
+			100,
+			16,
+			33,
+			50,
+			66,
+			78,
+			100
+		},
+		drop_gain = {
+			{
+				2100636,
+				4,
+				301891,
+				60
+			},
+			{}
+		},
+		drop_display_sp = {
+			{
+				{
+					4,
+					301891
+				},
+				"B3、D3"
+			}
+		},
+		drop_display = {
+			{
+				{
+					2,
+					11018
+				},
+				"D3"
+			},
+			{
+				{
+					2,
+					13002
+				},
+				"D1"
 			}
 		},
 		tickets = {}

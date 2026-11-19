@@ -309,9 +309,9 @@ slot0.getGiftIds = function(slot0)
 end
 
 slot0.needDownload = function(slot0)
-	return #ApartmentRoom.New({
+	return ApartmentRoom.New({
 		id = slot0:getConfig("bind_room")
-	}):getDownloadNameList() > 0
+	}):needDownload()
 end
 
 slot0.filterUnlockTalkList = function(slot0, slot1)

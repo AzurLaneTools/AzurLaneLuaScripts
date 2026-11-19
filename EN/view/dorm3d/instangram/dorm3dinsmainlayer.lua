@@ -183,6 +183,9 @@ slot0.didEnter = function(slot0)
 		uv0:OpenOrCloseSelectPanel()
 	end)
 	onButton(slot0, slot0._tf:Find("left/btn_expand"), function ()
+		DormGroupConst.WithDownloadResourceSnapshot(function ()
+			uv0.expandItemList:align(#uv0.roomIdList)
+		end)
 		setActive(uv0.expandPanel, true)
 		uv0.expandPanel:SetAsLastSibling()
 	end)
@@ -236,7 +239,7 @@ slot0.didEnter = function(slot0)
 	end)
 	slot0:bind(uv0.FLUSH_LEFT, function (slot0)
 		uv0:SortRoomList()
-		uv0.roomItemList:align(#uv0.roomIdList)
+		uv0:FlushLeft()
 	end)
 
 	slot0.selectedId = slot0.roomIdList[1]
@@ -277,20 +280,27 @@ slot0.OpenMain = function(slot0)
 end
 
 slot0.Flush = function(slot0)
-	slot2 = slot0.roomDataDic[slot0.selectedId]:GetType()
+	DormGroupConst.WithDownloadResourceSnapshot(function ()
+		slot1 = uv0.roomDataDic[uv0.selectedId]:GetType()
 
-	slot0.mainPages[(function (slot0)
-		return #uv0.mainPages - slot0 + 1
-	end)(slot2)]:Hide()
-	slot0.mainPages[slot2]:Show()
-	slot0.mainPages[slot2]:Flush(slot0.roomDataDic[slot0.selectedId])
-	slot0.roomItemList:align(#slot0.roomIdList)
-	slot0.expandItemList:align(#slot0.roomIdList)
-	slot0:FlushDownload()
+		uv0.mainPages[(function (slot0)
+			return #uv0.mainPages - slot0 + 1
+		end)(slot1)]:Hide()
+		uv0.mainPages[slot1]:Show()
+		uv0.mainPages[slot1]:Flush(uv0.roomDataDic[uv0.selectedId])
+		uv0:FlushLeft()
+		uv0:FlushDownload()
+	end)
 end
 
 slot0.FlushLeft = function(slot0)
-	slot0.roomItemList:align(#slot0.roomIdList)
+	DormGroupConst.WithDownloadResourceSnapshot(function ()
+		uv0.roomItemList:align(#uv0.roomIdList)
+
+		if isActive(uv0.expandPanel) then
+			uv0.expandItemList:align(#uv0.roomIdList)
+		end
+	end)
 end
 
 slot0.InitSelectItem = function(slot0, slot1, slot2)
@@ -298,8 +308,7 @@ slot0.InitSelectItem = function(slot0, slot1, slot2)
 	onButton(slot0, slot2, function ()
 		uv0:FilterRoomList(uv1.mode, uv1.arg)
 		uv0:SortRoomList()
-		uv0.roomItemList:align(#uv0.roomIdList)
-		uv0.expandItemList:align(#uv0.roomIdList)
+		uv0:FlushLeft()
 	end)
 end
 

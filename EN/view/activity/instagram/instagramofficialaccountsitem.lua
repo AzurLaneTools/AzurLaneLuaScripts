@@ -23,7 +23,7 @@ slot0.SetData = function(slot0, slot1)
 end
 
 slot0.RefreshUI = function(slot0)
-	setText(slot0.uiNameText, shortenString(getProxy(InstagramProxy):GetOfficialAccounts()[slot0.id]:getConfig("title"), 26))
+	setText(slot0.uiNameText, shortenString(HXSet.hxLan(getProxy(InstagramProxy):GetOfficialAccounts()[slot0.id]:getConfig("title")), 26))
 	slot0:RefreshTip()
 end
 

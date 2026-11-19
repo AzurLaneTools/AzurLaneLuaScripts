@@ -681,19 +681,8 @@ slot0.updateActivity = function(slot0, slot1)
 
 	slot2 = slot0.data[slot1.id]
 
-	if isa(slot1, CrusingActivity) then
-		if slot1:GetUpdateToastData(slot2) then
-			pg.ToastMgr.GetInstance():ShowToast(pg.ToastMgr.TYPE_CRUSING, slot3)
-		end
-	elseif slot1:getConfig("type") == ActivityConst.ACTIVITY_TYPE_PT_HEI5 then
-		slot3 = pg.black_friday_battlepass_event_pt[slot1.id].target
-
-		if slot2.data1 < slot3[#slot3] and slot1.data1 - slot2.data1 > 0 then
-			pg.ToastMgr.GetInstance():ShowToast(pg.ToastMgr.TYPE_CRUSING, {
-				ptId = pg.black_friday_battlepass_event_pt[slot1.id].pt,
-				ptCount = slot1.data1 - slot2.data1
-			})
-		end
+	if (isa(slot1, CrusingActivity) or isa(slot1, Hei5Activity)) and slot1:GetUpdateToastData(slot2) then
+		pg.ToastMgr.GetInstance():ShowToast(pg.ToastMgr.TYPE_CRUSING, slot3)
 	end
 
 	slot0.data[slot1.id] = slot1

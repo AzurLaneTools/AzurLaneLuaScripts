@@ -92,6 +92,7 @@ pg.item_data_frame.all = {
 	612,
 	614,
 	615,
+	616,
 	1001,
 	1002,
 	1003,
@@ -917,6 +918,15 @@ pg.base.item_data_frame = {}
 		desc = "All eyes are on you now: you are the tycoon of the auction house!\n<color=#A7A7AA>Obtained from the \"Top Bidder\" event.</color>",
 		scene = {}
 	}
+	pg.base.item_data_frame[616] = {
+		name = "Deluxe Deals",
+		gain_by = "",
+		time_second = 0,
+		id = 616,
+		time_limit_type = 0,
+		desc = "Act fast – these exciting deals won't last forever!\n<color=#A7A7AA>Obtained from Black Friday Cruise Missions</color>.",
+		scene = {}
+	}
 	pg.base.item_data_frame[1001] = {
 		name = "Sweet Rendezvous",
 		gain_by = "Private Quarters: Sirius",
@@ -1016,6 +1026,8 @@ pg.base.item_data_frame = {}
 		desc = "<color=#A7A7AA>From the abyss the ruthless dragon emerges, its black chains rippling with raging lightning.</color>\nCan be obtained by raising Ägir's Intimacy in the Private Quarters.",
 		scene = {}
 	}
+end)()
+(function ()
 	pg.base.item_data_frame[1012] = {
 		name = "Crown of the Blue Seas",
 		gain_by = "",
@@ -1025,8 +1037,6 @@ pg.base.item_data_frame = {}
 		desc = "<color=#A7A7AA>A steel-blue flag flutters amidst the surging waves, a golden crown placed atop it to symbolize its dominion over the sea.</color>\nCan be obtained by raising Ägir's Intimacy in the Private Quarters.",
 		scene = {}
 	}
-end)()
-(function ()
 	pg.base.item_data_frame[1013] = {
 		name = "Charging Device",
 		gain_by = "",

@@ -200,6 +200,14 @@ slot0.setItem = function(slot0, slot1)
 
 	slot0.itemVO = slot1:getSubClass()
 
+	if slot0.itemVO:IsVItemSkinCoupon() then
+		setText(slot0.okBtn:Find("pic"), i18n("msgbox_text_confirm"))
+		setActive(slot0.okBtn, true)
+		setActive(slot0.skinShopBtn, false)
+
+		return
+	end
+
 	if not Item.CanInBag(slot0.itemVO.id) then
 		return
 	end
@@ -339,7 +347,7 @@ slot0.setItem = function(slot0, slot1)
 				pg.m02:sendNotification(GAME.GO_SCENE, SCENE.METACHARACTER)
 			end, SFX_PANEL)
 			setActive(slot0.okBtn, true)
-		elseif slot3 == Item.SKIN_ASSIGNED_TYPE then
+		elseif slot0.itemVO:IsExchangeSkinType() then
 			setActive(slot0.useOneBtn, slot0.contextData.confirmCall)
 			onButton(slot0, slot0.useOneBtn, function ()
 				uv0.contextData.confirmCall()

@@ -82,14 +82,14 @@ pg.base.voice_bgm = {}
 		bgm = "main"
 	}
 	pg.base.voice_bgm.LoginScene = {
-		default_bgm = "theme-25ds-az",
+		default_bgm = "login",
 		special_bgm = "",
-		bgm = "theme-25ds-az"
+		bgm = "login"
 	}
 	pg.base.voice_bgm.NewMainScene = {
-		default_bgm = "theme-25ds-az",
+		default_bgm = "main",
 		special_bgm = "",
-		bgm = "theme-25ds-az"
+		bgm = "main"
 	}
 	pg.base.voice_bgm.HoloLiveLinkGameView = {
 		default_bgm = "holo-fff-inst",
@@ -3447,6 +3447,26 @@ end)()
 		default_bgm = "story-richang",
 		special_bgm = "",
 		bgm = "story-richang"
+	}
+	pg.base.voice_bgm.BlackFriday2026SkinMagazinePage = {
+		default_bgm = "story-fantasyland-light",
+		special_bgm = "",
+		bgm = "story-fantasyland-light"
+	}
+	pg.base.voice_bgm.BlackFriday2026ReturnPage = {
+		default_bgm = "ReturnAwardPage",
+		special_bgm = "",
+		bgm = "ReturnAwardPage"
+	}
+	pg.base.voice_bgm.BlackFriday2026DiscountPage = {
+		default_bgm = "story-villaisland-night",
+		special_bgm = "",
+		bgm = "story-villaisland-night"
+	}
+	pg.base.voice_bgm.BlackFriday2026Page = {
+		default_bgm = "theme-goldensea",
+		special_bgm = "",
+		bgm = "theme-goldensea"
 	}
 	pg.base.voice_bgm.BayardTecCatchupPage = {
 		default_bgm = "theme-designshipVI",

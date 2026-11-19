@@ -28,7 +28,20 @@ pg.black_friday_battlepass_task_group.all = {
 	30,
 	31,
 	32,
-	33
+	33,
+	41,
+	42,
+	43,
+	44,
+	45,
+	46,
+	47,
+	48,
+	49,
+	50,
+	51,
+	52,
+	53
 }
 pg.base = pg.base or {}
 pg.base.black_friday_battlepass_task_group = {}
@@ -561,6 +574,271 @@ pg.base.black_friday_battlepass_task_group = {}
 			},
 			{
 				43917
+			}
+		}
+	}
+	pg.base.black_friday_battlepass_task_group[41] = {
+		id = 41,
+		group_mask = 1,
+		is_ontime = 1,
+		task_group = {
+			{
+				43802
+			},
+			{
+				43803
+			},
+			{
+				43804
+			},
+			{
+				43805
+			}
+		}
+	}
+	pg.base.black_friday_battlepass_task_group[42] = {
+		id = 42,
+		group_mask = 2,
+		is_ontime = 1,
+		task_group = {
+			{
+				43806
+			},
+			{
+				43807
+			},
+			{
+				43808
+			},
+			{
+				43809
+			}
+		}
+	}
+	pg.base.black_friday_battlepass_task_group[43] = {
+		id = 43,
+		group_mask = 3,
+		is_ontime = 1,
+		task_group = {
+			{
+				43810
+			},
+			{
+				43811
+			},
+			{
+				43812
+			},
+			{
+				43813
+			}
+		}
+	}
+	pg.base.black_friday_battlepass_task_group[44] = {
+		id = 44,
+		group_mask = 4,
+		is_ontime = 1,
+		task_group = {
+			{
+				43814
+			},
+			{
+				43815
+			},
+			{
+				43816
+			},
+			{
+				43817
+			}
+		}
+	}
+	pg.base.black_friday_battlepass_task_group[45] = {
+		id = 45,
+		group_mask = 5,
+		is_ontime = 1,
+		task_group = {
+			{
+				43818
+			},
+			{
+				43819
+			},
+			{
+				43820
+			},
+			{
+				43821
+			}
+		}
+	}
+	pg.base.black_friday_battlepass_task_group[46] = {
+		id = 46,
+		group_mask = 6,
+		is_ontime = 1,
+		task_group = {
+			{
+				43822
+			},
+			{
+				43823
+			},
+			{
+				43824
+			},
+			{
+				43825
+			}
+		}
+	}
+	pg.base.black_friday_battlepass_task_group[47] = {
+		id = 47,
+		group_mask = 7,
+		is_ontime = 1,
+		task_group = {
+			{
+				43826
+			},
+			{
+				43827
+			},
+			{
+				43828
+			},
+			{
+				43829
+			}
+		}
+	}
+	pg.base.black_friday_battlepass_task_group[48] = {
+		id = 48,
+		group_mask = 8,
+		is_ontime = 1,
+		task_group = {
+			{
+				43830
+			},
+			{
+				43831
+			},
+			{
+				43832
+			},
+			{
+				43833
+			}
+		}
+	}
+	pg.base.black_friday_battlepass_task_group[49] = {
+		id = 49,
+		group_mask = 9,
+		is_ontime = 1,
+		task_group = {
+			{
+				43834
+			},
+			{
+				43835
+			},
+			{
+				43836
+			},
+			{
+				43837
+			}
+		}
+	}
+	pg.base.black_friday_battlepass_task_group[50] = {
+		id = 50,
+		group_mask = 10,
+		is_ontime = 1,
+		task_group = {
+			{
+				43838
+			},
+			{
+				43839
+			},
+			{
+				43840
+			},
+			{
+				43841
+			}
+		}
+	}
+	pg.base.black_friday_battlepass_task_group[51] = {
+		id = 51,
+		group_mask = 11,
+		is_ontime = 1,
+		task_group = {
+			{
+				43842
+			},
+			{
+				43843
+			},
+			{
+				43844
+			},
+			{
+				43845
+			}
+		}
+	}
+	pg.base.black_friday_battlepass_task_group[52] = {
+		id = 52,
+		group_mask = 12,
+		is_ontime = 1,
+		task_group = {
+			{
+				43846
+			},
+			{
+				43847
+			},
+			{
+				43848
+			},
+			{
+				43849
+			}
+		}
+	}
+	pg.base.black_friday_battlepass_task_group[53] = {
+		id = 53,
+		group_mask = 0,
+		is_ontime = 0,
+		task_group = {
+			{
+				43850
+			},
+			{
+				43851
+			},
+			{
+				43852
+			},
+			{
+				43853
+			},
+			{
+				43854
+			},
+			{
+				43855
+			},
+			{
+				43856
+			},
+			{
+				43857
+			},
+			{
+				43858
+			},
+			{
+				43918
 			}
 		}
 	}

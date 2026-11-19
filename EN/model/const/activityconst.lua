@@ -5,6 +5,7 @@ slot0 = setmetatable({}, {
 		return pg.activity_const[slot1].act_id
 	end
 })
+slot0.ACTIVITY_TYPE_DONOTHING = 0
 slot0.ACTIVITY_TYPE_BUILDSHIP_1 = 1
 slot0.ACTIVITY_TYPE_PARAMETER = 2
 slot0.ACTIVITY_TYPE_7DAYSLOGIN = 3

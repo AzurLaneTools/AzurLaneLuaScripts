@@ -251,6 +251,14 @@ slot0.InitBattleShow = function(slot0)
 
 			slot3 = uv1.previewer
 
+			slot3:setHeroHpBarOffset(Vector3(-455, 130, 0))
+
+			slot3 = uv1.previewer
+
+			slot3:setEnemyHpBarOffset(Vector3(417, 130, 0))
+
+			slot3 = uv1.previewer
+
 			slot3:setCombatUI(uv0, uv2, uv3, uv4)
 
 			slot3 = uv1.previewer

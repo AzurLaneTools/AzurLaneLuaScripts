@@ -19,7 +19,7 @@ return {
 					5
 				},
 				{
-					"<size=51>“Even if my wings break, my guns melt, and the steel of my body creaks, this war will not end",
+					"<size=51>“Even if my wings break, my guns melt, and the steel of my body creaks, this war will not end”</size>",
 					7
 				},
 				{

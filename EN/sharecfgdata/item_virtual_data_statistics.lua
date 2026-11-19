@@ -175471,7 +175471,7 @@ _G.pg.base.item_virtual_data_statistics[65107] = {
 	shop_id = -1,
 	replace_item = 0,
 	time_limit = 0,
-	link_id = 7301,
+	link_id = 0,
 	drop_arg = "",
 	album_config = "",
 	icon = "props/battlepass_blackfriday_pt",
@@ -177397,6 +177397,60 @@ _G.pg.base.item_virtual_data_statistics[65557] = {
 	drop_oil_max = 0,
 	virtual_type = 13,
 	id = 65557,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+
+_G.pg.base.item_virtual_data_statistics[65558] = {
+	drop_gold_max = 0,
+	name = "Skin Coupon (Black Friday 2026)",
+	display = "During the campaign, this coupon can be used to apply a discount of 300 Gems when buying a Black Friday rerun skin in the Shop.\nValid until December 9th, 2026 23:59:59 (UTC-7).",
+	type = 0,
+	is_world = 0,
+	shop_id = 1,
+	replace_item = 0,
+	time_limit = 0,
+	link_id = 50666,
+	drop_arg = "",
+	album_config = "",
+	icon = "Props/skin_300",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	drop_oil_max = 0,
+	virtual_type = 13,
+	id = 65558,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+
+_G.pg.base.item_virtual_data_statistics[65559] = {
+	drop_gold_max = 0,
+	name = "Skin Coupon (BF Cruise Missions 2026)",
+	display = "During the campaign, this coupon can be used to apply a discount of 180 Gems when buying a Black Friday rerun skin in the Shop.\nValid until December 9th, 2026 23:59:59 (UTC-7).",
+	type = 0,
+	is_world = 0,
+	shop_id = 1,
+	replace_item = 0,
+	time_limit = 0,
+	link_id = 50667,
+	drop_arg = "",
+	album_config = "",
+	icon = "Props/skin_180_blackfriday",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	drop_oil_max = 0,
+	virtual_type = 13,
+	id = 65559,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -190076,6 +190130,33 @@ _G.pg.base.item_virtual_data_statistics[67003] = {
 }
 
 
+_G.pg.base.item_virtual_data_statistics[67005] = {
+	drop_gold_max = 0,
+	name = "Rental Outfit Voucher",
+	display = "Allows you to rent and equip an available outfit for a ship of your choice for a limited time. Valid until December 9th, 2026.",
+	type = 98,
+	is_world = 0,
+	shop_id = 1,
+	replace_item = 0,
+	time_limit = 0,
+	link_id = 0,
+	drop_arg = "",
+	album_config = "",
+	icon = "Props/skinTicket",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	drop_oil_max = 0,
+	virtual_type = 0,
+	id = 67005,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+
 _G.pg.base.item_virtual_data_statistics[68081] = {
 	drop_gold_max = 0,
 	name = "Trust - Little Ägir",
@@ -194661,6 +194742,33 @@ _G.pg.base.item_virtual_data_statistics[69984] = {
 			700
 		}
 	}
+}
+
+
+_G.pg.base.item_virtual_data_statistics[69985] = {
+	drop_gold_max = 0,
+	name = "Skin Coupon (Returnee's Stash 2026)",
+	display = "During the campaign, this coupon can be used to apply a discount of 180 Gems when buying a Black Friday rerun skin in the Shop.\nValid until December 9th, 2026 23:59:59 (UTC-7).",
+	type = 0,
+	is_world = 0,
+	shop_id = 1,
+	replace_item = 0,
+	time_limit = 0,
+	link_id = 50668,
+	drop_arg = "",
+	album_config = "",
+	icon = "Props/skin_180_blackfriday",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	drop_oil_max = 0,
+	virtual_type = 13,
+	id = 69985,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 
@@ -203382,6 +203490,89 @@ You will obtain one of the following random skins (duplicate skins will be conve
 }
 
 
+_G.pg.base.item_virtual_data_statistics[86427] = {
+	drop_gold_max = 0,
+	name = "Random Skin",
+	display = [[
+Contains a random unowned Live2D skin of from the list. Commanders that have owned all Live2D skins will get 1080 Gems instead.
+The probability of acquiring any unowned skin is the same. The list is as followed:
+Implacable - Her Beauty Runneth Over;
+Brest - Moonlit Night's Spring Vista;
+Alsace - Heat-Beating Summer Sacrament;
+Mogador - Locker Room Lechery;
+Friedrich Carl - Tender Summer Care;
+Formidable - Anniversary Memories;
+Saint Louis - Holiness to Haziness;
+Lion - The Reclining Dandelion;
+Trafalgar - Sea Breeze - Moonlit Talks;
+Taihou - Fun on the Baize;
+U-2501 - Treasure Behind the Water Curtain;
+Amagi - The Mermaid of the Emerald Sea;
+De Zeven Provinciën - Snuggling for Warmth;
+Sovetsky Soyuz - Skyfall Agent;
+Mainz - A Blend of Serenity;
+Jean Bart - Springlight Étoiles;
+Hindenburg - Dancer of the Deep Chamber;
+Guam - Stage-Setting Charmer;
+Laffey II - Sleepy on a Busy Day;
+Alsace - Tipsy Oni on a Sacred Night;
+Unzen - Arcane Ninja Knowledge;
+Guam - The Kunoichi's Dangerous Variety Show;
+Oumi - A Failed Escape?;
+Asama - Blooming Upon a Bewitching Night;
+Masséna - Sweetly Intoxicating Spring;
+Admiral Zenker - Fun with...Interrogations?;
+Azuma - Career Counseling for the Groom;
+Shinano - Visions of Fantasy;
+Napoli - Dreamy Night;
+Admiral Nakhimov - First Time in the Limelight;
+Fritz Rumey - Schwarzes Kaninchen;
+Bismarck - Unpacked Surprise;
+Ägir - One-on-One Leisure Time;
+Lexington II - The Fluffiest of Maids;
+Cowpens - Milky Ministrations;
+Reno - Reno Bunnino;
+North Carolina - The Heart's Desire;
+Bremerton - Relaxation Consultation;
+Formidable - The Lover's Heart Flutters On Duty;
+Raffaello - Protector of Love and Beauty;
+Mogador - Olfactory Nursery Call;
+Shinano - Embrace Upon A Melted Dream;
+Enterprise - Bathing Under Sunny Skies;
+Aurora - Heritage of Yu City;
+St. Louis - An Afternoon on the Lido Deck;
+Monarch - Sovereign of the Beach;
+Nayoro - Electric Affection;
+Devonshire - Sadistic Demon;
+Cleveland - Knight of the Pop-Up Shop;
+Z13 - Strategic Date Solution;
+Honolulu - Among the Stalls;
+Vampire - Night Princess's Regalia;
+Abercrombie - Mischief on the Rocks;
+Chi An - Exotic Dreamland]],
+	type = 98,
+	is_world = 0,
+	shop_id = -1,
+	replace_item = 0,
+	time_limit = 0,
+	link_id = 0,
+	drop_arg = "",
+	album_config = "",
+	icon = "Props/clothIcon",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	drop_oil_max = 0,
+	virtual_type = 0,
+	id = 86427,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+
 _G.pg.base.item_virtual_data_statistics[86428] = {
 	drop_gold_max = 0,
 	name = "Random Skin",
@@ -203491,6 +203682,82 @@ You will obtain one of the following random skins (duplicate skins will be conve
 		{
 			9600201,
 			1200
+		}
+	}
+}
+
+
+_G.pg.base.item_virtual_data_statistics[86429] = {
+	drop_gold_max = 0,
+	name = "Random Skin",
+	display = "不会被看到",
+	type = 98,
+	is_world = 0,
+	shop_id = -1,
+	replace_item = 0,
+	time_limit = 0,
+	link_id = 0,
+	drop_arg = "",
+	album_config = "",
+	icon = "Props/clothIcon",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	drop_oil_max = 0,
+	virtual_type = 0,
+	id = 86429,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {
+		{
+			403037,
+			840
+		},
+		{
+			806011,
+			840
+		},
+		{
+			199033,
+			840
+		},
+		{
+			405071,
+			840
+		},
+		{
+			303117,
+			840
+		},
+		{
+			307161,
+			840
+		},
+		{
+			305161,
+			830
+		},
+		{
+			805032,
+			830
+		},
+		{
+			107161,
+			830
+		},
+		{
+			499092,
+			830
+		},
+		{
+			137061,
+			820
+		},
+		{
+			307085,
+			820
 		}
 	}
 }

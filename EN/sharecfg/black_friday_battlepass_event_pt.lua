@@ -6,7 +6,8 @@ pg.black_friday_battlepass_event_pt.all = {
 	7301,
 	7302,
 	7303,
-	7304
+	7304,
+	7306
 }
 pg.base = pg.base or {}
 pg.base.black_friday_battlepass_event_pt = {}
@@ -263,6 +264,70 @@ pg.base.black_friday_battlepass_event_pt = {}
 			45,
 			33,
 			35
+		},
+		key_point_display = {
+			10
+		}
+	}
+	pg.base.black_friday_battlepass_event_pt[7306] = {
+		map_name = "1119",
+		type = 1,
+		equip_skin = "",
+		bg = "bg_worldcruise_1",
+		crusing_map = "CrusingMap_0",
+		spine_name = "chess_hude",
+		id = 7306,
+		pt = 65107,
+		target = {
+			100,
+			200,
+			300,
+			400,
+			500,
+			600,
+			700,
+			800,
+			900,
+			1000,
+			1100,
+			1200,
+			1300,
+			1400,
+			1500
+		},
+		award = {
+			101,
+			6,
+			131,
+			17,
+			12,
+			132,
+			18,
+			2,
+			133,
+			19,
+			5,
+			134,
+			20,
+			8,
+			121
+		},
+		award_pay = {
+			102,
+			3,
+			4,
+			24,
+			105,
+			3,
+			4,
+			111,
+			4,
+			191,
+			3,
+			7,
+			192,
+			9,
+			11
 		},
 		key_point_display = {
 			10

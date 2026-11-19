@@ -56,7 +56,11 @@ slot0.SetCare = function(slot0, slot1)
 end
 
 slot0.ShouldTip = function(slot0)
-	return slot0:GetInsContent() or slot0:GetChatContent() or slot0:GetChatContent()
+	if not slot0:IsDownloaded() then
+		return false
+	end
+
+	return getProxy(Dorm3dInsProxy):AnyInstagramShouldTip(slot0.groupId) or getProxy(Dorm3dInsProxy):ShoudTipPhoneById(slot0.groupId) or getProxy(Dorm3dChatProxy):ShouldShowShipTip(slot0.groupId)
 end
 
 slot0.GetInsContent = function(slot0)

@@ -230,9 +230,9 @@ pg.base.soundstory_template = {}
 			"timer",
 			{
 				{
-					2025,
-					7,
-					24
+					2026,
+					11,
+					19
 				},
 				{
 					0,
@@ -242,9 +242,9 @@ pg.base.soundstory_template = {}
 			},
 			{
 				{
-					2025,
-					7,
-					30
+					2026,
+					12,
+					9
 				},
 				{
 					23,
@@ -310,9 +310,9 @@ pg.base.soundstory_template = {}
 			"timer",
 			{
 				{
-					2025,
+					2026,
 					11,
-					13
+					19
 				},
 				{
 					0,
@@ -322,9 +322,9 @@ pg.base.soundstory_template = {}
 			},
 			{
 				{
-					2025,
+					2026,
 					12,
-					3
+					9
 				},
 				{
 					23,
@@ -364,8 +364,8 @@ pg.base.soundstory_template = {}
 			{
 				{
 					2026,
-					4,
-					30
+					11,
+					19
 				},
 				{
 					0,
@@ -376,8 +376,8 @@ pg.base.soundstory_template = {}
 			{
 				{
 					2026,
-					5,
-					6
+					12,
+					9
 				},
 				{
 					23,
@@ -417,8 +417,8 @@ pg.base.soundstory_template = {}
 			{
 				{
 					2026,
-					1,
-					22
+					11,
+					19
 				},
 				{
 					0,
@@ -429,8 +429,8 @@ pg.base.soundstory_template = {}
 			{
 				{
 					2026,
-					1,
-					28
+					12,
+					9
 				},
 				{
 					23,
@@ -469,9 +469,9 @@ pg.base.soundstory_template = {}
 			"timer",
 			{
 				{
-					2025,
+					2026,
 					11,
-					13
+					19
 				},
 				{
 					0,
@@ -481,9 +481,9 @@ pg.base.soundstory_template = {}
 			},
 			{
 				{
-					2025,
+					2026,
 					12,
-					3
+					9
 				},
 				{
 					23,
@@ -523,8 +523,8 @@ pg.base.soundstory_template = {}
 			{
 				{
 					2026,
-					7,
-					30
+					11,
+					19
 				},
 				{
 					0,
@@ -535,8 +535,8 @@ pg.base.soundstory_template = {}
 			{
 				{
 					2026,
-					8,
-					5
+					12,
+					9
 				},
 				{
 					23,
@@ -576,8 +576,8 @@ pg.base.soundstory_template = {}
 			{
 				{
 					2026,
-					10,
-					22
+					11,
+					19
 				},
 				{
 					0,
@@ -588,8 +588,8 @@ pg.base.soundstory_template = {}
 			{
 				{
 					2026,
-					10,
-					28
+					12,
+					9
 				},
 				{
 					23,
@@ -655,9 +655,9 @@ pg.base.soundstory_template = {}
 			"timer",
 			{
 				{
-					2025,
+					2026,
 					11,
-					13
+					19
 				},
 				{
 					0,
@@ -667,9 +667,9 @@ pg.base.soundstory_template = {}
 			},
 			{
 				{
-					2025,
+					2026,
 					12,
-					3
+					9
 				},
 				{
 					23,
@@ -708,9 +708,9 @@ pg.base.soundstory_template = {}
 			"timer",
 			{
 				{
-					2025,
+					2026,
 					11,
-					13
+					19
 				},
 				{
 					0,
@@ -720,9 +720,9 @@ pg.base.soundstory_template = {}
 			},
 			{
 				{
-					2025,
+					2026,
 					12,
-					3
+					9
 				},
 				{
 					23,
@@ -761,9 +761,9 @@ pg.base.soundstory_template = {}
 			"timer",
 			{
 				{
-					2025,
+					2026,
 					11,
-					13
+					19
 				},
 				{
 					0,
@@ -773,9 +773,9 @@ pg.base.soundstory_template = {}
 			},
 			{
 				{
-					2025,
+					2026,
 					12,
-					3
+					9
 				},
 				{
 					23,
@@ -814,9 +814,9 @@ pg.base.soundstory_template = {}
 			"timer",
 			{
 				{
-					2025,
+					2026,
 					11,
-					13
+					19
 				},
 				{
 					0,
@@ -826,9 +826,9 @@ pg.base.soundstory_template = {}
 			},
 			{
 				{
-					2025,
+					2026,
 					12,
-					3
+					9
 				},
 				{
 					23,
@@ -867,9 +867,9 @@ pg.base.soundstory_template = {}
 			"timer",
 			{
 				{
-					2025,
+					2026,
 					11,
-					13
+					19
 				},
 				{
 					0,
@@ -879,9 +879,9 @@ pg.base.soundstory_template = {}
 			},
 			{
 				{
-					2025,
+					2026,
 					12,
-					3
+					9
 				},
 				{
 					23,
@@ -920,9 +920,9 @@ pg.base.soundstory_template = {}
 			"timer",
 			{
 				{
-					2025,
+					2026,
 					11,
-					13
+					19
 				},
 				{
 					0,
@@ -932,9 +932,9 @@ pg.base.soundstory_template = {}
 			},
 			{
 				{
-					2025,
+					2026,
 					12,
-					3
+					9
 				},
 				{
 					23,
@@ -973,9 +973,9 @@ pg.base.soundstory_template = {}
 			"timer",
 			{
 				{
-					2025,
+					2026,
 					11,
-					13
+					19
 				},
 				{
 					0,
@@ -985,9 +985,9 @@ pg.base.soundstory_template = {}
 			},
 			{
 				{
-					2025,
+					2026,
 					12,
-					3
+					9
 				},
 				{
 					23,
@@ -1026,9 +1026,9 @@ pg.base.soundstory_template = {}
 			"timer",
 			{
 				{
-					2025,
+					2026,
 					11,
-					13
+					19
 				},
 				{
 					0,
@@ -1038,9 +1038,9 @@ pg.base.soundstory_template = {}
 			},
 			{
 				{
-					2025,
+					2026,
 					12,
-					3
+					9
 				},
 				{
 					23,
@@ -1079,9 +1079,9 @@ pg.base.soundstory_template = {}
 			"timer",
 			{
 				{
-					2025,
-					7,
-					24
+					2026,
+					11,
+					19
 				},
 				{
 					0,
@@ -1091,9 +1091,9 @@ pg.base.soundstory_template = {}
 			},
 			{
 				{
-					2025,
-					7,
-					30
+					2026,
+					12,
+					9
 				},
 				{
 					23,
@@ -1132,9 +1132,9 @@ pg.base.soundstory_template = {}
 			"timer",
 			{
 				{
-					2025,
-					7,
-					24
+					2026,
+					11,
+					19
 				},
 				{
 					0,
@@ -1144,9 +1144,9 @@ pg.base.soundstory_template = {}
 			},
 			{
 				{
-					2025,
-					7,
-					30
+					2026,
+					12,
+					9
 				},
 				{
 					23,
@@ -1185,9 +1185,9 @@ pg.base.soundstory_template = {}
 			"timer",
 			{
 				{
-					2025,
-					10,
-					23
+					2026,
+					11,
+					19
 				},
 				{
 					0,
@@ -1197,9 +1197,9 @@ pg.base.soundstory_template = {}
 			},
 			{
 				{
-					2025,
-					10,
-					29
+					2026,
+					12,
+					9
 				},
 				{
 					23,
@@ -1238,9 +1238,9 @@ pg.base.soundstory_template = {}
 			"timer",
 			{
 				{
-					2025,
-					10,
-					23
+					2026,
+					11,
+					19
 				},
 				{
 					0,
@@ -1250,9 +1250,9 @@ pg.base.soundstory_template = {}
 			},
 			{
 				{
-					2025,
-					10,
-					29
+					2026,
+					12,
+					9
 				},
 				{
 					23,
@@ -1292,8 +1292,8 @@ pg.base.soundstory_template = {}
 			{
 				{
 					2026,
-					1,
-					22
+					11,
+					19
 				},
 				{
 					0,
@@ -1304,8 +1304,8 @@ pg.base.soundstory_template = {}
 			{
 				{
 					2026,
-					1,
-					28
+					12,
+					9
 				},
 				{
 					23,
@@ -1345,8 +1345,8 @@ pg.base.soundstory_template = {}
 			{
 				{
 					2026,
-					4,
-					30
+					11,
+					19
 				},
 				{
 					0,
@@ -1357,8 +1357,8 @@ pg.base.soundstory_template = {}
 			{
 				{
 					2026,
-					5,
-					6
+					12,
+					9
 				},
 				{
 					23,
@@ -1398,8 +1398,8 @@ pg.base.soundstory_template = {}
 			{
 				{
 					2026,
-					7,
-					30
+					11,
+					19
 				},
 				{
 					0,
@@ -1410,8 +1410,8 @@ pg.base.soundstory_template = {}
 			{
 				{
 					2026,
-					8,
-					5
+					12,
+					9
 				},
 				{
 					23,

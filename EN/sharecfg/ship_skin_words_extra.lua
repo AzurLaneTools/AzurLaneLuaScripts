@@ -480,6 +480,7 @@ pg.ship_skin_words_extra.all = {
 	405010,
 	408040,
 	101480,
+	103120,
 	11800010,
 	11800020,
 	408060
@@ -15273,7 +15274,6 @@ end)()
 		main = "",
 		profile = "",
 		mission_complete = "",
-		headtouch = "",
 		feeling2 = "",
 		battle = "",
 		login = {
@@ -15286,6 +15286,12 @@ end)()
 			{
 				1100,
 				"Thank you for helping the one I love triumph... O-oh, you heard that? I'm sorry, I didn't mean to be embarrassing..."
+			}
+		},
+		headtouch = {
+			{
+				1100,
+				"My heart's pounding so hard right now...!"
 			}
 		},
 		detail = {
@@ -33551,6 +33557,69 @@ end)()
 			{
 				1100,
 				"Lately, just being with you makes ideas flash in my mind like lightning strikes... And so, I think we need to spend even more time together!"
+			}
+		}
+	}
+	pg.base.ship_skin_words_extra[103120] = {
+		feeling3 = "",
+		win_mvp = "",
+		upgrade = "",
+		expedition = "",
+		mission = "",
+		id = 103120,
+		skill = "",
+		unlock = "",
+		mail = "",
+		lose = "",
+		feeling4 = "",
+		feeling1 = "",
+		hp_warning = "",
+		main = "",
+		profile = "",
+		mission_complete = "",
+		feeling2 = "",
+		battle = "",
+		detail = "",
+		login = {
+			{
+				1100,
+				"Working as hard as ever, I see. I do wish you took some time to relax."
+			}
+		},
+		home = {
+			{
+				1100,
+				"It's no use trying to hide anything from me, Commander. I can see the exhaustion in your eyes. You don't need to play the tough guy act in front of me."
+			}
+		},
+		headtouch = {
+			{
+				1100,
+				"Oh, patting my head again? You can be such a kid sometimes... Not that I dislike this or anything."
+			}
+		},
+		main_extra = {
+			{
+				1100,
+				"Once things settle down at work, what do you say to having a drink together? I wouldn't mind getting a little cozy with you♪|Commander, wanna take a walk together? It's such a nice day out there.|Side by side, waiting for the fish to bite... I'll never get bored of this."
+			}
+		},
+		touch = {
+			{
+				1100,
+				"Don't worry, Commander. I'm right here for you. Always by your side."
+			}
+		},
+		touch2 = {
+			{
+				1100,
+				"Hm, quite attentive of you. Why yes, I suppose I have no choice but to do as you wish."
+			}
+		},
+		feeling5 = {
+			{
+				1100,
+				"Before I knew it, there's already so much in my heart I want to express to you. If you want to hear how I feel, take my hand. Let's share this journey by each other's side.♪"
 			}
 		}
 	}

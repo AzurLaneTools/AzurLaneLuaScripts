@@ -57,7 +57,7 @@ return {
 			bgName = "bg_guild_red_n",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			actorName = "Prinz Euge",
+			actorName = "Prinz Eugen",
 			hidePaintObj = true,
 			say = "Mikari, yes? Come in.",
 			typewriter = {

@@ -4,6 +4,8 @@ slot0.Ctor = function(slot0, slot1)
 	uv0.super.Ctor(slot0, slot1)
 
 	slot0.dataConfig = pg.activity_event_shop_discount[slot0.configId]
+
+	assert(slot0.dataConfig, "Invalid activity config for SkinCouponActivity>>>>>" .. slot0.configId)
 end
 
 slot0.GetDiscountPrice = function(slot0)

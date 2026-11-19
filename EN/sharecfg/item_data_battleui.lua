@@ -20,6 +20,7 @@ pg.item_data_battleui.all = {
 	115,
 	116,
 	117,
+	118,
 	201,
 	202,
 	203,
@@ -284,6 +285,21 @@ pg.base.item_data_battleui = {}
 		desc = "Make each battle a melody of gunpowder, magazines, and bullet holes, echoing from a saloon lost to time – an invitation to an elegant yet dangerous romance.",
 		id = 117,
 		icon = "117",
+		scene = {},
+		rare_display = {
+			1
+		}
+	}
+	pg.base.item_data_battleui[118] = {
+		name = "Celebratory Sale",
+		key = "SkinNormal_20261119",
+		display_icon = "ui_118",
+		unlock = "Obtained from Black Friday Cruise Pass.",
+		is_unlock = 1,
+		rare = 3,
+		desc = "The vibrant atmosphere of the festive season fills your screen, the thrill of irresistible deals showcased to all. Act now – the fun won't last forever!",
+		id = 118,
+		icon = "118",
 		scene = {},
 		rare_display = {
 			1

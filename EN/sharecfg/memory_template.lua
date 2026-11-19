@@ -4390,6 +4390,9 @@ pg.memory_template.all = {
 	5625,
 	5631,
 	5632,
+	5641,
+	5642,
+	5643,
 	10011,
 	10012,
 	10013,
@@ -83706,6 +83709,60 @@ end)()
 			"TIANSHIMENDEBILANWUTAIRICHANG2"
 		}
 	}
+	pg.base.memory_template[5641] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "An Unexpected Examination",
+		condition = "Unlock Napoli's story in Port Fashion Collection: Heartful Remedies",
+		story = "SHISHANGTEKANXINDONGZHENLIAOSHIJIAN1",
+		mask = "bg/bg_memory",
+		task = 0,
+		year = 0,
+		id = 5641,
+		icon = "memory_gangqushishangtekan",
+		is_open = 0,
+		unlock_pre = {
+			"SHISHANGTEKANXINDONGZHENLIAOSHIJIAN1"
+		}
+	}
+	pg.base.memory_template[5642] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "A Quickened Pulse After Hours",
+		condition = "Unlock New Orleans's story in Port Fashion Collection: Heartful Remedies",
+		story = "SHISHANGTEKANXINDONGZHENLIAOSHIJIAN2",
+		mask = "bg/bg_memory",
+		task = 0,
+		year = 0,
+		id = 5642,
+		icon = "memory_gangqushishangtekan",
+		is_open = 0,
+		unlock_pre = {
+			"SHISHANGTEKANXINDONGZHENLIAOSHIJIAN2"
+		}
+	}
+	pg.base.memory_template[5643] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "Lucky White Whispers",
+		condition = "Unlock Painlevé's story in Port Fashion Collection: Heartful Remedies",
+		story = "SHISHANGTEKANXINDONGZHENLIAOSHIJIAN3",
+		mask = "bg/bg_memory",
+		task = 0,
+		year = 0,
+		id = 5643,
+		icon = "memory_gangqushishangtekan",
+		is_open = 0,
+		unlock_pre = {
+			"SHISHANGTEKANXINDONGZHENLIAOSHIJIAN3"
+		}
+	}
 	pg.base.memory_template[10011] = {
 		ship_group = 0,
 		subtitle = "",
@@ -83904,6 +83961,8 @@ end)()
 			"SANLI09"
 		}
 	}
+end)()
+(function ()
 	pg.base.memory_template[10029] = {
 		ship_group = 0,
 		subtitle = "",
@@ -83958,8 +84017,6 @@ end)()
 			"TEACHER3"
 		}
 	}
-end)()
-(function ()
 	pg.base.memory_template[10032] = {
 		ship_group = 0,
 		subtitle = "",
@@ -85706,6 +85763,8 @@ end)()
 			"LINGHANGYUANTANXIN2"
 		}
 	}
+end)()
+(function ()
 	pg.base.memory_template[20054] = {
 		ship_group = 0,
 		subtitle = "",
@@ -85760,8 +85819,6 @@ end)()
 			"LINGHANGYUANTANXIN5"
 		}
 	}
-end)()
-(function ()
 	pg.base.memory_template[20057] = {
 		ship_group = 0,
 		subtitle = "",
@@ -87508,6 +87565,8 @@ end)()
 			"TANSUOZHEYANGCHENGJIHUA5"
 		}
 	}
+end)()
+(function ()
 	pg.base.memory_template[20155] = {
 		ship_group = 0,
 		subtitle = "",
@@ -87562,8 +87621,6 @@ end)()
 			"TANSUOZHEYANGCHENGJIHUA8"
 		}
 	}
-end)()
-(function ()
 	pg.base.memory_template[20158] = {
 		ship_group = 0,
 		subtitle = "",
