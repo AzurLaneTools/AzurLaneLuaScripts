@@ -28753,8 +28753,8 @@ _G.pg.base.shop_template[60825] = {
 		{
 			{
 				2026,
-				11,
-				25
+				12,
+				9
 			},
 			{
 				23,
@@ -90312,7 +90312,7 @@ _G.pg.base.shop_template[71424] = {
 	second_text = "",
 	type_order = 0,
 	first_icon = "",
-	desc = "购买皮肤:261119那不勒斯L2D",
+	desc = "购买皮肤:261119那不勒斯L2D+",
 	group_limit = 0,
 	package_tag = "",
 	resource_num = 1180,

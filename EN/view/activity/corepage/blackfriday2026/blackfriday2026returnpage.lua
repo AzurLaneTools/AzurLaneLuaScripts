@@ -27,15 +27,15 @@ slot0.OnFirstFlush = function(slot0)
 	end, SFX_PANEL)
 	onButton(slot0, slot0.endGetBtn, function ()
 		if (uv0.taskProxy:getTaskById(uv0.activity:getConfig("config_client").extra_task) or uv0.taskProxy:getFinishTaskById(slot0)) and slot1:getTaskStatus() == 1 then
-			uv0:emit(ActivityMediator.ON_TASK_SUBMIT, slot1)
+			uv0:SubmitTaskWithCheck(slot1)
 		end
 	end, SFX_PANEL)
 end
 
 slot0.OnUpdateFlush = function(slot0)
 	slot0.nday = slot0:getTaskIdx(slot0.activity)
-	slot1 = "#009BBC"
-	slot2 = "#000000"
+	slot1 = "#FFFFFF"
+	slot2 = "#FFFFFF"
 	slot4 = slot0.nday
 	slot5 = #slot0.taskGroup
 
@@ -73,12 +73,21 @@ slot0.UpdateTask = function(slot0)
 		uv0:emit(ActivityMediator.ON_TASK_GO, uv1)
 	end, SFX_PANEL)
 	onButton(slot0, slot5, function ()
-		slot0 = {}
-		slot3 = getProxy(PlayerProxy):getRawData()
-		slot6, slot7 = Task.StaticJudgeOverflow(slot3.gold, slot3.oil, LOCK_UR_SHIP and 0 or getProxy(BagProxy):GetLimitCntById(pg.gameset.urpt_chapter_max.description[1]), true, true, uv0:getConfig("award_display"))
+		uv0:SubmitTaskWithCheck(uv1)
+	end, SFX_PANEL)
+end
 
-		if slot6 then
-			table.insert(slot0, function (slot0)
+slot0.SubmitTaskWithCheck = function(slot0, slot1)
+	slot2 = {}
+	slot3 = slot1:getConfig("award_display")
+	slot4 = getProxy(PlayerProxy):getRawData()
+	slot6 = LOCK_UR_SHIP and 0 or getProxy(BagProxy):GetLimitCntById(pg.gameset.urpt_chapter_max.description[1])
+
+	slot7 = function()
+		slot0, slot1 = Task.StaticJudgeOverflow(uv0.gold, uv0.oil, uv1, true, true, uv2)
+
+		if slot0 then
+			table.insert(uv3, function (slot0)
 				pg.MsgboxMgr.GetInstance():ShowMsgBox({
 					type = MSGBOX_TYPE_ITEM_BOX,
 					content = i18n("award_max_warning"),
@@ -88,10 +97,29 @@ slot0.UpdateTask = function(slot0)
 			end)
 		end
 
-		seriesAsync(slot0, function ()
+		seriesAsync(uv3, function ()
 			uv0:emit(ActivityMediator.ON_TASK_SUBMIT, uv1)
 		end)
-	end, SFX_PANEL)
+	end
+
+	slot8 = false
+
+	for slot12, slot13 in ipairs(slot3) do
+		if Drop.Create(slot13).type == DROP_TYPE_VITEM and slot14.id == 69985 then
+			slot8 = true
+
+			break
+		end
+	end
+
+	if slot8 then
+		pg.MsgboxMgr.GetInstance():ShowMsgBox({
+			content = i18n("shop_new_coupon_tip3"),
+			onYes = slot7
+		})
+	else
+		slot7()
+	end
 end
 
 slot0.UpdateEndAward = function(slot0)

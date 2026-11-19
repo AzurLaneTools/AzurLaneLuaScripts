@@ -67,9 +67,14 @@ slot0.OnFirstFlush = function(slot0)
 	slot3 = slot0.rtSkinCoupon
 
 	onButton(slot0, slot3:Find("icon/get"), function ()
-		uv0:emit(ActivityMediator.EVENT_OPERATION, {
-			cmd = 1,
-			activity_id = uv0.activity.id
+		pg.MsgboxMgr.GetInstance():ShowMsgBox({
+			content = i18n("shop_new_coupon_tip3"),
+			onYes = function ()
+				uv0:emit(ActivityMediator.EVENT_OPERATION, {
+					cmd = 1,
+					activity_id = uv0.activity.id
+				})
+			end
 		})
 	end, SFX_CONFIRM)
 end

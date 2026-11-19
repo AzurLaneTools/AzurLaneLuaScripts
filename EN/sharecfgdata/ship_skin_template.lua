@@ -376155,11 +376155,11 @@ _G.pg.base.ship_skin_template[699022] = {
 	live2d_offset_profile = "",
 	show_skin = "stand",
 	tag = {
-		1,
+		9,
 		2
 	},
 	live2d_offset = {
-		0,
+		93,
 		0,
 		0,
 		41
