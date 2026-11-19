@@ -1354,7 +1354,7 @@ slot0.FlushPainting = function(slot0, slot1)
 end
 
 slot0.loadPainting = function(slot0, slot1)
-	if slot0:GetPaintingState(slot1) == uv0 then
+	if slot0.paintingState.state == uv0 then
 		slot0:LoadMeshPainting(slot1, slot0.isToggleShowBg)
 	elseif slot2 == uv1 then
 		slot0:LoadL2dPainting(slot1)
