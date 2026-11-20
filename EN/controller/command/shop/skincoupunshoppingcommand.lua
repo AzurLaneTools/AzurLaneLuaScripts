@@ -93,12 +93,6 @@ slot0.execute = function(slot0, slot1)
 		end
 	end
 
-	if SkinCouponActivity.GetSkinCouponTotalCnt(slot3) <= 1 then
-		slot10(slot11[1])
-
-		return
-	end
-
 	slot0:sendNotification(GAME.OPEN_SKIN_COUPON_MULTI_MSG_BOX, {
 		itemList = slot11,
 		unuseItemList = uv0.GetAllSkinCouponList(slot3),

@@ -1880,6 +1880,7 @@ end
 
 slot0.PlayTimeline = function(slot0, slot1, slot2)
 	slot3 = {}
+	slot6 = Dorm3dSceneMgr.IsSameSceneInfo(slot1.scene and slot1.sceneRoot and slot1.scene .. "|" .. slot1.sceneRoot or slot0.dormSceneMgr.artSceneInfo, slot0.dormSceneMgr.sceneInfo)
 
 	if slot0.waitForTimeline then
 		table.insert(slot3, function (slot0)
@@ -1893,10 +1894,18 @@ slot0.PlayTimeline = function(slot0, slot1, slot2)
 	table.insert(slot3, function (slot0)
 		uv0:LoadTimelineScene(uv1.name, false, nil, slot0)
 	end)
+	table.insert(slot3, function (slot0)
+		uv0:ChangeArtScene(uv1, slot0)
+	end)
 
-	if slot1.scene and slot1.sceneRoot then
+	if slot6 then
 		table.insert(slot3, function (slot0)
-			uv0:ChangeArtScene(uv1.scene .. "|" .. uv1.sceneRoot, slot0)
+			slot1 = uv0
+
+			slot1:emit(FurnitureSystem.REFRESH_SLOTS_DEFAULT, function ()
+				setActive(uv0.slotRoot, true)
+				uv1()
+			end)
 		end)
 	end
 
@@ -2036,11 +2045,8 @@ slot0.PlayTimeline = function(slot0, slot1, slot2)
 			uv0:UnloadTimelineScene(uv1.name, false, uv2)
 		end)
 	end)
-
-	slot4 = slot0.dormSceneMgr.artSceneInfo
-
 	table.insert(slot3, function (slot0)
-		uv0:RevertArtScene(uv1, slot0)
+		uv0:RevertArtScene(uv1, slot0, uv2)
 	end)
 	seriesAsync(slot3, function ()
 		setActive(uv0.rtTimelineScreen, false)
@@ -2412,27 +2418,34 @@ slot0.MoveObjectToBaseScene = function(slot0, slot1)
 	SceneManager.MoveGameObjectToScene(slot1, SceneManager.GetSceneByName(Dorm3dSceneMgr.ParseInfo(slot0.dormSceneMgr.sceneInfo) .. "_base"))
 end
 
-slot0.RevertArtScene = function(slot0, slot1, slot2)
-	slot3 = {}
+slot0.RevertArtScene = function(slot0, slot1, slot2, slot3)
+	slot4 = {}
 
-	table.insert(slot3, function (slot0)
+	table.insert(slot4, function (slot0)
 		uv0:ChangeArtScene(uv1, slot0)
 	end)
-	table.insert(slot3, function (slot0)
+	table.insert(slot4, function (slot0)
 		setActive(uv0.slotRoot, true)
 		slot0()
 	end)
-	table.insert(slot3, function (slot0)
+	table.insert(slot4, function (slot0)
 		slot1 = uv0
 
 		slot1:SwitchDayNight(uv0.contextData.timeIndex)
 		onNextTick(function ()
-			uv0:RefreshSlots()
-			uv0:emit(CollectionSystem.TEMP_HIDE, false)
-			uv1()
+			slot1 = uv0
+
+			slot1:RefreshSlots(nil, uv2 and function ()
+				uv0:emit(CollectionSystem.TEMP_HIDE, false)
+				uv1()
+			end or nil)
+
+			if not uv2 then
+				slot0()
+			end
 		end)
 	end)
-	seriesAsync(slot3, slot2)
+	seriesAsync(slot4, slot2)
 end
 
 slot0.ChangeSubScene = function(slot0, slot1, slot2)
