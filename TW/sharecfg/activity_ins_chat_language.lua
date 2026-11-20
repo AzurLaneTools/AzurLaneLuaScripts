@@ -23440,7 +23440,7 @@ end)()
 		flag = 7
 	}
 	pg.base.activity_ins_chat_language[1377] = {
-		param = "49906'戳了戳<color=#93e9ff>我</color>",
+		param = "'49906'戳了戳<color=#93e9ff>我</color>",
 		ship_group = 1,
 		option = "",
 		type = 5,
@@ -49806,7 +49806,7 @@ end)()
 		flag = 2
 	}
 	pg.base.activity_ins_chat_language[5047] = {
-		param = "80601'已上傳【音樂檔案】",
+		param = "'80601'已上傳【音樂檔案】",
 		ship_group = 1,
 		type = 5,
 		id = 5047,
@@ -49835,7 +49835,7 @@ end)()
 		flag = 3
 	}
 	pg.base.activity_ins_chat_language[5050] = {
-		param = "80601'已接收【工作檔案】",
+		param = "'80601'已接收【工作檔案】",
 		ship_group = 1,
 		option = "",
 		type = 5,
@@ -50788,7 +50788,7 @@ end)()
 		flag = 1
 	}
 	pg.base.activity_ins_chat_language[5159] = {
-		param = "80105'擲出了點數[5]",
+		param = "'80105'擲出了點數[5]",
 		ship_group = 1,
 		type = 5,
 		id = 5159,
@@ -50912,7 +50912,7 @@ end)()
 		flag = 5
 	}
 	pg.base.activity_ins_chat_language[5172] = {
-		param = "80105'擲出了點數[3]",
+		param = "'80105'擲出了點數[3]",
 		ship_group = 1,
 		option = "",
 		type = 5,
@@ -63565,7 +63565,7 @@ end)()
 		flag = 2
 	}
 	pg.base.activity_ins_chat_language[6616] = {
-		param = "110201'加入了頻道",
+		param = "'110201'加入了頻道",
 		ship_group = 1,
 		option = "",
 		type = 5,
@@ -79447,7 +79447,7 @@ end)()
 		flag = 0
 	}
 	pg.base.activity_ins_chat_language[8513] = {
-		param = "70210'已上傳文件",
+		param = "'70210'已上傳文件",
 		ship_group = 1,
 		type = 5,
 		id = 8513,
@@ -84691,7 +84691,7 @@ end)()
 		flag = 2
 	}
 	pg.base.activity_ins_chat_language[9337] = {
-		param = "40815'已上傳音訊檔案【無光的深海】",
+		param = "'40815'已上傳音訊檔案【無光的深海】",
 		ship_group = 1,
 		type = 5,
 		id = 9337,
@@ -87692,7 +87692,7 @@ end)()
 		flag = 2
 	}
 	pg.base.activity_ins_chat_language[9690] = {
-		param = "40507' 邀請'10125' 加入群組聊天",
+		param = "'40507' 邀請'10125' 加入群組聊天",
 		ship_group = 1,
 		option = "",
 		type = 5,
@@ -87700,7 +87700,7 @@ end)()
 		flag = 0
 	}
 	pg.base.activity_ins_chat_language[9691] = {
-		param = "40507' 邀請'60204' 加入群組聊天",
+		param = "'40507' 邀請'60204' 加入群組聊天",
 		ship_group = 1,
 		option = "",
 		type = 5,
@@ -87708,7 +87708,7 @@ end)()
 		flag = 0
 	}
 	pg.base.activity_ins_chat_language[9692] = {
-		param = "60204' 邀請'60203' 加入群組聊天",
+		param = "'60204' 邀請'60203' 加入群組聊天",
 		ship_group = 1,
 		option = "",
 		type = 5,
@@ -87716,7 +87716,7 @@ end)()
 		flag = 0
 	}
 	pg.base.activity_ins_chat_language[9693] = {
-		param = "60204' 邀請<color=#93e9ff>你</color> 加入群組聊",
+		param = "'60204' 邀請<color=#93e9ff>你</color> 加入群組聊",
 		ship_group = 1,
 		option = "",
 		type = 5,
@@ -87724,7 +87724,7 @@ end)()
 		flag = 0
 	}
 	pg.base.activity_ins_chat_language[9694] = {
-		param = "40507' 邀請'40815' 加入群組聊天",
+		param = "'40507' 邀請'40815' 加入群組聊天",
 		ship_group = 1,
 		option = "",
 		type = 5,
@@ -87732,7 +87732,7 @@ end)()
 		flag = 0
 	}
 	pg.base.activity_ins_chat_language[9695] = {
-		param = "60203' 邀請'60503' 加入群組聊天",
+		param = "'60203' 邀請'60503' 加入群組聊天",
 		ship_group = 1,
 		option = "",
 		type = 5,
