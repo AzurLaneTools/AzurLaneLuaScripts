@@ -18,6 +18,7 @@ pg.item_data_battleui.all = {
 	113,
 	114,
 	115,
+	116,
 	201,
 	202,
 	203,
@@ -252,6 +253,21 @@ pg.base.item_data_battleui = {}
 		desc = "鏽蝕的機械心臟再次搏動，蒼核的餘音回蕩在介面之間，讓每一次出擊都攜帶著古老文明的回響。",
 		id = 115,
 		icon = "115",
+		scene = {},
+		rare_display = {
+			1
+		}
+	}
+	pg.base.item_data_battleui[116] = {
+		name = "皇家舊影",
+		key = "SkinNormal_20260730",
+		display_icon = "ui_116",
+		unlock = "世界巡遊三十期獲取",
+		is_unlock = 1,
+		rare = 3,
+		desc = "舊日的光影在界面間流轉，皇家的優雅餘韻也隨之鋪展開來，為每一次戰鬥添上一抹古典而精緻的氣息。",
+		id = 116,
+		icon = "116",
 		scene = {},
 		rare_display = {
 			1

@@ -96,7 +96,9 @@ pg.skill_world_display.all = {
 	802141,
 	802142,
 	802201,
-	802202
+	802202,
+	802301,
+	802302
 }
 pg.base = pg.base or {}
 pg.base.skill_world_display = {}
@@ -4430,6 +4432,20 @@ pg.base.skill_world_display = {}
 		desc_get = "",
 		id = 802202,
 		desc = "【大型作戰效果】\n主炮每進行8次攻擊，觸發一輪特殊彈幕II，與精英艦隊或BOSS艦隊交戰時，自身造成的所有傷害提高5%",
+		desc_get_add = {},
+		desc_add = {}
+	}
+	pg.base.skill_world_display[802301] = {
+		desc_get = "",
+		id = 802301,
+		desc = "【大型作戰效果】\n主炮每進行12次攻擊，觸發一輪特殊彈幕I，與精英艦隊或BOSS艦隊交戰時，自身受到的所有傷害降低2%",
+		desc_get_add = {},
+		desc_add = {}
+	}
+	pg.base.skill_world_display[802302] = {
+		desc_get = "",
+		id = 802302,
+		desc = "【大型作戰效果】\n主炮每進行8次攻擊，觸發一輪特殊彈幕II，與精英艦隊或BOSS艦隊交戰時，自身受到的所有傷害降低6%",
 		desc_get_add = {},
 		desc_add = {}
 	}

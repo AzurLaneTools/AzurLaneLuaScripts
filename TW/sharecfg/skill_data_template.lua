@@ -1522,6 +1522,8 @@ pg.skill_data_template.all = {
 	18350,
 	18380,
 	18400,
+	18410,
+	18430,
 	18440,
 	18460,
 	18500,
@@ -3000,6 +3002,12 @@ pg.skill_data_template.all = {
 	802232,
 	802235,
 	802237,
+	802280,
+	802290,
+	802301,
+	802302,
+	802305,
+	802307,
 	802310,
 	802320,
 	802331,
@@ -131589,6 +131597,164 @@ end)()
 			}
 		}
 	}
+	pg.base.skill_data_template[18410] = {
+		desc_get = "",
+		name = "吞噬之漩 +",
+		type = 3,
+		max_level = 10,
+		desc = "戰鬥中，自身裝備的魚雷武器開火時，使在場的敵方單位進入5秒【漩噬】狀態：【漩噬】持續期間視同受到吸引效果影響，移動速度降低$1；自身不處於彈藥匱乏狀態下時，提高自身機動屬性$2",
+		id = 18410,
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {
+			{
+				"30.0%",
+				"60.0%"
+			},
+			{
+				"5.0%",
+				"15.0%"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"30.0%",
+					"+3.3%"
+				},
+				{
+					"33.3%",
+					"+3.3%"
+				},
+				{
+					"36.6%",
+					"+3.3%"
+				},
+				{
+					"39.9%",
+					"+3.3%"
+				},
+				{
+					"43.2%",
+					"+3.3%"
+				},
+				{
+					"46.5%",
+					"+3.3%"
+				},
+				{
+					"49.8%",
+					"+3.3%"
+				},
+				{
+					"53.1%",
+					"+3.3%"
+				},
+				{
+					"56.4%",
+					"+3.6%"
+				},
+				{
+					"60.0%"
+				}
+			},
+			{
+				{
+					"5.0%",
+					"+1.1%"
+				},
+				{
+					"6.1%",
+					"+1.1%"
+				},
+				{
+					"7.2%",
+					"+1.1%"
+				},
+				{
+					"8.3%",
+					"+1.1%"
+				},
+				{
+					"9.4%",
+					"+1.1%"
+				},
+				{
+					"10.5%",
+					"+1.1%"
+				},
+				{
+					"11.6%",
+					"+1.1%"
+				},
+				{
+					"12.7%",
+					"+1.1%"
+				},
+				{
+					"13.8%",
+					"+1.2%"
+				},
+				{
+					"15.0%"
+				}
+			}
+		}
+	}
+	pg.base.skill_data_template[18430] = {
+		desc_get = "",
+		name = "噬嚙之顎 +",
+		type = 1,
+		max_level = 10,
+		desc = "主炮射擊將對命中的敵人附加破甲效果；主炮每進行4次攻擊，觸發一輪【特殊彈幕 +】$1（威力依據技能等級），自身裝備大型艦炮時，【特殊彈幕 +】觸發所需的主炮開火次數降低為2",
+		id = 18430,
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {
+			{
+				"Lv.1",
+				"Lv.10"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"Lv.1"
+				},
+				{
+					"Lv.2"
+				},
+				{
+					"Lv.3"
+				},
+				{
+					"Lv.4"
+				},
+				{
+					"Lv.5"
+				},
+				{
+					"Lv.6"
+				},
+				{
+					"Lv.7"
+				},
+				{
+					"Lv.8"
+				},
+				{
+					"Lv.9"
+				},
+				{
+					"Lv.10"
+				}
+			}
+		}
+	}
 	pg.base.skill_data_template[18440] = {
 		desc_get = "",
 		name = "Riddle a riddle +",
@@ -139857,6 +140023,8 @@ end)()
 			}
 		}
 	}
+end)()
+(function ()
 	pg.base.skill_data_template[19659] = {
 		desc_get = "",
 		name = "布雷斯特展示關卡用",
@@ -140105,8 +140273,6 @@ end)()
 			}
 		}
 	}
-end)()
-(function ()
 	pg.base.skill_data_template[19670] = {
 		desc_get = "",
 		name = "功能性增幅機制",
@@ -145440,6 +145606,8 @@ end)()
 		desc_get_add = {},
 		desc_add = {}
 	}
+end)()
+(function ()
 	pg.base.skill_data_template[21032] = {
 		desc_get = "",
 		name = "全彈發射II",
@@ -145468,8 +145636,6 @@ end)()
 		desc_get_add = {},
 		desc_add = {}
 	}
-end)()
-(function ()
 	pg.base.skill_data_template[21042] = {
 		desc_get = "",
 		name = "全彈發射II",
@@ -146842,6 +147008,8 @@ end)()
 		desc_get_add = {},
 		desc_add = {}
 	}
+end)()
+(function ()
 	pg.base.skill_data_template[23041] = {
 		desc_get = "",
 		name = "全彈發射I",
@@ -146870,8 +147038,6 @@ end)()
 		desc_get_add = {},
 		desc_add = {}
 	}
-end)()
-(function ()
 	pg.base.skill_data_template[23051] = {
 		desc_get = "",
 		name = "全彈發射I",
@@ -148244,6 +148410,8 @@ end)()
 		desc_get_add = {},
 		desc_add = {}
 	}
+end)()
+(function ()
 	pg.base.skill_data_template[28271] = {
 		desc_get = "",
 		name = "全彈發射I",
@@ -148272,8 +148440,6 @@ end)()
 		desc_get_add = {},
 		desc_add = {}
 	}
-end)()
-(function ()
 	pg.base.skill_data_template[28281] = {
 		desc_get = "",
 		name = "全彈發射I",
@@ -149650,6 +149816,8 @@ end)()
 		desc_get_add = {},
 		desc_add = {}
 	}
+end)()
+(function ()
 	pg.base.skill_data_template[29451] = {
 		desc_get = "",
 		name = "專屬彈幕-克里夫蘭(μ兵裝)I",
@@ -149678,8 +149846,6 @@ end)()
 		desc_get_add = {},
 		desc_add = {}
 	}
-end)()
-(function ()
 	pg.base.skill_data_template[29461] = {
 		desc_get = "",
 		name = "專屬彈幕-謝菲爾德(μ兵裝)I",
@@ -151056,6 +151222,8 @@ end)()
 		desc_get_add = {},
 		desc_add = {}
 	}
+end)()
+(function ()
 	pg.base.skill_data_template[29971] = {
 		desc_get = "",
 		name = "專屬彈幕-古比雪夫I",
@@ -151084,8 +151252,6 @@ end)()
 		desc_get_add = {},
 		desc_add = {}
 	}
-end)()
-(function ()
 	pg.base.skill_data_template[29981] = {
 		desc_get = "",
 		name = "專屬彈幕-斯庫拉I",
@@ -152458,6 +152624,8 @@ end)()
 		desc_get_add = {},
 		desc_add = {}
 	}
+end)()
+(function ()
 	pg.base.skill_data_template[30491] = {
 		desc_get = "",
 		name = "專屬彈幕-維托里奧·庫尼貝爾蒂I",
@@ -152486,8 +152654,6 @@ end)()
 		desc_get_add = {},
 		desc_add = {}
 	}
-end)()
-(function ()
 	pg.base.skill_data_template[30501] = {
 		desc_get = "",
 		name = "專屬彈幕-德米特里·頓斯科伊I",
@@ -157269,6 +157435,8 @@ end)()
 			}
 		}
 	}
+end)()
+(function ()
 	pg.base.skill_data_template[105140] = {
 		desc_get = "",
 		name = "野性的二元論",
@@ -157373,8 +157541,6 @@ end)()
 			}
 		}
 	}
-end)()
-(function ()
 	pg.base.skill_data_template[106010] = {
 		desc_get = "",
 		name = "玫瑰邊刺",
@@ -166328,6 +166494,8 @@ end)()
 			}
 		}
 	}
+end)()
+(function ()
 	pg.base.skill_data_template[108250] = {
 		desc_get = "",
 		name = "那什麼光線！+",
@@ -166495,8 +166663,6 @@ end)()
 			}
 		}
 	}
-end)()
-(function ()
 	pg.base.skill_data_template[108270] = {
 		desc_get = "",
 		name = "實例控制·焰 +",
@@ -174799,6 +174965,8 @@ end)()
 			}
 		}
 	}
+end)()
+(function ()
 	pg.base.skill_data_template[111120] = {
 		desc_get = "",
 		name = "鯛魚燒，超喜歡",
@@ -174919,8 +175087,6 @@ end)()
 		desc_get_add = {},
 		desc_add = {}
 	}
-end)()
-(function ()
 	pg.base.skill_data_template[111240] = {
 		desc_get = "",
 		name = "大家，來我這邊",
@@ -183925,6 +184091,8 @@ end)()
 			}
 		}
 	}
+end)()
+(function ()
 	pg.base.skill_data_template[800060] = {
 		desc_get = "",
 		name = "戰憶之櫻",
@@ -184164,8 +184332,6 @@ end)()
 		desc_get_add = {},
 		desc_add = {}
 	}
-end)()
-(function ()
 	pg.base.skill_data_template[800072] = {
 		desc_get = "",
 		name = "破敵之炬·{namecode:94}II",
@@ -188234,6 +188400,8 @@ end)()
 		desc_get_add = {},
 		desc_add = {}
 	}
+end)()
+(function ()
 	pg.base.skill_data_template[800610] = {
 		desc_get = "",
 		name = "命運的未來視",
@@ -188428,8 +188596,6 @@ end)()
 			}
 		}
 	}
-end)()
-(function ()
 	pg.base.skill_data_template[800631] = {
 		desc_get = "",
 		name = "逐光之焰·命運女神",
@@ -193604,6 +193770,8 @@ end)()
 			}
 		}
 	}
+end)()
+(function ()
 	pg.base.skill_data_template[801161] = {
 		desc_get = "",
 		name = "構造之理·羅德尼I",
@@ -193636,8 +193804,6 @@ end)()
 		desc_get_add = {},
 		desc_add = {}
 	}
-end)()
-(function ()
 	pg.base.skill_data_template[801165] = {
 		desc_get = "",
 		name = "構造之理·羅德尼I",
@@ -199238,6 +199404,8 @@ end)()
 		desc_get_add = {},
 		desc_add = {}
 	}
+end)()
+(function ()
 	pg.base.skill_data_template[801705] = {
 		desc_get = "",
 		name = "破敵之炬·內華達I",
@@ -199270,8 +199438,6 @@ end)()
 		desc_get_add = {},
 		desc_add = {}
 	}
-end)()
-(function ()
 	pg.base.skill_data_template[801710] = {
 		desc_get = "",
 		name = "應盡之責",
@@ -204222,6 +204388,320 @@ end)()
 		desc_get_add = {},
 		desc_add = {}
 	}
+	pg.base.skill_data_template[802280] = {
+		desc_get = "",
+		name = "斬亂之劍",
+		type = 1,
+		max_level = 10,
+		desc = "戰鬥開始時及隨後每20s，觸發一輪特殊彈幕$1（威力依據技能等級），10秒內自身造成的傷害提高$2",
+		id = 802280,
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {
+			{
+				"Lv.1",
+				"Lv.10"
+			},
+			{
+				"4.5%",
+				"12.0%"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"Lv.1"
+				},
+				{
+					"Lv.2"
+				},
+				{
+					"Lv.3"
+				},
+				{
+					"Lv.4"
+				},
+				{
+					"Lv.5"
+				},
+				{
+					"Lv.6"
+				},
+				{
+					"Lv.7"
+				},
+				{
+					"Lv.8"
+				},
+				{
+					"Lv.9"
+				},
+				{
+					"Lv.10"
+				}
+			},
+			{
+				{
+					"4.5%",
+					"+0.7%"
+				},
+				{
+					"5.2%",
+					"+0.8%"
+				},
+				{
+					"6.0%",
+					"+1.0%"
+				},
+				{
+					"7.0%",
+					"+0.7%"
+				},
+				{
+					"7.7%",
+					"+0.8%"
+				},
+				{
+					"8.5%",
+					"+1.0%"
+				},
+				{
+					"9.5%",
+					"+0.7%"
+				},
+				{
+					"10.2%",
+					"+0.8%"
+				},
+				{
+					"11.0%",
+					"+1.0%"
+				},
+				{
+					"12.0%"
+				}
+			}
+		}
+	}
+	pg.base.skill_data_template[802290] = {
+		desc_get = "",
+		name = "寶物守護",
+		type = 2,
+		max_level = 10,
+		desc = "戰鬥開始時提升自身砲擊、雷擊屬性$1；戰鬥中，防空炮開火時，10秒內自身迴避率提高$2，全隊防空提高$3，觸發後進入12秒冷卻",
+		id = 802290,
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {
+			{
+				"5.0%",
+				"15.0%"
+			},
+			{
+				"1.0%",
+				"5.0%"
+			},
+			{
+				"10.0%",
+				"30.0%"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"5.0%",
+					"+1.1%"
+				},
+				{
+					"6.1%",
+					"+1.1%"
+				},
+				{
+					"7.2%",
+					"+1.1%"
+				},
+				{
+					"8.3%",
+					"+1.1%"
+				},
+				{
+					"9.4%",
+					"+1.1%"
+				},
+				{
+					"10.5%",
+					"+1.1%"
+				},
+				{
+					"11.6%",
+					"+1.1%"
+				},
+				{
+					"12.7%",
+					"+1.1%"
+				},
+				{
+					"13.8%",
+					"+1.2%"
+				},
+				{
+					"15.0%"
+				}
+			},
+			{
+				{
+					"1.0%",
+					"+0.4%"
+				},
+				{
+					"1.4%",
+					"+0.4%"
+				},
+				{
+					"1.8%",
+					"+0.4%"
+				},
+				{
+					"2.2%",
+					"+0.4%"
+				},
+				{
+					"2.6%",
+					"+0.4%"
+				},
+				{
+					"3.0%",
+					"+0.5%"
+				},
+				{
+					"3.5%",
+					"+0.5%"
+				},
+				{
+					"4.0%",
+					"+0.5%"
+				},
+				{
+					"4.5%",
+					"+0.5%"
+				},
+				{
+					"5.0%"
+				}
+			},
+			{
+				{
+					"10.0%",
+					"+2.2%"
+				},
+				{
+					"12.2%",
+					"+2.2%"
+				},
+				{
+					"14.4%",
+					"+2.2%"
+				},
+				{
+					"16.6%",
+					"+2.2%"
+				},
+				{
+					"18.8%",
+					"+2.2%"
+				},
+				{
+					"21.0%",
+					"+2.2%"
+				},
+				{
+					"23.2%",
+					"+2.2%"
+				},
+				{
+					"25.4%",
+					"+2.2%"
+				},
+				{
+					"27.6%",
+					"+2.4%"
+				},
+				{
+					"30.0%"
+				}
+			}
+		}
+	}
+end)()
+(function ()
+	pg.base.skill_data_template[802301] = {
+		desc_get = "",
+		name = "逐光之焰·{namecode:446}I",
+		type = 3,
+		max_level = 1,
+		desc = "主炮每進行12次攻擊，觸發一輪特殊彈幕I",
+		id = 802301,
+		system_transform = {
+			[51.0] = 802305
+		},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {},
+		desc_add = {}
+	}
+	pg.base.skill_data_template[802302] = {
+		desc_get = "",
+		name = "逐光之焰·{namecode:446}II",
+		type = 3,
+		max_level = 1,
+		desc = "主炮每進行8次攻擊，觸發一輪特殊彈幕II",
+		id = 802302,
+		system_transform = {
+			[51.0] = 802307
+		},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {},
+		desc_add = {}
+	}
+	pg.base.skill_data_template[802305] = {
+		desc_get = "",
+		name = "逐光之焰·{namecode:446}I",
+		type = 3,
+		max_level = 1,
+		desc = "【大型作戰效果】\n主炮每進行12次攻擊，觸發一輪特殊彈幕I，與精英艦隊或BOSS艦隊交戰時，自身受到的所有傷害降低2%",
+		id = 802305,
+		system_transform = {
+			[51.0] = 802305
+		},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {},
+		desc_add = {}
+	}
+	pg.base.skill_data_template[802307] = {
+		desc_get = "",
+		name = "逐光之焰·{namecode:446}II",
+		type = 3,
+		max_level = 1,
+		desc = "【大型作戰效果】\n主炮每進行8次攻擊，觸發一輪特殊彈幕II，與精英艦隊或BOSS艦隊交戰時，自身受到的所有傷害降低6%",
+		id = 802307,
+		system_transform = {
+			[51.0] = 802307
+		},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {},
+		desc_add = {}
+	}
 	pg.base.skill_data_template[802310] = {
 		desc_get = "",
 		name = "勝利之炬",
@@ -204592,8 +205072,6 @@ end)()
 		desc_get_add = {},
 		desc_add = {}
 	}
-end)()
-(function ()
 	pg.base.skill_data_template[802335] = {
 		desc_get = "",
 		name = "破敵之炬·勝利I",
@@ -210949,6 +211427,8 @@ end)()
 			}
 		}
 	}
+end)()
+(function ()
 	pg.base.skill_data_template[1012940] = {
 		desc_get = "",
 		name = "For The Queen +",
@@ -211995,8 +212475,6 @@ end)()
 			}
 		}
 	}
-end)()
-(function ()
 	pg.base.skill_data_template[1019080] = {
 		desc_get = "",
 		name = "特殊護甲 +",
@@ -224938,6 +225416,8 @@ end)()
 			}
 		}
 	}
+end)()
+(function ()
 	pg.base.skill_data_template[1090250] = {
 		desc_get = "",
 		name = "雷擊指揮·彗星",
@@ -226111,8 +226591,6 @@ end)()
 			}
 		}
 	}
-end)()
-(function ()
 	pg.base.skill_data_template[1090340] = {
 		desc_get = "",
 		name = "快速起飛·博格",

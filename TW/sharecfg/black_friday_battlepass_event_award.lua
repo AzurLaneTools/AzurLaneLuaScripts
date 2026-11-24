@@ -390,4 +390,92 @@ pg.base.black_friday_battlepass_event_award = {}
 			500
 		}
 	}
+	pg.base.black_friday_battlepass_event_award[101] = {
+		id = 101,
+		drop_client = {
+			8,
+			65559,
+			1
+		}
+	}
+	pg.base.black_friday_battlepass_event_award[102] = {
+		id = 102,
+		drop_client = {
+			1,
+			14,
+			200
+		}
+	}
+	pg.base.black_friday_battlepass_event_award[105] = {
+		id = 105,
+		drop_client = {
+			2,
+			50006,
+			3
+		}
+	}
+	pg.base.black_friday_battlepass_event_award[111] = {
+		id = 111,
+		drop_client = {
+			31,
+			118,
+			1
+		}
+	}
+	pg.base.black_friday_battlepass_event_award[121] = {
+		id = 121,
+		drop_client = {
+			14,
+			616,
+			1
+		}
+	}
+	pg.base.black_friday_battlepass_event_award[131] = {
+		id = 131,
+		drop_client = {
+			9,
+			3092,
+			1
+		}
+	}
+	pg.base.black_friday_battlepass_event_award[132] = {
+		id = 132,
+		drop_client = {
+			9,
+			3093,
+			1
+		}
+	}
+	pg.base.black_friday_battlepass_event_award[133] = {
+		id = 133,
+		drop_client = {
+			9,
+			3094,
+			1
+		}
+	}
+	pg.base.black_friday_battlepass_event_award[134] = {
+		id = 134,
+		drop_client = {
+			9,
+			3095,
+			1
+		}
+	}
+	pg.base.black_friday_battlepass_event_award[191] = {
+		id = 191,
+		drop_client = {
+			2,
+			42080,
+			5
+		}
+	}
+	pg.base.black_friday_battlepass_event_award[192] = {
+		id = 192,
+		drop_client = {
+			2,
+			42086,
+			5
+		}
+	}
 end)()

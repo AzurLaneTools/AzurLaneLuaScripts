@@ -453,7 +453,7 @@ pg.base.chapter_suggestion_char = {}
 					10
 				},
 				{
-					1340,
+					1160,
 					10
 				},
 				{
@@ -483,7 +483,7 @@ pg.base.chapter_suggestion_char = {}
 					10
 				},
 				{
-					1340,
+					1160,
 					10
 				},
 				{
@@ -1887,7 +1887,7 @@ pg.base.chapter_suggestion_char = {}
 					10
 				},
 				{
-					1340,
+					1160,
 					10
 				},
 				{

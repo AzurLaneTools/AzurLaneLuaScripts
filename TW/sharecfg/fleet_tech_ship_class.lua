@@ -367,6 +367,7 @@ pg.fleet_tech_ship_class.all = {
 	970209,
 	970210,
 	970212,
+	970213,
 	970301,
 	970302,
 	970303,
@@ -4778,6 +4779,17 @@ end)()
 			970212
 		}
 	}
+	pg.base.fleet_tech_ship_class[970213] = {
+		shiptype = 2,
+		name = "紐倫堡·META",
+		t_level = 3,
+		id = 970213,
+		t_level_1 = 23,
+		nation = 97,
+		ships = {
+			970213
+		}
+	}
 	pg.base.fleet_tech_ship_class[970301] = {
 		shiptype = 3,
 		name = "特倫托·META",
@@ -5163,6 +5175,8 @@ end)()
 			970708
 		}
 	}
+end)()
+(function ()
 	pg.base.fleet_tech_ship_class[970709] = {
 		shiptype = 7,
 		name = "勝利·META",
@@ -5174,8 +5188,6 @@ end)()
 			970709
 		}
 	}
-end)()
-(function ()
 	pg.base.fleet_tech_ship_class[970801] = {
 		shiptype = 8,
 		name = "U-556·META",

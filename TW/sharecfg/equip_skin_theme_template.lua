@@ -95,6 +95,7 @@ pg.equip_skin_theme_template.all = {
 	105,
 	106,
 	108,
+	110,
 	199
 }
 pg.base = pg.base or {}
@@ -2168,6 +2169,20 @@ pg.base.equip_skin_theme_template = {}
 			2102,
 			2103,
 			2104
+		}
+	}
+	pg.base.equip_skin_theme_template[110] = {
+		id = 110,
+		name = "時代剪影",
+		ids = {
+			2125,
+			2126,
+			2127,
+			2128,
+			2129,
+			2130,
+			2131,
+			2132
 		}
 	}
 	pg.base.equip_skin_theme_template[199] = {

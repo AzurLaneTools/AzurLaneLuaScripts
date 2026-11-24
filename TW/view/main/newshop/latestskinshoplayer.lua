@@ -271,6 +271,7 @@ slot0.init = function(slot0)
 	slot5 = 0
 	slot0.interactionPreview = BackYardInteractionPreview.New(slot0.furnitureContainer, Vector3(0, slot5, 0))
 	slot0.voucherMsgBox = SkinVoucherMsgBox.New(pg.UIMgr.GetInstance().OverlayMain)
+	slot0.voucherMulOpMsgBox = SkinVoucherMulOpMsgBox.New(pg.UIMgr.GetInstance().OverlayMain)
 	slot0.purchaseView = NewSkinShopPurchaseView.New(slot0._tf, slot0.event)
 
 	slot0:RegisterEvent()
@@ -1353,7 +1354,7 @@ slot0.FlushPainting = function(slot0, slot1)
 end
 
 slot0.loadPainting = function(slot0, slot1)
-	if slot0:GetPaintingState(slot1) == uv0 then
+	if slot0.paintingState.state == uv0 then
 		slot0:LoadMeshPainting(slot1, slot0.isToggleShowBg)
 	elseif slot2 == uv1 then
 		slot0:LoadL2dPainting(slot1)
@@ -1984,7 +1985,7 @@ slot0.GetObtainBtnState = function(slot0, slot1)
 		return uv4
 	elseif slot1:isDisCount() and slot1:IsItemDiscountType() then
 		return uv5
-	elseif slot1:CanUseVoucherType() or slot1:ExistExclusiveDiscountItem() then
+	elseif slot1:CanUseVoucherType() or slot1:ExistExclusiveDiscountItem() or slot1:ExistMeshImageSkinExchangeItem() then
 		return uv6
 	elseif #slot1:GetGiftList() > 0 then
 		return uv7
@@ -2101,36 +2102,64 @@ slot0.OnItemPurchase = function(slot0, slot1)
 	end
 
 	slot3 = getProxy(BagProxy):GetExclusiveDiscountItem4Shop(slot1.id)
+	slot4 = slot1:GetMeshImageSkinExchangeItems()
 
-	if #slot1:GetVoucherIdList() <= 0 and #slot3 <= 0 then
+	if #slot1:GetVoucherIdList() <= 0 and #slot3 <= 0 and #slot4 <= 0 then
 		return
 	end
 
-	slot4 = {}
+	slot5 = {}
 
-	for slot8, slot9 in ipairs(slot2) do
-		table.insert(slot4, slot9)
+	for slot9, slot10 in ipairs(slot2) do
+		table.insert(slot5, slot10)
 	end
 
-	for slot8, slot9 in ipairs(slot3) do
-		table.insert(slot4, slot9.id)
+	for slot9, slot10 in ipairs(slot3) do
+		table.insert(slot5, slot10.id)
 	end
 
-	slot5 = slot0.skinId
+	slot6 = {}
 
-	slot0.voucherMsgBox:ExecuteAction("Show", {
-		itemList = slot4,
-		skinId = slot5,
-		skinName = SwitchSpecialChar(pg.ship_skin_template[slot5].name, true),
-		price = slot1:GetPrice(),
+	for slot10, slot11 in ipairs(slot4) do
+		table.insert(slot6, slot11.id)
+	end
+
+	slot7 = slot0.skinId
+
+	slot0:ShowVoucherMsgBox(slot5, slot6, slot7, SwitchSpecialChar(pg.ship_skin_template[slot7].name, true), slot1)
+end
+
+slot0.ShowVoucherMsgBox = function(slot0, slot1, slot2, slot3, slot4, slot5)
+	if #slot1 <= 0 and #slot2 <= 0 then
+		return
+	end
+
+	slot6 = {
+		itemList = slot1,
+		meshImageItemList = slot2,
+		skinId = slot3,
+		skinName = slot4,
+		price = slot5:GetPrice(),
 		onYes = function (slot0)
 			if slot0 then
-				uv0:emit(LatestSkinShopMediator.ON_ITEM_PURCHASE, slot0, uv1.id)
+				if Item.New({
+					id = slot0
+				}):IsMeshImageSkinExchangeType() then
+					uv0:emit(LatestSkinShopMediator.ON_ITEM_PURCHASE_4_MESHIMAGE, slot0, uv1, uv2.id)
+				else
+					uv0:emit(LatestSkinShopMediator.ON_ITEM_PURCHASE, slot0, uv2.id)
+				end
 			else
-				uv0:emit(LatestSkinShopMediator.ON_SHOPPING, uv1.id, 1)
+				uv0:emit(LatestSkinShopMediator.ON_SHOPPING, uv2.id, 1)
 			end
 		end
-	})
+	}
+
+	if #slot1 > 0 and #slot2 > 0 then
+		slot0.voucherMulOpMsgBox:ExecuteAction("Show", slot6)
+	else
+		slot0.voucherMsgBox:ExecuteAction("Show", slot6)
+	end
 end
 
 slot0.OnActivity = function(slot0, slot1)
@@ -2727,6 +2756,12 @@ slot0.willExit = function(slot0)
 		slot0.skinCouponMultiMsgBox:Destroy()
 
 		slot0.skinCouponMultiMsgBox = nil
+	end
+
+	if slot0.voucherMulOpMsgBox then
+		slot0.voucherMulOpMsgBox:Destroy()
+
+		slot0.voucherMulOpMsgBox = nil
 	end
 
 	if slot0.purchaseView then

@@ -4,8 +4,6 @@ slot0.Ctor = function(slot0, slot1)
 	uv0.super.Ctor(slot0, slot1)
 
 	slot0.previousPeriodAct = slot0:CreatePreviousPeriodAct()
-
-	print("========================&", slot0.id, slot0.data3, slot0.data4)
 end
 
 slot0.GetCrusingUnreceiveAward = function(slot0)

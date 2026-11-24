@@ -1843,7 +1843,7 @@ end)()
 		name = "Per",
 		background = "",
 		sculpture = "yingxianzuo_3",
-		nationality = 0,
+		nationality = 2,
 		type = 1,
 		sculpture_ii = ""
 	}

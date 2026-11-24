@@ -22,5 +22,6 @@ slot0.USAGE_SKIN_EXP = "usage_skin_exp"
 slot0.SHIP_GIFT = "usage_favorability"
 slot0.REPAIR_LOVE_LETTER = "usage_loveitem_change_2018"
 slot0.EX_RE_MAP = "usage_drop_re_map"
+slot0.MESH_IMAGE_SKIN_EXCHANGE = "usage_skin_exchange"
 
 return slot0

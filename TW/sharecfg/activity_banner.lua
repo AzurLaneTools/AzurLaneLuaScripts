@@ -63,6 +63,8 @@ pg.activity_banner.get_id_list_by_type = {
 		4,
 		5,
 		6,
+		7,
+		8,
 		9,
 		1000,
 		1001,
@@ -89,10 +91,6 @@ pg.activity_banner.get_id_list_by_type = {
 		1062,
 		1063,
 		1064
-	},
-	[3] = {
-		7,
-		8
 	},
 	[9] = {
 		90,
@@ -166,14 +164,15 @@ pg.base.activity_banner = {}
 		id = 2,
 		pic = "temp2",
 		param = {
-			"dorm 3d select"
+			"scene skinshop",
+			{}
 		},
 		time = {
 			{
 				{
 					2026,
 					11,
-					12
+					24
 				},
 				{
 					0,
@@ -184,11 +183,11 @@ pg.base.activity_banner = {}
 			{
 				{
 					2026,
-					11,
-					19
+					12,
+					16
 				},
 				{
-					14,
+					23,
 					59,
 					59
 				}
@@ -316,23 +315,18 @@ pg.base.activity_banner = {}
 		}
 	}
 	pg.base.activity_banner[7] = {
-		param = "51303",
-		time = "stop",
-		type = 3,
+		type = 2,
 		id = 7,
-		pic = "temp7"
-	}
-	pg.base.activity_banner[8] = {
-		param = "51305",
-		type = 3,
-		id = 8,
-		pic = "temp8",
+		pic = "temp7",
+		param = {
+			"crusing"
+		},
 		time = {
 			{
 				{
 					2026,
-					11,
-					19
+					12,
+					1
 				},
 				{
 					0,
@@ -344,7 +338,41 @@ pg.base.activity_banner = {}
 				{
 					2026,
 					12,
-					3
+					30
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	}
+	pg.base.activity_banner[8] = {
+		type = 2,
+		id = 8,
+		pic = "temp8",
+		param = {
+			"dorm 3d select"
+		},
+		time = {
+			{
+				{
+					2026,
+					11,
+					24
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2026,
+					12,
+					2
 				},
 				{
 					14,
@@ -397,8 +425,8 @@ pg.base.activity_banner = {}
 			{
 				{
 					2026,
-					10,
-					29
+					11,
+					24
 				},
 				{
 					0,
@@ -409,8 +437,8 @@ pg.base.activity_banner = {}
 			{
 				{
 					2026,
-					11,
-					11
+					12,
+					16
 				},
 				{
 					23,

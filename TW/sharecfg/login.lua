@@ -474,11 +474,12 @@ pg.base.login = {}
 		login_cri = "",
 		bgm = "story-musicanniversary-gorgeous",
 		op_time = {
+			"timer",
 			{
 				{
-					2024,
-					5,
-					23
+					2023,
+					6,
+					1
 				},
 				{
 					0,
@@ -488,9 +489,9 @@ pg.base.login = {}
 			},
 			{
 				{
-					2024,
+					2023,
 					6,
-					13
+					15
 				},
 				{
 					23,
@@ -535,11 +536,12 @@ pg.base.login = {}
 			}
 		},
 		op_time = {
+			"timer",
 			{
 				{
-					2024,
-					4,
-					25
+					2023,
+					8,
+					17
 				},
 				{
 					0,
@@ -549,9 +551,9 @@ pg.base.login = {}
 			},
 			{
 				{
-					2024,
-					5,
-					9
+					2023,
+					8,
+					31
 				},
 				{
 					23,
@@ -573,6 +575,7 @@ pg.base.login = {}
 	}
 	pg.base.login[34] = {
 		op_play = 1,
+		op_time = "",
 		effective_channel = 0,
 		id = 34,
 		login_static = "login",
@@ -580,32 +583,6 @@ pg.base.login = {}
 		bgm = "",
 		date = {
 			"timer",
-			{
-				{
-					2024,
-					9,
-					19
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2024,
-					9,
-					25
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		},
-		op_time = {
 			{
 				{
 					2024,
@@ -641,11 +618,12 @@ pg.base.login = {}
 		login_cri = "",
 		bgm = "theme-SeaAndSun-image",
 		op_time = {
+			"timer",
 			{
 				{
-					2024,
-					6,
-					27
+					2023,
+					10,
+					26
 				},
 				{
 					0,
@@ -655,9 +633,9 @@ pg.base.login = {}
 			},
 			{
 				{
-					2024,
-					7,
-					11
+					2023,
+					11,
+					9
 				},
 				{
 					23,
@@ -669,42 +647,17 @@ pg.base.login = {}
 	}
 	pg.base.login[44] = {
 		op_play = 0,
+		op_time = "",
 		effective_channel = 0,
 		date = "stop",
 		id = 44,
 		login_static = "login",
 		login_cri = "",
-		bgm = "",
-		op_time = {
-			{
-				{
-					2024,
-					12,
-					19
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2025,
-					1,
-					2
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
+		bgm = ""
 	}
 	pg.base.login[45] = {
-		op_play = 1,
-		op_time = "stop",
+		op_play = 0,
+		op_time = "",
 		effective_channel = 0,
 		date = "stop",
 		id = 45,
@@ -714,7 +667,7 @@ pg.base.login = {}
 	}
 	pg.base.login[46] = {
 		op_play = 0,
-		op_time = "stop",
+		op_time = "",
 		effective_channel = 0,
 		date = "stop",
 		id = 46,
@@ -733,7 +686,8 @@ pg.base.login = {}
 		bgm = ""
 	}
 	pg.base.login[48] = {
-		op_play = 1,
+		op_play = 0,
+		op_time = "",
 		effective_channel = 0,
 		id = 48,
 		login_static = "login",
@@ -741,32 +695,6 @@ pg.base.login = {}
 		bgm = "",
 		date = {
 			"timer",
-			{
-				{
-					2024,
-					7,
-					25
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2024,
-					8,
-					8
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		},
-		op_time = {
 			{
 				{
 					2024,
@@ -876,7 +804,8 @@ pg.base.login = {}
 		bgm = ""
 	}
 	pg.base.login[54] = {
-		op_play = 1,
+		op_play = 0,
+		op_time = "",
 		effective_channel = 0,
 		id = 54,
 		login_static = "login",
@@ -908,36 +837,11 @@ pg.base.login = {}
 					59
 				}
 			}
-		},
-		op_time = {
-			{
-				{
-					2025,
-					3,
-					20
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2025,
-					3,
-					31
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
 		}
 	}
 	pg.base.login[55] = {
-		op_play = 1,
+		op_play = 0,
+		op_time = "",
 		effective_channel = 0,
 		id = 55,
 		login_static = "login",
@@ -969,36 +873,11 @@ pg.base.login = {}
 					59
 				}
 			}
-		},
-		op_time = {
-			{
-				{
-					2025,
-					1,
-					16
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2025,
-					1,
-					22
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
 		}
 	}
 	pg.base.login[56] = {
 		op_play = 0,
+		op_time = "",
 		effective_channel = 0,
 		id = 56,
 		login_static = "login",
@@ -1006,32 +885,6 @@ pg.base.login = {}
 		bgm = "",
 		date = {
 			"timer",
-			{
-				{
-					2025,
-					2,
-					13
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2025,
-					2,
-					27
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		},
-		op_time = {
 			{
 				{
 					2025,
@@ -1093,11 +946,12 @@ pg.base.login = {}
 			}
 		},
 		op_time = {
+			"timer",
 			{
 				{
-					2025,
-					4,
-					30
+					2024,
+					9,
+					12
 				},
 				{
 					0,
@@ -1107,9 +961,9 @@ pg.base.login = {}
 			},
 			{
 				{
-					2025,
-					5,
-					21
+					2024,
+					10,
+					2
 				},
 				{
 					23,
@@ -1154,11 +1008,12 @@ pg.base.login = {}
 			}
 		},
 		op_time = {
+			"timer",
 			{
 				{
 					2024,
 					9,
-					26
+					19
 				},
 				{
 					0,
@@ -1170,7 +1025,7 @@ pg.base.login = {}
 				{
 					2024,
 					10,
-					9
+					2
 				},
 				{
 					23,
@@ -1182,7 +1037,7 @@ pg.base.login = {}
 	}
 	pg.base.login[59] = {
 		op_play = 0,
-		op_time = "stop",
+		op_time = "",
 		effective_channel = 0,
 		date = "stop",
 		id = 59,
@@ -1191,8 +1046,8 @@ pg.base.login = {}
 		bgm = ""
 	}
 	pg.base.login[60] = {
-		op_play = 1,
-		op_time = "stop",
+		op_play = 0,
+		op_time = "",
 		effective_channel = 0,
 		date = "stop",
 		id = 60,
@@ -1201,7 +1056,8 @@ pg.base.login = {}
 		bgm = ""
 	}
 	pg.base.login[61] = {
-		op_play = 1,
+		op_play = 0,
+		op_time = "",
 		effective_channel = 0,
 		id = 61,
 		login_static = "login",
@@ -1209,32 +1065,6 @@ pg.base.login = {}
 		bgm = "",
 		date = {
 			"timer",
-			{
-				{
-					2025,
-					7,
-					24
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2025,
-					8,
-					7
-				},
-				{
-					14,
-					59,
-					59
-				}
-			}
-		},
-		op_time = {
 			{
 				{
 					2025,
@@ -1332,11 +1162,12 @@ pg.base.login = {}
 			}
 		},
 		op_time = {
+			"timer",
 			{
 				{
 					2025,
-					11,
-					6
+					2,
+					27
 				},
 				{
 					0,
@@ -1347,11 +1178,11 @@ pg.base.login = {}
 			{
 				{
 					2025,
-					11,
-					20
+					3,
+					1
 				},
 				{
-					14,
+					23,
 					59,
 					59
 				}
@@ -1359,7 +1190,8 @@ pg.base.login = {}
 		}
 	}
 	pg.base.login[64] = {
-		op_play = 1,
+		op_play = 0,
+		op_time = "",
 		effective_channel = 0,
 		id = 64,
 		login_static = "login",
@@ -1367,32 +1199,6 @@ pg.base.login = {}
 		bgm = "",
 		date = {
 			"timer",
-			{
-				{
-					2025,
-					5,
-					22
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2025,
-					6,
-					5
-				},
-				{
-					14,
-					59,
-					59
-				}
-			}
-		},
-		op_time = {
 			{
 				{
 					2025,
@@ -1456,7 +1262,8 @@ pg.base.login = {}
 		}
 	}
 	pg.base.login[66] = {
-		op_play = 1,
+		op_play = 0,
+		op_time = "",
 		effective_channel = 0,
 		id = 66,
 		login_static = "login",
@@ -1488,69 +1295,18 @@ pg.base.login = {}
 					59
 				}
 			}
-		},
-		op_time = {
-			{
-				{
-					2025,
-					3,
-					27
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2025,
-					4,
-					10
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
 		}
 	}
 	pg.base.login[67] = {
-		op_play = 1,
+		op_play = 0,
+		op_time = "",
 		effective_channel = 0,
 		id = 67,
-		login_static = "login",
+		login_static = "login_0424",
 		login_cri = "",
 		bgm = "",
 		date = {
 			"timer",
-			{
-				{
-					2025,
-					7,
-					3
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2025,
-					7,
-					17
-				},
-				{
-					14,
-					59,
-					59
-				}
-			}
-		},
-		op_time = {
 			{
 				{
 					2025,
@@ -1588,7 +1344,8 @@ pg.base.login = {}
 		bgm = ""
 	}
 	pg.base.login[70] = {
-		op_play = 1,
+		op_play = 0,
+		op_time = "",
 		effective_channel = 0,
 		id = 70,
 		login_static = "login",
@@ -1620,36 +1377,11 @@ pg.base.login = {}
 					59
 				}
 			}
-		},
-		op_time = {
-			{
-				{
-					2025,
-					6,
-					19
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2025,
-					7,
-					2
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
 		}
 	}
 	pg.base.login[71] = {
-		op_play = 1,
+		op_play = 0,
+		op_time = "",
 		effective_channel = 0,
 		id = 71,
 		login_static = "login",
@@ -1681,36 +1413,11 @@ pg.base.login = {}
 					59
 				}
 			}
-		},
-		op_time = {
-			{
-				{
-					2025,
-					10,
-					9
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2025,
-					10,
-					23
-				},
-				{
-					14,
-					59,
-					59
-				}
-			}
 		}
 	}
 	pg.base.login[72] = {
-		op_play = 1,
+		op_play = 0,
+		op_time = "",
 		effective_channel = 0,
 		id = 72,
 		login_static = "login",
@@ -1742,36 +1449,11 @@ pg.base.login = {}
 					59
 				}
 			}
-		},
-		op_time = {
-			{
-				{
-					2025,
-					10,
-					30
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2025,
-					11,
-					6
-				},
-				{
-					14,
-					59,
-					59
-				}
-			}
 		}
 	}
 	pg.base.login[73] = {
-		op_play = 1,
+		op_play = 0,
+		op_time = "",
 		effective_channel = 0,
 		id = 73,
 		login_static = "login",
@@ -1803,36 +1485,11 @@ pg.base.login = {}
 					59
 				}
 			}
-		},
-		op_time = {
-			{
-				{
-					2025,
-					8,
-					7
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2025,
-					8,
-					21
-				},
-				{
-					14,
-					59,
-					59
-				}
-			}
 		}
 	}
 	pg.base.login[74] = {
-		op_play = 1,
+		op_play = 0,
+		op_time = "",
 		effective_channel = 0,
 		id = 74,
 		login_static = "login",
@@ -1864,36 +1521,11 @@ pg.base.login = {}
 					59
 				}
 			}
-		},
-		op_time = {
-			{
-				{
-					2025,
-					8,
-					28
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2025,
-					9,
-					12
-				},
-				{
-					14,
-					59,
-					59
-				}
-			}
 		}
 	}
 	pg.base.login[75] = {
-		op_play = 1,
+		op_play = 0,
+		op_time = "",
 		effective_channel = 0,
 		id = 75,
 		login_static = "login",
@@ -1925,36 +1557,11 @@ pg.base.login = {}
 					59
 				}
 			}
-		},
-		op_time = {
-			{
-				{
-					2025,
-					9,
-					19
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2025,
-					10,
-					9
-				},
-				{
-					14,
-					59,
-					59
-				}
-			}
 		}
 	}
 	pg.base.login[76] = {
-		op_play = 1,
+		op_play = 0,
+		op_time = "",
 		effective_channel = 0,
 		id = 76,
 		login_static = "login",
@@ -1986,36 +1593,11 @@ pg.base.login = {}
 					59
 				}
 			}
-		},
-		op_time = {
-			{
-				{
-					2025,
-					12,
-					11
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2025,
-					12,
-					25
-				},
-				{
-					14,
-					59,
-					59
-				}
-			}
 		}
 	}
 	pg.base.login[77] = {
-		op_play = 1,
+		op_play = 0,
+		op_time = "",
 		effective_channel = 0,
 		id = 77,
 		login_static = "login",
@@ -2047,37 +1629,11 @@ pg.base.login = {}
 					59
 				}
 			}
-		},
-		op_time = {
-			{
-				{
-					2025,
-					11,
-					27
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2025,
-					12,
-					10
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
 		}
 	}
 	pg.base.login[78] = {
-		op_play = 1,
-		op_time = "stop",
+		op_play = 0,
+		op_time = "",
 		effective_channel = 0,
 		date = "stop",
 		id = 78,
@@ -2086,7 +1642,8 @@ pg.base.login = {}
 		bgm = ""
 	}
 	pg.base.login[79] = {
-		op_play = 1,
+		op_play = 0,
+		op_time = "",
 		effective_channel = 0,
 		id = 79,
 		login_static = "login",
@@ -2118,36 +1675,10 @@ pg.base.login = {}
 					59
 				}
 			}
-		},
-		op_time = {
-			{
-				{
-					2026,
-					1,
-					8
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2026,
-					1,
-					14
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
 		}
 	}
 	pg.base.login[80] = {
-		op_play = 0,
+		op_play = 1,
 		op_time = "",
 		effective_channel = 0,
 		id = 80,
@@ -2183,7 +1714,8 @@ pg.base.login = {}
 		}
 	}
 	pg.base.login[81] = {
-		op_play = 1,
+		op_play = 0,
+		op_time = "",
 		effective_channel = 0,
 		id = 81,
 		login_static = "login",
@@ -2191,32 +1723,6 @@ pg.base.login = {}
 		bgm = "",
 		date = {
 			"timer",
-			{
-				{
-					2026,
-					1,
-					29
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2026,
-					2,
-					12
-				},
-				{
-					14,
-					59,
-					59
-				}
-			}
-		},
-		op_time = {
 			{
 				{
 					2026,
@@ -2278,6 +1784,7 @@ pg.base.login = {}
 			}
 		},
 		op_time = {
+			"timer",
 			{
 				{
 					2026,
@@ -2294,10 +1801,10 @@ pg.base.login = {}
 				{
 					2026,
 					2,
-					26
+					15
 				},
 				{
-					14,
+					23,
 					59,
 					59
 				}
@@ -2339,11 +1846,12 @@ pg.base.login = {}
 			}
 		},
 		op_time = {
+			"timer",
 			{
 				{
 					2026,
-					3,
-					5
+					2,
+					26
 				},
 				{
 					0,
@@ -2355,10 +1863,10 @@ pg.base.login = {}
 				{
 					2026,
 					3,
-					19
+					2
 				},
 				{
-					14,
+					23,
 					59,
 					59
 				}
@@ -2400,11 +1908,12 @@ pg.base.login = {}
 			}
 		},
 		op_time = {
+			"timer",
 			{
 				{
 					2026,
-					4,
-					2
+					3,
+					26
 				},
 				{
 					0,
@@ -2416,10 +1925,10 @@ pg.base.login = {}
 				{
 					2026,
 					4,
-					16
+					9
 				},
 				{
-					14,
+					23,
 					59,
 					59
 				}
@@ -2427,8 +1936,7 @@ pg.base.login = {}
 		}
 	}
 	pg.base.login[88] = {
-		op_play = 0,
-		op_time = "",
+		op_play = 1,
 		effective_channel = 0,
 		id = 88,
 		login_static = "login_0401",
@@ -2453,6 +1961,33 @@ pg.base.login = {}
 					2026,
 					4,
 					1
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		op_time = {
+			"timer",
+			{
+				{
+					2026,
+					3,
+					26
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2026,
+					4,
+					9
 				},
 				{
 					23,
@@ -2502,7 +2037,7 @@ pg.base.login = {}
 				{
 					2026,
 					4,
-					30
+					17
 				},
 				{
 					0,
@@ -2514,10 +2049,10 @@ pg.base.login = {}
 				{
 					2026,
 					5,
-					14
+					1
 				},
 				{
-					14,
+					23,
 					59,
 					59
 				}
@@ -2525,8 +2060,8 @@ pg.base.login = {}
 		}
 	}
 	pg.base.login[91] = {
-		op_play = 1,
-		op_time = "stop",
+		op_play = 0,
+		op_time = "",
 		effective_channel = 0,
 		date = "stop",
 		id = 91,
@@ -2573,8 +2108,8 @@ pg.base.login = {}
 			{
 				{
 					2026,
-					7,
-					9
+					6,
+					25
 				},
 				{
 					0,
@@ -2586,10 +2121,10 @@ pg.base.login = {}
 				{
 					2026,
 					7,
-					23
+					9
 				},
 				{
-					14,
+					23,
 					59,
 					59
 				}
@@ -2636,7 +2171,7 @@ pg.base.login = {}
 				{
 					2026,
 					7,
-					23
+					9
 				},
 				{
 					0,
@@ -2648,12 +2183,12 @@ pg.base.login = {}
 				{
 					2026,
 					7,
-					30
+					16
 				},
 				{
-					14,
-					59,
-					59
+					10,
+					0,
+					0
 				}
 			}
 		}
@@ -2697,8 +2232,8 @@ pg.base.login = {}
 			{
 				{
 					2026,
-					8,
-					6
+					7,
+					23
 				},
 				{
 					0,
@@ -2709,13 +2244,13 @@ pg.base.login = {}
 			{
 				{
 					2026,
-					8,
-					20
+					7,
+					30
 				},
 				{
-					14,
-					59,
-					59
+					10,
+					0,
+					0
 				}
 			}
 		}
@@ -2760,7 +2295,7 @@ pg.base.login = {}
 				{
 					2026,
 					8,
-					27
+					13
 				},
 				{
 					0,
@@ -2771,8 +2306,8 @@ pg.base.login = {}
 			{
 				{
 					2026,
-					9,
-					2
+					8,
+					19
 				},
 				{
 					23,
@@ -2821,8 +2356,8 @@ pg.base.login = {}
 			{
 				{
 					2026,
-					9,
-					3
+					8,
+					20
 				},
 				{
 					0,
@@ -2833,13 +2368,13 @@ pg.base.login = {}
 			{
 				{
 					2026,
-					9,
-					10
+					8,
+					27
 				},
 				{
-					14,
-					59,
-					59
+					10,
+					0,
+					0
 				}
 			}
 		}
@@ -2956,7 +2491,7 @@ pg.base.login = {}
 				{
 					2026,
 					9,
-					24
+					8
 				},
 				{
 					0,
@@ -2967,13 +2502,13 @@ pg.base.login = {}
 			{
 				{
 					2026,
-					10,
-					15
+					9,
+					17
 				},
 				{
-					14,
-					59,
-					59
+					10,
+					0,
+					0
 				}
 			}
 		}
@@ -3018,7 +2553,7 @@ pg.base.login = {}
 				{
 					2026,
 					9,
-					30
+					17
 				},
 				{
 					0,
@@ -3029,19 +2564,19 @@ pg.base.login = {}
 			{
 				{
 					2026,
-					10,
-					7
+					9,
+					24
 				},
 				{
-					23,
-					59,
-					59
+					10,
+					0,
+					0
 				}
 			}
 		}
 	}
 	pg.base.login[101] = {
-		op_play = 1,
+		op_play = 0,
 		effective_channel = 0,
 		id = 101,
 		login_static = "login_260924",
@@ -3079,8 +2614,8 @@ pg.base.login = {}
 			{
 				{
 					2026,
-					10,
-					8
+					9,
+					24
 				},
 				{
 					0,
@@ -3091,8 +2626,8 @@ pg.base.login = {}
 			{
 				{
 					2026,
-					10,
-					15
+					9,
+					30
 				},
 				{
 					23,
@@ -3142,7 +2677,7 @@ pg.base.login = {}
 				{
 					2026,
 					10,
-					29
+					22
 				},
 				{
 					0,
@@ -3154,12 +2689,12 @@ pg.base.login = {}
 				{
 					2026,
 					11,
-					12
+					5
 				},
 				{
-					14,
-					59,
-					59
+					16,
+					0,
+					0
 				}
 			}
 		}
@@ -3199,6 +2734,7 @@ pg.base.login = {}
 			}
 		},
 		op_time = {
+			"timer",
 			{
 				{
 					2022,
@@ -3260,6 +2796,7 @@ pg.base.login = {}
 			}
 		},
 		op_time = {
+			"timer",
 			{
 				{
 					2022,
@@ -3331,6 +2868,7 @@ pg.base.login = {}
 			}
 		},
 		op_time = {
+			"timer",
 			{
 				{
 					2023,
@@ -3376,6 +2914,7 @@ pg.base.login = {}
 		login_cri = "",
 		bgm = "doa_guanqia",
 		op_time = {
+			"timer",
 			{
 				{
 					2023,
@@ -3527,6 +3066,7 @@ pg.base.login = {}
 			}
 		},
 		op_time = {
+			"timer",
 			{
 				{
 					2024,
@@ -3588,6 +3128,7 @@ pg.base.login = {}
 			}
 		},
 		op_time = {
+			"timer",
 			{
 				{
 					2025,

@@ -106,18 +106,22 @@ slot0.init = function(slot0)
 end
 
 slot0.didEnter = function(slot0)
-	slot0:SetFloor(slot0.floorData[slot0.selectedFloorId])
-	slot0:UpdateStamina()
-	slot0:CheckGuide("DORM3D_GUIDE_02")
-	slot0:FlushInsBtn()
+	DormGroupConst.WithDownloadResourceSnapshot(function ()
+		uv0:SetFloor(uv0.floorData[uv0.selectedFloorId])
+		uv0:UpdateStamina()
+		uv0:CheckGuide("DORM3D_GUIDE_02")
+		uv0:FlushInsBtn()
 
-	if not ApartmentProxy.CheckDeviceRAMEnough() then
-		pg.TipsMgr.GetInstance():ShowTips(i18n("drom3d_memory_limit_tip"))
-	end
+		if not ApartmentProxy.CheckDeviceRAMEnough() then
+			pg.TipsMgr.GetInstance():ShowTips(i18n("drom3d_memory_limit_tip"))
+		end
+	end)
 end
 
 slot0.FlushInsBtn = function(slot0)
-	slot0.insBtn:Flush()
+	DormGroupConst.WithDownloadResourceSnapshot(function ()
+		uv0.insBtn:Flush()
+	end)
 end
 
 slot0.UpdateStamina = function(slot0)
@@ -126,25 +130,27 @@ slot0.UpdateStamina = function(slot0)
 end
 
 slot0.SetFloor = function(slot0, slot1)
-	eachChild(slot0.rtMap, function (slot0)
-		setActive(slot0, slot0.name == uv0)
+	DormGroupConst.WithDownloadResourceSnapshot(function ()
+		eachChild(uv0.rtMap, function (slot0)
+			setActive(slot0, slot0.name == uv0)
 
-		if slot0.name == uv0 then
-			uv1 = slot0
+			if slot0.name == uv0 then
+				uv1 = slot0
+			end
+		end)
+		assert(nil)
+
+		uv0.roomDic = {}
+
+		for slot4, slot5 in ipairs(pg.dorm3d_rooms.get_id_list_by_in_map[uv1]) do
+			uv0.roomDic[slot5] = slot0:Find(pg.dorm3d_rooms[slot5].assets_prefix)
+
+			uv0:InitIconTrigger(slot5)
+			uv0:UpdateIconState(slot5)
 		end
+
+		uv0:ReplaceSpecialRoomIcon()
 	end)
-	assert(nil)
-
-	slot0.roomDic = {}
-
-	for slot6, slot7 in ipairs(pg.dorm3d_rooms.get_id_list_by_in_map[slot1]) do
-		slot0.roomDic[slot7] = slot2:Find(pg.dorm3d_rooms[slot7].assets_prefix)
-
-		slot0:InitIconTrigger(slot7)
-		slot0:UpdateIconState(slot7)
-	end
-
-	slot0:ReplaceSpecialRoomIcon()
 end
 
 slot0.FlushFloor = function(slot0)
@@ -342,11 +348,13 @@ slot0.DownloadUpdate = function(slot0, slot1, slot2)
 			end
 		end,
 		finish = function ()
-			for slot3, slot4 in pairs(uv0.roomDic) do
-				uv0:UpdateIconState(slot3)
-			end
+			DormGroupConst.WithDownloadResourceSnapshot(function ()
+				for slot3, slot4 in pairs(uv0.roomDic) do
+					uv0:UpdateIconState(slot3)
+				end
 
-			uv0:CheckGuide("DORM3D_GUIDE_02")
+				uv0:CheckGuide("DORM3D_GUIDE_02")
+			end)
 		end,
 		delete = function ()
 			if uv0.roomDic[uv1] then

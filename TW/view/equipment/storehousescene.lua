@@ -1197,7 +1197,7 @@ slot0.updateItem = function(slot0, slot1, slot2)
 			onButton(slot0, slot3.go, function ()
 				uv0:emit(uv1.ON_ITEM_EXTRA, uv2.id, uv2.extra)
 			end, SFX_PANEL)
-		elseif slot4:getConfig("type") == Item.SKIN_ASSIGNED_TYPE then
+		elseif slot4:IsExchangeSkinType() then
 			onButton(slot0, slot3.go, function ()
 				slot0 = uv0
 

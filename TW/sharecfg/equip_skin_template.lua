@@ -1562,6 +1562,10 @@ pg.equip_skin_template.all = {
 	2122,
 	2123,
 	2124,
+	2125,
+	2126,
+	2127,
+	2128,
 	3001,
 	3007,
 	3008,
@@ -67840,6 +67844,195 @@ end)()
 			"wash"
 		}
 	}
+	pg.base.equip_skin_template[2125] = {
+		orbit_ui = "",
+		name = "復古懷錶子彈",
+		orbit_ui_bound = "",
+		type = 1,
+		preview_hit_distance = 30,
+		icon = "96849",
+		orbit_combat = "",
+		ship_config_id = 100011,
+		orbit_rotate_ui = "",
+		double_char_bone = "",
+		bullet_name = "zidan_fuguhuaibiao",
+		orbit_combat_anima_change = "",
+		themeid = 110,
+		orbit_slg = "",
+		orbit_hidden_action = "",
+		miss_sfx = "",
+		rarity = 4,
+		id = 2125,
+		hit_sfx = "",
+		desc = "滴答滴答，時間開始流動",
+		derivate_boom = "",
+		orbit_rotate = "",
+		mirror = 0,
+		orbit_combat_bound = "",
+		derivate_bullet = "",
+		fire_fx_name = "",
+		hit_fx_name = "zidan_fuguhuaibiao_hit",
+		plane_group = 0,
+		orbit_ui_back = 0,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		orbit_slg_bound = "",
+		equip_type = {
+			1,
+			2,
+			3
+		},
+		weapon_ids = {
+			101,
+			101
+		}
+	}
+	pg.base.equip_skin_template[2126] = {
+		orbit_ui = "",
+		name = "霧之都巴士魚雷",
+		orbit_ui_bound = "",
+		type = 1,
+		preview_hit_distance = 30,
+		icon = "96850",
+		orbit_combat = "",
+		ship_config_id = 100011,
+		orbit_rotate_ui = "",
+		double_char_bone = "",
+		bullet_name = "yulei_shuangcengbus",
+		orbit_combat_anima_change = "",
+		themeid = 110,
+		orbit_slg = "",
+		orbit_hidden_action = "",
+		miss_sfx = "",
+		rarity = 4,
+		id = 2126,
+		hit_sfx = "",
+		desc = "嘟嘟~霧之都站到了",
+		derivate_boom = "",
+		orbit_rotate = "",
+		mirror = 0,
+		orbit_combat_bound = "",
+		derivate_bullet = "",
+		fire_fx_name = "",
+		hit_fx_name = "yulei_shuangcengbus_hit",
+		plane_group = 0,
+		orbit_ui_back = 0,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		orbit_slg_bound = "",
+		equip_type = {
+			5,
+			13
+		},
+		weapon_ids = {
+			107,
+			107
+		}
+	}
+	pg.base.equip_skin_template[2127] = {
+		orbit_ui = "",
+		name = "天使街燈炮彈",
+		orbit_ui_bound = "",
+		type = 1,
+		preview_hit_distance = 0,
+		icon = "96851",
+		orbit_combat = "",
+		ship_config_id = 100011,
+		orbit_rotate_ui = "",
+		double_char_bone = "",
+		bullet_name = "paodan_tianshideng",
+		orbit_combat_anima_change = "",
+		themeid = 110,
+		orbit_slg = "",
+		orbit_hidden_action = "",
+		miss_sfx = "",
+		rarity = 4,
+		id = 2127,
+		hit_sfx = "",
+		desc = "燈火點亮長街，夜色也亮了幾分",
+		derivate_boom = "",
+		orbit_rotate = "",
+		mirror = 0,
+		orbit_combat_bound = "",
+		derivate_bullet = "",
+		fire_fx_name = "",
+		hit_fx_name = "",
+		plane_group = 0,
+		orbit_ui_back = 0,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		orbit_slg_bound = "",
+		equip_type = {
+			4,
+			11
+		},
+		weapon_ids = {
+			24000,
+			24000,
+			24000
+		}
+	}
+	pg.base.equip_skin_template[2128] = {
+		orbit_ui = "shebei_faguangmotianlunui",
+		name = "天際漫遊",
+		type = 1,
+		preview_hit_distance = 0,
+		icon = "96852",
+		orbit_combat = "shebei_faguangmotianlun",
+		ship_config_id = 100011,
+		orbit_rotate_ui = "",
+		bullet_name = "",
+		orbit_combat_anima_change = "",
+		themeid = 110,
+		orbit_slg = "",
+		miss_sfx = "",
+		rarity = 4,
+		id = 2128,
+		hit_sfx = "",
+		desc = "在摩天輪的最高處，記錄到霧之都的全貌吧~",
+		derivate_boom = "",
+		orbit_rotate = false,
+		mirror = 0,
+		derivate_bullet = "",
+		fire_fx_name = "",
+		hit_fx_name = "",
+		plane_group = 0,
+		orbit_ui_back = 1,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		orbit_slg_bound = "",
+		equip_type = {
+			10
+		},
+		weapon_ids = {
+			101,
+			101
+		},
+		double_char_bone = {
+			1,
+			0,
+			1
+		},
+		orbit_combat_bound = {
+			"face",
+			{
+				0.1,
+				1.14,
+				-0.91
+			}
+		},
+		orbit_ui_bound = {
+			"face",
+			{
+				-14,
+				-120
+			}
+		},
+		orbit_hidden_action = {
+			"sleep",
+			"wash"
+		}
+	}
 	pg.base.equip_skin_template[3001] = {
 		orbit_ui = "shebei_chushouui",
 		name = "觀察者之觸",
@@ -69503,6 +69696,8 @@ end)()
 			107
 		}
 	}
+end)()
+(function ()
 	pg.base.equip_skin_template[3047] = {
 		orbit_ui = "",
 		name = "隨波逐流炮彈",
@@ -69693,8 +69888,6 @@ end)()
 			24000
 		}
 	}
-end)()
-(function ()
 	pg.base.equip_skin_template[3052] = {
 		orbit_ui = "shebei_bingchibangui",
 		name = "冰寒之翼",

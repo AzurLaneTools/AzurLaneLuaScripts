@@ -61,12 +61,6 @@ slot1.OnCountChange = function(slot0)
 	SetActive(slot0._glowEff, slot0._progressInfo:GetCount() > 0)
 end
 
-slot1.StopCombatUIPreviewLoop = function(slot0)
-	if slot0._skin then
-		LeanTween.cancel(go(slot0._skin))
-	end
-end
-
 slot1.ApplyCombatUIPreviewState = function(slot0, slot1, slot2, slot3)
 	SetActive(slot0._filled, not slot3 and slot1 > 0)
 	SetActive(slot0._unfill, slot3 or slot1 <= 0)
@@ -74,7 +68,7 @@ slot1.ApplyCombatUIPreviewState = function(slot0, slot1, slot2, slot3)
 
 	slot0._progressBar.fillAmount = slot2
 	slot0._bgEff:GetComponent(typeof(CanvasGroup)).alpha = (slot3 or slot1 > 0) and 1 or 0
-	slot0._countTxt.text = slot1 .. "/" .. 2
+	slot0._countTxt.text = slot1 .. "/" .. #slot0.PREVIEW_LOOP_CONFIG.chargeDurations
 
 	if slot0._gizmos1 then
 		SetActive(slot0._gizmos1, slot1 > 0)
@@ -86,48 +80,6 @@ slot1.ApplyCombatUIPreviewState = function(slot0, slot1, slot2, slot3)
 	slot0._bgEffAni.enabled = true
 
 	slot0:updateProgressBG(slot2, 5)
-end
-
-slot1.StartCombatUIPreviewLoop = function(slot0)
-	slot1 = go(slot0._skin)
-
-	(function ()
-		uv0:ApplyCombatUIPreviewState(0, 0, true)
-		LeanTween.value(uv1, 0, 1, 5):setOnUpdate(System.Action_float(function (slot0)
-			uv0:ApplyCombatUIPreviewState(0, slot0, true)
-		end)):setOnComplete(System.Action(function ()
-			uv0:ApplyCombatUIPreviewState(2, 1, false)
-			quickCheckAndPlayAnimator(uv0._skin, "weapon_button_progress_filled")
-			LeanTween.delayedCall(uv1, 3, System.Action(function ()
-				uv0:ApplyCombatUIPreviewState(1, 1, false)
-				quickCheckAndPlayAnimator(uv0._skin, "weapon_button_progress_use")
-				LeanTween.delayedCall(uv1, 3, System.Action(function ()
-					uv0:ApplyCombatUIPreviewState(0, 0, false)
-					quickCheckAndPlayAnimator(uv0._skin, "weapon_button_progress_use")
-					LeanTween.delayedCall(uv1, 3, System.Action(function ()
-						uv0()
-					end))
-				end))
-			end))
-		end))
-	end)()
-end
-
-slot1.SetToCombatUIPreview = function(slot0, slot1)
-	slot0:StopCombatUIPreviewLoop()
-
-	if slot1 == CombatUIPreviewer.WeaponButtonPreviewMode.LOOP then
-		slot0:StartCombatUIPreviewLoop()
-
-		return
-	end
-
-	if slot1 ~= slot2.UNFILLED then
-		slot0:ApplyCombatUIPreviewState(2, 1, false)
-		quickCheckAndPlayAnimator(slot0._skin, "weapon_button_progress_filled")
-	else
-		slot0:ApplyCombatUIPreviewState(0, 0, false)
-	end
 end
 
 slot1.updateProgressBar = function(slot0)
@@ -159,9 +111,4 @@ slot1.updateProgressBG = function(slot0, slot1, slot2)
 	slot0._bgEffAni:Update(0)
 
 	slot0._bgEffAni.speed = 0
-end
-
-slot1.Dispose = function(slot0)
-	slot0:StopCombatUIPreviewLoop()
-	uv0.super.Dispose(slot0)
 end

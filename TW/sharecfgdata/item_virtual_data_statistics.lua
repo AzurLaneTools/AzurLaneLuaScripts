@@ -179811,6 +179811,33 @@ _G.pg.base.item_virtual_data_statistics[65116] = {
 }
 
 
+_G.pg.base.item_virtual_data_statistics[65118] = {
+	drop_gold_max = 0,
+	name = "巡遊點數",
+	display = "參與「世界巡遊」獲得的點數，累計一定程度可以領取獎勵，活動結束後將會消失 ",
+	type = 0,
+	is_world = 0,
+	shop_id = -1,
+	replace_item = 0,
+	time_limit = 0,
+	link_id = 7030,
+	drop_arg = "",
+	album_config = "",
+	icon = "props/battlepass_pt",
+	order = 0,
+	rarity = 2,
+	max_num = 0,
+	drop_oil_max = 0,
+	virtual_type = 21,
+	id = 65118,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+
 _G.pg.base.item_virtual_data_statistics[65119] = {
 	drop_gold_max = 0,
 	name = "加速次數",
@@ -192986,6 +193013,33 @@ _G.pg.base.item_virtual_data_statistics[67003] = {
 	drop_oil_max = 0,
 	virtual_type = 0,
 	id = 67003,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+
+_G.pg.base.item_virtual_data_statistics[67005] = {
+	drop_gold_max = 0,
+	name = "換裝體驗券",
+	display = "用於「限時體驗商店」兌換角色限時換裝",
+	type = 98,
+	is_world = 0,
+	shop_id = 1,
+	replace_item = 0,
+	time_limit = 0,
+	link_id = 0,
+	drop_arg = "",
+	album_config = "",
+	icon = "Props/skinTicket",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	drop_oil_max = 0,
+	virtual_type = 0,
+	id = 67005,
 	display_icon = {},
 	price = {},
 	index = {},

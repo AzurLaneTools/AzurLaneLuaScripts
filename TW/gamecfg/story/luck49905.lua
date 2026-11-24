@@ -9,7 +9,7 @@ return {
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "呵呵，听见了吗？这来自深渊的回响……沉眠已久的力量，终于苏醒了。",
+			say = "呵呵，聽見了嗎？這來自深淵的迴響……沉眠已久的力量，終於甦醒了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -22,7 +22,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			side = 2,
-			say = "指挥官，你该不会被这狂暴的海浪吓到了吧？",
+			say = "指揮官，你該不會被這狂暴的海浪嚇到了吧？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -34,7 +34,7 @@ return {
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "若想与我同行，就要拿出足以驾驭巨浪的勇气。",
+			say = "若想與我同行，就要拿出足以駕馭巨浪的勇氣。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -46,7 +46,7 @@ return {
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "来吧，举起酒杯——今后的每一片海域，都将留下我们征服的足迹，呵呵呵~",
+			say = "來吧，舉起酒杯——今後的每一片海域，都將留下我們征服的足跡，呵呵呵~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

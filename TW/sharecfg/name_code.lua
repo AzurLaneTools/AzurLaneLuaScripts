@@ -450,6 +450,7 @@ pg.name_code.all = {
 	564,
 	565,
 	566,
+	567,
 	10000,
 	10001,
 	10002,
@@ -3598,6 +3599,13 @@ end)()
 		type = 1,
 		id = 566,
 		code = "馬克斯·遠古的鋼鐵之龍·長生的天空主宰·英麥曼",
+		nation = 0
+	}
+	pg.base.name_code[567] = {
+		name = "紐倫堡·META",
+		type = 1,
+		id = 567,
+		code = "紐倫堡·META",
 		nation = 0
 	}
 	pg.base.name_code[10000] = {

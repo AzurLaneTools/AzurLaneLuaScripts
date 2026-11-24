@@ -4221,6 +4221,9 @@ pg.memory_template.all = {
 	5625,
 	5631,
 	5632,
+	5641,
+	5642,
+	5643,
 	10011,
 	10012,
 	10013,
@@ -80407,6 +80410,60 @@ end)()
 			"TIANSHIMENDEBILANWUTAIRICHANG2"
 		}
 	}
+	pg.base.memory_template[5641] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "青澀的見習檢查",
+		condition = "完成「港區時尚特刊：心動診療時間」那不勒斯的簽到",
+		story = "SHISHANGTEKANXINDONGZHENLIAOSHIJIAN1",
+		mask = "bg/bg_memory",
+		task = 0,
+		year = 0,
+		id = 5641,
+		icon = "memory_gangqushishangtekan",
+		is_open = 0,
+		unlock_pre = {
+			"SHISHANGTEKANXINDONGZHENLIAOSHIJIAN1"
+		}
+	}
+	pg.base.memory_template[5642] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "交錯的診斷時間",
+		condition = "完成「港區時尚特刊：心跳診療時間」新奧爾良的簽到",
+		story = "SHISHANGTEKANXINDONGZHENLIAOSHIJIAN2",
+		mask = "bg/bg_memory",
+		task = 0,
+		year = 0,
+		id = 5642,
+		icon = "memory_gangqushishangtekan",
+		is_open = 0,
+		unlock_pre = {
+			"SHISHANGTEKANXINDONGZHENLIAOSHIJIAN2"
+		}
+	}
+	pg.base.memory_template[5643] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "風中的純白絮語",
+		condition = "完成「港區時尚特刊：心跳診療時間」伴爾維的簽到",
+		story = "SHISHANGTEKANXINDONGZHENLIAOSHIJIAN3",
+		mask = "bg/bg_memory",
+		task = 0,
+		year = 0,
+		id = 5643,
+		icon = "memory_gangqushishangtekan",
+		is_open = 0,
+		unlock_pre = {
+			"SHISHANGTEKANXINDONGZHENLIAOSHIJIAN3"
+		}
+	}
 	pg.base.memory_template[10011] = {
 		ship_group = 0,
 		subtitle = "",
@@ -81847,6 +81904,8 @@ end)()
 			"LINGHANGYUANYANGCHENGJIHUA42"
 		}
 	}
+end)()
+(function ()
 	pg.base.memory_template[20042] = {
 		ship_group = 0,
 		subtitle = "",
@@ -81901,8 +81960,6 @@ end)()
 			"LINGHANGYUANHAOGANDU1"
 		}
 	}
-end)()
-(function ()
 	pg.base.memory_template[20045] = {
 		ship_group = 0,
 		subtitle = "",
@@ -83649,6 +83706,8 @@ end)()
 			"LINGYANGZHELAIFANGJISHI5"
 		}
 	}
+end)()
+(function ()
 	pg.base.memory_template[20143] = {
 		ship_group = 0,
 		subtitle = "",
@@ -83703,8 +83762,6 @@ end)()
 			"LINGYANGZHELAIFANGJISHI8"
 		}
 	}
-end)()
-(function ()
 	pg.base.memory_template[20146] = {
 		ship_group = 0,
 		subtitle = "",

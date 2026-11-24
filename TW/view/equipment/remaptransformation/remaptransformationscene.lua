@@ -82,7 +82,7 @@ slot0.init = function(slot0)
 			end)
 		end
 
-		if uv0.displayDrops[uv0.selectedIndex].type == DROP_TYPE_ITEM and uv0.displayDrops[uv0.selectedIndex]:getSubClass() and slot1:getConfig("type") == Item.SKIN_ASSIGNED_TYPE and slot1:IsAllSkinOwner() then
+		if uv0.displayDrops[uv0.selectedIndex].type == DROP_TYPE_ITEM and uv0.displayDrops[uv0.selectedIndex]:getSubClass() and slot1:IsExchangeSkinType() and slot1:IsAllSkinOwner() then
 			table.insert(slot0, function (slot0)
 				pg.MsgboxMgr.GetInstance():ShowMsgBox({
 					content = i18n("blackfriday_pack_select_skinall"),
@@ -178,7 +178,7 @@ slot0.update = function(slot0, slot1)
 	UpdateOwnDisplay(slot5:Find("left/own"), slot3)
 
 	if underscore.any(slot0.displayDrops, function (slot0)
-		return slot0.type == DROP_TYPE_ITEM and slot0:getConfig("type") == Item.SKIN_ASSIGNED_TYPE
+		return slot0.type == DROP_TYPE_ITEM and Item.StaticIsExchangeSkinType(slot0:getConfig("type"), slot0:getConfig("virtual_type"))
 	end) or slot3.type == DROP_TYPE_ITEM and slot3:getConfig("type") == Item.ASSIGNED_TYPE then
 		RegisterDetailButton(slot0, slot0.itemTF:Find("left/detail"), slot3)
 	else
