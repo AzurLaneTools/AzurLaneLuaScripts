@@ -101,6 +101,7 @@ pg.commander_skill_effect_template.all = {
 	9600111,
 	9600112,
 	9600113,
+	9600114,
 	9600211,
 	9600212,
 	9600213,
@@ -124,6 +125,8 @@ pg.commander_skill_effect_template.all = {
 	9600812,
 	9600813,
 	9600814,
+	9600815,
+	9600816,
 	9600911,
 	9600912,
 	9600913,
@@ -621,7 +624,7 @@ pg.base.commander_skill_effect_template = {}
 		name = "雷达侦察",
 		effect_type = "ambush_doge",
 		args = {
-			101,
+			103,
 			0.05,
 			10,
 			250
@@ -898,7 +901,7 @@ pg.base.commander_skill_effect_template = {}
 		name = "无畏的骑士",
 		effect_type = "ambush_doge",
 		args = {
-			102,
+			103,
 			0.05,
 			10,
 			250
@@ -1378,7 +1381,7 @@ pg.base.commander_skill_effect_template = {}
 		effect_type = "attack",
 		args = {
 			"cannon",
-			102,
+			101,
 			1500,
 			0.3,
 			600
@@ -1388,7 +1391,8 @@ pg.base.commander_skill_effect_template = {}
 				"count",
 				{
 					4,
-					5
+					5,
+					10
 				},
 				1,
 				3
@@ -1695,6 +1699,30 @@ pg.base.commander_skill_effect_template = {}
 		},
 		condition = {}
 	}
+	pg.base.commander_skill_effect_template[9600114] = {
+		id = 9600114,
+		name = "环球航行",
+		effect_type = "battle_buff",
+		args = {
+			40412
+		},
+		condition = {
+			{
+				"count",
+				{
+					22,
+					23,
+					24
+				},
+				1,
+				6
+			},
+			{
+				"insubteam",
+				1
+			}
+		}
+	}
 	pg.base.commander_skill_effect_template[9600211] = {
 		id = 9600211,
 		name = "私掠者的是与非",
@@ -1704,6 +1732,8 @@ pg.base.commander_skill_effect_template = {}
 		},
 		condition = {}
 	}
+end)()
+(function ()
 	pg.base.commander_skill_effect_template[9600212] = {
 		id = 9600212,
 		name = "私掠者的是与非",
@@ -1723,8 +1753,6 @@ pg.base.commander_skill_effect_template = {}
 			}
 		}
 	}
-end)()
-(function ()
 	pg.base.commander_skill_effect_template[9600213] = {
 		id = 9600213,
 		name = "私掠者的是与非",
@@ -1838,6 +1866,16 @@ end)()
 			40490
 		},
 		condition = {
+			{
+				"count",
+				{
+					22,
+					23,
+					24
+				},
+				1,
+				6
+			},
 			{
 				"insubteam",
 				1
@@ -2008,6 +2046,44 @@ end)()
 				},
 				1,
 				6
+			}
+		}
+	}
+	pg.base.commander_skill_effect_template[9600815] = {
+		id = 9600815,
+		name = "迅捷与勇气",
+		effect_type = "battle_buff",
+		args = {
+			40632
+		},
+		condition = {
+			{
+				"count",
+				{
+					22,
+					23,
+					24
+				},
+				1,
+				6
+			},
+			{
+				"insubteam",
+				1
+			}
+		}
+	}
+	pg.base.commander_skill_effect_template[9600816] = {
+		id = 9600816,
+		name = "迅捷与勇气",
+		effect_type = "battle_buff",
+		args = {
+			40634
+		},
+		condition = {
+			{
+				"insubteam",
+				1
 			}
 		}
 	}
@@ -2187,7 +2263,7 @@ end)()
 		name = "守望者",
 		effect_type = "battle_buff",
 		args = {
-			411910
+			411930
 		},
 		condition = {
 			{

@@ -585,6 +585,10 @@ pg.player_resource.all = {
 	784,
 	785,
 	786,
+	779,
+	780,
+	781,
+	782,
 	760,
 	761,
 	762,
@@ -1426,6 +1430,15 @@ pg.player_resource.get_id_list_by_name = {
 	limit_skinticket126 = {
 		769
 	},
+	limit_skinticket127 = {
+		779
+	},
+	limit_skinticket128 = {
+		780
+	},
+	limit_skinticket129 = {
+		781
+	},
 	limit_skinticket13 = {
 		472
 	},
@@ -2049,6 +2062,9 @@ pg.player_resource.get_id_list_by_name = {
 	},
 	skinTicket127 = {
 		770
+	},
+	skinTicket128 = {
+		782
 	},
 	skinTicket129 = {
 		786
@@ -5794,6 +5810,26 @@ end)()
 		name = "skinTicket129",
 		itemid = 67005
 	}
+	pg.base.player_resource[779] = {
+		id = 779,
+		name = "limit_skinticket127",
+		itemid = 68391
+	}
+	pg.base.player_resource[780] = {
+		id = 780,
+		name = "limit_skinticket128",
+		itemid = 68392
+	}
+	pg.base.player_resource[781] = {
+		id = 781,
+		name = "limit_skinticket129",
+		itemid = 68393
+	}
+	pg.base.player_resource[782] = {
+		id = 782,
+		name = "skinTicket128",
+		itemid = 67004
+	}
 	pg.base.player_resource[760] = {
 		id = 760,
 		name = "limit_skinticket118",
@@ -5864,6 +5900,8 @@ end)()
 		name = "contribution_worldboss926",
 		itemid = 59141
 	}
+end)()
+(function ()
 	pg.base.player_resource[2003] = {
 		id = 2003,
 		name = "worldboss926_ticket",
@@ -5884,8 +5922,6 @@ end)()
 		name = "contribution_worldboss624",
 		itemid = 60057
 	}
-end)()
-(function ()
 	pg.base.player_resource[2007] = {
 		id = 2007,
 		name = "worldboss624_ticket",
@@ -6366,6 +6402,8 @@ end)()
 		name = "skinTicket40461",
 		itemid = 59245
 	}
+end)()
+(function ()
 	pg.base.player_resource[45037] = {
 		id = 45037,
 		name = "jiujiu_twfk",
@@ -6386,8 +6424,6 @@ end)()
 		name = "skinTicket40588",
 		itemid = 59301
 	}
-end)()
-(function ()
 	pg.base.player_resource[40614] = {
 		id = 40614,
 		name = "contribution_worldboss_tw411",

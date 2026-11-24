@@ -93,6 +93,7 @@ pg.equip_skin_theme_template.all = {
 	89,
 	90,
 	91,
+	92,
 	101,
 	102,
 	103,
@@ -2153,6 +2154,31 @@ pg.base.equip_skin_theme_template = {}
 			1554
 		}
 	}
+	pg.base.equip_skin_theme_template[92] = {
+		id = 92,
+		name = "心动魔学院",
+		ids = {
+			4474,
+			4475,
+			4476,
+			4477,
+			4478,
+			4479,
+			4480,
+			4481,
+			4482,
+			4483,
+			4484,
+			4485,
+			4486,
+			4487,
+			4488,
+			4489,
+			4490,
+			4491,
+			4492
+		}
+	}
 	pg.base.equip_skin_theme_template[101] = {
 		id = 101,
 		name = "星辰无垠",
@@ -2327,6 +2353,8 @@ pg.base.equip_skin_theme_template = {}
 			2124
 		}
 	}
+end)()
+(function ()
 	pg.base.equip_skin_theme_template[110] = {
 		id = 110,
 		name = "时代剪影",
@@ -2338,11 +2366,13 @@ pg.base.equip_skin_theme_template = {}
 			2129,
 			2130,
 			2131,
-			2132
+			2132,
+			2133,
+			2134,
+			2135,
+			2136
 		}
 	}
-end)()
-(function ()
 	pg.base.equip_skin_theme_template[199] = {
 		id = 199,
 		name = "其他",

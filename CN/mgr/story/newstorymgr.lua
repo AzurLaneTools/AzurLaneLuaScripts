@@ -682,6 +682,7 @@ slot0.OnStart = function(slot0)
 	removeOnButton(slot0.skipBtn)
 	removeOnButton(slot0.autoBtn)
 	removeOnButton(slot0.recordBtn)
+	setActive(slot0.frontEvtTr, false)
 
 	slot0.mainImage.color = Color(0, 0, 0, slot0.storyScript:GetStoryAlpha())
 

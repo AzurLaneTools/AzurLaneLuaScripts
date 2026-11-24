@@ -2136,4 +2136,16 @@ end)()
 		actor_name = "三木谷奈奈",
 		code = 530
 	}
+	pg.base.voice_actor_CN[531] = {
+		actor_name = "菊池友莉菜",
+		code = 531
+	}
+	pg.base.voice_actor_CN[532] = {
+		actor_name = "天音缘",
+		code = 532
+	}
+	pg.base.voice_actor_CN[533] = {
+		actor_name = "厚地彩花",
+		code = 533
+	}
 end)()

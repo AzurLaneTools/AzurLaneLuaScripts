@@ -106,15 +106,11 @@ slot0.OnInit = function(slot0)
 	})
 
 	slot0.loader = AutoLoader.New()
-	slot3 = slot0._tf
-	slot0.searchBtn = slot3:Find("ActivityToggle/search_btn/btn")
-	slot3 = slot0._tf
-	slot0.nameSearchInput = slot3:Find("ActivityToggle/search_btn/search")
-	slot3 = slot0._tf
-	slot0.closeSearch = slot3:Find("ActivityToggle/search_btn/icon")
-	slot4 = slot0.searchBtn
+	slot0.searchBtn = slot0._tf:Find("ActivityToggle/search_btn/btn")
+	slot0.nameSearchInput = slot0._tf:Find("ActivityToggle/search_btn/search")
+	slot0.closeSearch = slot0._tf:Find("ActivityToggle/search_btn/icon")
 
-	setText(slot4:Find("label"), i18n("storyline_memorysearch2"))
+	setText(slot0.searchBtn:Find("label"), i18n("storyline_memorysearch2"))
 	onButton(slot0, slot0.searchBtn, function ()
 		setActive(uv0.nameSearchInput, true)
 		setActive(uv0.searchBtn, false)
@@ -137,17 +133,13 @@ slot0.OnInit = function(slot0)
 	end)
 	slot0:MemoryFilter()
 
-	slot3 = slot0._tf
-	slot0.rectAnchorX = slot3:Find("GroupRect").anchoredPosition.x
+	slot0.rectAnchorX = slot0._tf:Find("GroupRect").anchoredPosition.x
 
 	slot0:UpdateView()
 
-	slot3 = slot0._tf
-	slot0.storyLineBtn = slot3:Find("StoryLineBtn")
-	slot3 = slot0._tf
-	slot0.storyLineEntranceBtn = slot3:Find("StoryLineBtn/entranceBtn")
-	slot3 = slot0._tf
-	slot0.storyLineHideBtn = slot3:Find("StoryLineBtn/closeBtn")
+	slot0.storyLineBtn = slot0._tf:Find("StoryLineBtn")
+	slot0.storyLineEntranceBtn = slot0._tf:Find("StoryLineBtn/entranceBtn")
+	slot0.storyLineHideBtn = slot0._tf:Find("StoryLineBtn/closeBtn")
 	slot0.currentMode = uv0.FORM_MODE
 
 	onButton(slot0, slot0.storyLineEntranceBtn, function ()
@@ -160,17 +152,16 @@ slot0.OnInit = function(slot0)
 		uv0:StoryLineBtnSetActive(true)
 	end)
 
-	slot3 = slot0._tf
-	slot0.storylineTF = slot3:Find("StoryLine")
+	slot0.storylineTF = slot0._tf:Find("StoryLine")
 	slot0.storyLineView = WorldMediaCollectionStoryLineView.New(slot0.storylineTF)
-	slot5 = slot0.storyLineView
 
-	slot5:ConfigCallback(function (slot0, slot1)
+	slot0.storyLineView:ConfigCallback(function (slot0, slot1)
 		uv0.viewParent:ShowSubMemories(slot0, true, slot1)
 		uv1.super.Hide(uv0)
 	end, function (slot0, slot1, slot2)
 		uv0.viewParent.viewParent:WarpToRecord(slot0, slot1, slot2)
 	end)
+	slot0:InitEasterEgg()
 end
 
 slot0.StoryLineBtnSetActive = function(slot0, slot1)
@@ -386,6 +377,7 @@ slot0.UpdateActivityBar = function(slot0)
 end
 
 slot0.OnDestroy = function(slot0)
+	slot0:ExitEasterEgg()
 	uv0.super.OnDestroy(slot0)
 	slot0.storyLineView:Dispose()
 	slot0:UnOverlayPanel(slot0.memoryTogGroup, slot0._tf)
@@ -403,6 +395,85 @@ slot0.GetMatchGroupList = function(slot0, slot1, slot2)
 	end
 
 	return slot3
+end
+
+slot0.Scroll2MemoryGroup = function(slot0, slot1, slot2)
+	if slot0.currentMode ~= uv0.FORM_MODE or not slot0.memoryGroupList or not slot0.memoryGroupList.isStart then
+		return
+	end
+
+	slot3 = slot0.searchGroupList or slot0.memoryGroups or {}
+
+	for slot7, slot8 in ipairs(slot3) do
+		if slot8.id == slot1 then
+			LeanTween.cancel(go(slot0.memoryGroupList))
+			slot0.memoryGroupList:StopMovement()
+
+			if math.abs(math.clamp(slot0.memoryGroupList:HeadIndexToValue(slot7 - 1), 0, 1) - slot0.memoryGroupList.value) < 0.001 then
+				return
+			end
+
+			if slot2 then
+				slot0.memoryGroupList:ScrollTo(slot9, false)
+
+				break
+			end
+
+			slot13 = LeanTween.value(slot11, slot10, slot9, math.clamp(math.abs(slot9 - slot10) * 1.5, 0.2, 0.8))
+			slot13 = slot13:setEase(LeanTweenType.easeInOutCirc)
+
+			slot13:setOnUpdate(System.Action_float(function (slot0)
+				uv0.memoryGroupList:ScrollTo(slot0, false)
+			end))
+
+			break
+		end
+	end
+end
+
+slot0.InitEasterEgg = function(slot0)
+	if EasterEggTools.IsEnabled(EasterEggTools.GetActivity(), EasterEggConst.SCENE.CollectionMemory) then
+		slot0.easterEggView = EasterEggView.New(findTF(slot0._tf, "GroupRect/easterEggBtn"), slot0, EasterEggConst.SCENE.CollectionMemory)
+		slot3 = nil
+		slot4 = slot0.easterEggView
+
+		slot4:SetEasterEggCallBack(function (slot0, slot1)
+			slot1()
+		end, function (slot0)
+			slot1 = pg.UIMgr.GetInstance()
+
+			slot1:LoadingOn(false)
+
+			slot1 = uv0
+
+			slot1:Scroll2MemoryGroup(EasterEggConst.MEMORY_GROUP_ID, true)
+
+			slot1 = uv0.easterEggView
+
+			slot1:AddHideEasterEggTimer(EasterEggConst.SCROLL_FREZZE_TIME, function ()
+				pg.UIMgr.GetInstance():LoadingOff()
+				uv0()
+			end)
+		end)
+	end
+end
+
+slot0.ShowEasterEgg = function(slot0)
+	if slot0.easterEggView then
+		slot0.easterEggView:ShowEasterEgg()
+	end
+end
+
+slot0.HideEasterEgg = function(slot0)
+	if slot0.easterEggView then
+		slot0.easterEggView:HideEasterEgg()
+	end
+end
+
+slot0.ExitEasterEgg = function(slot0)
+	if slot0.easterEggView then
+		slot0.easterEggView:willExit()
+	end
 end
 
 return slot0

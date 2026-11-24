@@ -17193,6 +17193,37 @@ _G.pg.base.item_data_statistics[21066] = {
 }
 
 
+_G.pg.base.item_data_statistics[21067] = {
+	open_directly = 0,
+	name = "结晶：凯尔圣·META",
+	type = 4,
+	display = "凯尔圣·META的专用性能提升装置，可在「META研究室」-「能量激活」中使用。",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_undefined",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/21067",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "[]",
+	id = 21067,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	limit = {}
+}
+
+
 _G.pg.base.item_data_statistics[21101] = {
 	open_directly = 0,
 	name = "结晶化热强钢",
@@ -31089,6 +31120,131 @@ _G.pg.base.item_data_statistics[30389] = {
 }
 
 
+_G.pg.base.item_data_statistics[30390] = {
+	open_directly = 1,
+	name = "外观装备箱(心动魔学院)",
+	type = 11,
+	display = "可以获得一件随机的心动魔学院风格外观装备",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_drop",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/appearanceboxzhenlixueyuan",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "30387",
+	id = 30390,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			9,
+			4474,
+			1
+		},
+		{
+			9,
+			4475,
+			1
+		},
+		{
+			9,
+			4476,
+			1
+		},
+		{
+			9,
+			4477,
+			1
+		},
+		{
+			9,
+			4478,
+			1
+		},
+		{
+			9,
+			4479,
+			1
+		},
+		{
+			9,
+			4480,
+			1
+		},
+		{
+			9,
+			4481,
+			1
+		},
+		{
+			9,
+			4482,
+			1
+		},
+		{
+			9,
+			4483,
+			1
+		},
+		{
+			9,
+			4484,
+			1
+		},
+		{
+			9,
+			4485,
+			1
+		},
+		{
+			9,
+			4486,
+			1
+		},
+		{
+			9,
+			4487,
+			1
+		},
+		{
+			9,
+			4488,
+			1
+		},
+		{
+			9,
+			4489,
+			1
+		},
+		{
+			9,
+			4490,
+			1
+		},
+		{
+			9,
+			4491,
+			1
+		}
+	},
+	price = {
+		1,
+		7000
+	},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	limit = {}
+}
+
+
 _G.pg.base.item_data_statistics[30401] = {
 	open_directly = 1,
 	name = "外观装备箱(世界巡游)",
@@ -33022,6 +33178,58 @@ _G.pg.base.item_data_statistics[30437] = {
 		{
 			9,
 			2132,
+			1
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[30438] = {
+	open_directly = 1,
+	name = "外观装备箱(世界巡游)",
+	type = 11,
+	display = "可以随机获得一件本次世界巡游限定外观装备",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_drop",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/appearanceboxshijiexunyou",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "111232",
+	id = 30438,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			9,
+			2133,
+			1
+		},
+		{
+			9,
+			2134,
+			1
+		},
+		{
+			9,
+			2135,
+			1
+		},
+		{
+			9,
+			2136,
 			1
 		}
 	},
@@ -48561,6 +48769,219 @@ _G.pg.base.item_data_statistics[30573] = {
 		{
 			9,
 			4473,
+			1
+		}
+	},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[30574] = {
+	open_directly = 0,
+	name = "定向外观装备箱(心动魔学院)",
+	type = 13,
+	display = "使用后可从「光暗夜想曲」主题外观装备中任意选择一种获得1个",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_drop_appointed",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/appearanceboxzhenlixueyuanzixuan",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	id = 30574,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			9,
+			4474,
+			1
+		},
+		{
+			9,
+			4475,
+			1
+		},
+		{
+			9,
+			4476,
+			1
+		},
+		{
+			9,
+			4477,
+			1
+		},
+		{
+			9,
+			4478,
+			1
+		},
+		{
+			9,
+			4479,
+			1
+		},
+		{
+			9,
+			4480,
+			1
+		},
+		{
+			9,
+			4481,
+			1
+		},
+		{
+			9,
+			4482,
+			1
+		},
+		{
+			9,
+			4483,
+			1
+		},
+		{
+			9,
+			4484,
+			1
+		},
+		{
+			9,
+			4485,
+			1
+		},
+		{
+			9,
+			4486,
+			1
+		},
+		{
+			9,
+			4487,
+			1
+		},
+		{
+			9,
+			4488,
+			1
+		},
+		{
+			9,
+			4489,
+			1
+		},
+		{
+			9,
+			4490,
+			1
+		},
+		{
+			9,
+			4491,
+			1
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	usage_arg = {
+		{
+			9,
+			4474,
+			1
+		},
+		{
+			9,
+			4475,
+			1
+		},
+		{
+			9,
+			4476,
+			1
+		},
+		{
+			9,
+			4477,
+			1
+		},
+		{
+			9,
+			4478,
+			1
+		},
+		{
+			9,
+			4479,
+			1
+		},
+		{
+			9,
+			4480,
+			1
+		},
+		{
+			9,
+			4481,
+			1
+		},
+		{
+			9,
+			4482,
+			1
+		},
+		{
+			9,
+			4483,
+			1
+		},
+		{
+			9,
+			4484,
+			1
+		},
+		{
+			9,
+			4485,
+			1
+		},
+		{
+			9,
+			4486,
+			1
+		},
+		{
+			9,
+			4487,
+			1
+		},
+		{
+			9,
+			4488,
+			1
+		},
+		{
+			9,
+			4489,
+			1
+		},
+		{
+			9,
+			4490,
+			1
+		},
+		{
+			9,
+			4491,
 			1
 		}
 	},
@@ -138722,6 +139143,357 @@ _G.pg.base.item_data_statistics[68384] = {
 }
 
 
+_G.pg.base.item_data_statistics[68385] = {
+	open_directly = 1,
+	name = "换装抵扣礼包(水上微醺)",
+	type = 17,
+	display = "购买后可获得<color=#92fc63FF>莫洛托夫</color>换装<color=#92fc63FF>水上微醺</color>的钻石抵扣券等道具",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_drop",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "ChargeIcon/skin_ticket_package",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "88509",
+	id = 68385,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			2,
+			68388,
+			1
+		},
+		{
+			2,
+			68391,
+			1
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[68386] = {
+	open_directly = 1,
+	name = "换装抵扣礼包(沉溺妄想)",
+	type = 17,
+	display = "购买后可获得<color=#92fc63FF>锡诺普</color>换装<color=#92fc63FF>沉溺妄想</color>的钻石抵扣券等道具",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_drop",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "ChargeIcon/skin_ticket_package",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "88510",
+	id = 68386,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			2,
+			68389,
+			1
+		},
+		{
+			2,
+			68392,
+			1
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[68387] = {
+	open_directly = 1,
+	name = "换装抵扣礼包(清凉的祝福试炼)",
+	type = 17,
+	display = "购买后可获得<color=#92fc63FF>克利奥佩特拉</color>换装<color=#92fc63FF>清凉的祝福试炼</color>的钻石抵扣券等道具",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_drop",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "ChargeIcon/skin_ticket_package",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "88511",
+	id = 68387,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			2,
+			68390,
+			1
+		},
+		{
+			2,
+			68393,
+			1
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[68388] = {
+	open_directly = 0,
+	name = "换装抵扣券(水上微醺)",
+	type = 1,
+	display = "持有此道具时，购买<color=#92fc63FF>莫洛托夫</color>换装<color=#92fc63FF>水上微醺</color>时可消耗此道具，并抵扣300钻石\n<color=#ff5c5c>道具有效期：自获得后～2026年11月29日 23:59，过期后此道具将消失，并自动转化为300钻石</color>",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_shop_discount",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/limit_skin_300",
+	order = 1,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 1,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	id = 68388,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	price = {
+		14,
+		300
+	},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	usage_arg = {
+		{
+			71427
+		},
+		300
+	},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[68389] = {
+	open_directly = 0,
+	name = "换装抵扣券(沉溺妄想)",
+	type = 1,
+	display = "持有此道具时，购买<color=#92fc63FF>锡诺普</color>换装<color=#92fc63FF>沉溺妄想</color>时可消耗此道具，并抵扣300钻石\n<color=#ff5c5c>道具有效期：自获得后～2026年11月29日 23:59，过期后此道具将消失，并自动转化为300钻石</color>",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_shop_discount",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/limit_skin_300",
+	order = 1,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 1,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	id = 68389,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	price = {
+		14,
+		300
+	},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	usage_arg = {
+		{
+			71428
+		},
+		300
+	},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[68390] = {
+	open_directly = 0,
+	name = "换装抵扣券(清凉的祝福试炼)",
+	type = 1,
+	display = "持有此道具时，购买<color=#92fc63FF>克利奥佩特拉</color>换装<color=#92fc63FF>清凉的祝福试炼</color>时可消耗此道具，并抵扣300钻石\n<color=#ff5c5c>道具有效期：自获得后～2026年11月29日 23:59，过期后此道具将消失，并自动转化为300钻石</color>",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_shop_discount",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/limit_skin_300",
+	order = 1,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 1,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	id = 68390,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	price = {
+		14,
+		300
+	},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	usage_arg = {
+		{
+			71430
+		},
+		300
+	},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[68391] = {
+	open_directly = 0,
+	name = "换装体验券(水上微醺)",
+	type = 1,
+	display = "使用后可前往换装体验兑换界面，界面内可以选择兑换<color=#92fc63FF>莫洛托夫</color>换装<color=#92fc63FF>水上微醺</color>的2天换装体验资格\n<color=#ff5c5c>道具有效期：自获得后～2026年11月29日 23:59，过期后此道具将消失</color>",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_skin_exp",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/limit_skinticket",
+	order = 1,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 1,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	id = 68391,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	price = {
+		1,
+		0
+	},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	usage_arg = {
+		90552
+	},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[68392] = {
+	open_directly = 0,
+	name = "换装体验券(沉溺妄想)",
+	type = 1,
+	display = "使用后可前往换装体验兑换界面，界面内可以选择兑换<color=#92fc63FF>锡诺普</color>换装<color=#92fc63FF>沉溺妄想</color>的2天换装体验资格\n<color=#ff5c5c>道具有效期：自获得后～2026年11月29日 23:59，过期后此道具将消失</color>",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_skin_exp",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/limit_skinticket",
+	order = 1,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 1,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	id = 68392,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	price = {
+		1,
+		0
+	},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	usage_arg = {
+		90553
+	},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[68393] = {
+	open_directly = 0,
+	name = "换装体验券(清凉的祝福试炼)",
+	type = 1,
+	display = "使用后可前往换装体验兑换界面，界面内可以选择兑换<color=#92fc63FF>克利奥佩特拉</color>换装<color=#92fc63FF>清凉的祝福试炼</color>的2天换装体验资格\n<color=#ff5c5c>道具有效期：自获得后～2026年11月29日 23:59，过期后此道具将消失</color>",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_skin_exp",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/limit_skinticket",
+	order = 1,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 1,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	id = 68393,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	price = {
+		1,
+		0
+	},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	usage_arg = {
+		90554
+	},
+	limit = {}
+}
+
+
 _G.pg.base.item_data_statistics[68394] = {
 	open_directly = 1,
 	name = "换装抵扣礼包(误入纯白迷途)",
@@ -144815,6 +145587,37 @@ _G.pg.base.item_data_statistics[81452] = {
 			60
 		}
 	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[81471] = {
+	open_directly = 0,
+	name = "儿童套餐玩具",
+	type = 1,
+	display = "儿童餐附赠的玩具，是她专门为你准备的 ——「无论你作何选择，我都将一如既往地支持你、爱你~！」",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_undefined",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/ertongtaocanwanju",
+	order = 0,
+	rarity = 3,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "[]",
+	id = 81471,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
 	price = {},
 	index = {},
 	shiptrans_id = {},

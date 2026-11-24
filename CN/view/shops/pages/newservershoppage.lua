@@ -21,15 +21,12 @@ slot0.OnLoaded = function(slot0)
 end
 
 slot0.UpdateRes = function(slot0)
-	slot0.resTxt.text = getProxy(PlayerProxy):getRawData():getResource(slot0.shop:GetPtId())
+	slot0.resTxt.text = slot0.shop:GetPtDrop():getOwnedCount()
 
 	if not slot0.isInitResIcon then
 		slot0.isInitResIcon = true
 
-		GetImageSpriteFromAtlasAsync(Drop.New({
-			type = DROP_TYPE_RESOURCE,
-			id = slot1
-		}):getIcon(), "", slot0.resIcon)
+		GetImageSpriteFromAtlasAsync(slot1:getIcon(), "", slot0.resIcon)
 	end
 end
 

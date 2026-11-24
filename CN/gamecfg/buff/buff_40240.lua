@@ -1,6 +1,6 @@
 return {
 	time = 0,
-	name = "庞德喵：战列-指挥-炮击II+战列-指挥-命中II",
+	name = "庞德喵：战列-指挥-炮击II+战列-指挥-防空II",
 	init_effect = "",
 	id = 40240,
 	picture = "",

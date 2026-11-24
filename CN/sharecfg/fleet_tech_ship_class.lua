@@ -278,6 +278,8 @@ pg.fleet_tech_ship_class.all = {
 	70502,
 	70503,
 	70504,
+	70505,
+	70506,
 	70701,
 	70702,
 	70703,
@@ -358,6 +360,7 @@ pg.fleet_tech_ship_class.all = {
 	970111,
 	970112,
 	970113,
+	970114,
 	970201,
 	970202,
 	970203,
@@ -3671,7 +3674,8 @@ end)()
 		nation = 7,
 		ships = {
 			70204,
-			70207
+			70207,
+			70213
 		}
 	}
 	pg.base.fleet_tech_ship_class[70205] = {
@@ -3786,6 +3790,28 @@ end)()
 		nation = 7,
 		ships = {
 			70509
+		}
+	}
+	pg.base.fleet_tech_ship_class[70505] = {
+		shiptype = 5,
+		name = "玛丽亚皇后级",
+		t_level = 5,
+		id = 70505,
+		t_level_1 = 136,
+		nation = 7,
+		ships = {
+			70511
+		}
+	}
+	pg.base.fleet_tech_ship_class[70506] = {
+		shiptype = 5,
+		name = "锡诺普",
+		t_level = 7,
+		id = 70506,
+		t_level_1 = 137,
+		nation = 7,
+		ships = {
+			70510
 		}
 	}
 	pg.base.fleet_tech_ship_class[70701] = {
@@ -4045,6 +4071,8 @@ end)()
 			80503
 		}
 	}
+end)()
+(function ()
 	pg.base.fleet_tech_ship_class[80601] = {
 		shiptype = 6,
 		name = "贝劳森林",
@@ -4067,8 +4095,6 @@ end)()
 			80602
 		}
 	}
-end)()
-(function ()
 	pg.base.fleet_tech_ship_class[80701] = {
 		shiptype = 7,
 		name = "贝亚恩",
@@ -4546,7 +4572,7 @@ end)()
 		name = "猎人·META",
 		t_level = 3,
 		id = 970101,
-		t_level_1 = 1,
+		t_level_1 = 2,
 		nation = 97,
 		ships = {
 			970101
@@ -4557,7 +4583,7 @@ end)()
 		name = "命运女神·META",
 		t_level = 3,
 		id = 970102,
-		t_level_1 = 2,
+		t_level_1 = 3,
 		nation = 97,
 		ships = {
 			970102
@@ -4579,7 +4605,7 @@ end)()
 		name = "金伯利·META",
 		t_level = 1,
 		id = 970104,
-		t_level_1 = 1,
+		t_level_1 = 12,
 		nation = 97,
 		ships = {
 			970104
@@ -4612,7 +4638,7 @@ end)()
 		name = "格伦维尔·META",
 		t_level = 3,
 		id = 970107,
-		t_level_1 = 16,
+		t_level_1 = 17,
 		nation = 97,
 		ships = {
 			970107
@@ -4634,7 +4660,7 @@ end)()
 		name = "夕立·META",
 		t_level = 1,
 		id = 970109,
-		t_level_1 = 15,
+		t_level_1 = 16,
 		nation = 97,
 		ships = {
 			970109
@@ -4645,7 +4671,7 @@ end)()
 		name = "杜威·META",
 		t_level = 1,
 		id = 970110,
-		t_level_1 = 16,
+		t_level_1 = 17,
 		nation = 97,
 		ships = {
 			970110
@@ -4667,7 +4693,7 @@ end)()
 		name = "布里斯托尔·META",
 		t_level = 3,
 		id = 970112,
-		t_level_1 = 23,
+		t_level_1 = 25,
 		nation = 97,
 		ships = {
 			970112
@@ -4678,10 +4704,21 @@ end)()
 		name = "灵敏·META",
 		t_level = 4,
 		id = 970113,
-		t_level_1 = 6,
+		t_level_1 = 8,
 		nation = 97,
 		ships = {
 			970113
+		}
+	}
+	pg.base.fleet_tech_ship_class[970114] = {
+		shiptype = 1,
+		name = "凯尔圣·META",
+		t_level = 3,
+		id = 970114,
+		t_level_1 = 27,
+		nation = 97,
+		ships = {
+			970114
 		}
 	}
 	pg.base.fleet_tech_ship_class[970201] = {
@@ -4689,7 +4726,7 @@ end)()
 		name = "海伦娜·META",
 		t_level = 1,
 		id = 970201,
-		t_level_1 = 2,
+		t_level_1 = 3,
 		nation = 97,
 		ships = {
 			970201
@@ -4711,7 +4748,7 @@ end)()
 		name = "谢菲尔德·META",
 		t_level = 1,
 		id = 970203,
-		t_level_1 = 1,
+		t_level_1 = 10,
 		nation = 97,
 		ships = {
 			970203
@@ -4722,7 +4759,7 @@ end)()
 		name = "拉·加利索尼埃·META",
 		t_level = 3,
 		id = 970204,
-		t_level_1 = 3,
+		t_level_1 = 5,
 		nation = 97,
 		ships = {
 			970204
@@ -4755,7 +4792,7 @@ end)()
 		name = "水星纪念·META",
 		t_level = 4,
 		id = 970207,
-		t_level_1 = 3,
+		t_level_1 = 5,
 		nation = 97,
 		ships = {
 			970207
@@ -4777,7 +4814,7 @@ end)()
 		name = "克利夫兰·META",
 		t_level = 1,
 		id = 970209,
-		t_level_1 = 17,
+		t_level_1 = 18,
 		nation = 97,
 		ships = {
 			970209
@@ -4788,7 +4825,7 @@ end)()
 		name = "科隆·META",
 		t_level = 3,
 		id = 970210,
-		t_level_1 = 20,
+		t_level_1 = 22,
 		nation = 97,
 		ships = {
 			970210
@@ -4799,7 +4836,7 @@ end)()
 		name = "雷根斯堡·META",
 		t_level = 3,
 		id = 970211,
-		t_level_1 = 20,
+		t_level_1 = 21,
 		nation = 97,
 		ships = {
 			970211
@@ -4810,7 +4847,7 @@ end)()
 		name = "柯尼斯堡·META",
 		t_level = 3,
 		id = 970212,
-		t_level_1 = 22,
+		t_level_1 = 24,
 		nation = 97,
 		ships = {
 			970212
@@ -4821,7 +4858,7 @@ end)()
 		name = "纽伦堡·META",
 		t_level = 3,
 		id = 970213,
-		t_level_1 = 23,
+		t_level_1 = 26,
 		nation = 97,
 		ships = {
 			970213
@@ -4832,7 +4869,7 @@ end)()
 		name = "特伦托·META",
 		t_level = 4,
 		id = 970301,
-		t_level_1 = 1,
+		t_level_1 = 3,
 		nation = 97,
 		ships = {
 			970301
@@ -4865,7 +4902,7 @@ end)()
 		name = "威奇塔·META",
 		t_level = 1,
 		id = 970304,
-		t_level_1 = 12,
+		t_level_1 = 13,
 		nation = 97,
 		ships = {
 			970304
@@ -4898,7 +4935,7 @@ end)()
 		name = "格奈森瑙·META",
 		t_level = 3,
 		id = 970401,
-		t_level_1 = 4,
+		t_level_1 = 1,
 		nation = 97,
 		ships = {
 			970401
@@ -4909,7 +4946,7 @@ end)()
 		name = "沙恩霍斯特·META",
 		t_level = 1,
 		id = 970402,
-		t_level_1 = 3,
+		t_level_1 = 7,
 		nation = 97,
 		ships = {
 			970402
@@ -4920,7 +4957,7 @@ end)()
 		name = "反击·META",
 		t_level = 1,
 		id = 970403,
-		t_level_1 = 4,
+		t_level_1 = 8,
 		nation = 97,
 		ships = {
 			970403
@@ -4931,7 +4968,7 @@ end)()
 		name = "声望·META",
 		t_level = 1,
 		id = 970404,
-		t_level_1 = 5,
+		t_level_1 = 9,
 		nation = 97,
 		ships = {
 			970404
@@ -4964,7 +5001,7 @@ end)()
 		name = "扶桑·META",
 		t_level = 1,
 		id = 970501,
-		t_level_1 = 6,
+		t_level_1 = 4,
 		nation = 97,
 		ships = {
 			970501
@@ -4997,7 +5034,7 @@ end)()
 		name = "伊丽莎白女王·META",
 		t_level = 3,
 		id = 970504,
-		t_level_1 = 5,
+		t_level_1 = 4,
 		nation = 97,
 		ships = {
 			970504
@@ -5030,7 +5067,7 @@ end)()
 		name = "朱利奥·凯撒·META",
 		t_level = 3,
 		id = 970507,
-		t_level_1 = 6,
+		t_level_1 = 12,
 		nation = 97,
 		ships = {
 			970507
@@ -5052,7 +5089,7 @@ end)()
 		name = "内华达·META",
 		t_level = 1,
 		id = 970509,
-		t_level_1 = 14,
+		t_level_1 = 15,
 		nation = 97,
 		ships = {
 			970509
@@ -5063,7 +5100,7 @@ end)()
 		name = "甘古特·META",
 		t_level = 3,
 		id = 970510,
-		t_level_1 = 16,
+		t_level_1 = 20,
 		nation = 97,
 		ships = {
 			970510
@@ -5074,7 +5111,7 @@ end)()
 		name = "飞鹰·META",
 		t_level = 1,
 		id = 970601,
-		t_level_1 = 7,
+		t_level_1 = 5,
 		nation = 97,
 		ships = {
 			970601
@@ -5085,7 +5122,7 @@ end)()
 		name = "隼鹰·META",
 		t_level = 1,
 		id = 970602,
-		t_level_1 = 8,
+		t_level_1 = 6,
 		nation = 97,
 		ships = {
 			970602
@@ -5118,7 +5155,7 @@ end)()
 		name = "易北·META",
 		t_level = 3,
 		id = 970605,
-		t_level_1 = 21,
+		t_level_1 = 23,
 		nation = 97,
 		ships = {
 			970605
@@ -5129,7 +5166,7 @@ end)()
 		name = "飞龙·META",
 		t_level = 1,
 		id = 970701,
-		t_level_1 = 9,
+		t_level_1 = 1,
 		nation = 97,
 		ships = {
 			970701
@@ -5140,18 +5177,20 @@ end)()
 		name = "皇家方舟·META",
 		t_level = 1,
 		id = 970702,
-		t_level_1 = 10,
+		t_level_1 = 2,
 		nation = 97,
 		ships = {
 			970702
 		}
 	}
+end)()
+(function ()
 	pg.base.fleet_tech_ship_class[970703] = {
 		shiptype = 7,
 		name = "苍龙·META",
 		t_level = 4,
 		id = 970703,
-		t_level_1 = 3,
+		t_level_1 = 1,
 		nation = 97,
 		ships = {
 			970703
@@ -5162,7 +5201,7 @@ end)()
 		name = "贝亚恩·META",
 		t_level = 4,
 		id = 970704,
-		t_level_1 = 5,
+		t_level_1 = 6,
 		nation = 97,
 		ships = {
 			970704
@@ -5173,20 +5212,18 @@ end)()
 		name = "大凤·META",
 		t_level = 4,
 		id = 970705,
-		t_level_1 = 3,
+		t_level_1 = 7,
 		nation = 97,
 		ships = {
 			970705
 		}
 	}
-end)()
-(function ()
 	pg.base.fleet_tech_ship_class[970706] = {
 		shiptype = 7,
 		name = "大黄蜂·META",
 		t_level = 1,
 		id = 970706,
-		t_level_1 = 13,
+		t_level_1 = 14,
 		nation = 97,
 		ships = {
 			970706
@@ -5197,7 +5234,7 @@ end)()
 		name = "光荣·META",
 		t_level = 3,
 		id = 970707,
-		t_level_1 = 17,
+		t_level_1 = 16,
 		nation = 97,
 		ships = {
 			970707
@@ -5208,7 +5245,7 @@ end)()
 		name = "约克城·META",
 		t_level = 2,
 		id = 970708,
-		t_level_1 = 1,
+		t_level_1 = 8,
 		nation = 97,
 		ships = {
 			970708
@@ -5219,7 +5256,7 @@ end)()
 		name = "胜利·META",
 		t_level = 1,
 		id = 970709,
-		t_level_1 = 18,
+		t_level_1 = 20,
 		nation = 97,
 		ships = {
 			970709
@@ -5230,7 +5267,7 @@ end)()
 		name = "萨拉托加·META",
 		t_level = 1,
 		id = 970710,
-		t_level_1 = 1,
+		t_level_1 = 19,
 		nation = 97,
 		ships = {
 			970710

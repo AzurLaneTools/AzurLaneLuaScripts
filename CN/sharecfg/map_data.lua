@@ -256,6 +256,7 @@ pg.map_data.all = {
 	50232,
 	50233,
 	50234,
+	50235,
 	90000,
 	90001,
 	90002,
@@ -7606,6 +7607,35 @@ end)()
 		sky_shot = "sky_fengfanv4_2;fengfanv4_2_daoying;fengfanv4_2_wuqi;pizibao_wind",
 		mid_pos = "30.00, -31.00, 151.20;102.00, -31.50, 152.20;180.00, -31.00, 151.20;-26.10, -31.50, 152.20;250.00, -31.00, 151.20",
 		mid_shot = "fengfanv4_2_zj01;fengfanv4_2_zj02;fengfanv4_2_zj01;fengfanv4_2_zj02;fengfanv4_2_zj01",
+		mid_speed = 2.5,
+		close_speed = 4,
+		diving_filter = {
+			g = 0.03,
+			a = 0.35,
+			b = 0.23,
+			r = 0.03
+		}
+	}
+	pg.base.map_data[50235] = {
+		long_speed = 1,
+		long_pos = "-8.90, -31.20, 157.18;-69.00, -31.20, 156.90;35.70, -31.20, 156.90;-41.30, -31.20, 156.60;78.20, -31.20, 157.18;113.60, -31.20, 156.90;-123.40, -31.20, 156.90;137.80, -31.20, 156.60",
+		close_pos = "-52.30, -20.30, 130.30;50.80, -21.00, 131.60;150.00, -20.30, 130.30;-140.00, -20.30, 131.60;220.00, -20.30, 130.30",
+		long_scale = "6.00, 6.00, 6.00;6.00, 6.00, 6.00;6.00, 6.00, 6.00;6.00, 6.00, 6.00;6.00, 6.00, 6.00;6.00, 6.00, 6.00;6.00, 6.00, 6.00;6.00, 6.00, 6.00",
+		sky_pos = "-26.70, -80.80, 259.10;-26.70, -30.60, 159.30",
+		map_id = 50235,
+		sea_shot = "gelidai;sea_tongmeng_2",
+		close_scale = "7.00, 7.00, 7.00;6.00, 6.00, 6.00;7.00, 7.00, 7.00;6.00, 6.00, 6.00;7.00, 7.00, 7.00",
+		sea_pos = "-27.10, -5.60, 54.00;-43.00, -1.00, 52.80",
+		sea_scale = "9.40, 23.90, 28.40;22.50, 1.00, 12.20",
+		range_left = -200,
+		range_right = 200,
+		sky_scale = "7.80, 7.80, 0.90;11.00, 5.00, 1.00",
+		mid_scale = "6.00, 6.00, 6.00;6.00, 6.00, 6.00;6.00, 6.00, 6.00;6.00, 6.00, 6.00;6.00, 6.00, 6.00",
+		close_shot = "modaoxueyuan_jj01;modaoxueyuan_jj02;modaoxueyuan_jj01;modaoxueyuan_jj02;modaoxueyuan_jj01",
+		long_shot = "modaoxueyuan_yj01;modaoxueyuan_yj02;modaoxueyuan_yj03;modaoxueyuan_yj04;modaoxueyuan_yj01;modaoxueyuan_yj02;modaoxueyuan_yj03;modaoxueyuan_yj04",
+		sky_shot = "sky_modaoxueyuan;modaoxueyuan_wuqi",
+		mid_pos = "30.00, -31.00, 152.40;102.00, -31.50, 152.20;180.00, -31.00, 152.40;-26.10, -31.50, 152.20;250.00, -31.00, 152.40",
+		mid_shot = "modaoxueyuan_zj01;modaoxueyuan_zj02;modaoxueyuan_zj01;modaoxueyuan_zj02;modaoxueyuan_zj01",
 		mid_speed = 2.5,
 		close_speed = 4,
 		diving_filter = {

@@ -1,5 +1,6 @@
 slot0 = class("FurnitureSystem", import("view.dorm3d.Core.BaseSystem"))
 slot0.REFRESH_SLOTS = "FurnitureSystem.REFRESH_SLOTS"
+slot0.REFRESH_SLOTS_DEFAULT = "FurnitureSystem.REFRESH_SLOTS_DEFAULT"
 slot0.REFRESH_SLOTS_EMPTY = "FurnitureSystem.REFRESH_SLOTS_EMPTY"
 slot0.DISPLAY_SLOTS = "FurnitureSystem.DISPLAY_SLOTS"
 slot0.HIDE_SLOTS = "FurnitureSystem.HIDE_SLOTS"
@@ -22,6 +23,9 @@ end
 slot0.RegisterEvents = function(slot0)
 	slot0:Bind(uv0.REFRESH_SLOTS, function (slot0, slot1, slot2)
 		uv0:RefreshSlots(slot1, slot2)
+	end)
+	slot0:Bind(uv0.REFRESH_SLOTS_DEFAULT, function (slot0, slot1)
+		uv0:RefreshSlotsDefault(slot1)
 	end)
 	slot0:Bind(uv0.REFRESH_SLOTS_EMPTY, function (slot0, slot1)
 		uv0:RefreshSlotsEmpty(slot1)
@@ -182,6 +186,22 @@ slot0.RefreshSlots = function(slot0, slot1, slot2)
 		warning("RefreshSlots", "Done")
 		uv0:Emit(uv2.REFRESH_DONE)
 	end)
+end
+
+slot0.RefreshSlotsDefault = function(slot0, slot1)
+	slot2 = Clone(slot0:GetRoom())
+	slot2.furnitures = {}
+
+	for slot6, slot7 in ipairs(slot2:GetSlots()) do
+		if slot7:GetDefaultFurniture() > 0 then
+			table.insert(slot2.furnitures, Dorm3dFurniture.New({
+				configId = slot8,
+				slotId = slot7:GetConfigID()
+			}))
+		end
+	end
+
+	slot0:RefreshSlots(slot2, slot1)
 end
 
 slot0.RefreshSlotsEmpty = function(slot0, slot1)

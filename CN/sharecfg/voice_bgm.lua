@@ -2554,11 +2554,6 @@ end)()
 		special_bgm = "",
 		bgm = "danmachi-3"
 	}
-	pg.base.voice_bgm.AEBCSStoryPage = {
-		default_bgm = "danmachi-3",
-		special_bgm = "",
-		bgm = "danmachi-3"
-	}
 	pg.base.voice_bgm.ClemenceauMainRePage = {
 		default_bgm = "theme-clemenceau",
 		special_bgm = "",
@@ -2709,13 +2704,13 @@ end)()
 		special_bgm = "",
 		bgm = "story-date-light"
 	}
-end)()
-(function ()
 	pg.base.voice_bgm.HelenaUrExchangePage = {
 		default_bgm = "theme-fushun-adventure",
 		special_bgm = "",
 		bgm = "theme-fushun-adventure"
 	}
+end)()
+(function ()
 	pg.base.voice_bgm.WinterFestival2025SkinMagazinePage = {
 		default_bgm = "story-fantasyland-summer",
 		special_bgm = "",
@@ -3211,13 +3206,13 @@ end)()
 		special_bgm = "",
 		bgm = "nier-ruinscity-a-2"
 	}
-end)()
-(function ()
 	pg.base.voice_bgm.NieRAutomataStagePage = {
 		default_bgm = "nier-ruinscity-b-2",
 		special_bgm = "",
 		bgm = "nier-ruinscity-b-2"
 	}
+end)()
+(function ()
 	pg.base.voice_bgm.NieRAutomataOmenPage = {
 		default_bgm = "nier-ruinscity-a-1",
 		special_bgm = "",
@@ -3448,6 +3443,11 @@ end)()
 		special_bgm = "",
 		bgm = "story-richang"
 	}
+	pg.base.voice_bgm.BayardCatchupPage = {
+		default_bgm = "theme-designshipVI",
+		special_bgm = "",
+		bgm = "theme-designshipVI"
+	}
 	pg.base.voice_bgm.BlackFriday2026SkinMagazinePage = {
 		default_bgm = "story-fantasyland-light",
 		special_bgm = "",
@@ -3497,5 +3497,35 @@ end)()
 		default_bgm = "theme-25ds-az",
 		special_bgm = "",
 		bgm = "theme-25ds-az"
+	}
+	pg.base.voice_bgm.AEBCSStoryPage = {
+		default_bgm = "danmachi-3",
+		special_bgm = "",
+		bgm = "danmachi-3"
+	}
+	pg.base.voice_bgm.VeritasAcademyMainPage = {
+		default_bgm = "story-richang-afterschool",
+		special_bgm = "",
+		bgm = "story-richang-afterschool"
+	}
+	pg.base.voice_bgm.VeritasAcademyPtPage = {
+		default_bgm = "theme-warmwinter-daily",
+		special_bgm = "",
+		bgm = "theme-warmwinter-daily"
+	}
+	pg.base.voice_bgm.VeritasAcademyCollectPage = {
+		default_bgm = "story-richang-afterschool",
+		special_bgm = "",
+		bgm = "story-richang-afterschool"
+	}
+	pg.base.voice_bgm.VeritasAcademySkinMagazinePage = {
+		default_bgm = "story-magicschool-pv",
+		special_bgm = "",
+		bgm = "story-magicschool-pv"
+	}
+	pg.base.voice_bgm.BossRushVeritasAcademyScene = {
+		default_bgm = "story-enzecheng-theme",
+		special_bgm = "",
+		bgm = "story-enzecheng-theme"
 	}
 end)()

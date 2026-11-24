@@ -16,7 +16,7 @@ return {
 				"onAttach"
 			},
 			arg_list = {
-				rant = 5000,
+				rant = 10000,
 				quota = 1,
 				skill_id = 40351
 			}

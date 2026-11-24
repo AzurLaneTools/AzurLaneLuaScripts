@@ -37,7 +37,7 @@ pg.activity_link_button.all = {
 	116,
 	121,
 	122,
-	126,
+	125,
 	129
 }
 pg.activity_link_button.get_id_list_by_name = {
@@ -77,8 +77,7 @@ pg.activity_link_button.get_id_list_by_name = {
 		110,
 		113,
 		115,
-		126,
-		129
+		125
 	},
 	event_dreamland = {
 		103
@@ -107,7 +106,8 @@ pg.activity_link_button.get_id_list_by_name = {
 	},
 	event_minigame = {
 		20,
-		108
+		108,
+		129
 	},
 	event_old_act = {
 		13
@@ -179,7 +179,7 @@ pg.base.activity_link_button = {}
 		order = 1,
 		time = {
 			"default",
-			51601
+			51402
 		}
 	}
 	pg.base.activity_link_button[11] = {
@@ -593,7 +593,7 @@ pg.base.activity_link_button = {}
 		order = 2,
 		time = {
 			"default",
-			50825
+			51402
 		}
 	}
 	pg.base.activity_link_button[122] = {
@@ -610,23 +610,23 @@ pg.base.activity_link_button = {}
 			51130
 		}
 	}
-	pg.base.activity_link_button[126] = {
-		param = "BlackFriday2026CoreActivityUI",
+	pg.base.activity_link_button[125] = {
+		param = "VeritasAcademyCoreActivityUI",
 		name = "event_core_2",
-		text_pic = "text_event_blackfriday2026",
+		text_pic = "text_event_core2",
 		type = 16,
-		pic = "event_blackfriday2026",
-		id = 126,
+		pic = "event_core2",
+		id = 125,
 		group_id = 1,
 		order = 1,
 		time = {
 			"default",
-			50664
+			51402
 		}
 	}
 	pg.base.activity_link_button[129] = {
 		param = "BlackFriday2026CoreActivityUI",
-		name = "event_core_2",
+		name = "event_minigame",
 		text_pic = "text_event_core2",
 		type = 16,
 		pic = "event_20261119",

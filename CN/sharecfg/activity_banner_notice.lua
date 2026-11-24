@@ -55,7 +55,8 @@ pg.activity_banner_notice.all = {
 	50,
 	51,
 	52,
-	53
+	53,
+	54
 }
 pg.base = pg.base or {}
 pg.base.activity_banner_notice = {}
@@ -509,6 +510,15 @@ pg.base.activity_banner_notice = {}
 			"scene core activity",
 			{
 				coreName = "BlackFriday2026CoreActivityUI"
+			}
+		}
+	}
+	pg.base.activity_banner_notice[54] = {
+		id = 54,
+		param = {
+			"scene core activity",
+			{
+				coreName = "VeritasAcademyCoreActivityUI"
 			}
 		}
 	}

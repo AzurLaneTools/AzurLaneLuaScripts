@@ -198,7 +198,15 @@ pg.activity_medal_template.all = {
 	5161105,
 	5161106,
 	5161107,
-	5161108
+	5161108,
+	5140901,
+	5140902,
+	5140903,
+	5140904,
+	5140905,
+	5140906,
+	5140907,
+	5140908
 }
 pg.activity_medal_template.get_id_list_by_group = {
 	[5711] = {
@@ -436,6 +444,16 @@ pg.activity_medal_template.get_id_list_by_group = {
 		5115405,
 		5115406,
 		5115407
+	},
+	[51409] = {
+		5140901,
+		5140902,
+		5140903,
+		5140904,
+		5140905,
+		5140906,
+		5140907,
+		5140908
 	},
 	[51611] = {
 		5161101,
@@ -2805,5 +2823,103 @@ end)()
 		activity_medal_name = "纪念贴：星空倒转",
 		id = 5161108,
 		medal_asset = "ActivityMedal/5161108"
+	}
+	pg.base.activity_medal_template[5140901] = {
+		activity_medal_desc = "当魔法与心动交汇之时，攻略就开始了",
+		next_medal = 0,
+		item = 66123,
+		remake_task_id = 0,
+		group = 51409,
+		prefab_node = "1",
+		task_id = 25749,
+		activity_medal_name = "纪念贴：真理学院",
+		id = 5140901,
+		medal_asset = "ActivityMedal/5140901"
+	}
+	pg.base.activity_medal_template[5140902] = {
+		activity_medal_desc = "这是……心动的感觉！",
+		next_medal = 0,
+		item = 66124,
+		remake_task_id = 0,
+		group = 51409,
+		prefab_node = "2",
+		task_id = 25750,
+		activity_medal_name = "纪念贴：心动暴击",
+		id = 5140902,
+		medal_asset = "ActivityMedal/5140902"
+	}
+	pg.base.activity_medal_template[5140903] = {
+		activity_medal_desc = "读档理由：喜欢说得太小声",
+		next_medal = 0,
+		item = 66125,
+		remake_task_id = 0,
+		group = 51409,
+		prefab_node = "3",
+		task_id = 25751,
+		activity_medal_name = "纪念贴：告白存档点",
+		id = 5140903,
+		medal_asset = "ActivityMedal/5140903"
+	}
+	pg.base.activity_medal_template[5140904] = {
+		activity_medal_desc = "用魔法说不通的时候，不如试试物理？",
+		next_medal = 0,
+		item = 66126,
+		remake_task_id = 0,
+		group = 51409,
+		prefab_node = "4",
+		task_id = 25752,
+		activity_medal_name = "纪念贴：以杖服人",
+		id = 5140904,
+		medal_asset = "ActivityMedal/5140904"
+	}
+end)()
+(function ()
+	pg.base.activity_medal_template[5140905] = {
+		activity_medal_desc = "王来承认，王来允许",
+		next_medal = 0,
+		item = 66127,
+		remake_task_id = 0,
+		group = 51409,
+		prefab_node = "5",
+		task_id = 25753,
+		activity_medal_name = "纪念贴：王座之上",
+		id = 5140905,
+		medal_asset = "ActivityMedal/5140905"
+	}
+	pg.base.activity_medal_template[5140906] = {
+		activity_medal_desc = "不给糖就捣蛋……给糖也捣蛋！",
+		next_medal = 0,
+		item = 66128,
+		remake_task_id = 0,
+		group = 51409,
+		prefab_node = "6",
+		task_id = 25754,
+		activity_medal_name = "纪念贴：糖果怪物",
+		id = 5140906,
+		medal_asset = "ActivityMedal/5140906"
+	}
+	pg.base.activity_medal_template[5140907] = {
+		activity_medal_desc = "暴雪将至？只是出场特效罢了~",
+		next_medal = 0,
+		item = 66129,
+		remake_task_id = 0,
+		group = 51409,
+		prefab_node = "7",
+		task_id = 25755,
+		activity_medal_name = "纪念贴：雪之皇冠",
+		id = 5140907,
+		medal_asset = "ActivityMedal/5140907"
+	}
+	pg.base.activity_medal_template[5140908] = {
+		activity_medal_desc = "它忠于浪漫，一如它的创造者",
+		next_medal = 0,
+		item = 66130,
+		remake_task_id = 0,
+		group = 51409,
+		prefab_node = "8",
+		task_id = 25756,
+		activity_medal_name = "纪念贴：罗曼蒂克圣杯",
+		id = 5140908,
+		medal_asset = "ActivityMedal/5140908"
 	}
 end)()

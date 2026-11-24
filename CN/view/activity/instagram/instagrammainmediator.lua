@@ -44,6 +44,9 @@ slot0.register = function(slot0)
 	slot0:bind(uv0.INS_BACK_PRESSED, function (slot0)
 		uv0:sendNotification(InstagramMediator.BACK_PRESSED)
 	end)
+	slot0:bind(EasterEggView.ON_CLICK_EASTER_EGG, function (slot0, slot1)
+		uv0:sendNotification(GAME.PUZZLE_PIECE_OP, slot1)
+	end)
 end
 
 slot0.listNotificationInterests = function(slot0)

@@ -10,6 +10,9 @@ slot0.GetPassedLayer = function(slot0)
 		end,
 		[ActivityConst.ESCAPE_BOSS_RUSH_ID] = function ()
 			return BossRushEscapeManorPassedLayer
+		end,
+		[ActivityConst.VERITASACADEMY_BOSS_RUSH_ACT_ID] = function ()
+			return BossRushVeritasAcademyPassedLayer
 		end
 	}, function ()
 		return checkExist(pg.activity_template[uv0], {
@@ -30,6 +33,9 @@ slot0.GetEXBattleResultLayer = function(slot0)
 		end,
 		[ActivityConst.ESCAPE_BOSS_RUSH_ID] = function ()
 			return BossRushEscapeManorBattleResultLayer
+		end,
+		[ActivityConst.VERITASACADEMY_BOSS_RUSH_ACT_ID] = function ()
+			return BossRushVeritasAcademyBattleResultLayer
 		end
 	}, function ()
 		return checkExist(pg.activity_template[uv0], {

@@ -8,38 +8,41 @@ slot0.execute = function(slot0, slot1)
 		activity_id = slot1.body.actId
 	}, 11203, function (slot0)
 		if slot0.result == 0 then
-			slot1 = getProxy(ActivityProxy):getActivityById(uv0.actId)
-			slot2 = slot1:GetSeriesData()
+			slot3 = getProxy(ActivityProxy):getActivityById(uv0.actId):GetSeriesData():GetMode() == BossRushSeriesData.MODE.SINGLE
 
 			slot1:SetSeriesData(nil)
 
-			slot3 = PlayerConst.GetTranAwards(uv0, slot0)
+			slot4 = PlayerConst.GetTranAwards(uv0, slot0)
 			getProxy(ActivityProxy):GetBossRushRuntime(slot1.id).settlementData = nil
-			slot6 = nil
+			slot7 = nil
 
 			if getProxy(ActivityProxy):GetBossRushRuntime(uv0.actId).settlementData.win then
-				slot1:AddPassSeries(slot5.seriesId)
-				getProxy(ChapterProxy):addRemasterPassCount(slot5.seriesId, uv0.actId)
+				if (slot0.number[1] or 0) ~= 0 then
+					getProxy(ChapterAutoProxy):UpdateRecord(ChapterAutoProxy.TYPE.RUSH, slot6.seriesId, slot8)
+				end
 
-				slot6 = BossRushChapterRemasterHelper.GetActivityRemasterByFinalSeriesId(uv0.actId, slot5.seriesId) and slot7.memory_group
+				slot1:AddPassSeries(slot6.seriesId, slot3)
+				getProxy(ChapterProxy):addRemasterPassCount(slot6.seriesId, uv0.actId)
+
+				slot7 = BossRushChapterRemasterHelper.GetActivityRemasterByFinalSeriesId(uv0.actId, slot6.seriesId) and slot9.memory_group
 
 				if slot1:getConfig("type") ~= ActivityConst.ACTIVITY_TYPE_BOSS_RUSH_DAL_COLLAB then
-					slot1:AddUsedBonus(slot5.seriesId)
+					slot1:AddUsedBonus(slot6.seriesId)
 				end
 			end
 
-			for slot10, slot11 in ipairs(slot5) do
-				table.insertto(slot3, slot11.drops)
-				table.insertto(slot3, slot11.extraDrops)
+			for slot11, slot12 in ipairs(slot6) do
+				table.insertto(slot4, slot12.drops)
+				table.insertto(slot4, slot12.extraDrops)
 			end
 
 			if slot2 then
-				slot2:AddFinalResults(slot5)
+				slot2:AddFinalResults(slot6)
 			end
 
-			slot7 = getProxy(ActivityProxy)
+			slot8 = getProxy(ActivityProxy)
 
-			slot7:updateActivity(slot1)
+			slot8:updateActivity(slot1)
 			seriesAsync({
 				function (slot0, slot1)
 					slot2 = {

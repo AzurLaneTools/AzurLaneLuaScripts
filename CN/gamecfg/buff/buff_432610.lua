@@ -1,6 +1,6 @@
 return {
 	time = 0,
-	name = "战列-战术-装填I",
+	name = "战列-指挥-装填I",
 	init_effect = "",
 	id = 432610,
 	picture = "",

@@ -1296,13 +1296,13 @@ slot0.setEnableActions = function(slot0, slot1)
 	slot0.enablePlayActions = slot1 and slot1 or {}
 end
 
-slot0.changeIdleIndex = function(slot0, slot1)
-	slot2 = false
+slot0.changeIdleIndex = function(slot0, slot1, slot2)
+	slot3 = false
 
-	if slot0.idleIndex ~= slot1 and slot0._animator:GetInteger("idle") and slot3 >= 0 then
+	if slot0.idleIndex ~= slot1 and slot0._animator:GetInteger("idle") and slot4 >= 0 then
 		slot0._animator:SetInteger("idle", slot1)
 
-		slot2 = true
+		slot3 = true
 	end
 
 	print("live2d 待机动作设置为 = " .. slot1)
@@ -1311,9 +1311,13 @@ slot0.changeIdleIndex = function(slot0, slot1)
 
 	slot0:onListenerHandle(Live2DPainting.ON_ACTION_CHANGE_IDLE, {
 		idle = slot0.idleIndex,
-		idle_change = slot2
+		idle_change = slot3
 	})
 	slot0:updateDragsSateData()
+
+	if slot2 then
+		uv0(slot0, "idle", true)
+	end
 end
 
 slot0.live2dActionChange = function(slot0, slot1)

@@ -64,6 +64,7 @@ pg.activity_banner.get_id_list_by_type = {
 		5,
 		6,
 		7,
+		8,
 		9,
 		1001,
 		1002,
@@ -97,9 +98,6 @@ pg.activity_banner.get_id_list_by_type = {
 		1066,
 		1067,
 		1068
-	},
-	[3] = {
-		8
 	},
 	[9] = {
 		90,
@@ -139,7 +137,7 @@ pg.base.activity_banner = {}
 				{
 					2026,
 					11,
-					12
+					24
 				},
 				{
 					0,
@@ -151,7 +149,7 @@ pg.base.activity_banner = {}
 				{
 					2026,
 					11,
-					26
+					29
 				},
 				{
 					23,
@@ -166,15 +164,18 @@ pg.base.activity_banner = {}
 		id = 2,
 		pic = "temp2",
 		param = {
-			"scene skinshop",
-			{}
+			"scene get boat",
+			{
+				projectName = "new",
+				page = 1
+			}
 		},
 		time = {
 			{
 				{
 					2026,
 					11,
-					19
+					24
 				},
 				{
 					0,
@@ -185,13 +186,13 @@ pg.base.activity_banner = {}
 			{
 				{
 					2026,
-					11,
-					25
+					12,
+					10
 				},
 				{
-					23,
-					59,
-					59
+					12,
+					0,
+					0
 				}
 			}
 		}
@@ -211,7 +212,7 @@ pg.base.activity_banner = {}
 				{
 					2026,
 					11,
-					12
+					24
 				},
 				{
 					0,
@@ -222,13 +223,13 @@ pg.base.activity_banner = {}
 			{
 				{
 					2026,
-					11,
-					26
+					12,
+					10
 				},
 				{
-					23,
-					59,
-					59
+					12,
+					0,
+					0
 				}
 			}
 		}
@@ -240,7 +241,7 @@ pg.base.activity_banner = {}
 		param = {
 			"scene core activity",
 			{
-				coreName = "TwoPointFiveCoreActivityUI"
+				coreName = "VeritasAcademyCoreActivityUI"
 			}
 		},
 		time = {
@@ -248,7 +249,7 @@ pg.base.activity_banner = {}
 				{
 					2026,
 					11,
-					12
+					24
 				},
 				{
 					0,
@@ -259,13 +260,13 @@ pg.base.activity_banner = {}
 			{
 				{
 					2026,
-					11,
-					26
+					12,
+					10
 				},
 				{
-					23,
-					59,
-					59
+					12,
+					0,
+					0
 				}
 			}
 		}
@@ -285,7 +286,7 @@ pg.base.activity_banner = {}
 				{
 					2026,
 					11,
-					19
+					24
 				},
 				{
 					0,
@@ -296,8 +297,8 @@ pg.base.activity_banner = {}
 			{
 				{
 					2026,
-					11,
-					25
+					12,
+					9
 				},
 				{
 					23,
@@ -319,7 +320,7 @@ pg.base.activity_banner = {}
 				{
 					2026,
 					11,
-					12
+					24
 				},
 				{
 					0,
@@ -330,8 +331,8 @@ pg.base.activity_banner = {}
 			{
 				{
 					2026,
-					11,
-					26
+					12,
+					9
 				},
 				{
 					23,
@@ -346,14 +347,17 @@ pg.base.activity_banner = {}
 		id = 7,
 		pic = "temp7",
 		param = {
-			"dorm 3d select"
+			"scene shop",
+			{
+				warp = "shopstreet"
+			}
 		},
 		time = {
 			{
 				{
 					2026,
 					11,
-					19
+					24
 				},
 				{
 					0,
@@ -364,8 +368,8 @@ pg.base.activity_banner = {}
 			{
 				{
 					2026,
-					11,
-					25
+					12,
+					9
 				},
 				{
 					23,
@@ -376,16 +380,18 @@ pg.base.activity_banner = {}
 		}
 	}
 	pg.base.activity_banner[8] = {
-		param = "51305",
-		type = 3,
+		type = 2,
 		id = 8,
 		pic = "temp8",
+		param = {
+			"crusing"
+		},
 		time = {
 			{
 				{
 					2026,
-					11,
-					12
+					12,
+					1
 				},
 				{
 					0,
@@ -396,8 +402,8 @@ pg.base.activity_banner = {}
 			{
 				{
 					2026,
-					11,
-					24
+					12,
+					10
 				},
 				{
 					12,

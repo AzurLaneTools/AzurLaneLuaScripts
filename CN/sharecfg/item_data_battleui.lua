@@ -20,6 +20,7 @@ pg.item_data_battleui.all = {
 	115,
 	116,
 	117,
+	119,
 	201,
 	202,
 	203,
@@ -284,6 +285,21 @@ pg.base.item_data_battleui = {}
 		desc = "旧街的硝烟在界面间弥散，弹巢与弹痕交织出无声的邀约，为每一次战斗添上一抹优雅而危险的气息。",
 		id = 117,
 		icon = "117",
+		scene = {},
+		rare_display = {
+			1
+		}
+	}
+	pg.base.item_data_battleui[119] = {
+		name = "爵士流光",
+		key = "SkinNormal_20261203",
+		display_icon = "ui_119",
+		unlock = "世界巡游三十二期获取",
+		is_unlock = 1,
+		rare = 3,
+		desc = "华丽光彩与复古韵味在界面中交织，轻快而自由的爵士风情跃然其间。帷幕已经拉开，接下来就看你的精彩演出！",
+		id = 119,
+		icon = "119",
 		scene = {},
 		rare_display = {
 			1

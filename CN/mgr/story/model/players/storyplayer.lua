@@ -185,6 +185,8 @@ slot0.Play = function(slot0, slot1, slot2, slot3)
 	slot0.stage = uv0
 	slot7 = slot1:GetTriggerDelayTime()
 
+	slot4:MarkIsExecuted()
+
 	if slot0.autoNext and slot4:IsImport() and not slot4.optionSelCode then
 		slot0.autoNext = nil
 	end
@@ -721,39 +723,18 @@ slot0.InitBranches = function(slot0, slot1, slot2, slot3, slot4)
 					return
 				end
 
-				uv0.selectedBranchID = uv2
+				uv1 = false
 
-				uv0:SetBranchCode(uv3, uv4, uv5)
-
-				if uv6 then
-					uv0:SetGlobalOptionFlag(uv6)
-				end
-
-				pg.NewStoryMgr.GetInstance():TrackingOption(uv4:GetOptionIndex(), uv5)
-
-				if uv7:GetComponent(typeof(Animation)) then
-					uv8.blocksRaycasts = false
-
-					slot0:Play(uv0.script:GetAnimPrefix() .. "confirm")
-					uv7:GetComponent(typeof(DftAniEvent)):SetEndEvent(function ()
-						setActive(uv0.optionsCg.gameObject, false)
-
-						uv1.blocksRaycasts = true
-
-						uv0:HideBranchesWithoutSelected(uv2)
-						pg.m02:sendNotification(STORY_EVENT.OPTION_SELECTED, {
-							optionalFlag = uv3
-						})
-						uv4(uv5)
-					end)
-				else
-					setActive(uv0.optionsCg.gameObject, false)
-					uv0:HideBranchesWithoutSelected(uv4)
+				seriesAsync({
+					function (slot0)
+						uv0:PlayOptionEffect(uv1, uv2, uv3, uv4, uv5, uv6, uv7, uv8, uv9, slot0)
+					end
+				}, function ()
 					pg.m02:sendNotification(STORY_EVENT.OPTION_SELECTED, {
-						optionalFlag = uv5
+						optionalFlag = uv0
 					})
-					uv9(uv10)
-				end
+					uv1(uv2)
+				end)
 			end, SFX_PANEL)
 			setButtonEnabled(slot3, not slot8)
 
@@ -784,6 +765,101 @@ slot0.InitBranches = function(slot0, slot1, slot2, slot3, slot4)
 			uv1()
 		end
 	end)
+end
+
+slot0.PlayOptionEffect = function(slot0, slot1, slot2, slot3, slot4, slot5, slot6, slot7, slot8, slot9, slot10)
+	slot11, slot12 = slot2:GetOptionEffects()
+
+	if not slot11 or #slot11 <= 0 then
+		slot0:OnBranchSelected(slot1, slot2, slot3, slot4, slot5, slot6, slot7, slot8, slot9, slot10)
+
+		return
+	end
+
+	slot13 = slot11[1]
+	slot14 = slot11[2]
+	slot16 = slot12 == StoryStep.OPTION_ANIM_ONLY_ICON or slot12 == StoryStep.OPTION_ANIM_BOTH
+	slot17 = PoolMgr.GetInstance()
+
+	slot18 = function(slot0, slot1, slot2)
+		uv0:GetUI(slot0, true, function (slot0)
+			slot1 = slot0.transform
+
+			setParent(slot1, uv0, false)
+			slot1:GetComponent(typeof(DftAniEvent)):SetEndEvent(function ()
+				uv0:SetEndEvent(nil)
+				uv1:ReturnUI(uv2, uv3)
+				uv4()
+			end)
+			setActive(slot1, true)
+		end)
+	end
+
+	slot19 = {}
+
+	if slot12 == StoryStep.OPTION_ANIM_ONLY_BTN or slot12 == StoryStep.OPTION_ANIM_BOTH then
+		table.insert(slot19, function (slot0)
+			uv0(uv1, uv2, slot0)
+		end)
+	end
+
+	table.insert(slot19, function (slot0)
+		uv0:OnBranchSelected(uv1, uv2, uv3, uv4, uv5, uv6, uv7, uv8, uv9, slot0)
+	end)
+
+	slot20 = {
+		function (slot0)
+			seriesAsync(uv0, slot0)
+		end
+	}
+
+	if slot16 then
+		table.insert(slot20, function (slot0)
+			uv0(uv1, uv2.frontTr, slot0)
+		end)
+	end
+
+	slot8.blocksRaycasts = false
+
+	parallelAsync(slot20, function ()
+		uv0.blocksRaycasts = true
+
+		uv1()
+	end)
+end
+
+slot0.OnBranchSelected = function(slot0, slot1, slot2, slot3, slot4, slot5, slot6, slot7, slot8, slot9, slot10)
+	slot0.selectedBranchID = slot3
+
+	slot0:SetBranchCode(slot1, slot2, slot6)
+
+	if slot7 then
+		slot0:SetGlobalOptionFlag(slot7)
+	end
+
+	pg.NewStoryMgr.GetInstance():TrackingOption(slot2:GetOptionIndex(), slot6)
+
+	if slot4:GetComponent(typeof(Animation)) then
+		slot8.blocksRaycasts = false
+		slot14 = slot0.script
+
+		slot11:Play(slot14:GetAnimPrefix() .. "confirm")
+
+		slot12 = slot4:GetComponent(typeof(DftAniEvent))
+
+		slot12:SetEndEvent(function ()
+			setActive(uv0.optionsCg.gameObject, false)
+
+			uv1.blocksRaycasts = true
+
+			uv0:HideBranchesWithoutSelected(uv2)
+			uv3()
+		end)
+	else
+		setActive(slot0.optionsCg.gameObject, false)
+		slot0:HideBranchesWithoutSelected(slot2)
+		slot10()
+	end
 end
 
 slot0.SetBranchCode = function(slot0, slot1, slot2, slot3)

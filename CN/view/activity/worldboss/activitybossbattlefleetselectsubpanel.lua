@@ -32,6 +32,8 @@ slot0.OnInit = function(slot0)
 	slot0.rtCostLimit = slot0._tf:Find("panel/limit_list/cost_limit")
 	slot0.btnBack = slot0._tf:Find("panel/btnBack")
 	slot0.btnGo = slot0._tf:Find("panel/start_button")
+	slot0.btnGoS = slot0._tf:Find("panel/start_button_s")
+	slot0.btnAuto = slot0._tf:Find("panel/auto_button")
 	slot0.btnTry = slot0._tf:Find("panel/try_button")
 	slot0.btnASHelp = slot0._tf:Find("panel/title/ASvalue")
 	slot0.commanderToggle = slot0._tf:Find("panel/commander_btn")
@@ -60,10 +62,15 @@ slot0.OnInit = function(slot0)
 	setText(slot0._tf:Find("panel/commander_btn/text"), i18n("autofight_cat"))
 	setText(slot0._tf:Find("panel/title/Image/text"), i18n("fleet_select_title"))
 	slot0:InitInteractable()
+
+	slot0.autoPanel = ChapterAutoPanelTypeBoss.New(slot0._tf, slot0.event, slot0.contextData)
 end
 
 slot0.InitInteractable = function(slot0)
 	onButton(slot0, slot0.btnGo, function ()
+		uv0:OnCombat()
+	end, SFX_UI_WEIGHANCHOR_GO)
+	onButton(slot0, slot0.btnGoS, function ()
 		uv0:OnCombat()
 	end, SFX_UI_WEIGHANCHOR_GO)
 	onButton(slot0, slot0.btnTry, function ()
@@ -161,6 +168,93 @@ slot0.UpdateView = function(slot0)
 	triggerToggle(slot0.viewParent.contextData.showCommander and slot1 and slot0.commanderToggle or slot0.formationToggle, true)
 	setActive(slot0.commanderToggle, slot1)
 	setActive(slot0.btnTry, slot0.showTryBtn)
+	slot0:UpdateAutoBtn()
+end
+
+slot0.UpdateAutoBtn = function(slot0)
+	slot0.expeditionId = slot0.viewParent.contextData.normalStageIDs[slot0.viewParent.contextData.editFleet]
+	slot1 = pg.expedition_auto_statistics[slot0.expeditionId]
+	slot2 = ChapterAutoProxy.IsSystemOpen()
+
+	setActive(slot0.btnAuto, slot1)
+	setActive(slot0.btnGoS, slot1)
+	setActive(slot0.btnGo, not slot1)
+
+	if not slot1 then
+		return
+	end
+
+	setGray(slot0.btnAuto, not (slot2 and getProxy(ChapterAutoProxy):GetRecord(ChapterAutoProxy.TYPE.BOSS, slot0.expeditionId) > 0), true)
+	onButton(slot0, slot0.btnAuto, function ()
+		if uv0 then
+			if not getProxy(ChapterAutoProxy):GetCommissionDoingType() then
+				uv1:ShowChapterAutoPanel()
+			else
+				uv1:CheckChapterAutoOccupied(slot0)
+			end
+		elseif uv2 then
+			pg.TipsMgr.GetInstance():ShowTips(i18n("auto_chapter_unlock_tip_worldboss"))
+		else
+			pg.TipsMgr.GetInstance():ShowTips(i18n("auto_battle_unlock_tip"))
+		end
+	end, SFX_PANEL)
+end
+
+slot0.ShowChapterAutoPanel = function(slot0)
+	slot0.autoPanel:ExecuteAction("Enter", slot0.expeditionId)
+end
+
+slot0.RefreshChapterAutoPanel = function(slot0)
+	if slot0.autoPanel:isShowing() then
+		slot0.autoPanel:ExecuteAction("RefreshView")
+	end
+end
+
+slot0.HideChapterAutoPanel = function(slot0)
+	slot0.autoPanel:ExecuteAction("Hide")
+end
+
+slot0.CheckChapterAutoOccupied = function(slot0, slot1)
+	switch(slot1, {
+		[ChapterAutoProxy.TYPE.WORLD] = function ()
+			pg.MsgboxMgr.GetInstance():ShowMsgBox({
+				content = i18n("auto_battle_in_world"),
+				onYes = function ()
+					pg.m02:sendNotification(GAME.GO_SCENE, SCENE.WORLD)
+				end,
+				yesText = i18n("auto_drop_is_activation_go"),
+				noText = i18n("auto_drop_is_activation_cancle")
+			})
+		end,
+		[ChapterAutoProxy.TYPE.SLG] = function ()
+			pg.MsgboxMgr.GetInstance():ShowMsgBox({
+				content = i18n("auto_battle_in_world"),
+				onYes = function ()
+					pg.m02:sendNotification(GAME.GO_SCENE, SCENE.LEVEL)
+				end,
+				yesText = i18n("auto_drop_is_activation_go"),
+				noText = i18n("auto_drop_is_activation_cancle")
+			})
+		end,
+		[ChapterAutoProxy.TYPE.RUSH] = function ()
+			slot2 = BossRushChapterRemasterHelper.GetRemasterByActivityId(pg.activity_series_enemy_auto[getProxy(ChapterAutoProxy):GetCommissionList()[1].id].link_id) ~= nil
+
+			pg.MsgboxMgr.GetInstance():ShowMsgBox({
+				content = i18n("auto_battle_in_world"),
+				onYes = function ()
+					if uv0 then
+						pg.m02:sendNotification(GAME.GO_SCENE, SCENE.BOSSRUSH_REMASTER, {
+							id = uv1
+						})
+					else
+						pg.m02:sendNotification(GAME.GO_SCENE, SCENE.BOSSRUSH_MAIN)
+					end
+				end,
+				yesText = i18n("auto_drop_is_activation_go"),
+				noText = i18n("auto_drop_is_activation_cancle")
+			})
+		end
+	})
 end
 
 slot0.getLimitNums = function(slot0, slot1)
@@ -338,6 +432,7 @@ end
 slot0.OnHide = function(slot0)
 	pg.UIMgr.GetInstance():UnOverlayPanel(slot0._tf, slot0.viewParent._tf)
 	triggerToggle(slot0.commanderToggle, false)
+	slot0:HideChapterAutoPanel()
 end
 
 slot0.OnCancel = function(slot0)
@@ -360,6 +455,14 @@ end
 
 slot0.OnLongPressShip = function(slot0, slot1, slot2)
 	slot0:InvokeParent("openShipInfo", slot1, slot2)
+end
+
+slot0.OnDestroy = function(slot0)
+	if slot0.autoPanel then
+		slot0.autoPanel:Destroy()
+
+		slot0.autoPanel = nil
+	end
 end
 
 return slot0

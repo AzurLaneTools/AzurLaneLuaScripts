@@ -1,6 +1,6 @@
 return {
 	time = 0,
-	name = "驱逐-战术-雷击II",
+	name = "先锋-战术-雷击II",
 	init_effect = "",
 	id = 412220,
 	picture = "",

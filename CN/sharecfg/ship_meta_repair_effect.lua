@@ -332,7 +332,12 @@ pg.ship_meta_repair_effect.all = {
 	6602,
 	6603,
 	6604,
-	6605
+	6605,
+	6701,
+	6702,
+	6703,
+	6704,
+	6705
 }
 pg.base = pg.base or {}
 pg.base.ship_meta_repair_effect = {}
@@ -7930,6 +7935,121 @@ end)()
 			{
 				"dodge",
 				32
+			}
+		},
+		effect_dialog = {}
+	}
+	pg.base.ship_meta_repair_effect[6701] = {
+		id = 6701,
+		effect_desc = "",
+		effect_attr = {
+			{
+				"durability",
+				30
+			},
+			{
+				"antiaircraft",
+				3
+			},
+			{
+				"hit",
+				0
+			},
+			{
+				"dodge",
+				0
+			}
+		},
+		effect_dialog = {}
+	}
+	pg.base.ship_meta_repair_effect[6702] = {
+		id = 6702,
+		effect_desc = "",
+		effect_attr = {
+			{
+				"durability",
+				45
+			},
+			{
+				"antiaircraft",
+				5
+			},
+			{
+				"hit",
+				0
+			},
+			{
+				"dodge",
+				0
+			}
+		},
+		effect_dialog = {}
+	}
+	pg.base.ship_meta_repair_effect[6703] = {
+		id = 6703,
+		effect_desc = "",
+		effect_attr = {
+			{
+				"durability",
+				60
+			},
+			{
+				"antiaircraft",
+				6
+			},
+			{
+				"hit",
+				23
+			},
+			{
+				"dodge",
+				24
+			}
+		},
+		effect_dialog = {}
+	}
+	pg.base.ship_meta_repair_effect[6704] = {
+		id = 6704,
+		effect_desc = "",
+		effect_attr = {
+			{
+				"durability",
+				75
+			},
+			{
+				"antiaircraft",
+				8
+			},
+			{
+				"hit",
+				0
+			},
+			{
+				"dodge",
+				0
+			}
+		},
+		effect_dialog = {}
+	}
+	pg.base.ship_meta_repair_effect[6705] = {
+		id = 6705,
+		effect_desc = "",
+		effect_attr = {
+			{
+				"durability",
+				91
+			},
+			{
+				"antiaircraft",
+				8
+			},
+			{
+				"hit",
+				34
+			},
+			{
+				"dodge",
+				36
 			}
 		},
 		effect_dialog = {}

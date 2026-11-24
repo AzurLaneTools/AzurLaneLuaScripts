@@ -26,8 +26,13 @@ slot0.Ctor = function(slot0, slot1)
 	end
 end
 
-slot0.GetPtId = function(slot0)
-	return pg.newserver_shop_template[getProxy(ActivityProxy):getActivityById(slot0.activityId):getConfig("config_data")[1]].resource_type
+slot0.GetPtDrop = function(slot0)
+	slot3 = pg.newserver_shop_template[getProxy(ActivityProxy):getActivityById(slot0.activityId):getConfig("config_data")[1]]
+
+	return Drop.New({
+		type = slot3.resource_category,
+		id = slot3.resource_type
+	})
 end
 
 slot0.WrapPhaseGoods = function(slot0, slot1, slot2, slot3)

@@ -590,7 +590,11 @@ slot0.listNotificationInterests = function(slot0)
 		GAME.GET_POWERRANK_DONE,
 		ActivityBossBuffSelectMediator.ON_START,
 		GAME.COMMANDER_ACTIVITY_FORMATION_OP_DONE,
-		CommanderProxy.PREFAB_FLEET_UPDATE
+		CommanderProxy.PREFAB_FLEET_UPDATE,
+		GAME.START_CHAPTER_AUTO_DONE,
+		GAME.END_CHAPTER_AUTO_DONE,
+		GAME.ADD_CHAPTER_AUTO_TIME_DONE,
+		GAME.ZERO_HOUR_OP_DONE
 	}
 end
 
@@ -641,6 +645,24 @@ slot0.handleNotification = function(slot0, slot1)
 		slot0.viewComponent:updateCommanderPrefab()
 	elseif slot2 == ActivityBossBuffSelectMediator.ON_START then
 		slot0.viewComponent:ShowSPFleet()
+	elseif slot2 == GAME.START_CHAPTER_AUTO_DONE then
+		slot0.viewComponent:OnStartChapterAuto(slot3)
+	elseif slot2 == GAME.END_CHAPTER_AUTO_DONE then
+		slot0.viewComponent:OnEndChapterAuto(slot3)
+		slot0:addSubLayers(Context.New({
+			viewComponent = ChapterAutoTotalRewardLayer,
+			mediator = ChapterAutoTotalRewardMediator,
+			data = {
+				rewards = slot3.awards,
+				totalTimes = slot3.allCnt,
+				finishTimes = slot3.finishCnt,
+				proficiency = slot3.proficiency
+			}
+		}), true)
+	elseif slot2 == GAME.ADD_CHAPTER_AUTO_TIME_DONE then
+		slot0.viewComponent:OnAddChapterAutoTimeDone(slot3)
+	elseif slot2 == GAME.ZERO_HOUR_OP_DONE then
+		slot0.viewComponent:OnZeroHour(slot3)
 	end
 end
 

@@ -33,6 +33,9 @@ slot0.register = function(slot0)
 	slot0:bind(uv0.TRIGGER_PERSONAL_TASK, function (slot0, slot1, slot2)
 		uv0:TriggerPersonalTask(slot1, slot2)
 	end)
+	slot0:bind(EasterEggView.ON_CLICK_EASTER_EGG, function (slot0, slot1)
+		uv0:sendNotification(GAME.PUZZLE_PIECE_OP, slot1)
+	end)
 end
 
 slot0.listNotificationInterests = function(slot0)

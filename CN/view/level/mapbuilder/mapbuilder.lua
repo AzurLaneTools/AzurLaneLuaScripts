@@ -159,7 +159,7 @@ slot0.TryOpenChapterInfo = function(slot0, slot1, slot2, slot3)
 	slot4 = getProxy(ChapterProxy):getChapterById(slot1, true)
 
 	if getProxy(ChapterAutoProxy):IsCommissionDoing() and not slot5:HasTypeCommission(ChapterAutoProxy.TYPE.WORLD) then
-		slot0:ChapterAutoOccupied(slot4)
+		slot0:CheckChapterAutoOccupied(slot4)
 
 		return
 	end
@@ -210,7 +210,7 @@ slot0.TryOpenChapterInfo = function(slot0, slot1, slot2, slot3)
 	end
 end
 
-slot0.ChapterAutoOccupied = function(slot0, slot1)
+slot0.CheckChapterAutoOccupied = function(slot0, slot1)
 	slot2 = getProxy(ChapterAutoProxy)
 
 	switch(slot2:GetCommissionDoingType(), {
@@ -229,6 +229,34 @@ slot0.ChapterAutoOccupied = function(slot0, slot1)
 					})
 				end
 			end
+		end,
+		[ChapterAutoProxy.TYPE.BOSS] = function ()
+			uv0.sceneParent:HandleShowMsgBox({
+				content = i18n("auto_drop_is_activation", getProxy(ChapterAutoProxy):GetCommissionList()[1]:GetOccupiedName()),
+				onYes = function ()
+					pg.m02:sendNotification(GAME.GO_SCENE, SCENE.ACT_BOSS_BATTLE)
+				end,
+				yesText = i18n("auto_drop_is_activation_go"),
+				noText = i18n("auto_drop_is_activation_cancle")
+			})
+		end,
+		[ChapterAutoProxy.TYPE.RUSH] = function ()
+			slot3 = BossRushChapterRemasterHelper.GetRemasterByActivityId(pg.activity_series_enemy_auto[getProxy(ChapterAutoProxy):GetCommissionList()[1].id].link_id) ~= nil
+
+			uv0.sceneParent:HandleShowMsgBox({
+				content = i18n("auto_drop_is_activation", getProxy(ChapterAutoProxy):GetCommissionList()[1]:GetOccupiedName()),
+				onYes = function ()
+					if uv0 then
+						pg.m02:sendNotification(GAME.GO_SCENE, SCENE.BOSSRUSH_REMASTER, {
+							id = uv1
+						})
+					else
+						pg.m02:sendNotification(GAME.GO_SCENE, SCENE.BOSSRUSH_MAIN)
+					end
+				end,
+				yesText = i18n("auto_drop_is_activation_go"),
+				noText = i18n("auto_drop_is_activation_cancle")
+			})
 		end
 	})
 end

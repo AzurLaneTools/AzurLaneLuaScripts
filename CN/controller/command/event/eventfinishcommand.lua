@@ -29,9 +29,7 @@ slot0.execute = function(slot0, slot1)
 			onConfirm = slot5
 		})
 	else
-		slot11 = pg.ConnectionMgr.GetInstance()
-
-		slot11:Send(13005, {
+		slot6:SendEventRequest(13005, {
 			id = slot3
 		}, 13006, function (slot0)
 			if slot0.result == 0 then

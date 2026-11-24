@@ -6,5 +6,8 @@ return {
 	INSTAGRAM_TYPE = {
 		INSTANGRAM = 1,
 		OFFICIAL_ACCOUNT = 2
+	},
+	OFFICIAL_TYPE = {
+		STORY = 1
 	}
 }

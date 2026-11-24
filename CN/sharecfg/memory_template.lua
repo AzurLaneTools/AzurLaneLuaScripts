@@ -4483,6 +4483,26 @@ pg.memory_template.all = {
 	5641,
 	5642,
 	5643,
+	5651,
+	5652,
+	5653,
+	5654,
+	5655,
+	5656,
+	5657,
+	5658,
+	5659,
+	5660,
+	5661,
+	5662,
+	5663,
+	5664,
+	5665,
+	5666,
+	5667,
+	5671,
+	5672,
+	5673,
 	10011,
 	10012,
 	10013,
@@ -85475,6 +85495,366 @@ end)()
 			"SHISHANGTEKANXINDONGZHENLIAOSHIJIAN3"
 		}
 	}
+	pg.base.memory_template[5651] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 1,
+		number = 1,
+		title = "恋爱游戏启动中！",
+		condition = "进入 EPS-1",
+		story = "ZHENLIXUEYUANDEZHUANXIAOSHENG1",
+		mask = "bg/bg_memory",
+		task = 0,
+		year = 0,
+		id = 5651,
+		icon = "memory_zhenlixueyuandezhuanxiaosheng1",
+		is_open = 0,
+		unlock_pre = {
+			"ZHENLIXUEYUANDEZHUANXIAOSHENG1"
+		}
+	}
+	pg.base.memory_template[5652] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 1,
+		number = 2,
+		title = "入学日",
+		condition = "进入 EPS-2",
+		story = "ZHENLIXUEYUANDEZHUANXIAOSHENG2",
+		mask = "bg/bg_memory",
+		task = 0,
+		year = 0,
+		id = 5652,
+		icon = "memory_zhenlixueyuandezhuanxiaosheng1",
+		is_open = 0,
+		unlock_pre = {
+			"ZHENLIXUEYUANDEZHUANXIAOSHENG2"
+		}
+	}
+	pg.base.memory_template[5653] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 1,
+		number = 3,
+		title = "帮手",
+		condition = "进入 EPS-3",
+		story = "ZHENLIXUEYUANDEZHUANXIAOSHENG3",
+		mask = "bg/bg_memory",
+		task = 0,
+		year = 0,
+		id = 5653,
+		icon = "memory_zhenlixueyuandezhuanxiaosheng1",
+		is_open = 0,
+		unlock_pre = {
+			"ZHENLIXUEYUANDEZHUANXIAOSHENG3"
+		}
+	}
+	pg.base.memory_template[5654] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 1,
+		number = 4.1,
+		title = "课后辅导",
+		condition = "在EPS-3中选择莫洛托夫解锁",
+		story = "ZHENLIXUEYUANDEZHUANXIAOSHENG4-1",
+		mask = "bg/bg_memory",
+		task = 0,
+		year = 0,
+		id = 5654,
+		icon = "memory_zhenlixueyuandezhuanxiaosheng1",
+		is_open = 0,
+		unlock_pre = {
+			"ZHENLIXUEYUANDEZHUANXIAOSHENG4-1"
+		}
+	}
+	pg.base.memory_template[5655] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 1,
+		number = 4.2,
+		title = "天台的午餐时间",
+		condition = "在EPS-3中选择玛丽亚皇后解锁",
+		story = "ZHENLIXUEYUANDEZHUANXIAOSHENG4-2",
+		mask = "bg/bg_memory",
+		task = 0,
+		year = 0,
+		id = 5655,
+		icon = "memory_zhenlixueyuandezhuanxiaosheng1",
+		is_open = 0,
+		unlock_pre = {
+			"ZHENLIXUEYUANDEZHUANXIAOSHENG4-2"
+		}
+	}
+	pg.base.memory_template[5656] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 1,
+		number = 4.3,
+		title = "伪装情侣",
+		condition = "在EPS-3中选择锡诺普解锁",
+		story = "ZHENLIXUEYUANDEZHUANXIAOSHENG4-3",
+		mask = "bg/bg_memory",
+		task = 0,
+		year = 0,
+		id = 5656,
+		icon = "memory_zhenlixueyuandezhuanxiaosheng1",
+		is_open = 0,
+		unlock_pre = {
+			"ZHENLIXUEYUANDEZHUANXIAOSHENG4-3"
+		}
+	}
+	pg.base.memory_template[5657] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 1,
+		number = 5,
+		title = "圣杯的传闻",
+		condition = "进入 EPS-5",
+		story = "ZHENLIXUEYUANDEZHUANXIAOSHENG5",
+		mask = "bg/bg_memory",
+		task = 0,
+		year = 0,
+		id = 5657,
+		icon = "memory_zhenlixueyuandezhuanxiaosheng1",
+		is_open = 0,
+		unlock_pre = {
+			"ZHENLIXUEYUANDEZHUANXIAOSHENG5"
+		}
+	}
+	pg.base.memory_template[5658] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 2,
+		number = 6,
+		title = "许愿与怪物",
+		condition = "进入 EPS-6",
+		story = "2079601",
+		mask = "bg/bg_memory",
+		task = 0,
+		year = 0,
+		id = 5658,
+		icon = "memory_zhenlixueyuandezhuanxiaosheng1",
+		is_open = 0,
+		unlock_pre = {
+			"2079601"
+		}
+	}
+	pg.base.memory_template[5659] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 1,
+		number = 7,
+		title = "舞会与抉择",
+		condition = "进入 EPS-7",
+		story = "ZHENLIXUEYUANDEZHUANXIAOSHENG7",
+		mask = "bg/bg_memory",
+		task = 0,
+		year = 0,
+		id = 5659,
+		icon = "memory_zhenlixueyuandezhuanxiaosheng1",
+		is_open = 0,
+		unlock_pre = {
+			"ZHENLIXUEYUANDEZHUANXIAOSHENG7"
+		}
+	}
+	pg.base.memory_template[5660] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 1,
+		number = 8.1,
+		title = "预演一曲",
+		condition = "在EPS-7中选择莫洛托夫解锁",
+		story = "ZHENLIXUEYUANDEZHUANXIAOSHENG8-1",
+		mask = "bg/bg_memory",
+		task = 0,
+		year = 0,
+		id = 5660,
+		icon = "memory_zhenlixueyuandezhuanxiaosheng1",
+		is_open = 0,
+		unlock_pre = {
+			"ZHENLIXUEYUANDEZHUANXIAOSHENG8-1"
+		}
+	}
+	pg.base.memory_template[5661] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 1,
+		number = 8.2,
+		title = "裙摆之间",
+		condition = "在EPS-7中选择玛丽亚皇后解锁",
+		story = "ZHENLIXUEYUANDEZHUANXIAOSHENG8-2",
+		mask = "bg/bg_memory",
+		task = 0,
+		year = 0,
+		id = 5661,
+		icon = "memory_zhenlixueyuandezhuanxiaosheng1",
+		is_open = 0,
+		unlock_pre = {
+			"ZHENLIXUEYUANDEZHUANXIAOSHENG8-2"
+		}
+	}
+	pg.base.memory_template[5662] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 1,
+		number = 8.3,
+		title = "旧梦巡礼",
+		condition = "在EPS-7中选择锡诺普解锁",
+		story = "ZHENLIXUEYUANDEZHUANXIAOSHENG8-3",
+		mask = "bg/bg_memory",
+		task = 0,
+		year = 0,
+		id = 5662,
+		icon = "memory_zhenlixueyuandezhuanxiaosheng1",
+		is_open = 0,
+		unlock_pre = {
+			"ZHENLIXUEYUANDEZHUANXIAOSHENG8-3"
+		}
+	}
+	pg.base.memory_template[5663] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 1,
+		number = 9,
+		title = "毕业前夕",
+		condition = "进入 EPS-9",
+		story = "ZHENLIXUEYUANDEZHUANXIAOSHENG9",
+		mask = "bg/bg_memory",
+		task = 0,
+		year = 0,
+		id = 5663,
+		icon = "memory_zhenlixueyuandezhuanxiaosheng2",
+		is_open = 0,
+		unlock_pre = {
+			"ZHENLIXUEYUANDEZHUANXIAOSHENG9"
+		}
+	}
+	pg.base.memory_template[5664] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 2,
+		number = 10,
+		title = "她想留住的昨天",
+		condition = "进入 EPS-10",
+		story = "2079602",
+		mask = "bg/bg_memory",
+		task = 0,
+		year = 0,
+		id = 5664,
+		icon = "memory_zhenlixueyuandezhuanxiaosheng2",
+		is_open = 0,
+		unlock_pre = {
+			"2079602"
+		}
+	}
+	pg.base.memory_template[5665] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 1,
+		number = 11.1,
+		title = "第三次入学",
+		condition = "完成EPS-8.1和EPS-10解锁",
+		story = "ZHENLIXUEYUANDEZHUANXIAOSHENG11-1",
+		mask = "bg/bg_memory",
+		task = 0,
+		year = 0,
+		id = 5665,
+		icon = "memory_zhenlixueyuandezhuanxiaosheng2",
+		is_open = 0,
+		unlock_pre = {
+			"ZHENLIXUEYUANDEZHUANXIAOSHENG11-1"
+		}
+	}
+	pg.base.memory_template[5666] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 1,
+		number = 11.2,
+		title = "女皇的贴身保镖",
+		condition = "完成EPS-8.2和EPS-10解锁",
+		story = "ZHENLIXUEYUANDEZHUANXIAOSHENG11-2",
+		mask = "bg/bg_memory",
+		task = 0,
+		year = 0,
+		id = 5666,
+		icon = "memory_zhenlixueyuandezhuanxiaosheng2",
+		is_open = 0,
+		unlock_pre = {
+			"ZHENLIXUEYUANDEZHUANXIAOSHENG11-2"
+		}
+	}
+	pg.base.memory_template[5667] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 1,
+		number = 11.3,
+		title = "起舞于明日",
+		condition = "完成EPS-8.3和EPS-10解锁",
+		story = "ZHENLIXUEYUANDEZHUANXIAOSHENG11-3",
+		mask = "bg/bg_memory",
+		task = 0,
+		year = 0,
+		id = 5667,
+		icon = "memory_zhenlixueyuandezhuanxiaosheng2",
+		is_open = 0,
+		unlock_pre = {
+			"ZHENLIXUEYUANDEZHUANXIAOSHENG11-3"
+		}
+	}
+	pg.base.memory_template[5671] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "夜游的惩戒狂想",
+		condition = "完成「港区时尚特刊：美丽水世界」锡诺普的签到",
+		story = "SHISHANGTEKANMEILISHUISHIJIE1",
+		mask = "bg/bg_memory",
+		task = 0,
+		year = 0,
+		id = 5671,
+		icon = "memory_gangqushishangtekan",
+		is_open = 0,
+		unlock_pre = {
+			"SHISHANGTEKANMEILISHUISHIJIE1"
+		}
+	}
+	pg.base.memory_template[5672] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "临时兑换的特别服务",
+		condition = "完成「港区时尚特刊：美丽水世界」莫洛托夫的签到",
+		story = "SHISHANGTEKANMEILISHUISHIJIE2",
+		mask = "bg/bg_memory",
+		task = 0,
+		year = 0,
+		id = 5672,
+		icon = "memory_gangqushishangtekan",
+		is_open = 0,
+		unlock_pre = {
+			"SHISHANGTEKANMEILISHUISHIJIE2"
+		}
+	}
+	pg.base.memory_template[5673] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "节奏喷泉试炼！",
+		condition = "完成「港区时尚特刊：美丽水世界」克利奥佩特拉的签到",
+		story = "SHISHANGTEKANMEILISHUISHIJIE3",
+		mask = "bg/bg_memory",
+		task = 0,
+		year = 0,
+		id = 5673,
+		icon = "memory_gangqushishangtekan",
+		is_open = 0,
+		unlock_pre = {
+			"SHISHANGTEKANMEILISHUISHIJIE3"
+		}
+	}
 	pg.base.memory_template[10011] = {
 		ship_group = 0,
 		subtitle = "",
@@ -85493,6 +85873,8 @@ end)()
 			"CHANGDAO1"
 		}
 	}
+end)()
+(function ()
 	pg.base.memory_template[10012] = {
 		ship_group = 0,
 		subtitle = "",
@@ -85853,8 +86235,6 @@ end)()
 			"NEPU_DAILY6"
 		}
 	}
-end)()
-(function ()
 	pg.base.memory_template[10042] = {
 		ship_group = 0,
 		subtitle = "",
@@ -87295,6 +87675,8 @@ end)()
 			"LINGHANGYUANYANGCHENGJIHUA44"
 		}
 	}
+end)()
+(function ()
 	pg.base.memory_template[20044] = {
 		ship_group = 0,
 		subtitle = "",
@@ -87655,8 +88037,6 @@ end)()
 			"LINGHANGYUANTANXIN12"
 		}
 	}
-end)()
-(function ()
 	pg.base.memory_template[20064] = {
 		ship_group = 0,
 		subtitle = "",
@@ -89097,6 +89477,8 @@ end)()
 			"LINGYANGZHELAIFANGJISHI7"
 		}
 	}
+end)()
+(function ()
 	pg.base.memory_template[20145] = {
 		ship_group = 0,
 		subtitle = "",
@@ -89457,8 +89839,6 @@ end)()
 			"TANSUOZHEYANGCHENGJIHUA15"
 		}
 	}
-end)()
-(function ()
 	pg.base.memory_template[20165] = {
 		ship_group = 0,
 		subtitle = "",

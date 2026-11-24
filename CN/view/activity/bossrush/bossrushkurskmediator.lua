@@ -7,6 +7,12 @@ slot0.ON_PERFORM_COMBAT = "BossRushKurskMediator:ON_PERFORM_COMBAT"
 
 slot0.register = function(slot0)
 	slot0:bind(uv0.ON_FLEET_SELECT, function (slot0, slot1)
+		if getProxy(ChapterAutoProxy):GetCommissionDoingType() and slot2 ~= ChapterAutoProxy.TYPE.WORLD then
+			uv0.viewComponent:CheckChapterAutoOccupied(slot2)
+
+			return
+		end
+
 		uv0:addSubLayers(Context.New({
 			mediator = BossRushFleetSelectMediator,
 			viewComponent = BossRushFleetSelectView,
@@ -77,7 +83,9 @@ slot0.listNotificationInterests = function(slot0)
 		GAME.SUBMIT_TASK_DONE,
 		GAME.SUBMIT_ACTIVITY_TASK_DONE,
 		GAME.BEGIN_STAGE_DONE,
-		BossRushTotalRewardPanelMediator.ON_WILL_EXIT
+		BossRushTotalRewardPanelMediator.ON_WILL_EXIT,
+		GAME.START_CHAPTER_AUTO_DONE,
+		GAME.END_CHAPTER_AUTO_DONE
 	}
 end
 
@@ -110,6 +118,20 @@ slot0.handleNotification = function(slot0, slot1)
 	elseif slot2 == BossRushTotalRewardPanelMediator.ON_WILL_EXIT then
 		slot0.viewComponent:resumeBubble()
 		slot0.viewComponent:UpdateView()
+	elseif slot2 == GAME.START_CHAPTER_AUTO_DONE then
+		slot0.viewComponent:OnStartChapterAuto(slot3)
+	elseif slot2 == GAME.END_CHAPTER_AUTO_DONE then
+		slot0.viewComponent:OnEndChapterAuto(slot3)
+		slot0:addSubLayers(Context.New({
+			viewComponent = ChapterAutoTotalRewardLayer,
+			mediator = ChapterAutoTotalRewardMediator,
+			data = {
+				rewards = slot3.awards,
+				totalTimes = slot3.allCnt,
+				finishTimes = slot3.finishCnt,
+				proficiency = slot3.proficiency
+			}
+		}), true)
 	end
 end
 

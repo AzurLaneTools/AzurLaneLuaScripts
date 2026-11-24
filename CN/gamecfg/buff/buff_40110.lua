@@ -1,6 +1,6 @@
 return {
 	time = 0,
-	name = "航母-指挥-航空II+航母-指挥-装填II",
+	name = "航母-指挥-航空I+航母-指挥-装填I",
 	init_effect = "",
 	id = 40110,
 	picture = "",

@@ -137,7 +137,8 @@ pg.medal_template.all = {
 	200211,
 	200221,
 	200231,
-	200241
+	200241,
+	200251
 }
 pg.base = pg.base or {}
 pg.base.medal_template = {}
@@ -3090,6 +3091,27 @@ end)()
 		rank = 1,
 		id = 200241,
 		explain1 = "「飓风与雾霭回廊」",
+		explain2 = "活动纪念"
+	}
+	pg.base.medal_template[200251] = {
+		target_id = "51409",
+		name = "真理学院纪念勋章",
+		target_num = 8,
+		type = 0,
+		is_out_of_print = 0,
+		count_inherit = 0,
+		desc = "云海间浮岛静悬，学院的钟声悠悠回荡。魔法光辉照亮前行的道路，一场相遇改变故事的走向。欢迎来到真理学院",
+		next = 0,
+		icon = "9251",
+		page = 2,
+		target_type = 131,
+		start = 0,
+		hide = 0,
+		label = "l_9251",
+		condition = "收集8个「真理学院的转校生」纪念贴纸。",
+		rank = 1,
+		id = 200251,
+		explain1 = "「真理学院的转校生」",
 		explain2 = "活动纪念"
 	}
 end)()

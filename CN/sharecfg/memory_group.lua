@@ -293,6 +293,8 @@ pg.memory_group.all = {
 	382,
 	383,
 	384,
+	385,
+	386,
 	501,
 	502,
 	503,
@@ -7839,6 +7841,52 @@ end)()
 			5643
 		}
 	}
+	pg.base.memory_group[385] = {
+		ship_group = 0,
+		icon = "title_event",
+		type = 2,
+		link_event = 51402,
+		title = "真理学院的转校生",
+		auto_unlock = "",
+		subtype = 2,
+		id = 385,
+		group_id = "",
+		memories = {
+			5651,
+			5652,
+			5653,
+			5654,
+			5655,
+			5656,
+			5657,
+			5658,
+			5659,
+			5660,
+			5661,
+			5662,
+			5663,
+			5664,
+			5665,
+			5666,
+			5667
+		}
+	}
+	pg.base.memory_group[386] = {
+		ship_group = 0,
+		icon = "title_event",
+		type = 2,
+		link_event = 51412,
+		title = "港区时尚特刊：美丽水世界",
+		auto_unlock = "",
+		subtype = 3,
+		id = 386,
+		group_id = "",
+		memories = {
+			5671,
+			5672,
+			5673
+		}
+	}
 	pg.base.memory_group[501] = {
 		ship_group = 31201,
 		icon = "title_chara_mingshi",
@@ -8048,6 +8096,8 @@ end)()
 			10000
 		}
 	}
+end)()
+(function ()
 	pg.base.memory_group[510] = {
 		ship_group = 20706,
 		icon = "title_chara_guangrong",
@@ -8092,8 +8142,6 @@ end)()
 			10000
 		}
 	}
-end)()
-(function ()
 	pg.base.memory_group[512] = {
 		ship_group = 30312,
 		icon = "title_chara_aidang",
@@ -10250,6 +10298,8 @@ end)()
 			10000
 		}
 	}
+end)()
+(function ()
 	pg.base.memory_group[612] = {
 		ship_group = 90401,
 		icon = "title_chara_dunkeerke",
@@ -10294,8 +10344,6 @@ end)()
 			10000
 		}
 	}
-end)()
-(function ()
 	pg.base.memory_group[614] = {
 		ship_group = 30225,
 		icon = "title_chara_dulianglai",

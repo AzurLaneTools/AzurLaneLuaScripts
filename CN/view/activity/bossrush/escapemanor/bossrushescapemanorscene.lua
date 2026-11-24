@@ -1,4 +1,4 @@
-slot0 = class("BossRushEscapeManorScene", import("view.base.BaseUI"))
+slot0 = class("BossRushEscapeManorScene", import("view.activity.BossRush.BossRushBaseScene"))
 slot1 = "anim_BRVZ_change"
 slot0.DISPLAY = {
 	STORY = "Story",

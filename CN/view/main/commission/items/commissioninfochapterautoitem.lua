@@ -23,6 +23,8 @@ slot0.Init = function(slot0)
 	setActive(slot0.lockTF, not slot0:CanOpen())
 
 	slot0.detailPanel = ChapterAutoDetailPanel.New(slot0._tf, slot0.view.event)
+	slot0.detailTypeBossPanel = ChapterAutoDetailPanelTypeBoss.New(slot0._tf, slot0.view.event)
+	slot0.detailTypeRushPanel = ChapterAutoDetailPanelTypeRush.New(slot0._tf, slot0.view.event)
 end
 
 slot0.OnFlush = function(slot0)
@@ -111,6 +113,20 @@ slot0.OnSkip = function(slot0)
 		end,
 		[ChapterAutoProxy.TYPE.WORLD] = function ()
 			uv0:emit(CommissionInfoMediator.GO_WORLD)
+		end,
+		[ChapterAutoProxy.TYPE.BOSS] = function ()
+			if uv0.isLeisure then
+				uv0:emit(CommissionInfoMediator.GO_BATTLE)
+			else
+				uv0.detailTypeBossPanel:ExecuteAction("Enter", uv0:GetList()[1]:GetID())
+			end
+		end,
+		[ChapterAutoProxy.TYPE.RUSH] = function ()
+			if uv0.isLeisure then
+				uv0:emit(CommissionInfoMediator.GO_BATTLE)
+			else
+				uv0.detailTypeRushPanel:ExecuteAction("Enter", uv0:GetList()[1]:GetID())
+			end
 		end
 	}, function ()
 		uv0:emit(CommissionInfoMediator.GO_BATTLE)
@@ -129,6 +145,18 @@ slot0.Dispose = function(slot0)
 		slot0.detailPanel:Destroy()
 
 		slot0.detailPanel = nil
+	end
+
+	if slot0.detailTypeBossPanel then
+		slot0.detailTypeBossPanel:Destroy()
+
+		slot0.detailTypeBossPanel = nil
+	end
+
+	if slot0.detailTypeRushPanel then
+		slot0.detailTypeRushPanel:Destroy()
+
+		slot0.detailTypeRushPanel = nil
 	end
 end
 

@@ -8,6 +8,7 @@ slot0.execute = function(slot0, slot1)
 
 	if not slot3:IsActivityType() and not slot6:CanStartEvent() then
 		pg.TipsMgr.GetInstance():ShowTips(i18n("event_fleet_busy"))
+		slot6:FlushIfDirty()
 
 		return
 	end
@@ -32,7 +33,7 @@ slot0.execute = function(slot0, slot1)
 				event = uv4
 			})
 		else
-			pg.ConnectionMgr.GetInstance():Send(13003, {
+			uv5:SendEventRequest(13003, {
 				id = uv2,
 				ship_id_list = uv3
 			}, 13004, function (slot0)

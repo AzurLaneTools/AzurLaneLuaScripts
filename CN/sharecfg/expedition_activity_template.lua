@@ -1226,6 +1226,21 @@ pg.expedition_activity_template.all = {
 	2074013,
 	2075013,
 	2076013,
+	2079101,
+	2079201,
+	2079202,
+	2079301,
+	2079302,
+	2079303,
+	2079401,
+	2079402,
+	2079403,
+	2079404,
+	2079501,
+	2079502,
+	2079503,
+	2079504,
+	2079505,
 	3000013,
 	3000113,
 	3000213,
@@ -12053,6 +12068,96 @@ end)()
 				800
 			}
 		}
+	}
+	pg.base.expedition_activity_template[2079101] = {
+		id = 2079101,
+		bonus_rate = 0,
+		pt_drop_display = "",
+		bonus_time = 0
+	}
+	pg.base.expedition_activity_template[2079201] = {
+		id = 2079201,
+		bonus_rate = 0,
+		pt_drop_display = "",
+		bonus_time = 0
+	}
+	pg.base.expedition_activity_template[2079202] = {
+		id = 2079202,
+		bonus_rate = 0,
+		pt_drop_display = "",
+		bonus_time = 0
+	}
+	pg.base.expedition_activity_template[2079301] = {
+		id = 2079301,
+		bonus_rate = 0,
+		pt_drop_display = "",
+		bonus_time = 0
+	}
+	pg.base.expedition_activity_template[2079302] = {
+		id = 2079302,
+		bonus_rate = 0,
+		pt_drop_display = "",
+		bonus_time = 0
+	}
+	pg.base.expedition_activity_template[2079303] = {
+		id = 2079303,
+		bonus_rate = 0,
+		pt_drop_display = "",
+		bonus_time = 0
+	}
+	pg.base.expedition_activity_template[2079401] = {
+		id = 2079401,
+		bonus_rate = 0,
+		pt_drop_display = "",
+		bonus_time = 0
+	}
+	pg.base.expedition_activity_template[2079402] = {
+		id = 2079402,
+		bonus_rate = 0,
+		pt_drop_display = "",
+		bonus_time = 0
+	}
+	pg.base.expedition_activity_template[2079403] = {
+		id = 2079403,
+		bonus_rate = 0,
+		pt_drop_display = "",
+		bonus_time = 0
+	}
+	pg.base.expedition_activity_template[2079404] = {
+		id = 2079404,
+		bonus_rate = 0,
+		pt_drop_display = "",
+		bonus_time = 0
+	}
+	pg.base.expedition_activity_template[2079501] = {
+		id = 2079501,
+		bonus_rate = 0,
+		pt_drop_display = "",
+		bonus_time = 0
+	}
+	pg.base.expedition_activity_template[2079502] = {
+		id = 2079502,
+		bonus_rate = 0,
+		pt_drop_display = "",
+		bonus_time = 0
+	}
+	pg.base.expedition_activity_template[2079503] = {
+		id = 2079503,
+		bonus_rate = 0,
+		pt_drop_display = "",
+		bonus_time = 0
+	}
+	pg.base.expedition_activity_template[2079504] = {
+		id = 2079504,
+		bonus_rate = 0,
+		pt_drop_display = "",
+		bonus_time = 0
+	}
+	pg.base.expedition_activity_template[2079505] = {
+		id = 2079505,
+		bonus_rate = 0,
+		pt_drop_display = "",
+		bonus_time = 0
 	}
 	pg.base.expedition_activity_template[3000013] = {
 		id = 3000013,

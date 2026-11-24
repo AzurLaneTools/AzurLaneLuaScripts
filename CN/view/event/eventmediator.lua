@@ -58,13 +58,15 @@ slot0.register = function(slot0)
 		})
 	end)
 	slot0:updateEventList(false, slot0.contextData.eventList)
+	getProxy(EventProxy):FlushIfDirty()
 end
 
 slot0.listNotificationInterests = function(slot0)
 	return {
 		GAME.EVENT_LIST_UPDATE,
 		GAME.EVENT_FINISH_UPDATE,
-		GAME.EVENT_SHOW_AWARDS
+		GAME.EVENT_SHOW_AWARDS,
+		GAME.ON_RECONNECTION
 	}
 end
 
@@ -75,6 +77,8 @@ slot0.handleNotification = function(slot0, slot1)
 		slot0:updateEventList(true)
 	elseif slot2 == GAME.EVENT_FINISH_UPDATE then
 		slot0:updateEventList(true)
+	elseif slot2 == GAME.ON_RECONNECTION then
+		getProxy(EventProxy):FlushIfDirty()
 	elseif slot2 == GAME.EVENT_SHOW_AWARDS then
 		slot4 = nil
 
@@ -97,7 +101,13 @@ end
 slot0.updateEventList = function(slot0, slot1, slot2)
 	slot3 = getProxy(BayProxy)
 	getProxy(EventProxy).virgin = false
-	slot0.contextData.eventList = slot2 or slot4:getEventList()
+	slot5 = slot2 or slot4:getEventList()
+
+	if not slot2 then
+		slot0:keepEditingShips(slot0.contextData.eventList, slot5)
+	end
+
+	slot0.contextData.eventList = slot5
 
 	slot0.viewComponent:setEventList(slot0.contextData.eventList)
 
@@ -114,6 +124,31 @@ slot0.updateEventList = function(slot0, slot1, slot2)
 			helps = pg.gametip.help_act_event.tip
 		})
 	end
+end
+
+slot0.keepEditingShips = function(slot0, slot1, slot2)
+	slot3 = slot0.contextData.selectedEventId
+
+	if not slot1 or not slot3 then
+		return
+	end
+
+	slot5 = underscore.detect(slot2, function (slot0)
+		return slot0.id == uv0
+	end)
+
+	if not underscore.detect(slot1, function (slot0)
+		return slot0.id == uv0
+	end) or not slot5 or slot4:GetState() ~= EventInfo.StateNone or slot5:GetState() ~= EventInfo.StateNone or #slot4.shipIds == 0 then
+		return
+	end
+
+	slot6 = getProxy(EventProxy)
+	slot6 = slot6:getActiveShipIds()
+
+	slot5:setShipIds(underscore.filter(slot4.shipIds, function (slot0)
+		return not table.contains(uv0, slot0)
+	end))
 end
 
 slot0.getDockCallbackFuncs = function(slot0, slot1)

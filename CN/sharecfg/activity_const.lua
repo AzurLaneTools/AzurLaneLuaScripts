@@ -1235,4 +1235,13 @@ end)()
 	pg.base.activity_const.WindFogCorridor_SkinStory_MainPage = {
 		act_id = 51605
 	}
+	pg.base.activity_const.VERITASACADEMY_BOSS_RUSH_ACT_ID = {
+		act_id = 51402
+	}
+	pg.base.activity_const.VERITASACADEMY_BOSS_RUSH_TASK_ACT_ID = {
+		act_id = 51405
+	}
+	pg.base.activity_const.VERITASACADEMY_BOSS_RUSH_PT_ACT_ID = {
+		act_id = 51404
+	}
 end)()

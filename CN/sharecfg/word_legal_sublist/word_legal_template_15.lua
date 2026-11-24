@@ -4,6 +4,16 @@ slot0.word_legal_template_15 = {}
 slot1 = slot0.word_legal_template_15
 
 temp = function()
+	uv0["滨"] = {
+		["江"] = {
+			this = true
+		}
+	}
+end
+
+temp()
+
+temp = function()
 	uv0["冈"] = {
 		["依"] = {
 			["沙"] = {
@@ -445,16 +455,6 @@ temp = function()
 			this = true
 		},
 		B = {
-			this = true
-		}
-	}
-end
-
-temp()
-
-temp = function()
-	uv0["3"] = {
-		["3"] = {
 			this = true
 		}
 	}

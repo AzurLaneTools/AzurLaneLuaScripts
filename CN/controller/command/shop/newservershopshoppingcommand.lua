@@ -14,9 +14,10 @@ slot0.execute = function(slot0, slot1)
 		return
 	end
 
-	assert(slot8:GetCommodityById(slot3):GetConsume().type == 1, "暂不支持资源以为的类型")
+	slot11 = getProxy(PlayerProxy):getData()
+	slot13 = slot8:GetCommodityById(slot3):GetConsume()
 
-	if getProxy(PlayerProxy):getData():getResource(slot13.id) < slot13.count * (#slot4 ~= 1 and #slot4 or slot5) then
+	if slot13:getOwnedCount() < slot13.count * (#slot4 ~= 1 and #slot4 or slot5) then
 		pg.TipsMgr.GetInstance():ShowTips(i18n("common_no_resource"))
 
 		return
@@ -93,13 +94,14 @@ slot0.execute = function(slot0, slot1)
 				end
 			end
 
-			slot2 = getProxy(PlayerProxy):getData()
+			if uv3.type == DROP_TYPE_VITEM and uv3:getConfig("virtual_type") == 103 and getProxy(ActivityProxy):getActivityById(uv3:getConfig("link_id")) and not slot3:isEnd() and slot3:getConfig("type") == ActivityConst.ACTIVITY_TYPE_PT_BUFF_MARK2 then
+				slot3.data4 = math.max(0, (slot3.data4 or 0) - uv4 * uv1)
 
-			slot2:consume({
-				[id2res(uv0:getConfig("resource_type"))] = uv3 * uv1
-			})
-			uv4:updatePlayer(slot2)
-			uv5:sendNotification(GAME.NEW_SERVER_SHOP_SHOPPING_DONE, {
+				slot2:updateActivity(slot3)
+			end
+
+			uv5:updatePlayer(getProxy(PlayerProxy):getData())
+			uv6:sendNotification(GAME.NEW_SERVER_SHOP_SHOPPING_DONE, {
 				awards = slot1
 			})
 		else
