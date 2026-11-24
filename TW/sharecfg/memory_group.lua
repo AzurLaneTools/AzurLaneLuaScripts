@@ -527,7 +527,8 @@ pg.base.memory_group = {}
 			4583,
 			5371,
 			5372,
-			5373
+			5373,
+			5601
 		}
 	}
 	pg.base.memory_group[99] = {

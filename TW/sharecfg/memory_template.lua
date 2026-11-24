@@ -4214,6 +4214,7 @@ pg.memory_template.all = {
 	5550,
 	5551,
 	5552,
+	5601,
 	5621,
 	5622,
 	5623,
@@ -80284,6 +80285,24 @@ end)()
 			"YICHANGDERICHANGDUANJUQING39"
 		}
 	}
+	pg.base.memory_template[5601] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "新的旅程-{namecode:480}",
+		condition = "對應艦船科研等級達30級",
+		story = "LUCK49905",
+		mask = "bg/bg_memory",
+		task = 0,
+		year = 0,
+		id = 5601,
+		icon = "memory_jhaijier",
+		is_open = 0,
+		unlock_pre = {
+			"LUCK49905"
+		}
+	}
 	pg.base.memory_template[5621] = {
 		ship_group = 0,
 		subtitle = "",
@@ -80416,7 +80435,7 @@ end)()
 		type = 1,
 		number = 0,
 		title = "青澀的見習檢查",
-		condition = "完成「港區時尚特刊：心動診療時間」那不勒斯的簽到",
+		condition = "完成「港區時尚特刊：心動診療時間」拿坡里的簽到",
 		story = "SHISHANGTEKANXINDONGZHENLIAOSHIJIAN1",
 		mask = "bg/bg_memory",
 		task = 0,
@@ -80434,7 +80453,7 @@ end)()
 		type = 1,
 		number = 0,
 		title = "交錯的診斷時間",
-		condition = "完成「港區時尚特刊：心跳診療時間」新奧爾良的簽到",
+		condition = "完成「港區時尚特刊：心跳診療時間」紐奧良的簽到",
 		story = "SHISHANGTEKANXINDONGZHENLIAOSHIJIAN2",
 		mask = "bg/bg_memory",
 		task = 0,
@@ -80452,7 +80471,7 @@ end)()
 		type = 1,
 		number = 0,
 		title = "風中的純白絮語",
-		condition = "完成「港區時尚特刊：心跳診療時間」伴爾維的簽到",
+		condition = "完成「港區時尚特刊：心跳診療時間」潘勒韋的簽到",
 		story = "SHISHANGTEKANXINDONGZHENLIAOSHIJIAN3",
 		mask = "bg/bg_memory",
 		task = 0,
@@ -81886,6 +81905,8 @@ end)()
 			"LINGHANGYUANYANGCHENGJIHUA41"
 		}
 	}
+end)()
+(function ()
 	pg.base.memory_template[20041] = {
 		ship_group = 0,
 		subtitle = "",
@@ -81904,8 +81925,6 @@ end)()
 			"LINGHANGYUANYANGCHENGJIHUA42"
 		}
 	}
-end)()
-(function ()
 	pg.base.memory_template[20042] = {
 		ship_group = 0,
 		subtitle = "",
@@ -83688,6 +83707,8 @@ end)()
 			"LINGYANGZHELAIFANGJISHI4"
 		}
 	}
+end)()
+(function ()
 	pg.base.memory_template[20142] = {
 		ship_group = 0,
 		subtitle = "",
@@ -83706,8 +83727,6 @@ end)()
 			"LINGYANGZHELAIFANGJISHI5"
 		}
 	}
-end)()
-(function ()
 	pg.base.memory_template[20143] = {
 		ship_group = 0,
 		subtitle = "",
