@@ -208,6 +208,7 @@ pg.furniture_data_template.all = {
 	350,
 	351,
 	353,
+	354,
 	100002,
 	100003,
 	100004,
@@ -3701,7 +3702,32 @@ pg.furniture_data_template.all = {
 	345105,
 	345106,
 	345107,
-	345108
+	345108,
+	346001,
+	346002,
+	346101,
+	346102,
+	346103,
+	346104,
+	346105,
+	346106,
+	346107,
+	346108,
+	346109,
+	346110,
+	346111,
+	346112,
+	346113,
+	346114,
+	346115,
+	346116,
+	346117,
+	346118,
+	346119,
+	346120,
+	346121,
+	346122,
+	346123
 }
 pg.furniture_data_template.get_id_list_by_themeId = {
 	[0] = {
@@ -3907,6 +3933,7 @@ pg.furniture_data_template.get_id_list_by_themeId = {
 		350,
 		351,
 		353,
+		354,
 		100002,
 		100003,
 		100004,
@@ -7665,6 +7692,33 @@ pg.furniture_data_template.get_id_list_by_themeId = {
 		345106,
 		345107,
 		345108
+	},
+	[146] = {
+		346001,
+		346002,
+		346101,
+		346102,
+		346103,
+		346104,
+		346105,
+		346106,
+		346107,
+		346108,
+		346109,
+		346110,
+		346111,
+		346112,
+		346113,
+		346114,
+		346115,
+		346116,
+		346117,
+		346118,
+		346119,
+		346120,
+		346121,
+		346122,
+		346123
 	}
 }
 pg.furniture_data_template.get_id_list_by_tag = {
@@ -10031,7 +10085,29 @@ pg.furniture_data_template.get_id_list_by_tag = {
 		345104,
 		345105,
 		345106,
-		345107
+		345107,
+		346101,
+		346102,
+		346103,
+		346104,
+		346105,
+		346106,
+		346107,
+		346108,
+		346109,
+		346110,
+		346111,
+		346112,
+		346113,
+		346114,
+		346115,
+		346116,
+		346117,
+		346118,
+		346119,
+		346120,
+		346121,
+		346122
 	},
 	{
 		1108,
@@ -10328,7 +10404,8 @@ pg.furniture_data_template.get_id_list_by_tag = {
 		342002,
 		343002,
 		344002,
-		345002
+		345002,
+		346002
 	},
 	{
 		1001,
@@ -10461,7 +10538,8 @@ pg.furniture_data_template.get_id_list_by_tag = {
 		342001,
 		343001,
 		344001,
-		345001
+		345001,
+		346001
 	},
 	{
 		1301,
@@ -10984,6 +11062,7 @@ pg.furniture_data_template.get_id_list_by_tag = {
 		346,
 		349,
 		350,
+		354,
 		100002,
 		100003,
 		100004,
@@ -11293,7 +11372,8 @@ pg.furniture_data_template.get_id_list_by_tag = {
 		342117,
 		343119,
 		344119,
-		345108
+		345108,
+		346123
 	},
 	{
 		106,
@@ -11516,7 +11596,8 @@ pg.furniture_data_template.get_id_list_by_type = {
 		342002,
 		343002,
 		344002,
-		345002
+		345002,
+		346002
 	},
 	{
 		120,
@@ -13881,7 +13962,30 @@ pg.furniture_data_template.get_id_list_by_type = {
 		345105,
 		345106,
 		345107,
-		345108
+		345108,
+		346101,
+		346102,
+		346103,
+		346104,
+		346105,
+		346106,
+		346107,
+		346108,
+		346109,
+		346110,
+		346111,
+		346112,
+		346113,
+		346114,
+		346115,
+		346116,
+		346117,
+		346118,
+		346119,
+		346120,
+		346121,
+		346122,
+		346123
 	},
 	{
 		1108,
@@ -14178,7 +14282,8 @@ pg.furniture_data_template.get_id_list_by_type = {
 		342001,
 		343001,
 		344001,
-		345001
+		345001,
+		346001
 	},
 	{
 		1101,
@@ -14919,6 +15024,7 @@ pg.furniture_data_template.get_id_list_by_type = {
 		350,
 		351,
 		353,
+		354,
 		100002,
 		100004,
 		100005,
@@ -25311,6 +25417,50 @@ end)()
 		},
 		interAction_group = {}
 	}
+	pg.base.furniture_data_template[354] = {
+		can_rotate = 0,
+		name = "Mage's Focus",
+		gain_by = "",
+		type = 7,
+		dir = 0,
+		dorm_id = 0,
+		is_get_time_note = 0,
+		belong = 1,
+		rarity = 0,
+		is_3d_obj = 0,
+		spine_combine_action_replace = "",
+		themeId = 0,
+		icon = "modaozhuangzhiicon",
+		spine_extra = "",
+		level = 1,
+		effect = "3",
+		spine_action_replace = "",
+		picture = "本装置仅作装饰展示用途，请各位同学不要擅自搬动、拆卸。",
+		canputon = 0,
+		count = 1,
+		describe = "",
+		advice = 0,
+		id = 354,
+		tag = 6,
+		comfortable = 0,
+		deblocking = 1,
+		size = {
+			3,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"modaozhuangzhi",
+				"normal"
+			}
+		},
+		interAction_group = {}
+	}
 	pg.base.furniture_data_template[100002] = {
 		advice = 0,
 		name = "Air Pump of Friendship",
@@ -30985,7 +31135,7 @@ end)()
 	}
 	pg.base.furniture_data_template[100091] = {
 		advice = 0,
-		name = "啾啾的移动飞艇",
+		name = "Manjuu Airship",
 		count = 1,
 		type = 11,
 		dir = 0,
@@ -31005,7 +31155,7 @@ end)()
 		canputon = 0,
 		id = 100091,
 		comfortable = 0,
-		describe = "魔力蒸腾，向西六十里出发啾！",
+		describe = "Mystical, magical powers combust with a fwoosh! Set sail 60 kilometers to the west!",
 		dorm_id = 0,
 		tag = 6,
 		spine_extra = "",
@@ -32015,6 +32165,8 @@ end)()
 		},
 		interAction_group = {}
 	}
+end)()
+(function ()
 	pg.base.furniture_data_template[1103] = {
 		can_rotate = 0,
 		name = "Flooring",
@@ -32062,8 +32214,6 @@ end)()
 		},
 		interAction_group = {}
 	}
-end)()
-(function ()
 	pg.base.furniture_data_template[1104] = {
 		can_rotate = 0,
 		name = "Broken Screen",
@@ -36147,6 +36297,8 @@ end)()
 		},
 		interAction_group = {}
 	}
+end)()
+(function ()
 	pg.base.furniture_data_template[5107] = {
 		can_rotate = 0,
 		name = "Ironblood Sofa",
@@ -36209,8 +36361,6 @@ end)()
 		},
 		interAction_group = {}
 	}
-end)()
-(function ()
 	pg.base.furniture_data_template[5108] = {
 		can_rotate = 0,
 		name = "Blueprint Holder",
@@ -40503,6 +40653,8 @@ end)()
 		},
 		interAction_group = {}
 	}
+end)()
+(function ()
 	pg.base.furniture_data_template[11101] = {
 		can_rotate = 0,
 		name = "Teacup Bath",
@@ -40555,8 +40707,6 @@ end)()
 		},
 		interAction_group = {}
 	}
-end)()
-(function ()
 	pg.base.furniture_data_template[11102] = {
 		can_rotate = 0,
 		name = "Cake Cabinet",
@@ -44839,6 +44989,8 @@ end)()
 		},
 		interAction_group = {}
 	}
+end)()
+(function ()
 	pg.base.furniture_data_template[14108] = {
 		can_rotate = 0,
 		name = "Yellow Star",
@@ -44877,8 +45029,6 @@ end)()
 		},
 		interAction_group = {}
 	}
-end)()
-(function ()
 	pg.base.furniture_data_template[14109] = {
 		can_rotate = 0,
 		name = "Starry Dress",
@@ -49861,6 +50011,8 @@ end)()
 		},
 		interAction_group = {}
 	}
+end)()
+(function ()
 	pg.base.furniture_data_template[18202] = {
 		can_rotate = 0,
 		name = "Dogoo Plushie (Small)",
@@ -49899,8 +50051,6 @@ end)()
 		},
 		interAction_group = {}
 	}
-end)()
-(function ()
 	pg.base.furniture_data_template[18301] = {
 		can_rotate = 0,
 		name = "Wall-mounted Display",
@@ -54500,6 +54650,8 @@ end)()
 		},
 		interAction_group = {}
 	}
+end)()
+(function ()
 	pg.base.furniture_data_template[22119] = {
 		can_rotate = 0,
 		name = "Metropolis Staircase",
@@ -54538,8 +54690,6 @@ end)()
 		},
 		interAction_group = {}
 	}
-end)()
-(function ()
 	pg.base.furniture_data_template[22120] = {
 		can_rotate = 0,
 		name = "Long Carpet",
@@ -59408,6 +59558,8 @@ end)()
 		},
 		interAction_group = {}
 	}
+end)()
+(function ()
 	pg.base.furniture_data_template[27202] = {
 		can_rotate = 0,
 		name = "Frozen Watermelon",
@@ -59446,8 +59598,6 @@ end)()
 		},
 		interAction_group = {}
 	}
-end)()
-(function ()
 	pg.base.furniture_data_template[27301] = {
 		can_rotate = 0,
 		name = "Window with Curtains",
@@ -63951,6 +64101,8 @@ end)()
 		},
 		interAction_group = {}
 	}
+end)()
+(function ()
 	pg.base.furniture_data_template[30118] = {
 		can_rotate = 0,
 		name = "Rainbow Lacquer Bathtub",
@@ -64003,8 +64155,6 @@ end)()
 		},
 		interAction_group = {}
 	}
-end)()
-(function ()
 	pg.base.furniture_data_template[30119] = {
 		can_rotate = 0,
 		name = "Painting Table",
@@ -68627,6 +68777,8 @@ end)()
 		},
 		interAction_group = {}
 	}
+end)()
+(function ()
 	pg.base.furniture_data_template[37112] = {
 		can_rotate = 0,
 		name = "Christmas Tree",
@@ -68665,8 +68817,6 @@ end)()
 		},
 		interAction_group = {}
 	}
-end)()
-(function ()
 	pg.base.furniture_data_template[37113] = {
 		can_rotate = 0,
 		name = "Christmas Branch",
@@ -72985,6 +73135,8 @@ end)()
 		},
 		interAction_group = {}
 	}
+end)()
+(function ()
 	pg.base.furniture_data_template[40109] = {
 		can_rotate = 0,
 		name = "Scarf Manjuu",
@@ -73023,8 +73175,6 @@ end)()
 		},
 		interAction_group = {}
 	}
-end)()
-(function ()
 	pg.base.furniture_data_template[40110] = {
 		can_rotate = 0,
 		name = "Ice Fishing Hole",
@@ -77563,6 +77713,8 @@ end)()
 		},
 		interAction_group = {}
 	}
+end)()
+(function ()
 	pg.base.furniture_data_template[44001] = {
 		can_rotate = 0,
 		name = "Rain-Drenched Flooring",
@@ -77598,8 +77750,6 @@ end)()
 		},
 		interAction_group = {}
 	}
-end)()
-(function ()
 	pg.base.furniture_data_template[44002] = {
 		can_rotate = 0,
 		name = "Rain-Drenched Wallpaper",
@@ -81794,6 +81944,8 @@ end)()
 		},
 		interAction_group = {}
 	}
+end)()
+(function ()
 	pg.base.furniture_data_template[46124] = {
 		can_rotate = 0,
 		name = "Blue Air Cube",
@@ -81845,8 +81997,6 @@ end)()
 		},
 		interAction_group = {}
 	}
-end)()
-(function ()
 	pg.base.furniture_data_template[46125] = {
 		can_rotate = 0,
 		name = "Holographic Fence",
@@ -86187,6 +86337,8 @@ end)()
 		},
 		interAction_group = {}
 	}
+end)()
+(function ()
 	pg.base.furniture_data_template[49119] = {
 		can_rotate = 0,
 		name = "Royal Tea Set",
@@ -86225,8 +86377,6 @@ end)()
 		},
 		interAction_group = {}
 	}
-end)()
-(function ()
 	pg.base.furniture_data_template[49120] = {
 		can_rotate = 0,
 		name = "Scholar's Bookshelves",
@@ -90583,6 +90733,8 @@ end)()
 		},
 		interAction_group = {}
 	}
+end)()
+(function ()
 	pg.base.furniture_data_template[53303] = {
 		can_rotate = 0,
 		name = "Backstage Door",
@@ -90621,8 +90773,6 @@ end)()
 		},
 		interAction_group = {}
 	}
-end)()
-(function ()
 	pg.base.furniture_data_template[53304] = {
 		can_rotate = 0,
 		name = "Retro Manjuu Display",
@@ -94877,6 +95027,8 @@ end)()
 		},
 		interAction_group = {}
 	}
+end)()
+(function ()
 	pg.base.furniture_data_template[58111] = {
 		can_rotate = 0,
 		name = "Manjuu Statue",
@@ -94915,8 +95067,6 @@ end)()
 		},
 		interAction_group = {}
 	}
-end)()
-(function ()
 	pg.base.furniture_data_template[58112] = {
 		can_rotate = 0,
 		name = "Spring Festival Staircase",
@@ -99244,6 +99394,8 @@ end)()
 		},
 		interAction_group = {}
 	}
+end)()
+(function ()
 	pg.base.furniture_data_template[62105] = {
 		can_rotate = 0,
 		name = "Iris Villa",
@@ -99282,8 +99434,6 @@ end)()
 		},
 		interAction_group = {}
 	}
-end)()
-(function ()
 	pg.base.furniture_data_template[62106] = {
 		can_rotate = 0,
 		name = "Iris Bread",
@@ -103648,6 +103798,8 @@ end)()
 		},
 		interAction_group = {}
 	}
+end)()
+(function ()
 	pg.base.furniture_data_template[68110] = {
 		can_rotate = 0,
 		name = "Tour Trolley",
@@ -103700,8 +103852,6 @@ end)()
 		},
 		interAction_group = {}
 	}
-end)()
-(function ()
 	pg.base.furniture_data_template[68111] = {
 		can_rotate = 0,
 		name = "Manjuu Magic School",
@@ -108408,6 +108558,8 @@ end)()
 		},
 		interAction_group = {}
 	}
+end)()
+(function ()
 	pg.base.furniture_data_template[72111] = {
 		can_rotate = 0,
 		name = "Beach Flag",
@@ -108446,8 +108598,6 @@ end)()
 		},
 		interAction_group = {}
 	}
-end)()
-(function ()
 	pg.base.furniture_data_template[72112] = {
 		can_rotate = 0,
 		name = "Sun Lounger",
@@ -112836,6 +112986,8 @@ end)()
 		},
 		interAction_group = {}
 	}
+end)()
+(function ()
 	pg.base.furniture_data_template[76113] = {
 		can_rotate = 0,
 		name = "Panda Recliner",
@@ -112900,8 +113052,6 @@ end)()
 		},
 		interAction_group = {}
 	}
-end)()
-(function ()
 	pg.base.furniture_data_template[76114] = {
 		can_rotate = 0,
 		name = "Panda Sculpture",
@@ -117270,6 +117420,8 @@ end)()
 		},
 		interAction_group = {}
 	}
+end)()
+(function ()
 	pg.base.furniture_data_template[80115] = {
 		can_rotate = 1,
 		name = "Darts Board",
@@ -117322,8 +117474,6 @@ end)()
 		},
 		interAction_group = {}
 	}
-end)()
-(function ()
 	pg.base.furniture_data_template[80301] = {
 		can_rotate = 0,
 		name = "Bar Rack",
@@ -121440,6 +121590,8 @@ end)()
 		},
 		interAction_group = {}
 	}
+end)()
+(function ()
 	pg.base.furniture_data_template[84168] = {
 		can_rotate = 0,
 		name = "Miniature Campus",
@@ -121513,8 +121665,6 @@ end)()
 		},
 		interAction_group = {}
 	}
-end)()
-(function ()
 	pg.base.furniture_data_template[84169] = {
 		can_rotate = 0,
 		name = "Intact Houses (Orange)",
@@ -125900,6 +126050,8 @@ end)()
 		},
 		interAction_group = {}
 	}
+end)()
+(function ()
 	pg.base.furniture_data_template[88107] = {
 		can_rotate = 0,
 		name = "Count's Castle Coffin",
@@ -125964,8 +126116,6 @@ end)()
 		},
 		interAction_group = {}
 	}
-end)()
-(function ()
 	pg.base.furniture_data_template[88108] = {
 		can_rotate = 0,
 		name = "Count's Castle Pillar",
@@ -130028,6 +130178,8 @@ end)()
 		},
 		interAction_group = {}
 	}
+end)()
+(function ()
 	pg.base.furniture_data_template[91129] = {
 		advice = 0,
 		name = "Miniature Stage",
@@ -130099,8 +130251,6 @@ end)()
 		},
 		interAction_group = {}
 	}
-end)()
-(function ()
 	pg.base.furniture_data_template[91301] = {
 		can_rotate = 0,
 		name = "Wall-Mounted Speaker 1",
@@ -134160,6 +134310,8 @@ end)()
 		},
 		interAction_group = {}
 	}
+end)()
+(function ()
 	pg.base.furniture_data_template[95131] = {
 		can_rotate = 0,
 		name = "Atelier Alchemy Cauldron",
@@ -134224,8 +134376,6 @@ end)()
 		},
 		interAction_group = {}
 	}
-end)()
-(function ()
 	pg.base.furniture_data_template[95132] = {
 		advice = 0,
 		name = "Alchemy Platform",
@@ -138648,6 +138798,8 @@ end)()
 		},
 		interAction_group = {}
 	}
+end)()
+(function ()
 	pg.base.furniture_data_template[98302] = {
 		can_rotate = 0,
 		name = "Classic Column Row",
@@ -138686,8 +138838,6 @@ end)()
 		},
 		interAction_group = {}
 	}
-end)()
-(function ()
 	pg.base.furniture_data_template[98304] = {
 		can_rotate = 0,
 		name = "Royal Academy Window",
@@ -143340,6 +143490,8 @@ end)()
 		},
 		interAction_group = {}
 	}
+end)()
+(function ()
 	pg.base.furniture_data_template[302110] = {
 		can_rotate = 0,
 		name = "Ayanami Statue",
@@ -143378,8 +143530,6 @@ end)()
 		},
 		interAction_group = {}
 	}
-end)()
-(function ()
 	pg.base.furniture_data_template[302111] = {
 		can_rotate = 0,
 		name = "Palais Royal Carpet",
@@ -147968,6 +148118,8 @@ end)()
 		},
 		interAction_group = {}
 	}
+end)()
+(function ()
 	pg.base.furniture_data_template[305112] = {
 		can_rotate = 0,
 		name = "Shinobi Stone Lantern",
@@ -148006,8 +148158,6 @@ end)()
 		},
 		interAction_group = {}
 	}
-end)()
-(function ()
 	pg.base.furniture_data_template[305113] = {
 		can_rotate = 0,
 		name = "Shinobi Open-Air Bath",
@@ -152772,6 +152922,8 @@ end)()
 		},
 		interAction_group = {}
 	}
+end)()
+(function ()
 	pg.base.furniture_data_template[310108] = {
 		can_rotate = 0,
 		name = "Backstage Couch",
@@ -152823,8 +152975,6 @@ end)()
 		},
 		interAction_group = {}
 	}
-end)()
-(function ()
 	pg.base.furniture_data_template[310109] = {
 		can_rotate = 0,
 		name = "Prop Boxes",
@@ -157526,6 +157676,8 @@ end)()
 		},
 		interAction_group = {}
 	}
+end)()
+(function ()
 	pg.base.furniture_data_template[315110] = {
 		advice = 0,
 		name = "Shadowy Tavern",
@@ -157597,8 +157749,6 @@ end)()
 		},
 		interAction_group = {}
 	}
-end)()
-(function ()
 	pg.base.furniture_data_template[315111] = {
 		can_rotate = 0,
 		name = "Shadowy Bushes",
@@ -162183,6 +162333,8 @@ end)()
 		},
 		interAction_group = {}
 	}
+end)()
+(function ()
 	pg.base.furniture_data_template[320001] = {
 		can_rotate = 0,
 		name = "Med Station Flooring",
@@ -162218,8 +162370,6 @@ end)()
 		},
 		interAction_group = {}
 	}
-end)()
-(function ()
 	pg.base.furniture_data_template[320002] = {
 		can_rotate = 0,
 		name = "Med Station Wallpaper",
@@ -166945,6 +167095,8 @@ end)()
 		},
 		interAction_group = {}
 	}
+end)()
+(function ()
 	pg.base.furniture_data_template[325114] = {
 		can_rotate = 0,
 		name = "Resort Couch",
@@ -166996,8 +167148,6 @@ end)()
 		},
 		interAction_group = {}
 	}
-end)()
-(function ()
 	pg.base.furniture_data_template[325115] = {
 		can_rotate = 0,
 		name = "Stylish Couch",
@@ -171518,6 +171668,8 @@ end)()
 		},
 		interAction_group = {}
 	}
+end)()
+(function ()
 	pg.base.furniture_data_template[332104] = {
 		can_rotate = 0,
 		name = "Temple Staircase",
@@ -171562,8 +171714,6 @@ end)()
 		},
 		interAction_group = {}
 	}
-end)()
-(function ()
 	pg.base.furniture_data_template[332105] = {
 		can_rotate = 0,
 		name = "Site of Rest",
@@ -176225,6 +176375,8 @@ end)()
 		},
 		interAction_group = {}
 	}
+end)()
+(function ()
 	pg.base.furniture_data_template[335111] = {
 		can_rotate = 0,
 		name = "Spring Auction VIP Seat 1",
@@ -176263,8 +176415,6 @@ end)()
 		},
 		interAction_group = {}
 	}
-end)()
-(function ()
 	pg.base.furniture_data_template[335112] = {
 		can_rotate = 0,
 		name = "Spring Auction VIP Seat 2",
@@ -180888,6 +181038,8 @@ end)()
 		},
 		interAction_group = {}
 	}
+end)()
+(function ()
 	pg.base.furniture_data_template[341110] = {
 		can_rotate = 0,
 		name = "Abandoned Hospital Nursejuu",
@@ -180936,8 +181088,6 @@ end)()
 		},
 		interAction_group = {}
 	}
-end)()
-(function ()
 	pg.base.furniture_data_template[341111] = {
 		can_rotate = 0,
 		name = "Medical Waste Bin",
@@ -185387,6 +185537,1278 @@ end)()
 		followBone = {
 			"char",
 			-1
+		},
+		interAction_group = {}
+	}
+	pg.base.furniture_data_template[346001] = {
+		can_rotate = 0,
+		name = "Sizzling Siesta Flooring",
+		gain_by = "",
+		type = 4,
+		dir = 0,
+		dorm_id = 0,
+		size = "",
+		is_get_time_note = 0,
+		belong = 0,
+		rarity = 4,
+		is_3d_obj = 0,
+		spine_combine_action_replace = "",
+		themeId = 146,
+		icon = "dibanycicon",
+		spine_extra = "",
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		picture = "yc/dibanyc",
+		canputon = 0,
+		count = 1,
+		describe = "Welcome to our sun-kissed vacation paradise. Spend a relaxing day surrounded by sparkling waves and joyous laughter!",
+		advice = 0,
+		tag = 4,
+		id = 346001,
+		deblocking = 1,
+		comfortable = 4,
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	}
+end)()
+(function ()
+	pg.base.furniture_data_template[346002] = {
+		can_rotate = 0,
+		name = "Sizzling Siesta Wallpaper",
+		gain_by = "",
+		type = 1,
+		dir = 0,
+		dorm_id = 0,
+		size = "",
+		is_get_time_note = 0,
+		belong = 0,
+		rarity = 4,
+		is_3d_obj = 0,
+		spine_combine_action_replace = "",
+		themeId = 146,
+		icon = "qiangbiycicon",
+		spine_extra = "",
+		level = 5,
+		effect = "",
+		spine_action_replace = "",
+		picture = "",
+		canputon = 0,
+		count = 1,
+		describe = "Welcome to our sun-kissed vacation paradise. Spend a relaxing day surrounded by sparkling waves and joyous laughter!",
+		advice = 0,
+		id = 346002,
+		tag = 3,
+		comfortable = 4,
+		deblocking = 1,
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"qiangbiyc",
+				"normal"
+			}
+		},
+		interAction_group = {}
+	}
+	pg.base.furniture_data_template[346101] = {
+		can_rotate = 0,
+		name = "Sizzling Siesta Chair",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		is_get_time_note = 0,
+		belong = 1,
+		rarity = 1,
+		is_3d_obj = 0,
+		spine_combine_action_replace = "",
+		themeId = 146,
+		icon = "bataiyiziycicon",
+		spine_extra = "",
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		picture = "yc/bataiyiziyc",
+		canputon = 0,
+		count = 2,
+		describe = "Just chill and stay put. Your delicious, piping-hot food is about to come out soon!",
+		advice = 0,
+		id = 346101,
+		tag = 1,
+		comfortable = 1,
+		deblocking = 1,
+		size = {
+			1,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sit",
+				{
+					-13.4,
+					52.5
+				},
+				{
+					-1,
+					1
+				}
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	}
+	pg.base.furniture_data_template[346102] = {
+		can_rotate = 0,
+		name = "Sizzling Siesta Picnic Table",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		is_get_time_note = 0,
+		belong = 1,
+		rarity = 3,
+		is_3d_obj = 0,
+		spine_combine_action_replace = "",
+		themeId = 146,
+		icon = "changzhuoycicon",
+		spine_extra = "",
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		picture = "yc/changzhuoyc",
+		canputon = 0,
+		count = 1,
+		describe = "Let's enjoy all the delicious food and drinks to our hearts' content!",
+		advice = 0,
+		tag = 1,
+		id = 346102,
+		deblocking = 1,
+		comfortable = 3,
+		size = {
+			2,
+			7
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	}
+	pg.base.furniture_data_template[346103] = {
+		advice = 0,
+		name = "Sizzling Siesta Grill Station",
+		count = 1,
+		type = 2,
+		dir = 0,
+		rarity = 3,
+		belong = 1,
+		is_get_time_note = 0,
+		is_3d_obj = 0,
+		gain_by = "",
+		themeId = 146,
+		icon = "dashaokaotaiycicon",
+		deblocking = 1,
+		level = 1,
+		can_rotate = 0,
+		effect = "",
+		spine_combine_action_replace = "",
+		picture = "",
+		canputon = 0,
+		id = 346103,
+		comfortable = 3,
+		describe = "A large grill with a spacious prep station. Churns out mouth-watering barbecue at awesome speeds.",
+		dorm_id = 0,
+		tag = 1,
+		spine_extra = "",
+		spine_action_replace = "",
+		size = {
+			2,
+			5
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"dashaokaotaiyc",
+				"normal"
+			},
+			{},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"dance"
+					}
+				},
+				{
+					nil,
+					1
+				},
+				{
+					0
+				}
+			},
+			{},
+			{
+				0,
+				0
+			}
+		},
+		followBone = {
+			"char",
+			1
+		},
+		interAction_group = {}
+	}
+	pg.base.furniture_data_template[346104] = {
+		can_rotate = 0,
+		name = "Sizzling Siesta Bar",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		is_get_time_note = 0,
+		belong = 1,
+		rarity = 4,
+		is_3d_obj = 0,
+		spine_combine_action_replace = "",
+		themeId = 146,
+		icon = "fangzibataiycicon",
+		spine_extra = "",
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		picture = "",
+		canputon = 0,
+		count = 1,
+		describe = "One look at the roof and you know this place is legit!",
+		advice = 0,
+		id = 346104,
+		tag = 1,
+		comfortable = 4,
+		deblocking = 1,
+		size = {
+			6,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"fangzibataiyc",
+				"normal"
+			}
+		},
+		interAction_group = {}
+	}
+	pg.base.furniture_data_template[346105] = {
+		can_rotate = 0,
+		name = "Sizzling Siesta Staffjuu",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		is_get_time_note = 0,
+		belong = 1,
+		rarity = 2,
+		is_3d_obj = 0,
+		spine_combine_action_replace = "",
+		themeId = 146,
+		icon = "fuwujiuycicon",
+		spine_extra = "",
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		picture = "",
+		canputon = 0,
+		count = 1,
+		describe = "Fresh and sizzling BBQ coming right up! Be careful, it's hot!",
+		advice = 0,
+		id = 346105,
+		tag = 1,
+		comfortable = 2,
+		deblocking = 1,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"fuwujiuyc",
+				"normal"
+			}
+		},
+		interAction_group = {}
+	}
+	pg.base.furniture_data_template[346106] = {
+		can_rotate = 0,
+		name = "Sizzling Siesta Flowerbed",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		is_get_time_note = 0,
+		belong = 1,
+		rarity = 2,
+		is_3d_obj = 0,
+		spine_combine_action_replace = "",
+		themeId = 146,
+		icon = "huatanycicon",
+		spine_extra = "",
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		picture = "yc/huatanyc",
+		canputon = 0,
+		count = 2,
+		describe = "Even the tiny white flowers growing around the flowerbed want to join in the festivities!",
+		advice = 0,
+		tag = 1,
+		id = 346106,
+		deblocking = 1,
+		comfortable = 2,
+		size = {
+			3,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	}
+	pg.base.furniture_data_template[346107] = {
+		can_rotate = 0,
+		name = "Sizzling Siesta Roast",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		is_get_time_note = 0,
+		belong = 1,
+		rarity = 3,
+		is_3d_obj = 0,
+		spine_combine_action_replace = "",
+		themeId = 146,
+		icon = "kaorouycicon",
+		spine_extra = "",
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		picture = "",
+		canputon = 0,
+		count = 1,
+		describe = "One look, and you'll want seconds.",
+		advice = 0,
+		id = 346107,
+		tag = 1,
+		comfortable = 3,
+		deblocking = 1,
+		size = {
+			5,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"kaorouyc",
+				"normal"
+			}
+		},
+		interAction_group = {}
+	}
+	pg.base.furniture_data_template[346108] = {
+		can_rotate = 0,
+		name = "Sizzling Siesta Fence",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		is_get_time_note = 0,
+		belong = 1,
+		rarity = 4,
+		is_3d_obj = 0,
+		spine_combine_action_replace = "",
+		themeId = 146,
+		icon = "langanycicon",
+		spine_extra = "",
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		picture = "yc/langanyc",
+		canputon = 0,
+		count = 2,
+		describe = "Small wooden arches surrounding the venue. A light workout for the ivy.",
+		advice = 0,
+		tag = 1,
+		id = 346108,
+		deblocking = 1,
+		comfortable = 4,
+		size = {
+			9,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	}
+	pg.base.furniture_data_template[346109] = {
+		can_rotate = 0,
+		name = "Sizzling Siesta Flower Stand",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		is_get_time_note = 0,
+		belong = 1,
+		rarity = 2,
+		is_3d_obj = 0,
+		spine_combine_action_replace = "",
+		themeId = 146,
+		icon = "pentaiycicon",
+		spine_extra = "",
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		picture = "yc/pentaiyc",
+		canputon = 0,
+		count = 1,
+		describe = "Wooden steps of varying heights. The bonsai plants lend a sophisticated appeal.",
+		advice = 0,
+		tag = 1,
+		id = 346109,
+		deblocking = 1,
+		comfortable = 2,
+		size = {
+			1,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	}
+	pg.base.furniture_data_template[346110] = {
+		can_rotate = 0,
+		name = "Sizzling Siesta Decorative Plant",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		is_get_time_note = 0,
+		belong = 1,
+		rarity = 1,
+		is_3d_obj = 0,
+		spine_combine_action_replace = "",
+		themeId = 146,
+		icon = "penzaiycicon",
+		spine_extra = "",
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		picture = "yc/penzaiyc",
+		canputon = 0,
+		count = 2,
+		describe = "Tiny flowers bloom amidst round leaves.",
+		advice = 0,
+		tag = 1,
+		id = 346110,
+		deblocking = 1,
+		comfortable = 1,
+		size = {
+			1,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	}
+	pg.base.furniture_data_template[346111] = {
+		can_rotate = 0,
+		name = "Sizzling Siesta Volleyball",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		is_get_time_note = 0,
+		belong = 1,
+		rarity = 1,
+		is_3d_obj = 0,
+		spine_combine_action_replace = "",
+		themeId = 146,
+		icon = "qiuycicon",
+		spine_extra = "",
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		picture = "yc/qiuyc",
+		canputon = 0,
+		count = 1,
+		describe = "Try not to spike it into the pool!",
+		advice = 0,
+		tag = 1,
+		id = 346111,
+		deblocking = 1,
+		comfortable = 1,
+		size = {
+			1,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	}
+	pg.base.furniture_data_template[346112] = {
+		can_rotate = 0,
+		name = "Sizzling Siesta Chefjuu",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		is_get_time_note = 0,
+		belong = 1,
+		rarity = 2,
+		is_3d_obj = 0,
+		spine_combine_action_replace = "",
+		themeId = 146,
+		icon = "shaokaojiuycicon",
+		spine_extra = "",
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		picture = "",
+		canputon = 0,
+		count = 1,
+		describe = "*ssssszzzz*! Perfectly cooked, and coming right up!",
+		advice = 0,
+		id = 346112,
+		tag = 1,
+		comfortable = 2,
+		deblocking = 1,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"shaokaojiuyc",
+				"normal"
+			}
+		},
+		interAction_group = {}
+	}
+	pg.base.furniture_data_template[346113] = {
+		can_rotate = 0,
+		name = "Sizzling Siesta Mini Grill",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		is_get_time_note = 0,
+		belong = 1,
+		rarity = 2,
+		is_3d_obj = 0,
+		spine_combine_action_replace = "",
+		themeId = 146,
+		icon = "shaokaoluycicon",
+		spine_extra = "",
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		picture = "",
+		canputon = 0,
+		count = 1,
+		describe = "Even a tiny grill can fill up the venue with the aroma of meat.",
+		advice = 0,
+		id = 346113,
+		tag = 1,
+		comfortable = 2,
+		deblocking = 1,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"shaokaoluyc",
+				"normal",
+				{
+					"action",
+					false
+				}
+			}
+		},
+		interAction_group = {}
+	}
+	pg.base.furniture_data_template[346114] = {
+		can_rotate = 0,
+		name = "Sizzling Siesta Veggie Basket",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		is_get_time_note = 0,
+		belong = 1,
+		rarity = 1,
+		is_3d_obj = 0,
+		spine_combine_action_replace = "",
+		themeId = 146,
+		icon = "shucailanycicon",
+		spine_extra = "",
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		picture = "yc/shucailanyc",
+		canputon = 0,
+		count = 1,
+		describe = "Don't just chuck a huge chunk of meat! Eat your veggies too!",
+		advice = 0,
+		tag = 1,
+		id = 346114,
+		deblocking = 1,
+		comfortable = 1,
+		size = {
+			1,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	}
+	pg.base.furniture_data_template[346115] = {
+		advice = 0,
+		name = "Sizzling Siesta Swing",
+		count = 1,
+		type = 2,
+		dir = 0,
+		rarity = 3,
+		belong = 1,
+		is_get_time_note = 0,
+		is_3d_obj = 0,
+		gain_by = "",
+		themeId = 146,
+		icon = "shumuycicon",
+		deblocking = 1,
+		level = 1,
+		can_rotate = 0,
+		effect = "",
+		spine_combine_action_replace = "",
+		picture = "",
+		canputon = 0,
+		id = 346115,
+		comfortable = 3,
+		describe = "Relax beneath the trees for a moment of peace and leisure.",
+		dorm_id = 0,
+		tag = 1,
+		spine_extra = "",
+		spine_action_replace = "",
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"shumuycB",
+				"normal"
+			},
+			{
+				"shumuycT"
+			},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"sit"
+					}
+				},
+				{},
+				{
+					1
+				}
+			},
+			{},
+			{
+				0,
+				0
+			}
+		},
+		followBone = {
+			"char",
+			-1
+		},
+		interAction_group = {}
+	}
+	pg.base.furniture_data_template[346116] = {
+		can_rotate = 0,
+		name = "Sizzling Siesta Beach Chair 1",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		is_get_time_note = 0,
+		belong = 1,
+		rarity = 2,
+		is_3d_obj = 0,
+		spine_combine_action_replace = "",
+		themeId = 146,
+		icon = "tangyi2ycicon",
+		spine_extra = "",
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		picture = "yc/yangyi1yc",
+		canputon = 0,
+		count = 1,
+		describe = "What a beautiful day! I'm gonna kick back and do nothing!",
+		advice = 0,
+		id = 346116,
+		tag = 1,
+		comfortable = 2,
+		deblocking = 1,
+		size = {
+			2,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sleep",
+				{
+					4,
+					16
+				},
+				{
+					-1,
+					1
+				},
+				"yc/tangyi1yc_using"
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	}
+	pg.base.furniture_data_template[346117] = {
+		can_rotate = 0,
+		name = "Sizzling Siesta Beach Chair 2",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		is_get_time_note = 0,
+		belong = 1,
+		rarity = 2,
+		is_3d_obj = 0,
+		spine_combine_action_replace = "",
+		themeId = 146,
+		icon = "yangyi1ycicon",
+		spine_extra = "",
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		picture = "yc/tangyi2yc",
+		canputon = 0,
+		count = 1,
+		describe = "What a beautiful day! I'm gonna kick back and do nothing!",
+		advice = 0,
+		id = 346117,
+		tag = 1,
+		comfortable = 2,
+		deblocking = 1,
+		size = {
+			2,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sleep",
+				{
+					4,
+					16
+				},
+				{
+					-1,
+					1
+				},
+				"yc/tangyi2yc_using"
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	}
+	pg.base.furniture_data_template[346118] = {
+		can_rotate = 0,
+		name = "Sizzling Siesta Cooler",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		is_get_time_note = 0,
+		belong = 1,
+		rarity = 2,
+		is_3d_obj = 0,
+		spine_combine_action_replace = "",
+		themeId = 146,
+		icon = "yingliaoxiangycicon",
+		spine_extra = "",
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		picture = "yc/yingliaoxiangyc",
+		canputon = 0,
+		count = 1,
+		describe = "The one-stop shop for all your summery iced drinks!",
+		advice = 0,
+		tag = 1,
+		id = 346118,
+		deblocking = 1,
+		comfortable = 2,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	}
+	pg.base.furniture_data_template[346119] = {
+		can_rotate = 0,
+		name = "Sizzling Siesta Shishkabob Chair",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		is_get_time_note = 0,
+		belong = 1,
+		rarity = 2,
+		is_3d_obj = 0,
+		spine_combine_action_replace = "",
+		themeId = 146,
+		icon = "yiziycicon",
+		spine_extra = "",
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		picture = "yc/yiziyc",
+		canputon = 0,
+		count = 1,
+		describe = "You're telling me I'm supposed to SIT on this big, juicy-looking shishkabob?!",
+		advice = 0,
+		id = 346119,
+		tag = 1,
+		comfortable = 2,
+		deblocking = 1,
+		size = {
+			1,
+			7
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sit",
+				{
+					3,
+					49
+				},
+				{
+					-1,
+					1
+				}
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	}
+	pg.base.furniture_data_template[346120] = {
+		advice = 0,
+		name = "Sizzling Siesta Pool",
+		count = 1,
+		type = 2,
+		dir = 0,
+		rarity = 4,
+		belong = 1,
+		is_get_time_note = 0,
+		is_3d_obj = 0,
+		gain_by = "",
+		themeId = 146,
+		icon = "yongchiycicon",
+		deblocking = 1,
+		level = 1,
+		can_rotate = 0,
+		effect = "",
+		spine_combine_action_replace = "",
+		picture = "",
+		canputon = 0,
+		id = 346120,
+		comfortable = 4,
+		describe = "Leave your worries behind on the deck, and make a big splash!",
+		dorm_id = 0,
+		tag = 1,
+		spine_action_replace = "",
+		size = {
+			12,
+			10
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"yongchiycB",
+				"normal"
+			},
+			{
+				"yongchiycT"
+			},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"wash1",
+						nil,
+						"wash"
+					}
+				},
+				{
+					nil,
+					1
+				},
+				{
+					1
+				},
+				{
+					{
+						"wash1"
+					},
+					{
+						"wash2"
+					},
+					{
+						"wash3"
+					}
+				}
+			},
+			{
+				{
+					17,
+					155
+				},
+				{
+					261,
+					238
+				},
+				"yc/yongchiyc_mask1"
+			},
+			{
+				-20,
+				-150
+			},
+			{
+				1,
+				1
+			}
+		},
+		spine_extra = {
+			{
+				{
+					{
+						2,
+						152
+					},
+					{
+						261,
+						238
+					},
+					"yc/yongchiyc_mask1"
+				},
+				{
+					-5,
+					-158
+				},
+				{
+					1,
+					1
+				}
+			},
+			{
+				{
+					{
+						100.5,
+						147.8
+					},
+					{
+						849,
+						432
+					},
+					"yc/yongchiyc_mask"
+				},
+				{
+					-98,
+					-149
+				},
+				{
+					1,
+					1
+				}
+			}
+		},
+		followBone = {
+			{
+				"char1",
+				-1
+			},
+			{
+				"char2",
+				1
+			},
+			{
+				"char3",
+				1
+			}
+		},
+		interAction_group = {}
+	}
+	pg.base.furniture_data_template[346121] = {
+		can_rotate = 0,
+		name = "Sizzling Siesta Float",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		is_get_time_note = 0,
+		belong = 1,
+		rarity = 2,
+		is_3d_obj = 0,
+		spine_combine_action_replace = "",
+		themeId = 146,
+		icon = "yongquanycicon",
+		spine_extra = "",
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		picture = "yc/yongquanyc",
+		canputon = 0,
+		count = 1,
+		describe = "Today's destination? Wherever the float decides to take you!",
+		advice = 0,
+		tag = 1,
+		id = 346121,
+		deblocking = 1,
+		comfortable = 2,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	}
+	pg.base.furniture_data_template[346122] = {
+		can_rotate = 0,
+		name = "Sizzling Siesta Bistro Table",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		is_get_time_note = 0,
+		belong = 1,
+		rarity = 2,
+		is_3d_obj = 0,
+		spine_combine_action_replace = "",
+		themeId = 146,
+		icon = "yuanzhuoycicon",
+		spine_extra = "",
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		picture = "yc/yuanzhuoyc",
+		canputon = 0,
+		count = 1,
+		describe = "The table might not be big, but it's big enough to hold today's gourmet food!",
+		advice = 0,
+		tag = 1,
+		id = 346122,
+		deblocking = 1,
+		comfortable = 2,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	}
+	pg.base.furniture_data_template[346123] = {
+		advice = 0,
+		name = "Sizzling Siesta Beverage Counter",
+		count = 1,
+		type = 2,
+		dir = 0,
+		rarity = 4,
+		belong = 1,
+		is_get_time_note = 0,
+		is_3d_obj = 0,
+		gain_by = "",
+		themeId = 146,
+		icon = "yingliaotaiycicon",
+		deblocking = 1,
+		level = 1,
+		can_rotate = 0,
+		effect = "",
+		spine_combine_action_replace = "",
+		picture = "yc/",
+		canputon = 0,
+		id = 346123,
+		comfortable = 4,
+		describe = "Lift your glass and add some sweetness to our celebration!",
+		dorm_id = 0,
+		tag = 7,
+		spine_extra = "",
+		spine_action_replace = "",
+		size = {
+			8,
+			7
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"yingliaotaiycB",
+				"normal"
+			},
+			{
+				"yingliaotaiycT"
+			},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"sit1",
+						nil,
+						"sit"
+					}
+				},
+				{
+					nil,
+					1
+				},
+				{
+					0
+				},
+				{
+					{
+						"sit2",
+						"sit3",
+						"sit4",
+						"sit5",
+						"sit6",
+						"sit7",
+						"sit8"
+					}
+				}
+			},
+			{},
+			{
+				0,
+				0
+			}
+		},
+		followBone = {
+			"char",
+			1
 		},
 		interAction_group = {}
 	}

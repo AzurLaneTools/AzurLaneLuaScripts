@@ -2,6 +2,8 @@ slot0 = class("ChapterAutoProxy", import("model.proxy.NetProxy"))
 slot0.FINISH_UPDATE = "ChapterAutoProxy.FINISH_UPDATE"
 slot0.EXPIRED_TIP_MARK = "ChapterAutoProxy.EXPIRED_TIP_MARK"
 slot0.TYPE = {
+	BOSS = 3,
+	RUSH = 4,
 	WORLD = 2,
 	SLG = 1
 }
@@ -41,6 +43,10 @@ slot0.register = function(slot0)
 end
 
 slot0.UpdateRecord = function(slot0, slot1, slot2, slot3)
+	if slot3 == 0 then
+		return
+	end
+
 	if not slot0.recordData[slot1] then
 		slot0.recordData[slot1] = {}
 	end
@@ -383,6 +389,20 @@ slot0.GetFixTime = function(slot0, slot1, slot2)
 	return switch(slot0, {
 		[uv0.TYPE.SLG] = function ()
 			if not pg.chapter_auto_statistics[uv0] then
+				return uv1
+			end
+
+			return math.floor(uv1 * slot0.time_rate) + slot0.time_correction
+		end,
+		[uv0.TYPE.BOSS] = function ()
+			if not pg.expedition_auto_statistics[uv0] then
+				return uv1
+			end
+
+			return math.floor(uv1 * slot0.time_rate) + slot0.time_correction
+		end,
+		[uv0.TYPE.RUSH] = function ()
+			if not pg.activity_series_enemy_auto[uv0] then
 				return uv1
 			end
 

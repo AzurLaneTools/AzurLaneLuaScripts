@@ -14,9 +14,7 @@ slot0.execute = function(slot0, slot1)
 		return
 	end
 
-	slot10 = pg.ConnectionMgr.GetInstance()
-
-	slot10:Send(11202, {
+	slot7:SendEventRequest(11202, {
 		activity_id = slot9.id,
 		cmd = slot2.cmd,
 		arg1 = slot2.arg1,
@@ -61,7 +59,7 @@ slot0.execute = function(slot0, slot1)
 				end
 			end
 		else
-			pg.TipsMgr.GetInstance():ShowTips(ERROR_MESSAGE[slot0.result] .. slot0.result)
+			pg.TipsMgr.GetInstance():ShowTips((ERROR_MESSAGE[slot0.result] or "") .. slot0.result)
 		end
 	end)
 end

@@ -83,8 +83,9 @@ slot0.SendRequest = function(slot0, slot1, slot2)
 	slot3:Send(40003, slot1, 40004, function (slot0)
 		if slot0.result == 0 or slot0.result == 1030 then
 			uv0(slot0)
+			uv1.CheckChapterAutoRecord(uv2)
 		else
-			uv1:RequestFailStandardProcess(slot0)
+			uv3:RequestFailStandardProcess(slot0)
 		end
 	end)
 end
@@ -231,6 +232,14 @@ slot0.GenerateCommanderExp = function(slot0, slot1, slot2)
 		surfaceCMD = slot6,
 		submarineCMD = slot7
 	}
+end
+
+slot0.CheckChapterAutoRecord = function(slot0)
+	slot1 = slot0.auto_before == 1 and slot0.auto_after == 1 and slot0.auto_switch_time == 0
+
+	if slot0.system == SYSTEM_ACT_BOSS and slot1 then
+		getProxy(ChapterAutoProxy):UpdateRecord(ChapterAutoProxy.TYPE.BOSS, slot0.data, slot0.total_time)
+	end
 end
 
 return slot0

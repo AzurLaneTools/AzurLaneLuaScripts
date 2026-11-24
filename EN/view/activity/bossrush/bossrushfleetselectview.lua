@@ -16,10 +16,13 @@ end
 slot0.init = function(slot0)
 	pg.UIMgr.GetInstance():BlurPanel(slot0._tf)
 	slot0:InitUI()
+
+	slot0.autoPanel = ChapterAutoPanelTypeRush.New(slot0._tf, slot0.event, slot0.contextData)
 end
 
 slot0.InitUI = function(slot0)
 	slot1 = slot0._tf:Find("Panel")
+	slot0.infoPanel = slot1:Find("Info")
 	slot0.tfFleets = {
 		[FleetType.Normal] = slot0._tf:Find("Panel/Fleet/Normal"),
 		[FleetType.Submarine] = slot0._tf:Find("Panel/Fleet/Submarine")
@@ -44,6 +47,7 @@ slot0.InitUI = function(slot0)
 
 	slot0.btnBack = slot1:Find("Info/Title/BtnClose")
 	slot0.btnGo = slot1:Find("Info/Start")
+	slot0.btnAuto = slot1:Find("Info/Auto")
 
 	setText(slot0._tf:Find("Panel/Fleet/SonarRange/Text"), i18n("fleet_antisub_range") .. ":")
 	setText(slot0._tf:Find("Panel/Fleet/CostLimit/Title"), i18n("formationScene_use_oil_limit_tip_worldboss"))
@@ -62,10 +66,6 @@ end
 
 slot0.didEnter = function(slot0)
 	onButton(slot0, slot0.btnGo, function ()
-		if StartChapterAutoCommand.CheckOccupied() then
-			return
-		end
-
 		for slot3 = 1, #uv0.contextData.fleets - 1 do
 			if uv0.contextData.fleets[slot3]:isLegalToFight() ~= true then
 				pg.TipsMgr.GetInstance():ShowTips(i18n("series_enemy_team_notenough"))
@@ -236,6 +236,7 @@ slot0.didEnter = function(slot0)
 
 	slot0:updateToggles()
 	triggerToggle(slot0.fleetIndexToggles[slot0.contextData.fleetIndex], true)
+	slot0:UpdateAutoBtn()
 end
 
 slot1 = {
@@ -265,6 +266,12 @@ slot0.ShowDropDetail = function(slot0, slot1)
 end
 
 slot0.willExit = function(slot0)
+	if slot0.autoPanel then
+		slot0.autoPanel:Destroy()
+
+		slot0.autoPanel = nil
+	end
+
 	pg.UIMgr.GetInstance():UnOverlayPanel(slot0._tf)
 end
 
@@ -360,8 +367,7 @@ end
 
 slot0.updateToggles = function(slot0)
 	slot1 = #slot0.contextData.fleets
-	slot2 = slot0._tf
-	slot2 = slot2:Find("Panel/Fleet/Indexes")
+	slot2 = slot0._tf:Find("Panel/Fleet/Indexes")
 	slot3 = slot2.childCount
 	slot0.fleetIndexToggles = {}
 
@@ -374,6 +380,7 @@ slot0.updateToggles = function(slot0)
 			uv2.fleetIndexToggles[slot1] = slot0
 		end
 	end)
+	slot0:UpdateAutoBtn()
 end
 
 slot0.updateEliteFleets = function(slot0)
@@ -504,6 +511,108 @@ slot0.initCommander = function(slot0, slot1, slot2)
 			uv0:emit(BossRushFleetSelectMediator.OPEN_COMMANDER_PANEL, uv1)
 		end, SFX_PANEL)
 	end
+end
+
+slot0.UpdateAutoBtn = function(slot0)
+	if not slot0.btnAuto then
+		return
+	end
+
+	slot2 = pg.activity_series_enemy_auto[slot0.contextData.seriesData.id]
+	slot3 = ChapterAutoProxy.IsSystemOpen()
+
+	setActive(slot0.btnAuto, slot2)
+	slot0:FixAutoInfoLayout(slot2)
+
+	if not slot2 then
+		return
+	end
+
+	setGray(slot0.btnAuto, not (slot3 and getProxy(ChapterAutoProxy):GetRecord(ChapterAutoProxy.TYPE.RUSH, slot1) > 0 and (not (slot0.contextData.mode == BossRushSeriesData.MODE.MULTIPLE) or getProxy(ActivityProxy):getActivityById(slot0.contextData.seriesData.actId):IsPassWithMulti(slot1))), true)
+	onButton(slot0, slot0.btnAuto, function ()
+		if uv0 then
+			if not getProxy(ChapterAutoProxy):GetCommissionDoingType() then
+				uv1:ShowChapterAutoPanel()
+			else
+				uv1:CheckChapterAutoOccupied(slot0)
+			end
+		elseif not uv2 then
+			pg.TipsMgr.GetInstance():ShowTips(i18n("auto_battle_unlock_tip"))
+		elseif uv3 <= 0 then
+			pg.TipsMgr.GetInstance():ShowTips(i18n("auto_chapter_unlock_tip_series"))
+		elseif uv4 and not uv5 then
+			pg.TipsMgr.GetInstance():ShowTips(i18n("auto_chapter_unlock_tip_series_multi"))
+		end
+	end, SFX_PANEL)
+end
+
+slot0.GetAutoInfoLayout = function(slot0)
+	return nil
+end
+
+slot0.FixAutoInfoLayout = function(slot0, slot1)
+	if not slot0:GetAutoInfoLayout() then
+		return
+	end
+
+	for slot6, slot7 in pairs(slot2) do
+		if slot0.infoPanel:Find(slot6) then
+			setAnchoredPosition(slot8, slot1 and slot7[2] or slot7[1])
+		end
+	end
+end
+
+slot0.ShowChapterAutoPanel = function(slot0)
+	slot0.autoPanel:ExecuteAction("Enter", slot0.contextData.seriesData.id)
+end
+
+slot0.RefreshChapterAutoPanel = function(slot0)
+	if slot0.autoPanel:isShowing() then
+		slot0.autoPanel:ExecuteAction("RefreshView")
+	end
+end
+
+slot0.HideChapterAutoPanel = function(slot0)
+	slot0.autoPanel:ExecuteAction("Hide")
+end
+
+slot0.CheckChapterAutoOccupied = function(slot0, slot1)
+	slot2 = getProxy(ChapterAutoProxy)
+	slot2 = slot2:GetCommissionList()[1]
+	slot2 = slot2:GetOccupiedName()
+
+	switch(slot1, {
+		[ChapterAutoProxy.TYPE.WORLD] = function ()
+			pg.MsgboxMgr.GetInstance():ShowMsgBox({
+				content = i18n("auto_battle_in_world"),
+				onYes = function ()
+					pg.m02:sendNotification(GAME.GO_SCENE, SCENE.WORLD)
+				end,
+				yesText = i18n("auto_drop_is_activation_go"),
+				noText = i18n("auto_drop_is_activation_cancle")
+			})
+		end,
+		[ChapterAutoProxy.TYPE.SLG] = function ()
+			pg.MsgboxMgr.GetInstance():ShowMsgBox({
+				content = i18n("auto_battle_in_world"),
+				onYes = function ()
+					pg.m02:sendNotification(GAME.GO_SCENE, SCENE.LEVEL)
+				end,
+				yesText = i18n("auto_drop_is_activation_go"),
+				noText = i18n("auto_drop_is_activation_cancle")
+			})
+		end,
+		[ChapterAutoProxy.TYPE.BOSS] = function ()
+			pg.MsgboxMgr.GetInstance():ShowMsgBox({
+				content = i18n("auto_battle_in_world"),
+				onYes = function ()
+					pg.m02:sendNotification(GAME.GO_SCENE, SCENE.ACT_BOSS_BATTLE)
+				end,
+				yesText = i18n("auto_drop_is_activation_go"),
+				noText = i18n("auto_drop_is_activation_cancle")
+			})
+		end
+	})
 end
 
 return slot0

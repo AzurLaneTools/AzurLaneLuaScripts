@@ -2450,6 +2450,31 @@ slot0.ship_drag_datas = {
 				}
 			}
 		}
+	},
+	keliaopeitela_3 = {
+		multiple_face = {},
+		hit_area = {
+			"drag"
+		},
+		drag_data = {
+			type = slot0.drag_type_normal,
+			config_client = {
+				{
+					change_idle = "ex",
+					click = false,
+					action = "drag",
+					idle = "normal",
+					is_default = true
+				},
+				{
+					change_idle = "normal",
+					click = false,
+					action = "drag_ex",
+					idle = "ex",
+					is_default = false
+				}
+			}
+		}
 	}
 }
 slot0.ship_effect_action_able = {

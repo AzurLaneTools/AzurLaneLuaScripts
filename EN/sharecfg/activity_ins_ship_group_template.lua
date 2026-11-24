@@ -725,7 +725,10 @@ pg.activity_ins_ship_group_template.all = {
 	10312,
 	20111,
 	118001,
-	118002
+	118002,
+	70213,
+	70510,
+	70511
 }
 pg.base = pg.base or {}
 pg.base.activity_ins_ship_group_template = {}
@@ -7251,6 +7254,33 @@ end)()
 		background = "",
 		sculpture = "jumeihuali",
 		nationality = 0,
+		type = 1,
+		sculpture_ii = ""
+	}
+	pg.base.activity_ins_ship_group_template[70213] = {
+		ship_group = 70213,
+		name = "Molotov",
+		background = "",
+		sculpture = "moluotuofu",
+		nationality = 7,
+		type = 1,
+		sculpture_ii = ""
+	}
+	pg.base.activity_ins_ship_group_template[70510] = {
+		ship_group = 70510,
+		name = "Sinop",
+		background = "",
+		sculpture = "xinuopu",
+		nationality = 7,
+		type = 1,
+		sculpture_ii = ""
+	}
+	pg.base.activity_ins_ship_group_template[70511] = {
+		ship_group = 70511,
+		name = "Imperatritsa Mariya",
+		background = "",
+		sculpture = "maliyahuanghou",
+		nationality = 7,
 		type = 1,
 		sculpture_ii = ""
 	}

@@ -32,7 +32,8 @@ pg.activity_event_picturepuzzle.all = {
 	41270,
 	50422,
 	50493,
-	50810
+	50810,
+	51413
 }
 pg.base = pg.base or {}
 pg.base.activity_event_picturepuzzle = {}
@@ -1007,6 +1008,22 @@ pg.base.activity_event_picturepuzzle = {}
 			70215,
 			70216
 		},
+		story = {},
+		awards = {},
+		auto_finish_args = {}
+	}
+	pg.base.activity_event_picturepuzzle[51413] = {
+		id = 51413,
+		cd = 0,
+		pickup_views = "",
+		chapter = 0,
+		pickup_picturepuzzle = {
+			68771,
+			68772,
+			68773,
+			68774
+		},
+		drop_picturepuzzle = {},
 		story = {},
 		awards = {},
 		auto_finish_args = {}

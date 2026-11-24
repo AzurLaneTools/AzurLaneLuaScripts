@@ -2064,4 +2064,16 @@ end)()
 		actor_name = "Nana Mikitani",
 		code = 530
 	}
+	pg.base.voice_actor_CN[531] = {
+		actor_name = "Yurina Kikuchi",
+		code = 531
+	}
+	pg.base.voice_actor_CN[532] = {
+		actor_name = "Yukari Amane",
+		code = 532
+	}
+	pg.base.voice_actor_CN[533] = {
+		actor_name = "Ayaka Atsuchi",
+		code = 533
+	}
 end)()

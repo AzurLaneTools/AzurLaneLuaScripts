@@ -175471,7 +175471,7 @@ _G.pg.base.item_virtual_data_statistics[65107] = {
 	shop_id = -1,
 	replace_item = 0,
 	time_limit = 0,
-	link_id = 0,
+	link_id = 7301,
 	drop_arg = "",
 	album_config = "",
 	icon = "props/battlepass_blackfriday_pt",
@@ -190076,6 +190076,303 @@ _G.pg.base.item_virtual_data_statistics[66121] = {
 }
 
 
+_G.pg.base.item_virtual_data_statistics[66122] = {
+	drop_gold_max = 0,
+	name = "Veritas Academy Medal",
+	display = "The school bell rings crisp and true on an island floating atop the clouds. A mystical light guides you to a chance encounter – and so your story begins. Welcome to Veritas Academy!",
+	type = 0,
+	is_world = 0,
+	shop_id = -1,
+	replace_item = 0,
+	time_limit = 0,
+	link_id = 200091,
+	drop_arg = "",
+	icon = "Medal/9251",
+	order = 0,
+	rarity = 5,
+	max_num = 0,
+	drop_oil_max = 0,
+	virtual_type = 104,
+	id = 66122,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	album_config = {
+		1,
+		200251
+	}
+}
+
+
+_G.pg.base.item_virtual_data_statistics[66123] = {
+	drop_gold_max = 0,
+	name = "Sticker: Veritas Academy",
+	display = "At Veritas Academy, magic and romance meet. Is your strategy guide ready?",
+	type = 0,
+	is_world = 0,
+	shop_id = -1,
+	replace_item = 0,
+	time_limit = 0,
+	link_id = 0,
+	drop_arg = "",
+	icon = "ActivityMedal/5140901",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	drop_oil_max = 0,
+	virtual_type = 0,
+	id = 66123,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	album_config = {
+		2,
+		5140901
+	}
+}
+
+
+_G.pg.base.item_virtual_data_statistics[66124] = {
+	drop_gold_max = 0,
+	name = "Sticker: Heart-Throbbing Critical Hit",
+	display = "Love hits like a sledgehammer!",
+	type = 0,
+	is_world = 0,
+	shop_id = -1,
+	replace_item = 0,
+	time_limit = 0,
+	link_id = 0,
+	drop_arg = "",
+	icon = "ActivityMedal/5140902",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	drop_oil_max = 0,
+	virtual_type = 0,
+	id = 66124,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	album_config = {
+		2,
+		5140902
+	}
+}
+
+
+_G.pg.base.item_virtual_data_statistics[66125] = {
+	drop_gold_max = 0,
+	name = "Sticker: Confession Save Point",
+	display = "For when you don't proclaim \"I like you\" with your whole chest.",
+	type = 0,
+	is_world = 0,
+	shop_id = -1,
+	replace_item = 0,
+	time_limit = 0,
+	link_id = 0,
+	drop_arg = "",
+	icon = "ActivityMedal/5140903",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	drop_oil_max = 0,
+	virtual_type = 0,
+	id = 66125,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	album_config = {
+		2,
+		5140903
+	}
+}
+
+
+_G.pg.base.item_virtual_data_statistics[66126] = {
+	drop_gold_max = 0,
+	name = "Sticker: Persuasion \"Magic\"",
+	display = "Even without magic, the staff is still a really big stick.",
+	type = 0,
+	is_world = 0,
+	shop_id = -1,
+	replace_item = 0,
+	time_limit = 0,
+	link_id = 0,
+	drop_arg = "",
+	icon = "ActivityMedal/5140904",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	drop_oil_max = 0,
+	virtual_type = 0,
+	id = 66126,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	album_config = {
+		2,
+		5140904
+	}
+}
+
+
+_G.pg.base.item_virtual_data_statistics[66127] = {
+	drop_gold_max = 0,
+	name = "Sticker: Atop the Throne",
+	display = "By the king's decree, by the king's mercy.",
+	type = 0,
+	is_world = 0,
+	shop_id = -1,
+	replace_item = 0,
+	time_limit = 0,
+	link_id = 0,
+	drop_arg = "",
+	icon = "ActivityMedal/5140905",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	drop_oil_max = 0,
+	virtual_type = 0,
+	id = 66127,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	album_config = {
+		2,
+		5140905
+	}
+}
+
+
+_G.pg.base.item_virtual_data_statistics[66128] = {
+	drop_gold_max = 0,
+	name = "Sticker: Candy Monster",
+	display = "Trick or treat? Nay, trick AND treat!",
+	type = 0,
+	is_world = 0,
+	shop_id = -1,
+	replace_item = 0,
+	time_limit = 0,
+	link_id = 0,
+	drop_arg = "",
+	icon = "ActivityMedal/5140906",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	drop_oil_max = 0,
+	virtual_type = 0,
+	id = 66128,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	album_config = {
+		2,
+		5140906
+	}
+}
+
+
+_G.pg.base.item_virtual_data_statistics[66129] = {
+	drop_gold_max = 0,
+	name = "Sticker: Tiara of Snow",
+	display = "The snow is coming? Wait, it's just her grand entrance!",
+	type = 0,
+	is_world = 0,
+	shop_id = -1,
+	replace_item = 0,
+	time_limit = 0,
+	link_id = 0,
+	drop_arg = "",
+	icon = "ActivityMedal/5140907",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	drop_oil_max = 0,
+	virtual_type = 0,
+	id = 66129,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	album_config = {
+		2,
+		5140907
+	}
+}
+
+
+_G.pg.base.item_virtual_data_statistics[66130] = {
+	drop_gold_max = 0,
+	name = "Sticker: Romantic Grail",
+	display = "Just like its creator, it remains true to romance.",
+	type = 0,
+	is_world = 0,
+	shop_id = -1,
+	replace_item = 0,
+	time_limit = 0,
+	link_id = 0,
+	drop_arg = "",
+	icon = "ActivityMedal/5140908",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	drop_oil_max = 0,
+	virtual_type = 0,
+	id = 66130,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	album_config = {
+		2,
+		5140908
+	}
+}
+
+
+_G.pg.base.item_virtual_data_statistics[66133] = {
+	drop_gold_max = 0,
+	name = "Romantic Grail",
+	display = "The Transfer Student of Veritas Academy event currency, used to purchase rewards in the exchange shop. Removed after the event ends.",
+	type = 0,
+	is_world = 0,
+	shop_id = -1,
+	replace_item = 0,
+	time_limit = 0,
+	link_id = 51404,
+	drop_arg = "",
+	album_config = "",
+	icon = "Props/66133",
+	order = 0,
+	rarity = 2,
+	max_num = 0,
+	drop_oil_max = 0,
+	virtual_type = 103,
+	id = 66133,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+
 _G.pg.base.item_virtual_data_statistics[67001] = {
 	drop_gold_max = 0,
 	name = "Training Points",
@@ -190122,6 +190419,33 @@ _G.pg.base.item_virtual_data_statistics[67003] = {
 	drop_oil_max = 0,
 	virtual_type = 0,
 	id = 67003,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+
+_G.pg.base.item_virtual_data_statistics[67004] = {
+	drop_gold_max = 0,
+	name = "Rental Outfit Voucher",
+	display = "Allows you to rent and equip an available outfit for a ship of your choice for a limited time. Valid until December 9th, 2026.",
+	type = 98,
+	is_world = 0,
+	shop_id = 1,
+	replace_item = 0,
+	time_limit = 0,
+	link_id = 0,
+	drop_arg = "",
+	album_config = "",
+	icon = "Props/skinTicket",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	drop_oil_max = 0,
+	virtual_type = 0,
+	id = 67004,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -190593,6 +190917,95 @@ _G.pg.base.item_virtual_data_statistics[68704] = {
 }
 
 
+_G.pg.base.item_virtual_data_statistics[68705] = {
+	drop_gold_max = 0,
+	name = "Handover Permit (Monthly)",
+	display = "Used for Handover for select standard stages. Removed after midnight on the last day of this month.",
+	type = 0,
+	is_world = 0,
+	shop_id = -1,
+	replace_item = 0,
+	time_limit = 0,
+	link_id = 0,
+	album_config = "",
+	icon = "Props/weituozuozhan",
+	order = 0,
+	rarity = 2,
+	max_num = 0,
+	drop_oil_max = 0,
+	virtual_type = 34,
+	id = 68705,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	drop_arg = {
+		"month",
+		0
+	}
+}
+
+
+_G.pg.base.item_virtual_data_statistics[68706] = {
+	drop_gold_max = 0,
+	name = "Handover Permit (Yearly)",
+	display = "Used for Handover for select standard stages. Removed after midnight on the last day of this year.",
+	type = 0,
+	is_world = 0,
+	shop_id = -1,
+	replace_item = 0,
+	time_limit = 0,
+	link_id = 0,
+	album_config = "",
+	icon = "Props/weituozuozhan",
+	order = 0,
+	rarity = 2,
+	max_num = 0,
+	drop_oil_max = 0,
+	virtual_type = 34,
+	id = 68706,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	drop_arg = {
+		"year",
+		0
+	}
+}
+
+
+_G.pg.base.item_virtual_data_statistics[68707] = {
+	drop_gold_max = 0,
+	name = "Handover Permit (Permanent)",
+	display = "Used for Handover for select standard stages.",
+	type = 0,
+	is_world = 0,
+	shop_id = -1,
+	replace_item = 0,
+	time_limit = 0,
+	link_id = 0,
+	album_config = "",
+	icon = "Props/weituozuozhan",
+	order = 0,
+	rarity = 2,
+	max_num = 0,
+	drop_oil_max = 0,
+	virtual_type = 34,
+	id = 68707,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	drop_arg = {
+		"always"
+	}
+}
+
+
 _G.pg.base.item_virtual_data_statistics[68710] = {
 	drop_gold_max = 0,
 	name = "Handover Permit",
@@ -190617,6 +191030,36 @@ _G.pg.base.item_virtual_data_statistics[68710] = {
 	index = {},
 	shiptrans_id = {},
 	combination_display = {}
+}
+
+
+_G.pg.base.item_virtual_data_statistics[68713] = {
+	drop_gold_max = 0,
+	name = "Handover Permit (Event)",
+	display = "Used for Handover for select standard stages. Removed after 23:59 on 12/15.",
+	type = 0,
+	is_world = 0,
+	shop_id = -1,
+	replace_item = 0,
+	time_limit = 0,
+	link_id = 0,
+	album_config = "",
+	icon = "Props/weituozuozhan",
+	order = 0,
+	rarity = 2,
+	max_num = 0,
+	drop_oil_max = 0,
+	virtual_type = 34,
+	id = 68713,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	drop_arg = {
+		"act",
+		51404
+	}
 }
 
 
@@ -190750,6 +191193,314 @@ _G.pg.base.item_virtual_data_statistics[68761] = {
 	drop_oil_max = 0,
 	virtual_type = 0,
 	id = 68761,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+
+_G.pg.base.item_virtual_data_statistics[68771] = {
+	drop_gold_max = 0,
+	name = "261124彩蛋拼图1",
+	display = [[
+You will obtain one of the following random skins (duplicate skins will be converted into a corresponding sum of Gems). The available skins are as follows: Admiral Zenker - Fun with…Interrogations? (L2D)
+ U-552 - Special Sightseeing Service
+ Z13 - Strategic Date Solution (L2D)
+ Azuma - Career Counseling for the Groom (L2D)
+ Impero - Drunken Drowsy Dreamer
+ U-37 - Keeping Peace in the Streets
+ Neptune - Officer Bunneptune Is on the Case!
+ Chao Ho - Azure Ripples, Shimmering Sun (Dynamic)
+ Queen Anne's Revenge - Call of the Creeping Embrace (L2D)
+ Pearl - Fallen Angel in the Dark Castle (L2D+)
+ Lyme - Corrupting Trap (Dynamic)
+ Royal James - The Forbidden Slurp
+ Adventure - Master of the Safe House (Dynamic)
+ Izumo - Tail-Stirred Cocktail (Dynamic)
+ Kronshtadt - Animal Agent (Dynamic)
+ Harutsuki - Little Steamy Sprite
+ Lexington II - The Fluffiest of Maids (L2D)
+ William D. Porter - The Daredevil's Maidly Service
+ Cowpens - Milky Ministrations (L2D)
+ Clarence K. Bronson - Special Functional Testing
+ Pasadena - Surprising Game (Dynamic)
+ Birmingham - Briar Maid
+ Bismarck Zwei - Bathed in Brightness and Spirit (Dynamic)
+ Guichen - Milk and Kisses (Dynamic)
+ Otto von Alvensleben - The Clumsy Maid is in a Bind! (Dynamic)
+ Kuybyshev - Rainy Day Blues
+ Gouden Leeuw - An Intimate Cleaning (L2D+)
+ Kansas - Late-Night Leisure (Dynamic)
+ Mecklenburg - Branding Witchcraft (L2D+)
+ Dmitri Donskoi - Bedside Bunny
+ Vittorio Cuniberti - On the Habits of Cats
+ Prinz Eugen - Between Tipsiness and a Wager (L2D+)
+ Francesco Caracciolo - Confession Under the Spotlight (Dynamic)
+ Alberto di Giussano - A Magnificent Mistake
+ Ugolino Vivaldi - An Unexpected Catch!
+ Fujinami - Secret Fashion Show For You
+ Takao - Inner Cultivation (L2D+)
+ Shimakaze - The Unmoving Rabbit
+ Alabama - Through Your Lens, My Everything (Dynamic)
+ Chien Wu - All-Nighter Masterpiece (Dynamic)
+ Masséna - Sweetly Intoxicating Spring (L2D)
+ Bois Belleau - Steamy Therapy (L2D+)
+ Duquesne - Wetness of a Crimson Night
+ Le Hardi - Sticky Situation
+ Duguay-Trouin - Covetous Bathgoer (Dynamic)
+ Noshiro - A Dip in the Moonlight (Dynamic)
+ Helena - Basking in the Cypress' Warmth (Dynamic)
+ Denver - Steam Dream
+ Anchorage - Sweet Evening Milk (L2D+)
+ Enterprise - Bathing Under Sunny Skies (L2D) ]],
+	type = 0,
+	is_world = 0,
+	shop_id = -1,
+	replace_item = 0,
+	time_limit = 0,
+	link_id = 0,
+	drop_arg = "",
+	album_config = "",
+	icon = "Props/puzzle",
+	order = 0,
+	rarity = 2,
+	max_num = 0,
+	drop_oil_max = 0,
+	virtual_type = 1,
+	id = 68771,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+
+_G.pg.base.item_virtual_data_statistics[68772] = {
+	drop_gold_max = 0,
+	name = "261124彩蛋拼图2",
+	display = [[
+You will obtain one of the following random skins (duplicate skins will be converted into a corresponding sum of Gems). The available skins are as follows: Admiral Zenker - Fun with…Interrogations? (L2D)
+ U-552 - Special Sightseeing Service
+ Z13 - Strategic Date Solution (L2D)
+ Azuma - Career Counseling for the Groom (L2D)
+ Impero - Drunken Drowsy Dreamer
+ U-37 - Keeping Peace in the Streets
+ Neptune - Officer Bunneptune Is on the Case!
+ Chao Ho - Azure Ripples, Shimmering Sun (Dynamic)
+ Queen Anne's Revenge - Call of the Creeping Embrace (L2D)
+ Pearl - Fallen Angel in the Dark Castle (L2D+)
+ Lyme - Corrupting Trap (Dynamic)
+ Royal James - The Forbidden Slurp
+ Adventure - Master of the Safe House (Dynamic)
+ Izumo - Tail-Stirred Cocktail (Dynamic)
+ Kronshtadt - Animal Agent (Dynamic)
+ Harutsuki - Little Steamy Sprite
+ Lexington II - The Fluffiest of Maids (L2D)
+ William D. Porter - The Daredevil's Maidly Service
+ Cowpens - Milky Ministrations (L2D)
+ Clarence K. Bronson - Special Functional Testing
+ Pasadena - Surprising Game (Dynamic)
+ Birmingham - Briar Maid
+ Bismarck Zwei - Bathed in Brightness and Spirit (Dynamic)
+ Guichen - Milk and Kisses (Dynamic)
+ Otto von Alvensleben - The Clumsy Maid is in a Bind! (Dynamic)
+ Kuybyshev - Rainy Day Blues
+ Gouden Leeuw - An Intimate Cleaning (L2D+)
+ Kansas - Late-Night Leisure (Dynamic)
+ Mecklenburg - Branding Witchcraft (L2D+)
+ Dmitri Donskoi - Bedside Bunny
+ Vittorio Cuniberti - On the Habits of Cats
+ Prinz Eugen - Between Tipsiness and a Wager (L2D+)
+ Francesco Caracciolo - Confession Under the Spotlight (Dynamic)
+ Alberto di Giussano - A Magnificent Mistake
+ Ugolino Vivaldi - An Unexpected Catch!
+ Fujinami - Secret Fashion Show For You
+ Takao - Inner Cultivation (L2D+)
+ Shimakaze - The Unmoving Rabbit
+ Alabama - Through Your Lens, My Everything (Dynamic)
+ Chien Wu - All-Nighter Masterpiece (Dynamic)
+ Masséna - Sweetly Intoxicating Spring (L2D)
+ Bois Belleau - Steamy Therapy (L2D+)
+ Duquesne - Wetness of a Crimson Night
+ Le Hardi - Sticky Situation
+ Duguay-Trouin - Covetous Bathgoer (Dynamic)
+ Noshiro - A Dip in the Moonlight (Dynamic)
+ Helena - Basking in the Cypress' Warmth (Dynamic)
+ Denver - Steam Dream
+ Anchorage - Sweet Evening Milk (L2D+)
+ Enterprise - Bathing Under Sunny Skies (L2D) ]],
+	type = 0,
+	is_world = 0,
+	shop_id = -1,
+	replace_item = 0,
+	time_limit = 0,
+	link_id = 0,
+	drop_arg = "",
+	album_config = "",
+	icon = "Props/puzzle",
+	order = 0,
+	rarity = 2,
+	max_num = 0,
+	drop_oil_max = 0,
+	virtual_type = 1,
+	id = 68772,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+
+_G.pg.base.item_virtual_data_statistics[68773] = {
+	drop_gold_max = 0,
+	name = "261124彩蛋拼图3",
+	display = [[
+You will obtain one of the following random skins (duplicate skins will be converted into a corresponding sum of Gems). The available skins are as follows: Admiral Zenker - Fun with…Interrogations? (L2D)
+ U-552 - Special Sightseeing Service
+ Z13 - Strategic Date Solution (L2D)
+ Azuma - Career Counseling for the Groom (L2D)
+ Impero - Drunken Drowsy Dreamer
+ U-37 - Keeping Peace in the Streets
+ Neptune - Officer Bunneptune Is on the Case!
+ Chao Ho - Azure Ripples, Shimmering Sun (Dynamic)
+ Queen Anne's Revenge - Call of the Creeping Embrace (L2D)
+ Pearl - Fallen Angel in the Dark Castle (L2D+)
+ Lyme - Corrupting Trap (Dynamic)
+ Royal James - The Forbidden Slurp
+ Adventure - Master of the Safe House (Dynamic)
+ Izumo - Tail-Stirred Cocktail (Dynamic)
+ Kronshtadt - Animal Agent (Dynamic)
+ Harutsuki - Little Steamy Sprite
+ Lexington II - The Fluffiest of Maids (L2D)
+ William D. Porter - The Daredevil's Maidly Service
+ Cowpens - Milky Ministrations (L2D)
+ Clarence K. Bronson - Special Functional Testing
+ Pasadena - Surprising Game (Dynamic)
+ Birmingham - Briar Maid
+ Bismarck Zwei - Bathed in Brightness and Spirit (Dynamic)
+ Guichen - Milk and Kisses (Dynamic)
+ Otto von Alvensleben - The Clumsy Maid is in a Bind! (Dynamic)
+ Kuybyshev - Rainy Day Blues
+ Gouden Leeuw - An Intimate Cleaning (L2D+)
+ Kansas - Late-Night Leisure (Dynamic)
+ Mecklenburg - Branding Witchcraft (L2D+)
+ Dmitri Donskoi - Bedside Bunny
+ Vittorio Cuniberti - On the Habits of Cats
+ Prinz Eugen - Between Tipsiness and a Wager (L2D+)
+ Francesco Caracciolo - Confession Under the Spotlight (Dynamic)
+ Alberto di Giussano - A Magnificent Mistake
+ Ugolino Vivaldi - An Unexpected Catch!
+ Fujinami - Secret Fashion Show For You
+ Takao - Inner Cultivation (L2D+)
+ Shimakaze - The Unmoving Rabbit
+ Alabama - Through Your Lens, My Everything (Dynamic)
+ Chien Wu - All-Nighter Masterpiece (Dynamic)
+ Masséna - Sweetly Intoxicating Spring (L2D)
+ Bois Belleau - Steamy Therapy (L2D+)
+ Duquesne - Wetness of a Crimson Night
+ Le Hardi - Sticky Situation
+ Duguay-Trouin - Covetous Bathgoer (Dynamic)
+ Noshiro - A Dip in the Moonlight (Dynamic)
+ Helena - Basking in the Cypress' Warmth (Dynamic)
+ Denver - Steam Dream
+ Anchorage - Sweet Evening Milk (L2D+)
+ Enterprise - Bathing Under Sunny Skies (L2D) ]],
+	type = 0,
+	is_world = 0,
+	shop_id = -1,
+	replace_item = 0,
+	time_limit = 0,
+	link_id = 0,
+	drop_arg = "",
+	album_config = "",
+	icon = "Props/puzzle",
+	order = 0,
+	rarity = 2,
+	max_num = 0,
+	drop_oil_max = 0,
+	virtual_type = 1,
+	id = 68773,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+
+_G.pg.base.item_virtual_data_statistics[68774] = {
+	drop_gold_max = 0,
+	name = "261124彩蛋拼图4",
+	display = [[
+You will obtain one of the following random skins (duplicate skins will be converted into a corresponding sum of Gems). The available skins are as follows: Admiral Zenker - Fun with…Interrogations? (L2D)
+ U-552 - Special Sightseeing Service
+ Z13 - Strategic Date Solution (L2D)
+ Azuma - Career Counseling for the Groom (L2D)
+ Impero - Drunken Drowsy Dreamer
+ U-37 - Keeping Peace in the Streets
+ Neptune - Officer Bunneptune Is on the Case!
+ Chao Ho - Azure Ripples, Shimmering Sun (Dynamic)
+ Queen Anne's Revenge - Call of the Creeping Embrace (L2D)
+ Pearl - Fallen Angel in the Dark Castle (L2D+)
+ Lyme - Corrupting Trap (Dynamic)
+ Royal James - The Forbidden Slurp
+ Adventure - Master of the Safe House (Dynamic)
+ Izumo - Tail-Stirred Cocktail (Dynamic)
+ Kronshtadt - Animal Agent (Dynamic)
+ Harutsuki - Little Steamy Sprite
+ Lexington II - The Fluffiest of Maids (L2D)
+ William D. Porter - The Daredevil's Maidly Service
+ Cowpens - Milky Ministrations (L2D)
+ Clarence K. Bronson - Special Functional Testing
+ Pasadena - Surprising Game (Dynamic)
+ Birmingham - Briar Maid
+ Bismarck Zwei - Bathed in Brightness and Spirit (Dynamic)
+ Guichen - Milk and Kisses (Dynamic)
+ Otto von Alvensleben - The Clumsy Maid is in a Bind! (Dynamic)
+ Kuybyshev - Rainy Day Blues
+ Gouden Leeuw - An Intimate Cleaning (L2D+)
+ Kansas - Late-Night Leisure (Dynamic)
+ Mecklenburg - Branding Witchcraft (L2D+)
+ Dmitri Donskoi - Bedside Bunny
+ Vittorio Cuniberti - On the Habits of Cats
+ Prinz Eugen - Between Tipsiness and a Wager (L2D+)
+ Francesco Caracciolo - Confession Under the Spotlight (Dynamic)
+ Alberto di Giussano - A Magnificent Mistake
+ Ugolino Vivaldi - An Unexpected Catch!
+ Fujinami - Secret Fashion Show For You
+ Takao - Inner Cultivation (L2D+)
+ Shimakaze - The Unmoving Rabbit
+ Alabama - Through Your Lens, My Everything (Dynamic)
+ Chien Wu - All-Nighter Masterpiece (Dynamic)
+ Masséna - Sweetly Intoxicating Spring (L2D)
+ Bois Belleau - Steamy Therapy (L2D+)
+ Duquesne - Wetness of a Crimson Night
+ Le Hardi - Sticky Situation
+ Duguay-Trouin - Covetous Bathgoer (Dynamic)
+ Noshiro - A Dip in the Moonlight (Dynamic)
+ Helena - Basking in the Cypress' Warmth (Dynamic)
+ Denver - Steam Dream
+ Anchorage - Sweet Evening Milk (L2D+)
+ Enterprise - Bathing Under Sunny Skies (L2D) ]],
+	type = 0,
+	is_world = 0,
+	shop_id = -1,
+	replace_item = 0,
+	time_limit = 0,
+	link_id = 0,
+	drop_arg = "",
+	album_config = "",
+	icon = "Props/puzzle",
+	order = 0,
+	rarity = 2,
+	max_num = 0,
+	drop_oil_max = 0,
+	virtual_type = 1,
+	id = 68774,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -268740,6 +269491,218 @@ _G.pg.base.item_virtual_data_statistics[200866] = {
 		{
 			2,
 			10009,
+			1
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+
+_G.pg.base.item_virtual_data_statistics[200867] = {
+	drop_gold_max = 0,
+	name = "Mystery Design",
+	display = "Has a chance to give the following gear design.",
+	type = 99,
+	is_world = 0,
+	shop_id = -1,
+	replace_item = 0,
+	time_limit = 0,
+	link_id = 0,
+	drop_arg = "",
+	album_config = "",
+	icon = "Props/55000",
+	order = 0,
+	rarity = 1,
+	max_num = 0,
+	drop_oil_max = 0,
+	virtual_type = 0,
+	id = 200867,
+	display_icon = {
+		{
+			2,
+			3,
+			1
+		},
+		{
+			2,
+			4,
+			1
+		},
+		{
+			2,
+			77,
+			1
+		},
+		{
+			2,
+			10118,
+			1
+		},
+		{
+			2,
+			10122,
+			1
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+
+_G.pg.base.item_virtual_data_statistics[200868] = {
+	drop_gold_max = 0,
+	name = "Mystery Design",
+	display = "Has a chance to give the following gear design.",
+	type = 99,
+	is_world = 0,
+	shop_id = -1,
+	replace_item = 0,
+	time_limit = 0,
+	link_id = 0,
+	drop_arg = "",
+	album_config = "",
+	icon = "Props/55000",
+	order = 0,
+	rarity = 1,
+	max_num = 0,
+	drop_oil_max = 0,
+	virtual_type = 0,
+	id = 200868,
+	display_icon = {
+		{
+			2,
+			10010,
+			1
+		},
+		{
+			2,
+			10009,
+			1
+		},
+		{
+			2,
+			10118,
+			1
+		},
+		{
+			2,
+			10122,
+			1
+		},
+		{
+			2,
+			10116,
+			1
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+
+_G.pg.base.item_virtual_data_statistics[200869] = {
+	drop_gold_max = 0,
+	name = "Mystery Design",
+	display = "Has a chance to give the following gear design.",
+	type = 99,
+	is_world = 0,
+	shop_id = -1,
+	replace_item = 0,
+	time_limit = 0,
+	link_id = 0,
+	drop_arg = "",
+	album_config = "",
+	icon = "Props/55000",
+	order = 0,
+	rarity = 1,
+	max_num = 0,
+	drop_oil_max = 0,
+	virtual_type = 0,
+	id = 200869,
+	display_icon = {
+		{
+			2,
+			10010,
+			1
+		},
+		{
+			2,
+			10009,
+			1
+		},
+		{
+			2,
+			10118,
+			1
+		},
+		{
+			2,
+			10113,
+			1
+		},
+		{
+			2,
+			11043,
+			1
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+
+_G.pg.base.item_virtual_data_statistics[200870] = {
+	drop_gold_max = 0,
+	name = "Mystery Design",
+	display = "Has a chance to give the following gear design.",
+	type = 99,
+	is_world = 0,
+	shop_id = -1,
+	replace_item = 0,
+	time_limit = 0,
+	link_id = 0,
+	drop_arg = "",
+	album_config = "",
+	icon = "Props/55000",
+	order = 0,
+	rarity = 1,
+	max_num = 0,
+	drop_oil_max = 0,
+	virtual_type = 0,
+	id = 200870,
+	display_icon = {
+		{
+			2,
+			10010,
+			1
+		},
+		{
+			2,
+			10009,
+			1
+		},
+		{
+			2,
+			10118,
+			1
+		},
+		{
+			2,
+			10113,
+			1
+		},
+		{
+			2,
+			11043,
 			1
 		}
 	},

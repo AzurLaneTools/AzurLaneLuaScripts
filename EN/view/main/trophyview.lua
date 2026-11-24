@@ -12,6 +12,7 @@ slot0.Ctor = function(slot0, slot1)
 	slot0._trophyCountBG = findTF(slot0._tf, "frame/trophyCount")
 	slot0._trophyCount = findTF(slot0._tf, "frame/trophyCount/Text"):GetComponent(typeof(Text))
 	slot0._progressBar = findTF(slot0._tf, "frame/trophy_progress/Fill"):GetComponent(typeof(Slider))
+	slot0._tip = findTF(slot0._tf, "frame/tip")
 	slot0._reminder = findTF(slot0._tf, "frame/reminder")
 end
 
@@ -66,8 +67,10 @@ end
 slot0.updateProgressView = function(slot0, slot1)
 	slot0._progressTrophy = slot1
 	slot0._progressBar.value = slot1:getProgressRate()
+	slot2 = slot0._progressTrophy:canClaimed() and not slot0._progressTrophy:isClaimed()
 
-	setActive(slot0._reminder, slot0._progressTrophy:canClaimed() and not slot0._progressTrophy:isClaimed())
+	setActive(slot0._reminder, slot2)
+	setActive(slot0._tip, slot2)
 end
 
 slot0.GetTrophyClaimTipsID = function(slot0)
@@ -88,6 +91,7 @@ slot0.PlayClaimAnima = function(slot0, slot1, slot2, slot3)
 	slot0._isPlaying = true
 
 	setActive(slot0._reminder, false)
+	setActive(slot0._tip, false)
 
 	slot4 = slot0._tf
 	slot4 = slot4:GetComponent(typeof(Animator))
@@ -97,7 +101,11 @@ slot0.PlayClaimAnima = function(slot0, slot1, slot2, slot3)
 
 	slot5:SetEndEvent(function (slot0)
 		uv0()
-		setActive(uv1._reminder, uv1._progressTrophy:canClaimed() and not uv1._progressTrophy:isClaimed())
+
+		slot1 = uv1._progressTrophy:canClaimed() and not uv1._progressTrophy:isClaimed()
+
+		setActive(uv1._reminder, slot1)
+		setActive(uv1._tip, slot1)
 	end)
 	slot4:Play("trophy_upper", -1, 0)
 	setActive(slot2, true)

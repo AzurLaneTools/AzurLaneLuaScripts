@@ -78,6 +78,14 @@ slot0.updateUI = function(slot0)
 	onButton(slot0, slot0.fight, function ()
 		uv0:emit(ActivityMediator.SPECIAL_BATTLE_OPERA)
 	end)
+
+	if slot0.rpManual then
+		setActive(slot0.rpManual, ActivityMedalGroup.showTip(slot0.activity:getConfig("config_client").medal_group_id or slot0:GetMedalAlbumView().GROUP_ID))
+	end
+end
+
+slot0.GetMedalAlbumView = function(slot0)
+	return TianqiongMedalAlbumView
 end
 
 return slot0

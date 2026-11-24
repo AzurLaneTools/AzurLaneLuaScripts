@@ -51988,14 +51988,14 @@ _G.pg.base.gametip.auto_battle_help = {
 The Operational Handover feature allows you to automatically complete stages that you have already cleared, receiving Handover rewards after a period of time. Operational Handover will continue <color=#92fc63>even when you are not logged in</color>.
 1. To unlock Handover on a stage, you must <color=#92fc63>clear it on Auto-Repeat one time, without interruption</color>.
 2. The time required for one Handover mission will be based on <color=#92fc63>your fastest uninterrupted Auto-Repeat clear</color> of that stage (<color=#92fc63>excludes time spent firing Main Fleet volleys</color>).
-3. The maximum time you may spend on Operational Handovers daily is <color=#92fc63>8 hours</color>. You may not perform a Handover if you do not have any remaining time required for it. When a Handover is performed, it will <color=#92fc63>consume the amount of time equal to its length</color>. Once per day, you may perform a Handover that is <color=#92fc63>longer than your time remaining</color>. Time will be restored every day at <color=#92fc63>midnight</color>.
+3. The maximum time you may spend on Operational Handovers daily is <color=#92fc63>8 hours</color>. You may not perform a Handover if you do not have any remaining time required for it. When a Handover is performed, it will <color=#92fc63>consume the amount of time equal to its length</color>. Once per day, you may perform a Handover that is <color=#92fc63>longer than your time remaining</color>. Time will be restored every day at <color=#92fc63>midnight</color.
 4. When Operational Handover is in progress, you may not sortie to <color=#92fc63>Campaign stages, Event stages, or War Archive stages</color>.
 5. Operational Handover only yields Lecture Hall Proficiency. However, <color=#92fc63>if you use a Handover Permit</color>, you can receive additional rewards.
 
 <color=#92fc63>Handover Permits</color>:
 
 1. Using a Handover Permit will allow you to receive <color=#92fc63>additional rewards from Operational Handover</color>. Handover Permits can be obtained through means such as <color=#92fc63>daily missions</color>.
-2. Using a Handover Permit will also <color=#92fc63>consume Oil</color>.
+2. Using a Handover Permit will also <color=#92fc63>consume Oil</color>. The amount of Oil consumed is fixed based on the stage, and is not affected by the fleet used to clear that stage.
 3. Additional rewards from Handover Permits will be based on <color=#92fc63>each stage's clear rewards</color>, including <color=#92fc63>shipgirls, Coins, supplies, and other items</color>.
 4. Stages completed through the usage of a Handover Permit will <color=#92fc63>progress relevant missions</color> normally.
 5. Stages completed through the usage of a Handover Permit have a chance to create <color=#92fc63>Urgent Commissions</color> (up to 1 per stage).
@@ -52739,6 +52739,94 @@ _G.pg.base.gametip.combatUI_stick_set = {
 }
 
 
+_G.pg.base.gametip.battlepass_main_tip_2612 = {
+	tip = "Complete Cruise Missions between 12/1/2026 - 1/31/2027, accumulate <icon name=pt w=0.5 h=0.5/>, and receive <color=#854747>Kersaint META</color> and other rewards!"
+}
+
+
+_G.pg.base.gametip.battlepass_main_help_2612 = {
+	tip = {
+		{
+			info = [[
+Cruise Missions Seasonal Campaign
+12/1/2026 - 1/31/2027 23:59
+
+- Overview -
+""Cruise Missions"" is a seasonal campaign where you can complete special missions, collect Progress Pts, and obtain great rewards for reaching certain Progress milestones.
+Additionally, you can unlock an additional set of ""Fair Winds Cruise"" rewards by purchasing the ""Fair Winds Cruise Pass"" item from Akashi's shop.
+Kersaint META will be obtainable from the regular Cruise Missions rewards. By upgrading to the Fair Winds Cruise, you will also be able to obtain an exclusive outfit for SS U-556, ""Little Imp's Premium Parfait"".
+
+- How to Play -
+· Two types of missions will be released at the same time at the start of the campaign season:
+a) Weekly Missions - Missions unlocked in batches every 7 days during the campaign season, for a total of 8 batches.
+b) Seasonal Missions - One set of missions available for the entire campaign season, available from the start of the season.
+· All of the above Season Missions are automatically active, and when you open the Season Missions menu, you will automatically obtain Progress Pts for any missions you've completed.
+· If you purchase a Fair Winds Cruise Pass, you will automatically receive 15 levels worth of progress (1500 Progress Pts).
+· You can receive rewards for reaching certain Progress milestones. There are two types of rewards:
+a) Cruise Rewards - Rewards that can be obtained based on the total number of accumulated Progress Pts. There are a total of 100 levels.
+b) Fair Winds Rewards - An additional set of rewards that will be unlocked when you purchase a Fair Winds Cruise Pass. As with the regular Cruise Rewards, there are a total of 100 levels, and they can be collected alongside Cruise Rewards at the same Progress level.
+· When the campaign season ends, your Progress Pts will be reset.
+
+- Tips - 
+· Play at your own pace
+Cruise Missions have a total of 100 Progress levels, and are not meant to be cleared in one session. We recommend that you complete them at your own pace.
+
+· Fair Winds Cruise Pass
+If you purchase a Fair Winds Cruise Pass from Akashi's shop, you will automatically earn 1500 Progress Pts and unlock access to valuable rewards. Furthermore, there is an exclusive outfit available only through the Fair Winds rewards, so please plan accordingly.
+
+· Skipping Missions (not recommended)
+You can purchase and use Cruise Mission Vouchers to automatically complete missions and receive the corresponding amount of Progress Pts. Tap the arrow button next to a mission on the Mission List to automatically complete it.
+We do not recommend this because this costs Gems, whereas you are able to complete Cruise Missions normally.
+Any purchased Cruise Mission Vouchers will remain even after the campaign season ends.]]
+		}
+	}
+}
+
+
+_G.pg.base.gametip.cruise_task_help_2612 = {
+	tip = {
+		{
+			info = [[
+- Regarding Cruise Missions - 
+· Two types of missions will be released at the same time at the start of the campaign season:
+a) Weekly Missions - Missions unlocked in batches every 7 days during the campaign season, for a total of 8 batches.
+b) Seasonal Missions - One set of missions available for the entire campaign season, available from the start of the season.
+
+· All of the above Season Missions are automatically active, and when you open the Season Missions menu, you will automatically obtain Progress Pts. for any missions you've completed.
+
+· You can purchase and use Cruise Mission Vouchers to automatically complete missions and receive the corresponding amount of Progress Pts. Tap the arrow button next to a mission on the Mission List to automatically complete it.
+We do not recommend this because this costs Gems, whereas you are able to complete Cruise Missions normally.
+Any purchased Cruise Mission Vouchers will remain even after the campaign season ends.]]
+		}
+	}
+}
+
+
+_G.pg.base.gametip.cruise_title_2612 = {
+	tip = "Cruise Missions - S32"
+}
+
+
+_G.pg.base.gametip.guaitan_story_reward_count = {
+	tip = "Play through the whole story to get a limited gear skin."
+}
+
+
+_G.pg.base.gametip.auto_chapter_unlock_tip_series = {
+	tip = "Complete an uninterrupted Auto-Repeat sortie with Auto Combat enabled to unlock."
+}
+
+
+_G.pg.base.gametip.easter_egg_complate = {
+	tip = "Phase Completed"
+}
+
+
+_G.pg.base.gametip.easter_egg_tips = {
+	tip = "Collect Le Fantasque's Clues to earn rewards."
+}
+
+
 _G.pg.base.gametip.entrance_maintain = {
 	tip = "Under development..."
 }
@@ -52766,4 +52854,42 @@ _G.pg.base.gametip.world_task_main = {
 
 _G.pg.base.gametip.world_task_notask = {
 	tip = "You don't have any missions yet, Commander."
+}
+
+
+_G.pg.base.gametip.zhenli_series_help = {
+	tip = {
+		{
+			info = [[
+<b>Event Period:</b>
+-<color=#92fc63>11/24 - 12/10 maintenance.</color>
+-During the "The Transfer Student of Veritas Academy" event, you will form multiple fleets to challenge special event stages, and collect event points to earn great rewards.
+How to Play:
+1. On the event page, you can toggle between the story content and the combat stages by tapping on the Story/Combat tabs on the bottom left-hand side of the screen.
+2. On the Combat Prep interface, form a fleet to challenge a special event stage. After clearing one difficulty, you will unlock the subsequent difficulty.
+3. Stages may feature multiple battles during a single sortie.
+4. While sortieing, you may configure and sortie as many fleets as corresponding to the number of battles in that stage. The number of sortie fleets can be toggled between <color=#92fc63>Solo Challenge and Coalition Battle</color> on the Combat Prep interface.
+During Solo Challenge, one fleet will fight against all the battles in that stage.
+During Coalition Battle, you will have to configure multiple fleets for each battle, and each fleet will take turns fighting in the corresponding battles.
+5. Completing all the battles in a stage will be considered clearing the stage, and you will earn event points. You will earn additional rewards for clearing a stage through a Coalition Battle.
+6. Accumulate event points to obtain the limited ship, Imperatritsa Mariya, and the new gear, Mage's Grimoire.
+7. Unlock all story chapters to get a limited gear skin, Mystical Might.
+]]
+		}
+	}
+}
+
+
+_G.pg.base.gametip.auto_battle_series_tip = {
+	tip = "*After clearing Coalition Battle once, additional rewards can be obtained when conducting a Coalition Battle using a Handover Permit."
+}
+
+
+_G.pg.base.gametip.auto_battle_series_finish_tip = {
+	tip = "*Additional rewards can be obtained when conducting a Coalition Battle using a Handover Permit."
+}
+
+
+_G.pg.base.gametip.auto_chapter_unlock_tip_series_multi = {
+	tip = "Unlocked by completing a Coalition Battle."
 }

@@ -1,4 +1,4 @@
-slot0 = class("BossRushAlvitScene", import("view.base.BaseUI"))
+slot0 = class("BossRushAlvitScene", import("view.activity.BossRush.BossRushBaseScene"))
 slot0.DISPLAY = {
 	STORY = 2,
 	BATTLE = 1

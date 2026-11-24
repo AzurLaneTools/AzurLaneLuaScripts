@@ -399,6 +399,11 @@ pg.task_meta_data_template.all = {
 	100613,
 	100614,
 	100615,
+	100621,
+	100622,
+	100623,
+	100624,
+	100625,
 	200001,
 	200002,
 	200003,
@@ -606,7 +611,11 @@ pg.task_meta_data_template.all = {
 	200521,
 	200522,
 	200523,
-	200524
+	200524,
+	200531,
+	200532,
+	200533,
+	200534
 }
 pg.base = pg.base or {}
 pg.base.task_meta_data_template = {}
@@ -3778,6 +3787,48 @@ end)()
 		target_num = 1,
 		desc = "Defeat a Lv. 100+ fleet with Soobrazitelny META in your fleet."
 	}
+	pg.base.task_meta_data_template[100621] = {
+		target_id = "",
+		sub_type = 180,
+		target_id_2 = "970114",
+		id = 100621,
+		target_num = 1,
+		desc = "Win 1 battle with a fleet that includes Kersaint META."
+	}
+	pg.base.task_meta_data_template[100622] = {
+		target_id = "30",
+		sub_type = 180,
+		target_id_2 = "970114",
+		id = 100622,
+		target_num = 1,
+		desc = "Defeat a level 30+ enemy fleet with a fleet that includes Kersaint META."
+	}
+	pg.base.task_meta_data_template[100623] = {
+		target_id = "55",
+		sub_type = 180,
+		target_id_2 = "970114",
+		id = 100623,
+		target_num = 1,
+		desc = "Defeat a level 55+ enemy fleet with a fleet that includes Kersaint META."
+	}
+	pg.base.task_meta_data_template[100624] = {
+		target_id = "80",
+		sub_type = 180,
+		target_id_2 = "970114",
+		id = 100624,
+		target_num = 1,
+		desc = "Defeat a level 80+ enemy fleet with a fleet that includes Kersaint META."
+	}
+	pg.base.task_meta_data_template[100625] = {
+		target_id = "100",
+		sub_type = 180,
+		target_id_2 = "970114",
+		id = 100625,
+		target_num = 1,
+		desc = "Defeat a level 100+ enemy fleet with a fleet that includes Kersaint META."
+	}
+end)()
+(function ()
 	pg.base.task_meta_data_template[200001] = {
 		target_id = "0",
 		sub_type = 302,
@@ -3818,8 +3869,6 @@ end)()
 		target_num = 1,
 		desc = "Win 1 battle in Operation Siren with Fortune META in your fleet."
 	}
-end)()
-(function ()
 	pg.base.task_meta_data_template[200022] = {
 		target_id = "70",
 		sub_type = 302,
@@ -4580,6 +4629,8 @@ end)()
 		target_num = 1,
 		desc = "Defeat a Lv. 100+ fleet in Operation Siren with Houshou META in your fleet."
 	}
+end)()
+(function ()
 	pg.base.task_meta_data_template[200261] = {
 		target_id = "0",
 		sub_type = 302,
@@ -4620,8 +4671,6 @@ end)()
 		target_num = 1,
 		desc = "Win 1 Operation Siren battle with Taihou META in your fleet."
 	}
-end)()
-(function ()
 	pg.base.task_meta_data_template[200272] = {
 		target_id = "70",
 		sub_type = 302,
@@ -5382,6 +5431,8 @@ end)()
 		target_num = 1,
 		desc = "Defeat a Lv. 100+ fleet in Operation Siren with Victorious META in your fleet."
 	}
+end)()
+(function ()
 	pg.base.task_meta_data_template[200501] = {
 		target_id = "0",
 		sub_type = 302,
@@ -5422,8 +5473,6 @@ end)()
 		target_num = 1,
 		desc = "Win 1 Operation Siren battle with Soobrazitelny META in your fleet."
 	}
-end)()
-(function ()
 	pg.base.task_meta_data_template[200522] = {
 		target_id = "70",
 		sub_type = 302,
@@ -5447,5 +5496,37 @@ end)()
 		id = 200524,
 		target_num = 1,
 		desc = "Defeat a Lv. 100+ fleet in Operation Siren with Soobrazitelny META in your fleet."
+	}
+	pg.base.task_meta_data_template[200531] = {
+		target_id = "",
+		sub_type = 302,
+		target_id_2 = "970114",
+		id = 200531,
+		target_num = 1,
+		desc = "In Operation Siren, win 1 battle with a fleet that includes Kersaint META."
+	}
+	pg.base.task_meta_data_template[200532] = {
+		target_id = "70",
+		sub_type = 302,
+		target_id_2 = "970114",
+		id = 200532,
+		target_num = 1,
+		desc = "In Operation Siren, defeat a level 70+ enemy fleet with a fleet that includes Kersaint META."
+	}
+	pg.base.task_meta_data_template[200533] = {
+		target_id = "90",
+		sub_type = 302,
+		target_id_2 = "970114",
+		id = 200533,
+		target_num = 1,
+		desc = "In Operation Siren, defeat a level 90+ enemy fleet with a fleet that includes Kersaint META."
+	}
+	pg.base.task_meta_data_template[200534] = {
+		target_id = "100",
+		sub_type = 302,
+		target_id_2 = "970114",
+		id = 200534,
+		target_num = 1,
+		desc = "In Operation Siren, defeat a level 100+ enemy fleet with a fleet that includes Kersaint META."
 	}
 end)()

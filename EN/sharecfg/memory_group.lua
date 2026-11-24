@@ -281,9 +281,11 @@ pg.memory_group.all = {
 	379,
 	380,
 	381,
-	384,
 	382,
 	383,
+	384,
+	385,
+	386,
 	501,
 	502,
 	503,
@@ -7571,22 +7573,6 @@ end)()
 			5596
 		}
 	}
-	pg.base.memory_group[384] = {
-		ship_group = 0,
-		icon = "title_event",
-		type = 2,
-		link_event = 50662,
-		title = "Port Fashion Collection: Heartful Remedies",
-		auto_unlock = "",
-		subtype = 3,
-		id = 384,
-		group_id = "",
-		memories = {
-			5641,
-			5642,
-			5643
-		}
-	}
 	pg.base.memory_group[382] = {
 		ship_group = 0,
 		icon = "title_event",
@@ -7618,6 +7604,68 @@ end)()
 		memories = {
 			5631,
 			5632
+		}
+	}
+	pg.base.memory_group[384] = {
+		ship_group = 0,
+		icon = "title_event",
+		type = 2,
+		link_event = 50662,
+		title = "Port Fashion Collection: Heartful Remedies",
+		auto_unlock = "",
+		subtype = 3,
+		id = 384,
+		group_id = "",
+		memories = {
+			5641,
+			5642,
+			5643
+		}
+	}
+	pg.base.memory_group[385] = {
+		ship_group = 0,
+		icon = "title_event",
+		type = 2,
+		link_event = 51402,
+		title = "The Transfer Student of Veritas Academy",
+		auto_unlock = "",
+		subtype = 2,
+		id = 385,
+		group_id = "",
+		memories = {
+			5651,
+			5652,
+			5653,
+			5654,
+			5655,
+			5656,
+			5657,
+			5658,
+			5659,
+			5660,
+			5661,
+			5662,
+			5663,
+			5664,
+			5665,
+			5666,
+			5667
+		}
+	}
+	pg.base.memory_group[386] = {
+		ship_group = 0,
+		icon = "title_event",
+		type = 2,
+		link_event = 51412,
+		title = "Port Fashion Collection: Autumnal Waterworld",
+		auto_unlock = "",
+		subtype = 3,
+		id = 386,
+		group_id = "",
+		memories = {
+			5671,
+			5672,
+			5673
 		}
 	}
 	pg.base.memory_group[501] = {
@@ -8027,6 +8075,8 @@ end)()
 			10000
 		}
 	}
+end)()
+(function ()
 	pg.base.memory_group[520] = {
 		ship_group = 30402,
 		icon = "title_chara_birui",
@@ -8071,8 +8121,6 @@ end)()
 			10000
 		}
 	}
-end)()
-(function ()
 	pg.base.memory_group[522] = {
 		ship_group = 10802,
 		icon = "title_chara_daqinghuayu",
@@ -10229,6 +10277,8 @@ end)()
 			10000
 		}
 	}
+end)()
+(function ()
 	pg.base.memory_group[621] = {
 		ship_group = 20313,
 		icon = "title_chara_dewenjun",
@@ -10273,8 +10323,6 @@ end)()
 			10000
 		}
 	}
-end)()
-(function ()
 	pg.base.memory_group[623] = {
 		ship_group = 60508,
 		icon = "title_chara_lafeier",

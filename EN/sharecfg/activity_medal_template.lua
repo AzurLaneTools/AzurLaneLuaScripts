@@ -198,7 +198,15 @@ pg.activity_medal_template.all = {
 	5161105,
 	5161106,
 	5161107,
-	5161108
+	5161108,
+	5140901,
+	5140902,
+	5140903,
+	5140904,
+	5140905,
+	5140906,
+	5140907,
+	5140908
 }
 pg.activity_medal_template.get_id_list_by_group = {
 	[5711] = {
@@ -436,6 +444,16 @@ pg.activity_medal_template.get_id_list_by_group = {
 		5115405,
 		5115406,
 		5115407
+	},
+	[51409] = {
+		5140901,
+		5140902,
+		5140903,
+		5140904,
+		5140905,
+		5140906,
+		5140907,
+		5140908
 	},
 	[51611] = {
 		5161101,
@@ -2805,5 +2823,103 @@ end)()
 		activity_medal_name = "Sticker: Stellar Inversion",
 		id = 5161108,
 		medal_asset = "ActivityMedal/5161108"
+	}
+	pg.base.activity_medal_template[5140901] = {
+		activity_medal_desc = "At Veritas Academy, magic and romance meet. Is your strategy guide ready?",
+		next_medal = 0,
+		item = 66123,
+		remake_task_id = 0,
+		group = 51409,
+		prefab_node = "1",
+		task_id = 25749,
+		activity_medal_name = "Sticker: Veritas Academy",
+		id = 5140901,
+		medal_asset = "ActivityMedal/5140901"
+	}
+	pg.base.activity_medal_template[5140902] = {
+		activity_medal_desc = "Love hits like a sledgehammer!",
+		next_medal = 0,
+		item = 66124,
+		remake_task_id = 0,
+		group = 51409,
+		prefab_node = "2",
+		task_id = 25750,
+		activity_medal_name = "Sticker: Heart-Throbbing Critical Hit",
+		id = 5140902,
+		medal_asset = "ActivityMedal/5140902"
+	}
+	pg.base.activity_medal_template[5140903] = {
+		activity_medal_desc = "For when you don't proclaim \"I like you\" with your whole chest.",
+		next_medal = 0,
+		item = 66125,
+		remake_task_id = 0,
+		group = 51409,
+		prefab_node = "3",
+		task_id = 25751,
+		activity_medal_name = "Sticker: Confession Save Point",
+		id = 5140903,
+		medal_asset = "ActivityMedal/5140903"
+	}
+	pg.base.activity_medal_template[5140904] = {
+		activity_medal_desc = "Even without magic, the staff is still a really big stick.",
+		next_medal = 0,
+		item = 66126,
+		remake_task_id = 0,
+		group = 51409,
+		prefab_node = "4",
+		task_id = 25752,
+		activity_medal_name = "Sticker: Persuasion \"Magic\"",
+		id = 5140904,
+		medal_asset = "ActivityMedal/5140904"
+	}
+end)()
+(function ()
+	pg.base.activity_medal_template[5140905] = {
+		activity_medal_desc = "By the king's decree, by the king's mercy.",
+		next_medal = 0,
+		item = 66127,
+		remake_task_id = 0,
+		group = 51409,
+		prefab_node = "5",
+		task_id = 25753,
+		activity_medal_name = "Sticker: Atop the Throne",
+		id = 5140905,
+		medal_asset = "ActivityMedal/5140905"
+	}
+	pg.base.activity_medal_template[5140906] = {
+		activity_medal_desc = "Trick or treat? Nay, trick AND treat!",
+		next_medal = 0,
+		item = 66128,
+		remake_task_id = 0,
+		group = 51409,
+		prefab_node = "6",
+		task_id = 25754,
+		activity_medal_name = "Sticker: Candy Monster",
+		id = 5140906,
+		medal_asset = "ActivityMedal/5140906"
+	}
+	pg.base.activity_medal_template[5140907] = {
+		activity_medal_desc = "The snow is coming? Wait, it's just her grand entrance!",
+		next_medal = 0,
+		item = 66129,
+		remake_task_id = 0,
+		group = 51409,
+		prefab_node = "7",
+		task_id = 25755,
+		activity_medal_name = "Sticker: Tiara of Snow",
+		id = 5140907,
+		medal_asset = "ActivityMedal/5140907"
+	}
+	pg.base.activity_medal_template[5140908] = {
+		activity_medal_desc = "Just like its creator, it remains true to romance.",
+		next_medal = 0,
+		item = 66130,
+		remake_task_id = 0,
+		group = 51409,
+		prefab_node = "8",
+		task_id = 25756,
+		activity_medal_name = "Sticker: Romantic Grail",
+		id = 5140908,
+		medal_asset = "ActivityMedal/5140908"
 	}
 end)()

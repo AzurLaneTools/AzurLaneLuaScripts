@@ -16884,6 +16884,37 @@ _G.pg.base.item_data_statistics[21066] = {
 }
 
 
+_G.pg.base.item_data_statistics[21067] = {
+	open_directly = 0,
+	name = "META Crystal – Kersaint META",
+	type = 4,
+	display = "An item that increases the potential of Kersaint META. Used in the META Lab during Somatic Activation.",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_undefined",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/21067",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "[]",
+	id = 21067,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	limit = {}
+}
+
+
 _G.pg.base.item_data_statistics[21101] = {
 	open_directly = 0,
 	name = "Crystallized Heat-Resistant Steel",
@@ -30622,6 +30653,131 @@ _G.pg.base.item_data_statistics[30389] = {
 }
 
 
+_G.pg.base.item_data_statistics[30390] = {
+	open_directly = 1,
+	name = "Gear Skin Box (Romantic Academia)",
+	type = 11,
+	display = "Use to receive 1 random Romantic Academia-themed gear skin.",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_drop",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/appearanceboxzhenlixueyuan",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "30387",
+	id = 30390,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			9,
+			4474,
+			1
+		},
+		{
+			9,
+			4475,
+			1
+		},
+		{
+			9,
+			4476,
+			1
+		},
+		{
+			9,
+			4477,
+			1
+		},
+		{
+			9,
+			4478,
+			1
+		},
+		{
+			9,
+			4479,
+			1
+		},
+		{
+			9,
+			4480,
+			1
+		},
+		{
+			9,
+			4481,
+			1
+		},
+		{
+			9,
+			4482,
+			1
+		},
+		{
+			9,
+			4483,
+			1
+		},
+		{
+			9,
+			4484,
+			1
+		},
+		{
+			9,
+			4485,
+			1
+		},
+		{
+			9,
+			4486,
+			1
+		},
+		{
+			9,
+			4487,
+			1
+		},
+		{
+			9,
+			4488,
+			1
+		},
+		{
+			9,
+			4489,
+			1
+		},
+		{
+			9,
+			4490,
+			1
+		},
+		{
+			9,
+			4491,
+			1
+		}
+	},
+	price = {
+		1,
+		7000
+	},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	limit = {}
+}
+
+
 _G.pg.base.item_data_statistics[30401] = {
 	open_directly = 1,
 	name = "Random Gear Skin Box",
@@ -32555,6 +32711,58 @@ _G.pg.base.item_data_statistics[30437] = {
 		{
 			9,
 			2132,
+			1
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[30438] = {
+	open_directly = 1,
+	name = "Gear Skin Box (Cruise Missions)",
+	type = 11,
+	display = "Use to receive 1 random Cruise Mission gear skin.",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_drop",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/appearanceboxshijiexunyou",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "111232",
+	id = 30438,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			9,
+			2133,
+			1
+		},
+		{
+			9,
+			2134,
+			1
+		},
+		{
+			9,
+			2135,
+			1
+		},
+		{
+			9,
+			2136,
 			1
 		}
 	},
@@ -48094,6 +48302,219 @@ _G.pg.base.item_data_statistics[30573] = {
 		{
 			9,
 			4473,
+			1
+		}
+	},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[30574] = {
+	open_directly = 0,
+	name = "Selection Gear Skin Box (Romantic Academia)",
+	type = 13,
+	display = "Use to receive 1 Romantic Academia-themed gear skin of your choosing.",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_drop_appointed",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/appearanceboxzhenlixueyuanzixuan",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	id = 30574,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			9,
+			4474,
+			1
+		},
+		{
+			9,
+			4475,
+			1
+		},
+		{
+			9,
+			4476,
+			1
+		},
+		{
+			9,
+			4477,
+			1
+		},
+		{
+			9,
+			4478,
+			1
+		},
+		{
+			9,
+			4479,
+			1
+		},
+		{
+			9,
+			4480,
+			1
+		},
+		{
+			9,
+			4481,
+			1
+		},
+		{
+			9,
+			4482,
+			1
+		},
+		{
+			9,
+			4483,
+			1
+		},
+		{
+			9,
+			4484,
+			1
+		},
+		{
+			9,
+			4485,
+			1
+		},
+		{
+			9,
+			4486,
+			1
+		},
+		{
+			9,
+			4487,
+			1
+		},
+		{
+			9,
+			4488,
+			1
+		},
+		{
+			9,
+			4489,
+			1
+		},
+		{
+			9,
+			4490,
+			1
+		},
+		{
+			9,
+			4491,
+			1
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	usage_arg = {
+		{
+			9,
+			4474,
+			1
+		},
+		{
+			9,
+			4475,
+			1
+		},
+		{
+			9,
+			4476,
+			1
+		},
+		{
+			9,
+			4477,
+			1
+		},
+		{
+			9,
+			4478,
+			1
+		},
+		{
+			9,
+			4479,
+			1
+		},
+		{
+			9,
+			4480,
+			1
+		},
+		{
+			9,
+			4481,
+			1
+		},
+		{
+			9,
+			4482,
+			1
+		},
+		{
+			9,
+			4483,
+			1
+		},
+		{
+			9,
+			4484,
+			1
+		},
+		{
+			9,
+			4485,
+			1
+		},
+		{
+			9,
+			4486,
+			1
+		},
+		{
+			9,
+			4487,
+			1
+		},
+		{
+			9,
+			4488,
+			1
+		},
+		{
+			9,
+			4489,
+			1
+		},
+		{
+			9,
+			4490,
+			1
+		},
+		{
+			9,
+			4491,
 			1
 		}
 	},
@@ -122790,6 +123211,37 @@ _G.pg.base.item_data_statistics[81462] = {
 			100
 		}
 	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[81471] = {
+	open_directly = 0,
+	name = "Kids' Meal Toy",
+	type = 1,
+	display = "A bonus toy that was included with the meal she prepared herself – \"No matter what you choose, I will always give you my love and support!\"",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_undefined",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/ertongtaocanwanju",
+	order = 0,
+	rarity = 3,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "[]",
+	id = 81471,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
 	price = {},
 	index = {},
 	shiptrans_id = {},

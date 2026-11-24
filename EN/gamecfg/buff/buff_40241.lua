@@ -1,6 +1,6 @@
 return {
 	time = 0,
-	name = "战列-指挥-炮击II+战列-指挥-命中II",
+	name = "战列-指挥-炮击II+战列-指挥-防空II",
 	init_effect = "",
 	id = 40241,
 	picture = "",
@@ -29,7 +29,7 @@ return {
 			arg_list = {
 				ability = "command",
 				convertRate = 0.8,
-				convertAttr = "attackRating"
+				convertAttr = "antiAirPower"
 			}
 		}
 	}

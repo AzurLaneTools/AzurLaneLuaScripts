@@ -93,6 +93,10 @@ slot0.init = function(slot0)
 		slot0._tf:Find("blur_panel/adapt/left_length/frame/root/limited_toggle"),
 		slot0.toggleLoveLetter
 	}
+	slot0._pageTip = {
+		slot0._tf:Find("blur_panel/adapt/left_length/frame/root/common_toggle/tip"),
+		slot0._tf:Find("blur_panel/adapt/left_length/frame/root/limited_toggle/tip")
+	}
 	slot0._hideExpireBtn = slot0._tf:Find("blur_panel/adapt/top/expireCheckBox")
 	slot0._hideExpireCheck = slot0._hideExpireBtn:Find("check")
 	slot0._pageIndex = slot0.contextData.index or 1
@@ -282,6 +286,7 @@ slot0.updatePage = function(slot0, slot1)
 	end
 
 	setActive(slot0._hideExpireBtn, slot1 == uv0.PAGE_LIMITED)
+	slot0:updateToggleTip()
 end
 
 slot0.updateTrophyList = function(slot0)
@@ -344,7 +349,24 @@ slot0.updateTrophyCounter = function(slot0)
 		end
 	end
 
+	slot0:updateToggleTip()
 	setText(slot0._trophyCounter, slot1)
+end
+
+slot0.updateToggleTip = function(slot0)
+	for slot4 = 1, #slot0._pageTip do
+		slot5 = false
+
+		for slot9, slot10 in pairs(slot0.trophyGroups) do
+			if slot0:checkTrophyVisible(slot10, slot4, "all") and slot10:getProgressTrophy():canClaimed() and not slot11:isClaimed() then
+				slot5 = true
+
+				break
+			end
+		end
+
+		setActive(slot0._pageTip[slot4], slot5)
+	end
 end
 
 slot0.onFilter = function(slot0)

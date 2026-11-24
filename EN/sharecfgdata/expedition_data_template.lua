@@ -1121341,6 +1121341,1152 @@ _G.pg.base.expedition_data_template[2079004] = {
 }
 
 
+_G.pg.base.expedition_data_template[2079101] = {
+	name = "Enemy Flagship",
+	icon = "bossicon",
+	type = 99,
+	time_limit = 120,
+	exp_commander = 0,
+	add_icon = "",
+	ai_mov = 0,
+	exp = 169,
+	exp_commander_ratio = 50,
+	expose_speed = 15,
+	ai = 0,
+	dungeon_id = 2079101,
+	level = 20,
+	sink_limit = 1,
+	limit_type = 1,
+	SLG_destroy_FX = "",
+	icon_type = 1,
+	id = 2079101,
+	scale = 100,
+	guide_desc = "",
+	bgm = "story-richang-afterschool",
+	difficulty = 2,
+	effect_prefab = "",
+	plot_type = 0,
+	map_id = {
+		{
+			50235,
+			1
+		}
+	},
+	award_display = {
+		{
+			2,
+			200867,
+			1
+		},
+		{
+			2,
+			59001,
+			1
+		},
+		{
+			2,
+			54012,
+			1
+		}
+	},
+	objective_1 = {
+		1
+	},
+	objective_2 = {
+		2
+	},
+	objective_3 = {
+		5,
+		120
+	},
+	bufficon = {},
+	expose_line = {},
+	horizon_line = {
+		[1.0] = -50
+	},
+	aircraft_expose = {
+		15,
+		10
+	},
+	ship_expose = {
+		30,
+		10
+	}
+}
+
+
+_G.pg.base.expedition_data_template[2079201] = {
+	name = "Enemy Flagship",
+	icon = "bossicon",
+	type = 99,
+	time_limit = 120,
+	exp_commander = 0,
+	add_icon = "",
+	ai_mov = 0,
+	exp = 286,
+	exp_commander_ratio = 50,
+	expose_speed = 15,
+	ai = 0,
+	dungeon_id = 2079201,
+	level = 50,
+	sink_limit = 1,
+	limit_type = 1,
+	SLG_destroy_FX = "",
+	icon_type = 1,
+	id = 2079201,
+	scale = 100,
+	guide_desc = "",
+	bgm = "story-richang-afterschool",
+	difficulty = 2,
+	effect_prefab = "",
+	plot_type = 0,
+	map_id = {
+		{
+			50235,
+			1
+		}
+	},
+	award_display = {
+		{
+			2,
+			200868,
+			1
+		},
+		{
+			2,
+			59001,
+			1
+		},
+		{
+			2,
+			54017,
+			1
+		}
+	},
+	objective_1 = {
+		1
+	},
+	objective_2 = {
+		2
+	},
+	objective_3 = {
+		5,
+		120
+	},
+	bufficon = {},
+	expose_line = {},
+	horizon_line = {
+		[1.0] = -50
+	},
+	aircraft_expose = {
+		15,
+		10
+	},
+	ship_expose = {
+		30,
+		10
+	}
+}
+
+
+_G.pg.base.expedition_data_template[2079202] = {
+	name = "Enemy Flagship",
+	icon = "bossicon",
+	type = 99,
+	time_limit = 120,
+	exp_commander = 0,
+	add_icon = "",
+	ai_mov = 0,
+	exp = 286,
+	exp_commander_ratio = 50,
+	expose_speed = 15,
+	ai = 0,
+	dungeon_id = 2079202,
+	level = 50,
+	sink_limit = 1,
+	limit_type = 1,
+	SLG_destroy_FX = "",
+	icon_type = 1,
+	id = 2079202,
+	scale = 100,
+	guide_desc = "",
+	bgm = "story-richang-afterschool",
+	difficulty = 2,
+	effect_prefab = "",
+	plot_type = 0,
+	map_id = {
+		{
+			50235,
+			1
+		}
+	},
+	award_display = {
+		{
+			2,
+			200868,
+			1
+		},
+		{
+			2,
+			59001,
+			1
+		},
+		{
+			2,
+			54017,
+			1
+		}
+	},
+	objective_1 = {
+		1
+	},
+	objective_2 = {
+		2
+	},
+	objective_3 = {
+		5,
+		120
+	},
+	bufficon = {},
+	expose_line = {},
+	horizon_line = {
+		[1.0] = -50
+	},
+	aircraft_expose = {
+		15,
+		10
+	},
+	ship_expose = {
+		30,
+		10
+	}
+}
+
+
+_G.pg.base.expedition_data_template[2079301] = {
+	name = "Enemy Flagship",
+	icon = "bossicon",
+	type = 99,
+	time_limit = 120,
+	exp_commander = 2,
+	add_icon = "",
+	ai_mov = 0,
+	exp = 470,
+	exp_commander_ratio = 50,
+	expose_speed = 15,
+	ai = 0,
+	dungeon_id = 2079301,
+	level = 100,
+	sink_limit = 1,
+	limit_type = 1,
+	SLG_destroy_FX = "",
+	icon_type = 1,
+	id = 2079301,
+	scale = 100,
+	guide_desc = "",
+	bgm = "story-richang-afterschool",
+	difficulty = 2,
+	effect_prefab = "",
+	plot_type = 0,
+	map_id = {
+		{
+			50235,
+			1
+		}
+	},
+	award_display = {
+		{
+			2,
+			200869,
+			1
+		},
+		{
+			2,
+			59001,
+			1
+		},
+		{
+			2,
+			54017,
+			1
+		}
+	},
+	objective_1 = {
+		1
+	},
+	objective_2 = {
+		2
+	},
+	objective_3 = {
+		5,
+		120
+	},
+	bufficon = {},
+	expose_line = {},
+	horizon_line = {
+		[1.0] = -50
+	},
+	aircraft_expose = {
+		15,
+		10
+	},
+	ship_expose = {
+		30,
+		10
+	}
+}
+
+
+_G.pg.base.expedition_data_template[2079302] = {
+	name = "Enemy Flagship",
+	icon = "bossicon",
+	type = 99,
+	time_limit = 120,
+	exp_commander = 2,
+	add_icon = "",
+	ai_mov = 0,
+	exp = 470,
+	exp_commander_ratio = 50,
+	expose_speed = 15,
+	ai = 0,
+	dungeon_id = 2079302,
+	level = 100,
+	sink_limit = 1,
+	limit_type = 1,
+	SLG_destroy_FX = "",
+	icon_type = 1,
+	id = 2079302,
+	scale = 100,
+	guide_desc = "",
+	bgm = "story-richang-afterschool",
+	difficulty = 2,
+	effect_prefab = "",
+	plot_type = 0,
+	map_id = {
+		{
+			50235,
+			1
+		}
+	},
+	award_display = {
+		{
+			2,
+			200869,
+			1
+		},
+		{
+			2,
+			59001,
+			1
+		},
+		{
+			2,
+			54017,
+			1
+		}
+	},
+	objective_1 = {
+		1
+	},
+	objective_2 = {
+		2
+	},
+	objective_3 = {
+		5,
+		120
+	},
+	bufficon = {},
+	expose_line = {},
+	horizon_line = {
+		[1.0] = -50
+	},
+	aircraft_expose = {
+		15,
+		10
+	},
+	ship_expose = {
+		30,
+		10
+	}
+}
+
+
+_G.pg.base.expedition_data_template[2079303] = {
+	name = "Enemy Flagship",
+	icon = "bossicon",
+	type = 99,
+	time_limit = 120,
+	exp_commander = 2,
+	add_icon = "",
+	ai_mov = 0,
+	exp = 470,
+	exp_commander_ratio = 50,
+	expose_speed = 15,
+	ai = 0,
+	dungeon_id = 2079303,
+	level = 100,
+	sink_limit = 1,
+	limit_type = 1,
+	SLG_destroy_FX = "",
+	icon_type = 1,
+	id = 2079303,
+	scale = 100,
+	guide_desc = "",
+	bgm = "story-richang-afterschool",
+	difficulty = 2,
+	effect_prefab = "",
+	plot_type = 0,
+	map_id = {
+		{
+			50235,
+			1
+		}
+	},
+	award_display = {
+		{
+			2,
+			200869,
+			1
+		},
+		{
+			2,
+			59001,
+			1
+		},
+		{
+			2,
+			54017,
+			1
+		}
+	},
+	objective_1 = {
+		1
+	},
+	objective_2 = {
+		2
+	},
+	objective_3 = {
+		5,
+		120
+	},
+	bufficon = {},
+	expose_line = {},
+	horizon_line = {
+		[1.0] = -50
+	},
+	aircraft_expose = {
+		15,
+		10
+	},
+	ship_expose = {
+		30,
+		10
+	}
+}
+
+
+_G.pg.base.expedition_data_template[2079401] = {
+	name = "Enemy Flagship",
+	icon = "bossicon",
+	type = 99,
+	time_limit = 120,
+	exp_commander = 4,
+	add_icon = "",
+	ai_mov = 0,
+	exp = 500,
+	exp_commander_ratio = 50,
+	expose_speed = 15,
+	ai = 0,
+	dungeon_id = 2079401,
+	level = 110,
+	sink_limit = 1,
+	limit_type = 1,
+	SLG_destroy_FX = "",
+	icon_type = 1,
+	id = 2079401,
+	scale = 100,
+	guide_desc = "",
+	bgm = "story-richang-afterschool",
+	difficulty = 2,
+	effect_prefab = "",
+	plot_type = 0,
+	map_id = {
+		{
+			50235,
+			1
+		}
+	},
+	award_display = {
+		{
+			2,
+			200870,
+			1
+		},
+		{
+			2,
+			59001,
+			1
+		},
+		{
+			2,
+			54016,
+			1
+		}
+	},
+	objective_1 = {
+		1
+	},
+	objective_2 = {
+		2
+	},
+	objective_3 = {
+		5,
+		120
+	},
+	bufficon = {},
+	expose_line = {},
+	horizon_line = {
+		[1.0] = -50
+	},
+	aircraft_expose = {
+		15,
+		10
+	},
+	ship_expose = {
+		30,
+		10
+	}
+}
+
+
+_G.pg.base.expedition_data_template[2079402] = {
+	name = "Enemy Flagship",
+	icon = "bossicon",
+	type = 99,
+	time_limit = 120,
+	exp_commander = 4,
+	add_icon = "",
+	ai_mov = 0,
+	exp = 500,
+	exp_commander_ratio = 50,
+	expose_speed = 15,
+	ai = 0,
+	dungeon_id = 2079402,
+	level = 110,
+	sink_limit = 1,
+	limit_type = 1,
+	SLG_destroy_FX = "",
+	icon_type = 1,
+	id = 2079402,
+	scale = 100,
+	guide_desc = "",
+	bgm = "story-richang-afterschool",
+	difficulty = 2,
+	effect_prefab = "",
+	plot_type = 0,
+	map_id = {
+		{
+			50235,
+			1
+		}
+	},
+	award_display = {
+		{
+			2,
+			200870,
+			1
+		},
+		{
+			2,
+			59001,
+			1
+		},
+		{
+			2,
+			54016,
+			1
+		}
+	},
+	objective_1 = {
+		1
+	},
+	objective_2 = {
+		2
+	},
+	objective_3 = {
+		5,
+		120
+	},
+	bufficon = {},
+	expose_line = {},
+	horizon_line = {
+		[1.0] = -50
+	},
+	aircraft_expose = {
+		15,
+		10
+	},
+	ship_expose = {
+		30,
+		10
+	}
+}
+
+
+_G.pg.base.expedition_data_template[2079403] = {
+	name = "Enemy Flagship",
+	icon = "bossicon",
+	type = 99,
+	time_limit = 120,
+	exp_commander = 4,
+	add_icon = "",
+	ai_mov = 0,
+	exp = 500,
+	exp_commander_ratio = 50,
+	expose_speed = 15,
+	ai = 0,
+	dungeon_id = 2079403,
+	level = 110,
+	sink_limit = 1,
+	limit_type = 1,
+	SLG_destroy_FX = "",
+	icon_type = 1,
+	id = 2079403,
+	scale = 100,
+	guide_desc = "",
+	bgm = "story-richang-afterschool",
+	difficulty = 2,
+	effect_prefab = "",
+	plot_type = 0,
+	map_id = {
+		{
+			50235,
+			1
+		}
+	},
+	award_display = {
+		{
+			2,
+			200870,
+			1
+		},
+		{
+			2,
+			59001,
+			1
+		},
+		{
+			2,
+			54016,
+			1
+		}
+	},
+	objective_1 = {
+		1
+	},
+	objective_2 = {
+		2
+	},
+	objective_3 = {
+		5,
+		120
+	},
+	bufficon = {},
+	expose_line = {},
+	horizon_line = {
+		[1.0] = -50
+	},
+	aircraft_expose = {
+		15,
+		10
+	},
+	ship_expose = {
+		30,
+		10
+	}
+}
+
+
+_G.pg.base.expedition_data_template[2079404] = {
+	name = "Enemy Flagship",
+	icon = "bossicon",
+	type = 99,
+	time_limit = 120,
+	exp_commander = 4,
+	add_icon = "",
+	ai_mov = 0,
+	exp = 500,
+	exp_commander_ratio = 50,
+	expose_speed = 15,
+	ai = 0,
+	dungeon_id = 2079404,
+	level = 110,
+	sink_limit = 1,
+	limit_type = 1,
+	SLG_destroy_FX = "",
+	icon_type = 1,
+	id = 2079404,
+	scale = 100,
+	guide_desc = "",
+	bgm = "story-richang-afterschool",
+	difficulty = 2,
+	effect_prefab = "",
+	plot_type = 0,
+	map_id = {
+		{
+			50235,
+			1
+		}
+	},
+	award_display = {
+		{
+			2,
+			200870,
+			1
+		},
+		{
+			2,
+			59001,
+			1
+		},
+		{
+			2,
+			54016,
+			1
+		}
+	},
+	objective_1 = {
+		1
+	},
+	objective_2 = {
+		2
+	},
+	objective_3 = {
+		5,
+		120
+	},
+	bufficon = {},
+	expose_line = {},
+	horizon_line = {
+		[1.0] = -50
+	},
+	aircraft_expose = {
+		15,
+		10
+	},
+	ship_expose = {
+		30,
+		10
+	}
+}
+
+
+_G.pg.base.expedition_data_template[2079501] = {
+	name = "Enemy Flagship",
+	icon = "bossicon",
+	type = 99,
+	time_limit = 120,
+	exp_commander = 0,
+	add_icon = "",
+	ai_mov = 0,
+	exp = 0,
+	exp_commander_ratio = 0,
+	expose_speed = 15,
+	ai = 0,
+	dungeon_id = 2079501,
+	level = 125,
+	sink_limit = 1,
+	limit_type = 1,
+	SLG_destroy_FX = "",
+	icon_type = 1,
+	id = 2079501,
+	scale = 100,
+	guide_desc = "",
+	bgm = "story-richang-afterschool",
+	difficulty = 2,
+	effect_prefab = "",
+	plot_type = 0,
+	map_id = {
+		{
+			50235,
+			1
+		}
+	},
+	award_display = {},
+	objective_1 = {
+		1
+	},
+	objective_2 = {
+		2
+	},
+	objective_3 = {
+		5,
+		120
+	},
+	bufficon = {},
+	expose_line = {},
+	horizon_line = {
+		[1.0] = -50
+	},
+	aircraft_expose = {
+		15,
+		10
+	},
+	ship_expose = {
+		30,
+		10
+	}
+}
+
+
+_G.pg.base.expedition_data_template[2079502] = {
+	name = "Enemy Flagship",
+	icon = "bossicon",
+	type = 99,
+	time_limit = 120,
+	exp_commander = 0,
+	add_icon = "",
+	ai_mov = 0,
+	exp = 0,
+	exp_commander_ratio = 0,
+	expose_speed = 15,
+	ai = 0,
+	dungeon_id = 2079502,
+	level = 125,
+	sink_limit = 1,
+	limit_type = 1,
+	SLG_destroy_FX = "",
+	icon_type = 1,
+	id = 2079502,
+	scale = 100,
+	guide_desc = "",
+	bgm = "story-richang-afterschool",
+	difficulty = 2,
+	effect_prefab = "",
+	plot_type = 0,
+	map_id = {
+		{
+			50235,
+			1
+		}
+	},
+	award_display = {},
+	objective_1 = {
+		1
+	},
+	objective_2 = {
+		2
+	},
+	objective_3 = {
+		5,
+		120
+	},
+	bufficon = {},
+	expose_line = {},
+	horizon_line = {
+		[1.0] = -50
+	},
+	aircraft_expose = {
+		15,
+		10
+	},
+	ship_expose = {
+		30,
+		10
+	}
+}
+
+
+_G.pg.base.expedition_data_template[2079503] = {
+	name = "Enemy Flagship",
+	icon = "bossicon",
+	type = 99,
+	time_limit = 120,
+	exp_commander = 0,
+	add_icon = "",
+	ai_mov = 0,
+	exp = 0,
+	exp_commander_ratio = 0,
+	expose_speed = 15,
+	ai = 0,
+	dungeon_id = 2079503,
+	level = 125,
+	sink_limit = 1,
+	limit_type = 1,
+	SLG_destroy_FX = "",
+	icon_type = 1,
+	id = 2079503,
+	scale = 100,
+	guide_desc = "",
+	bgm = "story-richang-afterschool",
+	difficulty = 2,
+	effect_prefab = "",
+	plot_type = 0,
+	map_id = {
+		{
+			50235,
+			1
+		}
+	},
+	award_display = {},
+	objective_1 = {
+		1
+	},
+	objective_2 = {
+		2
+	},
+	objective_3 = {
+		5,
+		120
+	},
+	bufficon = {},
+	expose_line = {},
+	horizon_line = {
+		[1.0] = -50
+	},
+	aircraft_expose = {
+		15,
+		10
+	},
+	ship_expose = {
+		30,
+		10
+	}
+}
+
+
+_G.pg.base.expedition_data_template[2079504] = {
+	name = "Enemy Flagship",
+	icon = "bossicon",
+	type = 99,
+	time_limit = 120,
+	exp_commander = 0,
+	add_icon = "",
+	ai_mov = 0,
+	exp = 0,
+	exp_commander_ratio = 0,
+	expose_speed = 15,
+	ai = 0,
+	dungeon_id = 2079504,
+	level = 125,
+	sink_limit = 1,
+	limit_type = 1,
+	SLG_destroy_FX = "",
+	icon_type = 1,
+	id = 2079504,
+	scale = 100,
+	guide_desc = "",
+	bgm = "story-richang-afterschool",
+	difficulty = 2,
+	effect_prefab = "",
+	plot_type = 0,
+	map_id = {
+		{
+			50235,
+			1
+		}
+	},
+	award_display = {},
+	objective_1 = {
+		1
+	},
+	objective_2 = {
+		2
+	},
+	objective_3 = {
+		5,
+		120
+	},
+	bufficon = {},
+	expose_line = {},
+	horizon_line = {
+		[1.0] = -50
+	},
+	aircraft_expose = {
+		15,
+		10
+	},
+	ship_expose = {
+		30,
+		10
+	}
+}
+
+
+_G.pg.base.expedition_data_template[2079505] = {
+	name = "Enemy Flagship",
+	icon = "bossicon",
+	type = 99,
+	time_limit = 120,
+	exp_commander = 0,
+	add_icon = "",
+	ai_mov = 0,
+	exp = 0,
+	exp_commander_ratio = 0,
+	expose_speed = 15,
+	ai = 0,
+	dungeon_id = 2079505,
+	level = 125,
+	sink_limit = 1,
+	limit_type = 1,
+	SLG_destroy_FX = "",
+	icon_type = 1,
+	id = 2079505,
+	scale = 100,
+	guide_desc = "",
+	bgm = "story-richang-afterschool",
+	difficulty = 2,
+	effect_prefab = "",
+	plot_type = 0,
+	map_id = {
+		{
+			50235,
+			1
+		}
+	},
+	award_display = {},
+	objective_1 = {
+		1
+	},
+	objective_2 = {
+		2
+	},
+	objective_3 = {
+		5,
+		120
+	},
+	bufficon = {},
+	expose_line = {},
+	horizon_line = {
+		[1.0] = -50
+	},
+	aircraft_expose = {
+		15,
+		10
+	},
+	ship_expose = {
+		30,
+		10
+	}
+}
+
+
+_G.pg.base.expedition_data_template[2079601] = {
+	name = "Enemy Flagship",
+	icon = "bossicon",
+	type = 99,
+	time_limit = 300,
+	exp_commander = 0,
+	add_icon = "",
+	ai_mov = 0,
+	exp = 0,
+	exp_commander_ratio = 0,
+	expose_speed = 15,
+	ai = 0,
+	dungeon_id = 2079601,
+	level = 120,
+	sink_limit = 1,
+	limit_type = 1,
+	SLG_destroy_FX = "",
+	icon_type = 1,
+	id = 2079601,
+	scale = 100,
+	guide_desc = "",
+	bgm = "story-richang-afterschool",
+	difficulty = 2,
+	effect_prefab = "",
+	plot_type = 0,
+	map_id = {
+		{
+			50235,
+			1
+		}
+	},
+	award_display = {},
+	objective_1 = {
+		1
+	},
+	objective_2 = {
+		2
+	},
+	objective_3 = {
+		5,
+		120
+	},
+	bufficon = {},
+	expose_line = {},
+	horizon_line = {
+		[1.0] = -50
+	},
+	aircraft_expose = {
+		15,
+		10
+	},
+	ship_expose = {
+		30,
+		10
+	}
+}
+
+
+_G.pg.base.expedition_data_template[2079602] = {
+	name = "Enemy Flagship",
+	icon = "bossicon",
+	type = 99,
+	time_limit = 300,
+	exp_commander = 0,
+	add_icon = "",
+	ai_mov = 0,
+	exp = 0,
+	exp_commander_ratio = 0,
+	expose_speed = 15,
+	ai = 0,
+	dungeon_id = 2079602,
+	level = 120,
+	sink_limit = 1,
+	limit_type = 1,
+	SLG_destroy_FX = "",
+	icon_type = 1,
+	id = 2079602,
+	scale = 100,
+	guide_desc = "",
+	bgm = "battle-inthememory",
+	difficulty = 2,
+	effect_prefab = "",
+	plot_type = 0,
+	map_id = {
+		{
+			50235,
+			1
+		}
+	},
+	award_display = {},
+	objective_1 = {
+		1
+	},
+	objective_2 = {
+		2
+	},
+	objective_3 = {
+		5,
+		120
+	},
+	bufficon = {},
+	expose_line = {},
+	horizon_line = {
+		[1.0] = -50
+	},
+	aircraft_expose = {
+		15,
+		10
+	},
+	ship_expose = {
+		30,
+		10
+	}
+}
+
+
 _G.pg.base.expedition_data_template[5000020] = {
 	name = "Elite Fleet",
 	icon = "sairenquzhu",

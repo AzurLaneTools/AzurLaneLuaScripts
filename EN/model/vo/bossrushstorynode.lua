@@ -1,9 +1,11 @@
 slot0 = class("BossRushStoryNode", import("model.vo.BaseVO"))
 slot0.TRIGGER_TYPE = {
-	PT_GOT = 1,
 	HIDE_READED = 4,
+	ANY_STORY_READED = 6,
 	STORY_READED = 3,
-	SERIES_PASSED = 2
+	SERIES_PASSED = 2,
+	PT_GOT = 1,
+	STORY_BRANCH = 5
 }
 slot0.NODE_TYPE = {
 	BATTLE = 3,
@@ -47,29 +49,43 @@ end
 
 slot0.IsActive = function(slot0, slot1, slot2)
 	return underscore.all(slot0:GetTriggers(), function (slot0)
-		return switch(slot0.type, {
-			[uv0.TRIGGER_TYPE.PT_GOT] = function ()
-				return uv1.value <= uv0.data1
-			end,
-			[uv0.TRIGGER_TYPE.SERIES_PASSED] = function ()
-				return BossRushSeriesData.New({
-					id = uv0.value,
-					actId = uv1.id
-				}):IsUnlock(uv1)
-			end,
-			[uv0.TRIGGER_TYPE.STORY_READED] = function ()
+		return uv0:_IsActive(uv1, uv2, slot0)
+	end)
+end
+
+slot0._IsActive = function(slot0, slot1, slot2, slot3)
+	return switch(slot3.type, {
+		[uv0.TRIGGER_TYPE.PT_GOT] = function ()
+			return uv1.value <= uv0.data1
+		end,
+		[uv0.TRIGGER_TYPE.SERIES_PASSED] = function ()
+			return BossRushSeriesData.New({
+				id = uv0.value,
+				actId = uv1.id
+			}):IsUnlock(uv1)
+		end,
+		[uv0.TRIGGER_TYPE.STORY_READED] = function ()
+			return uv0.New({
+				id = uv1.value
+			}):IsReaded()
+		end,
+		[uv0.TRIGGER_TYPE.HIDE_READED] = function ()
+			return not uv0.New({
+				id = uv1.value
+			}):IsReaded()
+		end,
+		[uv0.TRIGGER_TYPE.STORY_BRANCH] = function ()
+			return uv0:IsActiveBranchType(uv1.id, uv2.value)
+		end,
+		[uv0.TRIGGER_TYPE.ANY_STORY_READED] = function ()
+			return underscore.any(uv0.value, function (slot0)
 				return uv0.New({
-					id = uv1.value
+					id = slot0
 				}):IsReaded()
-			end,
-			[uv0.TRIGGER_TYPE.HIDE_READED] = function ()
-				return not uv0.New({
-					id = uv1.value
-				}):IsReaded()
-			end
-		}, function ()
-			return false
-		end)
+			end)
+		end
+	}, function ()
+		return false
 	end)
 end
 
@@ -79,6 +95,49 @@ slot0.IsReaded = function(slot0)
 	else
 		return true
 	end
+end
+
+slot0.IsActiveBranchType = function(slot0, slot1, slot2)
+	slot4 = slot2[2]
+	slot5 = slot2[3]
+
+	if not uv0.New({
+		id = slot2[1]
+	}):IsReaded() then
+		return false
+	end
+
+	if underscore.any(slot5, function (slot0)
+		return not uv0.New({
+			id = slot0
+		}):IsReaded()
+	end) then
+		return true
+	end
+
+	return uv0.GetLocalBranchFlag(slot1, slot3) == 0 or slot7 == slot4
+end
+
+slot0.IsLockBranchType = function(slot0, slot1, slot2)
+	if underscore.all(slot0:GetTriggers(), function (slot0)
+		return slot0.type ~= uv0.TRIGGER_TYPE.STORY_BRANCH
+	end) then
+		return false
+	end
+
+	return underscore.all(slot3, function (slot0)
+		if slot0.type == uv0.TRIGGER_TYPE.STORY_BRANCH then
+			if not uv0.New({
+				id = slot0.value[1]
+			}):IsReaded() then
+				return false
+			end
+
+			return not uv0:IsActiveBranchType(uv1.id, slot0.value)
+		else
+			return uv2:_IsActive(uv1, uv3, slot0)
+		end
+	end)
 end
 
 slot0.GetType = function(slot0)
@@ -137,6 +196,19 @@ slot0.IsRecrew = function(slot0)
 	end
 
 	return PlayerPrefs.GetInt(slot2) > 0
+end
+
+slot0.GetBranchFlagKey = function(slot0, slot1)
+	return string.format("BossRushStoryNode_BranchSel_%s_%s_%s", getProxy(PlayerProxy):getRawData().id, slot0, slot1)
+end
+
+slot0.GetLocalBranchFlag = function(slot0, slot1)
+	return PlayerPrefs.GetInt(uv0.GetBranchFlagKey(slot0, slot1), 0)
+end
+
+slot0.SetLocalBranchFlag = function(slot0, slot1, slot2)
+	PlayerPrefs.SetInt(uv0.GetBranchFlagKey(slot0, slot1), slot2)
+	PlayerPrefs.Save()
 end
 
 return slot0

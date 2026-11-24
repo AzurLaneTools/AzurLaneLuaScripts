@@ -239,6 +239,7 @@ slot0.didEnter = function(slot0)
 	onButton(slot0, slot0.topItems:Find("adapt/stamp"), function ()
 		getProxy(TaskProxy):dealMingshiTouchFlag(2)
 	end, SFX_CONFIRM)
+	slot0:InitEasterEgg()
 	onButton(slot0, slot0.helpBtn, function ()
 		slot0 = nil
 
@@ -439,13 +440,18 @@ slot0.didEnter = function(slot0)
 	onToggle(slot0, slot0.materialToggle, function (slot0)
 		uv0.inMaterial = slot0
 
-		if slot0 and uv0.contextData.warp ~= StoreHouseConst.WARP_TO_MATERIAL then
-			uv0.contextData.warp = StoreHouseConst.WARP_TO_MATERIAL
+		if slot0 then
+			if uv0.contextData.warp ~= StoreHouseConst.WARP_TO_MATERIAL then
+				uv0.contextData.warp = StoreHouseConst.WARP_TO_MATERIAL
 
-			setText(uv0.tip, i18n("equipment_select_materials_tip"))
-			setActive(uv0.capacityTF.parent, false)
-			setActive(uv0.tip, true)
-			uv0:sortItems()
+				setText(uv0.tip, i18n("equipment_select_materials_tip"))
+				setActive(uv0.capacityTF.parent, false)
+				setActive(uv0.tip, true)
+				uv0:sortItems()
+				uv0:ShowEasterEgg()
+			end
+		else
+			uv0:HideEasterEgg()
 		end
 
 		setActive(uv0.helpBtn, not slot0)
@@ -1439,9 +1445,99 @@ slot0.SwitchEquipmentType = function(slot0, slot1)
 	slot0.searchBar:ClearInputText()
 end
 
+slot0.Scroll2Item = function(slot0, slot1, slot2)
+	if slot0.contextData.warp ~= StoreHouseConst.WARP_TO_MATERIAL or not slot0.itemRect or not slot0.itemRect.isStart then
+		return
+	end
+
+	slot3 = ipairs
+	slot4 = slot0.itemVOs or {}
+
+	for slot6, slot7 in slot3(slot4) do
+		if slot7.id == slot1 then
+			if math.abs(math.clamp(slot0.itemRect:HeadIndexToValue(slot6 - 1), 0, 1) - slot0.itemRect.value) < 0.001 then
+				return
+			end
+
+			if slot2 then
+				slot0.itemRect:ScrollTo(slot8, false)
+
+				break
+			end
+
+			slot11 = go(slot0.itemView)
+
+			LeanTween.cancel(slot11)
+
+			slot12 = LeanTween.value(slot11, slot9, slot8, math.clamp(math.abs(slot8 - slot9) * 1.5, 0.2, 0.8))
+			slot12 = slot12:setEase(LeanTweenType.easeInOutCirc)
+
+			slot12:setOnUpdate(System.Action_float(function (slot0)
+				uv0.itemRect:ScrollTo(slot0, false)
+			end))
+
+			break
+		end
+	end
+end
+
+slot0.InitEasterEgg = function(slot0)
+	if EasterEggTools.IsEnabled(EasterEggTools.GetActivity(), EasterEggConst.SCENE.StoreHouseScene) then
+		slot0.easterEggView = EasterEggView.New(findTF(slot0.topItems, "adapt/easterEggBtn"), slot0, EasterEggConst.SCENE.StoreHouseScene)
+		slot3 = nil
+		slot4 = slot0.easterEggView
+
+		slot4:SetEasterEggCallBack(function (slot0, slot1)
+			uv0 = slot0
+
+			slot1()
+		end, function (slot0)
+			slot2 = uv1
+
+			slot2:emit(BaseUI.ON_ACHIEVE, PlayerConst.addTranDrop(uv0.award_list), function ()
+				slot0 = pg.UIMgr.GetInstance()
+
+				slot0:LoadingOn(false)
+
+				slot0 = uv0
+
+				slot0:Scroll2Item(uv1.award_list[1].id, true)
+
+				slot0 = uv0.easterEggView
+
+				slot0:AddHideEasterEggTimer(1, function ()
+					pg.UIMgr.GetInstance():LoadingOff()
+					uv0()
+				end)
+			end)
+		end)
+	end
+end
+
+slot0.ShowEasterEgg = function(slot0)
+	if slot0.easterEggView then
+		slot0.easterEggView:ShowEasterEgg()
+	end
+end
+
+slot0.HideEasterEgg = function(slot0)
+	if slot0.easterEggView then
+		slot0.easterEggView:HideEasterEgg()
+	end
+end
+
+slot0.ExitEasterEgg = function(slot0)
+	if slot0.easterEggView then
+		slot0.easterEggView:willExit()
+	end
+
+	slot0.easterEggView = nil
+end
+
 slot0.willExit = function(slot0)
 	slot0:UnOverlayPanel(slot0.blurPanel, slot0._tf)
 	slot0:UnOverlayPanel(slot0.topItems, slot0._tf)
+	slot0:ExitEasterEgg()
 
 	if slot0.bulinTip then
 		slot0.bulinTip:Destroy()

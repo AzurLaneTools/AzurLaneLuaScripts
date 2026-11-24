@@ -40,6 +40,11 @@ pg.activity_series_enemy.all = {
 	6003,
 	6004,
 	6005,
+	7001,
+	7002,
+	7003,
+	7004,
+	7005,
 	1001001,
 	1001002,
 	1001003,
@@ -2739,6 +2744,333 @@ through which light shines.]],
 			{
 				"huali_2",
 				2
+			}
+		},
+		defeat_story = {},
+		defeat_story_count = {},
+		use_oil_limit = {
+			0,
+			0
+		},
+		ex_count = {
+			8000,
+			20,
+			0.2,
+			1000,
+			0.8
+		}
+	}
+	pg.base.activity_series_enemy[7001] = {
+		oil = 0,
+		name = "Student Dorms",
+		type = 1,
+		pre_chapter = 0,
+		chapter_name = "Easy",
+		pos_x = "0",
+		pos_y = "0",
+		count = 0,
+		ex_count = "",
+		additional_awards_display = "",
+		profiles = "The student dorms, located on the west side of campus. Here, the hidden dreams of youth quietly begin to blossom.",
+		collection_group_id = 104,
+		whether_singlefight = 0,
+		id = 7001,
+		limitation = {},
+		expedition_id = {
+			2079101
+		},
+		boss_icon = {
+			{
+				"beili_2",
+				1
+			}
+		},
+		pass_awards_display = {
+			{
+				8,
+				66133,
+				40
+			},
+			{
+				2,
+				200867,
+				0
+			},
+			{
+				2,
+				59001,
+				0
+			},
+			{
+				2,
+				54012,
+				0
+			}
+		},
+		defeat_story = {},
+		defeat_story_count = {},
+		use_oil_limit = {
+			0,
+			0
+		}
+	}
+	pg.base.activity_series_enemy[7002] = {
+		oil = 0,
+		name = "Airship Docks",
+		type = 1,
+		pre_chapter = 7001,
+		chapter_name = "Normal",
+		pos_x = "0",
+		pos_y = "0",
+		count = 0,
+		ex_count = "",
+		profiles = "An airship is quietly moored at the docks overlooking a sea of clouds. Let romance soar!",
+		collection_group_id = 105,
+		whether_singlefight = 1,
+		id = 7002,
+		limitation = {},
+		expedition_id = {
+			2079201,
+			2079202
+		},
+		boss_icon = {
+			{
+				"beili_2",
+				1
+			},
+			{
+				"yingxiong_2",
+				1
+			}
+		},
+		pass_awards_display = {
+			{
+				8,
+				66133,
+				140
+			},
+			{
+				2,
+				200868,
+				0
+			},
+			{
+				2,
+				59001,
+				0
+			},
+			{
+				2,
+				54017,
+				0
+			}
+		},
+		additional_awards_display = {
+			{
+				8,
+				66133,
+				25
+			},
+			{
+				1,
+				1,
+				0
+			}
+		},
+		defeat_story = {},
+		defeat_story_count = {},
+		use_oil_limit = {
+			0,
+			0
+		}
+	}
+	pg.base.activity_series_enemy[7003] = {
+		oil = 0,
+		name = "Academy Building",
+		type = 1,
+		pre_chapter = 7002,
+		chapter_name = "Hard",
+		pos_x = "0",
+		pos_y = "0",
+		count = 0,
+		ex_count = "",
+		profiles = "The academy's corridors are bathed in sunlight. Each classroom is filled with the memories of youth, brimming with laughter and excitement.",
+		collection_group_id = 106,
+		whether_singlefight = 1,
+		id = 7003,
+		limitation = {},
+		expedition_id = {
+			2079301,
+			2079302,
+			2079303
+		},
+		boss_icon = {
+			{
+				"maliyahuanghou",
+				5
+			},
+			{
+				"moluotuofu",
+				2
+			},
+			{
+				"xinuopu",
+				5
+			}
+		},
+		pass_awards_display = {
+			{
+				8,
+				66133,
+				360
+			},
+			{
+				2,
+				200869,
+				0
+			},
+			{
+				2,
+				59001,
+				0
+			},
+			{
+				2,
+				54017,
+				0
+			}
+		},
+		additional_awards_display = {
+			{
+				8,
+				66133,
+				60
+			},
+			{
+				1,
+				1,
+				0
+			}
+		},
+		defeat_story = {},
+		defeat_story_count = {},
+		use_oil_limit = {
+			25,
+			16
+		}
+	}
+	pg.base.activity_series_enemy[7004] = {
+		oil = 0,
+		name = "Celestial Observatory",
+		type = 2,
+		pre_chapter = 7003,
+		chapter_name = "S.P.",
+		pos_x = "0",
+		pos_y = "0",
+		count = 1,
+		ex_count = "",
+		additional_awards_display = "",
+		profiles = "An observatory used for astrological research. The sky is exceptionally clear tonight – have you picked your stargazing partner?",
+		collection_group_id = 107,
+		whether_singlefight = 0,
+		id = 7004,
+		limitation = {},
+		expedition_id = {
+			2079401,
+			2079402,
+			2079403,
+			2079404
+		},
+		boss_icon = {
+			{
+				"beili_2",
+				1
+			},
+			{
+				"yingxiong_2",
+				1
+			},
+			{
+				"maliyahuanghou",
+				5
+			},
+			{
+				"moluotuofu",
+				2
+			}
+		},
+		pass_awards_display = {
+			{
+				8,
+				66133,
+				800
+			},
+			{
+				2,
+				200870,
+				0
+			},
+			{
+				2,
+				59001,
+				0
+			},
+			{
+				2,
+				54016,
+				0
+			}
+		},
+		defeat_story = {},
+		defeat_story_count = {},
+		use_oil_limit = {
+			40,
+			16
+		}
+	}
+	pg.base.activity_series_enemy[7005] = {
+		oil = 0,
+		name = "Library",
+		type = 3,
+		pre_chapter = 7004,
+		chapter_name = "E.X.",
+		pos_x = "0",
+		pos_y = "0",
+		count = 0,
+		additional_awards_display = "",
+		profiles = "Though it appears to be an ordinary library at first glance, a repository of forbidden works is hidden below, awaiting the moment when this taboo knowledge is set free once more.",
+		pass_awards_display = "",
+		collection_group_id = 0,
+		whether_singlefight = 0,
+		id = 7005,
+		limitation = {},
+		expedition_id = {
+			2079501,
+			2079502,
+			2079503,
+			2079504,
+			2079505
+		},
+		boss_icon = {
+			{
+				"beili_2",
+				1
+			},
+			{
+				"yingxiong_2",
+				1
+			},
+			{
+				"maliyahuanghou",
+				5
+			},
+			{
+				"moluotuofu",
+				2
+			},
+			{
+				"xinuopu",
+				5
 			}
 		},
 		defeat_story = {},

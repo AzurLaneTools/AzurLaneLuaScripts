@@ -1,4 +1,4 @@
-slot0 = class("BossRushDALCollabScene", import("view.base.BaseUI"))
+slot0 = class("BossRushDALCollabScene", import("view.activity.BossRush.BossRushBaseScene"))
 
 slot0.getUIName = function(slot0)
 	return "BossRushDALCollabUI"

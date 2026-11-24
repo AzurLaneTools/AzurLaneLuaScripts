@@ -483,7 +483,10 @@ pg.ship_skin_words_extra.all = {
 	103120,
 	11800010,
 	11800020,
-	408060
+	408060,
+	702130,
+	705100,
+	705110
 }
 pg.base = pg.base or {}
 pg.base.ship_skin_words_extra = {}
@@ -33844,6 +33847,205 @@ end)()
 			{
 				1100,
 				"Recently, just hearing the sounds of the engine makes me remember the feeling of you sitting right there behind me... Ugh, if I keep thinking about it any longer, I'm seriously going to go crazy..."
+			}
+		}
+	}
+	pg.base.ship_skin_words_extra[702130] = {
+		feeling3 = "",
+		win_mvp = "",
+		upgrade = "",
+		expedition = "",
+		mission = "",
+		id = 702130,
+		skill = "",
+		unlock = "",
+		mail = "",
+		lose = "",
+		feeling4 = "",
+		feeling1 = "",
+		hp_warning = "",
+		main = "",
+		profile = "",
+		mission_complete = "",
+		feeling2 = "",
+		battle = "",
+		login = {
+			{
+				1100,
+				"Comrade Commander, here are some sweets. By the way, you were up quite late last night, weren't you? I know it helps you stay awake, but you can't drink coffee on an empty stomach. S-sorry, I ended up spending all my mutual aid points because I wanted to spend more time together. I'll be more mindful of the time next time, ahem!"
+			}
+		},
+		home = {
+			{
+				1100,
+				"Good work today, Comrade Commander. I'll have this finished in no time, just give me a minute... Yes, there's this private matter that I'd like your \"counsel\" for."
+			}
+		},
+		headtouch = {
+			{
+				1100,
+				"Is this a reward for my work? I'm not a child, you know? No, I didn't ask you to stop. Ah, your cuff is coming undone. Let me fix it for you."
+			}
+		},
+		detail = {
+			{
+				1100,
+				"Cheers! Oh, why are you sitting all the way there?! We're together, aren't we? Act more like it, would you?♪ There you go. You've gotta hold me tight so I don't slip out~♡"
+			}
+		},
+		main_extra = {
+			{
+				1100,
+				"Comrade Commander, I'd like to use my points to make a request. Could we go on a date tomorrow?|(I woke up this morning in Comrade Commander's quarters again. How did that even happen? Ahem, I don't really remember much, but I do feel incredibly refreshed.)|Comrade Commander, what are those marks on your neck? Why are you staring at me? I did that? Surely not... I would never do something so indecent..."
+			}
+		},
+		touch = {
+			{
+				1100,
+				"M-my skirt... Please, could you please hold it down a little?"
+			}
+		},
+		touch2 = {
+			{
+				1100,
+				"We're at work, you know... Please try to show some self-restraint... o-or I won't be able to control myself... *blush*"
+			}
+		},
+		feeling5 = {
+			{
+				1100,
+				"*gulp gulp* Phew! We've been together this long, but I still can't seem to speak my mind unless I have some drinks on me first... I do love you, though. I love you so much, in fact, that I can barely hold myself back from pouncing on you."
+			}
+		}
+	}
+	pg.base.ship_skin_words_extra[705100] = {
+		feeling3 = "",
+		win_mvp = "",
+		upgrade = "",
+		expedition = "",
+		home = "",
+		mission = "",
+		id = 705100,
+		skill = "",
+		unlock = "",
+		mail = "",
+		lose = "",
+		feeling4 = "",
+		feeling1 = "",
+		hp_warning = "",
+		main = "",
+		profile = "",
+		feeling2 = "",
+		battle = "",
+		login = {
+			{
+				1100,
+				"While you were away, Commander, I did not go over a single document. A secretary ship as lazy as that surely deserves the harshest of punishments, no? I've... been looking forward to this for sooo long..."
+			}
+		},
+		headtouch = {
+			{
+				1100,
+				"Headpats are for good girls. For a naughty brat like me, rough correction is needed..."
+			}
+		},
+		detail = {
+			{
+				1100,
+				"Haah... this blanket is filled with the Commander's smell... And this mug, which has been used so many times... Ahh, what a sinful secret pleasure, marking every item imbued with your fragrance with my own name... It's thrilling enough to send shivers down my spine~"
+			}
+		},
+		main_extra = {
+			{
+				1100,
+				"Even though I'm your secretary ship, I haven't done a lick of work today. Doesn't that mean you should pull me into an empty storage room and give me some \"correction\"?|If you keep spoiling me like this, I'll become a lazy, useless girl. Well... maybe becoming good for nothing except being your pet wouldn't be such a bad thing~|I've hidden away one of your documents, so if you want to meet that deadline of yours, you'd better get it out of me with some rough interrogation~ I'd be more than glad to fess up~"
+			}
+		},
+		touch = {
+			{
+				1100,
+				"Such a lukewarm greeting... You can always be a bit rougher with me, you know?"
+			}
+		},
+		mission_complete = {
+			{
+				1100,
+				"Commander... You're all done with work, aren't you? Then, why not come subject me to some of your \"special interrogation\"~?"
+			}
+		},
+		touch2 = {
+			{
+				1100,
+				"Ahhn... You'll have to do better than that... If you don't put more force into it, my body's not going to feel anything at all, you know... *blush*"
+			}
+		},
+		feeling5 = {
+			{
+				1100,
+				"Indulging in fantasies day-in and day-out using your furniture, clothes, fountain pens, and ordinary belongings... it's just not good enough anymore~ So, Commander, don't you think the \"owner\" of these things has an obligation to... step up~?"
+			}
+		}
+	}
+	pg.base.ship_skin_words_extra[705110] = {
+		feeling3 = "",
+		win_mvp = "",
+		upgrade = "",
+		expedition = "",
+		mission = "",
+		id = 705110,
+		skill = "",
+		unlock = "",
+		mail = "",
+		lose = "",
+		feeling4 = "",
+		feeling1 = "",
+		hp_warning = "",
+		main = "",
+		profile = "",
+		mission_complete = "",
+		feeling2 = "",
+		battle = "",
+		detail = "",
+		login = {
+			{
+				1100,
+				"Hello, Your Excellency. Won't you show me your smile today? ...Thank you. It puts me at ease."
+			}
+		},
+		home = {
+			{
+				1100,
+				"Take me along next time you go out. It's dangerous out there, and I must protect you and ensure your safety."
+			}
+		},
+		headtouch = {
+			{
+				1100,
+				"Your warm, loving feelings... Allow me to melt away in it."
+			}
+		},
+		main_extra = {
+			{
+				1100,
+				"I have been called to an important ceremony, and asked to bring my most prized possession... I'd like to get your advice on that. Would you join me tonight?|I left a bomb on your desk. Oh, don't worry, it's merely an art piece... But it will serve as a useful deterrent to keep those who would harm you away.|You wish to bury your face in my bosom? Come hither, then. I am always ready for you♥"
+			}
+		},
+		touch = {
+			{
+				1100,
+				"Phew. I fully believe in you now, so this isn't enough to startle me anymore♪"
+			}
+		},
+		touch2 = {
+			{
+				1100,
+				"Everything that I am is yours to do as you please..."
+			}
+		},
+		feeling5 = {
+			{
+				1100,
+				"Whenever I'm away from you, I feel a terrible chill that penetrates all the way to the bone, like I've been torn away from the sun... So please, pardon my whims. I need you, so no matter what stands in my way... I will never let go of your hand."
 			}
 		}
 	}

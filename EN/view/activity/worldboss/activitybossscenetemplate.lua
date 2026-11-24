@@ -75,6 +75,10 @@ slot0.init = function(slot0)
 		y = -1080
 	})
 	slot0:buildCommanderPanel()
+
+	slot0.chapterAutoDetailPanel = ChapterAutoDetailPanelTypeBoss.New(slot0._tf, slot0.event, slot0.contextData)
+
+	slot0.chapterAutoDetailPanel:RegisterView(slot0)
 end
 
 slot0.GetBonusWindow = function(slot0)
@@ -286,6 +290,12 @@ slot0.GetEXTicket = function(slot0)
 end
 
 slot0.ShowNormalFleet = function(slot0, slot1, slot2)
+	if getProxy(ChapterAutoProxy):GetCommissionDoingType() and slot3 ~= ChapterAutoProxy.TYPE.WORLD then
+		slot0:CheckChapterAutoOccupied(slot3)
+
+		return
+	end
+
 	if not slot0.contextData.actFleets[slot1] then
 		slot0.contextData.actFleets[slot1] = slot0:CreateNewFleet(slot1)
 	end
@@ -294,104 +304,116 @@ slot0.ShowNormalFleet = function(slot0, slot1, slot2)
 		slot0.contextData.actFleets[slot1 + 10] = slot0:CreateNewFleet(slot1 + 10)
 	end
 
-	slot3 = slot0.contextData.actFleets[slot1]
+	slot4 = slot0.contextData.actFleets[slot1]
 
-	if slot2 and #slot3.ships <= 0 then
-		for slot7 = #slot0.contextData.normalStageIDs, 1, -1 do
-			slot8 = slot0.contextData.actFleets[slot7]
+	if slot2 and #slot4.ships <= 0 then
+		for slot8 = #slot0.contextData.normalStageIDs, 1, -1 do
+			slot9 = slot0.contextData.actFleets[slot8]
 
-			if slot7 ~= slot1 and slot8 and slot8:isLegalToFight() == true then
-				slot3:updateShips(slot8.ships)
+			if slot8 ~= slot1 and slot9 and slot9:isLegalToFight() == true then
+				slot4:updateShips(slot9.ships)
 
 				break
 			end
 		end
 	end
 
-	slot4 = slot0:GetFleetEditPanel()
+	slot5 = slot0:GetFleetEditPanel()
 
-	slot4.buffer:SetSettings(1, 1, false)
-	slot4.buffer:SetFleets({
+	slot5.buffer:SetSettings(1, 1, false)
+	slot5.buffer:SetFleets({
 		slot0.contextData.actFleets[slot1],
 		slot0.contextData.actFleets[slot1 + 10]
 	})
 
-	slot5 = slot0.contextData.useOilLimit[slot1]
+	slot6 = slot0.contextData.useOilLimit[slot1]
 
 	if not slot0.contextData.activity:IsOilLimit(slot0.contextData.normalStageIDs[slot1]) then
-		slot5 = {
+		slot6 = {
 			0,
 			0
 		}
 	end
 
-	slot4.buffer:SetOilLimit(slot5)
+	slot5.buffer:SetOilLimit(slot6)
 
 	slot0.contextData.editFleet = slot1
 
-	slot4.buffer:UpdateView()
-	slot4.buffer:Show()
+	slot5.buffer:UpdateView()
+	slot5.buffer:Show()
 end
 
 slot0.ShowEXFleet = function(slot0)
+	if getProxy(ChapterAutoProxy):GetCommissionDoingType() and slot1 ~= ChapterAutoProxy.TYPE.WORLD then
+		slot0:CheckChapterAutoOccupied(slot1)
+
+		return
+	end
+
 	if not slot0.contextData.actFleets[#slot0.contextData.normalStageIDs + 1] then
-		slot0.contextData.actFleets[slot1] = slot0:CreateNewFleet(slot1)
+		slot0.contextData.actFleets[slot2] = slot0:CreateNewFleet(slot2)
 	end
 
-	if not slot0.contextData.actFleets[slot1 + 10] then
-		slot0.contextData.actFleets[slot1 + 10] = slot0:CreateNewFleet(slot1 + 10)
+	if not slot0.contextData.actFleets[slot2 + 10] then
+		slot0.contextData.actFleets[slot2 + 10] = slot0:CreateNewFleet(slot2 + 10)
 	end
 
-	slot2 = slot0:GetFleetEditPanel()
+	slot3 = slot0:GetFleetEditPanel()
 
-	slot2.buffer:SetSettings(1, 1, true)
-	slot2.buffer:SetFleets({
-		slot0.contextData.actFleets[slot1],
-		slot0.contextData.actFleets[slot1 + 10]
+	slot3.buffer:SetSettings(1, 1, true)
+	slot3.buffer:SetFleets({
+		slot0.contextData.actFleets[slot2],
+		slot0.contextData.actFleets[slot2 + 10]
 	})
 
-	slot3 = slot0.contextData.useOilLimit[slot1]
+	slot4 = slot0.contextData.useOilLimit[slot2]
 
 	if not slot0.contextData.activity:IsOilLimit(slot0.contextData.exStageID) then
-		slot3 = {
+		slot4 = {
 			0,
 			0
 		}
 	end
 
-	slot2.buffer:SetOilLimit(slot3)
+	slot3.buffer:SetOilLimit(slot4)
 
-	slot0.contextData.editFleet = slot1
+	slot0.contextData.editFleet = slot2
 
-	slot2.buffer:UpdateView()
-	slot2.buffer:Show()
+	slot3.buffer:UpdateView()
+	slot3.buffer:Show()
 end
 
 slot0.ShowSPFleet = function(slot0)
+	if getProxy(ChapterAutoProxy):GetCommissionDoingType() and slot1 ~= ChapterAutoProxy.TYPE.WORLD then
+		slot0:CheckChapterAutoOccupied(slot1)
+
+		return
+	end
+
 	if not slot0.contextData.actFleets[#slot0.contextData.normalStageIDs + 2] then
-		slot0.contextData.actFleets[slot1] = slot0:CreateNewFleet(slot1)
+		slot0.contextData.actFleets[slot2] = slot0:CreateNewFleet(slot2)
 	end
 
-	if not slot0.contextData.actFleets[slot1 + 10] then
-		slot0.contextData.actFleets[slot1 + 10] = slot0:CreateNewFleet(slot1 + 10)
+	if not slot0.contextData.actFleets[slot2 + 10] then
+		slot0.contextData.actFleets[slot2 + 10] = slot0:CreateNewFleet(slot2 + 10)
 	end
 
-	slot2 = slot0:GetFleetEditPanel()
+	slot3 = slot0:GetFleetEditPanel()
 
-	slot2.buffer:SetSettings(1, 1, false)
-	slot2.buffer:SetFleets({
-		slot0.contextData.actFleets[slot1],
-		slot0.contextData.actFleets[slot1 + 10]
+	slot3.buffer:SetSettings(1, 1, false)
+	slot3.buffer:SetFleets({
+		slot0.contextData.actFleets[slot2],
+		slot0.contextData.actFleets[slot2 + 10]
 	})
-	slot2.buffer:SetOilLimit({
+	slot3.buffer:SetOilLimit({
 		0,
 		0
 	})
 
-	slot0.contextData.editFleet = slot1
+	slot0.contextData.editFleet = slot2
 
-	slot2.buffer:UpdateView()
-	slot2.buffer:Show()
+	slot3.buffer:UpdateView()
+	slot3.buffer:Show()
 end
 
 slot0.commitEdit = function(slot0)
@@ -552,6 +574,65 @@ slot0.UpdateDropItems = function(slot0)
 	end
 end
 
+slot0.OnStartChapterAuto = function(slot0)
+	slot0:hideFleetEdit()
+end
+
+slot0.OnEndChapterAuto = function(slot0)
+	if slot0.chapterAutoDetailPanel:isShowing() then
+		slot0.chapterAutoDetailPanel:Hide()
+	end
+end
+
+slot0.OnAddChapterAutoTimeDone = function(slot0)
+	slot0:GetFleetEditPanel():RefreshChapterAutoPanel()
+end
+
+slot0.OnZeroHour = function(slot0)
+	slot0:GetFleetEditPanel():RefreshChapterAutoPanel()
+end
+
+slot0.CheckChapterAutoOccupied = function(slot0, slot1)
+	switch(slot1, {
+		[ChapterAutoProxy.TYPE.SLG] = function ()
+			slot2 = pg.chapter_template[getProxy(ChapterProxy):GetAutoChapterId()].map
+
+			pg.MsgboxMgr.GetInstance():ShowMsgBox({
+				content = i18n("auto_drop_is_activation", getProxy(ChapterAutoProxy):GetCommissionList()[1]:GetOccupiedName()),
+				onYes = function ()
+					pg.m02:sendNotification(GAME.GO_SCENE, SCENE.LEVEL, {
+						chapterId = uv0,
+						mapIdx = uv1
+					})
+				end,
+				yesText = i18n("auto_drop_is_activation_go"),
+				noText = i18n("auto_drop_is_activation_cancle")
+			})
+		end,
+		[ChapterAutoProxy.TYPE.BOSS] = function ()
+			uv0.chapterAutoDetailPanel:ExecuteAction("Enter", getProxy(ChapterAutoProxy):GetCommissionList()[1]:GetID())
+		end,
+		[ChapterAutoProxy.TYPE.RUSH] = function ()
+			slot3 = BossRushChapterRemasterHelper.GetRemasterByActivityId(pg.activity_series_enemy_auto[getProxy(ChapterAutoProxy):GetCommissionList()[1].id].link_id) ~= nil
+
+			pg.MsgboxMgr.GetInstance():ShowMsgBox({
+				content = i18n("auto_drop_is_activation", getProxy(ChapterAutoProxy):GetCommissionList()[1]:GetOccupiedName()),
+				onYes = function ()
+					if uv0 then
+						pg.m02:sendNotification(GAME.GO_SCENE, SCENE.BOSSRUSH_REMASTER, {
+							id = uv1
+						})
+					else
+						pg.m02:sendNotification(GAME.GO_SCENE, SCENE.BOSSRUSH_MAIN)
+					end
+				end,
+				yesText = i18n("auto_drop_is_activation_go"),
+				noText = i18n("auto_drop_is_activation_cancle")
+			})
+		end
+	})
+end
+
 slot0.onBackPressed = function(slot0)
 	if slot0.bonusWindow and slot0.bonusWindow:IsShowing() then
 		slot0.bonusWindow.buffer:Hide()
@@ -566,6 +647,12 @@ slot0.willExit = function(slot0)
 	slot0:DestroyBonusWindow()
 	slot0:DestroyFleetEditPanel()
 	slot0:destroyCommanderPanel()
+
+	if slot0.chapterAutoDetailPanel then
+		slot0.chapterAutoDetailPanel:Destroy()
+
+		slot0.chapterAutoDetailPanel = nil
+	end
 end
 
 return slot0

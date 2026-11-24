@@ -231,7 +231,7 @@ slot0.didEnter = function(slot0)
 
 				setText(slot12, "+" .. slot14 + slot3:getExp() - slot4:getExp())
 			elseif slot4.level == slot4:getMaxLevel() then
-				setText(slot12, "+" .. 0)
+				setText(slot12, "+" .. slot3:getExp() - slot4:getExp())
 			else
 				setText(slot12, "+" .. (slot4.expAdd or 0))
 			end

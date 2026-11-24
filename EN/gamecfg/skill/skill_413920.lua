@@ -1,10 +1,10 @@
 return {
 	uiEffect = "",
-	name = "驱逐-后勤-机动II",
+	name = "驱逐-后勤-机动I",
 	cd = 0,
 	picture = "0",
 	aniEffect = "",
-	desc = "驱逐-后勤-机动II",
+	desc = "驱逐-后勤-机动I",
 	painting = 1,
 	id = 413920,
 	effect_list = {

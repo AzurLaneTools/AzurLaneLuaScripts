@@ -17,10 +17,14 @@ slot0.GO_META_BOSS = "CommissionInfoMediator:GO_META_BOSS"
 slot0.GO_BATTLE = "CommissionInfoMediator.GO_BATTLE"
 slot0.ON_END_CHAPTER_AUTO = "CommissionInfoMediator.ON_END_CHAPTER_AUTO"
 slot0.GO_WORLD = "CommissionInfoMediator.GO_WORLD"
+slot0.GO_ACT_BOSS = "CommissionInfoMediator.GO_ACT_BOSS"
 
 slot0.register = function(slot0)
 	slot0.viewComponent:setPlayer(getProxy(PlayerProxy):getData())
-	slot0:bind(uv0.GO_WORLD, function (slot0, slot1, slot2)
+	slot0:bind(uv0.GO_ACT_BOSS, function (slot0)
+		uv0:sendNotification(GAME.GO_SCENE, SCENE.ACT_BOSS_BATTLE)
+	end)
+	slot0:bind(uv0.GO_WORLD, function (slot0)
 		uv0:sendNotification(GAME.GO_SCENE, SCENE.WORLD)
 	end)
 	slot0:bind(LevelMediator2.GET_CHAPTER_DROP_SHIP_LIST, function (slot0, slot1, slot2)
@@ -119,6 +123,7 @@ slot0.register = function(slot0)
 		uv0:sendNotification(GAME.GO_SCENE, SCENE.NAVALTACTICS)
 	end)
 	slot0:Notify()
+	getProxy(EventProxy):FlushIfDirty()
 end
 
 slot0.Notify = function(slot0)
@@ -156,7 +161,8 @@ slot0.listNotificationInterests = function(slot0)
 		GAME.FINISH_QUEUE_TECHNOLOGY_DONE,
 		GAME.START_CHAPTER_AUTO_DONE,
 		GAME.END_CHAPTER_AUTO_DONE,
-		GAME.ZERO_HOUR_OP_DONE
+		GAME.ZERO_HOUR_OP_DONE,
+		GAME.ON_RECONNECTION
 	}
 end
 
@@ -179,6 +185,8 @@ slot0.handleNotification = function(slot0, slot1)
 		slot4 = getProxy(EventProxy)
 
 		slot0.viewComponent:OnUpdateEventInfo()
+	elseif slot2 == GAME.ON_RECONNECTION then
+		getProxy(EventProxy):FlushIfDirty()
 	else
 		if slot2 == GAME.EVENT_SHOW_AWARDS then
 			slot4 = nil
@@ -310,21 +318,25 @@ slot0.HandleClassMaxLevel = function(slot0, slot1, slot2, slot3, slot4)
 end
 
 slot0.HandleChapterAutoDone = function(slot0, slot1)
+	slot2 = function()
+		uv0:addSubLayers(Context.New({
+			viewComponent = ChapterAutoTotalRewardLayer,
+			mediator = ChapterAutoTotalRewardMediator,
+			data = {
+				rewards = uv1.awards,
+				totalTimes = uv1.allCnt,
+				finishTimes = uv1.finishCnt,
+				proficiency = uv1.proficiency,
+				onClose = function ()
+					uv0.viewComponent:OnUpdateChapterAuto()
+				end
+			}
+		}), true)
+	end
+
 	switch(slot1.type, {
 		[ChapterAutoProxy.TYPE.SLG] = function ()
-			uv0:addSubLayers(Context.New({
-				viewComponent = ChapterAutoTotalRewardLayer,
-				mediator = ChapterAutoTotalRewardMediator,
-				data = {
-					rewards = uv1.awards,
-					totalTimes = uv1.allCnt,
-					finishTimes = uv1.finishCnt,
-					proficiency = uv1.proficiency,
-					onClose = function ()
-						uv0.viewComponent:OnUpdateChapterAuto()
-					end
-				}
-			}), true)
+			uv0()
 		end,
 		[ChapterAutoProxy.TYPE.WORLD] = function ()
 			slot1 = nowWorld():GetAtlas()
@@ -364,6 +376,12 @@ slot0.HandleChapterAutoDone = function(slot0, slot1)
 					end
 				}
 			}), true)
+		end,
+		[ChapterAutoProxy.TYPE.BOSS] = function ()
+			uv0()
+		end,
+		[ChapterAutoProxy.TYPE.RUSH] = function ()
+			uv0()
 		end
 	}, function ()
 		assert(false, "Unknown commission type: " .. uv0.type)

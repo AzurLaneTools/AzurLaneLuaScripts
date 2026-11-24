@@ -25,19 +25,31 @@ slot0.AddUsedBonus = function(slot0, slot1)
 end
 
 slot0.GetPassCounts = function(slot0)
-	return slot0.data2_list
+	return table.mergeArray(slot0.data2_list, slot0.data3_list, true)
 end
 
-slot0.AddPassSeries = function(slot0, slot1)
-	if slot0:HasPassSeries(slot1) then
-		return
-	end
+slot0.AddPassSeries = function(slot0, slot1, slot2)
+	if slot2 then
+		if table.contains(slot0.data2_list, slot1) then
+			return
+		end
 
-	table.insert(slot0:GetPassCounts(), slot1)
+		table.insert(slot0.data2_list, slot1)
+	else
+		if table.contains(slot0.data3_list, slot1) then
+			return
+		end
+
+		table.insert(slot0.data3_list, slot1)
+	end
 end
 
 slot0.HasPassSeries = function(slot0, slot1)
 	return table.contains(slot0:GetPassCounts(), slot1)
+end
+
+slot0.IsPassWithMulti = function(slot0, slot1)
+	return table.contains(slot0.data3_list, slot1)
 end
 
 slot0.GetActiveSeriesIds = function(slot0)

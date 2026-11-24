@@ -774,6 +774,7 @@ slot0.didEnter = function(slot0)
 		slot0.contextData.open_remaster = nil
 	end
 
+	slot0:InitEasterEgg()
 	slot0:ShowEntranceUI(slot0.contextData.entranceStatus)
 
 	if not slot0.contextData.entranceStatus then
@@ -936,6 +937,10 @@ slot0.ShowEntranceUI = function(slot0, slot1)
 
 		slot0.contextData.mapIdx = nil
 		slot0.contextData.map = nil
+
+		slot0:ShowEasterEgg()
+	else
+		slot0:HideEasterEgg()
 	end
 
 	slot0:PlayBGM()
@@ -3708,7 +3713,40 @@ slot0.DestroyChapterAutoDetailPanel = function(slot0)
 	end
 end
 
+slot0.InitEasterEgg = function(slot0)
+	if EasterEggTools.IsEnabled(EasterEggTools.GetActivity(), EasterEggConst.SCENE.LevelScene) then
+		slot0.easterEggView = EasterEggView.New(findTF(slot0.entranceLayer, "easterEggBtn"), slot0, EasterEggConst.SCENE.LevelScene)
+		slot3 = nil
+		slot4 = slot0.easterEggView
+
+		slot4:SetEasterEggCallBack(function (slot0, slot1)
+			slot1()
+		end, function (slot0)
+			slot0()
+		end)
+	end
+end
+
+slot0.ShowEasterEgg = function(slot0)
+	if slot0.easterEggView then
+		slot0.easterEggView:ShowEasterEgg()
+	end
+end
+
+slot0.HideEasterEgg = function(slot0)
+	if slot0.easterEggView then
+		slot0.easterEggView:HideEasterEgg()
+	end
+end
+
+slot0.ExitEasterEgg = function(slot0)
+	if slot0.easterEggView then
+		slot0.easterEggView:willExit()
+	end
+end
+
 slot0.willExit = function(slot0)
+	slot0:ExitEasterEgg()
 	slot0:ClearMapTransitions()
 	slot0.loader:Clear()
 

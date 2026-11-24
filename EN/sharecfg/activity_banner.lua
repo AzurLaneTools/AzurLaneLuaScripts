@@ -12,7 +12,6 @@ pg.activity_banner.all = {
 	7,
 	8,
 	9,
-	10,
 	90,
 	91,
 	95,
@@ -67,7 +66,6 @@ pg.activity_banner.get_id_list_by_type = {
 		7,
 		8,
 		9,
-		10,
 		1001,
 		1002,
 		1003,
@@ -131,17 +129,15 @@ pg.base.activity_banner = {}
 		id = 1,
 		pic = "temp1",
 		param = {
-			"scene core activity",
-			{
-				coreName = "BlackFriday2026CoreActivityUI"
-			}
+			"scene skinshop",
+			{}
 		},
 		time = {
 			{
 				{
 					2026,
 					11,
-					19
+					24
 				},
 				{
 					0,
@@ -168,15 +164,18 @@ pg.base.activity_banner = {}
 		id = 2,
 		pic = "temp2",
 		param = {
-			"scene skinshop",
-			{}
+			"scene get boat",
+			{
+				projectName = "new",
+				page = 1
+			}
 		},
 		time = {
 			{
 				{
 					2026,
 					11,
-					19
+					24
 				},
 				{
 					0,
@@ -203,17 +202,15 @@ pg.base.activity_banner = {}
 		id = 3,
 		pic = "temp3",
 		param = {
-			"scene charge",
-			{
-				wrap = 4
-			}
+			"scene skinshop",
+			{}
 		},
 		time = {
 			{
 				{
 					2026,
 					11,
-					19
+					24
 				},
 				{
 					0,
@@ -240,9 +237,9 @@ pg.base.activity_banner = {}
 		id = 4,
 		pic = "temp4",
 		param = {
-			"scene charge",
+			"scene core activity",
 			{
-				wrap = 2
+				coreName = "VeritasAcademyCoreActivityUI"
 			}
 		},
 		time = {
@@ -250,7 +247,7 @@ pg.base.activity_banner = {}
 				{
 					2026,
 					11,
-					19
+					24
 				},
 				{
 					0,
@@ -287,7 +284,7 @@ pg.base.activity_banner = {}
 				{
 					2026,
 					11,
-					19
+					24
 				},
 				{
 					0,
@@ -314,15 +311,14 @@ pg.base.activity_banner = {}
 		id = 6,
 		pic = "temp6",
 		param = {
-			"scene Cryptolalia",
-			{}
+			"scene court yard"
 		},
 		time = {
 			{
 				{
 					2026,
 					11,
-					19
+					24
 				},
 				{
 					0,
@@ -349,10 +345,9 @@ pg.base.activity_banner = {}
 		id = 7,
 		pic = "temp7",
 		param = {
-			"scene level",
+			"scene shop",
 			{
-				open_remaster = true,
-				isEX = true
+				warp = "shopstreet"
 			}
 		},
 		time = {
@@ -360,7 +355,7 @@ pg.base.activity_banner = {}
 				{
 					2026,
 					11,
-					19
+					24
 				},
 				{
 					0,
@@ -371,8 +366,8 @@ pg.base.activity_banner = {}
 			{
 				{
 					2026,
-					11,
-					25
+					12,
+					9
 				},
 				{
 					23,
@@ -387,15 +382,14 @@ pg.base.activity_banner = {}
 		id = 8,
 		pic = "temp8",
 		param = {
-			"scene skinshop",
-			{}
+			"crusing"
 		},
 		time = {
 			{
 				{
 					2026,
-					11,
-					19
+					12,
+					1
 				},
 				{
 					0,
@@ -422,9 +416,10 @@ pg.base.activity_banner = {}
 		id = 9,
 		pic = "temp9",
 		param = {
-			"scene core activity",
+			"scene level",
 			{
-				coreName = "TwoPointFiveCoreActivityUI"
+				open_remaster = true,
+				isEX = true
 			}
 		},
 		time = {
@@ -432,7 +427,7 @@ pg.base.activity_banner = {}
 				{
 					2026,
 					11,
-					12
+					19
 				},
 				{
 					0,
@@ -444,49 +439,12 @@ pg.base.activity_banner = {}
 				{
 					2026,
 					11,
-					26
+					24
 				},
 				{
-					23,
-					59,
-					59
-				}
-			}
-		}
-	}
-	pg.base.activity_banner[10] = {
-		type = 2,
-		id = 10,
-		pic = "temp10",
-		param = {
-			"scene charge",
-			{
-				wrap = 4
-			}
-		},
-		time = {
-			{
-				{
-					2026,
-					11,
-					12
-				},
-				{
-					0,
+					12,
 					0,
 					0
-				}
-			},
-			{
-				{
-					2026,
-					11,
-					25
-				},
-				{
-					23,
-					59,
-					59
 				}
 			}
 		}
@@ -522,7 +480,7 @@ pg.base.activity_banner = {}
 				{
 					2026,
 					11,
-					19
+					24
 				},
 				{
 					0,

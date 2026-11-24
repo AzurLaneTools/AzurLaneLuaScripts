@@ -1649,34 +1649,15 @@ slot0.ShowOfficialAccountsInfo = function(slot0, slot1)
 	setActive(slot0.rightOfficialAccountsListPanel, false)
 	setActive(slot0.rightOfficialAccountsInfoPanel, true)
 	slot0:CloseCommentPanel()
-
-	slot4 = slot0.rightOfficialAccountsInfoPanel
-
-	onButton(slot0, slot4:Find("topBg"), function ()
+	onButton(slot0, slot0.rightOfficialAccountsInfoPanel:Find("topBg"), function ()
 		uv0:ExitOfficialAccountsInfo()
 	end, SFX_PANEL)
-
-	slot3 = slot0.officialAccountsInfoItem
-
-	setScrollText(slot3:Find("title/Text"), HXSet.hxLan(slot1:getConfig("title")))
-
-	slot3 = slot0.officialAccountsInfoItem
-
-	setText(slot3:Find("content"), slot1:GetContent())
-
-	slot5 = slot0.officialAccountsInfoItem
-	slot5 = slot5:Find("Image/Image")
-
-	slot0:SetImageByUrl(slot1:GetImage(), slot5:GetComponent(typeof(RawImage)))
-
-	slot3 = slot0.officialAccountsInfoItem
-
-	setText(slot3:Find("bottom/time"), slot1:GetPushTime())
+	setScrollText(slot0.officialAccountsInfoItem:Find("title/Text"), HXSet.hxLan(slot1:getConfig("title")))
+	setText(slot0.officialAccountsInfoItem:Find("content"), slot1:GetContent())
+	slot0:SetImageByUrl(slot1:GetImage(), slot0.officialAccountsInfoItem:Find("Image/Image"):GetComponent(typeof(RawImage)))
+	setText(slot0.officialAccountsInfoItem:Find("bottom/time"), slot1:GetPushTime())
 	slot0:UpdateLinkBtn(slot1.id)
-
-	slot4 = slot0.officialAccountsInfoItem
-
-	onButton(slot0, slot4:Find("bottom/time/share"), function ()
+	onButton(slot0, slot0.officialAccountsInfoItem:Find("bottom/time/share"), function ()
 		uv0:emit(InstagramChatMediator.ON_OFFICIAL_ACCOUNTS_OPERATE, ActivityConst.INSTAGRAM_OP_SHARE, uv1.id)
 	end, SFX_PANEL)
 	slot0:UpdateCommentList(slot1.id)
@@ -1688,6 +1669,14 @@ slot0.ShowOfficialAccountsInfo = function(slot0, slot1)
 			uv0:CloseCommentPanel()
 		end
 	end, SFX_PANEL)
+
+	slot2 = slot1:getConfig("official_type") == InstagramConst.OFFICIAL_TYPE.STORY
+
+	if EasterEggTools.GetActivity() then
+		slot2 = slot2 and not EasterEggTools.IsEnabled(slot3, EasterEggConst.SCENE.InstagramMainUI)
+	end
+
+	setActive(slot0.officialAccountsInfoItem:Find("easterEgg"), slot2)
 end
 
 slot0.ExitOfficialAccountsInfo = function(slot0)

@@ -269,7 +269,8 @@ slot0.Flush = function(slot0, slot1)
 	if not slot1 then
 		slot0.labelShipNums.text = slot2.maxFleetNums - slot2:countBusyFleetNums() .. "/" .. slot2.maxFleetNums
 
-		if slot0.contextData.selectedEventId then
+		if slot0.contextData.selectedEventId and not slot0.restoringDetail then
+			slot0.restoringDetail = true
 			slot3 = pg.UIMgr.GetInstance()
 
 			slot3:LoadingOn()
@@ -308,6 +309,8 @@ slot0.Flush = function(slot0, slot1)
 					slot0()
 				end
 			}, function ()
+				uv0.restoringDetail = false
+
 				pg.UIMgr.GetInstance():LoadingOff()
 			end)
 		end

@@ -24,7 +24,11 @@ end
 slot0.UpdateMapItems = function(slot0)
 	uv0.super.UpdateMapItems(slot0)
 
-	if slot0.contextData.map:getConfig("cloud_suffix") == "" then
+	if not slot0.contextData.map then
+		return
+	end
+
+	if slot1:getConfig("cloud_suffix") == "" then
 		setActive(slot0.sceneParent.clouds, false)
 	else
 		setActive(slot0.sceneParent.clouds, true)

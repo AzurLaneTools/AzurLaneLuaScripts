@@ -6,12 +6,19 @@ slot0.InitUI = function(slot0)
 	slot0._stateBg = findTF(slot0._tf, "state_bg")
 	slot0._progressLockText = findTF(slot0._tf, "progress/lock/label")
 
-	setText(slot0._progressLockText, i18n("word_lock"))
+	if slot0._progressLockText then
+		setText(slot0._progressLockText, i18n("word_lock"))
+	end
 end
 
 slot0.UpdateMedal = function(slot0)
 	uv0.super.UpdateMedal(slot0)
-	SetActive(slot0._stateBg, slot0._medalGroup:GetMedalGroupState() ~= ActivityMedalGroup.STATE_ACTIVE)
+
+	slot1 = slot0._medalGroup:GetMedalGroupState()
+
+	if slot0._stateBg then
+		SetActive(slot0._stateBg, slot1 ~= ActivityMedalGroup.STATE_ACTIVE)
+	end
 end
 
 return slot0

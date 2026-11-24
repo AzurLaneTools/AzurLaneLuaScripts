@@ -134,7 +134,8 @@ pg.backyard_theme_template.all = {
 	142,
 	143,
 	144,
-	145
+	145,
+	146
 }
 pg.base = pg.base or {}
 pg.base.backyard_theme_template = {}
@@ -5764,6 +5765,48 @@ end)()
 			345105,
 			345106,
 			345107
+		}
+	}
+	pg.base.backyard_theme_template[146] = {
+		Cfg_1 = 5,
+		name = "Sizzling Summer Siesta",
+		desc = "Welcome to our sun-kissed vacation paradise. Spend a relaxing day surrounded by sparkling waves and joyous laughter!",
+		deblocking = 1,
+		new = 1,
+		hot = 1,
+		Cfg_2 = 8,
+		is_view = 1,
+		discount = 0,
+		order = 146,
+		id = 146,
+		icon = "ycthemeicon",
+		comfortable = 0,
+		discount_time = "",
+		ids = {
+			346001,
+			346002,
+			346101,
+			346102,
+			346103,
+			346104,
+			346105,
+			346106,
+			346107,
+			346108,
+			346109,
+			346110,
+			346111,
+			346112,
+			346113,
+			346114,
+			346115,
+			346116,
+			346117,
+			346118,
+			346119,
+			346120,
+			346121,
+			346122
 		}
 	}
 end)()

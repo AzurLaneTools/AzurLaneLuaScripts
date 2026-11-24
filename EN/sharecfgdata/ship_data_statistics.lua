@@ -340788,6 +340788,538 @@ _G.pg.base.ship_data_statistics[702074] = {
 }
 
 
+_G.pg.base.ship_data_statistics[702131] = {
+	nationality = 7,
+	oxy_max = 0,
+	type = 2,
+	name = "Molotov",
+	huntingrange_level = 0,
+	star = 3,
+	oxy_recovery = 0,
+	backyard_speed = "0.3",
+	rarity = 5,
+	ammo = 0,
+	id = 702131,
+	summon_offset = 0,
+	scale = 100,
+	raid_distance = 0,
+	english_name = "SN Molotov",
+	oxy_cost = 0,
+	skin_id = 702130,
+	attack_duration = 0,
+	oxy_recovery_surface = 0,
+	oxy_recovery_bench = 0,
+	armor_type = 1,
+	attrs = {
+		788,
+		33,
+		47,
+		78,
+		0,
+		69,
+		0,
+		54,
+		35,
+		36.7,
+		60,
+		37
+	},
+	attrs_growth = {
+		20195,
+		457,
+		643,
+		1594,
+		0,
+		478,
+		0,
+		798,
+		759,
+		0,
+		0,
+		442
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"air"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {
+		261
+	},
+	default_equip_list = {
+		101,
+		106,
+		104
+	},
+	depth_charge_list = {
+		147
+	},
+	base_list = {
+		1,
+		1,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		0,
+		0
+	},
+	equipment_proficiency = {
+		1.2,
+		1.35,
+		1.1,
+		0.3
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"Northern Union-CL"
+	},
+	gift_dislike = {
+		180004,
+		180006
+	}
+}
+
+
+_G.pg.base.ship_data_statistics[702132] = {
+	nationality = 7,
+	oxy_max = 0,
+	type = 2,
+	name = "Molotov",
+	huntingrange_level = 0,
+	star = 4,
+	oxy_recovery = 0,
+	backyard_speed = "0.3",
+	rarity = 5,
+	ammo = 0,
+	id = 702132,
+	summon_offset = 0,
+	scale = 100,
+	raid_distance = 0,
+	english_name = "SN Molotov",
+	oxy_cost = 0,
+	skin_id = 702130,
+	attack_duration = 0,
+	oxy_recovery_surface = 0,
+	oxy_recovery_bench = 0,
+	armor_type = 1,
+	attrs = {
+		980,
+		41,
+		59,
+		97,
+		0,
+		69,
+		0,
+		54,
+		35,
+		36.7,
+		60,
+		46
+	},
+	attrs_growth = {
+		20195,
+		457,
+		643,
+		1594,
+		0,
+		478,
+		0,
+		798,
+		759,
+		0,
+		0,
+		442
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"air"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {
+		262
+	},
+	default_equip_list = {
+		101,
+		106,
+		104
+	},
+	depth_charge_list = {
+		147
+	},
+	base_list = {
+		1,
+		1,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		0,
+		0
+	},
+	equipment_proficiency = {
+		1.25,
+		1.35,
+		1.1,
+		0.3
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"Northern Union-CL"
+	},
+	gift_dislike = {
+		180004,
+		180006
+	}
+}
+
+
+_G.pg.base.ship_data_statistics[702133] = {
+	nationality = 7,
+	oxy_max = 0,
+	type = 2,
+	name = "Molotov",
+	huntingrange_level = 0,
+	star = 5,
+	oxy_recovery = 0,
+	backyard_speed = "0.3",
+	rarity = 5,
+	ammo = 0,
+	id = 702133,
+	summon_offset = 0,
+	scale = 100,
+	raid_distance = 0,
+	english_name = "SN Molotov",
+	oxy_cost = 0,
+	skin_id = 702130,
+	attack_duration = 0,
+	oxy_recovery_surface = 0,
+	oxy_recovery_bench = 0,
+	armor_type = 1,
+	attrs = {
+		1365,
+		57,
+		82,
+		135,
+		0,
+		69,
+		0,
+		54,
+		35,
+		36.7,
+		60,
+		65
+	},
+	attrs_growth = {
+		20195,
+		457,
+		643,
+		1594,
+		0,
+		478,
+		0,
+		798,
+		759,
+		0,
+		0,
+		442
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"air"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {
+		263
+	},
+	default_equip_list = {
+		101,
+		106,
+		104
+	},
+	depth_charge_list = {
+		147
+	},
+	base_list = {
+		1,
+		2,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		1,
+		0
+	},
+	equipment_proficiency = {
+		1.35,
+		1.35,
+		1.1,
+		0.3
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"Northern Union-CL"
+	},
+	gift_dislike = {
+		180004,
+		180006
+	}
+}
+
+
+_G.pg.base.ship_data_statistics[702134] = {
+	nationality = 7,
+	oxy_max = 0,
+	type = 2,
+	name = "Molotov",
+	huntingrange_level = 0,
+	star = 6,
+	oxy_recovery = 0,
+	backyard_speed = "0.3",
+	rarity = 5,
+	ammo = 0,
+	id = 702134,
+	summon_offset = 0,
+	scale = 100,
+	raid_distance = 0,
+	english_name = "SN Molotov",
+	oxy_cost = 0,
+	skin_id = 702130,
+	attack_duration = 0,
+	oxy_recovery_surface = 0,
+	oxy_recovery_bench = 0,
+	armor_type = 1,
+	attrs = {
+		1942,
+		82,
+		116,
+		192,
+		0,
+		69,
+		0,
+		54,
+		35,
+		36.7,
+		60,
+		93
+	},
+	attrs_growth = {
+		20195,
+		457,
+		643,
+		1594,
+		0,
+		478,
+		0,
+		798,
+		759,
+		0,
+		0,
+		442
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"air"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {
+		264
+	},
+	default_equip_list = {
+		101,
+		106,
+		104
+	},
+	depth_charge_list = {
+		147
+	},
+	base_list = {
+		1,
+		2,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		1,
+		0
+	},
+	equipment_proficiency = {
+		1.5,
+		1.35,
+		1.1,
+		0.3
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"Northern Union-CL"
+	},
+	gift_dislike = {
+		180004,
+		180006
+	}
+}
+
+
 _G.pg.base.ship_data_statistics[702081] = {
 	nationality = 7,
 	oxy_max = 0,
@@ -348281,6 +348813,1050 @@ _G.pg.base.ship_data_statistics[705094] = {
 	},
 	gift_dislike = {
 		180004,
+		180009
+	}
+}
+
+
+_G.pg.base.ship_data_statistics[705101] = {
+	nationality = 7,
+	oxy_max = 0,
+	type = 5,
+	name = "Sinop",
+	huntingrange_level = 0,
+	star = 3,
+	oxy_recovery = 0,
+	backyard_speed = "0.3",
+	rarity = 5,
+	ammo = 0,
+	id = 705101,
+	summon_offset = 0,
+	scale = 100,
+	raid_distance = 0,
+	english_name = "SN Sinop",
+	oxy_cost = 0,
+	skin_id = 705100,
+	attack_duration = 0,
+	oxy_recovery_surface = 0,
+	oxy_recovery_bench = 0,
+	armor_type = 3,
+	attrs = {
+		1494,
+		80,
+		0,
+		42,
+		0,
+		54,
+		0,
+		23,
+		7,
+		27,
+		29,
+		0
+	},
+	attrs_growth = {
+		42563,
+		995,
+		0,
+		916,
+		0,
+		378,
+		0,
+		346,
+		189,
+		0,
+		0,
+		0
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"torpedo",
+		"air",
+		"antisub"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {},
+	default_equip_list = {
+		103,
+		101,
+		104
+	},
+	depth_charge_list = {},
+	base_list = {
+		1,
+		1,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		0,
+		0
+	},
+	equipment_proficiency = {
+		1.1,
+		2,
+		1
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"Northern Union-BB"
+	},
+	gift_dislike = {
+		180003,
+		180008
+	}
+}
+
+
+_G.pg.base.ship_data_statistics[705102] = {
+	nationality = 7,
+	oxy_max = 0,
+	type = 5,
+	name = "Sinop",
+	huntingrange_level = 0,
+	star = 4,
+	oxy_recovery = 0,
+	backyard_speed = "0.3",
+	rarity = 5,
+	ammo = 0,
+	id = 705102,
+	summon_offset = 0,
+	scale = 100,
+	raid_distance = 0,
+	english_name = "SN Sinop",
+	oxy_cost = 0,
+	skin_id = 705100,
+	attack_duration = 0,
+	oxy_recovery_surface = 0,
+	oxy_recovery_bench = 0,
+	armor_type = 3,
+	attrs = {
+		1858,
+		100,
+		0,
+		52,
+		0,
+		54,
+		0,
+		23,
+		7,
+		27,
+		29,
+		0
+	},
+	attrs_growth = {
+		42563,
+		995,
+		0,
+		916,
+		0,
+		378,
+		0,
+		346,
+		189,
+		0,
+		0,
+		0
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"torpedo",
+		"air",
+		"antisub"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {},
+	default_equip_list = {
+		103,
+		101,
+		104
+	},
+	depth_charge_list = {},
+	base_list = {
+		1,
+		1,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		0,
+		0
+	},
+	equipment_proficiency = {
+		1.15,
+		2,
+		1
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"Northern Union-BB"
+	},
+	gift_dislike = {
+		180003,
+		180008
+	}
+}
+
+
+_G.pg.base.ship_data_statistics[705103] = {
+	nationality = 7,
+	oxy_max = 0,
+	type = 5,
+	name = "Sinop",
+	huntingrange_level = 0,
+	star = 5,
+	oxy_recovery = 0,
+	backyard_speed = "0.3",
+	rarity = 5,
+	ammo = 0,
+	id = 705103,
+	summon_offset = 0,
+	scale = 100,
+	raid_distance = 0,
+	english_name = "SN Sinop",
+	oxy_cost = 0,
+	skin_id = 705100,
+	attack_duration = 0,
+	oxy_recovery_surface = 0,
+	oxy_recovery_bench = 0,
+	armor_type = 3,
+	attrs = {
+		2587,
+		140,
+		0,
+		73,
+		0,
+		54,
+		0,
+		23,
+		7,
+		27,
+		29,
+		0
+	},
+	attrs_growth = {
+		42563,
+		995,
+		0,
+		916,
+		0,
+		378,
+		0,
+		346,
+		189,
+		0,
+		0,
+		0
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"torpedo",
+		"air",
+		"antisub"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {},
+	default_equip_list = {
+		103,
+		101,
+		104
+	},
+	depth_charge_list = {},
+	base_list = {
+		1,
+		3,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		0,
+		0
+	},
+	equipment_proficiency = {
+		1.25,
+		2,
+		1
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"Northern Union-BB"
+	},
+	gift_dislike = {
+		180003,
+		180008
+	}
+}
+
+
+_G.pg.base.ship_data_statistics[705104] = {
+	nationality = 7,
+	oxy_max = 0,
+	type = 5,
+	name = "Sinop",
+	huntingrange_level = 0,
+	star = 6,
+	oxy_recovery = 0,
+	backyard_speed = "0.3",
+	rarity = 5,
+	ammo = 0,
+	id = 705104,
+	summon_offset = 0,
+	scale = 100,
+	raid_distance = 0,
+	english_name = "SN Sinop",
+	oxy_cost = 0,
+	skin_id = 705100,
+	attack_duration = 0,
+	oxy_recovery_surface = 0,
+	oxy_recovery_bench = 0,
+	armor_type = 3,
+	attrs = {
+		3680,
+		199,
+		0,
+		104,
+		0,
+		54,
+		0,
+		23,
+		7,
+		27,
+		29,
+		0
+	},
+	attrs_growth = {
+		42563,
+		995,
+		0,
+		916,
+		0,
+		378,
+		0,
+		346,
+		189,
+		0,
+		0,
+		0
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"torpedo",
+		"air",
+		"antisub"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {},
+	default_equip_list = {
+		103,
+		101,
+		104
+	},
+	depth_charge_list = {},
+	base_list = {
+		1,
+		3,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		0,
+		0
+	},
+	equipment_proficiency = {
+		1.4,
+		2,
+		1
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"Northern Union-BB"
+	},
+	gift_dislike = {
+		180003,
+		180008
+	}
+}
+
+
+_G.pg.base.ship_data_statistics[705111] = {
+	nationality = 7,
+	oxy_max = 0,
+	type = 5,
+	name = "Imperatritsa Mariya",
+	huntingrange_level = 0,
+	star = 2,
+	oxy_recovery = 0,
+	backyard_speed = "0.3",
+	rarity = 4,
+	ammo = 0,
+	id = 705111,
+	summon_offset = 0,
+	scale = 100,
+	raid_distance = 0,
+	english_name = "SN Empress Maria",
+	oxy_cost = 0,
+	skin_id = 705110,
+	attack_duration = 0,
+	oxy_recovery_surface = 0,
+	oxy_recovery_bench = 0,
+	armor_type = 3,
+	attrs = {
+		1101,
+		64,
+		0,
+		44,
+		0,
+		56,
+		0,
+		22,
+		4,
+		21,
+		30,
+		0
+	},
+	attrs_growth = {
+		29784,
+		838,
+		0,
+		955,
+		0,
+		391,
+		0,
+		354,
+		165,
+		0,
+		0,
+		0
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"torpedo",
+		"air",
+		"antisub"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {},
+	default_equip_list = {
+		103,
+		101,
+		104
+	},
+	depth_charge_list = {},
+	base_list = {
+		1,
+		1,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		0,
+		0
+	},
+	equipment_proficiency = {
+		1,
+		2,
+		1
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"Empress Maria",
+		"Northern Union-BB"
+	},
+	gift_dislike = {
+		180005,
+		180009
+	}
+}
+
+
+_G.pg.base.ship_data_statistics[705112] = {
+	nationality = 7,
+	oxy_max = 0,
+	type = 5,
+	name = "Imperatritsa Mariya",
+	huntingrange_level = 0,
+	star = 3,
+	oxy_recovery = 0,
+	backyard_speed = "0.3",
+	rarity = 4,
+	ammo = 0,
+	id = 705112,
+	summon_offset = 0,
+	scale = 100,
+	raid_distance = 0,
+	english_name = "SN Empress Maria",
+	oxy_cost = 0,
+	skin_id = 705110,
+	attack_duration = 0,
+	oxy_recovery_surface = 0,
+	oxy_recovery_bench = 0,
+	armor_type = 3,
+	attrs = {
+		1370,
+		80,
+		0,
+		55,
+		0,
+		56,
+		0,
+		22,
+		4,
+		21,
+		30,
+		0
+	},
+	attrs_growth = {
+		29784,
+		838,
+		0,
+		955,
+		0,
+		391,
+		0,
+		354,
+		165,
+		0,
+		0,
+		0
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"torpedo",
+		"air",
+		"antisub"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {},
+	default_equip_list = {
+		103,
+		101,
+		104
+	},
+	depth_charge_list = {},
+	base_list = {
+		1,
+		1,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		0,
+		0
+	},
+	equipment_proficiency = {
+		1.05,
+		2,
+		1
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"Empress Maria",
+		"Northern Union-BB"
+	},
+	gift_dislike = {
+		180005,
+		180009
+	}
+}
+
+
+_G.pg.base.ship_data_statistics[705113] = {
+	nationality = 7,
+	oxy_max = 0,
+	type = 5,
+	name = "Imperatritsa Mariya",
+	huntingrange_level = 0,
+	star = 4,
+	oxy_recovery = 0,
+	backyard_speed = "0.3",
+	rarity = 4,
+	ammo = 0,
+	id = 705113,
+	summon_offset = 0,
+	scale = 100,
+	raid_distance = 0,
+	english_name = "SN Empress Maria",
+	oxy_cost = 0,
+	skin_id = 705110,
+	attack_duration = 0,
+	oxy_recovery_surface = 0,
+	oxy_recovery_bench = 0,
+	armor_type = 3,
+	attrs = {
+		1907,
+		112,
+		0,
+		76,
+		0,
+		56,
+		0,
+		22,
+		4,
+		21,
+		30,
+		0
+	},
+	attrs_growth = {
+		29784,
+		838,
+		0,
+		955,
+		0,
+		391,
+		0,
+		354,
+		165,
+		0,
+		0,
+		0
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"torpedo",
+		"air",
+		"antisub"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {},
+	default_equip_list = {
+		103,
+		101,
+		104
+	},
+	depth_charge_list = {},
+	base_list = {
+		1,
+		3,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		0,
+		0
+	},
+	equipment_proficiency = {
+		1.15,
+		2,
+		1
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"Empress Maria",
+		"Northern Union-BB"
+	},
+	gift_dislike = {
+		180005,
+		180009
+	}
+}
+
+
+_G.pg.base.ship_data_statistics[705114] = {
+	nationality = 7,
+	oxy_max = 0,
+	type = 5,
+	name = "Imperatritsa Mariya",
+	huntingrange_level = 0,
+	star = 5,
+	oxy_recovery = 0,
+	backyard_speed = "0.3",
+	rarity = 4,
+	ammo = 0,
+	id = 705114,
+	summon_offset = 0,
+	scale = 100,
+	raid_distance = 0,
+	english_name = "SN Empress Maria",
+	oxy_cost = 0,
+	skin_id = 705110,
+	attack_duration = 0,
+	oxy_recovery_surface = 0,
+	oxy_recovery_bench = 0,
+	armor_type = 3,
+	attrs = {
+		2712,
+		159,
+		0,
+		108,
+		0,
+		56,
+		0,
+		22,
+		4,
+		21,
+		30,
+		0
+	},
+	attrs_growth = {
+		29784,
+		838,
+		0,
+		955,
+		0,
+		391,
+		0,
+		354,
+		165,
+		0,
+		0,
+		0
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"torpedo",
+		"air",
+		"antisub"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {},
+	default_equip_list = {
+		103,
+		101,
+		104
+	},
+	depth_charge_list = {},
+	base_list = {
+		1,
+		3,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		0,
+		0
+	},
+	equipment_proficiency = {
+		1.3,
+		2,
+		1
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"Empress Maria",
+		"Northern Union-BB"
+	},
+	gift_dislike = {
+		180005,
 		180009
 	}
 }
@@ -457938,6 +459514,526 @@ _G.pg.base.ship_data_statistics[9701134] = {
 	gift_dislike = {
 		180004,
 		180006
+	}
+}
+
+
+_G.pg.base.ship_data_statistics[9701141] = {
+	nationality = 97,
+	oxy_max = 0,
+	type = 1,
+	name = "Kersaint META",
+	huntingrange_level = 0,
+	star = 2,
+	oxy_recovery = 0,
+	backyard_speed = "0.3",
+	rarity = 4,
+	ammo = 0,
+	id = 9701141,
+	summon_offset = 0,
+	scale = 100,
+	raid_distance = 0,
+	english_name = "Soobrazitelny.META",
+	oxy_cost = 0,
+	skin_id = 9701140,
+	attack_duration = 0,
+	oxy_recovery_surface = 0,
+	oxy_recovery_bench = 0,
+	armor_type = 1,
+	attrs = {
+		309,
+		27,
+		56,
+		30,
+		0,
+		77,
+		0,
+		58,
+		62,
+		43,
+		44,
+		47
+	},
+	attrs_growth = {
+		6264,
+		337,
+		747,
+		411,
+		0,
+		534,
+		0,
+		787,
+		952,
+		0,
+		0,
+		632
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"air"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {},
+	default_equip_list = {
+		100,
+		106,
+		104
+	},
+	depth_charge_list = {
+		141
+	},
+	base_list = {
+		1,
+		1,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		0,
+		0
+	},
+	equipment_proficiency = {
+		1.2,
+		1.35,
+		0.7
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"KersaintMETA"
+	},
+	gift_dislike = {
+		180003,
+		180009
+	}
+}
+
+
+_G.pg.base.ship_data_statistics[9701142] = {
+	nationality = 97,
+	oxy_max = 0,
+	type = 1,
+	name = "Kersaint META",
+	huntingrange_level = 0,
+	star = 3,
+	oxy_recovery = 0,
+	backyard_speed = "0.3",
+	rarity = 4,
+	ammo = 0,
+	id = 9701142,
+	summon_offset = 0,
+	scale = 100,
+	raid_distance = 0,
+	english_name = "Soobrazitelny.META",
+	oxy_cost = 0,
+	skin_id = 9701140,
+	attack_duration = 0,
+	oxy_recovery_surface = 0,
+	oxy_recovery_bench = 0,
+	armor_type = 1,
+	attrs = {
+		384,
+		34,
+		70,
+		37,
+		0,
+		77,
+		0,
+		58,
+		62,
+		43,
+		44,
+		59
+	},
+	attrs_growth = {
+		6264,
+		337,
+		747,
+		411,
+		0,
+		534,
+		0,
+		787,
+		952,
+		0,
+		0,
+		632
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"air"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {},
+	default_equip_list = {
+		100,
+		106,
+		104
+	},
+	depth_charge_list = {
+		141
+	},
+	base_list = {
+		1,
+		1,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		0,
+		0
+	},
+	equipment_proficiency = {
+		1.25,
+		1.35,
+		0.7
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"KersaintMETA"
+	},
+	gift_dislike = {
+		180003,
+		180009
+	}
+}
+
+
+_G.pg.base.ship_data_statistics[9701143] = {
+	nationality = 97,
+	oxy_max = 0,
+	type = 1,
+	name = "Kersaint META",
+	huntingrange_level = 0,
+	star = 4,
+	oxy_recovery = 0,
+	backyard_speed = "0.3",
+	rarity = 4,
+	ammo = 0,
+	id = 9701143,
+	summon_offset = 0,
+	scale = 100,
+	raid_distance = 0,
+	english_name = "Soobrazitelny.META",
+	oxy_cost = 0,
+	skin_id = 9701140,
+	attack_duration = 0,
+	oxy_recovery_surface = 0,
+	oxy_recovery_bench = 0,
+	armor_type = 1,
+	attrs = {
+		535,
+		47,
+		97,
+		52,
+		0,
+		77,
+		0,
+		58,
+		62,
+		43,
+		44,
+		82
+	},
+	attrs_growth = {
+		6264,
+		337,
+		747,
+		411,
+		0,
+		534,
+		0,
+		787,
+		952,
+		0,
+		0,
+		632
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"air"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {},
+	default_equip_list = {
+		100,
+		106,
+		104
+	},
+	depth_charge_list = {
+		141
+	},
+	base_list = {
+		1,
+		2,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		1,
+		0
+	},
+	equipment_proficiency = {
+		1.35,
+		1.35,
+		0.7
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"KersaintMETA"
+	},
+	gift_dislike = {
+		180003,
+		180009
+	}
+}
+
+
+_G.pg.base.ship_data_statistics[9701144] = {
+	nationality = 97,
+	oxy_max = 0,
+	type = 1,
+	name = "Kersaint META",
+	huntingrange_level = 0,
+	star = 5,
+	oxy_recovery = 0,
+	backyard_speed = "0.3",
+	rarity = 4,
+	ammo = 0,
+	id = 9701144,
+	summon_offset = 0,
+	scale = 100,
+	raid_distance = 0,
+	english_name = "Soobrazitelny.META",
+	oxy_cost = 0,
+	skin_id = 9701140,
+	attack_duration = 0,
+	oxy_recovery_surface = 0,
+	oxy_recovery_bench = 0,
+	armor_type = 1,
+	attrs = {
+		761,
+		67,
+		139,
+		74,
+		0,
+		77,
+		0,
+		58,
+		62,
+		43,
+		44,
+		117
+	},
+	attrs_growth = {
+		6264,
+		337,
+		747,
+		411,
+		0,
+		534,
+		0,
+		787,
+		952,
+		0,
+		0,
+		632
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"air"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {},
+	default_equip_list = {
+		100,
+		106,
+		104
+	},
+	depth_charge_list = {
+		141
+	},
+	base_list = {
+		1,
+		2,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		1,
+		0
+	},
+	equipment_proficiency = {
+		1.4,
+		1.4,
+		0.75
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"KersaintMETA"
+	},
+	gift_dislike = {
+		180003,
+		180009
 	}
 }
 

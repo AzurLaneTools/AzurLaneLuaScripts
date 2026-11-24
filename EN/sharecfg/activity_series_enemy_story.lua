@@ -180,7 +180,24 @@ pg.activity_series_enemy_story.all = {
 	184,
 	185,
 	186,
-	187
+	187,
+	188,
+	189,
+	190,
+	191,
+	192,
+	193,
+	194,
+	195,
+	196,
+	197,
+	198,
+	199,
+	200,
+	201,
+	202,
+	203,
+	204
 }
 pg.base = pg.base or {}
 pg.base.activity_series_enemy_story = {}
@@ -4538,6 +4555,468 @@ end)()
 		},
 		trigger_value = {
 			186
+		}
+	}
+	pg.base.activity_series_enemy_story[188] = {
+		name = "EPS-1 Your Romantic Adventure Starts Here!",
+		story = "ZHENLIXUEYUANDEZHUANXIAOSHENG1",
+		type = 1,
+		change_prefab = "",
+		pos_x = "",
+		pos_y = "",
+		change_bgm = "story-richang-afterschool",
+		params = "",
+		icon = "",
+		label_key = "",
+		en_name = "",
+		change_background = "star_level_bg_156",
+		line = 0,
+		pass_awards = 0,
+		id = 188,
+		trigger_type = {
+			1
+		},
+		trigger_value = {
+			0
+		}
+	}
+	pg.base.activity_series_enemy_story[189] = {
+		name = "EPS-2 Enrollment Day",
+		story = "ZHENLIXUEYUANDEZHUANXIAOSHENG2",
+		type = 1,
+		change_prefab = "",
+		pos_x = "",
+		pos_y = "",
+		change_bgm = "story-richang-afterschool",
+		params = "",
+		icon = "",
+		label_key = "",
+		en_name = "",
+		change_background = "bg_zhenlixueyuan_1",
+		line = 0,
+		pass_awards = 0,
+		id = 189,
+		trigger_type = {
+			3
+		},
+		trigger_value = {
+			188
+		}
+	}
+	pg.base.activity_series_enemy_story[190] = {
+		name = "EPS-3 The Assistant",
+		story = "ZHENLIXUEYUANDEZHUANXIAOSHENG3",
+		type = 1,
+		change_prefab = "",
+		pos_x = "",
+		pos_y = "",
+		change_bgm = "story-richang-afterschool",
+		params = "",
+		icon = "",
+		label_key = "",
+		en_name = "",
+		change_background = "star_level_bg_381",
+		line = 0,
+		pass_awards = 0,
+		id = 190,
+		trigger_type = {
+			3
+		},
+		trigger_value = {
+			189
+		}
+	}
+	pg.base.activity_series_enemy_story[191] = {
+		name = "EPS-4.1 After-School Lesson",
+		story = "ZHENLIXUEYUANDEZHUANXIAOSHENG4-1",
+		type = 1,
+		change_prefab = "",
+		pos_x = "",
+		pos_y = "",
+		change_bgm = "story-richang-afterschool",
+		params = "",
+		icon = "",
+		label_key = "",
+		en_name = "",
+		change_background = "star_level_bg_501",
+		line = 0,
+		pass_awards = 0,
+		id = 191,
+		trigger_type = {
+			5
+		},
+		trigger_value = {
+			{
+				190,
+				1,
+				{
+					192,
+					193
+				}
+			}
+		}
+	}
+	pg.base.activity_series_enemy_story[192] = {
+		name = "EPS-4.2 Lunch on the Roof",
+		story = "ZHENLIXUEYUANDEZHUANXIAOSHENG4-2",
+		type = 1,
+		change_prefab = "",
+		pos_x = "",
+		pos_y = "",
+		change_bgm = "story-richang-afterschool",
+		params = "",
+		icon = "",
+		label_key = "",
+		en_name = "",
+		change_background = "star_level_bg_605",
+		line = 0,
+		pass_awards = 0,
+		id = 192,
+		trigger_type = {
+			5
+		},
+		trigger_value = {
+			{
+				190,
+				2,
+				{
+					190,
+					193
+				}
+			}
+		}
+	}
+	pg.base.activity_series_enemy_story[193] = {
+		name = "EPS-4.3 Couple Camouflage",
+		story = "ZHENLIXUEYUANDEZHUANXIAOSHENG4-3",
+		type = 1,
+		change_prefab = "",
+		pos_x = "",
+		pos_y = "",
+		change_bgm = "story-richang-afterschool",
+		params = "",
+		icon = "",
+		label_key = "",
+		en_name = "",
+		change_background = "star_level_bg_178",
+		line = 0,
+		pass_awards = 0,
+		id = 193,
+		trigger_type = {
+			5
+		},
+		trigger_value = {
+			{
+				190,
+				3,
+				{
+					191,
+					192
+				}
+			}
+		}
+	}
+	pg.base.activity_series_enemy_story[194] = {
+		name = "EPS-5 Rumors of the Grail",
+		story = "ZHENLIXUEYUANDEZHUANXIAOSHENG5",
+		type = 1,
+		change_prefab = "",
+		pos_x = "",
+		pos_y = "",
+		change_bgm = "story-richang-afterschool",
+		params = "",
+		icon = "",
+		label_key = "",
+		en_name = "",
+		change_background = "star_level_bg_130",
+		line = 0,
+		pass_awards = 0,
+		id = 194,
+		trigger_type = {
+			6
+		},
+		trigger_value = {
+			{
+				191,
+				192,
+				193
+			}
+		}
+	}
+	pg.base.activity_series_enemy_story[195] = {
+		name = "EPS-6 Wishes and Monsters",
+		story = "2079601",
+		type = 3,
+		change_prefab = "",
+		pos_x = "",
+		pos_y = "",
+		change_bgm = "story-richang-afterschool",
+		params = "",
+		icon = "",
+		label_key = "",
+		en_name = "",
+		change_background = "star_level_bg_311",
+		line = 0,
+		pass_awards = 0,
+		id = 195,
+		trigger_type = {
+			3
+		},
+		trigger_value = {
+			194
+		}
+	}
+	pg.base.activity_series_enemy_story[196] = {
+		name = "EPS-7 A Dance and a Decision",
+		story = "ZHENLIXUEYUANDEZHUANXIAOSHENG7",
+		type = 1,
+		change_prefab = "",
+		pos_x = "",
+		pos_y = "",
+		change_bgm = "story-richang-afterschool",
+		params = "",
+		icon = "",
+		label_key = "",
+		en_name = "",
+		change_background = "star_level_bg_600",
+		line = 0,
+		pass_awards = 0,
+		id = 196,
+		trigger_type = {
+			3
+		},
+		trigger_value = {
+			195
+		}
+	}
+	pg.base.activity_series_enemy_story[197] = {
+		name = "EPS-8.1 Just One Rehearsal",
+		story = "ZHENLIXUEYUANDEZHUANXIAOSHENG8-1",
+		type = 1,
+		change_prefab = "",
+		pos_x = "",
+		pos_y = "",
+		change_bgm = "story-richang-afterschool",
+		params = "",
+		icon = "",
+		label_key = "",
+		en_name = "",
+		change_background = "star_level_bg_600",
+		line = 0,
+		pass_awards = 0,
+		id = 197,
+		trigger_type = {
+			5
+		},
+		trigger_value = {
+			{
+				196,
+				1,
+				{
+					198,
+					199
+				}
+			}
+		}
+	}
+	pg.base.activity_series_enemy_story[198] = {
+		name = "EPS-8.2 Love Clad in a Dress",
+		story = "ZHENLIXUEYUANDEZHUANXIAOSHENG8-2",
+		type = 1,
+		change_prefab = "",
+		pos_x = "",
+		pos_y = "",
+		change_bgm = "story-richang-afterschool",
+		params = "",
+		icon = "",
+		label_key = "",
+		en_name = "",
+		change_background = "star_level_bg_178",
+		line = 0,
+		pass_awards = 0,
+		id = 198,
+		trigger_type = {
+			5
+		},
+		trigger_value = {
+			{
+				196,
+				2,
+				{
+					197,
+					199
+				}
+			}
+		}
+	}
+	pg.base.activity_series_enemy_story[199] = {
+		name = "EPS-8.3 In Search of Bygone Days",
+		story = "ZHENLIXUEYUANDEZHUANXIAOSHENG8-3",
+		type = 1,
+		change_prefab = "",
+		pos_x = "",
+		pos_y = "",
+		change_bgm = "story-richang-afterschool",
+		params = "",
+		icon = "",
+		label_key = "",
+		en_name = "",
+		change_background = "star_level_bg_381",
+		line = 0,
+		pass_awards = 0,
+		id = 199,
+		trigger_type = {
+			5
+		},
+		trigger_value = {
+			{
+				196,
+				3,
+				{
+					197,
+					198
+				}
+			}
+		}
+	}
+	pg.base.activity_series_enemy_story[200] = {
+		name = "EPS-9 Graduation's Eve",
+		story = "ZHENLIXUEYUANDEZHUANXIAOSHENG9",
+		type = 1,
+		change_prefab = "",
+		pos_x = "",
+		pos_y = "",
+		change_bgm = "story-richang-afterschool",
+		params = "",
+		icon = "",
+		label_key = "",
+		en_name = "",
+		change_background = "bg_zhenlixueyuan_2",
+		line = 0,
+		pass_awards = 0,
+		id = 200,
+		trigger_type = {
+			6
+		},
+		trigger_value = {
+			{
+				197,
+				198,
+				199
+			}
+		}
+	}
+	pg.base.activity_series_enemy_story[201] = {
+		name = "EPS-10 The Yesterday She Clings To",
+		story = "2079602",
+		type = 3,
+		change_prefab = "",
+		pos_x = "",
+		pos_y = "",
+		change_bgm = "story-richang-afterschool",
+		params = "",
+		icon = "",
+		label_key = "",
+		en_name = "",
+		change_background = "star_level_bg_177",
+		line = 0,
+		pass_awards = 0,
+		id = 201,
+		trigger_type = {
+			3
+		},
+		trigger_value = {
+			200
+		}
+	}
+	pg.base.activity_series_enemy_story[202] = {
+		name = "EPS-11.1 Third Enrollment",
+		story = "ZHENLIXUEYUANDEZHUANXIAOSHENG11-1",
+		type = 1,
+		change_prefab = "",
+		pos_x = "",
+		pos_y = "",
+		change_bgm = "story-richang-afterschool",
+		params = "",
+		icon = "",
+		label_key = "",
+		en_name = "",
+		change_background = "bg_highschool_future",
+		line = 0,
+		pass_awards = 0,
+		id = 202,
+		trigger_type = {
+			5
+		},
+		trigger_value = {
+			{
+				201,
+				1,
+				{
+					203,
+					204
+				}
+			}
+		}
+	}
+	pg.base.activity_series_enemy_story[203] = {
+		name = "EPS-11.2 Her Majesty's Personal Guard",
+		story = "ZHENLIXUEYUANDEZHUANXIAOSHENG11-2",
+		type = 1,
+		change_prefab = "",
+		pos_x = "",
+		pos_y = "",
+		change_bgm = "story-richang-afterschool",
+		params = "",
+		icon = "",
+		label_key = "",
+		en_name = "",
+		change_background = "bg_highschool_future",
+		line = 0,
+		pass_awards = 0,
+		id = 203,
+		trigger_type = {
+			5
+		},
+		trigger_value = {
+			{
+				201,
+				2,
+				{
+					202,
+					204
+				}
+			}
+		}
+	}
+	pg.base.activity_series_enemy_story[204] = {
+		name = "EPS-11.3 Dancing Toward Tomorrow",
+		story = "ZHENLIXUEYUANDEZHUANXIAOSHENG11-3",
+		type = 1,
+		change_prefab = "",
+		pos_x = "",
+		pos_y = "",
+		change_bgm = "story-richang-afterschool",
+		params = "",
+		icon = "",
+		label_key = "",
+		en_name = "",
+		change_background = "bg_zhenlixueyuan_2",
+		line = 0,
+		pass_awards = 0,
+		id = 204,
+		trigger_type = {
+			5
+		},
+		trigger_value = {
+			{
+				201,
+				3,
+				{
+					202,
+					203
+				}
+			}
 		}
 	}
 end)()

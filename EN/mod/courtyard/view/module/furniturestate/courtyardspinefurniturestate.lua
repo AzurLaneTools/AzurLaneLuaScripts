@@ -83,7 +83,6 @@ slot0.OnReset = function(slot0, slot1)
 	end
 
 	if slot1.animator:GetNormalAnimationName() then
-		slot1.animator:RestartAnimation(slot2)
 		slot0.furnitureSpineStateAnimUI:SetAction(slot2, 0)
 	end
 end

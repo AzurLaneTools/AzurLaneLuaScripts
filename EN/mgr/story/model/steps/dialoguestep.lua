@@ -702,6 +702,10 @@ slot0.GetSubActorName = function(slot0)
 end
 
 slot0.IsSamePainting = function(slot0, slot1)
+	if not slot1:GetIsExecuted() then
+		return false
+	end
+
 	return (function ()
 		return uv0:GetPainting() == uv1:GetPainting() and uv0:IsShowNPainting() == uv1:IsShowNPainting() and uv0:IsShowWJZPainting() == uv1:IsShowWJZPainting()
 	end)() and slot0:IsLive2dPainting() == slot1:IsLive2dPainting() and slot0:IsSpinePainting() == slot1:IsSpinePainting() and not (function ()
