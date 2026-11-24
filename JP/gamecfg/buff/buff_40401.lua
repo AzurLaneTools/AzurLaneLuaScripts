@@ -4,7 +4,7 @@ return {
 	init_effect = "",
 	id = 40401,
 	picture = "",
-	desc = "战列-指挥-炮击II",
+	desc = "战列风帆-指挥-炮击II",
 	stack = 1,
 	color = "yellow",
 	icon = 40400,

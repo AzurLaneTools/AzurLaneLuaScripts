@@ -87,7 +87,7 @@ slot0.execute = function(slot0, slot1)
 			uv5:updateActivity(uv0)
 
 			if uv6 then
-				uv6()
+				uv6(slot0)
 			end
 		else
 			pg.TipsMgr.GetInstance():ShowTips(errorTip("", slot0.result))

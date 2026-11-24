@@ -399,6 +399,11 @@ pg.task_meta_data_template.all = {
 	100613,
 	100614,
 	100615,
+	100621,
+	100622,
+	100623,
+	100624,
+	100625,
 	200001,
 	200002,
 	200003,
@@ -606,7 +611,11 @@ pg.task_meta_data_template.all = {
 	200521,
 	200522,
 	200523,
-	200524
+	200524,
+	200531,
+	200532,
+	200533,
+	200534
 }
 pg.base = pg.base or {}
 pg.base.task_meta_data_template = {}
@@ -3778,6 +3787,48 @@ end)()
 		target_num = 1,
 		desc = "ソオブラジーテリヌイ(META)を編成した艦隊でLv100+の敵艦隊を撃破する"
 	}
+	pg.base.task_meta_data_template[100621] = {
+		target_id = "",
+		sub_type = 180,
+		target_id_2 = "970114",
+		id = 100621,
+		target_num = 1,
+		desc = "ケルサン(META)を編成した艦隊で1回戦闘に勝利する"
+	}
+	pg.base.task_meta_data_template[100622] = {
+		target_id = "30",
+		sub_type = 180,
+		target_id_2 = "970114",
+		id = 100622,
+		target_num = 1,
+		desc = "ケルサン(META)を編成した艦隊でLV30+の敵艦隊を撃破する"
+	}
+	pg.base.task_meta_data_template[100623] = {
+		target_id = "55",
+		sub_type = 180,
+		target_id_2 = "970114",
+		id = 100623,
+		target_num = 1,
+		desc = "ケルサン(META)を編成した艦隊でLV55+の敵艦隊を撃破する"
+	}
+	pg.base.task_meta_data_template[100624] = {
+		target_id = "80",
+		sub_type = 180,
+		target_id_2 = "970114",
+		id = 100624,
+		target_num = 1,
+		desc = "ケルサン(META)を編成した艦隊でLV80+の敵艦隊を撃破する"
+	}
+	pg.base.task_meta_data_template[100625] = {
+		target_id = "100",
+		sub_type = 180,
+		target_id_2 = "970114",
+		id = 100625,
+		target_num = 1,
+		desc = "ケルサン(META)を編成した艦隊でLV100+の敵艦隊を撃破する"
+	}
+end)()
+(function ()
 	pg.base.task_meta_data_template[200001] = {
 		target_id = "0",
 		sub_type = 302,
@@ -3818,8 +3869,6 @@ end)()
 		target_num = 1,
 		desc = "セイレーン作戦でフォーチュン(META)を含めた艦隊で1回勝利する"
 	}
-end)()
-(function ()
 	pg.base.task_meta_data_template[200022] = {
 		target_id = "70",
 		sub_type = 302,
@@ -4580,6 +4629,8 @@ end)()
 		target_num = 1,
 		desc = "セイレーン作戦で鳳翔(META)を含めた艦隊でLv100+の敵を撃破"
 	}
+end)()
+(function ()
 	pg.base.task_meta_data_template[200261] = {
 		target_id = "0",
 		sub_type = 302,
@@ -4620,8 +4671,6 @@ end)()
 		target_num = 1,
 		desc = "セイレーン作戦で大鳳(META)を含めた艦隊で1回勝利する"
 	}
-end)()
-(function ()
 	pg.base.task_meta_data_template[200272] = {
 		target_id = "70",
 		sub_type = 302,
@@ -5382,6 +5431,8 @@ end)()
 		target_num = 1,
 		desc = "セイレーン作戦でヴィクトリアス(META)を含めた艦隊でLv100+の敵を撃破"
 	}
+end)()
+(function ()
 	pg.base.task_meta_data_template[200501] = {
 		target_id = "0",
 		sub_type = 302,
@@ -5422,8 +5473,6 @@ end)()
 		target_num = 1,
 		desc = "セイレーン作戦でソオブラジーテリヌイ(META)を含めた艦隊で1回勝利する"
 	}
-end)()
-(function ()
 	pg.base.task_meta_data_template[200522] = {
 		target_id = "70",
 		sub_type = 302,
@@ -5447,5 +5496,37 @@ end)()
 		id = 200524,
 		target_num = 1,
 		desc = "セイレーン作戦でソオブラジーテリヌイ(META)を含めた艦隊でLv100+の敵を撃破"
+	}
+	pg.base.task_meta_data_template[200531] = {
+		target_id = "",
+		sub_type = 302,
+		target_id_2 = "970114",
+		id = 200531,
+		target_num = 1,
+		desc = "セイレーン作戦でケルサン(META)を含む艦隊で1回戦闘に勝利する"
+	}
+	pg.base.task_meta_data_template[200532] = {
+		target_id = "70",
+		sub_type = 302,
+		target_id_2 = "970114",
+		id = 200532,
+		target_num = 1,
+		desc = "セイレーン作戦でケルサン(META)を含む艦隊でLV70+の敵を撃破する"
+	}
+	pg.base.task_meta_data_template[200533] = {
+		target_id = "90",
+		sub_type = 302,
+		target_id_2 = "970114",
+		id = 200533,
+		target_num = 1,
+		desc = "セイレーン作戦でケルサン(META)を含む艦隊でLV90+の敵を撃破する"
+	}
+	pg.base.task_meta_data_template[200534] = {
+		target_id = "100",
+		sub_type = 302,
+		target_id_2 = "970114",
+		id = 200534,
+		target_num = 1,
+		desc = "セイレーン作戦でケルサン(META)を含む艦隊でLV100+の敵を撃破する"
 	}
 end)()

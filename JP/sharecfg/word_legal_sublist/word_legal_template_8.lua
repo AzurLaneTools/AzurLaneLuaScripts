@@ -4,93 +4,6 @@ slot0.word_legal_template_8 = {}
 slot1 = slot0.word_legal_template_8
 
 temp = function()
-	uv0["ゴ"] = {
-		["リ"] = {
-			["ツ"] = {
-				["ィ"] = {
-					["ア"] = {
-						this = true
-					}
-				}
-			}
-		},
-		["ー"] = {
-			["ル"] = {
-				["デ"] = {
-					["ン"] = {
-						["・"] = {
-							["ハ"] = {
-								["イ"] = {
-									["ン"] = {
-										["ド"] = {
-											this = true
-										}
-									}
-								}
-							}
-						}
-					}
-				}
-			}
-		}
-	}
-end
-
-temp()
-
-temp = function()
-	uv0["ム"] = {
-		["ル"] = {
-			["マ"] = {
-				["ン"] = {
-					["ス"] = {
-						["ク"] = {
-							this = true
-						}
-					}
-				}
-			}
-		},
-		["ジ"] = {
-			["ナ"] = {
-				this = true
-			}
-		}
-	}
-end
-
-temp()
-
-temp = function()
-	uv0["四"] = {
-		["万"] = {
-			["十"] = {
-				this = true
-			}
-		},
-		["糸"] = {
-			["乃"] = {
-				this = true
-			}
-		}
-	}
-end
-
-temp()
-
-temp = function()
-	uv0["孟"] = {
-		["菲"] = {
-			["斯"] = {
-				this = true
-			}
-		}
-	}
-end
-
-temp()
-
-temp = function()
 	uv0["西"] = {
 		["連"] = {
 			["寺"] = {
@@ -604,6 +517,92 @@ temp = function()
 								}
 							}
 						}
+					}
+				}
+			}
+		}
+	}
+end
+
+temp()
+
+temp = function()
+	uv0["皇"] = {
+		["家"] = {
+			["财"] = {
+				["富"] = {
+					["号"] = {
+						["（"] = {
+							["前"] = {
+								["排"] = {
+									["）"] = {
+										this = true
+									}
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+end
+
+temp()
+
+temp = function()
+	uv0["铁"] = {
+		["角"] = {
+			["号"] = {
+				["（"] = {
+					["前"] = {
+						["排"] = {
+							["）"] = {
+								this = true
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+end
+
+temp()
+
+temp = function()
+	uv0["拉"] = {
+		["菲"] = {
+			I = {
+				I = {
+					this = true
+				}
+			}
+		}
+	}
+end
+
+temp()
+
+temp = function()
+	uv0["ナ"] = {
+		["ポ"] = {
+			["リ"] = {
+				this = true
+			}
+		}
+	}
+end
+
+temp()
+
+temp = function()
+	uv0["と"] = {
+		["き"] = {
+			["の"] = {
+				["そ"] = {
+					["ら"] = {
+						this = true
 					}
 				}
 			}

@@ -137,7 +137,8 @@ pg.medal_template.all = {
 	200211,
 	200221,
 	200231,
-	200241
+	200241,
+	200251
 }
 pg.base = pg.base or {}
 pg.base.medal_template = {}
@@ -3094,6 +3095,27 @@ end)()
 		rank = 1,
 		id = 200241,
 		explain1 = "「テンペスタと霧靄回廊」",
+		explain2 = "イベント"
+	}
+	pg.base.medal_template[200251] = {
+		target_id = "51409",
+		name = "真理学園記念勲章",
+		target_num = 8,
+		type = 0,
+		is_out_of_print = 0,
+		count_inherit = 0,
+		desc = "雲海に浮かぶ島に、学園の鐘がのどかに響きわたる。魔法の光に導かれ、ひとつの出会いから物語が動き出す――ようこそ、真理学園へ！",
+		next = 0,
+		icon = "9251",
+		page = 2,
+		target_type = 131,
+		start = 0,
+		hide = 0,
+		label = "l_9251",
+		condition = "「真理学園の転校生」のステッカーを8個集める",
+		rank = 1,
+		id = 200251,
+		explain1 = "「真理学園の転校生」",
 		explain2 = "イベント"
 	}
 end)()

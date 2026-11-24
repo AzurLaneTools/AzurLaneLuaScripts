@@ -246875,6 +246875,477 @@ _G.pg.base.task_data_template[25747] = {
 }
 
 
+_G.pg.base.task_data_template[25748] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 920019,
+	type = 26,
+	is_head = 1,
+	count_inherit = 0,
+	name = "『北联SP』纪念任务1（只送勋章）",
+	desc = "「真理学園の転校生」のステッカーを全部集める",
+	sub_type = 131,
+	task_fold = 0,
+	story_icon = "",
+	scene = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 1,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 1,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	tutorial_handbook_pic = "",
+	activity_client_config = "",
+	id = 25748,
+	target_num = 8,
+	fix_task = 0,
+	target_id = "51409",
+	open_need = {},
+	award_display = {
+		{
+			8,
+			66122,
+			1
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[25749] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 920020,
+	type = 26,
+	is_head = 1,
+	count_inherit = 0,
+	name = "『北联SP』纪念贴纸获取1",
+	desc = "「真理学園の転校生」のステッカーを7個集める",
+	sub_type = 131,
+	task_fold = 0,
+	story_icon = "",
+	scene = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 1,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	tutorial_handbook_pic = "",
+	activity_client_config = "",
+	id = 25749,
+	target_num = 7,
+	fix_task = 0,
+	target_id = "51409",
+	open_need = {},
+	award_display = {
+		{
+			8,
+			66123,
+			1
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[25750] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 920021,
+	type = 26,
+	is_head = 1,
+	count_inherit = 0,
+	name = "『北联SP』纪念贴纸获取2",
+	desc = "「真理学園の転校生」のストーリーモードをクリアする",
+	sub_type = 1005,
+	task_fold = 0,
+	story_icon = "",
+	scene = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 1,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	tutorial_handbook_pic = "",
+	activity_client_config = "",
+	id = 25750,
+	target_num = 1,
+	fix_task = 0,
+	target_id = {
+		8198,
+		8199,
+		8200
+	},
+	open_need = {},
+	award_display = {
+		{
+			8,
+			66124,
+			1
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[25751] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 920022,
+	type = 26,
+	is_head = 1,
+	count_inherit = 0,
+	name = "『北联SP』纪念贴纸获取3",
+	desc = "「真理学園の転校生」の任意のステージを1回クリアする",
+	sub_type = 20,
+	task_fold = 0,
+	story_icon = "",
+	scene = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 1,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	tutorial_handbook_pic = "",
+	activity_client_config = "",
+	id = 25751,
+	target_num = 1,
+	fix_task = 0,
+	target_id = {
+		2079101,
+		2079201,
+		2079202,
+		2079301,
+		2079302,
+		2079303,
+		2079401,
+		2079402,
+		2079403,
+		2079404,
+		2079501,
+		2079502,
+		2079503,
+		2079504,
+		2079505,
+		2079601,
+		2079602
+	},
+	open_need = {},
+	award_display = {
+		{
+			8,
+			66125,
+			1
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[25752] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 920023,
+	type = 26,
+	is_head = 1,
+	count_inherit = 0,
+	name = "『北联SP』纪念贴纸获取4",
+	desc = "「真理学園の転校生」イベントステージで敵を100体撃破する",
+	sub_type = 12,
+	task_fold = 0,
+	story_icon = "",
+	scene = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 1,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	tutorial_handbook_pic = "",
+	activity_client_config = "",
+	id = 25752,
+	target_num = 100,
+	fix_task = 0,
+	target_id = {
+		16910001,
+		16910002,
+		16910003,
+		16910004,
+		16910005,
+		16910006,
+		16910301,
+		16911001,
+		16911002,
+		16911003,
+		16911004,
+		16911005,
+		16911006,
+		16911301,
+		16911302,
+		16912001,
+		16912002,
+		16912003,
+		16912004,
+		16912005,
+		16912006,
+		16912301,
+		16912302,
+		16912303,
+		16913001,
+		16913002,
+		16913003,
+		16913004,
+		16913005,
+		16913006,
+		16913301,
+		16913302,
+		16913303,
+		16913304,
+		16914001,
+		16914002,
+		16914003,
+		16914004,
+		16914005,
+		16914006,
+		16914301,
+		16914302,
+		16914303,
+		16914304,
+		16914305,
+		16916001,
+		16916002,
+		16916003,
+		16916004,
+		16916005,
+		16916101,
+		16916102
+	},
+	open_need = {},
+	award_display = {
+		{
+			8,
+			66126,
+			1
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[25753] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 920024,
+	type = 26,
+	is_head = 1,
+	count_inherit = 0,
+	name = "『北联SP』纪念贴纸获取5",
+	desc = "「真理学園の転校生」ステージを累計40回クリアする",
+	sub_type = 20,
+	task_fold = 0,
+	story_icon = "",
+	scene = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 1,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	tutorial_handbook_pic = "",
+	activity_client_config = "",
+	id = 25753,
+	target_num = 40,
+	fix_task = 0,
+	target_id = {
+		2079101,
+		2079201,
+		2079202,
+		2079301,
+		2079302,
+		2079303,
+		2079401,
+		2079402,
+		2079403,
+		2079404,
+		2079501,
+		2079502,
+		2079503,
+		2079504,
+		2079505,
+		2079601,
+		2079602
+	},
+	open_need = {},
+	award_display = {
+		{
+			8,
+			66127,
+			1
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[25754] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 920025,
+	type = 26,
+	is_head = 1,
+	count_inherit = 0,
+	name = "『北联SP』纪念贴纸获取6",
+	desc = "「校舎」クリア",
+	sub_type = 20,
+	task_fold = 0,
+	story_icon = "",
+	scene = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 1,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	tutorial_handbook_pic = "",
+	activity_client_config = "",
+	id = 25754,
+	target_num = 1,
+	fix_task = 0,
+	target_id = "2079303",
+	open_need = {},
+	award_display = {
+		{
+			8,
+			66128,
+			1
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[25755] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 920026,
+	type = 26,
+	is_head = 1,
+	count_inherit = 0,
+	name = "『北联SP』纪念贴纸获取7",
+	desc = "「天体観測台」クリア",
+	sub_type = 20,
+	task_fold = 0,
+	story_icon = "",
+	scene = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 1,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	tutorial_handbook_pic = "",
+	activity_client_config = "",
+	id = 25755,
+	target_num = 1,
+	fix_task = 0,
+	target_id = "2079404",
+	open_need = {},
+	award_display = {
+		{
+			8,
+			66129,
+			1
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[25756] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 920027,
+	type = 26,
+	is_head = 1,
+	count_inherit = 0,
+	name = "『北联SP』纪念贴纸获取8",
+	desc = "「ロマンチック聖杯」を累計10000個集める",
+	sub_type = 1032,
+	task_fold = 0,
+	story_icon = "",
+	scene = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 1,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	tutorial_handbook_pic = "",
+	activity_client_config = "",
+	id = 25756,
+	target_num = 10000,
+	fix_task = 0,
+	target_id = "51404",
+	open_need = {},
+	award_display = {
+		{
+			8,
+			66130,
+			1
+		}
+	}
+}
+
+
 _G.pg.base.task_data_template[27001] = {
 	target_id_2 = "",
 	guild_coin_award = 0,
@@ -266095,6 +266566,132 @@ _G.pg.base.task_data_template[27816] = {
 }
 
 
+_G.pg.base.task_data_template[27820] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 911308,
+	type = 14,
+	is_head = 1,
+	count_inherit = 0,
+	name = "『261124活动』皮肤剧情签到活动1",
+	desc = "ゲームにログインする",
+	sub_type = 1011,
+	task_fold = 0,
+	story_icon = "",
+	scene = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 0,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	tutorial_handbook_pic = "",
+	activity_client_config = "",
+	id = 27820,
+	target_num = 1,
+	fix_task = 0,
+	target_id = "0",
+	open_need = {},
+	award_display = {
+		{
+			2,
+			30390,
+			1
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[27821] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 911309,
+	type = 14,
+	is_head = 1,
+	count_inherit = 0,
+	name = "『261124活动』皮肤剧情签到活动2",
+	desc = "ゲームにログインする",
+	sub_type = 1011,
+	task_fold = 0,
+	story_icon = "",
+	scene = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 0,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	tutorial_handbook_pic = "",
+	activity_client_config = "",
+	id = 27821,
+	target_num = 1,
+	fix_task = 0,
+	target_id = "0",
+	open_need = {},
+	award_display = {
+		{
+			2,
+			30390,
+			1
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[27822] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 911310,
+	type = 14,
+	is_head = 1,
+	count_inherit = 0,
+	name = "『261124活动』皮肤剧情签到活动3",
+	desc = "ゲームにログインする",
+	sub_type = 1011,
+	task_fold = 0,
+	story_icon = "",
+	scene = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 0,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	tutorial_handbook_pic = "",
+	activity_client_config = "",
+	id = 27822,
+	target_num = 1,
+	fix_task = 0,
+	target_id = "0",
+	open_need = {},
+	award_display = {
+		{
+			2,
+			30390,
+			1
+		}
+	}
+}
+
+
 _G.pg.base.task_data_template[27817] = {
 	target_id_2 = "",
 	guild_coin_award = 0,
@@ -268770,6 +269367,638 @@ _G.pg.base.task_data_template[27609] = {
 		{
 			1,
 			756,
+			3
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[29201] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 911251,
+	type = 6,
+	is_head = 1,
+	count_inherit = 0,
+	name = "『北联sp活动』多队出击挑战1",
+	desc = "駆逐艦/ミサイル駆逐艦を艦隊に入れずに複数艦隊で「校舎」をクリア",
+	sub_type = 107,
+	task_fold = 0,
+	story_icon = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 1,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	tutorial_handbook_pic = "",
+	activity_client_config = "",
+	id = 29201,
+	target_num = 1,
+	fix_task = 0,
+	target_id = {
+		{
+			1,
+			20,
+			21
+		},
+		7003
+	},
+	open_need = {},
+	award_display = {
+		{
+			2,
+			17023,
+			20
+		},
+		{
+			2,
+			42086,
+			1
+		},
+		{
+			2,
+			15008,
+			200
+		}
+	},
+	scene = {
+		"BOSSRUSH_MAIN"
+	}
+}
+
+
+_G.pg.base.task_data_template[29202] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 911252,
+	type = 6,
+	is_head = 1,
+	count_inherit = 0,
+	name = "『北联sp活动』多队出击挑战2",
+	desc = "軽巡を艦隊に入れずに複数艦隊で「校舎」をクリア",
+	sub_type = 107,
+	task_fold = 0,
+	story_icon = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 1,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	tutorial_handbook_pic = "",
+	activity_client_config = "",
+	id = 29202,
+	target_num = 1,
+	fix_task = 0,
+	target_id = {
+		{
+			2
+		},
+		7003
+	},
+	open_need = {},
+	award_display = {
+		{
+			2,
+			17033,
+			20
+		},
+		{
+			2,
+			42086,
+			1
+		},
+		{
+			2,
+			15008,
+			200
+		}
+	},
+	scene = {
+		"BOSSRUSH_MAIN"
+	}
+}
+
+
+_G.pg.base.task_data_template[29203] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 911253,
+	type = 6,
+	is_head = 1,
+	count_inherit = 0,
+	name = "『北联sp活动』多队出击挑战3",
+	desc = "重巡/超巡を艦隊に入れずに複数艦隊で「校舎」をクリア",
+	sub_type = 107,
+	task_fold = 0,
+	story_icon = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 1,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	tutorial_handbook_pic = "",
+	activity_client_config = "",
+	id = 29203,
+	target_num = 1,
+	fix_task = 0,
+	target_id = {
+		{
+			3,
+			18
+		},
+		7003
+	},
+	open_need = {},
+	award_display = {
+		{
+			2,
+			17003,
+			20
+		},
+		{
+			2,
+			42086,
+			1
+		},
+		{
+			2,
+			15008,
+			200
+		}
+	},
+	scene = {
+		"BOSSRUSH_MAIN"
+	}
+}
+
+
+_G.pg.base.task_data_template[29204] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 911254,
+	type = 6,
+	is_head = 1,
+	count_inherit = 0,
+	name = "『北联sp活动』多队出击挑战4",
+	desc = "軽空母/空母を艦隊に入れずに複数艦隊で「校舎」をクリア",
+	sub_type = 107,
+	task_fold = 0,
+	story_icon = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 1,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	tutorial_handbook_pic = "",
+	activity_client_config = "",
+	id = 29204,
+	target_num = 1,
+	fix_task = 0,
+	target_id = {
+		{
+			6,
+			7
+		},
+		7003
+	},
+	open_need = {},
+	award_display = {
+		{
+			2,
+			17043,
+			20
+		},
+		{
+			2,
+			42086,
+			2
+		},
+		{
+			2,
+			15012,
+			20
+		}
+	},
+	scene = {
+		"BOSSRUSH_MAIN"
+	}
+}
+
+
+_G.pg.base.task_data_template[29205] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 911255,
+	type = 6,
+	is_head = 1,
+	count_inherit = 0,
+	name = "『北联sp活动』多队出击挑战5",
+	desc = "戦艦/巡洋戦艦/モニター艦を艦隊に入れずに複数艦隊で「校舎」をクリア",
+	sub_type = 107,
+	task_fold = 0,
+	story_icon = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 1,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	tutorial_handbook_pic = "",
+	activity_client_config = "",
+	id = 29205,
+	target_num = 1,
+	fix_task = 0,
+	target_id = {
+		{
+			4,
+			5,
+			13
+		},
+		7003
+	},
+	open_need = {},
+	award_display = {
+		{
+			2,
+			17013,
+			20
+		},
+		{
+			2,
+			42086,
+			2
+		},
+		{
+			2,
+			15012,
+			20
+		}
+	},
+	scene = {
+		"BOSSRUSH_MAIN"
+	}
+}
+
+
+_G.pg.base.task_data_template[29206] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 911256,
+	type = 6,
+	is_head = 1,
+	count_inherit = 0,
+	name = "『北联sp活动』EX挑战",
+	desc = "「真理学園の転校生」EXステージの1戦目をクリアする",
+	sub_type = 108,
+	task_fold = 0,
+	story_icon = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 1,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	tutorial_handbook_pic = "",
+	activity_client_config = "",
+	id = 29206,
+	target_num = 1,
+	fix_task = 0,
+	target_id = "1",
+	open_need = {},
+	award_display = {
+		{
+			2,
+			15008,
+			500
+		}
+	},
+	scene = {
+		"BOSSRUSH_MAIN"
+	}
+}
+
+
+_G.pg.base.task_data_template[29207] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 911257,
+	type = 6,
+	is_head = 1,
+	count_inherit = 0,
+	name = "『北联sp活动』剧情送装备",
+	desc = "「ストーリーモード」をクリアする",
+	sub_type = 1005,
+	task_fold = 0,
+	story_icon = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 0,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	tutorial_handbook_pic = "",
+	activity_client_config = "",
+	id = 29207,
+	target_num = 20,
+	fix_task = 0,
+	target_id = {
+		8181,
+		8182,
+		8183,
+		8184,
+		8185,
+		8186,
+		8187,
+		8188,
+		8189,
+		8190,
+		8191,
+		8192,
+		8193,
+		8194,
+		8195,
+		8196,
+		8197,
+		8198,
+		8199,
+		8200
+	},
+	open_need = {},
+	award_display = {
+		{
+			9,
+			4492,
+			1
+		}
+	},
+	scene = {
+		"BOSSRUSH_MAIN",
+		{
+			displayMode = 2
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[29208] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 911258,
+	type = 36,
+	is_head = 1,
+	count_inherit = 0,
+	name = "『北联sp活动』-日常建造",
+	desc = "（デイリー）建造を3回行う",
+	sub_type = 30,
+	task_fold = 0,
+	story_icon = "",
+	scene = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 1,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	tutorial_handbook_pic = "",
+	activity_client_config = "",
+	id = 29208,
+	target_num = 3,
+	fix_task = 0,
+	target_id = "0",
+	open_need = {},
+	award_display = {
+		{
+			8,
+			66133,
+			300
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[29209] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 911259,
+	type = 36,
+	is_head = 1,
+	count_inherit = 0,
+	name = "『北联sp活动』-日常出击",
+	desc = "（デイリー）艦隊を出撃させ、15回勝利する",
+	sub_type = 20,
+	task_fold = 0,
+	story_icon = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 1,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	tutorial_handbook_pic = "",
+	activity_client_config = "",
+	id = 29209,
+	target_num = 15,
+	fix_task = 0,
+	target_id = "0",
+	open_need = {},
+	award_display = {
+		{
+			8,
+			66133,
+			300
+		}
+	},
+	scene = {
+		"BOSSRUSH_MAIN"
+	}
+}
+
+
+_G.pg.base.task_data_template[29210] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 911260,
+	type = 36,
+	is_head = 1,
+	count_inherit = 0,
+	name = "『北联sp活动』-日常困难本",
+	desc = "（デイリー）通常海域ハードを1回クリアする",
+	sub_type = 185,
+	task_fold = 0,
+	story_icon = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 1,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	tutorial_handbook_pic = "",
+	activity_client_config = "",
+	id = 29210,
+	target_num = 1,
+	fix_task = 0,
+	target_id = "0",
+	open_need = {},
+	award_display = {
+		{
+			8,
+			66133,
+			150
+		}
+	},
+	scene = {
+		"LEVEL"
+	}
+}
+
+
+_G.pg.base.task_data_template[29211] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 911261,
+	type = 6,
+	is_head = 1,
+	count_inherit = 0,
+	name = "『北联sp活动』外观装备箱保底",
+	desc = "「購買部」で「装備外装箱(ドキドキ魔学園)」を20個購入する",
+	sub_type = 52,
+	task_fold = 0,
+	story_icon = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 1,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	tutorial_handbook_pic = "",
+	activity_client_config = "",
+	id = 29211,
+	target_num = 20,
+	fix_task = 0,
+	target_id = "30390",
+	open_need = {},
+	award_display = {
+		{
+			2,
+			30574,
+			1
+		}
+	},
+	scene = {
+		"SHOP",
+		{
+			warp = "shopstreet"
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[29212] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 88512,
+	type = 6,
+	is_head = 1,
+	count_inherit = 0,
+	name = "『261126SP连战』登录送皮肤体验券活动",
+	desc = "ゲームにログインする",
+	sub_type = 1011,
+	task_fold = 0,
+	story_icon = "",
+	scene = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 1,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	tutorial_handbook_pic = "",
+	activity_client_config = "",
+	id = 29212,
+	target_num = 1,
+	fix_task = 0,
+	target_id = "0",
+	open_need = {},
+	award_display = {
+		{
+			1,
+			786,
 			3
 		}
 	}

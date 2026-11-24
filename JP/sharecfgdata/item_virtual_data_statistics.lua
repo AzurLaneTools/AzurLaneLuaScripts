@@ -192159,6 +192159,303 @@ _G.pg.base.item_virtual_data_statistics[66121] = {
 }
 
 
+_G.pg.base.item_virtual_data_statistics[66122] = {
+	drop_gold_max = 0,
+	name = "真理学園記念勲章",
+	display = "雲海に浮かぶ島に、学園の鐘がのどかに響きわたる。魔法の光に導かれ、ひとつの出会いから物語が動き出す――ようこそ、真理学園へ！",
+	type = 0,
+	is_world = 0,
+	shop_id = -1,
+	replace_item = 0,
+	time_limit = 0,
+	link_id = 200091,
+	drop_arg = "",
+	icon = "Medal/9251",
+	order = 0,
+	rarity = 5,
+	max_num = 0,
+	drop_oil_max = 0,
+	virtual_type = 104,
+	id = 66122,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	album_config = {
+		1,
+		200251
+	}
+}
+
+
+_G.pg.base.item_virtual_data_statistics[66123] = {
+	drop_gold_max = 0,
+	name = "ステッカー：真理学園",
+	display = "魔法とときめきが交錯する時、攻略が始まる――",
+	type = 0,
+	is_world = 0,
+	shop_id = -1,
+	replace_item = 0,
+	time_limit = 0,
+	link_id = 0,
+	drop_arg = "",
+	icon = "ActivityMedal/5140901",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	drop_oil_max = 0,
+	virtual_type = 0,
+	id = 66123,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	album_config = {
+		2,
+		5140901
+	}
+}
+
+
+_G.pg.base.item_virtual_data_statistics[66124] = {
+	drop_gold_max = 0,
+	name = "ステッカー：ドキドキクリティカル",
+	display = "これは……心がドキッとしてる！",
+	type = 0,
+	is_world = 0,
+	shop_id = -1,
+	replace_item = 0,
+	time_limit = 0,
+	link_id = 0,
+	drop_arg = "",
+	icon = "ActivityMedal/5140902",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	drop_oil_max = 0,
+	virtual_type = 0,
+	id = 66124,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	album_config = {
+		2,
+		5140902
+	}
+}
+
+
+_G.pg.base.item_virtual_data_statistics[66125] = {
+	drop_gold_max = 0,
+	name = "ステッカー：告白セーブポイント",
+	display = "ロードした理由：「好き」の声が小さすぎた",
+	type = 0,
+	is_world = 0,
+	shop_id = -1,
+	replace_item = 0,
+	time_limit = 0,
+	link_id = 0,
+	drop_arg = "",
+	icon = "ActivityMedal/5140903",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	drop_oil_max = 0,
+	virtual_type = 0,
+	id = 66125,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	album_config = {
+		2,
+		5140903
+	}
+}
+
+
+_G.pg.base.item_virtual_data_statistics[66126] = {
+	drop_gold_max = 0,
+	name = "ステッカー：スタッフ教育",
+	display = "スタッフの教育には、スタッフを使った教育もあるわ",
+	type = 0,
+	is_world = 0,
+	shop_id = -1,
+	replace_item = 0,
+	time_limit = 0,
+	link_id = 0,
+	drop_arg = "",
+	icon = "ActivityMedal/5140904",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	drop_oil_max = 0,
+	virtual_type = 0,
+	id = 66126,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	album_config = {
+		2,
+		5140904
+	}
+}
+
+
+_G.pg.base.item_virtual_data_statistics[66127] = {
+	drop_gold_max = 0,
+	name = "ステッカー：玉座の上",
+	display = "王が認め、王が許す",
+	type = 0,
+	is_world = 0,
+	shop_id = -1,
+	replace_item = 0,
+	time_limit = 0,
+	link_id = 0,
+	drop_arg = "",
+	icon = "ActivityMedal/5140905",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	drop_oil_max = 0,
+	virtual_type = 0,
+	id = 66127,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	album_config = {
+		2,
+		5140905
+	}
+}
+
+
+_G.pg.base.item_virtual_data_statistics[66128] = {
+	drop_gold_max = 0,
+	name = "ステッカー：キャンディモンスター",
+	display = "トリック・オア・トリート？……トリート・アンド・トリート！",
+	type = 0,
+	is_world = 0,
+	shop_id = -1,
+	replace_item = 0,
+	time_limit = 0,
+	link_id = 0,
+	drop_arg = "",
+	icon = "ActivityMedal/5140906",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	drop_oil_max = 0,
+	virtual_type = 0,
+	id = 66128,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	album_config = {
+		2,
+		5140906
+	}
+}
+
+
+_G.pg.base.item_virtual_data_statistics[66129] = {
+	drop_gold_max = 0,
+	name = "ステッカー：スノークラウン",
+	display = "雪来たる？ただの登場演出だよ",
+	type = 0,
+	is_world = 0,
+	shop_id = -1,
+	replace_item = 0,
+	time_limit = 0,
+	link_id = 0,
+	drop_arg = "",
+	icon = "ActivityMedal/5140907",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	drop_oil_max = 0,
+	virtual_type = 0,
+	id = 66129,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	album_config = {
+		2,
+		5140907
+	}
+}
+
+
+_G.pg.base.item_virtual_data_statistics[66130] = {
+	drop_gold_max = 0,
+	name = "ステッカー：ロマンチック聖杯",
+	display = "其れは創造主と同じ、ロマンにのみ忠実な存在",
+	type = 0,
+	is_world = 0,
+	shop_id = -1,
+	replace_item = 0,
+	time_limit = 0,
+	link_id = 0,
+	drop_arg = "",
+	icon = "ActivityMedal/5140908",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	drop_oil_max = 0,
+	virtual_type = 0,
+	id = 66130,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	album_config = {
+		2,
+		5140908
+	}
+}
+
+
+_G.pg.base.item_virtual_data_statistics[66133] = {
+	drop_gold_max = 0,
+	name = "ロマンチック聖杯",
+	display = "「真理学園の転校生」のイベントPtアイテムで、ショップでの報酬交換に使用します。イベント終了後に削除されます",
+	type = 0,
+	is_world = 0,
+	shop_id = -1,
+	replace_item = 0,
+	time_limit = 0,
+	link_id = 51404,
+	drop_arg = "",
+	album_config = "",
+	icon = "Props/66133",
+	order = 0,
+	rarity = 2,
+	max_num = 0,
+	drop_oil_max = 0,
+	virtual_type = 103,
+	id = 66133,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+
 _G.pg.base.item_virtual_data_statistics[67001] = {
 	drop_gold_max = 0,
 	name = "訓練Pt",
@@ -192205,6 +192502,33 @@ _G.pg.base.item_virtual_data_statistics[67003] = {
 	drop_oil_max = 0,
 	virtual_type = 0,
 	id = 67003,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+
+_G.pg.base.item_virtual_data_statistics[67004] = {
+	drop_gold_max = 0,
+	name = "試着貸出チケット（2026.12.09まで）",
+	display = "「試着貸出」対象になった着せ替えを一定時間内使用可能にするチケット",
+	type = 98,
+	is_world = 0,
+	shop_id = 1,
+	replace_item = 0,
+	time_limit = 0,
+	link_id = 0,
+	drop_arg = "",
+	album_config = "",
+	icon = "Props/skinTicket",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	drop_oil_max = 0,
+	virtual_type = 0,
+	id = 67004,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -192676,6 +193000,95 @@ _G.pg.base.item_virtual_data_statistics[68704] = {
 }
 
 
+_G.pg.base.item_virtual_data_statistics[68705] = {
+	drop_gold_max = 0,
+	name = "作戦全権委任状(月間)",
+	display = "作戦委任機能の消費アイテム。一部常設ステージでは「作戦委任」で使用可能。翌月1日0時に削除されます",
+	type = 0,
+	is_world = 0,
+	shop_id = -1,
+	replace_item = 0,
+	time_limit = 0,
+	link_id = 0,
+	album_config = "",
+	icon = "Props/weituozuozhan",
+	order = 0,
+	rarity = 2,
+	max_num = 0,
+	drop_oil_max = 0,
+	virtual_type = 34,
+	id = 68705,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	drop_arg = {
+		"month",
+		0
+	}
+}
+
+
+_G.pg.base.item_virtual_data_statistics[68706] = {
+	drop_gold_max = 0,
+	name = "作戦全権委任状(年間)",
+	display = "作戦委任機能の消費アイテム。一部常設ステージでは「作戦委任」で使用可能。翌年1月1日0時に削除されます",
+	type = 0,
+	is_world = 0,
+	shop_id = -1,
+	replace_item = 0,
+	time_limit = 0,
+	link_id = 0,
+	album_config = "",
+	icon = "Props/weituozuozhan",
+	order = 0,
+	rarity = 2,
+	max_num = 0,
+	drop_oil_max = 0,
+	virtual_type = 34,
+	id = 68706,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	drop_arg = {
+		"year",
+		0
+	}
+}
+
+
+_G.pg.base.item_virtual_data_statistics[68707] = {
+	drop_gold_max = 0,
+	name = "作戦全権委任状(無期限)",
+	display = "作戦委任機能の消費アイテム。一部常設ステージでは「作戦委任」で使用可能",
+	type = 0,
+	is_world = 0,
+	shop_id = -1,
+	replace_item = 0,
+	time_limit = 0,
+	link_id = 0,
+	album_config = "",
+	icon = "Props/weituozuozhan",
+	order = 0,
+	rarity = 2,
+	max_num = 0,
+	drop_oil_max = 0,
+	virtual_type = 34,
+	id = 68707,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	drop_arg = {
+		"always"
+	}
+}
+
+
 _G.pg.base.item_virtual_data_statistics[68710] = {
 	drop_gold_max = 0,
 	name = "作戦全権委任状",
@@ -192700,6 +193113,36 @@ _G.pg.base.item_virtual_data_statistics[68710] = {
 	index = {},
 	shiptrans_id = {},
 	combination_display = {}
+}
+
+
+_G.pg.base.item_virtual_data_statistics[68713] = {
+	drop_gold_max = 0,
+	name = "作戦全権委任状(イベント)",
+	display = "作戦委任機能の消費アイテム。一部常設ステージでは「作戦委任」で使用可能。12/15（火）23:59に削除されます",
+	type = 0,
+	is_world = 0,
+	shop_id = -1,
+	replace_item = 0,
+	time_limit = 0,
+	link_id = 0,
+	album_config = "",
+	icon = "Props/weituozuozhan",
+	order = 0,
+	rarity = 2,
+	max_num = 0,
+	drop_oil_max = 0,
+	virtual_type = 34,
+	id = 68713,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	drop_arg = {
+		"act",
+		51404
+	}
 }
 
 
@@ -192833,6 +193276,114 @@ _G.pg.base.item_virtual_data_statistics[68761] = {
 	drop_oil_max = 0,
 	virtual_type = 0,
 	id = 68761,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+
+_G.pg.base.item_virtual_data_statistics[68771] = {
+	drop_gold_max = 0,
+	name = "261124彩蛋拼图1",
+	display = "不会被看到",
+	type = 0,
+	is_world = 0,
+	shop_id = -1,
+	replace_item = 0,
+	time_limit = 0,
+	link_id = 0,
+	drop_arg = "",
+	album_config = "",
+	icon = "Props/puzzle",
+	order = 0,
+	rarity = 2,
+	max_num = 0,
+	drop_oil_max = 0,
+	virtual_type = 1,
+	id = 68771,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+
+_G.pg.base.item_virtual_data_statistics[68772] = {
+	drop_gold_max = 0,
+	name = "261124彩蛋拼图2",
+	display = "不会被看到",
+	type = 0,
+	is_world = 0,
+	shop_id = -1,
+	replace_item = 0,
+	time_limit = 0,
+	link_id = 0,
+	drop_arg = "",
+	album_config = "",
+	icon = "Props/puzzle",
+	order = 0,
+	rarity = 2,
+	max_num = 0,
+	drop_oil_max = 0,
+	virtual_type = 1,
+	id = 68772,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+
+_G.pg.base.item_virtual_data_statistics[68773] = {
+	drop_gold_max = 0,
+	name = "261124彩蛋拼图3",
+	display = "不会被看到",
+	type = 0,
+	is_world = 0,
+	shop_id = -1,
+	replace_item = 0,
+	time_limit = 0,
+	link_id = 0,
+	drop_arg = "",
+	album_config = "",
+	icon = "Props/puzzle",
+	order = 0,
+	rarity = 2,
+	max_num = 0,
+	drop_oil_max = 0,
+	virtual_type = 1,
+	id = 68773,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+
+_G.pg.base.item_virtual_data_statistics[68774] = {
+	drop_gold_max = 0,
+	name = "261124彩蛋拼图4",
+	display = "不会被看到",
+	type = 0,
+	is_world = 0,
+	shop_id = -1,
+	replace_item = 0,
+	time_limit = 0,
+	link_id = 0,
+	drop_arg = "",
+	album_config = "",
+	icon = "Props/puzzle",
+	order = 0,
+	rarity = 2,
+	max_num = 0,
+	drop_oil_max = 0,
+	virtual_type = 1,
+	id = 68774,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -267980,6 +268531,218 @@ _G.pg.base.item_virtual_data_statistics[200866] = {
 		{
 			2,
 			10009,
+			1
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+
+_G.pg.base.item_virtual_data_statistics[200867] = {
+	drop_gold_max = 0,
+	name = "ランダム設計図",
+	display = "一定の確率で下記の設計図を入手できます",
+	type = 99,
+	is_world = 0,
+	shop_id = -1,
+	replace_item = 0,
+	time_limit = 0,
+	link_id = 0,
+	drop_arg = "",
+	album_config = "",
+	icon = "Props/55000",
+	order = 0,
+	rarity = 1,
+	max_num = 0,
+	drop_oil_max = 0,
+	virtual_type = 0,
+	id = 200867,
+	display_icon = {
+		{
+			2,
+			3,
+			1
+		},
+		{
+			2,
+			4,
+			1
+		},
+		{
+			2,
+			77,
+			1
+		},
+		{
+			2,
+			10118,
+			1
+		},
+		{
+			2,
+			10122,
+			1
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+
+_G.pg.base.item_virtual_data_statistics[200868] = {
+	drop_gold_max = 0,
+	name = "ランダム設計図",
+	display = "一定の確率で下記の設計図を入手できます",
+	type = 99,
+	is_world = 0,
+	shop_id = -1,
+	replace_item = 0,
+	time_limit = 0,
+	link_id = 0,
+	drop_arg = "",
+	album_config = "",
+	icon = "Props/55000",
+	order = 0,
+	rarity = 1,
+	max_num = 0,
+	drop_oil_max = 0,
+	virtual_type = 0,
+	id = 200868,
+	display_icon = {
+		{
+			2,
+			10010,
+			1
+		},
+		{
+			2,
+			10009,
+			1
+		},
+		{
+			2,
+			10118,
+			1
+		},
+		{
+			2,
+			10122,
+			1
+		},
+		{
+			2,
+			10116,
+			1
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+
+_G.pg.base.item_virtual_data_statistics[200869] = {
+	drop_gold_max = 0,
+	name = "ランダム設計図",
+	display = "一定の確率で下記の設計図を入手できます",
+	type = 99,
+	is_world = 0,
+	shop_id = -1,
+	replace_item = 0,
+	time_limit = 0,
+	link_id = 0,
+	drop_arg = "",
+	album_config = "",
+	icon = "Props/55000",
+	order = 0,
+	rarity = 1,
+	max_num = 0,
+	drop_oil_max = 0,
+	virtual_type = 0,
+	id = 200869,
+	display_icon = {
+		{
+			2,
+			10010,
+			1
+		},
+		{
+			2,
+			10009,
+			1
+		},
+		{
+			2,
+			10118,
+			1
+		},
+		{
+			2,
+			10113,
+			1
+		},
+		{
+			2,
+			11043,
+			1
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+
+_G.pg.base.item_virtual_data_statistics[200870] = {
+	drop_gold_max = 0,
+	name = "ランダム設計図",
+	display = "一定の確率で下記の設計図を入手できます",
+	type = 99,
+	is_world = 0,
+	shop_id = -1,
+	replace_item = 0,
+	time_limit = 0,
+	link_id = 0,
+	drop_arg = "",
+	album_config = "",
+	icon = "Props/55000",
+	order = 0,
+	rarity = 1,
+	max_num = 0,
+	drop_oil_max = 0,
+	virtual_type = 0,
+	id = 200870,
+	display_icon = {
+		{
+			2,
+			10010,
+			1
+		},
+		{
+			2,
+			10009,
+			1
+		},
+		{
+			2,
+			10118,
+			1
+		},
+		{
+			2,
+			10113,
+			1
+		},
+		{
+			2,
+			11043,
 			1
 		}
 	},

@@ -270,6 +270,10 @@ pg.activity_limit_item_guide.all = {
 	306,
 	307,
 	308,
+	309,
+	310,
+	311,
+	312,
 	313
 }
 pg.activity_limit_item_guide.get_id_list_by_activity = {
@@ -538,6 +542,12 @@ pg.activity_limit_item_guide.get_id_list_by_activity = {
 		307,
 		308,
 		313
+	},
+	[51410] = {
+		309,
+		310,
+		311,
+		312
 	},
 	[51615] = {
 		251,
@@ -5689,6 +5699,76 @@ end)()
 				3,
 				51303,
 				"「開幕！天使たちのアズールステージ」-「天使たちのステージL」イベント報酬"
+			}
+		}
+	}
+	pg.base.activity_limit_item_guide[309] = {
+		is_new = 1,
+		activity = 51410,
+		count = 1,
+		type = 3,
+		order = 0,
+		id = 309,
+		drop_id = 151320,
+		count_storage = 0,
+		link_params = {
+			{
+				3,
+				51404,
+				"「真理学園の転校生」- 「累計Pt」イベント報酬"
+			}
+		}
+	}
+	pg.base.activity_limit_item_guide[310] = {
+		is_new = 1,
+		activity = 51410,
+		count = 1,
+		type = 9,
+		order = 0,
+		id = 310,
+		drop_id = 4492,
+		count_storage = 0,
+		link_params = {
+			{
+				2,
+				{
+					"bossrush main"
+				},
+				"「真理学園の転校生」のストーリーモードをクリア"
+			}
+		}
+	}
+	pg.base.activity_limit_item_guide[311] = {
+		is_new = 1,
+		activity = 51410,
+		count = 4,
+		type = 4,
+		order = 0,
+		id = 311,
+		drop_id = 705111,
+		count_storage = 0,
+		link_params = {
+			{
+				3,
+				51404,
+				"「真理学園の転校生」- 「累計Pt」イベント報酬"
+			}
+		}
+	}
+	pg.base.activity_limit_item_guide[312] = {
+		is_new = 1,
+		activity = 51410,
+		count = 1,
+		type = 8,
+		order = 0,
+		id = 312,
+		drop_id = 66122,
+		count_storage = 0,
+		link_params = {
+			{
+				3,
+				51402,
+				"「真理学園の転校生」- イベント画面右上の「実績」で各種任務をクリア"
 			}
 		}
 	}

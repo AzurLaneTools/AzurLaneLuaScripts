@@ -56,6 +56,10 @@ pg.ship_meta_breakout.all = {
 	9701132,
 	9701133,
 	9701134,
+	9701141,
+	9701142,
+	9701143,
+	9701144,
 	9702011,
 	9702012,
 	9702013,
@@ -1092,6 +1096,69 @@ pg.base.ship_meta_breakout = {}
 		level = 0,
 		weapon_ids = {}
 	}
+	pg.base.ship_meta_breakout[9701141] = {
+		breakout_view = "スキル【焔追の灰-ケルサン】習得/主砲補正+5%",
+		item2 = 21067,
+		pre_id = 0,
+		repair = 0,
+		gold = 500,
+		breakout_id = 9701142,
+		item1_num = 1,
+		item2_num = 0,
+		id = 9701141,
+		item1 = 21067,
+		level = 10,
+		weapon_ids = {
+			171201
+		}
+	}
+	pg.base.ship_meta_breakout[9701142] = {
+		breakout_view = "魚雷装填数+1/開始時魚雷+1/主砲補正+10%",
+		item2 = 21067,
+		pre_id = 9701141,
+		repair = 0,
+		gold = 1500,
+		breakout_id = 9701143,
+		item1_num = 1,
+		item2_num = 0,
+		id = 9701142,
+		item1 = 21067,
+		level = 30,
+		weapon_ids = {
+			106,
+			106
+		}
+	}
+	pg.base.ship_meta_breakout[9701143] = {
+		breakout_view = "【焔追の灰-ケルサン】強化/武器補正+5%",
+		item2 = 21067,
+		pre_id = 9701142,
+		repair = 0,
+		gold = 2500,
+		breakout_id = 9701144,
+		item1_num = 2,
+		item2_num = 0,
+		id = 9701143,
+		item1 = 21067,
+		level = 70,
+		weapon_ids = {
+			171202
+		}
+	}
+	pg.base.ship_meta_breakout[9701144] = {
+		breakout_view = "なし",
+		item2 = 21067,
+		pre_id = 9701143,
+		repair = 0,
+		gold = 0,
+		breakout_id = 0,
+		item1_num = 0,
+		item2_num = 0,
+		id = 9701144,
+		item1 = 21067,
+		level = 0,
+		weapon_ids = {}
+	}
 	pg.base.ship_meta_breakout[9702011] = {
 		breakout_view = "【炬火の力-ヘレナ】習得/主砲補正+5%",
 		item2 = 21001,
@@ -1785,6 +1852,8 @@ pg.base.ship_meta_breakout = {}
 		level = 0,
 		weapon_ids = {}
 	}
+end)()
+(function ()
 	pg.base.ship_meta_breakout[9702121] = {
 		breakout_view = "スキル【焔追の灰・ケーニヒスベルク】習得/武器補正+2%",
 		item2 = 21060,
@@ -1848,8 +1917,6 @@ pg.base.ship_meta_breakout = {}
 		level = 0,
 		weapon_ids = {}
 	}
-end)()
-(function ()
 	pg.base.ship_meta_breakout[9702131] = {
 		breakout_view = "スキル【焔追の灰・ニュルンベルク】習得/武器補正+2%",
 		item2 = 21060,
@@ -3425,6 +3492,8 @@ end)()
 		level = 0,
 		weapon_ids = {}
 	}
+end)()
+(function ()
 	pg.base.ship_meta_breakout[9706021] = {
 		breakout_view = "【炬火の力-隼鷹】習得/爆撃機数+1/艦載機補正+3%",
 		item2 = 21001,
@@ -3494,8 +3563,6 @@ end)()
 		level = 0,
 		weapon_ids = {}
 	}
-end)()
-(function ()
 	pg.base.ship_meta_breakout[9706031] = {
 		breakout_view = "【炬火の力-プリンストン】習得/戦闘機数+1/戦闘機補正+5%",
 		item2 = 21001,

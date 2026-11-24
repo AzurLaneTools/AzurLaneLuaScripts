@@ -290,6 +290,8 @@ pg.memory_group.all = {
 	382,
 	383,
 	384,
+	385,
+	386,
 	501,
 	502,
 	503,
@@ -7794,6 +7796,52 @@ end)()
 			5643
 		}
 	}
+	pg.base.memory_group[385] = {
+		ship_group = 0,
+		icon = "title_event",
+		type = 2,
+		link_event = 51402,
+		title = "真理学園の転校生",
+		auto_unlock = "",
+		subtype = 2,
+		id = 385,
+		group_id = "",
+		memories = {
+			5651,
+			5652,
+			5653,
+			5654,
+			5655,
+			5656,
+			5657,
+			5658,
+			5659,
+			5660,
+			5661,
+			5662,
+			5663,
+			5664,
+			5665,
+			5666,
+			5667
+		}
+	}
+	pg.base.memory_group[386] = {
+		ship_group = 0,
+		icon = "title_event",
+		type = 2,
+		link_event = 51412,
+		title = "着せ替え特集：秋の水世界",
+		auto_unlock = "",
+		subtype = 3,
+		id = 386,
+		group_id = "",
+		memories = {
+			5671,
+			5672,
+			5673
+		}
+	}
 	pg.base.memory_group[501] = {
 		ship_group = 31201,
 		icon = "title_chara_mingshi",
@@ -8069,6 +8117,8 @@ end)()
 			10000
 		}
 	}
+end)()
+(function ()
 	pg.base.memory_group[513] = {
 		ship_group = 40146,
 		icon = "title_chara_z46",
@@ -8113,8 +8163,6 @@ end)()
 			10000
 		}
 	}
-end)()
-(function ()
 	pg.base.memory_group[516] = {
 		ship_group = 80201,
 		icon = "title_chara_aimier",
@@ -10271,6 +10319,8 @@ end)()
 			10000
 		}
 	}
+end)()
+(function ()
 	pg.base.memory_group[615] = {
 		ship_group = 960014,
 		icon = "title_chara_zhenzhuhao",
@@ -10315,8 +10365,6 @@ end)()
 			10000
 		}
 	}
-end)()
-(function ()
 	pg.base.memory_group[617] = {
 		ship_group = 10233,
 		icon = "title_chara_fage",

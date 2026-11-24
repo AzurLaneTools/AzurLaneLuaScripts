@@ -99,7 +99,7 @@ pg.login.all = {
 	101,
 	102,
 	105,
-	107
+	106
 }
 pg.base = pg.base or {}
 pg.base.login = {}
@@ -3665,13 +3665,12 @@ pg.base.login = {}
 			}
 		}
 	}
-	pg.base.login[107] = {
-		op_play = 0,
-		op_time = "stop",
+	pg.base.login[106] = {
+		op_play = 1,
 		effective_channel = 0,
-		id = 107,
-		login_static = "",
-		login_cri = "loginbgJP_261119",
+		id = 106,
+		login_static = "login",
+		login_cri = "",
 		bgm = "",
 		date = {
 			"timer",
@@ -3679,7 +3678,7 @@ pg.base.login = {}
 				{
 					2026,
 					11,
-					19
+					24
 				},
 				{
 					0,
@@ -3690,8 +3689,35 @@ pg.base.login = {}
 			{
 				{
 					2026,
+					12,
+					10
+				},
+				{
+					16,
+					0,
+					0
+				}
+			}
+		},
+		op_time = {
+			"timer",
+			{
+				{
+					2026,
 					11,
 					24
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2026,
+					12,
+					10
 				},
 				{
 					16,

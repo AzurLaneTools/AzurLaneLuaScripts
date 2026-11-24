@@ -4,6 +4,9 @@ slot0.register = function(slot0)
 	slot0.eventDic = {}
 	slot0.countDownList = {}
 	slot0.lastFlushTime = 0
+	slot0.dirty = false
+	slot0.flushing = false
+	slot0.flushingTime = 0
 
 	slot0:on(13002, function (slot0)
 		uv0.maxFleetNums = slot0.max_team
@@ -345,6 +348,47 @@ end
 
 slot0.CanStartEvent = function(slot0)
 	return slot0:countBusyFleetNums() < slot0.maxFleetNums
+end
+
+slot0.SetDirty = function(slot0, slot1)
+	slot0.dirty = slot1
+end
+
+slot0.IsDirty = function(slot0)
+	return slot0.dirty
+end
+
+slot1 = 30
+
+slot0.SetFlushing = function(slot0, slot1)
+	slot0.flushing = slot1
+	slot0.flushingTime = slot1 and pg.TimeMgr.GetInstance():GetServerTime() or 0
+end
+
+slot0.IsFlushing = function(slot0)
+	return slot0.flushing and pg.TimeMgr.GetInstance():GetServerTime() - slot0.flushingTime < uv0
+end
+
+slot0.FlushIfDirty = function(slot0)
+	if slot0.dirty then
+		slot0.facade:sendNotification(GAME.EVENT_FLUSH_ALL)
+	end
+end
+
+slot0.SendEventRequest = function(slot0, slot1, slot2, slot3, slot4)
+	slot0:SetDirty(true)
+
+	slot5 = pg.ConnectionMgr.GetInstance()
+
+	slot5:Send(slot1, slot2, slot3, function (slot0)
+		if slot0.result == 0 then
+			uv0:SetDirty(false)
+		else
+			uv0.facade:sendNotification(GAME.EVENT_FLUSH_ALL)
+		end
+
+		uv1(slot0)
+	end)
 end
 
 return slot0

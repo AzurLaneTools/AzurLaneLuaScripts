@@ -24,7 +24,9 @@ slot0.execute = function(slot0, slot1)
 					[ChapterAutoProxy.TYPE.WORLD] = function ()
 						return uv0 and "world_auto_plan_error_tip6" or "world_auto_plan_cancel_tip"
 					end
-				})),
+				}, function ()
+					return "auto_battle_ing_stop_tips"
+				end)),
 				onYes = slot0
 			})
 		end)
@@ -117,6 +119,17 @@ slot0.Send = function(slot0, slot1, slot2, slot3, slot4, slot5, slot6, slot7, sl
 						uv4 = true
 
 						slot0:updateRemasterTicketsNum(math.min(slot0.remasterTickets + uv3 * slot0:getRemasterTicketCost(), pg.gameset.reactivity_ticket_max.key_value))
+					end
+				end,
+				[ChapterAutoProxy.TYPE.RUSH] = function ()
+					slot1 = pg.activity_series_enemy_auto[uv0].link_id
+
+					getProxy(ChapterProxy):addRemasterPassCount(uv0, slot1, uv1)
+
+					slot2 = BossRushChapterRemasterHelper.GetRemasterByActivityId(slot1) ~= nil
+
+					if uv2 > 0 and slot2 then
+						slot0:updateRemasterTicketsNum(math.min(slot0.remasterTickets + uv2 * BossRushChapterRemasterHelper.GetPermanentActivityTicketCost(slot1, uv0), pg.gameset.reactivity_ticket_max.key_value))
 					end
 				end
 			})

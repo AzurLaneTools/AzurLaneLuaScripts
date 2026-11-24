@@ -293,7 +293,11 @@ end
 slot0.listNotificationInterests = function(slot0)
 	return {
 		GAME.COMMANDER_ACTIVITY_FORMATION_OP_DONE,
-		BossRushPreCombatMediator.ON_FLEET_REFRESHED
+		BossRushPreCombatMediator.ON_FLEET_REFRESHED,
+		GAME.START_CHAPTER_AUTO_DONE,
+		GAME.END_CHAPTER_AUTO_DONE,
+		GAME.ADD_CHAPTER_AUTO_TIME_DONE,
+		GAME.ZERO_HOUR_OP_DONE
 	}
 end
 
@@ -306,6 +310,12 @@ slot0.handleNotification = function(slot0, slot1)
 		slot0.viewComponent:updateEliteFleets()
 	elseif slot2 == BossRushPreCombatMediator.ON_FLEET_REFRESHED then
 		slot0.viewComponent:updateEliteFleets()
+	elseif slot2 == GAME.START_CHAPTER_AUTO_DONE then
+		slot0.viewComponent:closeView()
+	elseif slot2 == GAME.ADD_CHAPTER_AUTO_TIME_DONE then
+		slot0.viewComponent:RefreshChapterAutoPanel()
+	elseif slot2 == GAME.ZERO_HOUR_OP_DONE then
+		slot0.viewComponent:RefreshChapterAutoPanel()
 	end
 end
 

@@ -386,7 +386,19 @@ slot0.RegisterShareToggle = function(slot0)
 	end, SFX_PANEL)
 end
 
+slot0.OnOpenSkinCouponMultiMsgBox = function(slot0, slot1)
+	slot0.skinCouponMultiMsgBox = slot0.skinCouponMultiMsgBox or SkinCouponMultiMsgBox.New(pg.UIMgr.GetInstance().OverlayMain, slot0)
+
+	slot0.skinCouponMultiMsgBox:ExecuteAction("Show", slot1 or {})
+end
+
 slot0.OnDestroy = function(slot0)
+	if slot0.skinCouponMultiMsgBox then
+		slot0.skinCouponMultiMsgBox:Destroy()
+
+		slot0.skinCouponMultiMsgBox = nil
+	end
+
 	setParent(slot0.phantomBtn, slot0._tf)
 
 	if slot0.fashionDetailWrapper then

@@ -1,10 +1,10 @@
 return {
 	uiEffect = "",
-	name = "庞德喵：战列-指挥-炮击II+战列-指挥-命中II",
+	name = "庞德喵：战列-指挥-炮击II+战列-指挥-防空II",
 	cd = 0,
 	picture = "0",
 	aniEffect = "",
-	desc = "庞德喵：战列-指挥-炮击II+战列-指挥-命中II",
+	desc = "庞德喵：战列-指挥-炮击II+战列-指挥-防空II",
 	painting = 1,
 	id = 40240,
 	effect_list = {

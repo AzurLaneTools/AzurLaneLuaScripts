@@ -4,7 +4,7 @@ return {
 	init_effect = "",
 	id = 40311,
 	picture = "",
-	desc = "战列受到炮击减伤,+装填",
+	desc = "战列受到伤害降低,+装填",
 	stack = 1,
 	color = "yellow",
 	icon = 40310,
@@ -18,7 +18,7 @@ return {
 			arg_list = {
 				ability = "support",
 				convertRate = -0.00025,
-				convertAttr = "injureRatioByCannon"
+				convertAttr = "injureRatio"
 			}
 		},
 		{

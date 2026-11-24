@@ -1107,7 +1107,6 @@ pg.activity_template.all = {
 	51615,
 	51616,
 	51163,
-	7000,
 	51301,
 	51302,
 	51303,
@@ -1115,8 +1114,22 @@ pg.activity_template.all = {
 	51305,
 	51306,
 	51307,
+	51401,
+	51402,
+	51403,
+	51404,
+	51405,
+	51406,
+	51407,
+	51408,
+	51409,
+	51410,
+	51412,
+	51413,
 	51688,
+	51689,
 	51690,
+	7000,
 	7011,
 	7012,
 	7013,
@@ -1138,6 +1151,7 @@ pg.activity_template.all = {
 	7029,
 	7030,
 	7031,
+	7032,
 	7104,
 	7303,
 	7501,
@@ -1160,6 +1174,8 @@ pg.activity_template.all = {
 	8112,
 	8125,
 	8126,
+	8140,
+	8141,
 	6042,
 	10006,
 	10056,
@@ -1708,6 +1724,7 @@ pg.activity_template.get_id_list_by_type = {
 		51103,
 		51147,
 		51612,
+		51401,
 		50012,
 		50053,
 		50062,
@@ -1772,6 +1789,7 @@ pg.activity_template.get_id_list_by_type = {
 		8100,
 		8111,
 		8125,
+		8140,
 		50002,
 		50070,
 		50117,
@@ -2157,6 +2175,10 @@ pg.activity_template.get_id_list_by_type = {
 		51301,
 		51306,
 		51307,
+		51405,
+		51406,
+		51409,
+		51689,
 		51690,
 		10138,
 		980001,
@@ -2382,6 +2404,7 @@ pg.activity_template.get_id_list_by_type = {
 		51138,
 		51157,
 		51603,
+		51407,
 		50009,
 		50019,
 		50051,
@@ -2600,6 +2623,7 @@ pg.activity_template.get_id_list_by_type = {
 		5788,
 		5879,
 		50810,
+		51413,
 		50422,
 		50493
 	},
@@ -2671,6 +2695,7 @@ pg.activity_template.get_id_list_by_type = {
 		51140,
 		51610,
 		51614,
+		51408,
 		50010,
 		50020,
 		50047,
@@ -2719,6 +2744,7 @@ pg.activity_template.get_id_list_by_type = {
 		8101,
 		8112,
 		8126,
+		8141,
 		50045,
 		50122,
 		50218
@@ -2834,7 +2860,8 @@ pg.activity_template.get_id_list_by_type = {
 		7028,
 		7029,
 		7030,
-		7031
+		7031,
+		7032
 	},
 	[55] = {
 		5010,
@@ -3206,6 +3233,7 @@ pg.activity_template.get_id_list_by_type = {
 		5911,
 		6040,
 		50662,
+		51412,
 		50084,
 		50235,
 		50290,
@@ -3280,6 +3308,7 @@ pg.activity_template.get_id_list_by_type = {
 		50521,
 		50522,
 		51071,
+		51402,
 		50013,
 		50351
 	},
@@ -3287,6 +3316,7 @@ pg.activity_template.get_id_list_by_type = {
 		5403,
 		5889,
 		51072,
+		51403,
 		50014,
 		50352
 	},
@@ -3309,6 +3339,7 @@ pg.activity_template.get_id_list_by_type = {
 		51152,
 		51615,
 		51302,
+		51410,
 		50064,
 		50066,
 		50155,
@@ -3457,6 +3488,7 @@ pg.activity_template.get_id_list_by_type = {
 	},
 	[174] = {
 		51607,
+		51404,
 		1000001,
 		1000021,
 		1000041,
@@ -36840,49 +36872,6 @@ end)()
 			}
 		}
 	}
-	pg.base.activity_template[7000] = {
-		mark = 20261119,
-		type = 0,
-		login_pop = 0,
-		config_id = 0,
-		is_show = 1,
-		config_client = "",
-		title_res_tag = "VeritasAcademyCoreActivity_subtitle_4",
-		id = 7000,
-		page_core = "",
-		config_data = {},
-		time = {
-			"timer",
-			{
-				{
-					2026,
-					11,
-					19
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2026,
-					12,
-					3
-				},
-				{
-					16,
-					0,
-					0
-				}
-			}
-		},
-		page_info = {
-			class_name = "LevelDropUpPage",
-			ui_name = "LevelDropUpPage"
-		}
-	}
 	pg.base.activity_template[51301] = {
 		mark = 20261112,
 		type = 13,
@@ -37314,6 +37303,628 @@ end)()
 			}
 		}
 	}
+	pg.base.activity_template[51401] = {
+		mark = 20261124,
+		page_info = "",
+		type = 1,
+		login_pop = 0,
+		config_id = 4,
+		is_show = 0,
+		title_res_tag = "",
+		id = 51401,
+		page_core = "",
+		config_data = {
+			{
+				702131,
+				200
+			},
+			{
+				705101,
+				200
+			}
+		},
+		time = {
+			"timer",
+			{
+				{
+					2026,
+					11,
+					24
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2026,
+					12,
+					10
+				},
+				{
+					16,
+					0,
+					0
+				}
+			}
+		},
+		config_client = {
+			id = 4,
+			bg = "loadingbg/bg_build_4_act",
+			buildship_tip = "「モロトフ」「シノープ」 出現確率アップ！",
+			rate_tip = {
+				"<color=#ffde38>SSレア</color>：7%",
+				"<color=#d797ff>Sレア</color>：12%",
+				"<color=#3dc6ff>レア</color>：51%",
+				"ノーマル：30%",
+				"<color=#ffde38>モロトフ</color>：2%(<color=#92fc63>up!</color>)",
+				" ",
+				"<color=#ffde38>シノープ</color>：2%(<color=#92fc63>up!</color>)"
+			}
+		}
+	}
+	pg.base.activity_template[51402] = {
+		mark = 20261124,
+		type = 93,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 1,
+		title_res_tag = "VeritasAcademyCoreActivity_subtitle_1",
+		id = 51402,
+		page_core = "VeritasAcademyCoreActivityUI",
+		config_data = {
+			7001,
+			7002,
+			7003,
+			7004,
+			7005
+		},
+		time = {
+			"timer",
+			{
+				{
+					2026,
+					11,
+					24
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2026,
+					12,
+					10
+				},
+				{
+					16,
+					0,
+					0
+				}
+			}
+		},
+		page_info = {
+			class_name = "VeritasAcademyMainPage",
+			ui_name = "VeritasAcademyMainPage"
+		},
+		config_client = {
+			is_showMedal = true,
+			shopItemID = 71427,
+			medal_group_id = 51409,
+			mediator = "BossRushVeritasAcademyMediator",
+			PTID = 66133,
+			scene = "BossRushVeritasAcademyScene",
+			task_id = 29207,
+			entrance_bg = "activitybanner/temp10",
+			tasks = {
+				29207
+			},
+			storys = {
+				188,
+				189,
+				190,
+				191,
+				192,
+				193,
+				194,
+				195,
+				196,
+				197,
+				198,
+				199,
+				200,
+				201,
+				202,
+				203,
+				204
+			},
+			storybg = {},
+			levelbg = {},
+			storybgm = {
+				{
+					1,
+					"story-richang-afterschool"
+				}
+			}
+		}
+	}
+	pg.base.activity_template[51403] = {
+		mark = 20261124,
+		page_info = "",
+		type = 94,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 0,
+		config_data = "0",
+		config_client = "",
+		title_res_tag = "",
+		id = 51403,
+		page_core = "",
+		time = {
+			"timer",
+			{
+				{
+					2026,
+					11,
+					24
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2026,
+					12,
+					10
+				},
+				{
+					16,
+					0,
+					0
+				}
+			}
+		}
+	}
+	pg.base.activity_template[51404] = {
+		mark = 20261124,
+		type = 174,
+		login_pop = 0,
+		config_id = 51404,
+		is_show = 2,
+		title_res_tag = "VeritasAcademyCoreActivity_subtitle_2",
+		id = 51404,
+		page_core = "VeritasAcademyCoreActivityUI",
+		config_data = {},
+		time = {
+			"timer",
+			{
+				{
+					2026,
+					11,
+					24
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2026,
+					12,
+					15
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		page_info = {
+			class_name = "VeritasAcademyPtPage",
+			ui_name = "VeritasAcademyPtPage"
+		},
+		config_client = {
+			highValueItemSort = {
+				11,
+				19,
+				23,
+				29,
+				33,
+				37
+			}
+		}
+	}
+	pg.base.activity_template[51405] = {
+		mark = 20261124,
+		page_info = "",
+		type = 13,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 0,
+		config_client = "",
+		title_res_tag = "",
+		id = 51405,
+		page_core = "",
+		config_data = {
+			29201,
+			29202,
+			29203,
+			29204,
+			29205,
+			29206,
+			29207,
+			29208,
+			29209,
+			29210,
+			29211
+		},
+		time = {
+			"timer",
+			{
+				{
+					2026,
+					11,
+					24
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2026,
+					12,
+					10
+				},
+				{
+					16,
+					0,
+					0
+				}
+			}
+		}
+	}
+	pg.base.activity_template[51406] = {
+		mark = 20261124,
+		page_info = "",
+		time = "stop",
+		type = 13,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 0,
+		config_client = "",
+		title_res_tag = "",
+		id = 51406,
+		page_core = "",
+		config_data = {
+			23888
+		}
+	}
+	pg.base.activity_template[51407] = {
+		mark = 20261124,
+		page_info = "",
+		type = 16,
+		login_pop = 0,
+		config_id = 66133,
+		is_show = 0,
+		config_client = "",
+		title_res_tag = "",
+		id = 51407,
+		page_core = "",
+		config_data = {
+			8,
+			100
+		},
+		time = {
+			"timer",
+			{
+				{
+					2026,
+					11,
+					24
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2026,
+					12,
+					10
+				},
+				{
+					16,
+					0,
+					0
+				}
+			}
+		}
+	}
+	pg.base.activity_template[51408] = {
+		mark = 20261124,
+		page_info = "",
+		type = 27,
+		login_pop = 0,
+		config_id = 1,
+		is_show = 0,
+		config_client = "",
+		title_res_tag = "",
+		id = 51408,
+		page_core = "",
+		config_data = {
+			{
+				31916,
+				100
+			}
+		},
+		time = {
+			"timer",
+			{
+				{
+					2026,
+					11,
+					24
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2026,
+					12,
+					9
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	}
+	pg.base.activity_template[51409] = {
+		mark = 20261124,
+		page_info = "",
+		type = 13,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 0,
+		config_client = "",
+		title_res_tag = "",
+		id = 51409,
+		page_core = "",
+		config_data = {
+			25748,
+			25749,
+			25750,
+			25751,
+			25752,
+			25753,
+			25754,
+			25755,
+			25756
+		},
+		time = {
+			"timer",
+			{
+				{
+					2026,
+					11,
+					24
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2026,
+					12,
+					15
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	}
+	pg.base.activity_template[51410] = {
+		mark = 20261124,
+		type = 103,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 3,
+		title_res_tag = "VeritasAcademyCoreActivity_subtitle_4",
+		id = 51410,
+		page_core = "VeritasAcademyCoreActivityUI",
+		config_data = {},
+		time = {
+			"timer",
+			{
+				{
+					2026,
+					11,
+					24
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2026,
+					12,
+					10
+				},
+				{
+					16,
+					0,
+					0
+				}
+			}
+		},
+		page_info = {
+			class_name = "VeritasAcademyCollectPage",
+			ui_name = "VeritasAcademyCollectPage",
+			sub_ui = {
+				"VeritasAcademyCollectMsgBox"
+			}
+		},
+		config_client = {
+			furniture_theme_link = {
+				2,
+				{
+					"scene court yard",
+					{}
+				}
+			},
+			equipskin_box_link = {
+				drop_type = 2,
+				drop_id = 30390,
+				list = {
+					{
+						2,
+						{
+							"scene shop",
+							{
+								warp = "shopstreet"
+							}
+						},
+						"ショップ交換"
+					}
+				}
+			}
+		}
+	}
+	pg.base.activity_template[51412] = {
+		mark = 20261124,
+		type = 86,
+		login_pop = 0,
+		config_id = 1,
+		is_show = 4,
+		title_res_tag = "VeritasAcademyCoreActivity_subtitle_3",
+		id = 51412,
+		page_core = "VeritasAcademyCoreActivityUI",
+		config_data = {
+			27820,
+			27821,
+			27822
+		},
+		time = {
+			"timer",
+			{
+				{
+					2026,
+					11,
+					24
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2026,
+					12,
+					9
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		page_info = {
+			class_name = "VeritasAcademySkinMagazinePage",
+			ui_name = "VeritasAcademySkinMagazinePage"
+		},
+		config_client = {
+			story = {
+				{
+					"SHISHANGTEKANMEILISHUISHIJIE2"
+				},
+				{
+					"SHISHANGTEKANMEILISHUISHIJIE1"
+				},
+				{
+					"SHISHANGTEKANMEILISHUISHIJIE3"
+				}
+			}
+		}
+	}
+	pg.base.activity_template[51413] = {
+		mark = 20261124,
+		page_info = "",
+		type = 21,
+		login_pop = 0,
+		config_id = 3,
+		is_show = 0,
+		config_client = "",
+		title_res_tag = "",
+		id = 51413,
+		page_core = "",
+		config_data = {
+			68771,
+			68772,
+			68773,
+			68774
+		},
+		time = {
+			"timer",
+			{
+				{
+					2026,
+					11,
+					24
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2027,
+					1,
+					7
+				},
+				{
+					16,
+					0,
+					0
+				}
+			}
+		}
+	}
 	pg.base.activity_template[51688] = {
 		mark = 20261105,
 		type = 69,
@@ -37359,6 +37970,48 @@ end)()
 			itemid = 42065
 		}
 	}
+	pg.base.activity_template[51689] = {
+		mark = 20261124,
+		page_info = "",
+		type = 13,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 0,
+		config_client = "",
+		title_res_tag = "",
+		id = 51689,
+		page_core = "",
+		config_data = {
+			29212
+		},
+		time = {
+			"timer",
+			{
+				{
+					2026,
+					11,
+					24
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2026,
+					12,
+					9
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	}
 	pg.base.activity_template[51690] = {
 		mark = 20261119,
 		page_info = "",
@@ -37399,6 +38052,49 @@ end)()
 					59
 				}
 			}
+		}
+	}
+	pg.base.activity_template[7000] = {
+		mark = 20261119,
+		type = 0,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 1,
+		config_client = "",
+		title_res_tag = "VeritasAcademyCoreActivity_subtitle_4",
+		id = 7000,
+		page_core = "",
+		config_data = {},
+		time = {
+			"timer",
+			{
+				{
+					2026,
+					11,
+					19
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2026,
+					12,
+					3
+				},
+				{
+					16,
+					0,
+					0
+				}
+			}
+		},
+		page_info = {
+			class_name = "LevelDropUpPage",
+			ui_name = "LevelDropUpPage"
 		}
 	}
 	pg.base.activity_template[7011] = {
@@ -38646,6 +39342,59 @@ end)()
 			ui_name = "CrusingDisplayActPage31"
 		}
 	}
+	pg.base.activity_template[7032] = {
+		mark = 20261124,
+		type = 54,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 14,
+		config_client = "",
+		title_res_tag = "CrusingDisplayAct",
+		id = 7032,
+		page_core = "",
+		config_data = {
+			310,
+			311,
+			312,
+			313,
+			314,
+			315,
+			316,
+			317,
+			318
+		},
+		time = {
+			"timer",
+			{
+				{
+					2026,
+					12,
+					1
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2027,
+					1,
+					31
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		page_info = {
+			class_name = "CrusingDisplayActPage2",
+			ui_name = "CrusingDisplayActPage32"
+		}
+	}
 	pg.base.activity_template[7104] = {
 		mark = 20240926,
 		page_info = "",
@@ -38700,7 +39449,9 @@ end)()
 			12050,
 			12051,
 			12052,
-			12053
+			12053,
+			12054,
+			12055
 		},
 		config_client = {
 			"commonbg/meta_shop_bg",
@@ -39741,6 +40492,91 @@ end)()
 					2026,
 					5,
 					7
+				},
+				{
+					16,
+					0,
+					0
+				}
+			}
+		}
+	}
+	pg.base.activity_template[8140] = {
+		mark = 20261124,
+		type = 3,
+		login_pop = 0,
+		config_id = 111,
+		is_show = 51,
+		config_client = "",
+		title_res_tag = "newserver_main",
+		id = 8140,
+		page_core = "",
+		config_data = {},
+		time = {
+			"timer",
+			{
+				{
+					2026,
+					11,
+					24
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2026,
+					12,
+					16
+				},
+				{
+					16,
+					0,
+					0
+				}
+			}
+		},
+		page_info = {
+			class_name = "NewServerLoginPage",
+			ui_name = "NewServerLoginPage"
+		}
+	}
+	pg.base.activity_template[8141] = {
+		mark = 20261124,
+		page_info = "",
+		type = 30,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 0,
+		config_client = "",
+		title_res_tag = "",
+		id = 8141,
+		page_core = "",
+		config_data = {
+			103
+		},
+		time = {
+			"timer",
+			{
+				{
+					2026,
+					11,
+					24
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2026,
+					12,
+					16
 				},
 				{
 					16,
@@ -41021,6 +41857,8 @@ end)()
 			}
 		}
 	}
+end)()
+(function ()
 	pg.base.activity_template[50014] = {
 		mark = 20250626,
 		page_info = "",
@@ -41701,8 +42539,6 @@ end)()
 			}
 		}
 	}
-end)()
-(function ()
 	pg.base.activity_template[50045] = {
 		mark = 20250724,
 		page_info = "",
@@ -45204,6 +46040,8 @@ end)()
 		page_core = "",
 		config_data = {}
 	}
+end)()
+(function ()
 	pg.base.activity_template[50163] = {
 		mark = 20251009,
 		time = "stop",
@@ -45745,8 +46583,6 @@ end)()
 			}
 		}
 	}
-end)()
-(function ()
 	pg.base.activity_template[50184] = {
 		mark = 20251023,
 		page_info = "",
@@ -48932,6 +49768,8 @@ end)()
 			}
 		}
 	}
+end)()
+(function ()
 	pg.base.activity_template[50324] = {
 		mark = 20260115,
 		page_info = "",
@@ -49692,8 +50530,6 @@ end)()
 			}
 		}
 	}
-end)()
-(function ()
 	pg.base.activity_template[50344] = {
 		mark = 20260115,
 		page_info = "",
@@ -53534,6 +54370,8 @@ end)()
 			ui_name = "MaoxiV5FramePage"
 		}
 	}
+end)()
+(function ()
 	pg.base.activity_template[50471] = {
 		mark = 20260312,
 		type = 18,
@@ -54309,8 +55147,6 @@ end)()
 			25333
 		}
 	}
-end)()
-(function ()
 	pg.base.activity_template[50489] = {
 		mark = 20260326,
 		page_info = "",
@@ -57382,6 +58218,8 @@ end)()
 		page_core = "",
 		config_data = {}
 	}
+end)()
+(function ()
 	pg.base.activity_template[1000058] = {
 		mark = 20261008,
 		page_info = "",
@@ -57848,8 +58686,6 @@ end)()
 			}
 		}
 	}
-end)()
-(function ()
 	pg.base.activity_template[1000082] = {
 		mark = 20261008,
 		page_info = "",

@@ -4452,6 +4452,26 @@ pg.memory_template.all = {
 	5641,
 	5642,
 	5643,
+	5651,
+	5652,
+	5653,
+	5654,
+	5655,
+	5656,
+	5657,
+	5658,
+	5659,
+	5660,
+	5661,
+	5662,
+	5663,
+	5664,
+	5665,
+	5666,
+	5667,
+	5671,
+	5672,
+	5673,
 	10000,
 	10001,
 	10002,
@@ -84910,6 +84930,366 @@ end)()
 			"SHISHANGTEKANXINDONGZHENLIAOSHIJIAN3"
 		}
 	}
+	pg.base.memory_template[5651] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 1,
+		number = 1,
+		title = "美少女ゲーム、スタート！",
+		condition = "EPS-1開始",
+		story = "ZHENLIXUEYUANDEZHUANXIAOSHENG1",
+		mask = "bg/bg_memory",
+		task = 0,
+		year = 0,
+		id = 5651,
+		icon = "memory_zhenlixueyuandezhuanxiaosheng1",
+		is_open = 0,
+		unlock_pre = {
+			"ZHENLIXUEYUANDEZHUANXIAOSHENG1"
+		}
+	}
+	pg.base.memory_template[5652] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 1,
+		number = 2,
+		title = "入学初日",
+		condition = "EPS-2開始",
+		story = "ZHENLIXUEYUANDEZHUANXIAOSHENG2",
+		mask = "bg/bg_memory",
+		task = 0,
+		year = 0,
+		id = 5652,
+		icon = "memory_zhenlixueyuandezhuanxiaosheng1",
+		is_open = 0,
+		unlock_pre = {
+			"ZHENLIXUEYUANDEZHUANXIAOSHENG2"
+		}
+	}
+	pg.base.memory_template[5653] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 1,
+		number = 3,
+		title = "協力者",
+		condition = "EPS-3開始",
+		story = "ZHENLIXUEYUANDEZHUANXIAOSHENG3",
+		mask = "bg/bg_memory",
+		task = 0,
+		year = 0,
+		id = 5653,
+		icon = "memory_zhenlixueyuandezhuanxiaosheng1",
+		is_open = 0,
+		unlock_pre = {
+			"ZHENLIXUEYUANDEZHUANXIAOSHENG3"
+		}
+	}
+	pg.base.memory_template[5654] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 1,
+		number = 4.1,
+		title = "放課後の個人レッスン",
+		condition = "EPS-3でモロトフを選ぶと解放",
+		story = "ZHENLIXUEYUANDEZHUANXIAOSHENG4-1",
+		mask = "bg/bg_memory",
+		task = 0,
+		year = 0,
+		id = 5654,
+		icon = "memory_zhenlixueyuandezhuanxiaosheng1",
+		is_open = 0,
+		unlock_pre = {
+			"ZHENLIXUEYUANDEZHUANXIAOSHENG4-1"
+		}
+	}
+	pg.base.memory_template[5655] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 1,
+		number = 4.2,
+		title = "屋上のランチタイム",
+		condition = "EPS-3でインペラトリッツァ・マリーヤを選ぶと解放",
+		story = "ZHENLIXUEYUANDEZHUANXIAOSHENG4-2",
+		mask = "bg/bg_memory",
+		task = 0,
+		year = 0,
+		id = 5655,
+		icon = "memory_zhenlixueyuandezhuanxiaosheng1",
+		is_open = 0,
+		unlock_pre = {
+			"ZHENLIXUEYUANDEZHUANXIAOSHENG4-2"
+		}
+	}
+	pg.base.memory_template[5656] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 1,
+		number = 4.3,
+		title = "偽装カップル",
+		condition = "EPS-3でシノープを選ぶと解放",
+		story = "ZHENLIXUEYUANDEZHUANXIAOSHENG4-3",
+		mask = "bg/bg_memory",
+		task = 0,
+		year = 0,
+		id = 5656,
+		icon = "memory_zhenlixueyuandezhuanxiaosheng1",
+		is_open = 0,
+		unlock_pre = {
+			"ZHENLIXUEYUANDEZHUANXIAOSHENG4-3"
+		}
+	}
+	pg.base.memory_template[5657] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 1,
+		number = 5,
+		title = "聖杯の噂",
+		condition = "EPS-5開始",
+		story = "ZHENLIXUEYUANDEZHUANXIAOSHENG5",
+		mask = "bg/bg_memory",
+		task = 0,
+		year = 0,
+		id = 5657,
+		icon = "memory_zhenlixueyuandezhuanxiaosheng1",
+		is_open = 0,
+		unlock_pre = {
+			"ZHENLIXUEYUANDEZHUANXIAOSHENG5"
+		}
+	}
+	pg.base.memory_template[5658] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 2,
+		number = 6,
+		title = "願いと怪物",
+		condition = "EPS-6開始",
+		story = "2079601",
+		mask = "bg/bg_memory",
+		task = 0,
+		year = 0,
+		id = 5658,
+		icon = "memory_zhenlixueyuandezhuanxiaosheng1",
+		is_open = 0,
+		unlock_pre = {
+			"2079601"
+		}
+	}
+	pg.base.memory_template[5659] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 1,
+		number = 7,
+		title = "舞踏会と選択",
+		condition = "EPS-7開始",
+		story = "ZHENLIXUEYUANDEZHUANXIAOSHENG7",
+		mask = "bg/bg_memory",
+		task = 0,
+		year = 0,
+		id = 5659,
+		icon = "memory_zhenlixueyuandezhuanxiaosheng1",
+		is_open = 0,
+		unlock_pre = {
+			"ZHENLIXUEYUANDEZHUANXIAOSHENG7"
+		}
+	}
+	pg.base.memory_template[5660] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 1,
+		number = 8.1,
+		title = "一曲だけのリハーサル",
+		condition = "EPS-7でモロトフを選ぶと解放",
+		story = "ZHENLIXUEYUANDEZHUANXIAOSHENG8-1",
+		mask = "bg/bg_memory",
+		task = 0,
+		year = 0,
+		id = 5660,
+		icon = "memory_zhenlixueyuandezhuanxiaosheng1",
+		is_open = 0,
+		unlock_pre = {
+			"ZHENLIXUEYUANDEZHUANXIAOSHENG8-1"
+		}
+	}
+	pg.base.memory_template[5661] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 1,
+		number = 8.2,
+		title = "裾に揺れる想い",
+		condition = "EPS-7でインペラトリッツァ・マリーヤを選ぶと解放",
+		story = "ZHENLIXUEYUANDEZHUANXIAOSHENG8-2",
+		mask = "bg/bg_memory",
+		task = 0,
+		year = 0,
+		id = 5661,
+		icon = "memory_zhenlixueyuandezhuanxiaosheng1",
+		is_open = 0,
+		unlock_pre = {
+			"ZHENLIXUEYUANDEZHUANXIAOSHENG8-2"
+		}
+	}
+	pg.base.memory_template[5662] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 1,
+		number = 8.3,
+		title = "過ぎ去りし日を求めて",
+		condition = "EPS-7でシノープを選ぶと解放",
+		story = "ZHENLIXUEYUANDEZHUANXIAOSHENG8-3",
+		mask = "bg/bg_memory",
+		task = 0,
+		year = 0,
+		id = 5662,
+		icon = "memory_zhenlixueyuandezhuanxiaosheng1",
+		is_open = 0,
+		unlock_pre = {
+			"ZHENLIXUEYUANDEZHUANXIAOSHENG8-3"
+		}
+	}
+	pg.base.memory_template[5663] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 1,
+		number = 9,
+		title = "卒業前夜",
+		condition = "EPS-9開始",
+		story = "ZHENLIXUEYUANDEZHUANXIAOSHENG9",
+		mask = "bg/bg_memory",
+		task = 0,
+		year = 0,
+		id = 5663,
+		icon = "memory_zhenlixueyuandezhuanxiaosheng2",
+		is_open = 0,
+		unlock_pre = {
+			"ZHENLIXUEYUANDEZHUANXIAOSHENG9"
+		}
+	}
+	pg.base.memory_template[5664] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 2,
+		number = 10,
+		title = "彼女が繋ぎ止めようとする昨日",
+		condition = "EPS-10開始",
+		story = "2079602",
+		mask = "bg/bg_memory",
+		task = 0,
+		year = 0,
+		id = 5664,
+		icon = "memory_zhenlixueyuandezhuanxiaosheng2",
+		is_open = 0,
+		unlock_pre = {
+			"2079602"
+		}
+	}
+	pg.base.memory_template[5665] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 1,
+		number = 11.1,
+		title = "三度目の入学",
+		condition = "EPS-8.1とEPS-10をクリアすると解放",
+		story = "ZHENLIXUEYUANDEZHUANXIAOSHENG11-1",
+		mask = "bg/bg_memory",
+		task = 0,
+		year = 0,
+		id = 5665,
+		icon = "memory_zhenlixueyuandezhuanxiaosheng2",
+		is_open = 0,
+		unlock_pre = {
+			"ZHENLIXUEYUANDEZHUANXIAOSHENG11-1"
+		}
+	}
+	pg.base.memory_template[5666] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 1,
+		number = 11.2,
+		title = "女王陛下の近衛",
+		condition = "EPS-8.2とEPS-10をクリアすると解放",
+		story = "ZHENLIXUEYUANDEZHUANXIAOSHENG11-2",
+		mask = "bg/bg_memory",
+		task = 0,
+		year = 0,
+		id = 5666,
+		icon = "memory_zhenlixueyuandezhuanxiaosheng2",
+		is_open = 0,
+		unlock_pre = {
+			"ZHENLIXUEYUANDEZHUANXIAOSHENG11-2"
+		}
+	}
+	pg.base.memory_template[5667] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 1,
+		number = 11.3,
+		title = "明日へ踊り出す",
+		condition = "EPS-8.3とEPS-10をクリアすると解放",
+		story = "ZHENLIXUEYUANDEZHUANXIAOSHENG11-3",
+		mask = "bg/bg_memory",
+		task = 0,
+		year = 0,
+		id = 5667,
+		icon = "memory_zhenlixueyuandezhuanxiaosheng2",
+		is_open = 0,
+		unlock_pre = {
+			"ZHENLIXUEYUANDEZHUANXIAOSHENG11-3"
+		}
+	}
+	pg.base.memory_template[5671] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "罰ありの夜遊びラプソディ",
+		condition = "「着せ替え特集：秋の水世界」のシノープのストーリーを開放",
+		story = "SHISHANGTEKANMEILISHUISHIJIE1",
+		mask = "bg/bg_memory",
+		task = 0,
+		year = 0,
+		id = 5671,
+		icon = "memory_gangqushishangtekan",
+		is_open = 0,
+		unlock_pre = {
+			"SHISHANGTEKANMEILISHUISHIJIE1"
+		}
+	}
+	pg.base.memory_template[5672] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "臨時ポイントサービス",
+		condition = "「着せ替え特集：秋の水世界」のモロトフのストーリーを開放",
+		story = "SHISHANGTEKANMEILISHUISHIJIE2",
+		mask = "bg/bg_memory",
+		task = 0,
+		year = 0,
+		id = 5672,
+		icon = "memory_gangqushishangtekan",
+		is_open = 0,
+		unlock_pre = {
+			"SHISHANGTEKANMEILISHUISHIJIE2"
+		}
+	}
+	pg.base.memory_template[5673] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "リズム噴水アスレチック！",
+		condition = "「着せ替え特集：秋の水世界」のクレオパトラのストーリーを開放",
+		story = "SHISHANGTEKANMEILISHUISHIJIE3",
+		mask = "bg/bg_memory",
+		task = 0,
+		year = 0,
+		id = 5673,
+		icon = "memory_gangqushishangtekan",
+		is_open = 0,
+		unlock_pre = {
+			"SHISHANGTEKANMEILISHUISHIJIE3"
+		}
+	}
 	pg.base.memory_template[10000] = {
 		ship_group = 0,
 		subtitle = "",
@@ -85486,6 +85866,8 @@ end)()
 			"TEACHER3"
 		}
 	}
+end)()
+(function ()
 	pg.base.memory_template[10032] = {
 		ship_group = 0,
 		subtitle = "",
@@ -85846,8 +86228,6 @@ end)()
 			"YINGHUA1"
 		}
 	}
-end)()
-(function ()
 	pg.base.memory_template[10052] = {
 		ship_group = 0,
 		subtitle = "",
@@ -87288,6 +87668,8 @@ end)()
 			"LINGHANGYUANHAOGANDU7"
 		}
 	}
+end)()
+(function ()
 	pg.base.memory_template[20051] = {
 		ship_group = 0,
 		subtitle = "",
@@ -87648,8 +88030,6 @@ end)()
 			"LINGHANGYUANTANXIN19"
 		}
 	}
-end)()
-(function ()
 	pg.base.memory_template[20071] = {
 		ship_group = 0,
 		subtitle = "",
@@ -89090,6 +89470,8 @@ end)()
 			"TANSUOZHEYANGCHENGJIHUA2"
 		}
 	}
+end)()
+(function ()
 	pg.base.memory_template[20152] = {
 		ship_group = 0,
 		subtitle = "",
@@ -89450,8 +89832,6 @@ end)()
 			"TANSUOZHEYANGCHENGJIHUA22"
 		}
 	}
-end)()
-(function ()
 	pg.base.memory_template[20172] = {
 		ship_group = 0,
 		subtitle = "",

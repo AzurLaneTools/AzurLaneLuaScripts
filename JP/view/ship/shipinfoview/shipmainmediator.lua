@@ -563,7 +563,8 @@ slot0.listNotificationInterests = function(slot0)
 		EquipmentProxy.EQUIPMENT_UPDATED,
 		GAME.WILL_LOGOUT,
 		PaintingGroupConst.NotifyPaintingDownloadFinish,
-		GAME.CHANGE_RANDOM_SHIPS_DONE
+		GAME.CHANGE_RANDOM_SHIPS_DONE,
+		GAME.OPEN_SKIN_COUPON_MULTI_MSG_BOX
 	}
 end
 
@@ -669,6 +670,8 @@ slot0.handleNotification = function(slot0, slot1)
 		slot0.viewComponent:OnWillLogout()
 	elseif slot2 == PaintingGroupConst.NotifyPaintingDownloadFinish then
 		slot0.viewComponent:updateFashionTag()
+	elseif slot2 == GAME.OPEN_SKIN_COUPON_MULTI_MSG_BOX then
+		slot0.viewComponent.shipFashionView:OnOpenSkinCouponMultiMsgBox(slot3)
 	end
 end
 

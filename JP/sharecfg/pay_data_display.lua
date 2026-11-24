@@ -154,6 +154,7 @@ pg.pay_data_display.all = {
 	1028,
 	1029,
 	1030,
+	1031,
 	1303,
 	2001,
 	2002,
@@ -238,6 +239,7 @@ pg.pay_data_display.all = {
 	2096,
 	2097,
 	2098,
+	2099,
 	5001,
 	5002,
 	5003,
@@ -470,6 +472,7 @@ pg.pay_data_display.get_id_list_by_extra_service = {
 		2096,
 		2097,
 		2098,
+		2099,
 		5001,
 		5002,
 		5003,
@@ -524,6 +527,7 @@ pg.pay_data_display.get_id_list_by_extra_service = {
 		1028,
 		1029,
 		1030,
+		1031,
 		1303
 	},
 	[6] = {
@@ -17949,6 +17953,87 @@ end)()
 		limit_args = {},
 		drop_item = {}
 	}
+	pg.base.pay_data_display[1031] = {
+		picture = "battlepass_1",
+		name = "クルーズパス(26初冬)",
+		type = 0,
+		second_text = "特別報酬開放",
+		tag = 2,
+		subject = "クルーズパス(26初冬)",
+		gem = 0,
+		first_pay_double = 0,
+		show_group = "",
+		money = 1200,
+		descrip_extra = "※シーズン任務クリア時に追加の報酬を入手可能",
+		limit_group = 0,
+		id = 1031,
+		type_order = 6,
+		package_tag = "",
+		limit_type = 2,
+		package_sort_id = 0,
+		first_icon = "",
+		tip = "",
+		tip_open = 0,
+		cash_show = 0,
+		id_str = "com.bilibili.blhx.battlepass33",
+		extra_gem = 0,
+		descrip = "購入すると、シーズン任務進捗Pt1500を入手し、さらにSP報酬を開放",
+		airijp_id = "com.yostarjp.azurlane.seasonpass32",
+		name_display = "クルーズパス(26初冬)",
+		first_text = "",
+		akashi_pick = 1,
+		skin_inquire_relation = 0,
+		extra_service = 4,
+		limit_arg = 1,
+		package_tag_open = 0,
+		extra_service_item = {
+			{
+				8,
+				59599,
+				1500
+			}
+		},
+		time = {
+			{
+				{
+					2026,
+					12,
+					1
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2027,
+					1,
+					31
+				},
+				{
+					22,
+					59,
+					59
+				}
+			}
+		},
+		display = {
+			{
+				8,
+				59599,
+				1500
+			}
+		},
+		sub_display = {
+			7032,
+			1500
+		},
+		ignorePlatform = {},
+		limit_args = {},
+		drop_item = {}
+	}
 	pg.base.pay_data_display[1303] = {
 		picture = "battlepass_winter_1",
 		name = "迎春特売パス2026",
@@ -22253,6 +22338,8 @@ end)()
 		limit_args = {},
 		drop_item = {}
 	}
+end)()
+(function ()
 	pg.base.pay_data_display[2051] = {
 		picture = "ui5",
 		name = "戦闘UI・シーサイド（単品）",
@@ -22347,8 +22434,6 @@ end)()
 			}
 		}
 	}
-end)()
-(function ()
 	pg.base.pay_data_display[2052] = {
 		picture = "ui5",
 		name = "戦闘UI・シーサイド（セット）",
@@ -25309,6 +25394,125 @@ end)()
 			{
 				2,
 				40092,
+				1
+			}
+		}
+	}
+	pg.base.pay_data_display[2099] = {
+		picture = "boxSkill",
+		name = "教科書パック(2026秋)",
+		type = 0,
+		second_text = "",
+		tag = 2,
+		subject = "教科書パック(2026秋)",
+		gem = 0,
+		first_pay_double = 0,
+		show_group = "",
+		money = 480,
+		descrip_extra = "※購入したアイテムはメールボックスに送られます",
+		limit_group = 0,
+		id = 2099,
+		type_order = 0,
+		package_tag = "",
+		limit_type = 2,
+		package_sort_id = 0,
+		first_icon = "",
+		tip = "",
+		tip_open = 0,
+		cash_show = 0,
+		id_str = "com.bilibili.blhx.libao131",
+		extra_gem = 0,
+		descrip = "購入すると教科書を大量に入手可能",
+		airijp_id = "com.yostarjp.azurlane.package131",
+		name_display = "教科書パック(2026秋)",
+		first_text = "",
+		akashi_pick = 1,
+		skin_inquire_relation = 0,
+		extra_service = 3,
+		limit_arg = 4,
+		package_tag_open = 0,
+		extra_service_item = {
+			{
+				2,
+				16004,
+				1
+			},
+			{
+				2,
+				16014,
+				1
+			},
+			{
+				2,
+				16024,
+				1
+			},
+			{
+				2,
+				16003,
+				3
+			},
+			{
+				2,
+				16013,
+				3
+			},
+			{
+				2,
+				16023,
+				3
+			}
+		},
+		time = {
+			{
+				{
+					2026,
+					11,
+					24
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2027,
+					4,
+					14
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		display = {
+			{
+				2,
+				16004,
+				1
+			},
+			{
+				2,
+				16014,
+				1
+			},
+			{
+				2,
+				16024,
+				1
+			}
+		},
+		sub_display = {},
+		ignorePlatform = {},
+		limit_args = {},
+		drop_item = {
+			{
+				2,
+				40023,
 				1
 			}
 		}

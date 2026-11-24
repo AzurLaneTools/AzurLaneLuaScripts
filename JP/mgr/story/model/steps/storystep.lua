@@ -1,4 +1,7 @@
 slot0 = class("StoryStep")
+slot0.OPTION_ANIM_ONLY_BTN = 1
+slot0.OPTION_ANIM_ONLY_ICON = 2
+slot0.OPTION_ANIM_BOTH = 3
 
 slot0.Ctor = function(slot0, slot1)
 	slot0.flashout = slot1.flashout
@@ -24,6 +27,7 @@ slot0.Ctor = function(slot0, slot1)
 	slot0.movableNode = slot1.movableNode
 	slot0.options = slot1.options
 	slot0.optionForceCenter = slot1.option_force_center
+	slot0.optionsEffect = slot1.optionsEffect
 	slot0.important = slot1.important
 	slot0.branchCode = slot1.optionFlag
 	slot0.globalBranchCode = slot1.globalOptionFlag
@@ -46,6 +50,26 @@ slot0.Ctor = function(slot0, slot1)
 	slot0.placeholderType = 0
 	slot0.defaultTb = slot1.defaultTb
 	slot0.optionIndex = 0
+	slot0.isExecuted = false
+end
+
+slot0.MarkIsExecuted = function(slot0)
+	slot0.isExecuted = true
+end
+
+slot0.GetIsExecuted = function(slot0)
+	return slot0.isExecuted
+end
+
+slot0.GetOptionEffects = function(slot0)
+	if not slot0.optionsEffect then
+		return nil
+	end
+
+	return {
+		string.format("StoryOptionEffect%s", slot0.optionsEffect[1] or 1),
+		string.format("StoryOptionEffect%sIcon", slot0.optionsEffect[2] or 1)
+	}, slot0.optionsEffect[3] or uv0.OPTION_ANIM_BOTH
 end
 
 slot0.IsValid = function(slot0, slot1)

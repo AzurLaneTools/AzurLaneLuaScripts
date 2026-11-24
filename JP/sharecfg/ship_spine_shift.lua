@@ -595,4 +595,11 @@ pg.base.ship_spine_shift = {}
 			-39.6
 		}
 	}
+	pg.base.ship_spine_shift.moluotuofu_2 = {
+		spine = "moluotuofu_2",
+		mainui_shift = {
+			35.4,
+			19
+		}
+	}
 end)()

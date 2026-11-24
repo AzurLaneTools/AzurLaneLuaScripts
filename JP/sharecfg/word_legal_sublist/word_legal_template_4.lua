@@ -4,26 +4,6 @@ slot0.word_legal_template_4 = {}
 slot1 = slot0.word_legal_template_4
 
 temp = function()
-	uv0["松"] = {
-		["風"] = {
-			this = true
-		}
-	}
-end
-
-temp()
-
-temp = function()
-	uv0["睦"] = {
-		["月"] = {
-			this = true
-		}
-	}
-end
-
-temp()
-
-temp = function()
 	uv0["如"] = {
 		["月"] = {
 			this = true,
@@ -473,6 +453,39 @@ temp = function()
 			this = true
 		},
 		["波"] = {
+			this = true
+		}
+	}
+end
+
+temp()
+
+temp = function()
+	uv0["追"] = {
+		["風"] = {
+			this = true
+		}
+	}
+end
+
+temp()
+
+temp = function()
+	uv0["風"] = {
+		["雲"] = {
+			this = true
+		}
+	}
+end
+
+temp()
+
+temp = function()
+	uv0["妙"] = {
+		["風"] = {
+			this = true
+		},
+		["高"] = {
 			this = true
 		}
 	}

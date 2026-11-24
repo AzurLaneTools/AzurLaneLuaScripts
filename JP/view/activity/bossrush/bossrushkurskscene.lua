@@ -1,4 +1,4 @@
-slot0 = class("BossRushKurskScene", import("view.base.BaseUI"))
+slot0 = class("BossRushKurskScene", import("view.activity.BossRush.BossRushBaseScene"))
 slot1 = require("Mgr/Pool/PoolPlural")
 slot0.DISPLAY = {
 	STORY = 2,

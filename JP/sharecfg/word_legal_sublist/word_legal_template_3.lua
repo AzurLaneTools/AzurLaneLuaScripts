@@ -4,85 +4,6 @@ slot0.word_legal_template_3 = {}
 slot1 = slot0.word_legal_template_3
 
 temp = function()
-	uv0["ヌ"] = {
-		["ビ"] = {
-			["ア"] = {
-				["ン"] = {
-					this = true
-				}
-			}
-		}
-	}
-end
-
-temp()
-
-temp = function()
-	uv0["ト"] = {
-		["ラ"] = {
-			["フ"] = {
-				["ァ"] = {
-					["ル"] = {
-						["ガ"] = {
-							["ー"] = {
-								this = true
-							}
-						}
-					}
-				}
-			}
-		},
-		["リ"] = {
-			["ニ"] = {
-				["ダ"] = {
-					["ー"] = {
-						["ド"] = {
-							this = true
-						}
-					}
-				}
-			},
-			["エ"] = {
-				["ス"] = {
-					["テ"] = {
-						this = true
-					}
-				}
-			},
-			["チ"] = {
-				["ェ"] = {
-					["リ"] = {
-						this = true
-					}
-				}
-			}
-		},
-		["レ"] = {
-			["ン"] = {
-				["ト"] = {
-					this = true,
-					["("] = {
-						M = {
-							E = {
-								T = {
-									A = {
-										[")"] = {
-											this = true
-										}
-									}
-								}
-							}
-						}
-					}
-				}
-			}
-		}
-	}
-end
-
-temp()
-
-temp = function()
 	uv0["勇"] = {
 		["敢"] = {
 			["."] = {
@@ -227,7 +148,20 @@ temp = function()
 			},
 			["サ"] = {
 				["ン"] = {
-					this = true
+					this = true,
+					["("] = {
+						M = {
+							E = {
+								T = {
+									A = {
+										[")"] = {
+											this = true
+										}
+									}
+								}
+							}
+						}
+					}
 				}
 			}
 		}
@@ -594,6 +528,35 @@ end
 temp()
 
 temp = function()
+	uv0["天"] = {
+		["津"] = {
+			["風"] = {
+				this = true
+			}
+		},
+		["城"] = {
+			this = true,
+			["ち"] = {
+				["ゃ"] = {
+					["ん"] = {
+						this = true
+					}
+				}
+			}
+		},
+		["海"] = {
+			["春"] = {
+				["香"] = {
+					this = true
+				}
+			}
+		}
+	}
+end
+
+temp()
+
+temp = function()
 	uv0["野"] = {
 		["分"] = {
 			this = true
@@ -692,6 +655,26 @@ temp = function()
 					}
 				}
 			}
+		}
+	}
+end
+
+temp()
+
+temp = function()
+	uv0["松"] = {
+		["風"] = {
+			this = true
+		}
+	}
+end
+
+temp()
+
+temp = function()
+	uv0["睦"] = {
+		["月"] = {
+			this = true
 		}
 	}
 end

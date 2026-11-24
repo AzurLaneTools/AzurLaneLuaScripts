@@ -144,7 +144,7 @@ slot0.ConfirmItem = function(slot0, slot1, slot2)
 
 	for slot6, slot7 in pairs(slot0.heapDic) do
 		if table.removebyvalue(slot7, slot1) > 0 then
-			slot0.heap:UpdateValue(slot1)
+			slot0.heap:UpdateValue(slot6)
 		end
 	end
 end
@@ -204,7 +204,7 @@ slot0.OpenSelectWindow = function(slot0, slot1)
 	triggerToggle(slot5:GetChild(0), true)
 	onButton(slot0, slot0.btnSelectConfirm, function ()
 		uv0.heap:POP(uv1)
-		uv0:ConfirmItem(uv1, uv2)
+		uv0:ConfirmItem(uv2, uv1)
 		uv0:DropHump()
 		uv0:UpdateDisplay()
 		uv0:CloseSelectWindow()

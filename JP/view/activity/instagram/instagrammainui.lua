@@ -65,6 +65,8 @@ slot0.didEnter = function(slot0)
 	else
 		triggerButton(slot0.chatBtn)
 	end
+
+	slot0:InitEasterEgg()
 end
 
 slot0.FlushMusicPlayer = function(slot0)
@@ -127,6 +129,39 @@ end
 
 slot0.willExit = function(slot0)
 	slot0.musicPlayerView:Destroy()
+	slot0:ExitEasterEgg()
+end
+
+slot0.InitEasterEgg = function(slot0)
+	if EasterEggTools.IsEnabled(EasterEggTools.GetActivity(), EasterEggConst.SCENE.InstagramMainUI) then
+		slot0.easterEggView = EasterEggView.New(findTF(slot0._tf, "mainPanel/easterEggBtn"), slot0, EasterEggConst.SCENE.InstagramMainUI)
+		slot3 = nil
+		slot4 = slot0.easterEggView
+
+		slot4:SetEasterEggCallBack(function (slot0, slot1)
+			slot1()
+		end, function (slot0)
+			slot0()
+		end)
+	end
+end
+
+slot0.ShowEasterEgg = function(slot0)
+	if slot0.easterEggView then
+		slot0.easterEggView:ShowEasterEgg()
+	end
+end
+
+slot0.HideEasterEgg = function(slot0)
+	if slot0.easterEggView then
+		slot0.easterEggView:HideEasterEgg()
+	end
+end
+
+slot0.ExitEasterEgg = function(slot0)
+	if slot0.easterEggView then
+		slot0.easterEggView:willExit()
+	end
 end
 
 return slot0

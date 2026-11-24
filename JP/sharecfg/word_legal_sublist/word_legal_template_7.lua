@@ -4,108 +4,6 @@ slot0.word_legal_template_7 = {}
 slot1 = slot0.word_legal_template_7
 
 temp = function()
-	uv0["明"] = {
-		["石"] = {
-			this = true
-		}
-	}
-end
-
-temp()
-
-temp = function()
-	uv0["樫"] = {
-		["野"] = {
-			this = true
-		}
-	}
-end
-
-temp()
-
-temp = function()
-	uv0.Z = {
-		["1"] = {
-			this = true,
-			["1"] = {
-				this = true
-			},
-			["3"] = {
-				this = true
-			},
-			["4"] = {
-				this = true
-			},
-			["5"] = {
-				this = true
-			},
-			["6"] = {
-				this = true
-			},
-			["8"] = {
-				this = true
-			},
-			["9"] = {
-				this = true
-			}
-		},
-		["2"] = {
-			this = true,
-			["0"] = {
-				this = true
-			},
-			["1"] = {
-				this = true
-			},
-			["3"] = {
-				this = true
-			},
-			["4"] = {
-				this = true
-			},
-			["5"] = {
-				this = true
-			},
-			["6"] = {
-				this = true
-			},
-			["8"] = {
-				this = true
-			}
-		},
-		["9"] = {
-			this = true
-		},
-		["3"] = {
-			["5"] = {
-				this = true
-			},
-			["6"] = {
-				this = true
-			}
-		},
-		["4"] = {
-			["3"] = {
-				this = true
-			},
-			["6"] = {
-				this = true
-			},
-			["7"] = {
-				this = true
-			}
-		},
-		["5"] = {
-			["2"] = {
-				this = true
-			}
-		}
-	}
-end
-
-temp()
-
-temp = function()
 	uv0["沃"] = {
 		["尔"] = {
 			["普"] = {
@@ -555,6 +453,93 @@ temp = function()
 	uv0["定"] = {
 		["安"] = {
 			this = true
+		}
+	}
+end
+
+temp()
+
+temp = function()
+	uv0["ゴ"] = {
+		["リ"] = {
+			["ツ"] = {
+				["ィ"] = {
+					["ア"] = {
+						this = true
+					}
+				}
+			}
+		},
+		["ー"] = {
+			["ル"] = {
+				["デ"] = {
+					["ン"] = {
+						["・"] = {
+							["ハ"] = {
+								["イ"] = {
+									["ン"] = {
+										["ド"] = {
+											this = true
+										}
+									}
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+end
+
+temp()
+
+temp = function()
+	uv0["ム"] = {
+		["ル"] = {
+			["マ"] = {
+				["ン"] = {
+					["ス"] = {
+						["ク"] = {
+							this = true
+						}
+					}
+				}
+			}
+		},
+		["ジ"] = {
+			["ナ"] = {
+				this = true
+			}
+		}
+	}
+end
+
+temp()
+
+temp = function()
+	uv0["四"] = {
+		["万"] = {
+			["十"] = {
+				this = true
+			}
+		},
+		["糸"] = {
+			["乃"] = {
+				this = true
+			}
+		}
+	}
+end
+
+temp()
+
+temp = function()
+	uv0["孟"] = {
+		["菲"] = {
+			["斯"] = {
+				this = true
+			}
 		}
 	}
 end

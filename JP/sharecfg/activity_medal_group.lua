@@ -27,7 +27,8 @@ pg.activity_medal_group.all = {
 	51113,
 	51143,
 	51154,
-	51611
+	51611,
+	51409
 }
 pg.base = pg.base or {}
 pg.base.activity_medal_group = {}
@@ -1185,6 +1186,45 @@ pg.base.activity_medal_group = {}
 		task_show = {
 			25747,
 			25738
+		}
+	}
+	pg.base.activity_medal_group[51409] = {
+		id = 51409,
+		entrance_picture = "medalAlbum/51409",
+		group_name = "真理学院的转校生",
+		is_out_of_print = 0,
+		activity_link = {
+			{
+				1,
+				51409,
+				{
+					25748,
+					25749,
+					25750,
+					25751,
+					25752,
+					25753,
+					25754,
+					25755,
+					25756
+				}
+			}
+		},
+		ui_prefab = {
+			scene = "VeritasAcademyMedalAlbumView",
+			mediator = "MedalAlbumTemplateMediator"
+		},
+		item_show = {
+			{},
+			{
+				8,
+				66122,
+				1
+			}
+		},
+		task_show = {
+			-1,
+			25748
 		}
 	}
 end)()

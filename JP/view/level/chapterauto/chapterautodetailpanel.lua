@@ -161,18 +161,7 @@ slot0.OnDestroy = function(slot0)
 end
 
 slot0.GetAwards = function(slot0)
-	slot1 = LevelInfoView.getChapterAwards(slot0)
-
-	if type(pg.chapter_auto_statistics[slot0.id].drop_display_extra) == "table" then
-		for slot6, slot7 in ipairs(slot2) do
-			table.insert(slot1, {
-				slot7[1],
-				slot7[2]
-			})
-		end
-	end
-
-	return slot1
+	return ChapterAutoPanel.GetAwards(slot0)
 end
 
 return slot0

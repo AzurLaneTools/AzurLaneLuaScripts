@@ -16811,6 +16811,37 @@ _G.pg.base.item_data_statistics[21066] = {
 }
 
 
+_G.pg.base.item_data_statistics[21067] = {
+	open_directly = 0,
+	name = "結晶：ケルサン(META)",
+	type = 4,
+	display = "ケルサン(META)の能力を上昇させるアイテム。メタラボの限界突破に使用可能",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_undefined",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/21067",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "[]",
+	id = 21067,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	limit = {}
+}
+
+
 _G.pg.base.item_data_statistics[21101] = {
 	open_directly = 0,
 	name = "耐熱強化結晶鋼",
@@ -30669,6 +30700,131 @@ _G.pg.base.item_data_statistics[30389] = {
 }
 
 
+_G.pg.base.item_data_statistics[30390] = {
+	open_directly = 1,
+	name = "装備外装箱（ドキドキ魔学園）",
+	type = 11,
+	display = "装備外装（ドキドキ魔学園）からランダムの装備外装を1個入手できます",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_drop",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/appearanceboxzhenlixueyuan",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "30387",
+	id = 30390,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			9,
+			4474,
+			1
+		},
+		{
+			9,
+			4475,
+			1
+		},
+		{
+			9,
+			4476,
+			1
+		},
+		{
+			9,
+			4477,
+			1
+		},
+		{
+			9,
+			4478,
+			1
+		},
+		{
+			9,
+			4479,
+			1
+		},
+		{
+			9,
+			4480,
+			1
+		},
+		{
+			9,
+			4481,
+			1
+		},
+		{
+			9,
+			4482,
+			1
+		},
+		{
+			9,
+			4483,
+			1
+		},
+		{
+			9,
+			4484,
+			1
+		},
+		{
+			9,
+			4485,
+			1
+		},
+		{
+			9,
+			4486,
+			1
+		},
+		{
+			9,
+			4487,
+			1
+		},
+		{
+			9,
+			4488,
+			1
+		},
+		{
+			9,
+			4489,
+			1
+		},
+		{
+			9,
+			4490,
+			1
+		},
+		{
+			9,
+			4491,
+			1
+		}
+	},
+	price = {
+		1,
+		7000
+	},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	limit = {}
+}
+
+
 _G.pg.base.item_data_statistics[30401] = {
 	open_directly = 1,
 	name = "ランダム装備外装",
@@ -32602,6 +32758,58 @@ _G.pg.base.item_data_statistics[30437] = {
 		{
 			9,
 			2132,
+			1
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[30438] = {
+	open_directly = 1,
+	name = "ランダム装備外装",
+	type = 11,
+	display = "クルーズ報酬の装備外装をランダムに1つ入手可能",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_drop",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/appearanceboxshijiexunyou",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "111232",
+	id = 30438,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			9,
+			2133,
+			1
+		},
+		{
+			9,
+			2134,
+			1
+		},
+		{
+			9,
+			2135,
+			1
+		},
+		{
+			9,
+			2136,
 			1
 		}
 	},
@@ -48141,6 +48349,219 @@ _G.pg.base.item_data_statistics[30573] = {
 		{
 			9,
 			4473,
+			1
+		}
+	},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[30574] = {
+	open_directly = 0,
+	name = "指向型装備外装箱（ドキドキ魔学園）",
+	type = 13,
+	display = "使用すると、装備外装（ドキドキ魔学園）から任意の装備外装を1個選択して入手できます",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_drop_appointed",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/appearanceboxzhenlixueyuanzixuan",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	id = 30574,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			9,
+			4474,
+			1
+		},
+		{
+			9,
+			4475,
+			1
+		},
+		{
+			9,
+			4476,
+			1
+		},
+		{
+			9,
+			4477,
+			1
+		},
+		{
+			9,
+			4478,
+			1
+		},
+		{
+			9,
+			4479,
+			1
+		},
+		{
+			9,
+			4480,
+			1
+		},
+		{
+			9,
+			4481,
+			1
+		},
+		{
+			9,
+			4482,
+			1
+		},
+		{
+			9,
+			4483,
+			1
+		},
+		{
+			9,
+			4484,
+			1
+		},
+		{
+			9,
+			4485,
+			1
+		},
+		{
+			9,
+			4486,
+			1
+		},
+		{
+			9,
+			4487,
+			1
+		},
+		{
+			9,
+			4488,
+			1
+		},
+		{
+			9,
+			4489,
+			1
+		},
+		{
+			9,
+			4490,
+			1
+		},
+		{
+			9,
+			4491,
+			1
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	usage_arg = {
+		{
+			9,
+			4474,
+			1
+		},
+		{
+			9,
+			4475,
+			1
+		},
+		{
+			9,
+			4476,
+			1
+		},
+		{
+			9,
+			4477,
+			1
+		},
+		{
+			9,
+			4478,
+			1
+		},
+		{
+			9,
+			4479,
+			1
+		},
+		{
+			9,
+			4480,
+			1
+		},
+		{
+			9,
+			4481,
+			1
+		},
+		{
+			9,
+			4482,
+			1
+		},
+		{
+			9,
+			4483,
+			1
+		},
+		{
+			9,
+			4484,
+			1
+		},
+		{
+			9,
+			4485,
+			1
+		},
+		{
+			9,
+			4486,
+			1
+		},
+		{
+			9,
+			4487,
+			1
+		},
+		{
+			9,
+			4488,
+			1
+		},
+		{
+			9,
+			4489,
+			1
+		},
+		{
+			9,
+			4490,
+			1
+		},
+		{
+			9,
+			4491,
 			1
 		}
 	},
@@ -127866,6 +128287,37 @@ _G.pg.base.item_data_statistics[81452] = {
 			60
 		}
 	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[81471] = {
+	open_directly = 0,
+	name = "ハッピーオモチャ",
+	type = 1,
+	display = "彼女が用意してくれた、お子様セットの特典オモチャ――「どっちを選んでも、ずっとずっとあなたを応援して、あなたを愛してるから！」",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_undefined",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/ertongtaocanwanju",
+	order = 0,
+	rarity = 3,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "[]",
+	id = 81471,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
 	price = {},
 	index = {},
 	shiptrans_id = {},

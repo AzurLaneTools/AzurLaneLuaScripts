@@ -4,31 +4,8 @@ slot0.word_legal_template_5 = {}
 slot1 = slot0.word_legal_template_5
 
 temp = function()
-	uv0["追"] = {
-		["風"] = {
-			this = true
-		}
-	}
-end
-
-temp()
-
-temp = function()
-	uv0["風"] = {
-		["雲"] = {
-			this = true
-		}
-	}
-end
-
-temp()
-
-temp = function()
-	uv0["妙"] = {
-		["風"] = {
-			this = true
-		},
-		["高"] = {
+	uv0["藤"] = {
+		["波"] = {
 			this = true
 		}
 	}
@@ -58,6 +35,9 @@ temp()
 temp = function()
 	uv0["名"] = {
 		["取"] = {
+			this = true
+		},
+		["寄"] = {
 			this = true
 		}
 	}
@@ -150,6 +130,16 @@ temp = function()
 			this = true
 		},
 		["智"] = {
+			this = true
+		}
+	}
+end
+
+temp()
+
+temp = function()
+	uv0["木"] = {
+		["津"] = {
 			this = true
 		}
 	}
@@ -284,9 +274,6 @@ temp = function()
 	uv0["高"] = {
 		["雄"] = {
 			this = true
-		},
-		["梁"] = {
-			this = true
 		}
 	}
 end
@@ -346,7 +333,55 @@ temp()
 temp = function()
 	uv0["雲"] = {
 		["仙"] = {
+			this = true,
+			["ち"] = {
+				["ゃ"] = {
+					["ん"] = {
+						this = true
+					}
+				}
+			}
+		},
+		["龍"] = {
 			this = true
+		}
+	}
+end
+
+temp()
+
+temp = function()
+	uv0["浅"] = {
+		["間"] = {
+			this = true
+		}
+	}
+end
+
+temp()
+
+temp = function()
+	uv0["金"] = {
+		["剛"] = {
+			this = true,
+			["("] = {
+				["μ"] = {
+					["兵"] = {
+						["装"] = {
+							[")"] = {
+								this = true
+							}
+						}
+					}
+				}
+			}
+		},
+		["色"] = {
+			["の"] = {
+				["闇"] = {
+					this = true
+				}
+			}
 		}
 	}
 end

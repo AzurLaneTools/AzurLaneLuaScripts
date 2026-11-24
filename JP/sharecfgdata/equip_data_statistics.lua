@@ -186146,6 +186146,135 @@ _G.pg.base.equip_data_statistics[151313] = {
 }
 
 
+_G.pg.base.equip_data_statistics[151320] = {
+	name = "魔導秘典",
+	tech = 0,
+	type = 10,
+	speciality = "<[NA]>",
+	attribute_1 = "durability",
+	value_2 = 0,
+	icon = "151320",
+	value_1 = "150",
+	rarity = 4,
+	descrip = "ページをめくれば、魔法の呪文がポンと出てくる！",
+	nationality = 7,
+	ammo = 10,
+	value_3 = 0,
+	id = 151320,
+	torpedo_ammo = 0,
+	property_rate = {},
+	ammo_icon = {},
+	ammo_info = {},
+	equip_info = {
+		6
+	},
+	weapon_id = {},
+	skill_id = {
+		{
+			61180,
+			1
+		}
+	},
+	hidden_skill_id = {},
+	part_main = {},
+	part_sub = {},
+	equip_parameters = {},
+	label = {
+		"SN",
+		"DEV"
+	}
+}
+
+
+_G.pg.base.equip_data_statistics[151321] = {
+	id = 151321,
+	value_1 = "180",
+	base = 151320,
+	hidden_skill_id = {}
+}
+
+
+_G.pg.base.equip_data_statistics[151322] = {
+	id = 151322,
+	value_1 = "210",
+	base = 151320,
+	hidden_skill_id = {}
+}
+
+
+_G.pg.base.equip_data_statistics[151323] = {
+	id = 151323,
+	value_1 = "240",
+	base = 151320,
+	hidden_skill_id = {}
+}
+
+
+_G.pg.base.equip_data_statistics[151324] = {
+	id = 151324,
+	value_1 = "270",
+	base = 151320,
+	hidden_skill_id = {}
+}
+
+
+_G.pg.base.equip_data_statistics[151325] = {
+	id = 151325,
+	value_1 = "300",
+	base = 151320,
+	hidden_skill_id = {}
+}
+
+
+_G.pg.base.equip_data_statistics[151326] = {
+	id = 151326,
+	value_1 = "330",
+	base = 151320,
+	hidden_skill_id = {}
+}
+
+
+_G.pg.base.equip_data_statistics[151327] = {
+	id = 151327,
+	value_1 = "360",
+	base = 151320,
+	hidden_skill_id = {}
+}
+
+
+_G.pg.base.equip_data_statistics[151328] = {
+	id = 151328,
+	value_1 = "390",
+	base = 151320,
+	hidden_skill_id = {}
+}
+
+
+_G.pg.base.equip_data_statistics[151329] = {
+	id = 151329,
+	value_1 = "420",
+	base = 151320,
+	hidden_skill_id = {}
+}
+
+
+_G.pg.base.equip_data_statistics[151330] = {
+	id = 151330,
+	value_1 = "450",
+	base = 151320,
+	hidden_skill_id = {}
+}
+
+
+_G.pg.base.equip_data_statistics[151331] = {
+	anti_siren = 100,
+	base = 151320,
+	id = 151331,
+	value_1 = "475",
+	hidden_skill_id = {}
+}
+
+
 _G.pg.base.equip_data_statistics[170001] = {
 	name = "专属弹幕-古比雪夫I",
 	tech = 1,
@@ -188276,6 +188405,117 @@ _G.pg.base.equip_data_statistics[171162] = {
 	id = 171162,
 	weapon_id = {
 		171162
+	},
+	hidden_skill_id = {}
+}
+
+
+_G.pg.base.equip_data_statistics[171191] = {
+	name = "专属弹幕-莫洛托夫I",
+	tech = 1,
+	speciality = "<[NA]>",
+	type = 1,
+	rarity = 1,
+	value_2 = 0,
+	icon = "1",
+	value_1 = "0",
+	descrip = "技能弹幕",
+	nationality = 0,
+	ammo = 10,
+	value_3 = 0,
+	id = 171191,
+	torpedo_ammo = 0,
+	property_rate = {},
+	ammo_icon = {},
+	ammo_info = {},
+	equip_info = {},
+	weapon_id = {
+		171191
+	},
+	skill_id = {},
+	hidden_skill_id = {},
+	part_main = {
+		1,
+		19,
+		20,
+		21
+	},
+	part_sub = {
+		2,
+		3,
+		4,
+		5,
+		8,
+		13,
+		18
+	},
+	equip_parameters = {},
+	label = {}
+}
+
+
+_G.pg.base.equip_data_statistics[171192] = {
+	name = "专属弹幕-莫洛托夫II",
+	base = 171191,
+	id = 171192,
+	weapon_id = {
+		171192,
+		171193
+	},
+	hidden_skill_id = {}
+}
+
+
+_G.pg.base.equip_data_statistics[171201] = {
+	name = "专属弹幕-凯尔圣METAI",
+	tech = 1,
+	speciality = "<[NA]>",
+	type = 1,
+	rarity = 1,
+	value_2 = 0,
+	icon = "1",
+	value_1 = "0",
+	descrip = "技能弹幕",
+	nationality = 0,
+	ammo = 10,
+	value_3 = 0,
+	id = 171201,
+	torpedo_ammo = 0,
+	property_rate = {},
+	ammo_icon = {},
+	ammo_info = {},
+	equip_info = {},
+	weapon_id = {
+		171201
+	},
+	skill_id = {},
+	hidden_skill_id = {},
+	part_main = {
+		1,
+		19,
+		20,
+		21
+	},
+	part_sub = {
+		2,
+		3,
+		4,
+		5,
+		8,
+		13,
+		18
+	},
+	equip_parameters = {},
+	label = {}
+}
+
+
+_G.pg.base.equip_data_statistics[171202] = {
+	name = "专属弹幕-凯尔圣METAII",
+	base = 171201,
+	id = 171202,
+	weapon_id = {
+		171202
 	},
 	hidden_skill_id = {}
 }

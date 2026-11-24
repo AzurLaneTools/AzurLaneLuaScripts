@@ -16,7 +16,17 @@ return {
 				"onSubLeader"
 			},
 			arg_list = {
-				skill_id = 40060
+				skill_id = 40060,
+				minTargetNumber = 1,
+				check_target = {
+					"TargetPlayerFlagShip",
+					"TargetShipType"
+				},
+				ship_type_list = {
+					4,
+					5,
+					10
+				}
 			}
 		}
 	}

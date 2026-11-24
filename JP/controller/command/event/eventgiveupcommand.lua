@@ -9,9 +9,7 @@ slot0.execute = function(slot0, slot1)
 			arg_list = {}
 		})
 	else
-		slot6 = pg.ConnectionMgr.GetInstance()
-
-		slot6:Send(13007, {
+		slot4:SendEventRequest(13007, {
 			id = slot3
 		}, 13008, function (slot0)
 			if slot0.result == 0 then

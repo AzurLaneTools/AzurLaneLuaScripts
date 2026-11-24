@@ -1665,12 +1665,14 @@ pg.base.commander_skill_template = {}
 		effect_tactic = {
 			9600111,
 			9600112,
-			9600113
+			9600113,
+			9600114
 		},
 		effect_tactic_world = {
 			9600111,
 			9600112,
-			9600113
+			9600113,
+			9600114
 		}
 	}
 	pg.base.commander_skill_template[960012] = {
@@ -1686,12 +1688,14 @@ pg.base.commander_skill_template = {}
 		effect_tactic = {
 			9600111,
 			9600112,
-			9600113
+			9600113,
+			9600114
 		},
 		effect_tactic_world = {
 			9600111,
 			9600112,
-			9600113
+			9600113,
+			9600114
 		}
 	}
 	pg.base.commander_skill_template[960013] = {
@@ -1707,12 +1711,14 @@ pg.base.commander_skill_template = {}
 		effect_tactic = {
 			9600111,
 			9600112,
-			9600113
+			9600113,
+			9600114
 		},
 		effect_tactic_world = {
 			9600111,
 			9600112,
-			9600113
+			9600113,
+			9600114
 		}
 	}
 	pg.base.commander_skill_template[960021] = {
@@ -2115,13 +2121,17 @@ end)()
 			9600811,
 			9600812,
 			9600813,
-			9600814
+			9600814,
+			9600815,
+			9600816
 		},
 		effect_tactic_world = {
 			9600811,
 			9600812,
 			9600813,
-			9600814
+			9600814,
+			9600815,
+			9600816
 		}
 	}
 	pg.base.commander_skill_template[960082] = {
@@ -2138,13 +2148,17 @@ end)()
 			9600811,
 			9600812,
 			9600813,
-			9600814
+			9600814,
+			9600815,
+			9600816
 		},
 		effect_tactic_world = {
 			9600811,
 			9600812,
 			9600813,
-			9600814
+			9600814,
+			9600815,
+			9600816
 		}
 	}
 	pg.base.commander_skill_template[960083] = {
@@ -2161,13 +2175,17 @@ end)()
 			9600811,
 			9600812,
 			9600813,
-			9600814
+			9600814,
+			9600815,
+			9600816
 		},
 		effect_tactic_world = {
 			9600811,
 			9600812,
 			9600813,
-			9600814
+			9600814,
+			9600815,
+			9600816
 		}
 	}
 	pg.base.commander_skill_template[960091] = {

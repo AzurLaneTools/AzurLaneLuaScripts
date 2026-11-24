@@ -6,38 +6,45 @@ slot0.execute = function(slot0, slot1)
 	slot4 = slot2.id
 	slot5 = slot2.num
 	slot6 = slot2.ticketNum
-	slot7 = getProxy(ChapterProxy):getRemasterTicketCost()
 
 	if BeginStageCommand.DockOverload() then
 		return
 	end
 
-	if getProxy(ChapterAutoProxy):GetRemainTime() <= 0 or slot9 <= slot8:GetRecord(slot3, slot4) * (slot5 - 1) then
+	if getProxy(ChapterAutoProxy):GetRemainTime() <= 0 or slot8 <= slot7:GetRecord(slot3, slot4) * (slot5 - 1) then
 		pg.TipsMgr.GetInstance():ShowTips(i18n("auto_battle_not_enough_time"))
 
 		return
 	end
 
-	if slot8:GetValidTicketCntByType(ChapterAutoTicket.TYPE.MAIN) < slot6 then
+	if slot7:GetValidTicketCntByType(ChapterAutoTicket.TYPE.MAIN) < slot6 then
 		pg.TipsMgr.GetInstance():ShowTips(i18n("auto_battle_not_enough_resource"))
 
 		return
 	end
 
-	if getProxy(PlayerProxy):getRawData().oil < math.max(0, ChapterAutoCommission.GetOnceOil(slot3, slot4) * slot6 - slot8:GetOil()) then
+	if getProxy(PlayerProxy):getRawData().oil < math.max(0, ChapterAutoCommission.GetOnceOil(slot3, slot4) * slot6 - slot7:GetOil()) then
 		pg.TipsMgr.GetInstance():ShowTips(i18n("auto_battle_not_enough_resource"))
 
 		return
 	end
 
-	slot12 = false
+	slot11 = false
+	slot12 = 0
 	slot13 = getProxy(ChapterProxy)
 
-	if slot3 == ChapterAutoProxy.TYPE.SLG and slot13:getMapById(slot13:getChapterById(slot4, true):getConfig("map")):isRemaster() then
-		slot12 = true
+	if slot3 == ChapterAutoProxy.TYPE.SLG then
+		if slot13:getMapById(slot13:getChapterById(slot4, true):getConfig("map")):isRemaster() then
+			slot11 = true
+			slot12 = getProxy(ChapterProxy):getRemasterTicketCost()
+		end
+	elseif slot3 == ChapterAutoProxy.TYPE.RUSH then
+		slot14 = pg.activity_series_enemy_auto[slot4].link_id
+		slot12 = BossRushChapterRemasterHelper.GetPermanentActivityTicketCost(slot14, slot4)
+		slot11 = BossRushChapterRemasterHelper.GetRemasterByActivityId(slot14) ~= nil
 	end
 
-	if slot12 and slot13.remasterTickets < slot6 * slot7 then
+	if slot11 and slot13.remasterTickets < slot6 * slot12 then
 		pg.TipsMgr.GetInstance():ShowTips(i18n("levelScene_remaster_tickets_not_enough"))
 
 		return
@@ -88,32 +95,6 @@ slot0.execute = function(slot0, slot1)
 			pg.TipsMgr.GetInstance():ShowTips(errorTip("chapter_auto_start_fail", slot0.result))
 		end
 	end)
-end
-
-slot0.CheckOccupied = function()
-	if not getProxy(ChapterAutoProxy):GetCommissionDoingType() or slot0 == ChapterAutoProxy.TYPE.WORLD then
-		return false
-	end
-
-	switch(slot0, {
-		[ChapterAutoProxy.TYPE.SLG] = function ()
-			if getProxy(ChapterProxy):GetAutoChapterId() then
-				pg.MsgboxMgr.GetInstance():ShowMsgBox({
-					content = i18n("auto_drop_is_activation", slot0:getChapterById(slot1):getConfig("name")),
-					onYes = function ()
-						pg.m02:sendNotification(GAME.GO_SCENE, SCENE.LEVEL, {
-							chapterId = uv0:getActiveChapter() and slot0.id,
-							mapIdx = slot0 and slot0:getConfig("map")
-						})
-					end,
-					yesText = i18n("auto_drop_is_activation_go"),
-					noText = i18n("auto_drop_is_activation_cancle")
-				})
-			end
-
-			return true
-		end
-	})
 end
 
 return slot0

@@ -16,6 +16,7 @@ slot0.ITEM_ADD_LAYER = "EquipmentMediator.ITEM_ADD_LAYER"
 slot0.OPEN_EQUIPSKIN_INDEX_LAYER = "EquipmentMediator:OPEN_EQUIPSKIN_INDEX_LAYER"
 slot0.OPEN_EQUIPMENT_INDEX = "OPEN_EQUIPMENT_INDEX"
 slot0.DESIGN_FILTER_CHANGED = "EquipmentMediator:DESIGN_FILTER_CHANGED"
+slot0.ON_CLICK_EASTER_EGG = "EquipmentMediator::ON_CLICK_EASTER_EGG"
 
 slot0.register = function(slot0)
 	if not slot0.contextData.warp then
@@ -128,6 +129,9 @@ slot0.register = function(slot0)
 			mediator = CustomIndexMediator,
 			data = slot1
 		}))
+	end)
+	slot0:bind(EasterEggView.ON_CLICK_EASTER_EGG, function (slot0, slot1)
+		uv0:sendNotification(GAME.PUZZLE_PIECE_OP, slot1)
 	end)
 
 	slot0.canUpdate = true
