@@ -40,7 +40,7 @@ return {
 					triggerParam = {},
 					spawn = {
 						{
-							monsterTemplateID = 16912303,
+							monsterTemplateID = 16914305,
 							sickness = 0.5,
 							delay = 0.1,
 							corrdinate = {

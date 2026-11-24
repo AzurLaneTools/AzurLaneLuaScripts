@@ -91,7 +91,7 @@ slot0.didEnter = function(slot0)
 		})
 	end, SFX_PANEL)
 	onButton(slot0, slot0.rankBtn, function ()
-		uv0:emit(BossRushVeritasAcademyMediator.ON_EXTRA_RANK)
+		uv0:emit(BossRushVeritasAcademyMediator.ON_PT_RANK)
 	end, SFX_PANEL)
 	onButton(slot0, slot0.ptBtn, function ()
 		uv0:emit(BossRushVeritasAcademyMediator.GO_SCENE, SCENE.ACTIVITY, {

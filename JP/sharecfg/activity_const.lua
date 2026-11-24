@@ -1201,7 +1201,7 @@ end)()
 		act_id = 50619
 	}
 	pg.base.activity_const.FREE_PACKAGE_SHOW_TIME_ID = {
-		act_id = 60824
+		act_id = 60825
 	}
 	pg.base.activity_const.DORM_SIGN_ID_3 = {
 		act_id = 7505
