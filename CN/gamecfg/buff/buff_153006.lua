@@ -14,8 +14,7 @@ return {
 			},
 			arg_list = {
 				index = 2,
-				number = 999,
-				type = 2
+				number = 999
 			}
 		}
 	}

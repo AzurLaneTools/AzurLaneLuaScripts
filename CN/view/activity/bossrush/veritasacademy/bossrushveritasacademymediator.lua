@@ -1,6 +1,7 @@
 slot0 = class("BossRushVeritasAcademyMediator", import("view.base.ContextMediator"))
 slot0.ON_FLEET_SELECT = "BossRushVeritasAcademyMediator.ON_FLEET_SELECT"
 slot0.ON_EXTRA_RANK = "BossRushVeritasAcademyMediator.ON_EXTRA_RANK"
+slot0.ON_PT_RANK = "BossRushVeritasAcademyMediator.ON_PT_RANK"
 slot0.ON_TASK_SUBMIT = "BossRushVeritasAcademyMediator.ON_TASK_SUBMIT"
 slot0.ON_PERFORM_COMBAT = "BossRushVeritasAcademyMediator.ON_PERFORM_COMBAT"
 slot0.GO_SUBLAYER = "BossRushVeritasAcademyMediator.GO_SUBLAYER"
@@ -33,6 +34,11 @@ slot0.register = function(slot0)
 	slot0:bind(uv0.ON_EXTRA_RANK, function (slot0)
 		uv0:sendNotification(GAME.GO_SCENE, SCENE.BILLBOARD, {
 			page = PowerRank.TYPE_BOSSRUSH
+		})
+	end)
+	slot0:bind(uv0.ON_PT_RANK, function (slot0)
+		uv0:sendNotification(GAME.GO_SCENE, SCENE.BILLBOARD, {
+			page = PowerRank.TYPE_PT
 		})
 	end)
 	slot0:bind(uv0.ON_PERFORM_COMBAT, function (slot0, slot1, slot2)
