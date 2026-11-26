@@ -341,7 +341,7 @@ end
 slot0.UpdateAttachment = function(slot0)
 	for slot4, slot5 in pairs(slot0.modules) do
 		if isa(slot5, CourtYardShipModule) then
-			slot5:HideAttachment(slot0._layerCount ~= 0)
+			slot5:HideAttachment(slot0._layerCount and slot0._layerCount ~= 0)
 		end
 	end
 end

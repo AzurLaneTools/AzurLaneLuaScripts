@@ -209,6 +209,9 @@ slot0.initNotificationHandleDic = function(slot0)
 		[GAME.CHANGE_LIVINGAREA_COVER_DONE] = function (slot0, slot1)
 			slot0.viewComponent:emit(NewMainScene.UPDATE_COVER)
 		end,
+		[GAME.REQ_NEW_INSTAGRAM_DATA_DONE] = function (slot0, slot1)
+			slot0.viewComponent:emit(GAME.REQ_NEW_INSTAGRAM_DATA_DONE)
+		end,
 		[GAME.ACT_INSTAGRAM_CHAT_DONE] = function (slot0, slot1)
 			if slot1:getBody().operation == ActivityConst.INSTAGRAM_CHAT_ACTIVATE_TOPIC then
 				slot3 = slot0.viewComponent:GetFlagShip()

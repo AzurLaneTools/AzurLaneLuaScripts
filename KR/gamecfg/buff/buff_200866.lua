@@ -162,6 +162,56 @@ return {
 			arg_list = {
 				minTargetNumber = 1,
 				buff_id = 200867,
+				nationality = 11,
+				target = "TargetAllHelp",
+				check_target = {
+					"TargetAllHelp",
+					"TargetNationality"
+				}
+			}
+		},
+		{
+			type = "BattleBuffAddBuff",
+			trigger = {
+				"onAttach"
+			},
+			arg_list = {
+				minTargetNumber = 1,
+				buff_id = 200867,
+				nationality = 12,
+				target = "TargetAllHelp",
+				check_target = {
+					"TargetAllHelp",
+					"TargetNationality"
+				}
+			}
+		},
+		{
+			type = "BattleBuffAddBuff",
+			trigger = {
+				"onAttach"
+			},
+			arg_list = {
+				minTargetNumber = 1,
+				buff_id = 200867,
+				target = "TargetAllHelp",
+				check_target = {
+					"TargetAllHelp",
+					"TargetNationality"
+				},
+				nationality = {
+					96
+				}
+			}
+		},
+		{
+			type = "BattleBuffAddBuff",
+			trigger = {
+				"onAttach"
+			},
+			arg_list = {
+				minTargetNumber = 1,
+				buff_id = 200867,
 				target = "TargetAllHelp",
 				check_target = {
 					"TargetAllHelp",

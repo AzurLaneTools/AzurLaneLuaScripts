@@ -670,6 +670,8 @@ pg.activity_ins_template.all = {
 	676,
 	677,
 	678,
+	679,
+	680,
 	20001,
 	20002,
 	20003,
@@ -28250,6 +28252,60 @@ end)()
 				2026,
 				11,
 				8
+			},
+			{
+				19,
+				36,
+				0
+			}
+		},
+		time_persist = {},
+		npc_discuss_persist = {}
+	}
+	pg.base.activity_ins_template[679] = {
+		ship_group = 118001,
+		name = "Liliel Angel Paratroopers",
+		type = 1,
+		picture_persist = "",
+		title = "",
+		message_persist = "",
+		is_active = 1,
+		oalist_pic_persist = "",
+		sculpture = "lilisha",
+		id = 679,
+		group_id = 679,
+		time = {
+			{
+				2026,
+				11,
+				26
+			},
+			{
+				12,
+				50,
+				0
+			}
+		},
+		time_persist = {},
+		npc_discuss_persist = {}
+	}
+	pg.base.activity_ins_template[680] = {
+		ship_group = 118002,
+		name = "Miriella Angel Paratroopers",
+		type = 1,
+		picture_persist = "",
+		title = "",
+		message_persist = "",
+		is_active = 1,
+		oalist_pic_persist = "",
+		sculpture = "jumeihuali",
+		id = 680,
+		group_id = 680,
+		time = {
+			{
+				2026,
+				11,
+				17
 			},
 			{
 				19,

@@ -9856,6 +9856,30 @@ end)()
 			"painting/juejiang_2"
 		}
 	}
+	pg.base.painting_filte_map.jumeihuali = {
+		key = "jumeihuali",
+		res_list = {
+			"painting/jumeihuali_tex",
+			"painting/jumeihuali_rw_tex",
+			"painting/jumeihuali_n_tex",
+			"painting/jumeihuali_n_rw_tex",
+			"painting/jumeihuali_n",
+			"painting/jumeihuali"
+		}
+	}
+	pg.base.painting_filte_map.jumeihuali_2 = {
+		key = "jumeihuali_2",
+		res_list = {
+			"painting/jumeihuali_2_tex",
+			"painting/jumeihuali_2_rw_tex",
+			"painting/jumeihuali_2_n_tex",
+			"painting/jumeihuali_2_n_rw_tex",
+			"painting/jumeihuali_2_n_bj_tex",
+			"painting/jumeihuali_2_n",
+			"painting/jumeihuali_2_bj_tex",
+			"painting/jumeihuali_2"
+		}
+	}
 	pg.base.painting_filte_map.junhe = {
 		key = "junhe",
 		res_list = {
@@ -9910,6 +9934,8 @@ end)()
 			"painting/junzhu_3"
 		}
 	}
+end)()
+(function ()
 	pg.base.painting_filte_map.junzhu_4 = {
 		key = "junzhu_4",
 		res_list = {
@@ -9930,8 +9956,6 @@ end)()
 			"painting/junzhu_5"
 		}
 	}
-end)()
-(function ()
 	pg.base.painting_filte_map.kaersilue = {
 		key = "kaersilue",
 		res_list = {
@@ -10821,6 +10845,8 @@ end)()
 			"painting/kulasuo_2"
 		}
 	}
+end)()
+(function ()
 	pg.base.painting_filte_map.kulasuo_g = {
 		key = "kulasuo_g",
 		res_list = {
@@ -10840,8 +10866,6 @@ end)()
 			"painting/kunibeierdi"
 		}
 	}
-end)()
-(function ()
 	pg.base.painting_filte_map.kunibeierdi_2 = {
 		key = "kunibeierdi_2",
 		res_list = {
@@ -11591,6 +11615,30 @@ end)()
 			"painting/lila_2"
 		}
 	}
+	pg.base.painting_filte_map.lilisha = {
+		key = "lilisha",
+		res_list = {
+			"painting/lilisha_tex",
+			"painting/lilisha_rw_tex",
+			"painting/lilisha_n_tex",
+			"painting/lilisha_n_rw_tex",
+			"painting/lilisha_n",
+			"painting/lilisha"
+		}
+	}
+	pg.base.painting_filte_map.lilisha_2 = {
+		key = "lilisha_2",
+		res_list = {
+			"painting/lilisha_2_tex",
+			"painting/lilisha_2_rw_tex",
+			"painting/lilisha_2_n_tex",
+			"painting/lilisha_2_n_rw_tex",
+			"painting/lilisha_2_n_bj_tex",
+			"painting/lilisha_2_n",
+			"painting/lilisha_2_bj_tex",
+			"painting/lilisha_2"
+		}
+	}
 	pg.base.painting_filte_map.lingbo = {
 		key = "lingbo",
 		res_list = {
@@ -11680,6 +11728,8 @@ end)()
 			"painting/lingbo_6"
 		}
 	}
+end)()
+(function ()
 	pg.base.painting_filte_map.lingbo_7 = {
 		key = "lingbo_7",
 		res_list = {
@@ -11710,8 +11760,6 @@ end)()
 			"painting/lingbo_g"
 		}
 	}
-end)()
-(function ()
 	pg.base.painting_filte_map.lingbo_h = {
 		key = "lingbo_h",
 		res_list = {
@@ -12499,6 +12547,8 @@ end)()
 			"painting/luoen_5"
 		}
 	}
+end)()
+(function ()
 	pg.base.painting_filte_map.luoen_h = {
 		key = "luoen_h",
 		res_list = {
@@ -12536,8 +12586,6 @@ end)()
 			"painting/luoma"
 		}
 	}
-end)()
-(function ()
 	pg.base.painting_filte_map.luoma_2 = {
 		key = "luoma_2",
 		res_list = {
@@ -13440,6 +13488,8 @@ end)()
 			"painting/mingniabolisi_2"
 		}
 	}
+end)()
+(function ()
 	pg.base.painting_filte_map.mingniabolisi_3 = {
 		key = "mingniabolisi_3",
 		res_list = {
@@ -13477,8 +13527,6 @@ end)()
 			"painting/mingqu"
 		}
 	}
-end)()
-(function ()
 	pg.base.painting_filte_map.mingqu_2 = {
 		key = "mingqu_2",
 		res_list = {
@@ -14336,6 +14384,8 @@ end)()
 			"painting/nigulasi_4"
 		}
 	}
+end)()
+(function ()
 	pg.base.painting_filte_map.nigulasi_5 = {
 		key = "nigulasi_5",
 		res_list = {
@@ -14371,8 +14421,6 @@ end)()
 			"painting/nina_2"
 		}
 	}
-end)()
-(function ()
 	pg.base.painting_filte_map.nina_wjz = {
 		key = "nina_wjz",
 		res_list = {
@@ -15161,6 +15209,8 @@ end)()
 			"painting/ouruola_2"
 		}
 	}
+end)()
+(function ()
 	pg.base.painting_filte_map.ouruola_3 = {
 		key = "ouruola_3",
 		res_list = {
@@ -15192,8 +15242,6 @@ end)()
 			"painting/paidi_2_doa"
 		}
 	}
-end)()
-(function ()
 	pg.base.painting_filte_map.paidi_doa = {
 		key = "paidi_doa",
 		res_list = {
@@ -16051,6 +16099,8 @@ end)()
 			"painting/qiye_4"
 		}
 	}
+end)()
+(function ()
 	pg.base.painting_filte_map.qiye_5 = {
 		key = "qiye_5",
 		res_list = {
@@ -16086,8 +16136,6 @@ end)()
 			"painting/qiye_8"
 		}
 	}
-end)()
-(function ()
 	pg.base.painting_filte_map.qiye_9 = {
 		key = "qiye_9",
 		res_list = {
@@ -16884,6 +16932,8 @@ end)()
 			"painting/shancheng"
 		}
 	}
+end)()
+(function ()
 	pg.base.painting_filte_map.shancheng_2 = {
 		key = "shancheng_2",
 		res_list = {
@@ -16912,8 +16962,6 @@ end)()
 			"painting/shancheng_6"
 		}
 	}
-end)()
-(function ()
 	pg.base.painting_filte_map.shancheng_8 = {
 		key = "shancheng_8",
 		res_list = {
@@ -17770,6 +17818,8 @@ end)()
 			"painting/sipeibojue"
 		}
 	}
+end)()
+(function ()
 	pg.base.painting_filte_map.sipeibojue_2 = {
 		key = "sipeibojue_2",
 		res_list = {
@@ -17798,8 +17848,6 @@ end)()
 			"painting/sipeibojue_5"
 		}
 	}
-end)()
-(function ()
 	pg.base.painting_filte_map.sipeibojue_younv = {
 		key = "sipeibojue_younv",
 		res_list = {
@@ -18643,6 +18691,8 @@ end)()
 			"painting/tiancheng_hei"
 		}
 	}
+end)()
+(function ()
 	pg.base.painting_filte_map.tiancheng_younv = {
 		key = "tiancheng_younv",
 		res_list = {
@@ -18678,8 +18728,6 @@ end)()
 			"painting/tianjinfeng"
 		}
 	}
-end)()
-(function ()
 	pg.base.painting_filte_map.tianjinfeng_2 = {
 		key = "tianjinfeng_2",
 		res_list = {
@@ -19493,6 +19541,8 @@ end)()
 			"painting/vtuber_ayame_wjz"
 		}
 	}
+end)()
+(function ()
 	pg.base.painting_filte_map.vtuber_fubuki = {
 		key = "vtuber_fubuki",
 		res_list = {
@@ -19523,8 +19573,6 @@ end)()
 			"painting/vtuber_matsuri"
 		}
 	}
-end)()
-(function ()
 	pg.base.painting_filte_map.vtuber_matsuri_2 = {
 		key = "vtuber_matsuri_2",
 		res_list = {
@@ -20379,6 +20427,8 @@ end)()
 			"painting/xia_2"
 		}
 	}
+end)()
+(function ()
 	pg.base.painting_filte_map.xia_2_doa = {
 		key = "xia_2_doa",
 		res_list = {
@@ -20414,8 +20464,6 @@ end)()
 			"painting/xia_doa"
 		}
 	}
-end)()
-(function ()
 	pg.base.painting_filte_map.xia_doa_wjz = {
 		key = "xia_doa_wjz",
 		res_list = {
@@ -21238,6 +21286,8 @@ end)()
 			"painting/xinzexi_3"
 		}
 	}
+end)()
+(function ()
 	pg.base.painting_filte_map.xinzexi_4 = {
 		key = "xinzexi_4",
 		res_list = {
@@ -21277,8 +21327,6 @@ end)()
 			"painting/xiongmeng"
 		}
 	}
-end)()
-(function ()
 	pg.base.painting_filte_map.xiongmeng_2 = {
 		key = "xiongmeng_2",
 		res_list = {
@@ -22118,6 +22166,8 @@ end)()
 			"painting/yilishabai_4"
 		}
 	}
+end)()
+(function ()
 	pg.base.painting_filte_map.yilishabai_5 = {
 		key = "yilishabai_5",
 		res_list = {
@@ -22154,8 +22204,6 @@ end)()
 			"painting/yilishabai_alter"
 		}
 	}
-end)()
-(function ()
 	pg.base.painting_filte_map.yilisi_2_doa = {
 		key = "yilisi_2_doa",
 		res_list = {
@@ -23032,6 +23080,8 @@ end)()
 			"painting/z1_g"
 		}
 	}
+end)()
+(function ()
 	pg.base.painting_filte_map.z11 = {
 		key = "z11",
 		res_list = {
@@ -23073,8 +23123,6 @@ end)()
 			"painting/z13"
 		}
 	}
-end)()
-(function ()
 	pg.base.painting_filte_map.z13_2 = {
 		key = "z13_2",
 		res_list = {
@@ -23934,6 +23982,8 @@ end)()
 			"painting/zhenzhuhao_2"
 		}
 	}
+end)()
+(function ()
 	pg.base.painting_filte_map.zhezhi = {
 		key = "zhezhi",
 		res_list = {
@@ -23972,8 +24022,6 @@ end)()
 			"painting/zhixiao_2_doa"
 		}
 	}
-end)()
-(function ()
 	pg.base.painting_filte_map.zhixiao_doa = {
 		key = "zhixiao_doa",
 		res_list = {

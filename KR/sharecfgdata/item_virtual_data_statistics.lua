@@ -192324,6 +192324,33 @@ _G.pg.base.item_virtual_data_statistics[68755] = {
 }
 
 
+_G.pg.base.item_virtual_data_statistics[68761] = {
+	drop_gold_max = 0,
+	name = "천사의 날개 함재기",
+	display = "장비 스킨 「천사의 날개 함재기(뇌격)」, 「천사의 날개 함재기(전투)」, 「천사의 날개 함재기(폭격)」를 1개씩 획득 가능",
+	type = 98,
+	is_world = 0,
+	shop_id = -1,
+	replace_item = 0,
+	time_limit = 0,
+	link_id = 0,
+	drop_arg = "",
+	album_config = "",
+	icon = "Equips/999131",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	drop_oil_max = 0,
+	virtual_type = 0,
+	id = 68761,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+
 _G.pg.base.item_virtual_data_statistics[68800] = {
 	drop_gold_max = 0,
 	name = "【新手任务】第1阶段pt",

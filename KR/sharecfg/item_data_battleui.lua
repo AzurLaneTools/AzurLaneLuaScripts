@@ -29,7 +29,8 @@ pg.item_data_battleui.all = {
 	207,
 	208,
 	209,
-	210
+	210,
+	211
 }
 pg.base = pg.base or {}
 pg.base.item_data_battleui = {}
@@ -451,6 +452,23 @@ pg.base.item_data_battleui = {}
 		desc = "거울의 방에서 촛불이 흔들리며 유영과 가시가 얽혀든다. 허무와 현실을 헤매는 이야기의 서장이 전투 중에 막을 올린다.",
 		id = 210,
 		icon = "210",
+		scene = {},
+		rare_display = {
+			1,
+			2,
+			3
+		}
+	}
+	pg.base.item_data_battleui[211] = {
+		name = "천사 무대",
+		key = "SkinElite_20261112",
+		display_icon = "ui_211",
+		unlock = "상점 구매 (전투 UI·천사 무대)",
+		is_unlock = 1,
+		rare = 4,
+		desc = "깃털이 빛과 함께 흩날리고, 후광이 무대를 찬란하게 비춘다. 무대 뒤에서도 무대 위에서도, 강림하는 천사들을 놓치지 마시라!",
+		id = 211,
+		icon = "211",
 		scene = {},
 		rare_display = {
 			1,

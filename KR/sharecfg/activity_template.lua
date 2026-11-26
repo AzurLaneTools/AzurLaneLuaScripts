@@ -1320,6 +1320,13 @@ pg.activity_template.all = {
 	51615,
 	51616,
 	51163,
+	51301,
+	51302,
+	51303,
+	51304,
+	51305,
+	51306,
+	51307,
 	51688,
 	7001,
 	7004,
@@ -2300,6 +2307,9 @@ pg.activity_template.get_id_list_by_type = {
 		51606,
 		51611,
 		51163,
+		51301,
+		51306,
+		51307,
 		1103,
 		1104,
 		1105,
@@ -2637,6 +2647,7 @@ pg.activity_template.get_id_list_by_type = {
 		51127,
 		51129,
 		51153,
+		51305,
 		7506,
 		7507,
 		6000,
@@ -3292,6 +3303,7 @@ pg.activity_template.get_id_list_by_type = {
 		51124,
 		51135,
 		51144,
+		51303,
 		1110,
 		6006,
 		6010,
@@ -3469,7 +3481,8 @@ pg.activity_template.get_id_list_by_type = {
 		51079,
 		51117,
 		51152,
-		51615
+		51615,
+		51302
 	},
 	[104] = {
 		4963
@@ -3509,7 +3522,8 @@ pg.activity_template.get_id_list_by_type = {
 		5260,
 		5989,
 		50371,
-		50845
+		50845,
+		51304
 	},
 	[112] = {
 		5265,
@@ -45968,6 +45982,7 @@ end)()
 	pg.base.activity_template[50492] = {
 		mark = 20260326,
 		page_info = "",
+		time = "stop",
 		type = 23,
 		login_pop = 0,
 		config_id = 50493,
@@ -45976,37 +45991,11 @@ end)()
 		title_res_tag = "",
 		id = 50492,
 		page_core = "",
-		config_data = {},
-		time = {
-			"timer",
-			{
-				{
-					2026,
-					4,
-					1
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2026,
-					4,
-					7
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
+		config_data = {}
 	}
 	pg.base.activity_template[50493] = {
 		mark = 20260326,
+		time = "stop",
 		type = 21,
 		login_pop = 0,
 		config_id = 0,
@@ -46015,33 +46004,6 @@ end)()
 		id = 50493,
 		page_core = "AprilFoolDiscovery2026UI",
 		config_data = {},
-		time = {
-			"timer",
-			{
-				{
-					2026,
-					4,
-					1
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2026,
-					4,
-					7
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		},
 		page_info = {
 			class_name = "AprilFoolDiscovery2026Page",
 			ui_name = "AprilFoolDiscovery2026Page"
@@ -56688,6 +56650,437 @@ end)()
 			}
 		}
 	}
+	pg.base.activity_template[51301] = {
+		mark = 20261112,
+		type = 13,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 1,
+		title_res_tag = "TwoPointFiveCoreActivityUI_subtitle_1",
+		id = 51301,
+		page_core = "TwoPointFiveCoreActivityUI",
+		config_data = {},
+		time = {
+			"timer",
+			{
+				{
+					2026,
+					11,
+					26
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2026,
+					12,
+					10
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		page_info = {
+			class_name = "TwoPointFiveMainPage",
+			ui_name = "TwoPointFiveMainPage",
+			sub_ui = {
+				"TwoPointFiveScenarioPage"
+			}
+		},
+		config_client = {
+			task_id = 29068,
+			is_clickOnce = true,
+			default_bgm = "story-richang-lightsweet",
+			default_background = "star_level_bg_9999",
+			storys = {
+				581,
+				582,
+				583,
+				584,
+				585
+			}
+		}
+	}
+	pg.base.activity_template[51302] = {
+		mark = 20261112,
+		type = 103,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 5,
+		title_res_tag = "TwoPointFiveCoreActivityUI_subtitle_2",
+		id = 51302,
+		page_core = "TwoPointFiveCoreActivityUI",
+		config_data = {},
+		time = {
+			"timer",
+			{
+				{
+					2026,
+					11,
+					26
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2026,
+					12,
+					16
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		page_info = {
+			class_name = "TwoPointFiveAwardPage",
+			ui_name = "TwoPointFiveAwardPage",
+			sub_ui = {
+				"TwoPointFiveCollectMsgBox"
+			}
+		},
+		config_client = {
+			furniture_theme_link = {
+				2,
+				{
+					"scene court yard",
+					{}
+				}
+			},
+			medal_link = {
+				2,
+				{
+					"scene task"
+				}
+			},
+			equipskin_box_link = {
+				drop_type = 2,
+				drop_id = 30388,
+				list = {
+					{
+						2,
+						{
+							"scene shop",
+							{
+								warp = "shopstreet"
+							}
+						},
+						"연습 상점에서 교환"
+					}
+				}
+			}
+		}
+	}
+	pg.base.activity_template[51303] = {
+		mark = 20261112,
+		type = 74,
+		login_pop = 0,
+		config_id = 51303,
+		is_show = 2,
+		title_res_tag = "TwoPointFiveCoreActivityUI_subtitle_3",
+		id = 51303,
+		page_core = "TwoPointFiveCoreActivityUI",
+		config_data = {},
+		time = {
+			"timer",
+			{
+				{
+					2026,
+					11,
+					26
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2026,
+					12,
+					16
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		page_info = {
+			class_name = "TwoPointFiveKillPage",
+			ui_name = "TwoPointFiveKillPage"
+		},
+		config_client = {
+			story = {
+				{},
+				{},
+				{
+					"TIANSHIMENDEBILANWUTAIRICHANG1"
+				},
+				{},
+				{},
+				{},
+				{}
+			}
+		}
+	}
+	pg.base.activity_template[51304] = {
+		mark = 20261112,
+		type = 111,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 4,
+		title_res_tag = "TwoPointFiveCoreActivityUI_subtitle_4",
+		id = 51304,
+		page_core = "TwoPointFiveCoreActivityUI",
+		config_data = {
+			5001,
+			5002,
+			5003
+		},
+		time = {
+			"timer",
+			{
+				{
+					2026,
+					11,
+					26
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2026,
+					12,
+					10
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		page_info = {
+			class_name = "TwoPointFiveStagePage",
+			ui_name = "TwoPointFiveStagePage"
+		},
+		config_client = {
+			task = {
+				29065,
+				29066,
+				29067
+			}
+		}
+	}
+	pg.base.activity_template[51305] = {
+		mark = 20261112,
+		type = 18,
+		login_pop = 0,
+		config_id = 3,
+		is_show = 3,
+		title_res_tag = "TwoPointFiveCoreActivityUI_subtitle_5",
+		id = 51305,
+		page_core = "TwoPointFiveCoreActivityUI",
+		config_data = {
+			{
+				29069,
+				29070,
+				29071,
+				29072,
+				29055,
+				29056,
+				29057,
+				29058,
+				29059,
+				29060,
+				29061,
+				29062,
+				29063,
+				29064
+			}
+		},
+		time = {
+			"timer",
+			{
+				{
+					2026,
+					11,
+					26
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2026,
+					12,
+					16
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		page_info = {
+			class_name = "TwoPointFiveOmenPage",
+			ui_name = "TwoPointFiveOmenPage"
+		},
+		config_client = {
+			subType = 1,
+			unlock_task = {
+				{
+					29069,
+					29070
+				},
+				{
+					29071,
+					29072
+				},
+				{
+					29055,
+					29056
+				},
+				{
+					29057,
+					29058
+				},
+				{
+					29059,
+					29060
+				},
+				{
+					29061,
+					29062
+				},
+				{
+					29063,
+					29064
+				}
+			},
+			story = {
+				{},
+				{},
+				{
+					"TIANSHIMENDEBILANWUTAIRICHANG2"
+				},
+				{},
+				{},
+				{},
+				{}
+			}
+		}
+	}
+	pg.base.activity_template[51306] = {
+		mark = 20261112,
+		page_info = "",
+		type = 13,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 0,
+		config_client = "",
+		title_res_tag = "",
+		id = 51306,
+		page_core = "",
+		config_data = {
+			29065,
+			29066,
+			29067
+		},
+		time = {
+			"timer",
+			{
+				{
+					2026,
+					11,
+					26
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2026,
+					12,
+					10
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	}
+	pg.base.activity_template[51307] = {
+		mark = 20261112,
+		page_info = "",
+		type = 13,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 0,
+		config_client = "",
+		title_res_tag = "",
+		id = 51307,
+		page_core = "",
+		config_data = {
+			29068
+		},
+		time = {
+			"timer",
+			{
+				{
+					2026,
+					11,
+					26
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2026,
+					12,
+					10
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	}
 	pg.base.activity_template[51688] = {
 		mark = 20261105,
 		type = 69,
@@ -61094,6 +61487,8 @@ end)()
 			}
 		}
 	}
+end)()
+(function ()
 	pg.base.activity_template[1110] = {
 		mark = 20251204,
 		page_info = "",
@@ -61418,8 +61813,6 @@ end)()
 			}
 		}
 	}
-end)()
-(function ()
 	pg.base.activity_template[6001] = {
 		mark = 20210610,
 		time = "stop",
@@ -65564,6 +65957,8 @@ end)()
 			ui_name = "For2022DaysLoginPage"
 		}
 	}
+end)()
+(function ()
 	pg.base.activity_template[20998] = {
 		mark = 20240314,
 		type = 3,
@@ -65996,8 +66391,6 @@ end)()
 			ui_name = "SeventhAnniversarySignPageKR"
 		}
 	}
-end)()
-(function ()
 	pg.base.activity_template[21005] = {
 		mark = 20250313,
 		time = "stop",
@@ -68924,6 +69317,8 @@ end)()
 			}
 		}
 	}
+end)()
+(function ()
 	pg.base.activity_template[990014] = {
 		mark = 20260319,
 		page_info = "",
@@ -69256,8 +69651,6 @@ end)()
 			}
 		}
 	}
-end)()
-(function ()
 	pg.base.activity_template[990021] = {
 		mark = 20260605,
 		page_info = "",
@@ -72322,6 +72715,8 @@ end)()
 			21819
 		}
 	}
+end)()
+(function ()
 	pg.base.activity_template[1000106] = {
 		mark = 20261008,
 		page_info = "",
@@ -72539,8 +72934,6 @@ end)()
 			3028
 		}
 	}
-end)()
-(function ()
 	pg.base.activity_template[1000121] = {
 		mark = 20261008,
 		time = "stop",

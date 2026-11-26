@@ -6848,6 +6848,11 @@ _G.pg.base.gametip.word_shipNation_nierautomata = {
 }
 
 
+_G.pg.base.gametip.word_shipNation_ririsa = {
+	tip = "2.5차원의 유혹"
+}
+
+
 _G.pg.base.gametip.word_reset = {
 	tip = "초기화"
 }
@@ -52173,4 +52178,19 @@ _G.pg.base.gametip.world_task_main = {
 
 _G.pg.base.gametip.world_task_notask = {
 	tip = "수락할 수 있는 임무가 없습니다"
+}
+
+
+_G.pg.base.gametip.twopointfive_role_name_1 = {
+	tip = "미리엘라 천사 공정대/미카리"
+}
+
+
+_G.pg.base.gametip.twopointfive_role_name_2 = {
+	tip = "리리엘 천사 공정대/리리사"
+}
+
+
+_G.pg.base.gametip.combatUI_stick_set = {
+	tip = "자율 전투 시 스틱 표시"
 }

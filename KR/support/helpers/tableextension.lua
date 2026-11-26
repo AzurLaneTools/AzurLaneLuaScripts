@@ -99,8 +99,12 @@ table.equal = function(slot0, slot1)
 		return true
 	end
 
+	if getmetatable(slot0) ~= getmetatable(slot1) then
+		return false
+	end
+
 	for slot5, slot6 in pairs(slot0) do
-		if not table.equal(slot6, slot1[slot5]) then
+		if not table.equal(slot6, rawget(slot1, slot5)) then
 			return false
 		end
 	end

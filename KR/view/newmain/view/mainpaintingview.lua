@@ -174,8 +174,6 @@ slot0.IsLoading = function(slot0)
 end
 
 slot0.Init = function(slot0, slot1, slot2, slot3, slot4)
-	print("初始化舰船 = " .. slot1:getPainting())
-
 	if slot0:ShouldReLoad(slot1) then
 		slot0.shift = slot2 or slot0.shift
 
@@ -209,6 +207,9 @@ slot0.Init = function(slot0, slot1, slot2, slot3, slot4)
 			end
 		end)
 	else
+		slot0.shift = slot2 or slot0.shift
+
+		assert(slot0.shift)
 		slot0.painting:Resume()
 		slot0:InitShipShift()
 

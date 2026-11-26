@@ -82,14 +82,14 @@ pg.base.voice_bgm = {}
 		bgm = "main"
 	}
 	pg.base.voice_bgm.LoginScene = {
-		default_bgm = "login",
+		default_bgm = "theme-25ds-az",
 		special_bgm = "",
-		bgm = "login"
+		bgm = "theme-25ds-az"
 	}
 	pg.base.voice_bgm.NewMainScene = {
-		default_bgm = "main",
+		default_bgm = "theme-25ds-az",
 		special_bgm = "",
-		bgm = "main"
+		bgm = "theme-25ds-az"
 	}
 	pg.base.voice_bgm.HoloLiveLinkGameView = {
 		default_bgm = "holo-fff-inst",
@@ -2555,9 +2555,9 @@ end)()
 		bgm = "danmachi-3"
 	}
 	pg.base.voice_bgm.AEBCSStoryPage = {
-		default_bgm = "danmachi-3",
+		default_bgm = "story-richang-lightsweet",
 		special_bgm = "",
-		bgm = "danmachi-3"
+		bgm = "story-richang-lightsweet"
 	}
 	pg.base.voice_bgm.ClemenceauMainRePage = {
 		default_bgm = "theme-clemenceau",
@@ -3452,5 +3452,35 @@ end)()
 		default_bgm = "theme-designshipVI",
 		special_bgm = "",
 		bgm = "theme-designshipVI"
+	}
+	pg.base.voice_bgm.BayardCatchupPage = {
+		default_bgm = "theme-designshipVI",
+		special_bgm = "",
+		bgm = "theme-designshipVI"
+	}
+	pg.base.voice_bgm.TwoPointFiveMainPage = {
+		default_bgm = "theme-25ds-az",
+		special_bgm = "",
+		bgm = "theme-25ds-az"
+	}
+	pg.base.voice_bgm.TwoPointFiveAwardPage = {
+		default_bgm = "story-richang-lightsweet",
+		special_bgm = "",
+		bgm = "story-richang-lightsweet"
+	}
+	pg.base.voice_bgm.TwoPointFiveKillPage = {
+		default_bgm = "theme-25ds-az",
+		special_bgm = "",
+		bgm = "theme-25ds-az"
+	}
+	pg.base.voice_bgm.TwoPointFiveStagePage = {
+		default_bgm = "story-richang-lightsweet",
+		special_bgm = "",
+		bgm = "story-richang-lightsweet"
+	}
+	pg.base.voice_bgm.TwoPointFiveOmenPage = {
+		default_bgm = "theme-25ds-az",
+		special_bgm = "",
+		bgm = "theme-25ds-az"
 	}
 end)()

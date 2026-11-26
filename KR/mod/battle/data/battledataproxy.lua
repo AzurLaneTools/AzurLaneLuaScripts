@@ -1746,7 +1746,7 @@ slot9.CreateAircraft = function(slot0, slot1, slot2, slot3, slot4)
 	slot6 = uv0.CreateAircraftUnit(slot0:GenerateAircraftID(), slot2, slot1, slot3)
 
 	if slot4 then
-		slot6:SetSkinID(slot4)
+		slot6:SetSkinID(uv0.GetRandomEquipSkin(slot4))
 	end
 
 	slot7 = nil

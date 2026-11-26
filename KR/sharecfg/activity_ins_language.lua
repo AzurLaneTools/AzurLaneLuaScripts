@@ -8258,6 +8258,37 @@ pg.activity_ins_language.all = {
 	"op_reply_678_1_1",
 	"ins_op_678_1_2",
 	"op_reply_678_1_2",
+	"ins_679",
+	"ins_discuss_679_1",
+	"ins_reply_679_1_1",
+	"ins_reply_679_1_2",
+	"ins_reply_679_1_3",
+	"ins_discuss_679_2",
+	"ins_reply_679_2_1",
+	"ins_discuss_679_3",
+	"ins_reply_679_3_1",
+	"ins_reply_679_3_2",
+	"ins_reply_679_3_3",
+	"ins_op_679_1_1",
+	"op_reply_679_1_1",
+	"ins_op_679_1_2",
+	"op_reply_679_1_2",
+	"ins_680",
+	"ins_discuss_680_1",
+	"ins_reply_680_1_1",
+	"ins_discuss_680_2",
+	"ins_reply_680_2_1",
+	"ins_discuss_680_3",
+	"ins_reply_680_3_1",
+	"ins_reply_680_3_2",
+	"ins_reply_680_3_3",
+	"ins_discuss_680_4",
+	"ins_reply_680_4_1",
+	"ins_reply_680_4_2",
+	"ins_op_680_1_1",
+	"op_reply_680_1_1",
+	"ins_op_680_1_2",
+	"op_reply_680_1_2",
 	"ins_20001",
 	"ins_discuss_20001_1",
 	"ins_reply_20001_1_1",
@@ -33735,6 +33766,99 @@ end)()
 	pg.base.activity_ins_language.op_reply_678_1_2 = {
 		value = ""
 	}
+	pg.base.activity_ins_language.ins_679 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.ins_discuss_679_1 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.ins_reply_679_1_1 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.ins_reply_679_1_2 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.ins_reply_679_1_3 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.ins_discuss_679_2 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.ins_reply_679_2_1 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.ins_discuss_679_3 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.ins_reply_679_3_1 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.ins_reply_679_3_2 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.ins_reply_679_3_3 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.ins_op_679_1_1 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.op_reply_679_1_1 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.ins_op_679_1_2 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.op_reply_679_1_2 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.ins_680 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.ins_discuss_680_1 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.ins_reply_680_1_1 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.ins_discuss_680_2 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.ins_reply_680_2_1 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.ins_discuss_680_3 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.ins_reply_680_3_1 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.ins_reply_680_3_2 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.ins_reply_680_3_3 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.ins_discuss_680_4 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.ins_reply_680_4_1 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.ins_reply_680_4_2 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.ins_op_680_1_1 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.op_reply_680_1_1 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.ins_op_680_1_2 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.op_reply_680_1_2 = {
+		value = ""
+	}
 	pg.base.activity_ins_language.ins_20001 = {
 		value = "팔로잉 해주셔서 감사합니다!\\n저희 채널에서는 모항의 최신 뉴스와 핫한 정보, 일상 속 화제 등을 전해드립니다. 익명 제보는 언제나 대환영입니다.\\n앞으로도 만쥬 뉴스에 많은 성원 부탁드립니다."
 	}
@@ -33780,6 +33904,8 @@ end)()
 	pg.base.activity_ins_language.ins_discuss_20001_10 = {
 		value = "이제 더 많은 정보를 받을 수 있는 거야? 기대된다!"
 	}
+end)()
+(function ()
 	pg.base.activity_ins_language.ins_discuss_20001_11 = {
 		value = "푸슌 폰은 방금 안산 언니한테 압수당했어. 이 페이윈 님이 대신 올려 줄게~"
 	}
@@ -33873,8 +33999,6 @@ end)()
 	pg.base.activity_ins_language.ins_reply_20002_8_1 = {
 		value = "기술 지원이 필요하면 아카시한테 말하라냥! 견적은 저렴하게 뽑아줄게냥~♪"
 	}
-end)()
-(function ()
 	pg.base.activity_ins_language.ins_discuss_20002_9 = {
 		value = "인터랙티브…? 지휘관님과의 개인적이고 밀접한 그런… 상호작용 말씀이신가요? 그런 거라면…… 다이호는 이미 마음껏 즐기고 있답니다~♡"
 	}
@@ -34082,6 +34206,8 @@ end)()
 	pg.base.activity_ins_language.ins_reply_20003_6_1 = {
 		value = ""
 	}
+end)()
+(function ()
 	pg.base.activity_ins_language.ins_reply_20003_6_2 = {
 		value = ""
 	}
@@ -34175,8 +34301,6 @@ end)()
 	pg.base.activity_ins_language.ins_reply_20006_8_1 = {
 		value = ""
 	}
-end)()
-(function ()
 	pg.base.activity_ins_language.ins_reply_20006_8_2 = {
 		value = ""
 	}
@@ -34384,6 +34508,8 @@ end)()
 	pg.base.activity_ins_language.ins_reply_20007_8_2 = {
 		value = ""
 	}
+end)()
+(function ()
 	pg.base.activity_ins_language.ins_op_20007_1_1 = {
 		value = ""
 	}
@@ -34477,8 +34603,6 @@ end)()
 	pg.base.activity_ins_language.op_reply_20008_1_1 = {
 		value = ""
 	}
-end)()
-(function ()
 	pg.base.activity_ins_language.op_reply_20008_1_2 = {
 		value = ""
 	}
@@ -34686,6 +34810,8 @@ end)()
 	pg.base.activity_ins_language.ins_reply_20012_5_2 = {
 		value = ""
 	}
+end)()
+(function ()
 	pg.base.activity_ins_language.ins_reply_20012_5_3 = {
 		value = ""
 	}
@@ -34779,8 +34905,6 @@ end)()
 	pg.base.activity_ins_language.ins_reply_20009_8_2 = {
 		value = ""
 	}
-end)()
-(function ()
 	pg.base.activity_ins_language.ins_discuss_20009_9 = {
 		value = ""
 	}
@@ -34988,6 +35112,8 @@ end)()
 	pg.base.activity_ins_language.ins_discuss_20015_6 = {
 		value = ""
 	}
+end)()
+(function ()
 	pg.base.activity_ins_language.ins_reply_20015_6_1 = {
 		value = ""
 	}
@@ -35081,8 +35207,6 @@ end)()
 	pg.base.activity_ins_language.ins_discuss_20013_3 = {
 		value = ""
 	}
-end)()
-(function ()
 	pg.base.activity_ins_language.ins_reply_20013_3_1 = {
 		value = ""
 	}
@@ -35290,6 +35414,8 @@ end)()
 	pg.base.activity_ins_language.ins_reply_20014_1_2 = {
 		value = ""
 	}
+end)()
+(function ()
 	pg.base.activity_ins_language.ins_reply_20014_1_3 = {
 		value = ""
 	}

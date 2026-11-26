@@ -17120,3 +17120,725 @@ _G.pg.base.bullet_template_2[168407] = {
 		}
 	}
 }
+
+
+_G.pg.base.bullet_template_2[168408] = {
+	range_offset = 20,
+	modle_ID = "None",
+	type = 2,
+	velocity = 18,
+	antisub_enhancement = 0,
+	out_bound = 0,
+	hit_sfx = "",
+	miss_fx = "tiannaililisha_baozha_small",
+	miss_sfx = "",
+	alert_fx = "",
+	hit_fx = "tiannaililisha_baozha_small",
+	range = 200,
+	effect_type = 1,
+	pierce_count = 0,
+	ammo_type = 6,
+	id = 168408,
+	random_damage_rate = 0,
+	damage_type = {
+		0,
+		0,
+		0
+	},
+	DMG_font = {
+		{
+			1,
+			0
+		},
+		{
+			1,
+			0
+		},
+		{
+			1,
+			0
+		}
+	},
+	acceleration = {},
+	cld_box = {
+		0,
+		0,
+		0
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	hit_type = {
+		time = -1,
+		range = 0
+	},
+	attach_buff = {},
+	extra_param = {
+		gravity = -0.05,
+		randomOffsetX = 0,
+		randomOffsetZ = 0,
+		diveFilter = {
+			2
+		}
+	}
+}
+
+
+_G.pg.base.bullet_template_2[168409] = {
+	range_offset = 20,
+	modle_ID = "None",
+	type = 2,
+	velocity = 18,
+	antisub_enhancement = 0,
+	out_bound = 0,
+	hit_sfx = "battle/hit",
+	miss_fx = "None",
+	miss_sfx = "",
+	alert_fx = "",
+	hit_fx = "None",
+	range = 200,
+	effect_type = 1,
+	pierce_count = 0,
+	ammo_type = 6,
+	id = 168409,
+	random_damage_rate = 0,
+	damage_type = {
+		0,
+		0,
+		0
+	},
+	DMG_font = {
+		{
+			1,
+			0
+		},
+		{
+			1,
+			0
+		},
+		{
+			1,
+			0
+		}
+	},
+	acceleration = {},
+	cld_box = {
+		0,
+		0,
+		0
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	hit_type = {
+		time = -1,
+		range = 22
+	},
+	attach_buff = {
+		{
+			rant = 10000,
+			buff_id = 118029,
+			group_level = 1
+		}
+	},
+	extra_param = {
+		gravity = -0.05,
+		randomOffsetX = 0,
+		randomOffsetZ = 0,
+		diveFilter = {
+			2
+		}
+	}
+}
+
+
+_G.pg.base.bullet_template_2[168410] = {
+	range_offset = 0,
+	modle_ID = "jumeihuali_bullet",
+	type = 1,
+	velocity = 14,
+	antisub_enhancement = 0,
+	out_bound = 0,
+	hit_sfx = "battle/hit",
+	miss_fx = "ShellMissBig",
+	miss_sfx = "battle/sink",
+	alert_fx = "",
+	hit_fx = "pofang",
+	range = 150,
+	effect_type = 1,
+	pierce_count = 1,
+	ammo_type = 3,
+	id = 168410,
+	random_damage_rate = 0,
+	damage_type = {
+		1.2,
+		1,
+		0.8
+	},
+	DMG_font = {
+		{
+			1,
+			1.2
+		},
+		{
+			1,
+			1
+		},
+		{
+			1,
+			0.9
+		}
+	},
+	acceleration = {},
+	cld_box = {
+		6,
+		2,
+		2
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	hit_type = {},
+	attach_buff = {},
+	extra_param = {}
+}
+
+
+_G.pg.base.bullet_template_2[168411] = {
+	range_offset = 20,
+	modle_ID = "None",
+	type = 2,
+	velocity = 5,
+	antisub_enhancement = 0,
+	out_bound = 0,
+	hit_sfx = "battle/hit",
+	miss_fx = "jumeihuali_jianshi02",
+	miss_sfx = "",
+	alert_fx = "",
+	hit_fx = "jumeihuali_jianshi02",
+	range = 200,
+	effect_type = 1,
+	pierce_count = 0,
+	ammo_type = 3,
+	id = 168411,
+	random_damage_rate = 0,
+	damage_type = {
+		1,
+		1,
+		1
+	},
+	DMG_font = {
+		{
+			3,
+			1.1
+		},
+		{
+			3,
+			1.1
+		},
+		{
+			3,
+			1.1
+		}
+	},
+	acceleration = {},
+	cld_box = {
+		1.8,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	hit_type = {
+		time = -1,
+		range = 7
+	},
+	attach_buff = {
+		{
+			rant = 10000,
+			buff_id = 118059,
+			group_level = 1
+		}
+	},
+	extra_param = {
+		gravity = -0.03,
+		randomOffsetX = 3,
+		dropOffset = true,
+		offsetY = 60,
+		airdrop = true,
+		offsetX = -2,
+		randomOffsetZ = 3,
+		diveFilter = {
+			2
+		}
+	}
+}
+
+
+_G.pg.base.bullet_template_2[168412] = {
+	range_offset = 20,
+	modle_ID = "None",
+	type = 2,
+	velocity = 18,
+	antisub_enhancement = 0,
+	out_bound = 0,
+	hit_sfx = "battle/hit",
+	miss_fx = "None",
+	miss_sfx = "",
+	alert_fx = "",
+	hit_fx = "None",
+	range = 200,
+	effect_type = 1,
+	pierce_count = 0,
+	ammo_type = 6,
+	id = 168412,
+	random_damage_rate = 0,
+	damage_type = {
+		1.25,
+		1.25,
+		1.25
+	},
+	DMG_font = {
+		{
+			1,
+			1
+		},
+		{
+			1,
+			1
+		},
+		{
+			1,
+			1
+		}
+	},
+	acceleration = {},
+	cld_box = {
+		1.8,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	hit_type = {
+		time = -1,
+		range = 22
+	},
+	attach_buff = {},
+	extra_param = {
+		gravity = -0.05,
+		randomOffsetX = 0,
+		randomOffsetZ = 0,
+		diveFilter = {
+			2
+		}
+	}
+}
+
+
+_G.pg.base.bullet_template_2[168413] = {
+	range_offset = 20,
+	modle_ID = "None",
+	type = 2,
+	velocity = 18,
+	antisub_enhancement = 0,
+	out_bound = 0,
+	hit_sfx = "",
+	miss_fx = "tiannaililisha_baozha_middle",
+	miss_sfx = "",
+	alert_fx = "",
+	hit_fx = "tiannaililisha_baozha_middle",
+	range = 200,
+	effect_type = 1,
+	pierce_count = 0,
+	ammo_type = 6,
+	id = 168413,
+	random_damage_rate = 0,
+	damage_type = {
+		0,
+		0,
+		0
+	},
+	DMG_font = {
+		{
+			1,
+			0
+		},
+		{
+			1,
+			0
+		},
+		{
+			1,
+			0
+		}
+	},
+	acceleration = {},
+	cld_box = {
+		0,
+		0,
+		0
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	hit_type = {
+		time = -1,
+		range = 0
+	},
+	attach_buff = {},
+	extra_param = {
+		gravity = -0.05,
+		randomOffsetX = 0,
+		randomOffsetZ = 0,
+		diveFilter = {
+			2
+		}
+	}
+}
+
+
+_G.pg.base.bullet_template_2[168414] = {
+	range_offset = 20,
+	modle_ID = "None",
+	type = 2,
+	velocity = 18,
+	antisub_enhancement = 0,
+	out_bound = 0,
+	hit_sfx = "battle/hit",
+	miss_fx = "None",
+	miss_sfx = "",
+	alert_fx = "",
+	hit_fx = "None",
+	range = 200,
+	effect_type = 1,
+	pierce_count = 0,
+	ammo_type = 6,
+	id = 168414,
+	random_damage_rate = 0,
+	damage_type = {
+		0,
+		0,
+		0
+	},
+	DMG_font = {
+		{
+			1,
+			0
+		},
+		{
+			1,
+			0
+		},
+		{
+			1,
+			0
+		}
+	},
+	acceleration = {},
+	cld_box = {
+		0,
+		0,
+		0
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	hit_type = {
+		time = -1,
+		range = 30
+	},
+	attach_buff = {
+		{
+			rant = 10000,
+			buff_id = 118029,
+			group_level = 1
+		}
+	},
+	extra_param = {
+		gravity = -0.05,
+		randomOffsetX = 0,
+		randomOffsetZ = 0,
+		diveFilter = {
+			2
+		}
+	}
+}
+
+
+_G.pg.base.bullet_template_2[168415] = {
+	range_offset = 20,
+	modle_ID = "None",
+	type = 2,
+	velocity = 18,
+	antisub_enhancement = 0,
+	out_bound = 0,
+	hit_sfx = "battle/hit",
+	miss_fx = "None",
+	miss_sfx = "",
+	alert_fx = "",
+	hit_fx = "None",
+	range = 200,
+	effect_type = 1,
+	pierce_count = 0,
+	ammo_type = 6,
+	id = 168415,
+	random_damage_rate = 0,
+	damage_type = {
+		1.25,
+		1.25,
+		1.25
+	},
+	DMG_font = {
+		{
+			1,
+			1
+		},
+		{
+			1,
+			1
+		},
+		{
+			1,
+			1
+		}
+	},
+	acceleration = {},
+	cld_box = {
+		1.8,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	hit_type = {
+		time = -1,
+		range = 30
+	},
+	attach_buff = {},
+	extra_param = {
+		gravity = -0.05,
+		randomOffsetX = 0,
+		randomOffsetZ = 0,
+		diveFilter = {
+			2
+		}
+	}
+}
+
+
+_G.pg.base.bullet_template_2[168416] = {
+	range_offset = 20,
+	modle_ID = "None",
+	type = 2,
+	velocity = 18,
+	antisub_enhancement = 0,
+	out_bound = 0,
+	hit_sfx = "",
+	miss_fx = "tiannaililisha_baozha",
+	miss_sfx = "",
+	alert_fx = "",
+	hit_fx = "tiannaililisha_baozha",
+	range = 200,
+	effect_type = 1,
+	pierce_count = 0,
+	ammo_type = 6,
+	id = 168416,
+	random_damage_rate = 0,
+	damage_type = {
+		0,
+		0,
+		0
+	},
+	DMG_font = {
+		{
+			1,
+			0
+		},
+		{
+			1,
+			0
+		},
+		{
+			1,
+			0
+		}
+	},
+	acceleration = {},
+	cld_box = {
+		0,
+		0,
+		0
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	hit_type = {
+		time = -1,
+		range = 0
+	},
+	attach_buff = {},
+	extra_param = {
+		gravity = -0.05,
+		randomOffsetX = 0,
+		randomOffsetZ = 0,
+		diveFilter = {
+			2
+		}
+	}
+}
+
+
+_G.pg.base.bullet_template_2[168417] = {
+	range_offset = 20,
+	modle_ID = "None",
+	type = 2,
+	velocity = 18,
+	antisub_enhancement = 0,
+	out_bound = 0,
+	hit_sfx = "battle/hit",
+	miss_fx = "None",
+	miss_sfx = "",
+	alert_fx = "",
+	hit_fx = "None",
+	range = 200,
+	effect_type = 1,
+	pierce_count = 0,
+	ammo_type = 6,
+	id = 168417,
+	random_damage_rate = 0,
+	damage_type = {
+		0,
+		0,
+		0
+	},
+	DMG_font = {
+		{
+			1,
+			0
+		},
+		{
+			1,
+			0
+		},
+		{
+			1,
+			0
+		}
+	},
+	acceleration = {},
+	cld_box = {
+		0,
+		0,
+		0
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	hit_type = {
+		time = -1,
+		range = 40
+	},
+	attach_buff = {
+		{
+			rant = 10000,
+			buff_id = 118029,
+			group_level = 1
+		}
+	},
+	extra_param = {
+		gravity = -0.05,
+		randomOffsetX = 0,
+		randomOffsetZ = 0,
+		diveFilter = {
+			2
+		}
+	}
+}
+
+
+_G.pg.base.bullet_template_2[168418] = {
+	range_offset = 20,
+	modle_ID = "None",
+	type = 2,
+	velocity = 18,
+	antisub_enhancement = 0,
+	out_bound = 0,
+	hit_sfx = "battle/hit",
+	miss_fx = "None",
+	miss_sfx = "",
+	alert_fx = "",
+	hit_fx = "None",
+	range = 200,
+	effect_type = 1,
+	pierce_count = 0,
+	ammo_type = 6,
+	id = 168418,
+	random_damage_rate = 0,
+	damage_type = {
+		1.25,
+		1.25,
+		1.25
+	},
+	DMG_font = {
+		{
+			1,
+			1
+		},
+		{
+			1,
+			1
+		},
+		{
+			1,
+			1
+		}
+	},
+	acceleration = {},
+	cld_box = {
+		1.8,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	hit_type = {
+		time = -1,
+		range = 40
+	},
+	attach_buff = {},
+	extra_param = {
+		gravity = -0.05,
+		randomOffsetX = 0,
+		randomOffsetZ = 0,
+		diveFilter = {
+			2
+		}
+	}
+}

@@ -181,7 +181,7 @@ end
 slot0.inTime = function(slot0)
 	slot1 = slot0:getConfig("time")
 
-	if slot0:getConfig("collaboration_furniture_time") ~= "" and slot2 ~= slot1 then
+	if noEmptyStr(slot0:getConfig("collaboration_furniture_time")) and not table.equal(slot1, slot2) then
 		return false
 	end
 

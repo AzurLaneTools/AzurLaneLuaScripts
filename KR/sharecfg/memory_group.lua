@@ -282,6 +282,8 @@ pg.memory_group.all = {
 	379,
 	380,
 	381,
+	382,
+	383,
 	501,
 	502,
 	503,
@@ -7629,6 +7631,39 @@ end)()
 			5596
 		}
 	}
+	pg.base.memory_group[382] = {
+		ship_group = 0,
+		icon = "title_event",
+		type = 2,
+		link_event = 51307,
+		title = "개막! 천사들의 벽람 무대 - 「무대편」",
+		auto_unlock = "",
+		subtype = 2,
+		id = 382,
+		group_id = "",
+		memories = {
+			5621,
+			5622,
+			5623,
+			5624,
+			5625
+		}
+	}
+	pg.base.memory_group[383] = {
+		ship_group = 0,
+		icon = "title_event",
+		type = 2,
+		link_event = 51307,
+		title = "개막! 천사들의 벽람 무대 - 「일상편」",
+		auto_unlock = "",
+		subtype = 2,
+		id = 383,
+		group_id = "",
+		memories = {
+			5631,
+			5632
+		}
+	}
 	pg.base.memory_group[501] = {
 		ship_group = 31201,
 		icon = "title_chara_mingshi",
@@ -8080,6 +8115,8 @@ end)()
 			10000
 		}
 	}
+end)()
+(function ()
 	pg.base.memory_group[522] = {
 		ship_group = 10802,
 		icon = "title_chara_daqinghuayu",
@@ -8124,8 +8161,6 @@ end)()
 			10000
 		}
 	}
-end)()
-(function ()
 	pg.base.memory_group[524] = {
 		ship_group = 10709,
 		icon = "title_chara_aisaikesi",
@@ -10282,6 +10317,8 @@ end)()
 			10000
 		}
 	}
+end)()
+(function ()
 	pg.base.memory_group[623] = {
 		ship_group = 60508,
 		icon = "title_chara_lafeier",
@@ -10326,8 +10363,6 @@ end)()
 			10000
 		}
 	}
-end)()
-(function ()
 	pg.base.memory_group[625] = {
 		ship_group = 10234,
 		icon = "title_chara_shengtafei",

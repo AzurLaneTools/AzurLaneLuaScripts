@@ -359700,6 +359700,596 @@ _G.pg.base.ship_skin_template[11700021] = {
 }
 
 
+_G.pg.base.ship_skin_template[11800010] = {
+	name = "리리엘 천사 공정대/리리사",
+	change_skin = "",
+	desc = "처, 처음 뵙겠습니다! 저는 리리엘, 하늘에서 내려온 천사 리리엘입니다! 당신을 지켜 드릴게요! ……어라? 여기는 어디죠? 한번도 본 적 없는 곳인데…… 그보다 당신은 누구시죠?",
+	illustrator2 = -1,
+	ship_group = 1180001,
+	group_index = 0,
+	purchase_offset = "",
+	painting = "lilisha",
+	lover_hand = "hand_2_02",
+	skin_type = -1,
+	shop_type_id = 0,
+	l2d_ignore_drag = 0,
+	hand_id = 13,
+	lip_smoothing = 0,
+	l2d_animations = "",
+	lover_kiss = "lip02",
+	bg_sp = "",
+	bg = "",
+	bgm = "",
+	spine_use_live2d = 0,
+	spine_action_offset = false,
+	spine_offset_profile = "",
+	shop_offset = "",
+	special_effects = "",
+	id = 11800010,
+	voice_actor_2 = -1,
+	gyro = 0,
+	ship_l2d_id = "",
+	l2d_drag_rate = "",
+	prefab = "lilisha",
+	l2d_se = "",
+	part_scale = "",
+	get_showing = "",
+	main_UI_FX = "",
+	shop_id = 0,
+	voice_actor = 291,
+	shop_dynamic_hx = 0,
+	spine_offset = "",
+	illustrator = -1,
+	rarity_bg = "",
+	double_char = 0,
+	skeleton_default_skin = "",
+	voice_lang = "",
+	time = "",
+	l2d_para_range = "",
+	lip_sync_gain = 0,
+	live2d_offset_profile = "",
+	show_skin = "stand",
+	l2d_voice_calibrate = "",
+	tag = {},
+	live2d_offset = {
+		0,
+		0,
+		0
+	},
+	fx_container = {
+		{
+			0,
+			1.99185,
+			1.15
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0.75,
+			-1.299
+		},
+		{
+			0,
+			0,
+			0
+		}
+	},
+	bound_bone = {
+		cannon = {
+			{
+				0.91,
+				0.801,
+				0
+			}
+		},
+		vicegun = {
+			{
+				1.446,
+				0.762,
+				0
+			}
+		},
+		torpedo = {
+			{
+				0,
+				0,
+				0
+			}
+		},
+		antiaircraft = {
+			{
+				0.666,
+				2.465,
+				0
+			}
+		}
+	},
+	smoke = {
+		{
+			50,
+			{
+				{
+					"smoke",
+					{
+						-0.609,
+						2.334,
+						0
+					}
+				}
+			}
+		}
+	}
+}
+
+
+_G.pg.base.ship_skin_template[11800011] = {
+	name = "몸도 마음도",
+	change_skin = "",
+	desc = "의상 체인지는 이야기의 꽃이죠! ……크흠! 천사 리리엘, 새로운 힘에 눈 떴습니다! 이제 저도 모항의 일원이랍니다! 앞으로는 있는 힘껏 서방님의 힘이 되어 드릴 테니, 잘 부탁드린다냥♡",
+	illustrator2 = -1,
+	ship_group = 1180001,
+	group_index = 1,
+	purchase_offset = "",
+	painting = "lilisha_2",
+	lover_hand = "hand_2_02",
+	skin_type = 0,
+	shop_type_id = 9,
+	l2d_ignore_drag = 0,
+	hand_id = 13,
+	lip_smoothing = 0,
+	l2d_animations = "",
+	lover_kiss = "lip02",
+	bg_sp = "",
+	bg = "196",
+	bgm = "story-richang-lightsweet",
+	spine_use_live2d = 0,
+	spine_action_offset = false,
+	special_effects = "",
+	id = 11800011,
+	voice_actor_2 = -1,
+	gyro = 0,
+	ship_l2d_id = "",
+	l2d_drag_rate = "",
+	prefab = "lilisha_2",
+	l2d_se = "",
+	part_scale = "",
+	main_UI_FX = "",
+	shop_id = 71422,
+	voice_actor = 291,
+	shop_dynamic_hx = 0,
+	illustrator = -1,
+	rarity_bg = "",
+	double_char = 0,
+	skeleton_default_skin = "",
+	voice_lang = "",
+	time = "",
+	l2d_para_range = "",
+	lip_sync_gain = 0,
+	live2d_offset_profile = "",
+	show_skin = "stand",
+	l2d_voice_calibrate = "",
+	tag = {
+		6,
+		2,
+		5
+	},
+	live2d_offset = {
+		0,
+		0,
+		0
+	},
+	shop_offset = {
+		-186.5,
+		60,
+		0,
+		0.3
+	},
+	spine_offset_profile = {
+		-100,
+		75,
+		0,
+		0.32
+	},
+	fx_container = {
+		{
+			0,
+			1.99185,
+			1.15
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0.75,
+			-1.299
+		},
+		{
+			0,
+			0,
+			0
+		}
+	},
+	bound_bone = {
+		cannon = {
+			{
+				0.887,
+				0.803,
+				0
+			}
+		},
+		torpedo = {
+			{
+				0,
+				0,
+				0
+			}
+		},
+		antiaircraft = {
+			{
+				0.673,
+				2.38,
+				0
+			}
+		}
+	},
+	smoke = {
+		{
+			50,
+			{
+				{
+					"smoke",
+					{
+						-0.593,
+						2.321,
+						0
+					}
+				}
+			}
+		}
+	},
+	spine_offset = {
+		140,
+		0,
+		0,
+		0.4
+	},
+	get_showing = {
+		show = 1,
+		data = {
+			{
+				-1853,
+				422,
+				2,
+				0,
+				160,
+				2
+			},
+			{
+				-437,
+				609,
+				2,
+				160,
+				0,
+				2
+			},
+			{
+				-991,
+				-195,
+				2,
+				0,
+				-148,
+				2
+			}
+		}
+	}
+}
+
+
+_G.pg.base.ship_skin_template[11800020] = {
+	name = "미리엘라 천사 공정대/미카리",
+	change_skin = "",
+	desc = "대체 무슨 일이 일어난 거야?! 그보다 잠깐, 여긴 어디야?! ……흐음, 이유는 모르겠지만, 적어도 넌 적은 아닌 것 같네. 좋아! 크흠! 내 이름은 미리엘라야! 당분간 신세 좀 질게. 그동안 내가 도울 일이 있으면 사양하지 말고 말해!",
+	illustrator2 = -1,
+	ship_group = 1180002,
+	group_index = 0,
+	purchase_offset = "",
+	painting = "jumeihuali",
+	lover_hand = "hand_2_02",
+	skin_type = -1,
+	shop_type_id = 0,
+	l2d_ignore_drag = 0,
+	hand_id = 13,
+	lip_smoothing = 0,
+	l2d_animations = "",
+	lover_kiss = "lip02",
+	bg_sp = "",
+	bg = "",
+	bgm = "",
+	spine_use_live2d = 0,
+	spine_action_offset = false,
+	spine_offset_profile = "",
+	shop_offset = "",
+	special_effects = "",
+	id = 11800020,
+	voice_actor_2 = -1,
+	gyro = 0,
+	ship_l2d_id = "",
+	l2d_drag_rate = "",
+	prefab = "jumeihuali",
+	l2d_se = "",
+	part_scale = "",
+	get_showing = "",
+	main_UI_FX = "",
+	shop_id = 0,
+	voice_actor = 82,
+	shop_dynamic_hx = 0,
+	spine_offset = "",
+	illustrator = -1,
+	rarity_bg = "",
+	double_char = 0,
+	skeleton_default_skin = "",
+	voice_lang = "",
+	time = "",
+	l2d_para_range = "",
+	lip_sync_gain = 0,
+	live2d_offset_profile = "",
+	show_skin = "stand",
+	l2d_voice_calibrate = "",
+	tag = {},
+	live2d_offset = {
+		0,
+		0,
+		0
+	},
+	fx_container = {
+		{
+			0,
+			1.99185,
+			1.15
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0.75,
+			-1.299
+		},
+		{
+			0,
+			0,
+			0
+		}
+	},
+	bound_bone = {
+		cannon = {
+			{
+				1.032,
+				0.787,
+				0
+			}
+		},
+		vicegun = {
+			{
+				1.126,
+				1.044,
+				0
+			}
+		},
+		antiaircraft = {
+			{
+				0.793,
+				2.354,
+				0
+			}
+		}
+	},
+	smoke = {
+		{
+			70,
+			{
+				{
+					"smoke",
+					{
+						-0.57,
+						0.48,
+						0
+					}
+				}
+			}
+		},
+		{
+			30,
+			{
+				{
+					"smoke",
+					{
+						0.53,
+						0.47,
+						0
+					}
+				}
+			}
+		}
+	}
+}
+
+
+_G.pg.base.ship_skin_template[11800021] = {
+	name = "행운의 그대에게",
+	change_skin = "",
+	desc = "구텐 탁, 지휘관. 새로운 힘을 얻고 진화한 슈퍼 미리엘라야! 이제 어떤 적에게도 지지 않겠지! ……뭐, 대충 이런 느낌인가? 어때, 이 차림? 난 꽤 잘 어울리는 것 같은데…… 네 솔직한 감상을 듣고 싶어.",
+	illustrator2 = -1,
+	ship_group = 1180002,
+	group_index = 1,
+	purchase_offset = "",
+	painting = "jumeihuali_2",
+	lover_hand = "hand_2_02",
+	skin_type = 0,
+	shop_type_id = 9,
+	l2d_ignore_drag = 0,
+	hand_id = 13,
+	lip_smoothing = 0,
+	l2d_animations = "",
+	lover_kiss = "lip02",
+	bg_sp = "",
+	bg = "196",
+	bgm = "story-richang-lightsweet",
+	spine_use_live2d = 0,
+	spine_action_offset = false,
+	special_effects = "",
+	id = 11800021,
+	voice_actor_2 = -1,
+	gyro = 0,
+	ship_l2d_id = "",
+	l2d_drag_rate = "",
+	prefab = "jumeihuali_2",
+	l2d_se = "",
+	part_scale = "",
+	main_UI_FX = "",
+	shop_id = 71423,
+	voice_actor = 82,
+	shop_dynamic_hx = 0,
+	illustrator = -1,
+	rarity_bg = "",
+	double_char = 0,
+	skeleton_default_skin = "",
+	voice_lang = "",
+	time = "",
+	l2d_para_range = "",
+	lip_sync_gain = 0,
+	live2d_offset_profile = "",
+	show_skin = "stand",
+	l2d_voice_calibrate = "",
+	tag = {
+		6,
+		2,
+		5
+	},
+	live2d_offset = {
+		0,
+		0,
+		0
+	},
+	shop_offset = {
+		128.4,
+		-645.1,
+		0,
+		0.42
+	},
+	spine_offset_profile = {
+		194,
+		-613,
+		0,
+		0.4
+	},
+	fx_container = {
+		{
+			0,
+			1.99185,
+			1.15
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0.75,
+			-1.299
+		},
+		{
+			0,
+			0,
+			0
+		}
+	},
+	bound_bone = {
+		cannon = {
+			{
+				1.24,
+				0.932,
+				0
+			}
+		},
+		torpedo = {
+			{
+				0,
+				0,
+				0
+			}
+		},
+		antiaircraft = {
+			{
+				0.768,
+				2.393,
+				0
+			}
+		}
+	},
+	smoke = {
+		{
+			50,
+			{
+				{
+					"smoke",
+					{
+						-0.566,
+						2.409,
+						0
+					}
+				}
+			}
+		}
+	},
+	spine_offset = {
+		50,
+		-747,
+		0,
+		0.45
+	},
+	get_showing = {
+		show = 1,
+		data = {
+			{
+				-1357,
+				-87,
+				2,
+				0,
+				160,
+				2
+			},
+			{
+				-665,
+				489,
+				2,
+				160,
+				0,
+				2
+			},
+			{
+				-40,
+				-177,
+				2,
+				0,
+				-148,
+				2
+			}
+		}
+	}
+}
+
+
 _G.pg.base.ship_skin_template[299010] = {
 	name = "넵튠",
 	change_skin = "",
