@@ -700,7 +700,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "찰칵! 찰칵!",
+			say = "이것도 저것도―― 전부 찍어 버릴 거야!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -713,7 +713,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "이것도 저것도―― 전부 찍어 버릴 거야!",
+			say = "이 앵글, 최고야! 조명도 완벽해!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -754,20 +754,6 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "무대 위에서 두 사람은 등을 맞대고 섰다. 등 뒤의 날개가 조명 아래에서 살며시 흔들렸다.",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			expression = 1,
-			side = 2,
-			bgName = "star_level_bg_527",
-			dir = 1,
-			actor = 11800020,
-			nameColor = "#A9F548FF",
-			hidePaintObj = true,
 			say = "하지만 저희의 여행은 아직 끝나지 않았습니다.",
 			typewriter = {
 				speed = 0.05,
@@ -775,12 +761,13 @@ return {
 			}
 		},
 		{
-			actor = 11800010,
+			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_527",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 11800020,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "낯설지만 따뜻한 이곳에서 새로운 동료들을 만난 일.",
 			typewriter = {
 				speed = 0.05,
@@ -788,6 +775,19 @@ return {
 			}
 		},
 		{
+			actor = 11800010,
+			side = 2,
+			bgName = "star_level_bg_527",
+			hidePaintObj = true,
+			dir = 1,
+			nameColor = "#A9F548FF",
+			say = "포화 속에서 저희에게 손을 내밀어 준, 태양처럼 눈부시고 아기 고양이처럼 사랑스러운――",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_527",
@@ -795,7 +795,7 @@ return {
 			actor = 11800020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "포화 속에서 저희에게 손을 내밀어 준, 태양처럼 눈부시고 아기 고양이처럼 사랑스러운――",
+			say = "전쟁 한복판에서도 여유로운 미소를 지으며, 어떤 위기도 극복할 수 있다는 믿음을 주는――",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -808,7 +808,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "전쟁 한복판에서도 여유로운 미소를 지으며, 어떤 위기도 극복할 수 있다는 믿음을 주는――",
+			say = "부디 지켜봐 주세요.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -821,17 +821,6 @@ return {
 			dir = 1,
 			actor = 11800020,
 			nameColor = "#A9F548FF",
-			hidePaintObj = true,
-			say = "부디 지켜봐 주세요.",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			side = 2,
-			nameColor = "#A9F548FF",
-			bgName = "star_level_bg_527",
 			hidePaintObj = true,
 			say = "저희가 이 모항에서 손에 넣은 또 다른 빛을!",
 			typewriter = {
@@ -845,6 +834,17 @@ return {
 			bgName = "star_level_bg_527",
 			hidePaintObj = true,
 			say = "한 발의 포성과 함께, 무대 주변에서 화려한 불꽃과 빛줄기가 터져 나왔다.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			side = 2,
+			nameColor = "#A9F548FF",
+			bgName = "star_level_bg_527",
+			hidePaintObj = true,
+			say = "그리고 그 한가운데 선 리리엘과 미리엘라―― 빛에 휩싸인 두 사람의 모습이 변해 갔다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -888,7 +888,7 @@ return {
 			dir = 1,
 			actorName = "미리엘라 천사 공정대/미카리",
 			hidePaintObj = true,
-			say = "짜잔! 다들 지금 체셔 모습을 보고 깜짝 놀랐냥?",
+			say = "후후~ 그렇게 빤히 바라보고, 혹시 내 매력에 푹 빠진 거야?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -901,7 +901,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "후후~ 그렇게 빤히 바라보고, 혹시 내 매력에 푹 빠진 거야?",
+			say = "세이렌이여, 이 새로운 힘을 똑똑히 맛보아라!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -915,7 +915,7 @@ return {
 			dir = 1,
 			actorName = "미리엘라 천사 공정대/미카리",
 			hidePaintObj = true,
-			say = "세이렌이여, 이 새로운 힘을 똑똑히 맛보아라!",
+			say = "동료들과… 그리고 지휘관과 함께, 그 음모를 산산조각 내 주겠어!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -927,7 +927,7 @@ return {
 			bgName = "bg_2.5ds_cg1",
 			soundeffect = "event:/battle/boom2",
 			hidePaintObj = true,
-			say = "동료들과… 그리고 지휘관과 함께, 그 음모를 산산조각 내 주겠어!",
+			say = "——!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -986,7 +986,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "——!",
+			say = "대단해! 눈 깜짝할 사이에 옷을 갈아입었어!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1000,7 +1000,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "대단해! 눈 깜짝할 사이에 옷을 갈아입었어!",
+			say = "리리사 씨의 체셔도 정말 귀엽고, 미카리 씨의 프린츠 오이겐도 정말 멋져요!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1014,7 +1014,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "리리사 씨의 체셔도 정말 귀엽고, 미카리 씨의 프린츠 오이겐도 정말 멋져요!",
+			say = "의상뿐만 아니라 동경과 감사의 마음까지 잘 표현했네요.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1028,18 +1028,6 @@ return {
 			dir = 1,
 			actorName = "미리엘라 천사 공정대/미카리",
 			hidePaintObj = true,
-			say = "의상뿐만 아니라 동경과 감사의 마음까지 잘 표현했네요.",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			side = 2,
-			nameColor = "#A9F548FF",
-			bgName = "bg_2.5ds_cg1",
-			hidePaintObj = true,
-			soundeffect = "event:/ui/kuaimen",
 			say = "다들, 이번 무대, 마음에 들었어?",
 			typewriter = {
 				speed = 0.05,
@@ -1051,7 +1039,19 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_2.5ds_cg1",
 			hidePaintObj = true,
+			soundeffect = "event:/ui/kuaimen",
 			say = "그 대사에 맞춰 조명이 한곳으로 모였고, 리리사와 미카리는 동시에 마지막 포즈를 취했다.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			side = 2,
+			nameColor = "#A9F548FF",
+			bgName = "bg_2.5ds_cg1",
+			hidePaintObj = true,
+			say = "무대 위 하늘에는 형형색색의 불꽃이 연달아 터져 올랐고, 행사장에서는 귀가 먹먹할 만큼 커다란 환호성이 터져 나왔다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1066,7 +1066,7 @@ return {
 			portrait = 299030,
 			actorName = "체셔",
 			hidePaintObj = true,
-			say = "무대 위 하늘에는 형형색색의 불꽃이 연달아 터져 올랐고, 행사장에서는 귀가 먹먹할 만큼 커다란 환호성이 터져 나왔다.",
+			say = "리리사! 미카리! 둘 다 정말 최고였어!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1081,7 +1081,7 @@ return {
 			portrait = 403030,
 			actorName = "프린츠 오이겐",
 			hidePaintObj = true,
-			say = "리리사! 미카리! 둘 다 정말 최고였어!",
+			say = "후후, 아무래도 이번 특별 발표회는 대성공인 모양이네.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1093,9 +1093,9 @@ return {
 			bgName = "bg_2.5ds_cg1",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			actorName = "미리엘라 천사 공정대/미카리",
+			actorName = "리리엘 천사 공정대/리리사",
 			hidePaintObj = true,
-			say = "후후, 아무래도 이번 특별 발표회는 대성공인 모양이네.",
+			say = "미카리…… 이런 기적으로 가득한 곳에서 이렇게 따뜻한 동료들과 함께 빛날 수 있다니……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1109,21 +1109,21 @@ return {
 			dir = 1,
 			actorName = "미리엘라 천사 공정대/미카리",
 			hidePaintObj = true,
-			say = "미카리…… 이런 기적으로 가득한 곳에서 이렇게 따뜻한 동료들과 함께 빛날 수 있다니……",
+			say = "여긴 우리 인생에서 가장 멋지고, 가장 신비로운 최고의 무대야!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			actorName = "미리엘라 천사 공정대/미카리",
+			actorName = "리리엘 천사 공정대/리리사",
 			side = 2,
 			bgName = "bg_2.5ds_cg1",
 			dir = 1,
 			soundeffect = "event:/ui/kuaimen",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "여긴 우리 인생에서 가장 멋지고, 가장 신비로운 최고의 무대야!",
+			say = "저도 같은 생각이에요! 그럼 마음껏―― 즐겨 봐요!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1151,7 +1151,7 @@ return {
 			},
 			sequence = {
 				{
-					"개막! 천사들의 벽람 무대_FIX\n\n<size=45>5 발표회, 대성공!</size>",
+					"——「개막! 천사들의 벽람 무대」・END",
 					0
 				}
 			}
